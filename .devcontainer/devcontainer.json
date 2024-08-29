@@ -1,0 +1,53 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ruby
+{
+	"name": "phlex-icons",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "ghcr.io/rails/devcontainer/images/ruby:3.3.4",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+    "ghcr.io/jungaretti/features/vim": {}
+  },
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": ".devcontainer/setup.sh",
+
+	// Configure tool-specific properties.
+	"customizations": {
+    "vscode": {
+      "settings": {
+        "workbench": {
+          "iconTheme": "vscode-icons"
+        },
+        "editor": {
+          "formatOnSave": true
+        },
+        "[ruby]": {
+          "editor": {
+            "formatOnType": false,
+            "tabSize": 2,
+            "useTabStops": false,
+            "defaultFormatter": "Shopify.ruby-lsp"
+          }
+        },
+        "rubyLsp": {
+          "rubyVersionManager": "rbenv",
+          "formatter": "rubocop"
+        }
+      },
+      "extensions": [
+        "bung87.vscode-gemfile",
+        "eamodio.gitlens",
+        "vscode-icons-team.vscode-icons",
+        "waderyan.gitblame"
+      ]
+    }
+  }
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 3.0.0
+  NewCops: enable
+  Exclude:
+    - '**/._*'
+
+Layout/LineLength:
+  AllowedPatterns:
+    - !ruby/regexp /\A *# /
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: single_quotes
+
+Style/QuotedSymbols:
+  EnforcedStyle: single_quotes
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountAsOne: ['array', 'method_call']
+
+Metrics/ClassLength:
+  CountAsOne: ['array', 'method_call']
