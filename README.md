@@ -8,6 +8,8 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 4,000
 
 And happy to extend to other icon packs!
 
+Thanks [nejdetkadir](https://github.com/nejdetkadir) for creating [Phlex::Heroicons](https://github.com/nejdetkadir/phlex-heroicons) as it was the base for this gem.
+
 ## Installation
 
 Install the gem and add it to the application's Gemfile by executing:
