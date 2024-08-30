@@ -10,7 +10,7 @@ PHLEX_ICONS_LUCIDE_PATH = 'lib/phlex/icons/lucide'
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
-  # rubocop:disable Layout/LineLength
+  # rubocop:disable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/MethodLength
   module Phlex
     module Icons
       module Lucide
@@ -22,7 +22,7 @@ TEMPLATE = ERB.new <<~TEMPLATE
       end
     end
   end
-  # rubocop:enable Layout/LineLength
+  # rubocop:enable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/MethodLength
 TEMPLATE
 
 def run
@@ -80,6 +80,8 @@ def create_icon_component(icon_file_path)
   )
 
   system("rubocop -A #{component_file_path}", out: File::NULL, err: File::NULL)
+
+  File.write(component_file_path, File.read(component_file_path).gsub('rubocop:enable ,', 'rubocop:enable '))
 end
 
 def read_and_convert_icon(icon_file_path)

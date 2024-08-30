@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/BlockLength,Metrics/MethodLength
 module Phlex
   module Icons
     module Lucide
@@ -47,3 +48,4 @@ module Phlex
     end
   end
 end
+# rubocop:enable Metrics/BlockLength,Metrics/MethodLength

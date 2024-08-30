@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/AbcSize,Metrics/MethodLength
 module Phlex
   module Icons
     module Lucide
@@ -41,4 +41,4 @@ module Phlex
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/AbcSize,Metrics/MethodLength
