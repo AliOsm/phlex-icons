@@ -94,12 +94,12 @@ end
 
 def read_and_convert_icon(icon_file_path)
   icon_file_content = File.read(icon_file_path)
+                          .sub(/class="bi [^"]*"/, '')
+                          .sub('width="16"', '')
+                          .sub('height="16"', '')
 
-  icon_file_content.sub!(/class="bi [^"]*"/, '')
-  icon_file_content.sub!('width="16"', '')
-  icon_file_content.sub!('height="16"', '')
-
-  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\nclass: classes,")
+  Phlexing::Converter.convert(icon_file_content)
+                     .sub('svg(', "svg(\nclass: classes,")
 end
 
 def formatted_icon_name(icon_file_path)
