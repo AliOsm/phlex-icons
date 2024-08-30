@@ -5,7 +5,7 @@ module Phlex
     class Base < Phlex::SVG
       attr_reader :classes
 
-      def initialize(classes: Phlex::Icons.configuration.default_class)
+      def initialize(classes: Phlex::Icons.configuration.default_classes)
         @classes = classes
 
         super()
