@@ -37,7 +37,7 @@ def run
   icon_file_names.tqdm.each { |icon_file_name| create_icon_component(icon_file_name) }
   puts 'Icon components created'
 
-  # delete_flag_icons_repo
+  delete_flag_icons_repo
 end
 
 def clone_flag_icons_repo
