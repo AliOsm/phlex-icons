@@ -1,3 +1,8 @@
+[![Gem Version](https://badge.fury.io/rb/phlex-icons.svg)](https://badge.fury.io/rb/phlex-icons)
+![rubocop](https://github.com/AliOsm/phlex-icons/actions/workflows/rubocop.yml/badge.svg?branch=main)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+![Ruby Version](https://img.shields.io/badge/ruby_version->=_3.0.0-blue.svg)
+
 # Phlex::Icons
 
 General icons extension for [Phlex](https://phlex.fun). Includes more than 4,000 icons from:
