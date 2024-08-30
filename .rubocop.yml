@@ -3,6 +3,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - '**/._*'
+    - 'vendor/bundle/**/*'
 
 Layout/LineLength:
   AllowedPatterns:
