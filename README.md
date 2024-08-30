@@ -80,6 +80,8 @@ Phlex::Icons::Flag.configuration.default_variant = :square # or :rectangle
 ## Usage
 
 ```ruby
+require 'phlex_icons'
+
 class PhlexIcons < Phlex::HTML
   def view_template
     div do
