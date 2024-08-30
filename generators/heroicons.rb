@@ -32,18 +32,30 @@ TEMPLATE
 def run
   clone_heroicons_repo
   prepare_phlex_icons_hero_directory
+
+  puts 'Creating icon components...'
   icon_file_names.tqdm.each { |icon_file_name| create_icon_component(icon_file_name) }
+  puts 'Icon components created'
+
   delete_heroicons_repo
 end
 
 def clone_heroicons_repo
-  return if Dir.exist?('generators/heroicons')
+  puts 'Cloning heroicons repo...'
+
+  if Dir.exist?('generators/heroicons')
+    puts 'Heroicons repo already cloned'
+
+    return
+  end
 
   system(
     'git clone https://github.com/tailwindlabs/heroicons.git generators/heroicons',
     out: File::NULL,
     err: File::NULL
   )
+
+  puts 'Heroicons repo cloned'
 end
 
 def prepare_phlex_icons_hero_directory
