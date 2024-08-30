@@ -68,7 +68,7 @@ def prepare_phlex_icons_bootstrap_directory
   FileUtils.mkdir_p(PHLEX_ICONS_BOOTSTRAP_PATH)
 
   Dir.glob("#{PHLEX_ICONS_BOOTSTRAP_PATH}/*").each do |file|
-    next if ['base.rb', 'configuration.rb'].include?(File.basename(file))
+    next if ['base.rb'].include?(File.basename(file))
 
     File.delete(file)
   end
