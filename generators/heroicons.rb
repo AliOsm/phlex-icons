@@ -37,9 +37,13 @@ def run
 end
 
 def clone_heroicons_repo
-  return if Dir.exist?('scripts/heroicons')
+  return if Dir.exist?('generators/heroicons')
 
-  system('git clone https://github.com/tailwindlabs/heroicons.git scripts/heroicons')
+  system(
+    'git clone https://github.com/tailwindlabs/heroicons.git generators/heroicons',
+    out: File::NULL,
+    err: File::NULL
+  )
 end
 
 def prepare_phlex_icons_hero_directory
@@ -53,21 +57,18 @@ def prepare_phlex_icons_hero_directory
 end
 
 def icon_file_names
-  Dir.glob('scripts/heroicons/optimized/24/solid/*').map { |file| File.basename(file) }
+  Dir.glob('generators/heroicons/optimized/24/solid/*').map { |file| File.basename(file) }
 end
 
 def create_icon_component(icon_file_name)
-  solid_icon = read_and_convert_icon(solid_icon_file_path(icon_file_name))
-  outline_icon = read_and_convert_icon(outline_icon_file_path(icon_file_name))
-
   component_file_path = "#{PHLEX_ICONS_HERO_PATH}/#{formatted_icon_name(icon_file_name)}.rb"
 
   File.write(
     component_file_path,
     TEMPLATE.result_with_hash(
       icon_name: formatted_icon_class_name(icon_file_name),
-      solid_icon: solid_icon,
-      outline_icon: outline_icon
+      solid_icon: read_and_convert_icon(solid_icon_file_path(icon_file_name)),
+      outline_icon: read_and_convert_icon(outline_icon_file_path(icon_file_name))
     )
   )
 
@@ -88,15 +89,15 @@ def formatted_icon_class_name(icon_file_name)
 end
 
 def solid_icon_file_path(icon_file_name)
-  "scripts/heroicons/optimized/24/solid/#{icon_file_name}"
+  "generators/heroicons/optimized/24/solid/#{icon_file_name}"
 end
 
 def outline_icon_file_path(icon_file_name)
-  "scripts/heroicons/optimized/24/outline/#{icon_file_name}"
+  "generators/heroicons/optimized/24/outline/#{icon_file_name}"
 end
 
 def delete_heroicons_repo
-  FileUtils.rm_rf('scripts/heroicons')
+  FileUtils.rm_rf('generators/heroicons')
 end
 
 run if __FILE__ == $PROGRAM_NAME
