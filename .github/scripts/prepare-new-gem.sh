@@ -24,6 +24,8 @@ done
 mv lib/phlex_icons.rb "lib/phlex_icons_${pack_to_keep}.rb"
 
 sed -i "s/spec.name = 'phlex-icons'/spec.name = 'phlex-icons-${pack_to_keep}'/" phlex-icons.gemspec
+sed -i "s/spec.summary = 'Icons library for Phlex'/spec.summary = '${pack_to_keep^} icons library for Phlex'/" phlex-icons.gemspec
+sed -i "s/spec.description = 'Icons library for Phlex'/spec.summary = '${pack_to_keep^} icons library for Phlex'/" phlex-icons.gemspec
 mv phlex-icons.gemspec "phlex-icons-${pack_to_keep}.gemspec"
 
 # Configure git (only if not already configured)
