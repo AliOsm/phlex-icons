@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Bootstrap
+      extend Phlex::Kit
+
       require_relative 'bootstrap/base'
 
       Dir[File.join(__dir__, 'bootstrap', '*.rb')].each do |file|

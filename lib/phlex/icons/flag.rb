@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Flag
+      extend Phlex::Kit
+
       require_relative 'flag/base'
       require_relative 'flag/configuration'
 

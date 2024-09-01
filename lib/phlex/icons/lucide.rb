@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Lucide
+      extend Phlex::Kit
+
       require_relative 'lucide/base'
 
       Dir[File.join(__dir__, 'lucide', '*.rb')].each do |file|
