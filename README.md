@@ -5,11 +5,12 @@
 
 # Phlex::Icons
 
-General icons extension for [Phlex](https://phlex.fun). Includes more than 4,000 icons from:
-- [Heroicons](https://heroicons.com) (300+)
-- [Lucide Icons](https://lucide.dev/icons) (1,500+)
+General icons extension for [Phlex](https://phlex.fun). Includes more than 7,000 icons from:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
+- [Heroicons](https://heroicons.com) (300+)
+- [Lucide Icons](https://lucide.dev/icons) (1,500+)
+- [Remix Icons](https://remixicon.com) (2,800+)
 
 And happy to extend to other icon packs!
 
@@ -45,22 +46,6 @@ end
 Phlex::Icons.configuration.default_classes = 'size-6'
 ```
 
-### Heroicons configuration
-
-```ruby
-Phlex::Icons::Hero.configure do |config|
-  config.default_variant = :solid # or :outline
-end
-
-# OR
-
-Phlex::Icons::Hero.configuration.default_variant = :solid # or :outline
-```
-
-### Lucide Icons configuration
-
-Nothing to configure for Lucide Icons.
-
 ### Bootstrap Icons configuration
 
 Nothing to configure for Bootstrap Icons.
@@ -77,6 +62,26 @@ end
 Phlex::Icons::Flag.configuration.default_variant = :square # or :rectangle
 ```
 
+### Heroicons configuration
+
+```ruby
+Phlex::Icons::Hero.configure do |config|
+  config.default_variant = :solid # or :outline
+end
+
+# OR
+
+Phlex::Icons::Hero.configuration.default_variant = :solid # or :outline
+```
+
+### Lucide Icons configuration
+
+Nothing to configure for Lucide Icons.
+
+### Remix Icons configuration
+
+Nothing to configure for Remix Icons.
+
 ## Usage
 
 ```ruby
@@ -85,10 +90,11 @@ require 'phlex_icons'
 class PhlexIcons < Phlex::HTML
   def view_template
     div do
-      render Phlex::Icons::Hero::Home.new(variant: :solid, classes: 'size-4')
-      render Phlex::Icons::Lucide::House.new(classes: 'size-4')
       render Phlex::Icons::Bootstrap::House.new(classes: 'size-4')
       render Phlex::Icons::Flag::Sa.new(variant: :rectangle, classes: 'size-4')
+      render Phlex::Icons::Hero::Home.new(variant: :solid, classes: 'size-4')
+      render Phlex::Icons::Lucide::House.new(classes: 'size-4')
+      render Phlex::Icons::Remix::HomeLine.new(classes: 'size-4')
     end
   end
 end
