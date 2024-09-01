@@ -13,4 +13,4 @@ sed -i "s/spec.name = 'phlex-icons'/spec.name = 'phlex-icons-lucide'/" phlex-ico
 mv phlex-icons.gemspec phlex-icons-lucide.gemspec
 
 git add .
-git commit -m "Prepare Lucide Icons specific gem"
+git commit -m "Prepare Lucide Icons specific gem" --author "Ali Hamdi Ali Fadel <aliosm1997@gmail.com>"
