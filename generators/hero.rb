@@ -29,15 +29,7 @@ TEMPLATE = ERB.new <<~TEMPLATE
 TEMPLATE
 
 def main
-  clone_repo(REPO_URL, REPO_NAME)
-  prepare_phlex_icons_pack_directory(ICONS_PACK_PATH)
-
-  print '⌛ Creating icon components...'
-  icon_file_names.tqdm.each { create_icon_component(_1) }
-  puts "\r🎉 Icon components created successfully!"
-
-  run_rubocop(ICONS_PACK_PATH)
-  delete_repo(REPO_NAME)
+  run_generator { icon_file_names.tqdm.each { create_icon_component(_1) } }
 end
 
 def icon_file_names

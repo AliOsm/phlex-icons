@@ -13,6 +13,18 @@ ROBOCOP_DISABLE_WARNINGS = %w[
   Metrics/MethodLength
 ].join(',')
 
+def run_generator(&block)
+  clone_repo(REPO_URL, REPO_NAME)
+  prepare_phlex_icons_pack_directory(ICONS_PACK_PATH)
+
+  print '⌛ Creating icon components...'
+  yield block
+  puts "\r🎉 Icon components created successfully!"
+
+  run_rubocop(ICONS_PACK_PATH)
+  delete_repo(REPO_NAME)
+end
+
 def clone_repo(repo_url, repo_name)
   print "⌛ Cloning '#{repo_name}' repo..."
 
