@@ -6,10 +6,12 @@ module Phlex
       require_relative 'hero/base'
       require_relative 'hero/configuration'
 
+      extend Phlex::Icons::Helper
+
       Dir[File.join(__dir__, 'hero', '*.rb')].each do |file|
         next if ['base.rb', 'configuration.rb'].include?(File.basename(file))
 
-        require_relative file
+        autoload class_name_from_file_path(file), file
       end
 
       class << self
