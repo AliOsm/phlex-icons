@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Radix
+      extend Phlex::Kit
+
       require_relative 'radix/base'
 
       Dir[File.join(__dir__, 'radix', '*.rb')].each do |file|
