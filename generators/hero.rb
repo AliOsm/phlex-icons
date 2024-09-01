@@ -61,11 +61,11 @@ def read_and_convert_icon(icon_file_path)
 end
 
 def solid_icon_file_path(icon_file_name)
-  "generators/heroicons/optimized/24/solid/#{icon_file_name}"
+  "generators/#{REPO_NAME}/optimized/24/solid/#{icon_file_name}"
 end
 
 def outline_icon_file_path(icon_file_name)
-  "generators/heroicons/optimized/24/outline/#{icon_file_name}"
+  "generators/#{REPO_NAME}/optimized/24/outline/#{icon_file_name}"
 end
 
 main if __FILE__ == $PROGRAM_NAME
