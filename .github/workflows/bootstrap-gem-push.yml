@@ -9,3 +9,4 @@ jobs:
     uses: ./.github/workflows/specific-gem-push.yml
     with:
       pack_name: bootstrap
+    secrets: inherit
