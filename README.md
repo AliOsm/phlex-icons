@@ -1,11 +1,16 @@
-[![Gem Version](https://badge.fury.io/rb/phlex-icons.svg)](https://badge.fury.io/rb/phlex-icons)
-![rubocop](https://github.com/AliOsm/phlex-icons/actions/workflows/rubocop.yml/badge.svg?branch=main)
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
-![Ruby Version](https://img.shields.io/badge/ruby_version->=_3.0.0-blue.svg)
+<div align="center">
+  <img src="phlex-icons.png" alt="Phlex Icons" width="500">
+
+  [![Gem Version](https://badge.fury.io/rb/phlex-icons.svg)](https://badge.fury.io/rb/phlex-icons)
+  ![rubocop](https://github.com/AliOsm/phlex-icons/actions/workflows/rubocop.yml/badge.svg?branch=main)
+  [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+  ![Ruby Version](https://img.shields.io/badge/ruby_version->=_3.0.0-blue.svg)
+
+</div>
 
 # Phlex::Icons
 
-General icons extension for [Phlex](https://phlex.fun). Includes more than 7,300 icons from:
+General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 7,300 icons from:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
 - [Heroicons](https://heroicons.com) (300+)
@@ -16,6 +21,10 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 7,300
 And happy to extend to other icon packs!
 
 Thanks [nejdetkadir](https://github.com/nejdetkadir) for creating [Phlex::Heroicons](https://github.com/nejdetkadir/phlex-heroicons) as it was the base for this gem.
+
+Other Phlex icon gems:
+- [phlex-remixicon](https://github.com/danieldocki/phlex-remixicon)
+- [phlex-lucide](https://github.com/akodkod/phlex-lucide)
 
 ## Installation
 
