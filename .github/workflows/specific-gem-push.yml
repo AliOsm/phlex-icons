@@ -6,6 +6,7 @@ on:
       pack_name:
         description: 'The name of the icon pack'
         required: true
+        type: string
 
 jobs:
   build-and-publish:
