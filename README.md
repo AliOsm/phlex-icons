@@ -99,6 +99,7 @@ class PhlexIcons < Phlex::HTML
       render Phlex::Icons::Flag::Sa.new(variant: :rectangle, classes: 'size-4')
       render Phlex::Icons::Hero::Home.new(variant: :solid, classes: 'size-4')
       render Phlex::Icons::Lucide::House.new(classes: 'size-4')
+      render Phlex::Icons::Radix::Home.new(classes: 'size-4')
       render Phlex::Icons::Remix::HomeLine.new(classes: 'size-4')
     end
   end
