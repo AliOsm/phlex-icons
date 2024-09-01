@@ -5,10 +5,12 @@ module Phlex
     module Radix
       require_relative 'radix/base'
 
+      extend Phlex::Icons::Helper
+
       Dir[File.join(__dir__, 'radix', '*.rb')].each do |file|
         next if ['base.rb'].include?(::File.basename(file))
 
-        require_relative file
+        autoload class_name_from_file_path(file), file
       end
     end
   end
