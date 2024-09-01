@@ -3,9 +3,9 @@
 module Phlex
   module Icons
     module Radix
-      require_relative 'radix/base'
-
       extend Phlex::Icons::Helper
+
+      require_relative 'radix/base'
 
       Dir[File.join(__dir__, 'radix', '*.rb')].each do |file|
         next if ['base.rb'].include?(::File.basename(file))

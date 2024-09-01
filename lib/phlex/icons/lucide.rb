@@ -3,9 +3,9 @@
 module Phlex
   module Icons
     module Lucide
-      require_relative 'lucide/base'
-
       extend Phlex::Icons::Helper
+
+      require_relative 'lucide/base'
 
       Dir[File.join(__dir__, 'lucide', '*.rb')].each do |file|
         next if ['base.rb'].include?(::File.basename(file))

@@ -3,10 +3,10 @@
 module Phlex
   module Icons
     module Flag
+      extend Phlex::Icons::Helper
+
       require_relative 'flag/base'
       require_relative 'flag/configuration'
-
-      extend Phlex::Icons::Helper
 
       Dir[File.join(__dir__, 'flag', '*.rb')].each do |file|
         next if ['base.rb', 'configuration.rb'].include?(File.basename(file))

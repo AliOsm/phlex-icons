@@ -3,9 +3,9 @@
 module Phlex
   module Icons
     module Remix
-      require_relative 'remix/base'
-
       extend Phlex::Icons::Helper
+
+      require_relative 'remix/base'
 
       Dir[File.join(__dir__, 'remix', '*.rb')].each do |file|
         next if ['base.rb'].include?(::File.basename(file))
