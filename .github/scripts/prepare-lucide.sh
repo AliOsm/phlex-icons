@@ -11,3 +11,6 @@ mv lib/phlex_icons.rb lib/phlex_icons_lucide.rb
 sed -i "s/spec.name = 'phlex-icons'/spec.name = 'phlex-icons-lucide'/" phlex-icons.gemspec
 
 mv phlex-icons.gemspec phlex-icons-lucide.gemspec
+
+git add .
+git commit -m "Prepare Lucide Icons specific gem"
