@@ -1,4 +1,4 @@
-name: Release Lucide Icons Gem to RubyGems.org
+name: Release Hero Icons Gem to RubyGems.org
 
 on:
   release:
@@ -8,4 +8,4 @@ jobs:
   call-reusable:
     uses: ./.github/workflows/specific-gem-push.yml
     with:
-      pack_name: lucide
+      pack_name: hero
