@@ -19,8 +19,9 @@ def run_generator(&block)
 
   print '⌛ Creating icon components...'
   yield block
-  puts "\r🎉 Icon components created successfully!"
+  puts "\e[2K\r🎉 Icon components created successfully!"
 
+  make_components_lazy_loadable(ICONS_PACK_PATH)
   run_rubocop(ICONS_PACK_PATH)
   delete_repo(REPO_NAME)
 end
@@ -29,14 +30,14 @@ def clone_repo(repo_url, repo_name)
   print "⌛ Cloning '#{repo_name}' repo..."
 
   if Dir.exist?("generators/#{repo_name}")
-    puts "\r✅ '#{repo_name}' repo already exists"
+    puts "\e[2K\r✅ '#{repo_name}' repo already exists"
 
     return
   end
 
   system!("git clone #{repo_url} generators/#{repo_name}")
 
-  puts "\r🎉 '#{repo_name}' repo cloned successfully!"
+  puts "\e[2K\r🎉 '#{repo_name}' repo cloned successfully!"
 end
 
 def prepare_phlex_icons_pack_directory(icons_pack_path)
@@ -50,13 +51,13 @@ def prepare_phlex_icons_pack_directory(icons_pack_path)
     File.delete(file)
   end
 
-  puts "\r🎉 '#{icons_pack_path}' directory prepared successfully!"
+  puts "\e[2K\r🎉 '#{icons_pack_path}' directory prepared successfully!"
 end
 
 def component_file_name(icon_file_name, replacements = nil)
   replacements ||= {}
 
-  icon_name = File.basename(icon_file_name, '.svg')
+  icon_name = File.basename(icon_file_name, File.extname(icon_file_name))
 
   replacements.each do |key, value|
     icon_name = icon_name.gsub(key, value) if icon_name.start_with?(key)
@@ -68,13 +69,32 @@ end
 def component_class_name(icon_file_name, replacements = nil)
   replacements ||= {}
 
-  icon_name = File.basename(icon_file_name, '.svg')
+  icon_name = File.basename(icon_file_name, File.extname(icon_file_name))
 
   replacements.each do |key, value|
     icon_name = icon_name.gsub(key, value) if icon_name.start_with?(key)
   end
 
-  icon_name.gsub('-', ' ').split.map(&:capitalize).join
+  icon_name.gsub(/[-_]/, ' ').split.map(&:capitalize).join
+end
+
+def make_components_lazy_loadable(path)
+  print '⌛ Making components lazy-loadable...'
+
+  autoload_lines = Dir.glob("#{path}/*.rb").map do |file|
+    next if ['base.rb', 'configuration.rb'].include?(File.basename(file))
+
+    "      autoload :#{component_class_name(file)}, '#{file.chomp(File.extname(file))}'"
+  end.compact.join("\n")
+
+  new_content = File.read("#{path}.rb").gsub(
+    /# auto-generated autoload: start.*# auto-generated autoload: end/m,
+    "# auto-generated autoload: start\n#{autoload_lines}\n      # auto-generated autoload: end"
+  )
+
+  File.write("#{path}.rb", new_content)
+
+  puts "\e[2K\r🎉 Components are lazy-loadable!"
 end
 
 def run_rubocop(path)
@@ -86,7 +106,7 @@ def run_rubocop(path)
     File.write(file, File.read(file).gsub('rubocop:enable ,', 'rubocop:enable '))
   end
 
-  puts "\r🎉 RuboCop ran successfully!"
+  puts "\e[2K\r🎉 RuboCop ran successfully!"
 end
 
 def delete_repo(repo_name)
@@ -94,7 +114,7 @@ def delete_repo(repo_name)
 
   FileUtils.rm_rf("generators/#{repo_name}")
 
-  puts "\r🎉 '#{repo_name}' repo deleted successfully!"
+  puts "\e[2K\r🎉 '#{repo_name}' repo deleted successfully!"
 end
 
 def system!(command)
