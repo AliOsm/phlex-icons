@@ -21,6 +21,12 @@ for pack in $packs; do
   fi
 done
 
+# Add "require_relative '../base'" after the first line of "phlex/icons/{pack_to_keep}/base.rb" file.
+sed -i '1a\
+\
+require_relative '"'"'../base'"'"'
+' "lib/phlex/icons/${pack_to_keep}/base.rb"
+
 # Rename the main file and gemspec
 mv lib/phlex_icons.rb "lib/phlex_icons_${pack_to_keep}.rb"
 
