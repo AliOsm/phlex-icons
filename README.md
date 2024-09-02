@@ -41,6 +41,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
 gem install phlex-icons
 ```
 
+If you don't want to add all icon packs to your application, you can add a specific icon pack by using one (or multiple) of the following gems:
+
+- [phlex-icons-bootstrap](https://rubygems.org/gems/phlex-icons-bootstrap)
+- [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
+- [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
+- [phlex-icons-lucide](https://rubygems.org/gems/phlex-icons-lucide)
+- [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
+- [phlex-icons-remix](https://rubygems.org/gems/phlex-icons-remix)
+- [phlex-icons-tabler](https://rubygems.org/gems/phlex-icons-tabler)
+
 ## Configuration
 
 The gem provides global configuration options, and per icons pack configuration options.
@@ -110,6 +120,30 @@ Phlex::Icons::Tabler.configuration.default_variant = :outline # or :filled
 ```
 
 ## Usage
+
+### With `Phlex::Kit`
+
+```ruby
+require 'phlex_icons'
+
+class PhlexIcons < Phlex::HTML
+  include Phlex::Icons
+
+  def view_template
+    div do
+      Bootstrap::House(classes: 'size-4')
+      Flag::Sa(variant: :rectangle, classes: 'size-4')
+      Hero::Home(variant: :solid, classes: 'size-4')
+      Lucide::House(classes: 'size-4')
+      Radix::Home(classes: 'size-4')
+      Remix::HomeLine(classes: 'size-4')
+      Tabler::Home(variant: :filled, classes: 'size-4')
+    end
+  end
+end
+```
+
+### Without `Phlex::Kit`
 
 ```ruby
 require 'phlex_icons'
