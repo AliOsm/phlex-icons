@@ -2,6 +2,7 @@
 
 require 'erb'
 require 'fileutils'
+require 'zeitwerk' # Needed by Phlexing
 require 'phlexing'
 require 'tqdm'
 
