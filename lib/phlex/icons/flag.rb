@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Flag # rubocop:disable Metrics/ModuleLength
       extend Phlex::Icons::Helper
+      extend Phlex::Kit
 
       require_relative 'flag/base'
       require_relative 'flag/configuration'
