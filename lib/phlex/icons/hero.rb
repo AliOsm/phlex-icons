@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Hero
       extend Phlex::Icons::Helper
+      extend Phlex::Kit
 
       require_relative 'hero/base'
       require_relative 'hero/configuration'

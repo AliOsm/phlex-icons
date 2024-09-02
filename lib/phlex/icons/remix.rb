@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Remix
       extend Phlex::Icons::Helper
+      extend Phlex::Kit
 
       require_relative 'remix/base'
 

@@ -1,0 +1,12 @@
+name: Release Remix Icons Gem to RubyGems.org
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  call-reusable:
+    uses: ./.github/workflows/specific-gem-push.yml
+    with:
+      pack_name: remix
+    secrets: inherit

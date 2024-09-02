@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Lucide
       extend Phlex::Icons::Helper
+      extend Phlex::Kit
 
       require_relative 'lucide/base'
 

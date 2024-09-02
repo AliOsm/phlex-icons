@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Bootstrap
       extend Phlex::Icons::Helper
+      extend Phlex::Kit
 
       require_relative 'bootstrap/base'
 
