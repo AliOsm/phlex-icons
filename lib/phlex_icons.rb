@@ -3,14 +3,16 @@
 require 'phlex'
 
 require_relative 'phlex/icons/base'
-require_relative 'phlex/icons/bootstrap'
 require_relative 'phlex/icons/configuration'
+require_relative 'phlex/icons/helper'
+require_relative 'phlex/icons/version'
+
+require_relative 'phlex/icons/bootstrap'
 require_relative 'phlex/icons/flag'
 require_relative 'phlex/icons/hero'
 require_relative 'phlex/icons/lucide'
 require_relative 'phlex/icons/radix'
 require_relative 'phlex/icons/remix'
-require_relative 'phlex/icons/version'
 
 module Phlex
   module Icons

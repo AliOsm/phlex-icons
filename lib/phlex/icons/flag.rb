@@ -3,6 +3,7 @@
 module Phlex
   module Icons
     module Flag
+      extend Phlex::Icons::Helper
       extend Phlex::Kit
 
       require_relative 'flag/base'
@@ -11,7 +12,7 @@ module Phlex
       Dir[File.join(__dir__, 'flag', '*.rb')].each do |file|
         next if ['base.rb', 'configuration.rb'].include?(File.basename(file))
 
-        require_relative file
+        autoload class_name_from_file_path(file), file
       end
 
       class << self
