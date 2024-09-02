@@ -3,7 +3,6 @@
 module Phlex
   module Icons
     module Hero # rubocop:disable Metrics/ModuleLength
-      extend Phlex::Icons::Helper
       extend Phlex::Kit
 
       require_relative 'hero/base'

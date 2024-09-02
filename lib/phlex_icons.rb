@@ -4,7 +4,6 @@ require 'phlex'
 
 require_relative 'phlex/icons/base'
 require_relative 'phlex/icons/configuration'
-require_relative 'phlex/icons/helper'
 require_relative 'phlex/icons/version'
 
 require_relative 'phlex/icons/bootstrap'
