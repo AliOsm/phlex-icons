@@ -10,13 +10,14 @@
 
 # Phlex::Icons
 
-General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 7,300 icons from:
+General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 12,000 icons from:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
 - [Heroicons](https://heroicons.com) (300+)
 - [Lucide Icons](https://lucide.dev/icons) (1,500+)
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)
 - [Remix Icons](https://remixicon.com) (2,800+)
+- [Tabler Icons](https://tabler.io/icons) (4,800+)
 
 And happy to extend to other icon packs!
 
@@ -96,6 +97,18 @@ Nothing to configure for RadixUI Icons.
 
 Nothing to configure for Remix Icons.
 
+### Tabler Icons configuration
+
+```ruby
+Phlex::Icons::Tabler.configure do |config|
+  config.default_variant = :outline # or :filled
+end
+
+# OR
+
+Phlex::Icons::Tabler.configuration.default_variant = :outline # or :filled
+```
+
 ## Usage
 
 ```ruby
@@ -110,6 +123,7 @@ class PhlexIcons < Phlex::HTML
       render Phlex::Icons::Lucide::House.new(classes: 'size-4')
       render Phlex::Icons::Radix::Home.new(classes: 'size-4')
       render Phlex::Icons::Remix::HomeLine.new(classes: 'size-4')
+      render Phlex::Icons::Tabler::Home.new(variant: :filled, classes: 'size-4')
     end
   end
 end
