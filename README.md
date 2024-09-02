@@ -21,6 +21,16 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 
 
 And happy to extend to other icon packs!
 
+If you don't want to add all icon packs to your application, you can add a specific icon pack by using one (or multiple) of the following gems:
+
+- [phlex-icons-bootstrap](https://rubygems.org/gems/phlex-icons-bootstrap)
+- [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
+- [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
+- [phlex-icons-lucide](https://rubygems.org/gems/phlex-icons-lucide)
+- [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
+- [phlex-icons-remix](https://rubygems.org/gems/phlex-icons-remix)
+- [phlex-icons-tabler](https://rubygems.org/gems/phlex-icons-tabler)
+
 Thanks [nejdetkadir](https://github.com/nejdetkadir) for creating [Phlex::Heroicons](https://github.com/nejdetkadir/phlex-heroicons) as it was the base for this gem.
 
 Other Phlex icon gems:
@@ -40,16 +50,6 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ```bash
 gem install phlex-icons
 ```
-
-If you don't want to add all icon packs to your application, you can add a specific icon pack by using one (or multiple) of the following gems:
-
-- [phlex-icons-bootstrap](https://rubygems.org/gems/phlex-icons-bootstrap)
-- [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
-- [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
-- [phlex-icons-lucide](https://rubygems.org/gems/phlex-icons-lucide)
-- [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
-- [phlex-icons-remix](https://rubygems.org/gems/phlex-icons-remix)
-- [phlex-icons-tabler](https://rubygems.org/gems/phlex-icons-tabler)
 
 ## Configuration
 
@@ -158,6 +158,35 @@ class PhlexIcons < Phlex::HTML
       render Phlex::Icons::Radix::Home.new(classes: 'size-4')
       render Phlex::Icons::Remix::HomeLine.new(classes: 'size-4')
       render Phlex::Icons::Tabler::Home.new(variant: :filled, classes: 'size-4')
+    end
+  end
+end
+```
+
+### Specific icon pack(s)
+
+Let's say you want to use only Heroicons and Flag Icons, you can use the following gems:
+- [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
+- [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
+
+Then, in your application, you can use the icons like this:
+
+```ruby
+require 'phlex_icons_flag'
+require 'phlex_icons_hero'
+
+class PhlexIcons < Phlex::HTML
+  include Phlex::Icons # If you want to use Phlex::Kit.
+
+  def view_template
+    div do
+      # With Phlex::Kit.
+      Flag::Sa(variant: :rectangle, classes: 'size-4')
+      Hero::Home(variant: :solid, classes: 'size-4')
+
+      # Without Phlex::Kit.
+      render Phlex::Icons::Flag::Sa.new(variant: :rectangle, classes: 'size-4')
+      render Phlex::Icons::Hero::Home.new(variant: :solid, classes: 'size-4')
     end
   end
 end
