@@ -4,7 +4,6 @@ module Phlex
   module Icons
     module Radix # rubocop:disable Metrics/ModuleLength
       extend Phlex::Icons::Helper
-      extend Phlex::Kit
 
       require_relative 'radix/base'
 

@@ -4,7 +4,6 @@ module Phlex
   module Icons
     module Remix # rubocop:disable Metrics/ModuleLength
       extend Phlex::Icons::Helper
-      extend Phlex::Kit
 
       require_relative 'remix/base'
 
