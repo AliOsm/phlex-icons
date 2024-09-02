@@ -13,6 +13,7 @@ require_relative 'phlex/icons/hero'
 require_relative 'phlex/icons/lucide'
 require_relative 'phlex/icons/radix'
 require_relative 'phlex/icons/remix'
+require_relative 'phlex/icons/tabler'
 
 module Phlex
   module Icons
