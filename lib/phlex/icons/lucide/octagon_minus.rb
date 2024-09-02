@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BatteryWarning < Base
+      class OctagonMinus < Base
         def view_template
           svg(
             class: classes,
@@ -15,14 +16,15 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M10 17h.01')
-            s.path(d: 'M10 7v6')
-            s.path(d: 'M14 7h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2')
-            s.path(d: 'M22 11v2')
-            s.path(d: 'M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2')
+            s.path(
+              d:
+                'M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z'
+            )
+            s.path(d: 'M8 12h8')
           end
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
