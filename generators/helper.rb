@@ -84,7 +84,7 @@ def make_components_lazy_loadable(path)
   autoload_lines = Dir.glob("#{path}/*.rb").map do |file|
     next if ['base.rb', 'configuration.rb'].include?(File.basename(file))
 
-    "      autoload :#{component_class_name(file)}, '#{file.chomp(File.extname(file))}'"
+    "      autoload :#{component_class_name(file)}, '#{file.split('/', 2).last.chomp(File.extname(file))}'"
   end.compact.join("\n")
 
   new_content = File.read("#{path}.rb").gsub(
