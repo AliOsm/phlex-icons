@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     phlex-icons (0.11.0)
-      phlex (~> 1.10)
+      phlex (~> 1.11)
 
 GEM
   remote: https://rubygems.org/
@@ -69,7 +69,7 @@ GEM
       reline (>= 0.4.2)
     json (2.7.2)
     language_server-protocol (3.17.0.3)
-    logger (1.6.0)
+    logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -94,10 +94,11 @@ GEM
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
-    phlex (1.10.3)
-    phlex-rails (1.2.1)
-      phlex (~> 1.10.0)
+    phlex (1.11.0)
+    phlex-rails (1.1.1)
+      phlex (~> 1.9)
       railties (>= 6.1, < 8)
+      zeitwerk (~> 2.6)
     phlexing (0.6.0)
       deface (~> 1.9)
       html_press (~> 0.8.2)
@@ -180,7 +181,7 @@ GEM
     unicode-display_width (2.5.0)
     useragent (0.16.10)
     webrick (1.8.1)
-    zeitwerk (2.6.17)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   aarch64-linux
