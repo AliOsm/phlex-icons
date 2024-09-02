@@ -2,7 +2,7 @@
 
 module Phlex
   module Icons
-    class Base < Phlex::HTML
+    class Base < Phlex::SVG
       attr_reader :classes
 
       def initialize(classes: Phlex::Icons.configuration.default_classes)
