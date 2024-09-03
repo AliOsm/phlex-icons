@@ -124,7 +124,7 @@ Phlex::Icons::Tabler.configuration.default_variant = :outline # or :filled
 ### With `Phlex::Kit`
 
 ```ruby
-require 'phlex_icons'
+require 'phlex-icons'
 
 class PhlexIcons < Phlex::HTML
   include Phlex::Icons
@@ -146,7 +146,7 @@ end
 ### Without `Phlex::Kit`
 
 ```ruby
-require 'phlex_icons'
+require 'phlex-icons'
 
 class PhlexIcons < Phlex::HTML
   def view_template
@@ -172,8 +172,8 @@ Let's say you want to use only Heroicons and Flag Icons, you can use the followi
 Then, in your application, you can use the icons like this:
 
 ```ruby
-require 'phlex_icons_flag'
-require 'phlex_icons_hero'
+require 'phlex-icons-flag'
+require 'phlex-icons-hero'
 
 class PhlexIcons < Phlex::HTML
   include Phlex::Icons # If you want to use Phlex::Kit.

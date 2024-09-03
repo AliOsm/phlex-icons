@@ -1,3 +1,6 @@
+# rubocop:disable Naming/FileName
+# rubocop:enable Naming/FileName
+
 # frozen_string_literal: true
 
 require 'phlex'
@@ -5,8 +8,6 @@ require 'phlex'
 require_relative 'phlex/icons/base'
 require_relative 'phlex/icons/configuration'
 require_relative 'phlex/icons/version'
-
-require_relative 'phlex/icons/railtie' if defined?(Rails)
 
 require_relative 'phlex/icons/bootstrap'
 require_relative 'phlex/icons/flag'

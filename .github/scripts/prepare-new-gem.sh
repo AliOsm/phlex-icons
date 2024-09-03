@@ -17,7 +17,7 @@ for pack in $packs; do
   if [ "$pack" != "$pack_to_keep" ]; then
     rm -rf "lib/phlex/icons/$pack"
     rm -f "lib/phlex/icons/$pack.rb"
-    sed -i "/require_relative 'phlex\/icons\/$pack'/d" lib/phlex_icons.rb
+    sed -i "/require_relative 'phlex\/icons\/$pack'/d" lib/phlex-icons.rb
   fi
 done
 
@@ -28,7 +28,7 @@ require_relative '"'"'../base'"'"'
 ' "lib/phlex/icons/${pack_to_keep}/base.rb"
 
 # Rename the main file and gemspec
-mv lib/phlex_icons.rb "lib/phlex_icons_${pack_to_keep}.rb"
+mv lib/phlex-icons.rb "lib/phlex-icons-${pack_to_keep}.rb"
 
 sed -i "s/spec.name = 'phlex-icons'/spec.name = 'phlex-icons-${pack_to_keep}'/" phlex-icons.gemspec
 sed -i "s/spec.summary = 'Icons library for Phlex'/spec.summary = '${pack_to_keep_cap} icons library for Phlex'/" phlex-icons.gemspec
