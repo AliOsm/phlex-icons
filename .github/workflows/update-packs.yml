@@ -1,0 +1,101 @@
+name: Update icons packs by re-generating them
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 0 * * 5'
+
+jobs:
+  re-generate-icon-packs:
+    name: Re-generate icon packs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby 3.3.4
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.4
+          bundler-cache: true
+
+      - name: Configure git
+        run: |
+          git config --global user.email "aliosm1997@gmail.com"
+          git config --global user.name "Ali Hamdi Ali Fadel"
+
+      - name: Re-generate Bootstrap icon pack
+        run: |
+          bundle exec ruby generators/bootstrap.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/bootstrap lib/phlex/icons/bootstrap.rb)" ]; then
+            git add lib/phlex/icons/bootstrap lib/phlex/icons/bootstrap.rb
+            git commit -m "Re-generate Bootstrap icon pack"
+            echo "🔔 Icons were updated/added to Bootstrap icon pack"
+          fi
+
+      - name: Re-generate Flag icon pack
+        run: |
+          bundle exec ruby generators/flag.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/flag lib/phlex/icons/flag.rb)" ]; then
+            git add lib/phlex/icons/flag lib/phlex/icons/flag.rb
+            git commit -m "Re-generate Flag icon pack"
+            echo "🔔 Icons were updated/added to Flag icon pack"
+          fi
+
+      - name: Re-generate Hero icon pack
+        run: |
+          bundle exec ruby generators/hero.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/hero lib/phlex/icons/hero.rb)" ]; then
+            git add lib/phlex/icons/hero lib/phlex/icons/hero.rb
+            git commit -m "Re-generate Hero icon pack"
+            echo "🔔 Icons were updated/added to Hero icon pack"
+          fi
+
+      - name: Re-generate Lucide icon pack
+        run: |
+          bundle exec ruby generators/lucide.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/lucide lib/phlex/icons/lucide.rb)" ]; then
+            git add lib/phlex/icons/lucide lib/phlex/icons/lucide.rb
+            git commit -m "Re-generate Lucide icon pack"
+            echo "🔔 Icons were updated/added to Lucide icon pack"
+          fi
+
+      - name: Re-generate Remix icon pack
+        run: |
+          bundle exec ruby generators/remix.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/remix lib/phlex/icons/remix.rb)" ]; then
+            git add lib/phlex/icons/remix lib/phlex/icons/remix.rb
+            git commit -m "Re-generate Remix icon pack"
+            echo "🔔 Icons were updated/added to Remix icon pack"
+          fi
+
+      - name: Re-generate Radix icon pack
+        run: |
+          bundle exec ruby generators/radix.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/radix lib/phlex/icons/radix.rb)" ]; then
+            git add lib/phlex/icons/radix lib/phlex/icons/radix.rb
+            git commit -m "Re-generate Radix icon pack"
+            echo "🔔 Icons were updated/added to Radix icon pack"
+          fi
+
+      - name: Re-generate Tabler icon pack
+        run: |
+          bundle exec ruby generators/tabler.rb
+          if [ -n "$(git status --porcelain lib/phlex/icons/tabler lib/phlex/icons/tabler.rb)" ]; then
+            git add lib/phlex/icons/tabler lib/phlex/icons/tabler.rb
+            git commit -m "Re-generate Tabler icon pack"
+            echo "🔔 Icons were updated/added to Tabler icon pack"
+          fi
+
+      - name: Update gem version and push new changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            current_version=$(grep 'VERSION = ' lib/phlex/icons/version.rb | cut -d '=' -f 2- | tr -d ' ' | tr -d \')
+            new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++; $3=0; print}')
+            sed -i "s/VERSION = '$current_version'/VERSION = '$new_version'/" lib/phlex/icons/version.rb
+            git add lib/phlex/icons/version.rb
+            git commit -m "Update version to $new_version"
+            git push
+            echo "🔔 Version was updated to $new_version"
+          fi
