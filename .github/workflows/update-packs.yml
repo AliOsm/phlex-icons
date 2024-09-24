@@ -90,7 +90,7 @@ jobs:
 
       - name: Update gem version and push new changes
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git log origin/main..HEAD --oneline)" ]; then
             current_version=$(grep 'VERSION = ' lib/phlex/icons/version.rb | cut -d '=' -f 2- | tr -d ' ' | tr -d \')
             new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++; $3=0; print}')
             sed -i "s/VERSION = '$current_version'/VERSION = '$new_version'/" lib/phlex/icons/version.rb
