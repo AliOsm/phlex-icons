@@ -6,7 +6,17 @@ module Phlex
     module Tabler
       class DeviceIpad < Base
         def filled
-          raise NotImplementedError
+          svg(
+            class: classes,
+            xmlns: 'http://www.w3.org/2000/svg',
+            viewbox: '0 0 24 24',
+            fill: 'currentColor'
+          ) do |s|
+            s.path(
+              d:
+                'M18 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-3 16h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2'
+            )
+          end
         end
 
         def outline
@@ -22,8 +32,9 @@ module Phlex
           ) do |s|
             s.path(
               d:
-                'M18 2a3 3 0 0 1 2.995 2.824l.005 .176v14a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-3 15h-6l-.117 .007a1 1 0 0 0 0 1.986l.117 .007h6l.117 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z'
+                'M18 3a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2z'
             )
+            s.path(d: 'M9 18h6')
           end
         end
       end

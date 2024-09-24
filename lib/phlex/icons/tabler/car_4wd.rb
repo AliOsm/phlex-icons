@@ -1,11 +1,22 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Tabler
       class Car4wd < Base
         def filled
-          raise NotImplementedError
+          svg(
+            class: classes,
+            xmlns: 'http://www.w3.org/2000/svg',
+            viewbox: '0 0 24 24',
+            fill: 'currentColor'
+          ) do |s|
+            s.path(
+              d:
+                'M17 2a3 3 0 0 1 3 3v2a3 3 0 0 1 -6 0h-1v10h1a3 3 0 0 1 6 0v2a3 3 0 0 1 -6 0h-4a3 3 0 0 1 -6 0v-2a3 3 0 0 1 6 0h1v-10h-1a3 3 0 1 1 -6 0v-2a3 3 0 1 1 6 0h4a3 3 0 0 1 3 -3'
+            )
+          end
         end
 
         def outline
@@ -44,3 +55,4 @@ module Phlex
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -1,11 +1,22 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Tabler
       class DeviceImac < Base
         def filled
-          raise NotImplementedError
+          svg(
+            class: classes,
+            xmlns: 'http://www.w3.org/2000/svg',
+            viewbox: '0 0 24 24',
+            fill: 'currentColor'
+          ) do |s|
+            s.path(
+              d:
+                'M8 22a1 1 0 0 1 0 -2h.616l.25 -2h-4.866a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-4.867l.25 2h.617a1 1 0 0 1 0 2zm5.116 -4h-2.233l-.25 2h2.733z'
+            )
+          end
         end
 
         def outline
@@ -33,3 +44,4 @@ module Phlex
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -1,11 +1,22 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Tabler
       class DeviceDesktop < Base
         def filled
-          raise NotImplementedError
+          svg(
+            class: classes,
+            xmlns: 'http://www.w3.org/2000/svg',
+            viewbox: '0 0 24 24',
+            fill: 'currentColor'
+          ) do |s|
+            s.path(
+              d:
+                'M7 21a1 1 0 0 1 0 -2h1v-2h-4a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-4v2h1a1 1 0 0 1 0 2zm7 -4h-4v2h4z'
+            )
+          end
         end
 
         def outline
@@ -32,3 +43,4 @@ module Phlex
     end
   end
 end
+# rubocop:enable Layout/LineLength
