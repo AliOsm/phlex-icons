@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BookOpenText < Base
+      class ClockAlert < Base
         def view_template
           svg(
             class: classes,
@@ -16,19 +15,13 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M12 7v14')
-            s.path(d: 'M16 12h2')
-            s.path(d: 'M16 8h2')
-            s.path(
-              d:
-                'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z'
-            )
-            s.path(d: 'M6 12h2')
-            s.path(d: 'M6 8h2')
+            s.path(d: 'M12 6v6l4 2')
+            s.path(d: 'M16 21.16a10 10 0 1 1 5-13.516')
+            s.path(d: 'M20 11.5v6')
+            s.path(d: 'M20 21.5h.01')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

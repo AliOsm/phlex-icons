@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BookOpenText < Base
+      class BriefcaseConveyorBelt < Base
         def view_template
           svg(
             class: classes,
@@ -16,19 +15,16 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M12 7v14')
-            s.path(d: 'M16 12h2')
-            s.path(d: 'M16 8h2')
-            s.path(
-              d:
-                'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z'
-            )
-            s.path(d: 'M6 12h2')
-            s.path(d: 'M6 8h2')
+            s.path(d: 'M10 20v2')
+            s.path(d: 'M14 20v2')
+            s.path(d: 'M18 20v2')
+            s.path(d: 'M21 20H3')
+            s.path(d: 'M6 20v2')
+            s.path(d: 'M8 16V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12')
+            s.rect(x: '4', y: '6', width: '16', height: '10', rx: '2')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

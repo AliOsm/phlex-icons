@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BookOpenText < Base
+      class HeadphoneOff < Base
         def view_template
           svg(
             class: classes,
@@ -16,19 +15,17 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M12 7v14')
-            s.path(d: 'M16 12h2')
-            s.path(d: 'M16 8h2')
+            s.path(d: 'M21 14h-1.343')
+            s.path(d: 'M9.128 3.47A9 9 0 0 1 21 12v3.343')
+            s.path(d: 'm2 2 20 20')
+            s.path(d: 'M20.414 20.414A2 2 0 0 1 19 21h-1a2 2 0 0 1-2-2v-3')
             s.path(
               d:
-                'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z'
+                'M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 2.636-6.364'
             )
-            s.path(d: 'M6 12h2')
-            s.path(d: 'M6 8h2')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
