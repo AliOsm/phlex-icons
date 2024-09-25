@@ -4,6 +4,7 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/lucide-icons/lucide.git'
 REPO_NAME = 'lucide-icons-lucide'
+ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/lucide.rb'
 ICONS_PACK_PATH = 'lib/phlex/icons/lucide'
 
 TEMPLATE = ERB.new <<~TEMPLATE
@@ -25,7 +26,15 @@ TEMPLATE = ERB.new <<~TEMPLATE
 TEMPLATE
 
 def main
-  run_generator { icon_file_paths.tqdm.each { create_icon_component(_1) } }
+  run_generator do
+    cd_command = "cd generators/#{REPO_NAME}"
+    safe_directory_command = "git config --global --add safe.directory '*'"
+    get_latest_tag_command = 'git describe --tags --abbrev=0'
+    new_version = `#{cd_command} && #{safe_directory_command} && #{get_latest_tag_command}`.strip
+    update_icon_path_version(new_version)
+
+    icon_file_paths.tqdm.each { create_icon_component(_1) }
+  end
 end
 
 def icon_file_paths

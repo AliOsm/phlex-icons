@@ -4,6 +4,7 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/tabler/tabler-icons.git'
 REPO_NAME = 'tabler-tabler-icons'
+ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/tabler.rb'
 ICONS_PACK_PATH = 'lib/phlex/icons/tabler'
 
 TEMPLATE = ERB.new <<~TEMPLATE
@@ -29,7 +30,12 @@ TEMPLATE = ERB.new <<~TEMPLATE
 TEMPLATE
 
 def main
-  run_generator { icon_file_names.tqdm.each { create_icon_component(_1) } }
+  run_generator do
+    new_version = JSON.parse(File.read("generators/#{REPO_NAME}/package.json"))['version']
+    update_icon_path_version(new_version)
+
+    icon_file_names.tqdm.each { create_icon_component(_1) }
+  end
 end
 
 def icon_file_names

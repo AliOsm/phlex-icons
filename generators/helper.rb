@@ -55,6 +55,12 @@ def prepare_phlex_icons_pack_directory(icons_pack_path)
   puts "\e[2K\r🎉 '#{icons_pack_path}' directory prepared successfully!"
 end
 
+def update_icon_path_version(new_version)
+  content = File.read(ICONS_PACK_MODULE_PATH)
+  updated_content = content.sub(/VERSION = '.*'/, "VERSION = '#{new_version}'")
+  File.write(ICONS_PACK_MODULE_PATH, updated_content)
+end
+
 def component_file_name(icon_file_name, replacements = nil)
   replacements ||= {}
 

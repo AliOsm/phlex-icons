@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Remix # rubocop:disable Metrics/ModuleLength
+      VERSION = '4.3.0'
+
       extend Phlex::Kit
 
       require_relative 'remix/base'
