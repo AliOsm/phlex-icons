@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Hero # rubocop:disable Metrics/ModuleLength
+      VERSION = '2.1.5'
+
       extend Phlex::Kit
 
       require_relative 'hero/base'

@@ -4,6 +4,7 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/twbs/icons.git'
 REPO_NAME = 'twbs-icons'
+ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/bootstrap.rb'
 ICONS_PACK_PATH = 'lib/phlex/icons/bootstrap'
 
 TEMPLATE = ERB.new <<~TEMPLATE
@@ -39,7 +40,12 @@ REPLACEMENTS = {
 }.freeze
 
 def main
-  run_generator { icon_file_paths.tqdm.each { create_icon_component(_1) } }
+  run_generator do
+    new_version = JSON.parse(File.read("generators/#{REPO_NAME}/package.json"))['version']
+    update_icon_path_version(new_version)
+
+    icon_file_paths.tqdm.each { create_icon_component(_1) }
+  end
 end
 
 def icon_file_paths

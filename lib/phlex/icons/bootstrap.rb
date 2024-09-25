@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Bootstrap # rubocop:disable Metrics/ModuleLength
+      VERSION = '1.11.3'
+
       extend Phlex::Kit
 
       require_relative 'bootstrap/base'

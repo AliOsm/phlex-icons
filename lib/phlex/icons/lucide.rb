@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
+      VERSION = '0.446.0'
+
       extend Phlex::Kit
 
       require_relative 'lucide/base'

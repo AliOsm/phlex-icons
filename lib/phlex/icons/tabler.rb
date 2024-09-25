@@ -3,6 +3,8 @@
 module Phlex
   module Icons
     module Tabler # rubocop:disable Metrics/ModuleLength
+      VERSION = '3.17.0'
+
       extend Phlex::Kit
 
       require_relative 'tabler/base'
