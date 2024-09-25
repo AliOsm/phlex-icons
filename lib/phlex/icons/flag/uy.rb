@@ -7,7 +7,7 @@ module Phlex
       class Uy < Base
         def square
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(fill: %(#fff), d: %(M0 0h512v512H0z))
             s.path(fill: %(#0038a8), d: %(M284 56.9h228v56.9H284zm0 113.8h228v56.9H284zM0 284.4h512v57H0zm0 113.8h512v57H0z))
@@ -40,7 +40,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(fill: %(#fff), d: %(M0 0h640v480H0z))
             s.path(fill: %(#0038a8), d: %(M266 53.3h374v53.4H266zm0 106.7h374v53.3H266zM0 266.7h640V320H0zm0 106.6h640v53.4H0z))

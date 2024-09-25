@@ -7,7 +7,7 @@ module Phlex
       class Bed < Base
         def filled
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             viewbox: '0 0 24 24',
             fill: 'currentColor'
@@ -24,7 +24,7 @@ module Phlex
 
         def outline
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             viewbox: '0 0 24 24',
             fill: 'none',

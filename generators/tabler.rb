@@ -61,7 +61,7 @@ def read_and_convert_icon(icon_file_path)
                           .sub('width="24"', '')
                           .sub('height="24"', '')
 
-  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\nclass: classes,")
+  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\n**attrs,")
 end
 
 def filled_icon_file_path(icon_file_name)

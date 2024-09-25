@@ -3,10 +3,11 @@
 module Phlex
   module Icons
     class Base < Phlex::SVG
-      attr_reader :classes
+      attr_reader :attrs
 
-      def initialize(classes: Phlex::Icons.configuration.default_classes)
-        @classes = classes
+      def initialize(**attrs)
+        @attrs = attrs
+        attrs[:class] ||= Phlex::Icons.configuration.default_classes
 
         super()
       end

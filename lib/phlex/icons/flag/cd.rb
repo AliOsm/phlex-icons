@@ -7,7 +7,7 @@ module Phlex
       class Cd < Base
         def square
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
           ) do |s|
             s.defs do
               s.clipPath(id: 'cd-a') { s.path(fill: '#fff', d: 'M0-88h600v600H0z') }
@@ -26,7 +26,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
           ) do |s|
             s.path(fill: '#007fff', d: 'M0 0h640v480H0z')
             s.path(

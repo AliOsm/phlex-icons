@@ -58,7 +58,7 @@ def read_and_convert_icon(icon_file_path)
                           .sub(/id="flag-icons-[^"]*"/, '')
 
   Phlexing::Converter.convert(icon_file_content)
-                     .sub('svg(', "svg(\nclass: classes,")
+                     .sub('svg(', "svg(\n**attrs,")
                      .sub('xmlns:xlink:', '"xmlns:xlink":')
                      .gsub('xlink:href:', '"xlink:href":')
 end

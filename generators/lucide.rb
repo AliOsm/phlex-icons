@@ -57,7 +57,7 @@ def read_and_convert_icon(icon_file_path)
                           .sub('height="24"', '')
 
   Phlexing::Converter.convert(icon_file_content)
-                     .sub('svg(', "svg(\nclass: classes,")
+                     .sub('svg(', "svg(\n**attrs,")
 end
 
 main if __FILE__ == $PROGRAM_NAME

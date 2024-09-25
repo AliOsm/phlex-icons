@@ -6,7 +6,7 @@ module Phlex
       class Ss < Base
         def square
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
           ) do |s|
             s.path(fill: '#078930', d: 'M0 358.4h512V512H0z')
             s.path(fill: '#fff', d: 'M0 153.6h512v204.8H0z')
@@ -19,7 +19,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
           ) do |s|
             s.path(fill: '#078930', d: 'M0 336h640v144H0z')
             s.path(fill: '#fff', d: 'M0 144h640v192H0z')

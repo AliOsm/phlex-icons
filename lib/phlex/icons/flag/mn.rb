@@ -7,7 +7,7 @@ module Phlex
       class Mn < Base
         def square
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             fill: '#ffd900',
             viewbox: '0 0 512 512'
@@ -35,7 +35,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             fill: '#ffd900',
             viewbox: '0 0 640 480'

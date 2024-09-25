@@ -7,7 +7,7 @@ module Phlex
       class Ly < Base
         def square
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
           ) do |s|
             s.defs { s.clipPath(id: 'ly-a') { s.path(d: 'M250 12h500v500H250z') } }
             s.g(
@@ -28,7 +28,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
           ) do |s|
             s.defs { s.clipPath(id: 'ly-a') { s.path(d: 'M166.7-20h666.6v500H166.7z') } }
             s.g(clip_path: 'url(#ly-a)', transform: 'matrix(.96 0 0 .96 -160 19.2)') do

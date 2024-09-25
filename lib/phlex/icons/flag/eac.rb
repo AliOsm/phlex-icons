@@ -7,7 +7,7 @@ module Phlex
       class Eac < Base
         def square
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(id: %(eac-a), fill: %(#fff), fill_opacity: %(1), fill_rule: %(nonzero), stroke: %(none), stroke_dasharray: %(none), stroke_miterlimit: %(4), stroke_opacity: %(1), stroke_width: %(2.9), d: %(M0 348.2h512v23H0z))
             s.use('xlink:href': %(#eac-a), width: %(600), height: %(330), transform: %(translate(0 -207.4)))
@@ -60,7 +60,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(id: %(eac-a), fill: %(#fff), fill_opacity: %(1), fill_rule: %(nonzero), stroke: %(none), stroke_dasharray: %(none), stroke_miterlimit: %(4), stroke_opacity: %(1), stroke_width: %(3.1), d: %(M0 326.4h640V348H0z))
             s.use('xlink:href': %(#eac-a), width: %(600), height: %(330), transform: %(translate(0 -194.4)))

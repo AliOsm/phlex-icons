@@ -4,8 +4,8 @@ module Phlex
   module Icons
     module Remix
       class Base < Icons::Base
-        def initialize(classes: nil)
-          if classes
+        def initialize(**attrs)
+          if attrs
             super
           else
             super()

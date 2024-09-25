@@ -55,7 +55,7 @@ end
 
 def read_and_convert_icon(icon_file_path)
   icon_file_content = File.read(icon_file_path)
-  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\nclass: classes,")
+  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\n**attrs,")
 end
 
 def solid_icon_file_path(icon_file_name)
