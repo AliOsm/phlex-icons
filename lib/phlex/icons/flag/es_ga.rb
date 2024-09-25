@@ -7,7 +7,7 @@ module Phlex
       class EsGa < Base
         def square
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
           ) do |s|
             s.g(font_size: '12') do
               s.path(fill: '#fff', fill_rule: 'evenodd', d: 'M0-.1h512v512H0z')
@@ -845,7 +845,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
           ) do |s|
             s.g(font_size: '12') do
               s.path(fill: '#fff', fill_rule: 'evenodd', d: 'M0 0h640v480H0z')

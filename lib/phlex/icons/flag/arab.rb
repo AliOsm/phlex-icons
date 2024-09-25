@@ -7,7 +7,7 @@ module Phlex
       class Arab < Base
         def square
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             version: '1.0',
             viewbox: '0 0 512 512',
@@ -577,7 +577,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             version: '1.0',
             viewbox: '0 0 640 480',

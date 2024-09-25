@@ -7,7 +7,7 @@ module Phlex
       class FileText < Base
         def view_template
           svg(
-            class: classes,
+            **attrs,
             xmlns: 'http://www.w3.org/2000/svg',
             fill: 'currentColor',
             viewbox: '0 0 16 16'

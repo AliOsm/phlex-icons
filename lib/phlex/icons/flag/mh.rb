@@ -7,7 +7,7 @@ module Phlex
       class Mh < Base
         def square
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 512 512'
           ) do |s|
             s.g(fill_rule: 'evenodd') do
               s.path(fill: '#3b5aa3', d: 'M0 0h511.9v512H0z')
@@ -24,7 +24,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
+            **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
           ) do |s|
             s.g(fill_rule: 'evenodd') do
               s.path(fill: '#3b5aa3', d: 'M0 0h639.9v480H0z')

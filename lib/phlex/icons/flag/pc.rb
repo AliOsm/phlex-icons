@@ -7,7 +7,7 @@ module Phlex
       class Pc < Base
         def square
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(fill: %(#003da5), d: %(M0 0h512v512H0z))
             s.use('xlink:href': %(#pc-a), width: %(1000), height: %(700), transform: %(rotate(164.3 247 258.3)))
@@ -45,7 +45,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.path(fill: %(#003da5), d: %(M0 0h640v480H0z))
             s.use('xlink:href': %(#pc-a), width: %(1000), height: %(700), transform: %(rotate(164.3 311.5 242.2)))

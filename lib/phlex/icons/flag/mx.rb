@@ -7,7 +7,7 @@ module Phlex
       class Mx < Base
         def square
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.defs do
               s.radialGradient('xlink:href': %(#mx-a), id: %(mx-b), cx: %(842.3), cy: %(103.7), r: %(25.9), gradienttransform: %(matrix(.11321 .02876 -.02762 .11359 180.2 193.2)), gradientunits: %(userSpaceOnUse))
@@ -389,7 +389,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.defs do
               s.radialGradient('xlink:href': %(#mx-a), id: %(mx-b), cx: %(842.3), cy: %(103.7), r: %(25.9), gradienttransform: %(matrix(.14152 .03595 -.03453 .14198 213.1 162.4)), gradientunits: %(userSpaceOnUse))

@@ -7,7 +7,7 @@ module Phlex
       class Vg < Base
         def square
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 512 512), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.defs do
               s.linearGradient(id: %(vg-a), x1: %(103.1), x2: %(92.6), y1: %(111.3), y2: %(107.8), gradienttransform: %(matrix(.99614 0 0 2.25255 703.8 -75)), gradientunits: %(userSpaceOnUse)) do
@@ -71,7 +71,7 @@ module Phlex
 
         def rectangle
           svg(
-            class: classes, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
+            **attrs, xmlns: %(http://www.w3.org/2000/svg), viewbox: %(0 0 640 480), 'xmlns:xlink': %(http://www.w3.org/1999/xlink)
           ) do |s|
             s.defs do
               s.linearGradient(id: %(vg-a), x1: %(103.1), x2: %(92.6), y1: %(111.3), y2: %(107.8), gradienttransform: %(matrix(.99614 0 0 2.25255 703.8 -75)), gradientunits: %(userSpaceOnUse)) do

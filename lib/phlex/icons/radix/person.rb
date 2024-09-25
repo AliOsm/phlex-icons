@@ -7,7 +7,7 @@ module Phlex
       class Person < Base
         def view_template
           svg(
-            class: classes,
+            **attrs,
             viewbox: '0 0 15 15',
             fill: 'none',
             xmlns: 'http://www.w3.org/2000/svg'
