@@ -94,6 +94,7 @@ jobs:
             current_version=$(grep 'VERSION = ' lib/phlex/icons/version.rb | cut -d '=' -f 2- | tr -d ' ' | tr -d \')
             new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++; $3=0; print}')
             sed -i "s/VERSION = '$current_version'/VERSION = '$new_version'/" lib/phlex/icons/version.rb
+            bundle
             git add lib/phlex/icons/version.rb
             git commit -m "Update version to $new_version"
             git push
