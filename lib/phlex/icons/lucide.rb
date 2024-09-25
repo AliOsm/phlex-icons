@@ -599,6 +599,7 @@ module Phlex
       autoload :FileType, 'phlex/icons/lucide/file_type'
       autoload :FileType2, 'phlex/icons/lucide/file_type_2'
       autoload :FileUp, 'phlex/icons/lucide/file_up'
+      autoload :FileUser, 'phlex/icons/lucide/file_user'
       autoload :FileVideo, 'phlex/icons/lucide/file_video'
       autoload :FileVideo2, 'phlex/icons/lucide/file_video_2'
       autoload :FileVolume, 'phlex/icons/lucide/file_volume'
