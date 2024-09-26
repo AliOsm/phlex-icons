@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     phlex-icons (0.17.0)
-      phlex (~> 1.11)
+      phlex (>= 1.11)
 
 GEM
   remote: https://rubygems.org/
