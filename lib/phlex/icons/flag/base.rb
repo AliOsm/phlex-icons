@@ -6,7 +6,7 @@ module Phlex
       class Base < Icons::Base
         attr_reader :variant
 
-        def initialize(variant: Phlex::Icons::Hero.configuration.default_variant, **attrs)
+        def initialize(variant: Phlex::Icons::Flag.configuration.default_variant, **attrs)
           @variant = variant
 
           if attrs
