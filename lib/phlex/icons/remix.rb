@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Remix # rubocop:disable Metrics/ModuleLength
       VERSION = '4.3.0'
+      VARIANTS = nil
 
       extend Phlex::Kit
 

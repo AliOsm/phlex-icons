@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Tabler # rubocop:disable Metrics/ModuleLength
       VERSION = '3.17.0'
+      VARIANTS = %i[outline filled].freeze
 
       extend Phlex::Kit
 

@@ -4,6 +4,7 @@ module Phlex
   module Icons
     module Flag # rubocop:disable Metrics/ModuleLength
       VERSION = '7.2.3'
+      VARIANTS = %i[rectangle square].freeze
 
       extend Phlex::Kit
 
