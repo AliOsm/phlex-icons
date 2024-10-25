@@ -46,46 +46,6 @@ module Phlex
               d:
                 'M279.2 334c1.4 5.2 2.9 7 8.4 8.4 5.5 1.3 13.9-4 8.7-9.2-5-4.8-10.2-6-14.6-10.4-9.4-9.2-23.5-31.9-23.5-47.8 0-13.8-1.3-41.9-1.3-68.5 0-1.8-5.2 4.8-5.2 6.5.2 23.6.2 41.3 1.1 65 1.5 17.4 9.8 29 17 39.6 3.3 5 8 10.5 9.4 16.3z'
             )
-            s.text(
-              x: '465.1',
-              y: '269.5',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-256.3 5)'
-            ) { s.tspan { 'G' } }
-            s.text(
-              x: '488.1',
-              y: '269.6',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-256.3 5)'
-            ) { s.tspan { 'U' } }
-            s.text(
-              x: '516',
-              y: '269.6',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-256.3 5)'
-            ) { s.tspan { 'A' } }
-            s.text(
-              x: '539.5',
-              y: '269.5',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-256.3 5)'
-            ) { s.tspan { 'M' } }
             s.path(
               fill: '#239e46',
               fill_rule: 'evenodd',
@@ -191,46 +151,6 @@ module Phlex
               d:
                 'M350.8 330.3c1.9 7 3.8 9.4 11.2 11.3 7.3 1.7 18.5-5.4 11.6-12.3-6.6-6.4-13.6-8-19.5-13.8-12.5-12.3-31.3-42.5-31.3-63.8 0-18.3-1.8-55.8-1.8-91.3 0-2.3-7 6.4-7 8.8.4 31.3.4 55 1.6 86.6 2 23.1 13 38.7 22.7 52.7 4.3 6.8 10.6 14 12.5 21.8'
             )
-            s.text(
-              x: '465.1',
-              y: '269.5',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-363 -108)scale(1.33)'
-            ) { s.tspan { 'G' } }
-            s.text(
-              x: '488.1',
-              y: '269.6',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-363 -108)scale(1.33)'
-            ) { s.tspan { 'U' } }
-            s.text(
-              x: '516',
-              y: '269.6',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-363 -108)scale(1.33)'
-            ) { s.tspan { 'A' } }
-            s.text(
-              x: '539.5',
-              y: '269.5',
-              fill: '#bd0728',
-              stroke: '#fff',
-              stroke_width: '1.6',
-              font_family: 'helvetica',
-              font_size: '25.6',
-              transform: 'translate(-363 -108)scale(1.33)'
-            ) { s.tspan { 'M' } }
             s.path(
               fill: '#239e46',
               fill_rule: 'evenodd',
