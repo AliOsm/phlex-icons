@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide
-      class ParkingMeter < Base
+      class Volleyball < Base
         def view_template
           svg(
             **attrs,
@@ -15,14 +15,12 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M11 15h2')
-            s.path(d: 'M12 12v3')
-            s.path(d: 'M12 19v3')
-            s.path(
-              d:
-                'M15.282 19a1 1 0 0 0 .948-.68l2.37-6.988a7 7 0 1 0-13.2 0l2.37 6.988a1 1 0 0 0 .948.68z'
-            )
-            s.path(d: 'M9 9a3 3 0 1 1 6 0')
+            s.path(d: 'M11.1 7.1a16.55 16.55 0 0 1 10.9 4')
+            s.path(d: 'M12 12a12.6 12.6 0 0 1-8.7 5')
+            s.path(d: 'M16.8 13.6a16.55 16.55 0 0 1-9 7.5')
+            s.path(d: 'M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10')
+            s.path(d: 'M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5')
+            s.circle(cx: '12', cy: '12', r: '10')
           end
         end
       end

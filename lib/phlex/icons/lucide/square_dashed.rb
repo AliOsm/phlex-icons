@@ -4,7 +4,7 @@
 module Phlex
   module Icons
     module Lucide
-      class BoxSelect < Base
+      class SquareDashed < Base
         def view_template
           svg(
             **attrs,

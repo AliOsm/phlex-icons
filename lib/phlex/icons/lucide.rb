@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
-      VERSION = '0.446.0'
+      VERSION = '0.453.0'
       VARIANTS = nil
 
       extend Phlex::Kit
@@ -224,7 +224,6 @@ module Phlex
       autoload :BotMessageSquare, 'phlex/icons/lucide/bot_message_square'
       autoload :BotOff, 'phlex/icons/lucide/bot_off'
       autoload :Box, 'phlex/icons/lucide/box'
-      autoload :BoxSelect, 'phlex/icons/lucide/box_select'
       autoload :Boxes, 'phlex/icons/lucide/boxes'
       autoload :Braces, 'phlex/icons/lucide/braces'
       autoload :Brackets, 'phlex/icons/lucide/brackets'
@@ -251,6 +250,7 @@ module Phlex
       autoload :CakeSlice, 'phlex/icons/lucide/cake_slice'
       autoload :Calculator, 'phlex/icons/lucide/calculator'
       autoload :Calendar, 'phlex/icons/lucide/calendar'
+      autoload :Calendar1, 'phlex/icons/lucide/calendar_1'
       autoload :CalendarArrowDown, 'phlex/icons/lucide/calendar_arrow_down'
       autoload :CalendarArrowUp, 'phlex/icons/lucide/calendar_arrow_up'
       autoload :CalendarCheck, 'phlex/icons/lucide/calendar_check'
@@ -540,6 +540,7 @@ module Phlex
       autoload :Expand, 'phlex/icons/lucide/expand'
       autoload :ExternalLink, 'phlex/icons/lucide/external_link'
       autoload :Eye, 'phlex/icons/lucide/eye'
+      autoload :EyeClosed, 'phlex/icons/lucide/eye_closed'
       autoload :EyeOff, 'phlex/icons/lucide/eye_off'
       autoload :Facebook, 'phlex/icons/lucide/facebook'
       autoload :Factory, 'phlex/icons/lucide/factory'
@@ -1300,6 +1301,7 @@ module Phlex
       autoload :SquareChevronRight, 'phlex/icons/lucide/square_chevron_right'
       autoload :SquareChevronUp, 'phlex/icons/lucide/square_chevron_up'
       autoload :SquareCode, 'phlex/icons/lucide/square_code'
+      autoload :SquareDashed, 'phlex/icons/lucide/square_dashed'
       autoload :SquareDashedBottom, 'phlex/icons/lucide/square_dashed_bottom'
       autoload :SquareDashedBottomCode, 'phlex/icons/lucide/square_dashed_bottom_code'
       autoload :SquareDashedKanban, 'phlex/icons/lucide/square_dashed_kanban'
@@ -1500,6 +1502,7 @@ module Phlex
       autoload :Videotape, 'phlex/icons/lucide/videotape'
       autoload :View, 'phlex/icons/lucide/view'
       autoload :Voicemail, 'phlex/icons/lucide/voicemail'
+      autoload :Volleyball, 'phlex/icons/lucide/volleyball'
       autoload :Volume, 'phlex/icons/lucide/volume'
       autoload :Volume1, 'phlex/icons/lucide/volume_1'
       autoload :Volume2, 'phlex/icons/lucide/volume_2'

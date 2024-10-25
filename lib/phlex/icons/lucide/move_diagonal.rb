@@ -15,9 +15,9 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.polyline(points: '13 5 19 5 19 11')
-            s.polyline(points: '11 19 5 19 5 13')
-            s.line(x1: '19', x2: '5', y1: '5', y2: '19')
+            s.path(d: 'M11 19H5v-6')
+            s.path(d: 'M13 5h6v6')
+            s.path(d: 'M19 5 5 19')
           end
         end
       end

@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide
-      class ParkingMeter < Base
+      class EyeClosed < Base
         def view_template
           svg(
             **attrs,
@@ -15,14 +15,11 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M11 15h2')
-            s.path(d: 'M12 12v3')
-            s.path(d: 'M12 19v3')
-            s.path(
-              d:
-                'M15.282 19a1 1 0 0 0 .948-.68l2.37-6.988a7 7 0 1 0-13.2 0l2.37 6.988a1 1 0 0 0 .948.68z'
-            )
-            s.path(d: 'M9 9a3 3 0 1 1 6 0')
+            s.path(d: 'm15 18-.722-3.25')
+            s.path(d: 'M2 8a10.645 10.645 0 0 0 20 0')
+            s.path(d: 'm20 15-1.726-2.05')
+            s.path(d: 'm4 15 1.726-2.05')
+            s.path(d: 'm9 18 .722-3.25')
           end
         end
       end

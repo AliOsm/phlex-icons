@@ -15,12 +15,12 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.polyline(points: '5 9 2 12 5 15')
-            s.polyline(points: '9 5 12 2 15 5')
-            s.polyline(points: '15 19 12 22 9 19')
-            s.polyline(points: '19 9 22 12 19 15')
-            s.line(x1: '2', x2: '22', y1: '12', y2: '12')
-            s.line(x1: '12', x2: '12', y1: '2', y2: '22')
+            s.path(d: 'M12 2v20')
+            s.path(d: 'm15 19-3 3-3-3')
+            s.path(d: 'm19 9 3 3-3 3')
+            s.path(d: 'M2 12h20')
+            s.path(d: 'm5 9-3 3 3 3')
+            s.path(d: 'm9 5 3-3 3 3')
           end
         end
       end
