@@ -4,7 +4,7 @@
 module Phlex
   module Icons
     module Remix
-      class ArrowDownBoxLine < Base
+      class MixtralFill < Base
         def view_template
           svg(
             **attrs,
@@ -14,7 +14,7 @@ module Phlex
           ) do |s|
             s.path(
               d:
-                'M20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3ZM5 19V5H19V19H5ZM11.0005 6.34375V13.829L7.75789 10.5864L6.34367 12.0006L12.0005 17.6575L17.6574 12.0006L16.2432 10.5864L13.0005 13.829V6.34375H11.0005Z'
+                'M3 3H6.6V6.6L10.2001 6.6001V10.2001L13.8 10.2002L13.8 6.6001H17.3999V3H20.9999V20.9999H17.3999V13.8002L13.8 13.7998V17.3998H10.2V13.8002L6.6 13.7998V20.9999H3V3Z'
             )
           end
         end
