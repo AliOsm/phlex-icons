@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Radix # rubocop:disable Metrics/ModuleLength
-      VERSION = '1.3.0'
+      VERSION = '1.3.1'
       VARIANTS = nil
 
       extend Phlex::Kit
