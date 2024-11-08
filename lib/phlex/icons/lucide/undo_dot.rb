@@ -15,9 +15,9 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.circle(cx: '12', cy: '17', r: '1')
+            s.path(d: 'M21 17a9 9 0 0 0-15-6.7L3 13')
             s.path(d: 'M3 7v6h6')
-            s.path(d: 'M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13')
+            s.circle(cx: '12', cy: '17', r: '1')
           end
         end
       end
