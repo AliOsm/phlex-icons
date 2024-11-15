@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Tabler # rubocop:disable Metrics/ModuleLength
-      VERSION = '3.21.0'
+      VERSION = '3.22.0'
       VARIANTS = %i[outline filled].freeze
 
       extend Phlex::Kit
@@ -916,6 +916,7 @@ module Phlex
       autoload :BrandTed, 'phlex/icons/tabler/brand_ted'
       autoload :BrandTelegram, 'phlex/icons/tabler/brand_telegram'
       autoload :BrandTerraform, 'phlex/icons/tabler/brand_terraform'
+      autoload :BrandTesla, 'phlex/icons/tabler/brand_tesla'
       autoload :BrandTether, 'phlex/icons/tabler/brand_tether'
       autoload :BrandThingiverse, 'phlex/icons/tabler/brand_thingiverse'
       autoload :BrandThreads, 'phlex/icons/tabler/brand_threads'
@@ -1452,6 +1453,7 @@ module Phlex
       autoload :ClipboardList, 'phlex/icons/tabler/clipboard_list'
       autoload :ClipboardOff, 'phlex/icons/tabler/clipboard_off'
       autoload :ClipboardPlus, 'phlex/icons/tabler/clipboard_plus'
+      autoload :ClipboardSearch, 'phlex/icons/tabler/clipboard_search'
       autoload :ClipboardSmile, 'phlex/icons/tabler/clipboard_smile'
       autoload :ClipboardText, 'phlex/icons/tabler/clipboard_text'
       autoload :ClipboardTypography, 'phlex/icons/tabler/clipboard_typography'
@@ -4464,7 +4466,9 @@ module Phlex
       autoload :TableShortcut, 'phlex/icons/tabler/table_shortcut'
       autoload :TableSpark, 'phlex/icons/tabler/table_spark'
       autoload :Tag, 'phlex/icons/tabler/tag'
+      autoload :TagMinus, 'phlex/icons/tabler/tag_minus'
       autoload :TagOff, 'phlex/icons/tabler/tag_off'
+      autoload :TagPlus, 'phlex/icons/tabler/tag_plus'
       autoload :TagStarred, 'phlex/icons/tabler/tag_starred'
       autoload :Tags, 'phlex/icons/tabler/tags'
       autoload :TagsOff, 'phlex/icons/tabler/tags_off'
