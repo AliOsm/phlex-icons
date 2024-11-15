@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
-      VERSION = '0.454.0'
+      VERSION = '0.456.0'
       VARIANTS = nil
 
       extend Phlex::Kit
@@ -1533,6 +1533,7 @@ module Phlex
       autoload :WifiOff, 'phlex/icons/lucide/wifi_off'
       autoload :WifiZero, 'phlex/icons/lucide/wifi_zero'
       autoload :Wind, 'phlex/icons/lucide/wind'
+      autoload :WindArrowDown, 'phlex/icons/lucide/wind_arrow_down'
       autoload :Wine, 'phlex/icons/lucide/wine'
       autoload :WineOff, 'phlex/icons/lucide/wine_off'
       autoload :Workflow, 'phlex/icons/lucide/workflow'
