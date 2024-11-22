@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Hero # rubocop:disable Metrics/ModuleLength
-      VERSION = '2.1.5'
+      VERSION = '2.2.0'
       VARIANTS = %i[solid outline].freeze
 
       extend Phlex::Kit
