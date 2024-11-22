@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide
-      class School < Base
+      class LaptopMinimalCheck < Base
         def view_template
           svg(
             **attrs,
@@ -15,15 +15,9 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M14 22v-4a2 2 0 1 0-4 0v4')
-            s.path(
-              d:
-                'm18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'
-            )
-            s.path(d: 'M18 5v17')
-            s.path(d: 'm4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6')
-            s.path(d: 'M6 5v17')
-            s.circle(cx: '12', cy: '9', r: '2')
+            s.path(d: 'M2 20h20')
+            s.path(d: 'm9 10 2 2 4-4')
+            s.rect(x: '3', y: '4', width: '18', height: '12', rx: '2')
           end
         end
       end

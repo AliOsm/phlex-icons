@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
-      VERSION = '0.456.0'
+      VERSION = '0.460.1'
       VARIANTS = nil
 
       extend Phlex::Kit
@@ -409,6 +409,7 @@ module Phlex
       autoload :ClockArrowDown, 'phlex/icons/lucide/clock_arrow_down'
       autoload :ClockArrowUp, 'phlex/icons/lucide/clock_arrow_up'
       autoload :Cloud, 'phlex/icons/lucide/cloud'
+      autoload :CloudAlert, 'phlex/icons/lucide/cloud_alert'
       autoload :CloudCog, 'phlex/icons/lucide/cloud_cog'
       autoload :CloudDownload, 'phlex/icons/lucide/cloud_download'
       autoload :CloudDrizzle, 'phlex/icons/lucide/cloud_drizzle'
@@ -533,6 +534,7 @@ module Phlex
       autoload :Ellipsis, 'phlex/icons/lucide/ellipsis'
       autoload :EllipsisVertical, 'phlex/icons/lucide/ellipsis_vertical'
       autoload :Equal, 'phlex/icons/lucide/equal'
+      autoload :EqualApproximately, 'phlex/icons/lucide/equal_approximately'
       autoload :EqualNot, 'phlex/icons/lucide/equal_not'
       autoload :Eraser, 'phlex/icons/lucide/eraser'
       autoload :EthernetPort, 'phlex/icons/lucide/ethernet_port'
@@ -810,6 +812,7 @@ module Phlex
       autoload :Languages, 'phlex/icons/lucide/languages'
       autoload :Laptop, 'phlex/icons/lucide/laptop'
       autoload :LaptopMinimal, 'phlex/icons/lucide/laptop_minimal'
+      autoload :LaptopMinimalCheck, 'phlex/icons/lucide/laptop_minimal_check'
       autoload :Lasso, 'phlex/icons/lucide/lasso'
       autoload :LassoSelect, 'phlex/icons/lucide/lasso_select'
       autoload :Laugh, 'phlex/icons/lucide/laugh'
@@ -1420,6 +1423,7 @@ module Phlex
       autoload :TimerReset, 'phlex/icons/lucide/timer_reset'
       autoload :ToggleLeft, 'phlex/icons/lucide/toggle_left'
       autoload :ToggleRight, 'phlex/icons/lucide/toggle_right'
+      autoload :Toilet, 'phlex/icons/lucide/toilet'
       autoload :Tornado, 'phlex/icons/lucide/tornado'
       autoload :Torus, 'phlex/icons/lucide/torus'
       autoload :Touchpad, 'phlex/icons/lucide/touchpad'

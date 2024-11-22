@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class School < Base
+      class Toilet < Base
         def view_template
           svg(
             **attrs,
@@ -15,18 +16,15 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M14 22v-4a2 2 0 1 0-4 0v4')
             s.path(
               d:
-                'm18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'
+                'M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18'
             )
-            s.path(d: 'M18 5v17')
-            s.path(d: 'm4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6')
-            s.path(d: 'M6 5v17')
-            s.circle(cx: '12', cy: '9', r: '2')
+            s.path(d: 'M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8')
           end
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
