@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Tabler
-      class Browser < Base
+      class BrowserShare < Base
         def filled
           raise NotImplementedError
         end
@@ -21,10 +21,11 @@ module Phlex
           ) do |s|
             s.path(d: 'M4 8h16')
             s.path(
-              d:
-                'M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z'
+              d: 'M12.5 20h-6.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v7'
             )
             s.path(d: 'M8 4v4')
+            s.path(d: 'M16 22l5 -5')
+            s.path(d: 'M21 21.5v-4.5h-4.5')
           end
         end
       end

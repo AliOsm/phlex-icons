@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Tabler
-      class Browser < Base
+      class Badge5k < Base
         def filled
           raise NotImplementedError
         end
@@ -19,12 +19,14 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M4 8h16')
             s.path(
               d:
-                'M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z'
+                'M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z'
             )
-            s.path(d: 'M8 4v4')
+            s.path(d: 'M14 9v6')
+            s.path(d: 'M17 9l-2 3l2 3')
+            s.path(d: 'M15 12h-1')
+            s.path(d: 'M7 15h2a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-2v-3h3')
           end
         end
       end

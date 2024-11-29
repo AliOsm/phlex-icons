@@ -19,14 +19,11 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(
-              d:
-                'M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z'
-            )
             s.path(d: 'M4 8h16')
+            s.path(d: 'M12 20h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6')
             s.path(d: 'M8 4v4')
-            s.path(d: 'M10 14h4')
-            s.path(d: 'M12 12v4')
+            s.path(d: 'M16 19h6')
+            s.path(d: 'M19 16v6')
           end
         end
       end
