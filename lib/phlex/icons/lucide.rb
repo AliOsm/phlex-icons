@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
-      VERSION = '0.460.1'
+      VERSION = '0.462.0'
       VARIANTS = nil
 
       extend Phlex::Kit
@@ -267,6 +267,7 @@ module Phlex
       autoload :CalendarPlus2, 'phlex/icons/lucide/calendar_plus_2'
       autoload :CalendarRange, 'phlex/icons/lucide/calendar_range'
       autoload :CalendarSearch, 'phlex/icons/lucide/calendar_search'
+      autoload :CalendarSync, 'phlex/icons/lucide/calendar_sync'
       autoload :CalendarX, 'phlex/icons/lucide/calendar_x'
       autoload :CalendarX2, 'phlex/icons/lucide/calendar_x_2'
       autoload :Camera, 'phlex/icons/lucide/camera'
@@ -779,6 +780,7 @@ module Phlex
       autoload :ImagePlay, 'phlex/icons/lucide/image_play'
       autoload :ImagePlus, 'phlex/icons/lucide/image_plus'
       autoload :ImageUp, 'phlex/icons/lucide/image_up'
+      autoload :ImageUpscale, 'phlex/icons/lucide/image_upscale'
       autoload :Images, 'phlex/icons/lucide/images'
       autoload :Import, 'phlex/icons/lucide/import'
       autoload :Inbox, 'phlex/icons/lucide/inbox'

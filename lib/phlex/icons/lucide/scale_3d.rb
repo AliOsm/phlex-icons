@@ -15,10 +15,10 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
+            s.path(d: 'M5 7v11a1 1 0 0 0 1 1h11')
+            s.path(d: 'M5.293 18.707 11 13')
             s.circle(cx: '19', cy: '19', r: '2')
             s.circle(cx: '5', cy: '5', r: '2')
-            s.path(d: 'M5 7v12h12')
-            s.path(d: 'm5 19 6-6')
           end
         end
       end

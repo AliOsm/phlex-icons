@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class VenetianMask < Base
+      class CalendarSync < Base
         def view_template
           svg(
             **attrs,
@@ -16,16 +15,17 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M18 11c-1.5 0-2.5.5-3 2')
-            s.path(
-              d:
-                'M4 6a2 2 0 0 0-2 2v4a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V8a2 2 0 0 0-2-2h-3a8 8 0 0 0-5 2 8 8 0 0 0-5-2z'
-            )
-            s.path(d: 'M6 11c1.5 0 2.5.5 3 2')
+            s.path(d: 'M11 10v4h4')
+            s.path(d: 'm11 14 1.535-1.605a5 5 0 0 1 8 1.5')
+            s.path(d: 'M16 2v4')
+            s.path(d: 'm21 18-1.535 1.605a5 5 0 0 1-8-1.5')
+            s.path(d: 'M21 22v-4h-4')
+            s.path(d: 'M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3')
+            s.path(d: 'M3 10h4')
+            s.path(d: 'M8 2v4')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
