@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BellPlus < Base
+      class WavesLadder < Base
         def view_template
           svg(
             **attrs,
@@ -16,17 +15,17 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M10.268 21a2 2 0 0 0 3.464 0')
-            s.path(d: 'M15 8h6')
-            s.path(d: 'M18 5v6')
+            s.path(d: 'M19 5a2 2 0 0 0-2 2v11')
             s.path(
               d:
-                'M20.002 14.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332'
+                'M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'
             )
+            s.path(d: 'M7 13h10')
+            s.path(d: 'M7 9h10')
+            s.path(d: 'M9 5a2 2 0 0 0-2 2v11')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

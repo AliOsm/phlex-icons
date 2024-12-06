@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
-      class BellPlus < Base
+      class ScanHeart < Base
         def view_template
           svg(
             **attrs,
@@ -16,17 +15,17 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M10.268 21a2 2 0 0 0 3.464 0')
-            s.path(d: 'M15 8h6')
-            s.path(d: 'M18 5v6')
             s.path(
               d:
-                'M20.002 14.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332'
+                'M11.246 16.657a1 1 0 0 0 1.508 0l3.57-4.101A2.75 2.75 0 1 0 12 9.168a2.75 2.75 0 1 0-4.324 3.388z'
             )
+            s.path(d: 'M17 3h2a2 2 0 0 1 2 2v2')
+            s.path(d: 'M21 17v2a2 2 0 0 1-2 2h-2')
+            s.path(d: 'M3 7V5a2 2 0 0 1 2-2h2')
+            s.path(d: 'M7 21H5a2 2 0 0 1-2-2v-2')
           end
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

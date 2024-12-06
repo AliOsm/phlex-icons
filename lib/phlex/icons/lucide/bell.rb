@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module Phlex
   module Icons
     module Lucide
@@ -15,11 +16,15 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9')
-            s.path(d: 'M10.3 21a1.94 1.94 0 0 0 3.4 0')
+            s.path(d: 'M10.268 21a2 2 0 0 0 3.464 0')
+            s.path(
+              d:
+                'M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326'
+            )
           end
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

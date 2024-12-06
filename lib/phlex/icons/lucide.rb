@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Lucide # rubocop:disable Metrics/ModuleLength
-      VERSION = '0.462.0'
+      VERSION = '0.468.0'
       VARIANTS = nil
 
       extend Phlex::Kit
@@ -520,6 +520,7 @@ module Phlex
       autoload :Dribbble, 'phlex/icons/lucide/dribbble'
       autoload :Drill, 'phlex/icons/lucide/drill'
       autoload :Droplet, 'phlex/icons/lucide/droplet'
+      autoload :DropletOff, 'phlex/icons/lucide/droplet_off'
       autoload :Droplets, 'phlex/icons/lucide/droplets'
       autoload :Drum, 'phlex/icons/lucide/drum'
       autoload :Drumstick, 'phlex/icons/lucide/drumstick'
@@ -820,7 +821,6 @@ module Phlex
       autoload :Laugh, 'phlex/icons/lucide/laugh'
       autoload :Layers, 'phlex/icons/lucide/layers'
       autoload :Layers2, 'phlex/icons/lucide/layers_2'
-      autoload :Layers3, 'phlex/icons/lucide/layers_3'
       autoload :LayoutDashboard, 'phlex/icons/lucide/layout_dashboard'
       autoload :LayoutGrid, 'phlex/icons/lucide/layout_grid'
       autoload :LayoutList, 'phlex/icons/lucide/layout_list'
@@ -847,6 +847,7 @@ module Phlex
       autoload :ListCollapse, 'phlex/icons/lucide/list_collapse'
       autoload :ListEnd, 'phlex/icons/lucide/list_end'
       autoload :ListFilter, 'phlex/icons/lucide/list_filter'
+      autoload :ListFilterPlus, 'phlex/icons/lucide/list_filter_plus'
       autoload :ListMinus, 'phlex/icons/lucide/list_minus'
       autoload :ListMusic, 'phlex/icons/lucide/list_music'
       autoload :ListOrdered, 'phlex/icons/lucide/list_ordered'
@@ -1188,6 +1189,7 @@ module Phlex
       autoload :ScanBarcode, 'phlex/icons/lucide/scan_barcode'
       autoload :ScanEye, 'phlex/icons/lucide/scan_eye'
       autoload :ScanFace, 'phlex/icons/lucide/scan_face'
+      autoload :ScanHeart, 'phlex/icons/lucide/scan_heart'
       autoload :ScanLine, 'phlex/icons/lucide/scan_line'
       autoload :ScanQrCode, 'phlex/icons/lucide/scan_qr_code'
       autoload :ScanSearch, 'phlex/icons/lucide/scan_search'
@@ -1525,6 +1527,7 @@ module Phlex
       autoload :WashingMachine, 'phlex/icons/lucide/washing_machine'
       autoload :Watch, 'phlex/icons/lucide/watch'
       autoload :Waves, 'phlex/icons/lucide/waves'
+      autoload :WavesLadder, 'phlex/icons/lucide/waves_ladder'
       autoload :Waypoints, 'phlex/icons/lucide/waypoints'
       autoload :Webcam, 'phlex/icons/lucide/webcam'
       autoload :Webhook, 'phlex/icons/lucide/webhook'
