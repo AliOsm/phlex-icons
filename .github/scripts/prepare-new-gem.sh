@@ -15,9 +15,9 @@ packs="bootstrap flag hero lucide radix remix tabler"
 # Remove all packs except the one to keep
 for pack in $packs; do
   if [ "$pack" != "$pack_to_keep" ]; then
-    rm -rf "lib/phlex/icons/$pack"
-    rm -f "lib/phlex/icons/$pack.rb"
-    sed -i "/require_relative 'phlex\/icons\/$pack'/d" lib/phlex-icons.rb
+    rm -rf "lib/phlex-icons/$pack"
+    rm -f "lib/phlex-icons/$pack.rb"
+    sed -i "/require_relative 'phlex-icons\/$pack'/d" lib/phlex-icons.rb
   fi
 done
 

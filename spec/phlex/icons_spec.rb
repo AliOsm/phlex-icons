@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe Phlex::Icons do
+RSpec.describe PhlexIcons do
   it 'has a version number' do
-    expect(Phlex::Icons::VERSION).not_to be nil
+    expect(PhlexIcons::VERSION).not_to be nil
   end
 
   it 'does something useful' do

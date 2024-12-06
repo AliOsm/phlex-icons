@@ -1,6 +1,4 @@
-module Phlex
-  module Icons
-    VERSION: String
-    # See the writing guide of rbs: https://github.com/ruby/rbs#guides
-  end
+module PhlexIcons
+  VERSION: String
+  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
 end

@@ -4,24 +4,22 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/tailwindlabs/heroicons.git'
 REPO_NAME = 'tailwindlabs-heroicons'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/hero.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/hero'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/hero.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/hero'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Hero
-        class <%= icon_name %> < Base
-          def solid
-            <%= solid_icon %>
-          end
+  module PhlexIcons
+    module Hero
+      class <%= icon_name %> < Base
+        def solid
+          <%= solid_icon %>
+        end
 
-          def outline
-            <%= outline_icon %>
-          end
+        def outline
+          <%= outline_icon %>
         end
       end
     end

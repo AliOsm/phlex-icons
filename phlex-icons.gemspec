@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/phlex/icons/version'
+require_relative 'lib/phlex-icons/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'phlex-icons'
-  spec.version = Phlex::Icons::VERSION
+  spec.version = PhlexIcons::VERSION
   spec.authors = ['Ali Hamdi Ali Fadel']
   spec.email = ['aliosm1997@gmail.com']
 

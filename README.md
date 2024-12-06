@@ -8,7 +8,7 @@
 
 </div>
 
-# Phlex::Icons
+# PhlexIcons
 
 General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 12,000 icons from:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
@@ -58,13 +58,13 @@ The gem provides global configuration options, and per icons pack configuration 
 ### Global configuration
 
 ```ruby
-Phlex::Icons.configure do |config|
+PhlexIcons.configure do |config|
   config.default_classes = 'size-6'
 end
 
 # OR
 
-Phlex::Icons.configuration.default_classes = 'size-6'
+PhlexIcons.configuration.default_classes = 'size-6'
 ```
 
 ### Bootstrap Icons configuration
@@ -74,25 +74,25 @@ Nothing to configure for Bootstrap Icons.
 ### Flag Icons configuration
 
 ```ruby
-Phlex::Icons::Flag.configure do |config|
+PhlexIcons::Flag.configure do |config|
   config.default_variant = :square # or :rectangle
 end
 
 # OR
 
-Phlex::Icons::Flag.configuration.default_variant = :square # or :rectangle
+PhlexIcons::Flag.configuration.default_variant = :square # or :rectangle
 ```
 
 ### Heroicons configuration
 
 ```ruby
-Phlex::Icons::Hero.configure do |config|
+PhlexIcons::Hero.configure do |config|
   config.default_variant = :solid # or :outline
 end
 
 # OR
 
-Phlex::Icons::Hero.configuration.default_variant = :solid # or :outline
+PhlexIcons::Hero.configuration.default_variant = :solid # or :outline
 ```
 
 ### Lucide Icons configuration
@@ -110,13 +110,13 @@ Nothing to configure for Remix Icons.
 ### Tabler Icons configuration
 
 ```ruby
-Phlex::Icons::Tabler.configure do |config|
+PhlexIcons::Tabler.configure do |config|
   config.default_variant = :outline # or :filled
 end
 
 # OR
 
-Phlex::Icons::Tabler.configuration.default_variant = :outline # or :filled
+PhlexIcons::Tabler.configuration.default_variant = :outline # or :filled
 ```
 
 ## Usage
@@ -127,7 +127,7 @@ Phlex::Icons::Tabler.configuration.default_variant = :outline # or :filled
 require 'phlex-icons' # No need to require the gem if you are using it in a Rails application.
 
 class PhlexIcons < Phlex::HTML
-  include Phlex::Icons
+  include PhlexIcons
 
   def view_template
     div do
@@ -151,13 +151,13 @@ require 'phlex-icons' # No need to require the gem if you are using it in a Rail
 class PhlexIcons < Phlex::HTML
   def view_template
     div do
-      render Phlex::Icons::Bootstrap::House.new(class: 'size-4')
-      render Phlex::Icons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
-      render Phlex::Icons::Hero::Home.new(variant: :solid, class: 'size-4')
-      render Phlex::Icons::Lucide::House.new(class: 'size-4')
-      render Phlex::Icons::Radix::Home.new(class: 'size-4')
-      render Phlex::Icons::Remix::HomeLine.new(class: 'size-4')
-      render Phlex::Icons::Tabler::Home.new(variant: :filled, class: 'size-4')
+      render PhlexIcons::Bootstrap::House.new(class: 'size-4')
+      render PhlexIcons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
+      render PhlexIcons::Hero::Home.new(variant: :solid, class: 'size-4')
+      render PhlexIcons::Lucide::House.new(class: 'size-4')
+      render PhlexIcons::Radix::Home.new(class: 'size-4')
+      render PhlexIcons::Remix::HomeLine.new(class: 'size-4')
+      render PhlexIcons::Tabler::Home.new(variant: :filled, class: 'size-4')
     end
   end
 end
@@ -176,7 +176,7 @@ require 'phlex-icons-flag' # No need to require the gem if you are using it in a
 require 'phlex-icons-hero' # No need to require the gem if you are using it in a Rails application.
 
 class PhlexIcons < Phlex::HTML
-  include Phlex::Icons # If you want to use Phlex::Kit.
+  include PhlexIcons # If you want to use Phlex::Kit.
 
   def view_template
     div do
@@ -185,8 +185,8 @@ class PhlexIcons < Phlex::HTML
       Hero::Home(variant: :solid, class: 'size-4')
 
       # Without Phlex::Kit.
-      render Phlex::Icons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
-      render Phlex::Icons::Hero::Home.new(variant: :solid, class: 'size-4')
+      render PhlexIcons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
+      render PhlexIcons::Hero::Home.new(variant: :solid, class: 'size-4')
     end
   end
 end
@@ -194,34 +194,30 @@ end
 
 ### Add custom icons to your Rails application
 
-You can extend the gem in your Rails application to add new icons by creating a `phlex/icons/custom` directory inside `views/components` directory. Then, you can create a new component for each icon you want to add. For example:
+You can extend the gem in your Rails application to add new icons by creating a `phlex-icons/custom` directory inside `views/components` directory. Then, you can create a new component for each icon you want to add. For example:
 
 ```ruby
-# app/views/components/phlex/icons/custom/icon_class_name.rb
+# app/views/components/phlex-icons/custom/icon_class_name.rb
 
-module Phlex
-  module Icons
-    module Custom
-      class IconClassName < Phlex::Icons::Base
-        def view_template
-          # SVG code here.
-        end
+module PhlexIcons
+  module Custom
+    class IconClassName < PhlexIcons::Base
+      def view_template
+        # SVG code here.
       end
     end
   end
 end
 ```
 
-Finally, you will need to create a `Phlex::Icons::Custom` module in `phlex/icons/custom.rb` file to include your custom icons and make them a `Phlex::Kit`:
+Finally, you will need to create a `PhlexIcons::Custom` module in `phlex-icons/custom.rb` file to include your custom icons and make them a `Phlex::Kit`:
 
 ```ruby
-# app/views/components/phlex/icons/custom.rb
+# app/views/components/phlex-icons/custom.rb
 
-module Phlex
-  module Icons
-    module Custom
-      extend Phlex::Kit
-    end
+module PhlexIcons
+  module Custom
+    extend Phlex::Kit
   end
 end
 ```
@@ -234,7 +230,7 @@ All icon packs provided in this gem are auto-generated by their generator under 
 
 ## What is the icon pack version used in the gem?
 
-Each icon pack contains a `VERSION` constant in its module represents the version of the icon pack used in the gem. So, for example, to get the Bootstrap version used in the gem you can access it by `Phlex::Icons::Bootstrap::VERSION`.
+Each icon pack contains a `VERSION` constant in its module represents the version of the icon pack used in the gem. So, for example, to get the Bootstrap version used in the gem you can access it by `PhlexIcons::Bootstrap::VERSION`.
 
 ## Development
 
@@ -252,4 +248,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Phlex::Icons project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/AliOsm/phlex-icons/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the PhlexIcons project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/AliOsm/phlex-icons/blob/master/CODE_OF_CONDUCT.md).

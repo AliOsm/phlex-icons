@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'phlex/icons'
+require 'phlex-icons'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

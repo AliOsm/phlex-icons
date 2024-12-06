@@ -4,20 +4,18 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/radix-ui/icons.git'
 REPO_NAME = 'radix-ui-icons'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/radix.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/radix'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/radix.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/radix'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Radix
-        class <%= icon_name %> < Base
-          def view_template
-            <%= icon %>
-          end
+  module PhlexIcons
+    module Radix
+      class <%= icon_name %> < Base
+        def view_template
+          <%= icon %>
         end
       end
     end

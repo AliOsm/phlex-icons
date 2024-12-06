@@ -4,20 +4,18 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/Remix-Design/RemixIcon.git'
 REPO_NAME = 'remix-design-remixicon'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/remix.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/remix'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/remix.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/remix'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Remix
-        class <%= icon_name %> < Base
-          def view_template
-            <%= icon %>
-          end
+  module PhlexIcons
+    module Remix
+      class <%= icon_name %> < Base
+        def view_template
+          <%= icon %>
         end
       end
     end

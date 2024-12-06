@@ -4,24 +4,22 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/tabler/tabler-icons.git'
 REPO_NAME = 'tabler-tabler-icons'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/tabler.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/tabler'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/tabler.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/tabler'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Tabler
-        class <%= icon_name %> < Base
-          def filled
-            <%= filled_icon %>
-          end
+  module PhlexIcons
+    module Tabler
+      class <%= icon_name %> < Base
+        def filled
+          <%= filled_icon %>
+        end
 
-          def outline
-            <%= outline_icon %>
-          end
+        def outline
+          <%= outline_icon %>
         end
       end
     end

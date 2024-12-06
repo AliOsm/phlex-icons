@@ -4,24 +4,22 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/lipis/flag-icons.git'
 REPO_NAME = 'lipis-flag-icons'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/flag.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/flag'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/flag.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/flag'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Flag
-        class <%= icon_name %> < Base
-          def square
-            <%= square_icon %>
-          end
+  module PhlexIcons
+    module Flag
+      class <%= icon_name %> < Base
+        def square
+          <%= square_icon %>
+        end
 
-          def rectangle
-            <%= rectangle_icon %>
-          end
+        def rectangle
+          <%= rectangle_icon %>
         end
       end
     end

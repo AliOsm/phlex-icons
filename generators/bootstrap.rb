@@ -4,20 +4,18 @@ require_relative 'helper'
 
 REPO_URL = 'https://github.com/twbs/icons.git'
 REPO_NAME = 'twbs-icons'
-ICONS_PACK_MODULE_PATH = 'lib/phlex/icons/bootstrap.rb'
-ICONS_PACK_PATH = 'lib/phlex/icons/bootstrap'
+ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/bootstrap.rb'
+ICONS_PACK_PATH = 'lib/phlex-icons/bootstrap'
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
 
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
-  module Phlex
-    module Icons
-      module Bootstrap
-        class <%= icon_name %> < Base
-          def view_template
-            <%= icon %>
-          end
+  module PhlexIcons
+    module Bootstrap
+      class <%= icon_name %> < Base
+        def view_template
+          <%= icon %>
         end
       end
     end
