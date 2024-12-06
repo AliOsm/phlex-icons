@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Tabler # rubocop:disable Metrics/ModuleLength
-      VERSION = '3.23.0'
+      VERSION = '3.24.0'
       VARIANTS = %i[outline filled].freeze
 
       extend Phlex::Kit
@@ -1073,6 +1073,7 @@ module Phlex
       autoload :CactusOff, 'phlex/icons/tabler/cactus_off'
       autoload :Cake, 'phlex/icons/tabler/cake'
       autoload :CakeOff, 'phlex/icons/tabler/cake_off'
+      autoload :CakeRoll, 'phlex/icons/tabler/cake_roll'
       autoload :Calculator, 'phlex/icons/tabler/calculator'
       autoload :CalculatorOff, 'phlex/icons/tabler/calculator_off'
       autoload :Calendar, 'phlex/icons/tabler/calendar'
@@ -3139,6 +3140,7 @@ module Phlex
       autoload :MathXy, 'phlex/icons/tabler/math_xy'
       autoload :MathYMinusY, 'phlex/icons/tabler/math_y_minus_y'
       autoload :MathYPlusY, 'phlex/icons/tabler/math_y_plus_y'
+      autoload :Matrix, 'phlex/icons/tabler/matrix'
       autoload :Maximize, 'phlex/icons/tabler/maximize'
       autoload :MaximizeOff, 'phlex/icons/tabler/maximize_off'
       autoload :Meat, 'phlex/icons/tabler/meat'
@@ -4271,6 +4273,7 @@ module Phlex
       autoload :SquareChevronsLeft, 'phlex/icons/tabler/square_chevrons_left'
       autoload :SquareChevronsRight, 'phlex/icons/tabler/square_chevrons_right'
       autoload :SquareChevronsUp, 'phlex/icons/tabler/square_chevrons_up'
+      autoload :SquareDashed, 'phlex/icons/tabler/square_dashed'
       autoload :SquareDot, 'phlex/icons/tabler/square_dot'
       autoload :SquareF0, 'phlex/icons/tabler/square_f0'
       autoload :SquareF1, 'phlex/icons/tabler/square_f1'
@@ -4465,6 +4468,7 @@ module Phlex
       autoload :Table, 'phlex/icons/tabler/table'
       autoload :TableAlias, 'phlex/icons/tabler/table_alias'
       autoload :TableColumn, 'phlex/icons/tabler/table_column'
+      autoload :TableDashed, 'phlex/icons/tabler/table_dashed'
       autoload :TableDown, 'phlex/icons/tabler/table_down'
       autoload :TableExport, 'phlex/icons/tabler/table_export'
       autoload :TableHeart, 'phlex/icons/tabler/table_heart'

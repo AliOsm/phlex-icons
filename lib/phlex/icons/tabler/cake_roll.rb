@@ -3,7 +3,7 @@
 module Phlex
   module Icons
     module Tabler
-      class Ferry < Base
+      class CakeRoll < Base
         def filled
           raise NotImplementedError
         end
@@ -19,9 +19,17 @@ module Phlex
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           ) do |s|
-            s.path(d: 'M2 18h15.293c1.02 0 1.972 -.503 2.536 -1.34l2.171 -3.66h-18.479z')
-            s.path(d: 'M14 8l-1 -2')
-            s.path(d: 'M6.107 12.675l1.384 -4.675h8l2.675 4.598')
+            s.path(
+              d:
+                'M12 15c-4.97 0 -9 -2.462 -9 -5.5s4.03 -5.5 9 -5.5s9 2.462 9 5.5s-4.03 5.5 -9 5.5'
+            )
+            s.path(
+              d:
+                'M12 6.97c3 0 4 1.036 4 1.979c0 2.805 -8 2.969 -8 -.99c0 -2.11 1.5 -3.959 4 -3.959'
+            )
+            s.path(
+              d: 'M21 9.333v5.334c0 2.945 -4.03 5.333 -9 5.333s-9 -2.388 -9 -5.333v-5.334'
+            )
           end
         end
       end
