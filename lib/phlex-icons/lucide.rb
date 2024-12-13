@@ -1554,6 +1554,6 @@ module PhlexIcons
     autoload :ZapOff, 'phlex-icons/lucide/zap_off'
     autoload :ZoomIn, 'phlex-icons/lucide/zoom_in'
     autoload :ZoomOut, 'phlex-icons/lucide/zoom_out'
-    # auto-generated autoload: end
+      # auto-generated autoload: end
   end
 end
