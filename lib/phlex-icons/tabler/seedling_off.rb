@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
-    class SeedingOff < Base
+    class SeedlingOff < Base
       def filled
         raise NotImplementedError
       end

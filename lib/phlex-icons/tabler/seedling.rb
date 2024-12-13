@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
-    class Seeding < Base
+    class Seedling < Base
       def filled
         svg(
           **attrs,

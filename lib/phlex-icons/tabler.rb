@@ -4049,8 +4049,8 @@ module PhlexIcons
     autoload :SearchOff, 'phlex-icons/tabler/search_off'
     autoload :Section, 'phlex-icons/tabler/section'
     autoload :SectionSign, 'phlex-icons/tabler/section_sign'
-    autoload :Seeding, 'phlex-icons/tabler/seeding'
-    autoload :SeedingOff, 'phlex-icons/tabler/seeding_off'
+    autoload :Seedling, 'phlex-icons/tabler/seedling'
+    autoload :SeedlingOff, 'phlex-icons/tabler/seedling_off'
     autoload :Select, 'phlex-icons/tabler/select'
     autoload :SelectAll, 'phlex-icons/tabler/select_all'
     autoload :Selector, 'phlex-icons/tabler/selector'
@@ -4916,7 +4916,7 @@ module PhlexIcons
     autoload :ZoomScan, 'phlex-icons/tabler/zoom_scan'
     autoload :Zzz, 'phlex-icons/tabler/zzz'
     autoload :ZzzOff, 'phlex-icons/tabler/zzz_off'
-    # auto-generated autoload: end
+      # auto-generated autoload: end
 
     class << self
       def configuration
