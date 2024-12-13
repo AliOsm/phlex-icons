@@ -335,7 +335,7 @@ module PhlexIcons
     autoload :WrenchScrewdriver, 'phlex-icons/hero/wrench_screwdriver'
     autoload :XCircle, 'phlex-icons/hero/x_circle'
     autoload :XMark, 'phlex-icons/hero/x_mark'
-    # auto-generated autoload: end
+      # auto-generated autoload: end
 
     class << self
       def configuration
