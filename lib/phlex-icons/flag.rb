@@ -281,7 +281,7 @@ module PhlexIcons
     autoload :Za, 'phlex-icons/flag/za'
     autoload :Zm, 'phlex-icons/flag/zm'
     autoload :Zw, 'phlex-icons/flag/zw'
-    # auto-generated autoload: end
+      # auto-generated autoload: end
 
     class << self
       def configuration
