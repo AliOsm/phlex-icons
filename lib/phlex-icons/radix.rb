@@ -328,6 +328,6 @@ module PhlexIcons
     autoload :Width, 'phlex-icons/radix/width'
     autoload :ZoomIn, 'phlex-icons/radix/zoom_in'
     autoload :ZoomOut, 'phlex-icons/radix/zoom_out'
-      # auto-generated autoload: end
+    # auto-generated autoload: end
   end
 end

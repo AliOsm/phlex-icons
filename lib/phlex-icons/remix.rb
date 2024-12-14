@@ -3030,6 +3030,6 @@ module PhlexIcons
     autoload :ZoomOutLine, 'phlex-icons/remix/zoom_out_line'
     autoload :ZzzFill, 'phlex-icons/remix/zzz_fill'
     autoload :ZzzLine, 'phlex-icons/remix/zzz_line'
-      # auto-generated autoload: end
+    # auto-generated autoload: end
   end
 end

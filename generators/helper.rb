@@ -96,7 +96,7 @@ def make_components_lazy_loadable(path)
 
   new_content = File.read("#{path}.rb").gsub(
     /# auto-generated autoload: start.*# auto-generated autoload: end/m,
-    "# auto-generated autoload: start\n#{autoload_lines}\n      # auto-generated autoload: end"
+    "# auto-generated autoload: start\n#{autoload_lines}\n    # auto-generated autoload: end"
   )
 
   File.write("#{path}.rb", new_content)

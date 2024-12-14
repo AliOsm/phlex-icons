@@ -2060,6 +2060,6 @@ module PhlexIcons
     autoload :ZeroSquareFill, 'phlex-icons/bootstrap/zero_square_fill'
     autoload :ZoomIn, 'phlex-icons/bootstrap/zoom_in'
     autoload :ZoomOut, 'phlex-icons/bootstrap/zoom_out'
-      # auto-generated autoload: end
+    # auto-generated autoload: end
   end
 end

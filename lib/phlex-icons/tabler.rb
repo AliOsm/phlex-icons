@@ -4916,7 +4916,7 @@ module PhlexIcons
     autoload :ZoomScan, 'phlex-icons/tabler/zoom_scan'
     autoload :Zzz, 'phlex-icons/tabler/zzz'
     autoload :ZzzOff, 'phlex-icons/tabler/zzz_off'
-      # auto-generated autoload: end
+    # auto-generated autoload: end
 
     class << self
       def configuration
