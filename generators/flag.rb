@@ -6,6 +6,7 @@ REPO_URL = 'https://github.com/lipis/flag-icons.git'
 REPO_NAME = 'lipis-flag-icons'
 ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/flag.rb'
 ICONS_PACK_PATH = 'lib/phlex-icons/flag'
+VARIANTS = %i[square rectangle].freeze
 
 TEMPLATE = ERB.new <<~TEMPLATE
   # frozen_string_literal: true
@@ -26,6 +27,22 @@ TEMPLATE = ERB.new <<~TEMPLATE
   end
   # rubocop:enable #{ROBOCOP_DISABLE_WARNINGS}
 TEMPLATE
+
+VARIANT_TEMPLATE = ERB.new <<~VARIANT_TEMPLATE
+  # frozen_string_literal: true
+
+  # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
+  module PhlexIcons
+    module Flag
+      class <%= icon_name %><%= variant.to_s.capitalize %> < Base
+        def view_template
+          render <%= icon_name %>.new(variant: :<%= variant %>)
+        end
+      end
+    end
+  end
+  # rubocop:enable #{ROBOCOP_DISABLE_WARNINGS}
+VARIANT_TEMPLATE
 
 def main
   run_generator do
@@ -49,6 +66,16 @@ def create_icon_component(icon_file_name)
       rectangle_icon: read_and_convert_icon(rectangle_icon_file_path(icon_file_name))
     )
   )
+
+  VARIANTS.each do |variant|
+    File.write(
+      File.join(ICONS_PACK_PATH, variant_component_file_name(icon_file_name, variant)),
+      VARIANT_TEMPLATE.result_with_hash(
+        icon_name: component_class_name(icon_file_name),
+        variant: variant
+      )
+    )
+  end
 end
 
 def read_and_convert_icon(icon_file_path)
