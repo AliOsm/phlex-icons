@@ -1,10 +1,21 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
     class CircleCaretLeft < Base
       def filled
-        raise NotImplementedError
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'currentColor'
+        ) do |s|
+          s.path(
+            d:
+              'M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10a10 10 0 1 1 0 -20m2 13v-6a1 1 0 0 0 -1.707 -.708l-3 3a1 1 0 0 0 0 1.415l3 3a1 1 0 0 0 1.414 0l.083 -.094c.14 -.18 .21 -.396 .21 -.613'
+          )
+        end
       end
 
       def outline
@@ -25,3 +36,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Layout/LineLength

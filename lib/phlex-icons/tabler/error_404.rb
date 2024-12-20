@@ -18,14 +18,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 7v4a1 1 0 0 0 1 1h3')
-          s.path(d: 'M7 7v10')
-          s.path(
-            d:
-              'M10 8v8a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1z'
-          )
-          s.path(d: 'M17 7v4a1 1 0 0 0 1 1h3')
-          s.path(d: 'M21 7v10')
+          s.path(d: 'M3 8v3a1 1 0 0 0 1 1h3')
+          s.path(d: 'M7 8v8')
+          s.path(d: 'M17 8v3a1 1 0 0 0 1 1h3')
+          s.path(d: 'M21 8v8')
+          s.path(d: 'M10 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0')
         end
       end
     end
