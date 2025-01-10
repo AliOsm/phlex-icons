@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Tabler # rubocop:disable Metrics/ModuleLength
-    VERSION = '3.26.0'
+    VERSION = '3.28.1'
     VARIANTS = %i[outline filled].freeze
 
     extend Phlex::Kit
@@ -6698,6 +6698,9 @@ module PhlexIcons
     autoload :FileTextAiOutline, 'phlex-icons/tabler/file_text_ai_outline'
     autoload :FileTextFilled, 'phlex-icons/tabler/file_text_filled'
     autoload :FileTextOutline, 'phlex-icons/tabler/file_text_outline'
+    autoload :FileTextShield, 'phlex-icons/tabler/file_text_shield'
+    autoload :FileTextShieldFilled, 'phlex-icons/tabler/file_text_shield_filled'
+    autoload :FileTextShieldOutline, 'phlex-icons/tabler/file_text_shield_outline'
     autoload :FileTextSpark, 'phlex-icons/tabler/file_text_spark'
     autoload :FileTextSparkFilled, 'phlex-icons/tabler/file_text_spark_filled'
     autoload :FileTextSparkOutline, 'phlex-icons/tabler/file_text_spark_outline'
@@ -7471,6 +7474,9 @@ module PhlexIcons
     autoload :HammerOutline, 'phlex-icons/tabler/hammer_outline'
     autoload :HandClick, 'phlex-icons/tabler/hand_click'
     autoload :HandClickFilled, 'phlex-icons/tabler/hand_click_filled'
+    autoload :HandClickOff, 'phlex-icons/tabler/hand_click_off'
+    autoload :HandClickOffFilled, 'phlex-icons/tabler/hand_click_off_filled'
+    autoload :HandClickOffOutline, 'phlex-icons/tabler/hand_click_off_outline'
     autoload :HandClickOutline, 'phlex-icons/tabler/hand_click_outline'
     autoload :HandFinger, 'phlex-icons/tabler/hand_finger'
     autoload :HandFingerDown, 'phlex-icons/tabler/hand_finger_down'
@@ -11741,6 +11747,9 @@ module PhlexIcons
     autoload :ReplaceOffFilled, 'phlex-icons/tabler/replace_off_filled'
     autoload :ReplaceOffOutline, 'phlex-icons/tabler/replace_off_outline'
     autoload :ReplaceOutline, 'phlex-icons/tabler/replace_outline'
+    autoload :ReplaceUser, 'phlex-icons/tabler/replace_user'
+    autoload :ReplaceUserFilled, 'phlex-icons/tabler/replace_user_filled'
+    autoload :ReplaceUserOutline, 'phlex-icons/tabler/replace_user_outline'
     autoload :Report, 'phlex-icons/tabler/report'
     autoload :ReportAnalytics, 'phlex-icons/tabler/report_analytics'
     autoload :ReportAnalyticsFilled, 'phlex-icons/tabler/report_analytics_filled'
