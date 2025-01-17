@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.469.0'
+    VERSION = '0.471.1'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -770,6 +770,7 @@ module PhlexIcons
     autoload :House, 'phlex-icons/lucide/house'
     autoload :HousePlug, 'phlex-icons/lucide/house_plug'
     autoload :HousePlus, 'phlex-icons/lucide/house_plus'
+    autoload :HouseWifi, 'phlex-icons/lucide/house_wifi'
     autoload :IceCreamBowl, 'phlex-icons/lucide/ice_cream_bowl'
     autoload :IceCreamCone, 'phlex-icons/lucide/ice_cream_cone'
     autoload :IdCard, 'phlex-icons/lucide/id_card'
@@ -1451,6 +1452,7 @@ module PhlexIcons
     autoload :TrendingUpDown, 'phlex-icons/lucide/trending_up_down'
     autoload :Triangle, 'phlex-icons/lucide/triangle'
     autoload :TriangleAlert, 'phlex-icons/lucide/triangle_alert'
+    autoload :TriangleDashed, 'phlex-icons/lucide/triangle_dashed'
     autoload :TriangleRight, 'phlex-icons/lucide/triangle_right'
     autoload :Trophy, 'phlex-icons/lucide/trophy'
     autoload :Truck, 'phlex-icons/lucide/truck'
