@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Flag # rubocop:disable Metrics/ModuleLength
-    VERSION = '7.3.1'
+    VERSION = '7.3.2'
     VARIANTS = %i[rectangle square].freeze
 
     extend Phlex::Kit
@@ -47,6 +47,9 @@ module PhlexIcons
     autoload :As, 'phlex-icons/flag/as'
     autoload :AsRectangle, 'phlex-icons/flag/as_rectangle'
     autoload :AsSquare, 'phlex-icons/flag/as_square'
+    autoload :Asean, 'phlex-icons/flag/asean'
+    autoload :AseanRectangle, 'phlex-icons/flag/asean_rectangle'
+    autoload :AseanSquare, 'phlex-icons/flag/asean_square'
     autoload :At, 'phlex-icons/flag/at'
     autoload :AtRectangle, 'phlex-icons/flag/at_rectangle'
     autoload :AtSquare, 'phlex-icons/flag/at_square'
