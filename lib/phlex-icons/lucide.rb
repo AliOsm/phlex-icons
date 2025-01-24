@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.471.1'
+    VERSION = '0.474.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -150,6 +150,7 @@ module PhlexIcons
     autoload :BatteryFull, 'phlex-icons/lucide/battery_full'
     autoload :BatteryLow, 'phlex-icons/lucide/battery_low'
     autoload :BatteryMedium, 'phlex-icons/lucide/battery_medium'
+    autoload :BatteryPlus, 'phlex-icons/lucide/battery_plus'
     autoload :BatteryWarning, 'phlex-icons/lucide/battery_warning'
     autoload :Beaker, 'phlex-icons/lucide/beaker'
     autoload :Bean, 'phlex-icons/lucide/bean'
@@ -898,6 +899,7 @@ module PhlexIcons
     autoload :MapPinX, 'phlex-icons/lucide/map_pin_x'
     autoload :MapPinXInside, 'phlex-icons/lucide/map_pin_x_inside'
     autoload :MapPinned, 'phlex-icons/lucide/map_pinned'
+    autoload :MapPlus, 'phlex-icons/lucide/map_plus'
     autoload :Martini, 'phlex-icons/lucide/martini'
     autoload :Maximize, 'phlex-icons/lucide/maximize'
     autoload :Maximize2, 'phlex-icons/lucide/maximize_2'

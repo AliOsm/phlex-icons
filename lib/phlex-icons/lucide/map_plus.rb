@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Package < Base
+    class MapPlus < Base
       def view_template
         svg(
           **attrs,
@@ -17,11 +17,12 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z'
+              'm11 19-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12'
           )
-          s.path(d: 'M12 22V12')
-          s.polyline(points: '3.29 7 12 12 20.71 7')
-          s.path(d: 'm7.5 4.27 9 5.15')
+          s.path(d: 'M15 5.764V12')
+          s.path(d: 'M18 15v6')
+          s.path(d: 'M21 18h-6')
+          s.path(d: 'M9 3.236v15')
         end
       end
     end

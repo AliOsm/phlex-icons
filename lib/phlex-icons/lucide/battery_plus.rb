@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Package < Base
+    class BatteryPlus < Base
       def view_template
         svg(
           **attrs,
@@ -15,16 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(
-            d:
-              'M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z'
-          )
-          s.path(d: 'M12 22V12')
-          s.polyline(points: '3.29 7 12 12 20.71 7')
-          s.path(d: 'm7.5 4.27 9 5.15')
+          s.path(d: 'M10 9v6')
+          s.path(d: 'M13.5 7H16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2.5')
+          s.path(d: 'M22 11v2')
+          s.path(d: 'M6.5 17H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2.5')
+          s.path(d: 'M7 12h6')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
