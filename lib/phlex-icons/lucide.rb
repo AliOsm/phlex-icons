@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.474.0'
+    VERSION = '0.475.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -375,6 +375,7 @@ module PhlexIcons
     autoload :CirclePower, 'phlex-icons/lucide/circle_power'
     autoload :CircleSlash, 'phlex-icons/lucide/circle_slash'
     autoload :CircleSlash2, 'phlex-icons/lucide/circle_slash_2'
+    autoload :CircleSmall, 'phlex-icons/lucide/circle_small'
     autoload :CircleStop, 'phlex-icons/lucide/circle_stop'
     autoload :CircleUser, 'phlex-icons/lucide/circle_user'
     autoload :CircleUserRound, 'phlex-icons/lucide/circle_user_round'
@@ -900,6 +901,8 @@ module PhlexIcons
     autoload :MapPinXInside, 'phlex-icons/lucide/map_pin_x_inside'
     autoload :MapPinned, 'phlex-icons/lucide/map_pinned'
     autoload :MapPlus, 'phlex-icons/lucide/map_plus'
+    autoload :Mars, 'phlex-icons/lucide/mars'
+    autoload :MarsStroke, 'phlex-icons/lucide/mars_stroke'
     autoload :Martini, 'phlex-icons/lucide/martini'
     autoload :Maximize, 'phlex-icons/lucide/maximize'
     autoload :Maximize2, 'phlex-icons/lucide/maximize_2'
@@ -998,6 +1001,7 @@ module PhlexIcons
     autoload :Network, 'phlex-icons/lucide/network'
     autoload :Newspaper, 'phlex-icons/lucide/newspaper'
     autoload :Nfc, 'phlex-icons/lucide/nfc'
+    autoload :NonBinary, 'phlex-icons/lucide/non_binary'
     autoload :Notebook, 'phlex-icons/lucide/notebook'
     autoload :NotebookPen, 'phlex-icons/lucide/notebook_pen'
     autoload :NotebookTabs, 'phlex-icons/lucide/notebook_tabs'
@@ -1442,6 +1446,7 @@ module PhlexIcons
     autoload :TrainFrontTunnel, 'phlex-icons/lucide/train_front_tunnel'
     autoload :TrainTrack, 'phlex-icons/lucide/train_track'
     autoload :TramFront, 'phlex-icons/lucide/tram_front'
+    autoload :Transgender, 'phlex-icons/lucide/transgender'
     autoload :Trash, 'phlex-icons/lucide/trash'
     autoload :Trash2, 'phlex-icons/lucide/trash_2'
     autoload :TreeDeciduous, 'phlex-icons/lucide/tree_deciduous'
@@ -1506,6 +1511,8 @@ module PhlexIcons
     autoload :Vault, 'phlex-icons/lucide/vault'
     autoload :Vegan, 'phlex-icons/lucide/vegan'
     autoload :VenetianMask, 'phlex-icons/lucide/venetian_mask'
+    autoload :Venus, 'phlex-icons/lucide/venus'
+    autoload :VenusAndMars, 'phlex-icons/lucide/venus_and_mars'
     autoload :Vibrate, 'phlex-icons/lucide/vibrate'
     autoload :VibrateOff, 'phlex-icons/lucide/vibrate_off'
     autoload :Video, 'phlex-icons/lucide/video'
