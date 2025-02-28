@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Beef < Base
+    class ShieldUser < Base
       def view_template
         svg(
           **attrs,
@@ -16,15 +17,13 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M16.4 13.7A6.5 6.5 0 1 0 6.28 6.6c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c4 0 8.4-1.8 11.4-4.3'
+              'M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'
           )
-          s.path(
-            d:
-              'm18.5 6 2.19 4.5a6.48 6.48 0 0 1-2.29 7.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5'
-          )
-          s.circle(cx: '12.5', cy: '8.5', r: '2.5')
+          s.path(d: 'M6.376 18.91a6 6 0 0 1 11.249.003')
+          s.circle(cx: '12', cy: '11', r: '4')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
