@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.476.0'
+    VERSION = '0.477.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1340,6 +1340,7 @@ module PhlexIcons
     autoload :SquarePlus, 'phlex-icons/lucide/square_plus'
     autoload :SquarePower, 'phlex-icons/lucide/square_power'
     autoload :SquareRadical, 'phlex-icons/lucide/square_radical'
+    autoload :SquareRoundCorner, 'phlex-icons/lucide/square_round_corner'
     autoload :SquareScissors, 'phlex-icons/lucide/square_scissors'
     autoload :SquareSigma, 'phlex-icons/lucide/square_sigma'
     autoload :SquareSlash, 'phlex-icons/lucide/square_slash'
