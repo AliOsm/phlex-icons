@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Tabler
-    class Cash < Base
+    class CashBanknoteMinus < Base
       def filled
         raise NotImplementedError
       end
@@ -18,12 +18,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M7 15h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v3')
-          s.path(
-            d:
-              'M7 9m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z'
-          )
-          s.path(d: 'M12 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0')
+          s.path(d: 'M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0')
+          s.path(d: 'M12 18h-7a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7')
+          s.path(d: 'M18 12h.01')
+          s.path(d: 'M6 12h.01')
+          s.path(d: 'M16 19h6')
         end
       end
     end
