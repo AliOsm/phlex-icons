@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.477.0'
+    VERSION = '0.479.0'
     VARIANTS = nil
 
     extend Phlex::Kit
