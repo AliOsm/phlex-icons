@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FilterX < Base
+    class ClockFading < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M13.013 3H2l8 9.46V19l4 2v-8.54l.9-1.055')
-          s.path(d: 'm22 3-5 5')
-          s.path(d: 'm17 3 5 5')
+          s.path(d: 'M12 2a10 10 0 0 1 7.38 16.75')
+          s.path(d: 'M12 6v6l4 2')
+          s.path(d: 'M2.5 8.875a10 10 0 0 0-.5 3')
+          s.path(d: 'M2.83 16a10 10 0 0 0 2.43 3.4')
+          s.path(d: 'M4.636 5.235a10 10 0 0 1 .891-.857')
+          s.path(d: 'M8.644 21.42a10 10 0 0 0 7.631-.38')
         end
       end
     end

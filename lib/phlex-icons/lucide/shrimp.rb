@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Newspaper < Base
+    class Shrimp < Base
       def view_template
         svg(
           **attrs,
@@ -14,15 +15,17 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 18h-5')
-          s.path(d: 'M18 14h-8')
+          s.path(d: 'M11 12h.01')
+          s.path(d: 'M13 22c.5-.5 1.12-1 2.5-1-1.38 0-2-.5-2.5-1')
           s.path(
             d:
-              'M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2'
+              'M14 2a3.276 3.276 0 0 1-3.227 1.798l-6.17-.561A2.387 2.387 0 1 0 4.387 8H15.5a1 1 0 0 1 0 13 1 1 0 0 0 0-5H12a7 7 0 0 1-7-7V8'
           )
-          s.rect(x: '10', y: '6', width: '8', height: '4', rx: '1')
+          s.path(d: 'M14 8a8.5 8.5 0 0 1 0 8')
+          s.path(d: 'M16 16c2 0 4.5-4 4-6')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

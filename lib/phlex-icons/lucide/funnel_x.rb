@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Infinity < Base
+    class FunnelX < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M6 16c5 0 7-8 12-8a4 4 0 0 1 0 8c-5 0-7-8-12-8a4 4 0 1 0 0 8')
+          s.path(
+            d:
+              'M12.531 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l.427-.473'
+          )
+          s.path(d: 'm16.5 3.5 5 5')
+          s.path(d: 'm21.5 3.5-5 5')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

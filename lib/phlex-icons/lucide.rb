@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.479.0'
+    VERSION = '0.483.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -410,6 +410,7 @@ module PhlexIcons
     autoload :ClockAlert, 'phlex-icons/lucide/clock_alert'
     autoload :ClockArrowDown, 'phlex-icons/lucide/clock_arrow_down'
     autoload :ClockArrowUp, 'phlex-icons/lucide/clock_arrow_up'
+    autoload :ClockFading, 'phlex-icons/lucide/clock_fading'
     autoload :Cloud, 'phlex-icons/lucide/cloud'
     autoload :CloudAlert, 'phlex-icons/lucide/cloud_alert'
     autoload :CloudCog, 'phlex-icons/lucide/cloud_cog'
@@ -616,8 +617,6 @@ module PhlexIcons
     autoload :FileX2, 'phlex-icons/lucide/file_x_2'
     autoload :Files, 'phlex-icons/lucide/files'
     autoload :Film, 'phlex-icons/lucide/film'
-    autoload :Filter, 'phlex-icons/lucide/filter'
-    autoload :FilterX, 'phlex-icons/lucide/filter_x'
     autoload :Fingerprint, 'phlex-icons/lucide/fingerprint'
     autoload :FireExtinguisher, 'phlex-icons/lucide/fire_extinguisher'
     autoload :Fish, 'phlex-icons/lucide/fish'
@@ -682,6 +681,9 @@ module PhlexIcons
     autoload :Frown, 'phlex-icons/lucide/frown'
     autoload :Fuel, 'phlex-icons/lucide/fuel'
     autoload :Fullscreen, 'phlex-icons/lucide/fullscreen'
+    autoload :Funnel, 'phlex-icons/lucide/funnel'
+    autoload :FunnelPlus, 'phlex-icons/lucide/funnel_plus'
+    autoload :FunnelX, 'phlex-icons/lucide/funnel_x'
     autoload :GalleryHorizontal, 'phlex-icons/lucide/gallery_horizontal'
     autoload :GalleryHorizontalEnd, 'phlex-icons/lucide/gallery_horizontal_end'
     autoload :GalleryThumbnails, 'phlex-icons/lucide/gallery_thumbnails'
@@ -1185,6 +1187,7 @@ module PhlexIcons
     autoload :Sandwich, 'phlex-icons/lucide/sandwich'
     autoload :Satellite, 'phlex-icons/lucide/satellite'
     autoload :SatelliteDish, 'phlex-icons/lucide/satellite_dish'
+    autoload :SaudiRiyal, 'phlex-icons/lucide/saudi_riyal'
     autoload :Save, 'phlex-icons/lucide/save'
     autoload :SaveAll, 'phlex-icons/lucide/save_all'
     autoload :SaveOff, 'phlex-icons/lucide/save_off'
@@ -1249,6 +1252,7 @@ module PhlexIcons
     autoload :ShoppingCart, 'phlex-icons/lucide/shopping_cart'
     autoload :Shovel, 'phlex-icons/lucide/shovel'
     autoload :ShowerHead, 'phlex-icons/lucide/shower_head'
+    autoload :Shrimp, 'phlex-icons/lucide/shrimp'
     autoload :Shrink, 'phlex-icons/lucide/shrink'
     autoload :Shrub, 'phlex-icons/lucide/shrub'
     autoload :Shuffle, 'phlex-icons/lucide/shuffle'
