@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Newspaper < Base
+    class BanknoteArrowUp < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 18h-5')
-          s.path(d: 'M18 14h-8')
-          s.path(
-            d:
-              'M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2'
-          )
-          s.rect(width: '8', height: '4', x: '10', y: '6', rx: '1')
+          s.path(d: 'M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5')
+          s.path(d: 'M18 12h.01')
+          s.path(d: 'M19 22v-6')
+          s.path(d: 'm22 19-3-3-3 3')
+          s.path(d: 'M6 12h.01')
+          s.circle(cx: '12', cy: '12', r: '2')
         end
       end
     end

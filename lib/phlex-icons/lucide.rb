@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.484.0'
+    VERSION = '0.487.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -142,6 +142,9 @@ module PhlexIcons
     autoload :Banana, 'phlex-icons/lucide/banana'
     autoload :Bandage, 'phlex-icons/lucide/bandage'
     autoload :Banknote, 'phlex-icons/lucide/banknote'
+    autoload :BanknoteArrowDown, 'phlex-icons/lucide/banknote_arrow_down'
+    autoload :BanknoteArrowUp, 'phlex-icons/lucide/banknote_arrow_up'
+    autoload :BanknoteX, 'phlex-icons/lucide/banknote_x'
     autoload :Barcode, 'phlex-icons/lucide/barcode'
     autoload :Baseline, 'phlex-icons/lucide/baseline'
     autoload :Bath, 'phlex-icons/lucide/bath'
@@ -1292,6 +1295,7 @@ module PhlexIcons
     autoload :SpellCheck, 'phlex-icons/lucide/spell_check'
     autoload :SpellCheck2, 'phlex-icons/lucide/spell_check_2'
     autoload :Spline, 'phlex-icons/lucide/spline'
+    autoload :SplinePointer, 'phlex-icons/lucide/spline_pointer'
     autoload :Split, 'phlex-icons/lucide/split'
     autoload :SprayCan, 'phlex-icons/lucide/spray_can'
     autoload :Sprout, 'phlex-icons/lucide/sprout'
