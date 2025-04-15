@@ -8,7 +8,17 @@ ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/material.rb'
 ICONS_PACK_PATH = 'lib/phlex-icons/material'
 VARIANTS = %i[filled outlined].freeze
 REPLACEMENTS = {
-  '123' => 'one_two_three'
+  '123' => 'one_two_three',
+  '360' => 'three_sixty',
+  '1x' => 'one_x',
+  '3d' => 'three_d',
+  '3g' => 'three_g',
+  '3p' => 'three_p',
+  '30fps' => 'thirty_fps',
+  '4g' => 'four_g',
+  '5g' => 'five_g',
+  '60fps' => 'sixty_fps',
+  '6_ft' => 'six_feet',
 }.freeze
 
 TEMPLATE = ERB.new <<~TEMPLATE
