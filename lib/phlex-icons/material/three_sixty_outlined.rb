@@ -1,13 +1,11 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/ClassLength,Metrics/MethodLength
 module PhlexIcons
   module Material
-    class 360Outlined < Base
+    class ThreeSixtyOutlined < Base
       def view_template
-        render 360.new(variant: :outlined, **attrs)
+        render ThreeSixty.new(variant: :outlined, **attrs)
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/ClassLength,Metrics/MethodLength

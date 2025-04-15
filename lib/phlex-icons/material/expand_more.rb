@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Material
     class ExpandMore < Base
@@ -22,6 +23,40 @@ module PhlexIcons
           s.path(d: 'M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z')
         end
       end
+
+      def round
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M15.88 9.29 12 13.17 8.12 9.29a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z'
+          )
+        end
+      end
+
+      def sharp
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(d: 'M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z')
+        end
+      end
+
+      def two_tone
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(d: 'M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z')
+        end
+      end
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -28,6 +28,42 @@ module PhlexIcons
           )
         end
       end
+
+      def round
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.circle(cx: '12', cy: '18', r: '2')
+        end
+      end
+
+      def sharp
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M15.53 17.46 12 21l-3.53-3.54c.9-.9 2.15-1.46 3.53-1.46s2.63.56 3.53 1.46z'
+          )
+        end
+      end
+
+      def two_tone
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M15.53 17.46 12 21l-3.53-3.54c.9-.9 2.15-1.46 3.53-1.46s2.63.56 3.53 1.46z'
+          )
+        end
+      end
     end
   end
 end

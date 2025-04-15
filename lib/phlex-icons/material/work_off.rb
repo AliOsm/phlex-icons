@@ -29,6 +29,46 @@ module PhlexIcons
           )
         end
       end
+
+      def round
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M4.11 2.54A.996.996 0 1 0 2.7 3.95L4.74 6H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h15.74l1.29 1.29a.996.996 0 1 0 1.41-1.41L4.11 2.54zM10 4h4v2h-3.6L22 17.6V8c0-1.11-.89-2-2-2h-4V4c0-1.11-.89-2-2-2h-4c-.99 0-1.8.7-1.96 1.64L10 5.6V4z'
+          )
+        end
+      end
+
+      def sharp
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M10 4h4v2h-3.6L22 17.6V6h-6V4c0-1.1-.9-2-2-2h-4c-.98 0-1.79.71-1.96 1.64L10 5.6V4zM3.4 1.84 1.99 3.25 4.74 6H2.01L2 21h17.74l2 2 1.41-1.41z'
+          )
+        end
+      end
+
+      def two_tone
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(d: 'M4 8v11h13.74l-11-11zm8.4 0 7.6 7.6V8z', opacity: '.3')
+          s.path(
+            d:
+              'M10 4h4v2h-3.6l2 2H20v7.6l2 2V8c0-1.11-.89-2-2-2h-4V4c0-1.11-.89-2-2-2h-4c-.99 0-1.8.7-1.96 1.64L10 5.6V4zM3.4 1.84 1.99 3.25 4.74 6H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h15.74l2 2 1.41-1.41L3.4 1.84zM4 19V8h2.74l11 11H4z'
+          )
+        end
+      end
     end
   end
 end
