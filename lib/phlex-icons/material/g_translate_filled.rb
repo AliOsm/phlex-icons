@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GTranslateFilled < Base
       def view_template
-        render GTranslate.new(variant: :filled)
+        render GTranslate.new(variant: :filled, **attrs)
       end
     end
   end

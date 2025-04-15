@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlatwareFilled < Base
       def view_template
-        render Flatware.new(variant: :filled)
+        render Flatware.new(variant: :filled, **attrs)
       end
     end
   end

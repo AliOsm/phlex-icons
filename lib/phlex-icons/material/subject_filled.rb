@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SubjectFilled < Base
       def view_template
-        render Subject.new(variant: :filled)
+        render Subject.new(variant: :filled, **attrs)
       end
     end
   end

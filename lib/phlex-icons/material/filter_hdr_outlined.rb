@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterHdrOutlined < Base
       def view_template
-        render FilterHdr.new(variant: :outlined)
+        render FilterHdr.new(variant: :outlined, **attrs)
       end
     end
   end

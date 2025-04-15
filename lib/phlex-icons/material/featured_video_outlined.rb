@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FeaturedVideoOutlined < Base
       def view_template
-        render FeaturedVideo.new(variant: :outlined)
+        render FeaturedVideo.new(variant: :outlined, **attrs)
       end
     end
   end

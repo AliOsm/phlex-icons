@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AccessibilityFilled < Base
       def view_template
-        render Accessibility.new(variant: :filled)
+        render Accessibility.new(variant: :filled, **attrs)
       end
     end
   end

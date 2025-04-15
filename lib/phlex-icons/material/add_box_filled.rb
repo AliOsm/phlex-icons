@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddBoxFilled < Base
       def view_template
-        render AddBox.new(variant: :filled)
+        render AddBox.new(variant: :filled, **attrs)
       end
     end
   end

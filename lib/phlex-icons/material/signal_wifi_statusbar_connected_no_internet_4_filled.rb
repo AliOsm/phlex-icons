@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SignalWifiStatusbarConnectedNoInternet4Filled < Base
       def view_template
-        render SignalWifiStatusbarConnectedNoInternet4.new(variant: :filled)
+        render SignalWifiStatusbarConnectedNoInternet4.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HikingFilled < Base
       def view_template
-        render Hiking.new(variant: :filled)
+        render Hiking.new(variant: :filled, **attrs)
       end
     end
   end

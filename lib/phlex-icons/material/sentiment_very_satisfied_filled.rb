@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SentimentVerySatisfiedFilled < Base
       def view_template
-        render SentimentVerySatisfied.new(variant: :filled)
+        render SentimentVerySatisfied.new(variant: :filled, **attrs)
       end
     end
   end

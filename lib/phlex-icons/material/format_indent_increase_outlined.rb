@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatIndentIncreaseOutlined < Base
       def view_template
-        render FormatIndentIncrease.new(variant: :outlined)
+        render FormatIndentIncrease.new(variant: :outlined, **attrs)
       end
     end
   end

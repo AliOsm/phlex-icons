@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DeviceUnknownOutlined < Base
       def view_template
-        render DeviceUnknown.new(variant: :outlined)
+        render DeviceUnknown.new(variant: :outlined, **attrs)
       end
     end
   end

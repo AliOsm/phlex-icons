@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BatterySaverOutlined < Base
       def view_template
-        render BatterySaver.new(variant: :outlined)
+        render BatterySaver.new(variant: :outlined, **attrs)
       end
     end
   end

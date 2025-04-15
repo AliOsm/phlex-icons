@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PinchOutlined < Base
       def view_template
-        render Pinch.new(variant: :outlined)
+        render Pinch.new(variant: :outlined, **attrs)
       end
     end
   end

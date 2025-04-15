@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LowPriorityFilled < Base
       def view_template
-        render LowPriority.new(variant: :filled)
+        render LowPriority.new(variant: :filled, **attrs)
       end
     end
   end

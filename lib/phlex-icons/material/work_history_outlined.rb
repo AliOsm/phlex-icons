@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WorkHistoryOutlined < Base
       def view_template
-        render WorkHistory.new(variant: :outlined)
+        render WorkHistory.new(variant: :outlined, **attrs)
       end
     end
   end

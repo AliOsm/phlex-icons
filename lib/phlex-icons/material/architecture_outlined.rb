@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ArchitectureOutlined < Base
       def view_template
-        render Architecture.new(variant: :outlined)
+        render Architecture.new(variant: :outlined, **attrs)
       end
     end
   end

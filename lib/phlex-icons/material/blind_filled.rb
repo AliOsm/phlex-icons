@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BlindFilled < Base
       def view_template
-        render Blind.new(variant: :filled)
+        render Blind.new(variant: :filled, **attrs)
       end
     end
   end

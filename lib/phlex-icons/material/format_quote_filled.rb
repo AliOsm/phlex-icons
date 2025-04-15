@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatQuoteFilled < Base
       def view_template
-        render FormatQuote.new(variant: :filled)
+        render FormatQuote.new(variant: :filled, **attrs)
       end
     end
   end

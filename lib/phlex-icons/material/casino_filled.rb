@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CasinoFilled < Base
       def view_template
-        render Casino.new(variant: :filled)
+        render Casino.new(variant: :filled, **attrs)
       end
     end
   end

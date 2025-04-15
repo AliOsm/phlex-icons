@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PersonAddOutlined < Base
       def view_template
-        render PersonAdd.new(variant: :outlined)
+        render PersonAdd.new(variant: :outlined, **attrs)
       end
     end
   end

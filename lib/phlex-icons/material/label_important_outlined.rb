@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LabelImportantOutlined < Base
       def view_template
-        render LabelImportant.new(variant: :outlined)
+        render LabelImportant.new(variant: :outlined, **attrs)
       end
     end
   end

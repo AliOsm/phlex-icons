@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BubbleChartOutlined < Base
       def view_template
-        render BubbleChart.new(variant: :outlined)
+        render BubbleChart.new(variant: :outlined, **attrs)
       end
     end
   end

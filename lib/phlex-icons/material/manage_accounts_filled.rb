@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ManageAccountsFilled < Base
       def view_template
-        render ManageAccounts.new(variant: :filled)
+        render ManageAccounts.new(variant: :filled, **attrs)
       end
     end
   end

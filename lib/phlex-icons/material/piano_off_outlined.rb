@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PianoOffOutlined < Base
       def view_template
-        render PianoOff.new(variant: :outlined)
+        render PianoOff.new(variant: :outlined, **attrs)
       end
     end
   end

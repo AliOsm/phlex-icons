@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FreeBreakfastOutlined < Base
       def view_template
-        render FreeBreakfast.new(variant: :outlined)
+        render FreeBreakfast.new(variant: :outlined, **attrs)
       end
     end
   end

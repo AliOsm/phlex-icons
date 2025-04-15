@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SystemSecurityUpdateWarningOutlined < Base
       def view_template
-        render SystemSecurityUpdateWarning.new(variant: :outlined)
+        render SystemSecurityUpdateWarning.new(variant: :outlined, **attrs)
       end
     end
   end

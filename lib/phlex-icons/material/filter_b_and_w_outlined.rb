@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterBAndWOutlined < Base
       def view_template
-        render FilterBAndW.new(variant: :outlined)
+        render FilterBAndW.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoTransferFilled < Base
       def view_template
-        render NoTransfer.new(variant: :filled)
+        render NoTransfer.new(variant: :filled, **attrs)
       end
     end
   end

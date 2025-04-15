@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReportProblemFilled < Base
       def view_template
-        render ReportProblem.new(variant: :filled)
+        render ReportProblem.new(variant: :filled, **attrs)
       end
     end
   end

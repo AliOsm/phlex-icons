@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LiveTvOutlined < Base
       def view_template
-        render LiveTv.new(variant: :outlined)
+        render LiveTv.new(variant: :outlined, **attrs)
       end
     end
   end

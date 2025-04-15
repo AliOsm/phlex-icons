@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BrowseGalleryFilled < Base
       def view_template
-        render BrowseGallery.new(variant: :filled)
+        render BrowseGallery.new(variant: :filled, **attrs)
       end
     end
   end

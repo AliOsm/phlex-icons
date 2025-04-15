@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TerrainFilled < Base
       def view_template
-        render Terrain.new(variant: :filled)
+        render Terrain.new(variant: :filled, **attrs)
       end
     end
   end

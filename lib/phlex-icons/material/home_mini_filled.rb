@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HomeMiniFilled < Base
       def view_template
-        render HomeMini.new(variant: :filled)
+        render HomeMini.new(variant: :filled, **attrs)
       end
     end
   end

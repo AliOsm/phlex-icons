@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DeviceThermostatFilled < Base
       def view_template
-        render DeviceThermostat.new(variant: :filled)
+        render DeviceThermostat.new(variant: :filled, **attrs)
       end
     end
   end

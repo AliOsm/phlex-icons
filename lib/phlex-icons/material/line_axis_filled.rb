@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LineAxisFilled < Base
       def view_template
-        render LineAxis.new(variant: :filled)
+        render LineAxis.new(variant: :filled, **attrs)
       end
     end
   end

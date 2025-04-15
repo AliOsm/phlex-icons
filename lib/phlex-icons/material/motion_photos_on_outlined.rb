@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MotionPhotosOnOutlined < Base
       def view_template
-        render MotionPhotosOn.new(variant: :outlined)
+        render MotionPhotosOn.new(variant: :outlined, **attrs)
       end
     end
   end

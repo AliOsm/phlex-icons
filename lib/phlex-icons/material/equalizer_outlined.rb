@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EqualizerOutlined < Base
       def view_template
-        render Equalizer.new(variant: :outlined)
+        render Equalizer.new(variant: :outlined, **attrs)
       end
     end
   end

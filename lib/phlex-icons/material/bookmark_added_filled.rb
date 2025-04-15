@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BookmarkAddedFilled < Base
       def view_template
-        render BookmarkAdded.new(variant: :filled)
+        render BookmarkAdded.new(variant: :filled, **attrs)
       end
     end
   end

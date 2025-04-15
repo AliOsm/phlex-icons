@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GrassOutlined < Base
       def view_template
-        render Grass.new(variant: :outlined)
+        render Grass.new(variant: :outlined, **attrs)
       end
     end
   end

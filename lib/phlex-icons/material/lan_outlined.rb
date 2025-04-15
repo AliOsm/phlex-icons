@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LanOutlined < Base
       def view_template
-        render Lan.new(variant: :outlined)
+        render Lan.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoiseControlOffFilled < Base
       def view_template
-        render NoiseControlOff.new(variant: :filled)
+        render NoiseControlOff.new(variant: :filled, **attrs)
       end
     end
   end

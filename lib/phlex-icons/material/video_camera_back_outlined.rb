@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideoCameraBackOutlined < Base
       def view_template
-        render VideoCameraBack.new(variant: :outlined)
+        render VideoCameraBack.new(variant: :outlined, **attrs)
       end
     end
   end

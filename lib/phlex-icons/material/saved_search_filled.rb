@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SavedSearchFilled < Base
       def view_template
-        render SavedSearch.new(variant: :filled)
+        render SavedSearch.new(variant: :filled, **attrs)
       end
     end
   end

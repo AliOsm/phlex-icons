@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ErrorOutlined < Base
       def view_template
-        render Error.new(variant: :outlined)
+        render Error.new(variant: :outlined, **attrs)
       end
     end
   end

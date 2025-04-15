@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GroupRemoveOutlined < Base
       def view_template
-        render GroupRemove.new(variant: :outlined)
+        render GroupRemove.new(variant: :outlined, **attrs)
       end
     end
   end

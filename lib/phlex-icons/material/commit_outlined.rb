@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CommitOutlined < Base
       def view_template
-        render Commit.new(variant: :outlined)
+        render Commit.new(variant: :outlined, **attrs)
       end
     end
   end

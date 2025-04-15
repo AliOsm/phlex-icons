@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MosqueFilled < Base
       def view_template
-        render Mosque.new(variant: :filled)
+        render Mosque.new(variant: :filled, **attrs)
       end
     end
   end

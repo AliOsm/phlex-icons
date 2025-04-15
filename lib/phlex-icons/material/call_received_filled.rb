@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CallReceivedFilled < Base
       def view_template
-        render CallReceived.new(variant: :filled)
+        render CallReceived.new(variant: :filled, **attrs)
       end
     end
   end

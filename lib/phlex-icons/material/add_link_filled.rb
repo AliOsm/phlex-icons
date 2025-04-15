@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddLinkFilled < Base
       def view_template
-        render AddLink.new(variant: :filled)
+        render AddLink.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardDoubleArrowDownOutlined < Base
       def view_template
-        render KeyboardDoubleArrowDown.new(variant: :outlined)
+        render KeyboardDoubleArrowDown.new(variant: :outlined, **attrs)
       end
     end
   end

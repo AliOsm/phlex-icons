@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DomainVerificationOutlined < Base
       def view_template
-        render DomainVerification.new(variant: :outlined)
+        render DomainVerification.new(variant: :outlined, **attrs)
       end
     end
   end

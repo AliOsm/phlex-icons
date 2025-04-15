@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UpgradeFilled < Base
       def view_template
-        render Upgrade.new(variant: :filled)
+        render Upgrade.new(variant: :filled, **attrs)
       end
     end
   end

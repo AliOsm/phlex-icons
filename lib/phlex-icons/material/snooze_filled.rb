@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SnoozeFilled < Base
       def view_template
-        render Snooze.new(variant: :filled)
+        render Snooze.new(variant: :filled, **attrs)
       end
     end
   end

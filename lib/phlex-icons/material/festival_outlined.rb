@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FestivalOutlined < Base
       def view_template
-        render Festival.new(variant: :outlined)
+        render Festival.new(variant: :outlined, **attrs)
       end
     end
   end

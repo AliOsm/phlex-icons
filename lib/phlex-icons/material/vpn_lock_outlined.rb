@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VpnLockOutlined < Base
       def view_template
-        render VpnLock.new(variant: :outlined)
+        render VpnLock.new(variant: :outlined, **attrs)
       end
     end
   end

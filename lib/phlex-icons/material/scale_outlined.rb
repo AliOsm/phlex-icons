@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScaleOutlined < Base
       def view_template
-        render Scale.new(variant: :outlined)
+        render Scale.new(variant: :outlined, **attrs)
       end
     end
   end

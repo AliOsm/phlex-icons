@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SwitchRightFilled < Base
       def view_template
-        render SwitchRight.new(variant: :filled)
+        render SwitchRight.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BorderRightOutlined < Base
       def view_template
-        render BorderRight.new(variant: :outlined)
+        render BorderRight.new(variant: :outlined, **attrs)
       end
     end
   end

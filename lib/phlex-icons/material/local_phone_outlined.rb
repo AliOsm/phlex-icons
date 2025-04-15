@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPhoneOutlined < Base
       def view_template
-        render LocalPhone.new(variant: :outlined)
+        render LocalPhone.new(variant: :outlined, **attrs)
       end
     end
   end

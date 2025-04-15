@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DomainAddOutlined < Base
       def view_template
-        render DomainAdd.new(variant: :outlined)
+        render DomainAdd.new(variant: :outlined, **attrs)
       end
     end
   end

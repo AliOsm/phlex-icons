@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GiteOutlined < Base
       def view_template
-        render Gite.new(variant: :outlined)
+        render Gite.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ElectricBoltFilled < Base
       def view_template
-        render ElectricBolt.new(variant: :filled)
+        render ElectricBolt.new(variant: :filled, **attrs)
       end
     end
   end

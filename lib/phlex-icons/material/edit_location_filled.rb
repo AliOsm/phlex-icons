@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EditLocationFilled < Base
       def view_template
-        render EditLocation.new(variant: :filled)
+        render EditLocation.new(variant: :filled, **attrs)
       end
     end
   end

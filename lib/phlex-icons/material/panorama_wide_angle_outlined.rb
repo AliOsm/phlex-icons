@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PanoramaWideAngleOutlined < Base
       def view_template
-        render PanoramaWideAngle.new(variant: :outlined)
+        render PanoramaWideAngle.new(variant: :outlined, **attrs)
       end
     end
   end

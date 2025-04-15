@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CurrencyRubleOutlined < Base
       def view_template
-        render CurrencyRuble.new(variant: :outlined)
+        render CurrencyRuble.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MonetizationOnFilled < Base
       def view_template
-        render MonetizationOn.new(variant: :filled)
+        render MonetizationOn.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RemoveModeratorOutlined < Base
       def view_template
-        render RemoveModerator.new(variant: :outlined)
+        render RemoveModerator.new(variant: :outlined, **attrs)
       end
     end
   end

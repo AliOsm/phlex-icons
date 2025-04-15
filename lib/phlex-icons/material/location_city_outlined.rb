@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocationCityOutlined < Base
       def view_template
-        render LocationCity.new(variant: :outlined)
+        render LocationCity.new(variant: :outlined, **attrs)
       end
     end
   end

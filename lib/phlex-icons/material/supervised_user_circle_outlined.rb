@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SupervisedUserCircleOutlined < Base
       def view_template
-        render SupervisedUserCircle.new(variant: :outlined)
+        render SupervisedUserCircle.new(variant: :outlined, **attrs)
       end
     end
   end

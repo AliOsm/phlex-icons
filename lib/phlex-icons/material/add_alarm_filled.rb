@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddAlarmFilled < Base
       def view_template
-        render AddAlarm.new(variant: :filled)
+        render AddAlarm.new(variant: :filled, **attrs)
       end
     end
   end

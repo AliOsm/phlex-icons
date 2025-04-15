@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Forward30Outlined < Base
       def view_template
-        render Forward30.new(variant: :outlined)
+        render Forward30.new(variant: :outlined, **attrs)
       end
     end
   end

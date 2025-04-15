@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardFilled < Base
       def view_template
-        render Keyboard.new(variant: :filled)
+        render Keyboard.new(variant: :filled, **attrs)
       end
     end
   end

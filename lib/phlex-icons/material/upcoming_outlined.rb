@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UpcomingOutlined < Base
       def view_template
-        render Upcoming.new(variant: :outlined)
+        render Upcoming.new(variant: :outlined, **attrs)
       end
     end
   end

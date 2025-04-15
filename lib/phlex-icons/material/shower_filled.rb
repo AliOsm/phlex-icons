@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShowerFilled < Base
       def view_template
-        render Shower.new(variant: :filled)
+        render Shower.new(variant: :filled, **attrs)
       end
     end
   end

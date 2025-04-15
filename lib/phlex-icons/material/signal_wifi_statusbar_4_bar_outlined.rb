@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SignalWifiStatusbar4BarOutlined < Base
       def view_template
-        render SignalWifiStatusbar4Bar.new(variant: :outlined)
+        render SignalWifiStatusbar4Bar.new(variant: :outlined, **attrs)
       end
     end
   end

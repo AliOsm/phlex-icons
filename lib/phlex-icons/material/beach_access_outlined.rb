@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BeachAccessOutlined < Base
       def view_template
-        render BeachAccess.new(variant: :outlined)
+        render BeachAccess.new(variant: :outlined, **attrs)
       end
     end
   end

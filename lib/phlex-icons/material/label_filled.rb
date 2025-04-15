@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LabelFilled < Base
       def view_template
-        render Label.new(variant: :filled)
+        render Label.new(variant: :filled, **attrs)
       end
     end
   end

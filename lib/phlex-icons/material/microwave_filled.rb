@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MicrowaveFilled < Base
       def view_template
-        render Microwave.new(variant: :filled)
+        render Microwave.new(variant: :filled, **attrs)
       end
     end
   end

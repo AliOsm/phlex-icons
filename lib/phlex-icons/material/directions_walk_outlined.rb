@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DirectionsWalkOutlined < Base
       def view_template
-        render DirectionsWalk.new(variant: :outlined)
+        render DirectionsWalk.new(variant: :outlined, **attrs)
       end
     end
   end

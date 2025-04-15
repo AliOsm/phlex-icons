@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VrpanoFilled < Base
       def view_template
-        render Vrpano.new(variant: :filled)
+        render Vrpano.new(variant: :filled, **attrs)
       end
     end
   end

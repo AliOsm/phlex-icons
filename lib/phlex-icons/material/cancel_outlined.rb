@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CancelOutlined < Base
       def view_template
-        render Cancel.new(variant: :outlined)
+        render Cancel.new(variant: :outlined, **attrs)
       end
     end
   end

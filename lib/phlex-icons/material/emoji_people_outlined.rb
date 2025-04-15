@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EmojiPeopleOutlined < Base
       def view_template
-        render EmojiPeople.new(variant: :outlined)
+        render EmojiPeople.new(variant: :outlined, **attrs)
       end
     end
   end

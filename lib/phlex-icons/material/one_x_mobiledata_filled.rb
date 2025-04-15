@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 1xMobiledataFilled < Base
       def view_template
-        render 1xMobiledata.new(variant: :filled)
+        render 1xMobiledata.new(variant: :filled, **attrs)
       end
     end
   end

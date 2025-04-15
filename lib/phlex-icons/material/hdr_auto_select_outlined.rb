@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrAutoSelectOutlined < Base
       def view_template
-        render HdrAutoSelect.new(variant: :outlined)
+        render HdrAutoSelect.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EnergySavingsLeafOutlined < Base
       def view_template
-        render EnergySavingsLeaf.new(variant: :outlined)
+        render EnergySavingsLeaf.new(variant: :outlined, **attrs)
       end
     end
   end

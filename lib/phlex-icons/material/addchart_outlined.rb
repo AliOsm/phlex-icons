@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddchartOutlined < Base
       def view_template
-        render Addchart.new(variant: :outlined)
+        render Addchart.new(variant: :outlined, **attrs)
       end
     end
   end

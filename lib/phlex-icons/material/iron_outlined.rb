@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IronOutlined < Base
       def view_template
-        render Iron.new(variant: :outlined)
+        render Iron.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NotStartedFilled < Base
       def view_template
-        render NotStarted.new(variant: :filled)
+        render NotStarted.new(variant: :filled, **attrs)
       end
     end
   end

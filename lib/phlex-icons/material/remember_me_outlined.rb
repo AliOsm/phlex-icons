@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RememberMeOutlined < Base
       def view_template
-        render RememberMe.new(variant: :outlined)
+        render RememberMe.new(variant: :outlined, **attrs)
       end
     end
   end

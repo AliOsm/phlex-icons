@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatListNumberedRtlFilled < Base
       def view_template
-        render FormatListNumberedRtl.new(variant: :filled)
+        render FormatListNumberedRtl.new(variant: :filled, **attrs)
       end
     end
   end

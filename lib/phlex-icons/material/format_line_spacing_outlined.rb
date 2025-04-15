@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatLineSpacingOutlined < Base
       def view_template
-        render FormatLineSpacing.new(variant: :outlined)
+        render FormatLineSpacing.new(variant: :outlined, **attrs)
       end
     end
   end

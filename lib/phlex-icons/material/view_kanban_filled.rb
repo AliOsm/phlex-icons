@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewKanbanFilled < Base
       def view_template
-        render ViewKanban.new(variant: :filled)
+        render ViewKanban.new(variant: :filled, **attrs)
       end
     end
   end

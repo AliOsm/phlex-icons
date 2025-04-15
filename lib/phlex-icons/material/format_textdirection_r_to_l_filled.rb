@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatTextdirectionRToLFilled < Base
       def view_template
-        render FormatTextdirectionRToL.new(variant: :filled)
+        render FormatTextdirectionRToL.new(variant: :filled, **attrs)
       end
     end
   end

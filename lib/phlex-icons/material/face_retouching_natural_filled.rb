@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FaceRetouchingNaturalFilled < Base
       def view_template
-        render FaceRetouchingNatural.new(variant: :filled)
+        render FaceRetouchingNatural.new(variant: :filled, **attrs)
       end
     end
   end

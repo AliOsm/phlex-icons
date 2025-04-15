@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CompareFilled < Base
       def view_template
-        render Compare.new(variant: :filled)
+        render Compare.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPrintshopOutlined < Base
       def view_template
-        render LocalPrintshop.new(variant: :outlined)
+        render LocalPrintshop.new(variant: :outlined, **attrs)
       end
     end
   end

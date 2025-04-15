@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ContentPasteSearchOutlined < Base
       def view_template
-        render ContentPasteSearch.new(variant: :outlined)
+        render ContentPasteSearch.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DonutLargeOutlined < Base
       def view_template
-        render DonutLarge.new(variant: :outlined)
+        render DonutLarge.new(variant: :outlined, **attrs)
       end
     end
   end

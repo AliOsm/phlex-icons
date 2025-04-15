@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ThumbDownAltOutlined < Base
       def view_template
-        render ThumbDownAlt.new(variant: :outlined)
+        render ThumbDownAlt.new(variant: :outlined, **attrs)
       end
     end
   end

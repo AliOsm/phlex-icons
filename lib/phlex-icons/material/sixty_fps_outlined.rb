@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 60fpsOutlined < Base
       def view_template
-        render 60fps.new(variant: :outlined)
+        render 60fps.new(variant: :outlined, **attrs)
       end
     end
   end

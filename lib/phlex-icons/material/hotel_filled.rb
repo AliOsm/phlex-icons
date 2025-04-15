@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HotelFilled < Base
       def view_template
-        render Hotel.new(variant: :filled)
+        render Hotel.new(variant: :filled, **attrs)
       end
     end
   end

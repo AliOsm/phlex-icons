@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BluetoothSearchingOutlined < Base
       def view_template
-        render BluetoothSearching.new(variant: :outlined)
+        render BluetoothSearching.new(variant: :outlined, **attrs)
       end
     end
   end

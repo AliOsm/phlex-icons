@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SanitizerFilled < Base
       def view_template
-        render Sanitizer.new(variant: :filled)
+        render Sanitizer.new(variant: :filled, **attrs)
       end
     end
   end

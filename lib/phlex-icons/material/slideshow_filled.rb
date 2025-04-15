@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SlideshowFilled < Base
       def view_template
-        render Slideshow.new(variant: :filled)
+        render Slideshow.new(variant: :filled, **attrs)
       end
     end
   end

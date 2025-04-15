@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EventRepeatFilled < Base
       def view_template
-        render EventRepeat.new(variant: :filled)
+        render EventRepeat.new(variant: :filled, **attrs)
       end
     end
   end

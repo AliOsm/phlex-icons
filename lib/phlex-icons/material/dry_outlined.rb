@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DryOutlined < Base
       def view_template
-        render Dry.new(variant: :outlined)
+        render Dry.new(variant: :outlined, **attrs)
       end
     end
   end

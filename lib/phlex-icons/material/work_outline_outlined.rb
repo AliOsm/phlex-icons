@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WorkOutlineOutlined < Base
       def view_template
-        render WorkOutline.new(variant: :outlined)
+        render WorkOutline.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AlignHorizontalRightOutlined < Base
       def view_template
-        render AlignHorizontalRight.new(variant: :outlined)
+        render AlignHorizontalRight.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HardwareOutlined < Base
       def view_template
-        render Hardware.new(variant: :outlined)
+        render Hardware.new(variant: :outlined, **attrs)
       end
     end
   end

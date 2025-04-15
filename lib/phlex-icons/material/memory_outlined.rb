@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MemoryOutlined < Base
       def view_template
-        render Memory.new(variant: :outlined)
+        render Memory.new(variant: :outlined, **attrs)
       end
     end
   end

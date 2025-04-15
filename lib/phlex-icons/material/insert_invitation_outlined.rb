@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InsertInvitationOutlined < Base
       def view_template
-        render InsertInvitation.new(variant: :outlined)
+        render InsertInvitation.new(variant: :outlined, **attrs)
       end
     end
   end

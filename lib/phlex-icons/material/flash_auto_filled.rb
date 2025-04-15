@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlashAutoFilled < Base
       def view_template
-        render FlashAuto.new(variant: :filled)
+        render FlashAuto.new(variant: :filled, **attrs)
       end
     end
   end

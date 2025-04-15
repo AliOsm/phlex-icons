@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DeselectOutlined < Base
       def view_template
-        render Deselect.new(variant: :outlined)
+        render Deselect.new(variant: :outlined, **attrs)
       end
     end
   end

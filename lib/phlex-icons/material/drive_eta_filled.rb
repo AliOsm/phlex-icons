@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DriveEtaFilled < Base
       def view_template
-        render DriveEta.new(variant: :filled)
+        render DriveEta.new(variant: :filled, **attrs)
       end
     end
   end

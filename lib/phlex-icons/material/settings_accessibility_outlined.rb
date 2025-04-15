@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsAccessibilityOutlined < Base
       def view_template
-        render SettingsAccessibility.new(variant: :outlined)
+        render SettingsAccessibility.new(variant: :outlined, **attrs)
       end
     end
   end

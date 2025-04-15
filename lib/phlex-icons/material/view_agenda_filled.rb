@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewAgendaFilled < Base
       def view_template
-        render ViewAgenda.new(variant: :filled)
+        render ViewAgenda.new(variant: :filled, **attrs)
       end
     end
   end

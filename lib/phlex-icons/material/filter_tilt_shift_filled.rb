@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterTiltShiftFilled < Base
       def view_template
-        render FilterTiltShift.new(variant: :filled)
+        render FilterTiltShift.new(variant: :filled, **attrs)
       end
     end
   end

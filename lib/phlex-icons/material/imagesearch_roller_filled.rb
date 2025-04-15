@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ImagesearchRollerFilled < Base
       def view_template
-        render ImagesearchRoller.new(variant: :filled)
+        render ImagesearchRoller.new(variant: :filled, **attrs)
       end
     end
   end

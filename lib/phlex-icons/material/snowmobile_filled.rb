@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SnowmobileFilled < Base
       def view_template
-        render Snowmobile.new(variant: :filled)
+        render Snowmobile.new(variant: :filled, **attrs)
       end
     end
   end

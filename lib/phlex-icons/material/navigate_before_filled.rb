@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NavigateBeforeFilled < Base
       def view_template
-        render NavigateBefore.new(variant: :filled)
+        render NavigateBefore.new(variant: :filled, **attrs)
       end
     end
   end

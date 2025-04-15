@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RollerSkatingOutlined < Base
       def view_template
-        render RollerSkating.new(variant: :outlined)
+        render RollerSkating.new(variant: :outlined, **attrs)
       end
     end
   end

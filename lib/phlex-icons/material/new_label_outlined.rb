@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NewLabelOutlined < Base
       def view_template
-        render NewLabel.new(variant: :outlined)
+        render NewLabel.new(variant: :outlined, **attrs)
       end
     end
   end

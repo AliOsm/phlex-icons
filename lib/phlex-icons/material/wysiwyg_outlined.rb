@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WysiwygOutlined < Base
       def view_template
-        render Wysiwyg.new(variant: :outlined)
+        render Wysiwyg.new(variant: :outlined, **attrs)
       end
     end
   end

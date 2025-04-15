@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MediaBluetoothOnFilled < Base
       def view_template
-        render MediaBluetoothOn.new(variant: :filled)
+        render MediaBluetoothOn.new(variant: :filled, **attrs)
       end
     end
   end

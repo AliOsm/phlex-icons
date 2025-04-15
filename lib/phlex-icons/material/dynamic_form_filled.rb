@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DynamicFormFilled < Base
       def view_template
-        render DynamicForm.new(variant: :filled)
+        render DynamicForm.new(variant: :filled, **attrs)
       end
     end
   end

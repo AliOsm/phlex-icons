@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ContrastFilled < Base
       def view_template
-        render Contrast.new(variant: :filled)
+        render Contrast.new(variant: :filled, **attrs)
       end
     end
   end

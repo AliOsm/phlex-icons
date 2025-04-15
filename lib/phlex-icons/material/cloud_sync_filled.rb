@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CloudSyncFilled < Base
       def view_template
-        render CloudSync.new(variant: :filled)
+        render CloudSync.new(variant: :filled, **attrs)
       end
     end
   end

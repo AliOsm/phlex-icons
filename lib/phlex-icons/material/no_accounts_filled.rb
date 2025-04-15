@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoAccountsFilled < Base
       def view_template
-        render NoAccounts.new(variant: :filled)
+        render NoAccounts.new(variant: :filled, **attrs)
       end
     end
   end

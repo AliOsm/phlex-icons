@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FeaturedPlayListOutlined < Base
       def view_template
-        render FeaturedPlayList.new(variant: :outlined)
+        render FeaturedPlayList.new(variant: :outlined, **attrs)
       end
     end
   end

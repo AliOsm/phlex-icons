@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BedroomParentOutlined < Base
       def view_template
-        render BedroomParent.new(variant: :outlined)
+        render BedroomParent.new(variant: :outlined, **attrs)
       end
     end
   end

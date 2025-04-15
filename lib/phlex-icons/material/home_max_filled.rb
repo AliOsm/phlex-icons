@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HomeMaxFilled < Base
       def view_template
-        render HomeMax.new(variant: :filled)
+        render HomeMax.new(variant: :filled, **attrs)
       end
     end
   end

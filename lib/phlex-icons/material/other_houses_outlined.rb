@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class OtherHousesOutlined < Base
       def view_template
-        render OtherHouses.new(variant: :outlined)
+        render OtherHouses.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 4gMobiledataOutlined < Base
       def view_template
-        render 4gMobiledata.new(variant: :outlined)
+        render 4gMobiledata.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ForumFilled < Base
       def view_template
-        render Forum.new(variant: :filled)
+        render Forum.new(variant: :filled, **attrs)
       end
     end
   end

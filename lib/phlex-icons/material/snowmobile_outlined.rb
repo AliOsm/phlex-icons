@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SnowmobileOutlined < Base
       def view_template
-        render Snowmobile.new(variant: :outlined)
+        render Snowmobile.new(variant: :outlined, **attrs)
       end
     end
   end

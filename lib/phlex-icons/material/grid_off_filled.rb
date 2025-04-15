@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GridOffFilled < Base
       def view_template
-        render GridOff.new(variant: :filled)
+        render GridOff.new(variant: :filled, **attrs)
       end
     end
   end

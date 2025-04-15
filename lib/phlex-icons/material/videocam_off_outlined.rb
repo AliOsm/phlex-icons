@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideocamOffOutlined < Base
       def view_template
-        render VideocamOff.new(variant: :outlined)
+        render VideocamOff.new(variant: :outlined, **attrs)
       end
     end
   end

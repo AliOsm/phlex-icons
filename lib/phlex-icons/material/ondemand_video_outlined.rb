@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class OndemandVideoOutlined < Base
       def view_template
-        render OndemandVideo.new(variant: :outlined)
+        render OndemandVideo.new(variant: :outlined, **attrs)
       end
     end
   end

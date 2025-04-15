@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HeadsetOutlined < Base
       def view_template
-        render Headset.new(variant: :outlined)
+        render Headset.new(variant: :outlined, **attrs)
       end
     end
   end

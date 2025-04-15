@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Brightness6Outlined < Base
       def view_template
-        render Brightness6.new(variant: :outlined)
+        render Brightness6.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TonalityFilled < Base
       def view_template
-        render Tonality.new(variant: :filled)
+        render Tonality.new(variant: :filled, **attrs)
       end
     end
   end

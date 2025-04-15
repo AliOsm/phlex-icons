@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DoDisturbOffFilled < Base
       def view_template
-        render DoDisturbOff.new(variant: :filled)
+        render DoDisturbOff.new(variant: :filled, **attrs)
       end
     end
   end

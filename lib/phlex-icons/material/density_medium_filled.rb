@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DensityMediumFilled < Base
       def view_template
-        render DensityMedium.new(variant: :filled)
+        render DensityMedium.new(variant: :filled, **attrs)
       end
     end
   end

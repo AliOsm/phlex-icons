@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StreetviewOutlined < Base
       def view_template
-        render Streetview.new(variant: :outlined)
+        render Streetview.new(variant: :outlined, **attrs)
       end
     end
   end

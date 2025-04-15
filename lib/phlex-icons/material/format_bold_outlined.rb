@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatBoldOutlined < Base
       def view_template
-        render FormatBold.new(variant: :outlined)
+        render FormatBold.new(variant: :outlined, **attrs)
       end
     end
   end

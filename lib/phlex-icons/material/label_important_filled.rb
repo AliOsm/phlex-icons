@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LabelImportantFilled < Base
       def view_template
-        render LabelImportant.new(variant: :filled)
+        render LabelImportant.new(variant: :filled, **attrs)
       end
     end
   end

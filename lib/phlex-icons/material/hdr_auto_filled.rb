@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrAutoFilled < Base
       def view_template
-        render HdrAuto.new(variant: :filled)
+        render HdrAuto.new(variant: :filled, **attrs)
       end
     end
   end

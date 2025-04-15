@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LanFilled < Base
       def view_template
-        render Lan.new(variant: :filled)
+        render Lan.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CreditCardOutlined < Base
       def view_template
-        render CreditCard.new(variant: :outlined)
+        render CreditCard.new(variant: :outlined, **attrs)
       end
     end
   end

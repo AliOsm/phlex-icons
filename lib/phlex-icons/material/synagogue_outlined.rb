@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SynagogueOutlined < Base
       def view_template
-        render Synagogue.new(variant: :outlined)
+        render Synagogue.new(variant: :outlined, **attrs)
       end
     end
   end

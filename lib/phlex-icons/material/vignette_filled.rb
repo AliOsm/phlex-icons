@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VignetteFilled < Base
       def view_template
-        render Vignette.new(variant: :filled)
+        render Vignette.new(variant: :filled, **attrs)
       end
     end
   end

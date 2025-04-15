@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LibraryAddOutlined < Base
       def view_template
-        render LibraryAdd.new(variant: :outlined)
+        render LibraryAdd.new(variant: :outlined, **attrs)
       end
     end
   end

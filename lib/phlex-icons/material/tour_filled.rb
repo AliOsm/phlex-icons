@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TourFilled < Base
       def view_template
-        render Tour.new(variant: :filled)
+        render Tour.new(variant: :filled, **attrs)
       end
     end
   end

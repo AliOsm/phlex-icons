@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AudiotrackOutlined < Base
       def view_template
-        render Audiotrack.new(variant: :outlined)
+        render Audiotrack.new(variant: :outlined, **attrs)
       end
     end
   end

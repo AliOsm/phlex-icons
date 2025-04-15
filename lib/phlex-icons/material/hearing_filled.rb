@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HearingFilled < Base
       def view_template
-        render Hearing.new(variant: :filled)
+        render Hearing.new(variant: :filled, **attrs)
       end
     end
   end

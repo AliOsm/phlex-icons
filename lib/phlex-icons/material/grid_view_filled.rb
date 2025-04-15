@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GridViewFilled < Base
       def view_template
-        render GridView.new(variant: :filled)
+        render GridView.new(variant: :filled, **attrs)
       end
     end
   end

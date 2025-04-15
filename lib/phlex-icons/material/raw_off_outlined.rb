@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RawOffOutlined < Base
       def view_template
-        render RawOff.new(variant: :outlined)
+        render RawOff.new(variant: :outlined, **attrs)
       end
     end
   end

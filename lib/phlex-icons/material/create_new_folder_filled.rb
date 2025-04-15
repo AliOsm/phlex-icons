@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CreateNewFolderFilled < Base
       def view_template
-        render CreateNewFolder.new(variant: :filled)
+        render CreateNewFolder.new(variant: :filled, **attrs)
       end
     end
   end

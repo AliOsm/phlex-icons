@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MarkAsUnreadOutlined < Base
       def view_template
-        render MarkAsUnread.new(variant: :outlined)
+        render MarkAsUnread.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoGraphFilled < Base
       def view_template
-        render AutoGraph.new(variant: :filled)
+        render AutoGraph.new(variant: :filled, **attrs)
       end
     end
   end

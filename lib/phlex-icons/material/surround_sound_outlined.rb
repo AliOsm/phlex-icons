@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SurroundSoundOutlined < Base
       def view_template
-        render SurroundSound.new(variant: :outlined)
+        render SurroundSound.new(variant: :outlined, **attrs)
       end
     end
   end

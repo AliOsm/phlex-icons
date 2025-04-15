@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BackpackOutlined < Base
       def view_template
-        render Backpack.new(variant: :outlined)
+        render Backpack.new(variant: :outlined, **attrs)
       end
     end
   end

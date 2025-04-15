@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TocOutlined < Base
       def view_template
-        render Toc.new(variant: :outlined)
+        render Toc.new(variant: :outlined, **attrs)
       end
     end
   end

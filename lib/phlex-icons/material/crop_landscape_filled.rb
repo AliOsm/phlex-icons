@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CropLandscapeFilled < Base
       def view_template
-        render CropLandscape.new(variant: :filled)
+        render CropLandscape.new(variant: :filled, **attrs)
       end
     end
   end

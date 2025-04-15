@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DomainDisabledOutlined < Base
       def view_template
-        render DomainDisabled.new(variant: :outlined)
+        render DomainDisabled.new(variant: :outlined, **attrs)
       end
     end
   end

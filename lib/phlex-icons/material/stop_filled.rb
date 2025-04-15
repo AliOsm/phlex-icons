@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StopFilled < Base
       def view_template
-        render Stop.new(variant: :filled)
+        render Stop.new(variant: :filled, **attrs)
       end
     end
   end

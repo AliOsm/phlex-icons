@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SmartButtonFilled < Base
       def view_template
-        render SmartButton.new(variant: :filled)
+        render SmartButton.new(variant: :filled, **attrs)
       end
     end
   end

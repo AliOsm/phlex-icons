@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DriveEtaOutlined < Base
       def view_template
-        render DriveEta.new(variant: :outlined)
+        render DriveEta.new(variant: :outlined, **attrs)
       end
     end
   end

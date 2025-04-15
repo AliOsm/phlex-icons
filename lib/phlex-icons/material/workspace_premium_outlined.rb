@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WorkspacePremiumOutlined < Base
       def view_template
-        render WorkspacePremium.new(variant: :outlined)
+        render WorkspacePremium.new(variant: :outlined, **attrs)
       end
     end
   end

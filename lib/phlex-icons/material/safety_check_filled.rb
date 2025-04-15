@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SafetyCheckFilled < Base
       def view_template
-        render SafetyCheck.new(variant: :filled)
+        render SafetyCheck.new(variant: :filled, **attrs)
       end
     end
   end

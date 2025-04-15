@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SecurityUpdateWarningFilled < Base
       def view_template
-        render SecurityUpdateWarning.new(variant: :filled)
+        render SecurityUpdateWarning.new(variant: :filled, **attrs)
       end
     end
   end

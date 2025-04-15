@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PictureAsPdfFilled < Base
       def view_template
-        render PictureAsPdf.new(variant: :filled)
+        render PictureAsPdf.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EscalatorFilled < Base
       def view_template
-        render Escalator.new(variant: :filled)
+        render Escalator.new(variant: :filled, **attrs)
       end
     end
   end

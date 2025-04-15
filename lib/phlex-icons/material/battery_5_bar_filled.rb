@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Battery5BarFilled < Base
       def view_template
-        render Battery5Bar.new(variant: :filled)
+        render Battery5Bar.new(variant: :filled, **attrs)
       end
     end
   end

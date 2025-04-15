@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SegmentFilled < Base
       def view_template
-        render Segment.new(variant: :filled)
+        render Segment.new(variant: :filled, **attrs)
       end
     end
   end

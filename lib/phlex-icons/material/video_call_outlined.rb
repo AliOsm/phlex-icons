@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideoCallOutlined < Base
       def view_template
-        render VideoCall.new(variant: :outlined)
+        render VideoCall.new(variant: :outlined, **attrs)
       end
     end
   end

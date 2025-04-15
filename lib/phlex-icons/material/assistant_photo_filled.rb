@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AssistantPhotoFilled < Base
       def view_template
-        render AssistantPhoto.new(variant: :filled)
+        render AssistantPhoto.new(variant: :filled, **attrs)
       end
     end
   end

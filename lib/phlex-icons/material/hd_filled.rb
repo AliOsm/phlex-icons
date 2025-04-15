@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdFilled < Base
       def view_template
-        render Hd.new(variant: :filled)
+        render Hd.new(variant: :filled, **attrs)
       end
     end
   end

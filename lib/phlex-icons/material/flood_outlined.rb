@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FloodOutlined < Base
       def view_template
-        render Flood.new(variant: :outlined)
+        render Flood.new(variant: :outlined, **attrs)
       end
     end
   end

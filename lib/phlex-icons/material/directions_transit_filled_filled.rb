@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DirectionsTransitFilledFilled < Base
       def view_template
-        render DirectionsTransitFilled.new(variant: :filled)
+        render DirectionsTransitFilled.new(variant: :filled, **attrs)
       end
     end
   end

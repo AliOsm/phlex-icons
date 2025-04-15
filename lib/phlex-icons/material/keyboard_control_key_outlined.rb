@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardControlKeyOutlined < Base
       def view_template
-        render KeyboardControlKey.new(variant: :outlined)
+        render KeyboardControlKey.new(variant: :outlined, **attrs)
       end
     end
   end

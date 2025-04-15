@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TopicOutlined < Base
       def view_template
-        render Topic.new(variant: :outlined)
+        render Topic.new(variant: :outlined, **attrs)
       end
     end
   end

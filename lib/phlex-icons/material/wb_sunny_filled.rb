@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WbSunnyFilled < Base
       def view_template
-        render WbSunny.new(variant: :filled)
+        render WbSunny.new(variant: :filled, **attrs)
       end
     end
   end

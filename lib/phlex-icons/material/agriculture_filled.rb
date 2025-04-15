@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AgricultureFilled < Base
       def view_template
-        render Agriculture.new(variant: :filled)
+        render Agriculture.new(variant: :filled, **attrs)
       end
     end
   end

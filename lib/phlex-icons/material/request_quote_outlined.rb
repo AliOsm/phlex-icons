@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RequestQuoteOutlined < Base
       def view_template
-        render RequestQuote.new(variant: :outlined)
+        render RequestQuote.new(variant: :outlined, **attrs)
       end
     end
   end

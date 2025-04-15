@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BuildCircleOutlined < Base
       def view_template
-        render BuildCircle.new(variant: :outlined)
+        render BuildCircle.new(variant: :outlined, **attrs)
       end
     end
   end

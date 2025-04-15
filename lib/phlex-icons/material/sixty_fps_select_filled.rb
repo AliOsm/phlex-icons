@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 60fpsSelectFilled < Base
       def view_template
-        render 60fpsSelect.new(variant: :filled)
+        render 60fpsSelect.new(variant: :filled, **attrs)
       end
     end
   end

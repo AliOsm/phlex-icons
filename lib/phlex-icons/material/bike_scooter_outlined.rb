@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BikeScooterOutlined < Base
       def view_template
-        render BikeScooter.new(variant: :outlined)
+        render BikeScooter.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrEnhancedSelectFilled < Base
       def view_template
-        render HdrEnhancedSelect.new(variant: :filled)
+        render HdrEnhancedSelect.new(variant: :filled, **attrs)
       end
     end
   end

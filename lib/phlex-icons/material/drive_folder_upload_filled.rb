@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DriveFolderUploadFilled < Base
       def view_template
-        render DriveFolderUpload.new(variant: :filled)
+        render DriveFolderUpload.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HourglassEmptyOutlined < Base
       def view_template
-        render HourglassEmpty.new(variant: :outlined)
+        render HourglassEmpty.new(variant: :outlined, **attrs)
       end
     end
   end

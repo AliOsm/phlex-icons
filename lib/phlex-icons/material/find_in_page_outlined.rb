@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FindInPageOutlined < Base
       def view_template
-        render FindInPage.new(variant: :outlined)
+        render FindInPage.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KayakingFilled < Base
       def view_template
-        render Kayaking.new(variant: :filled)
+        render Kayaking.new(variant: :filled, **attrs)
       end
     end
   end

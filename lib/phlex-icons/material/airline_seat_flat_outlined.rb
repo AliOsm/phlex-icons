@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AirlineSeatFlatOutlined < Base
       def view_template
-        render AirlineSeatFlat.new(variant: :outlined)
+        render AirlineSeatFlat.new(variant: :outlined, **attrs)
       end
     end
   end

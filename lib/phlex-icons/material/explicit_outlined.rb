@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ExplicitOutlined < Base
       def view_template
-        render Explicit.new(variant: :outlined)
+        render Explicit.new(variant: :outlined, **attrs)
       end
     end
   end

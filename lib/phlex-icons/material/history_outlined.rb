@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HistoryOutlined < Base
       def view_template
-        render History.new(variant: :outlined)
+        render History.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HouseboatFilled < Base
       def view_template
-        render Houseboat.new(variant: :filled)
+        render Houseboat.new(variant: :filled, **attrs)
       end
     end
   end

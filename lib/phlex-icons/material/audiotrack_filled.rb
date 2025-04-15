@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AudiotrackFilled < Base
       def view_template
-        render Audiotrack.new(variant: :filled)
+        render Audiotrack.new(variant: :filled, **attrs)
       end
     end
   end

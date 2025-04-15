@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RamenDiningOutlined < Base
       def view_template
-        render RamenDining.new(variant: :outlined)
+        render RamenDining.new(variant: :outlined, **attrs)
       end
     end
   end

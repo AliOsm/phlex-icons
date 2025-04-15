@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoSimFilled < Base
       def view_template
-        render NoSim.new(variant: :filled)
+        render NoSim.new(variant: :filled, **attrs)
       end
     end
   end

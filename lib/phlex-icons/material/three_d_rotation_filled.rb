@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 3dRotationFilled < Base
       def view_template
-        render 3dRotation.new(variant: :filled)
+        render 3dRotation.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SwipeRightFilled < Base
       def view_template
-        render SwipeRight.new(variant: :filled)
+        render SwipeRight.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BiotechOutlined < Base
       def view_template
-        render Biotech.new(variant: :outlined)
+        render Biotech.new(variant: :outlined, **attrs)
       end
     end
   end

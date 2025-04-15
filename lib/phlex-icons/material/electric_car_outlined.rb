@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ElectricCarOutlined < Base
       def view_template
-        render ElectricCar.new(variant: :outlined)
+        render ElectricCar.new(variant: :outlined, **attrs)
       end
     end
   end

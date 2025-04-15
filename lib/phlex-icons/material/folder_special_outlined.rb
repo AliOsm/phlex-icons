@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FolderSpecialOutlined < Base
       def view_template
-        render FolderSpecial.new(variant: :outlined)
+        render FolderSpecial.new(variant: :outlined, **attrs)
       end
     end
   end

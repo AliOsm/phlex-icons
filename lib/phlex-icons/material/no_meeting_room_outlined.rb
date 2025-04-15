@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoMeetingRoomOutlined < Base
       def view_template
-        render NoMeetingRoom.new(variant: :outlined)
+        render NoMeetingRoom.new(variant: :outlined, **attrs)
       end
     end
   end

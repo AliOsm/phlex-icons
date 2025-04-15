@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewWeekFilled < Base
       def view_template
-        render ViewWeek.new(variant: :filled)
+        render ViewWeek.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EuroSymbolFilled < Base
       def view_template
-        render EuroSymbol.new(variant: :filled)
+        render EuroSymbol.new(variant: :filled, **attrs)
       end
     end
   end

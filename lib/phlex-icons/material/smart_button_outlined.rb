@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SmartButtonOutlined < Base
       def view_template
-        render SmartButton.new(variant: :outlined)
+        render SmartButton.new(variant: :outlined, **attrs)
       end
     end
   end

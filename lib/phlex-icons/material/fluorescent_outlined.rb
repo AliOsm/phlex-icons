@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FluorescentOutlined < Base
       def view_template
-        render Fluorescent.new(variant: :outlined)
+        render Fluorescent.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SpeakerNotesOutlined < Base
       def view_template
-        render SpeakerNotes.new(variant: :outlined)
+        render SpeakerNotes.new(variant: :outlined, **attrs)
       end
     end
   end

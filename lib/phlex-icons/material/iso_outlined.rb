@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IsoOutlined < Base
       def view_template
-        render Iso.new(variant: :outlined)
+        render Iso.new(variant: :outlined, **attrs)
       end
     end
   end

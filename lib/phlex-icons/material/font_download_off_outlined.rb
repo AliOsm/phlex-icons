@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FontDownloadOffOutlined < Base
       def view_template
-        render FontDownloadOff.new(variant: :outlined)
+        render FontDownloadOff.new(variant: :outlined, **attrs)
       end
     end
   end

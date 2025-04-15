@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AppRegistrationFilled < Base
       def view_template
-        render AppRegistration.new(variant: :filled)
+        render AppRegistration.new(variant: :filled, **attrs)
       end
     end
   end

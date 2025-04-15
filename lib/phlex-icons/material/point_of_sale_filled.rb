@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PointOfSaleFilled < Base
       def view_template
-        render PointOfSale.new(variant: :filled)
+        render PointOfSale.new(variant: :filled, **attrs)
       end
     end
   end

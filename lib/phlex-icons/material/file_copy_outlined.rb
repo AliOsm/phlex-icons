@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FileCopyOutlined < Base
       def view_template
-        render FileCopy.new(variant: :outlined)
+        render FileCopy.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MoneyOffOutlined < Base
       def view_template
-        render MoneyOff.new(variant: :outlined)
+        render MoneyOff.new(variant: :outlined, **attrs)
       end
     end
   end

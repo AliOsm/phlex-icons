@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CameraswitchOutlined < Base
       def view_template
-        render Cameraswitch.new(variant: :outlined)
+        render Cameraswitch.new(variant: :outlined, **attrs)
       end
     end
   end

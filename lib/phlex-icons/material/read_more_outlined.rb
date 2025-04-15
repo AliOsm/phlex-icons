@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReadMoreOutlined < Base
       def view_template
-        render ReadMore.new(variant: :outlined)
+        render ReadMore.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FireHydrantAltFilled < Base
       def view_template
-        render FireHydrantAlt.new(variant: :filled)
+        render FireHydrantAlt.new(variant: :filled, **attrs)
       end
     end
   end

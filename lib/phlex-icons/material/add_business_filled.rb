@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddBusinessFilled < Base
       def view_template
-        render AddBusiness.new(variant: :filled)
+        render AddBusiness.new(variant: :filled, **attrs)
       end
     end
   end

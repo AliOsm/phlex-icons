@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalTaxiFilled < Base
       def view_template
-        render LocalTaxi.new(variant: :filled)
+        render LocalTaxi.new(variant: :filled, **attrs)
       end
     end
   end

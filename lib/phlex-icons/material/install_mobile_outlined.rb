@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InstallMobileOutlined < Base
       def view_template
-        render InstallMobile.new(variant: :outlined)
+        render InstallMobile.new(variant: :outlined, **attrs)
       end
     end
   end

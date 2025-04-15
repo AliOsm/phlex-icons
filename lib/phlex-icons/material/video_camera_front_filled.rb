@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideoCameraFrontFilled < Base
       def view_template
-        render VideoCameraFront.new(variant: :filled)
+        render VideoCameraFront.new(variant: :filled, **attrs)
       end
     end
   end

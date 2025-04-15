@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MedicationFilled < Base
       def view_template
-        render Medication.new(variant: :filled)
+        render Medication.new(variant: :filled, **attrs)
       end
     end
   end

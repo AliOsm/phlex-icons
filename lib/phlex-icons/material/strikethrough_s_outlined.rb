@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StrikethroughSOutlined < Base
       def view_template
-        render StrikethroughS.new(variant: :outlined)
+        render StrikethroughS.new(variant: :outlined, **attrs)
       end
     end
   end

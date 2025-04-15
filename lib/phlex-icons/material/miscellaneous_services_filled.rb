@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MiscellaneousServicesFilled < Base
       def view_template
-        render MiscellaneousServices.new(variant: :filled)
+        render MiscellaneousServices.new(variant: :filled, **attrs)
       end
     end
   end

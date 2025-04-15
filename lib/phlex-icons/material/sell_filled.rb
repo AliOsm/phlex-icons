@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SellFilled < Base
       def view_template
-        render Sell.new(variant: :filled)
+        render Sell.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoTransferOutlined < Base
       def view_template
-        render NoTransfer.new(variant: :outlined)
+        render NoTransfer.new(variant: :outlined, **attrs)
       end
     end
   end

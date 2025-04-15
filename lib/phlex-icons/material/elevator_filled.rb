@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ElevatorFilled < Base
       def view_template
-        render Elevator.new(variant: :filled)
+        render Elevator.new(variant: :filled, **attrs)
       end
     end
   end

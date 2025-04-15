@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AirlineSeatLegroomNormalOutlined < Base
       def view_template
-        render AirlineSeatLegroomNormal.new(variant: :outlined)
+        render AirlineSeatLegroomNormal.new(variant: :outlined, **attrs)
       end
     end
   end

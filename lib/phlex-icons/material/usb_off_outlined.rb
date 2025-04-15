@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UsbOffOutlined < Base
       def view_template
-        render UsbOff.new(variant: :outlined)
+        render UsbOff.new(variant: :outlined, **attrs)
       end
     end
   end

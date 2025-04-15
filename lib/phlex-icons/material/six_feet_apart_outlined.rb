@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 6FtApartOutlined < Base
       def view_template
-        render 6FtApart.new(variant: :outlined)
+        render 6FtApart.new(variant: :outlined, **attrs)
       end
     end
   end

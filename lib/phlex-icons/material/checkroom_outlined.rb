@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CheckroomOutlined < Base
       def view_template
-        render Checkroom.new(variant: :outlined)
+        render Checkroom.new(variant: :outlined, **attrs)
       end
     end
   end

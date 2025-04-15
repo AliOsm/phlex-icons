@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutofpsSelectOutlined < Base
       def view_template
-        render AutofpsSelect.new(variant: :outlined)
+        render AutofpsSelect.new(variant: :outlined, **attrs)
       end
     end
   end

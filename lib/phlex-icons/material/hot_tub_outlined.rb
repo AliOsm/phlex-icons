@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HotTubOutlined < Base
       def view_template
-        render HotTub.new(variant: :outlined)
+        render HotTub.new(variant: :outlined, **attrs)
       end
     end
   end

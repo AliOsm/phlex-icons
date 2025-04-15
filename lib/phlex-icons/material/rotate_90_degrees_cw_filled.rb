@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Rotate90DegreesCwFilled < Base
       def view_template
-        render Rotate90DegreesCw.new(variant: :filled)
+        render Rotate90DegreesCw.new(variant: :filled, **attrs)
       end
     end
   end

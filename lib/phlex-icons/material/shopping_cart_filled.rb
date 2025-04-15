@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShoppingCartFilled < Base
       def view_template
-        render ShoppingCart.new(variant: :filled)
+        render ShoppingCart.new(variant: :filled, **attrs)
       end
     end
   end

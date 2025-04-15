@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UmbrellaFilled < Base
       def view_template
-        render Umbrella.new(variant: :filled)
+        render Umbrella.new(variant: :filled, **attrs)
       end
     end
   end

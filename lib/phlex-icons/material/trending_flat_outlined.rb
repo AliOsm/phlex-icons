@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TrendingFlatOutlined < Base
       def view_template
-        render TrendingFlat.new(variant: :outlined)
+        render TrendingFlat.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PanoramaPhotosphereOutlined < Base
       def view_template
-        render PanoramaPhotosphere.new(variant: :outlined)
+        render PanoramaPhotosphere.new(variant: :outlined, **attrs)
       end
     end
   end

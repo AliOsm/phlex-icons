@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LoginOutlined < Base
       def view_template
-        render Login.new(variant: :outlined)
+        render Login.new(variant: :outlined, **attrs)
       end
     end
   end

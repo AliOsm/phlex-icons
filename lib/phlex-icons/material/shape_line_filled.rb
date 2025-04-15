@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShapeLineFilled < Base
       def view_template
-        render ShapeLine.new(variant: :filled)
+        render ShapeLine.new(variant: :filled, **attrs)
       end
     end
   end

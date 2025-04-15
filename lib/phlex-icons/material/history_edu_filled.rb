@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HistoryEduFilled < Base
       def view_template
-        render HistoryEdu.new(variant: :filled)
+        render HistoryEdu.new(variant: :filled, **attrs)
       end
     end
   end

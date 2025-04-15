@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextRotationNoneFilled < Base
       def view_template
-        render TextRotationNone.new(variant: :filled)
+        render TextRotationNone.new(variant: :filled, **attrs)
       end
     end
   end

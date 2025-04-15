@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatTextdirectionRToLOutlined < Base
       def view_template
-        render FormatTextdirectionRToL.new(variant: :outlined)
+        render FormatTextdirectionRToL.new(variant: :outlined, **attrs)
       end
     end
   end

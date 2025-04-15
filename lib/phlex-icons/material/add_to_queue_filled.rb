@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddToQueueFilled < Base
       def view_template
-        render AddToQueue.new(variant: :filled)
+        render AddToQueue.new(variant: :filled, **attrs)
       end
     end
   end

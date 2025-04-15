@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TransferWithinAStationFilled < Base
       def view_template
-        render TransferWithinAStation.new(variant: :filled)
+        render TransferWithinAStation.new(variant: :filled, **attrs)
       end
     end
   end

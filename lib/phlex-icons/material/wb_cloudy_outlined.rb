@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WbCloudyOutlined < Base
       def view_template
-        render WbCloudy.new(variant: :outlined)
+        render WbCloudy.new(variant: :outlined, **attrs)
       end
     end
   end

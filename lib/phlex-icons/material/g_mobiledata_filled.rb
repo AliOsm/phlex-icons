@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GMobiledataFilled < Base
       def view_template
-        render GMobiledata.new(variant: :filled)
+        render GMobiledata.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BookmarksOutlined < Base
       def view_template
-        render Bookmarks.new(variant: :outlined)
+        render Bookmarks.new(variant: :outlined, **attrs)
       end
     end
   end

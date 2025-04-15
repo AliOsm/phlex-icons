@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PlaylistPlayFilled < Base
       def view_template
-        render PlaylistPlay.new(variant: :filled)
+        render PlaylistPlay.new(variant: :filled, **attrs)
       end
     end
   end

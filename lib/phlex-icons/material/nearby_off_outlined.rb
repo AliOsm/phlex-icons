@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NearbyOffOutlined < Base
       def view_template
-        render NearbyOff.new(variant: :outlined)
+        render NearbyOff.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ContentPasteFilled < Base
       def view_template
-        render ContentPaste.new(variant: :filled)
+        render ContentPaste.new(variant: :filled, **attrs)
       end
     end
   end

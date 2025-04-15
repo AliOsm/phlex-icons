@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SosOutlined < Base
       def view_template
-        render Sos.new(variant: :outlined)
+        render Sos.new(variant: :outlined, **attrs)
       end
     end
   end

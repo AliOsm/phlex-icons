@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WaterDamageOutlined < Base
       def view_template
-        render WaterDamage.new(variant: :outlined)
+        render WaterDamage.new(variant: :outlined, **attrs)
       end
     end
   end

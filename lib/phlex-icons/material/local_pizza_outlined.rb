@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPizzaOutlined < Base
       def view_template
-        render LocalPizza.new(variant: :outlined)
+        render LocalPizza.new(variant: :outlined, **attrs)
       end
     end
   end

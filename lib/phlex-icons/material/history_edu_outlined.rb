@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HistoryEduOutlined < Base
       def view_template
-        render HistoryEdu.new(variant: :outlined)
+        render HistoryEdu.new(variant: :outlined, **attrs)
       end
     end
   end

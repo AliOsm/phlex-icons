@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LeakRemoveFilled < Base
       def view_template
-        render LeakRemove.new(variant: :filled)
+        render LeakRemove.new(variant: :filled, **attrs)
       end
     end
   end

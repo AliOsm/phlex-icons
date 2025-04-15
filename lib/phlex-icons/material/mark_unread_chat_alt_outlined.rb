@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MarkUnreadChatAltOutlined < Base
       def view_template
-        render MarkUnreadChatAlt.new(variant: :outlined)
+        render MarkUnreadChatAlt.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TaskAltFilled < Base
       def view_template
-        render TaskAlt.new(variant: :filled)
+        render TaskAlt.new(variant: :filled, **attrs)
       end
     end
   end

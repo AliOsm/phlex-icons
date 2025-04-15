@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShuffleOutlined < Base
       def view_template
-        render Shuffle.new(variant: :outlined)
+        render Shuffle.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BusinessOutlined < Base
       def view_template
-        render Business.new(variant: :outlined)
+        render Business.new(variant: :outlined, **attrs)
       end
     end
   end

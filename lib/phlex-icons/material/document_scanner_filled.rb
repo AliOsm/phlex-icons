@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DocumentScannerFilled < Base
       def view_template
-        render DocumentScanner.new(variant: :filled)
+        render DocumentScanner.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BabyChangingStationFilled < Base
       def view_template
-        render BabyChangingStation.new(variant: :filled)
+        render BabyChangingStation.new(variant: :filled, **attrs)
       end
     end
   end

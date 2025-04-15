@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KitchenOutlined < Base
       def view_template
-        render Kitchen.new(variant: :outlined)
+        render Kitchen.new(variant: :outlined, **attrs)
       end
     end
   end

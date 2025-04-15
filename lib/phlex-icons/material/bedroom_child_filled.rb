@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BedroomChildFilled < Base
       def view_template
-        render BedroomChild.new(variant: :filled)
+        render BedroomChild.new(variant: :filled, **attrs)
       end
     end
   end

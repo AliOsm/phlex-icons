@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GradientFilled < Base
       def view_template
-        render Gradient.new(variant: :filled)
+        render Gradient.new(variant: :filled, **attrs)
       end
     end
   end

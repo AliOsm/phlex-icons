@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CircleNotificationsFilled < Base
       def view_template
-        render CircleNotifications.new(variant: :filled)
+        render CircleNotifications.new(variant: :filled, **attrs)
       end
     end
   end

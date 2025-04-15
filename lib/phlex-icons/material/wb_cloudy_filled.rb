@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WbCloudyFilled < Base
       def view_template
-        render WbCloudy.new(variant: :filled)
+        render WbCloudy.new(variant: :filled, **attrs)
       end
     end
   end

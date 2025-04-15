@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReportOffOutlined < Base
       def view_template
-        render ReportOff.new(variant: :outlined)
+        render ReportOff.new(variant: :outlined, **attrs)
       end
     end
   end

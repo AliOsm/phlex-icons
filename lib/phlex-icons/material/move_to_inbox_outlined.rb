@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MoveToInboxOutlined < Base
       def view_template
-        render MoveToInbox.new(variant: :outlined)
+        render MoveToInbox.new(variant: :outlined, **attrs)
       end
     end
   end

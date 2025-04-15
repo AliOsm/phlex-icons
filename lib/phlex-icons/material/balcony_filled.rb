@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BalconyFilled < Base
       def view_template
-        render Balcony.new(variant: :filled)
+        render Balcony.new(variant: :filled, **attrs)
       end
     end
   end

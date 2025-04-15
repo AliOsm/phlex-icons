@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 3dRotationOutlined < Base
       def view_template
-        render 3dRotation.new(variant: :outlined)
+        render 3dRotation.new(variant: :outlined, **attrs)
       end
     end
   end

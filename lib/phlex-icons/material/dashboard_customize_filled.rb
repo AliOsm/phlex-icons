@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DashboardCustomizeFilled < Base
       def view_template
-        render DashboardCustomize.new(variant: :filled)
+        render DashboardCustomize.new(variant: :filled, **attrs)
       end
     end
   end

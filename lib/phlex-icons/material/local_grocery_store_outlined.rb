@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalGroceryStoreOutlined < Base
       def view_template
-        render LocalGroceryStore.new(variant: :outlined)
+        render LocalGroceryStore.new(variant: :outlined, **attrs)
       end
     end
   end

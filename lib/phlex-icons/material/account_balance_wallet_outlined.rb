@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AccountBalanceWalletOutlined < Base
       def view_template
-        render AccountBalanceWallet.new(variant: :outlined)
+        render AccountBalanceWallet.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BubbleChartFilled < Base
       def view_template
-        render BubbleChart.new(variant: :filled)
+        render BubbleChart.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsRemoteFilled < Base
       def view_template
-        render SettingsRemote.new(variant: :filled)
+        render SettingsRemote.new(variant: :filled, **attrs)
       end
     end
   end

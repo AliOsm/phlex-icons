@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GroupWorkOutlined < Base
       def view_template
-        render GroupWork.new(variant: :outlined)
+        render GroupWork.new(variant: :outlined, **attrs)
       end
     end
   end

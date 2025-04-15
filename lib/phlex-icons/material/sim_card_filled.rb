@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SimCardFilled < Base
       def view_template
-        render SimCard.new(variant: :filled)
+        render SimCard.new(variant: :filled, **attrs)
       end
     end
   end

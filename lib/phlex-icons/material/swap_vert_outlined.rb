@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SwapVertOutlined < Base
       def view_template
-        render SwapVert.new(variant: :outlined)
+        render SwapVert.new(variant: :outlined, **attrs)
       end
     end
   end

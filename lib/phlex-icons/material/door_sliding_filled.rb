@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DoorSlidingFilled < Base
       def view_template
-        render DoorSliding.new(variant: :filled)
+        render DoorSliding.new(variant: :filled, **attrs)
       end
     end
   end

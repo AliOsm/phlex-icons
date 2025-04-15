@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PersonSearchFilled < Base
       def view_template
-        render PersonSearch.new(variant: :filled)
+        render PersonSearch.new(variant: :filled, **attrs)
       end
     end
   end

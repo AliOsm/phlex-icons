@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AttributionOutlined < Base
       def view_template
-        render Attribution.new(variant: :outlined)
+        render Attribution.new(variant: :outlined, **attrs)
       end
     end
   end

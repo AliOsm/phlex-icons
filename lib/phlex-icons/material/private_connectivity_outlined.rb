@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PrivateConnectivityOutlined < Base
       def view_template
-        render PrivateConnectivity.new(variant: :outlined)
+        render PrivateConnectivity.new(variant: :outlined, **attrs)
       end
     end
   end

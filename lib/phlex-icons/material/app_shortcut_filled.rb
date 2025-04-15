@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AppShortcutFilled < Base
       def view_template
-        render AppShortcut.new(variant: :filled)
+        render AppShortcut.new(variant: :filled, **attrs)
       end
     end
   end

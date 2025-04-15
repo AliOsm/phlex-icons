@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BallotFilled < Base
       def view_template
-        render Ballot.new(variant: :filled)
+        render Ballot.new(variant: :filled, **attrs)
       end
     end
   end

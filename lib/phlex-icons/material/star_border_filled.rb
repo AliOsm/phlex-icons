@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StarBorderFilled < Base
       def view_template
-        render StarBorder.new(variant: :filled)
+        render StarBorder.new(variant: :filled, **attrs)
       end
     end
   end

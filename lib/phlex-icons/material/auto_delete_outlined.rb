@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoDeleteOutlined < Base
       def view_template
-        render AutoDelete.new(variant: :outlined)
+        render AutoDelete.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EnhancedEncryptionFilled < Base
       def view_template
-        render EnhancedEncryption.new(variant: :filled)
+        render EnhancedEncryption.new(variant: :filled, **attrs)
       end
     end
   end

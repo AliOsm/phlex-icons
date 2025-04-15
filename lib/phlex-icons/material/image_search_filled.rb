@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ImageSearchFilled < Base
       def view_template
-        render ImageSearch.new(variant: :filled)
+        render ImageSearch.new(variant: :filled, **attrs)
       end
     end
   end

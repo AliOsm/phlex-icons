@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ModeOfTravelOutlined < Base
       def view_template
-        render ModeOfTravel.new(variant: :outlined)
+        render ModeOfTravel.new(variant: :outlined, **attrs)
       end
     end
   end

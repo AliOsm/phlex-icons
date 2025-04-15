@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SignalCellularAltFilled < Base
       def view_template
-        render SignalCellularAlt.new(variant: :filled)
+        render SignalCellularAlt.new(variant: :filled, **attrs)
       end
     end
   end

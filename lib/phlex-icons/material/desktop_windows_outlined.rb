@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DesktopWindowsOutlined < Base
       def view_template
-        render DesktopWindows.new(variant: :outlined)
+        render DesktopWindows.new(variant: :outlined, **attrs)
       end
     end
   end

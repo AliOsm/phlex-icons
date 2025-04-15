@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Grid4x4Filled < Base
       def view_template
-        render Grid4x4.new(variant: :filled)
+        render Grid4x4.new(variant: :filled, **attrs)
       end
     end
   end

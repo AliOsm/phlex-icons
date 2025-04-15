@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PropaneOutlined < Base
       def view_template
-        render Propane.new(variant: :outlined)
+        render Propane.new(variant: :outlined, **attrs)
       end
     end
   end

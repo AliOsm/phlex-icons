@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CodeOffFilled < Base
       def view_template
-        render CodeOff.new(variant: :filled)
+        render CodeOff.new(variant: :filled, **attrs)
       end
     end
   end

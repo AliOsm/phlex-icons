@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SendToMobileFilled < Base
       def view_template
-        render SendToMobile.new(variant: :filled)
+        render SendToMobile.new(variant: :filled, **attrs)
       end
     end
   end

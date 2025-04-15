@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WbAutoFilled < Base
       def view_template
-        render WbAuto.new(variant: :filled)
+        render WbAuto.new(variant: :filled, **attrs)
       end
     end
   end

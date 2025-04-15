@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChatFilled < Base
       def view_template
-        render Chat.new(variant: :filled)
+        render Chat.new(variant: :filled, **attrs)
       end
     end
   end

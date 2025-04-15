@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WcOutlined < Base
       def view_template
-        render Wc.new(variant: :outlined)
+        render Wc.new(variant: :outlined, **attrs)
       end
     end
   end

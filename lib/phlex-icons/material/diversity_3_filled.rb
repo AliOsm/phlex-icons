@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Diversity3Filled < Base
       def view_template
-        render Diversity3.new(variant: :filled)
+        render Diversity3.new(variant: :filled, **attrs)
       end
     end
   end

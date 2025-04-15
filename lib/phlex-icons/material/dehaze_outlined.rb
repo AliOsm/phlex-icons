@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DehazeOutlined < Base
       def view_template
-        render Dehaze.new(variant: :outlined)
+        render Dehaze.new(variant: :outlined, **attrs)
       end
     end
   end

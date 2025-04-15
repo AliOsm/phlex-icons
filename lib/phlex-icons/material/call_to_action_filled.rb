@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CallToActionFilled < Base
       def view_template
-        render CallToAction.new(variant: :filled)
+        render CallToAction.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StorageFilled < Base
       def view_template
-        render Storage.new(variant: :filled)
+        render Storage.new(variant: :filled, **attrs)
       end
     end
   end

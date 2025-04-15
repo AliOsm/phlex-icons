@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CastOutlined < Base
       def view_template
-        render Cast.new(variant: :outlined)
+        render Cast.new(variant: :outlined, **attrs)
       end
     end
   end

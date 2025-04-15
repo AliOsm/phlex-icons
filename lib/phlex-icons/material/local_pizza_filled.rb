@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPizzaFilled < Base
       def view_template
-        render LocalPizza.new(variant: :filled)
+        render LocalPizza.new(variant: :filled, **attrs)
       end
     end
   end

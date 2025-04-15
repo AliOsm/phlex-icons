@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TonalityOutlined < Base
       def view_template
-        render Tonality.new(variant: :outlined)
+        render Tonality.new(variant: :outlined, **attrs)
       end
     end
   end

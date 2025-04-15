@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SwipeRightAltOutlined < Base
       def view_template
-        render SwipeRightAlt.new(variant: :outlined)
+        render SwipeRightAlt.new(variant: :outlined, **attrs)
       end
     end
   end

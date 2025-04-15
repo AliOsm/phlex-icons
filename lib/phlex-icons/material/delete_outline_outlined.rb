@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DeleteOutlineOutlined < Base
       def view_template
-        render DeleteOutline.new(variant: :outlined)
+        render DeleteOutline.new(variant: :outlined, **attrs)
       end
     end
   end

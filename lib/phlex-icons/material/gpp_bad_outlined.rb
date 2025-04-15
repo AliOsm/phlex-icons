@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GppBadOutlined < Base
       def view_template
-        render GppBad.new(variant: :outlined)
+        render GppBad.new(variant: :outlined, **attrs)
       end
     end
   end

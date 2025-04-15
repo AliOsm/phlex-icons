@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LoyaltyFilled < Base
       def view_template
-        render Loyalty.new(variant: :filled)
+        render Loyalty.new(variant: :filled, **attrs)
       end
     end
   end

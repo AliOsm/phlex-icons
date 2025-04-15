@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StarOutlineOutlined < Base
       def view_template
-        render StarOutline.new(variant: :outlined)
+        render StarOutline.new(variant: :outlined, **attrs)
       end
     end
   end

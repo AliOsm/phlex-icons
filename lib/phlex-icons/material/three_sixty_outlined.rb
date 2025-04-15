@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 360Outlined < Base
       def view_template
-        render 360.new(variant: :outlined)
+        render 360.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardTabOutlined < Base
       def view_template
-        render KeyboardTab.new(variant: :outlined)
+        render KeyboardTab.new(variant: :outlined, **attrs)
       end
     end
   end

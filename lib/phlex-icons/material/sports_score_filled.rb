@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SportsScoreFilled < Base
       def view_template
-        render SportsScore.new(variant: :filled)
+        render SportsScore.new(variant: :filled, **attrs)
       end
     end
   end

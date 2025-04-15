@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NetworkWifiOutlined < Base
       def view_template
-        render NetworkWifi.new(variant: :outlined)
+        render NetworkWifi.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SpeakerGroupFilled < Base
       def view_template
-        render SpeakerGroup.new(variant: :filled)
+        render SpeakerGroup.new(variant: :filled, **attrs)
       end
     end
   end

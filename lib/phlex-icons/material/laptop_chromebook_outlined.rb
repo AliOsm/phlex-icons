@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LaptopChromebookOutlined < Base
       def view_template
-        render LaptopChromebook.new(variant: :outlined)
+        render LaptopChromebook.new(variant: :outlined, **attrs)
       end
     end
   end

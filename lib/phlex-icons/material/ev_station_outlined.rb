@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EvStationOutlined < Base
       def view_template
-        render EvStation.new(variant: :outlined)
+        render EvStation.new(variant: :outlined, **attrs)
       end
     end
   end

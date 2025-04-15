@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SleddingOutlined < Base
       def view_template
-        render Sledding.new(variant: :outlined)
+        render Sledding.new(variant: :outlined, **attrs)
       end
     end
   end

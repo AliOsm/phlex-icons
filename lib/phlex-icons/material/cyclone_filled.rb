@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CycloneFilled < Base
       def view_template
-        render Cyclone.new(variant: :filled)
+        render Cyclone.new(variant: :filled, **attrs)
       end
     end
   end

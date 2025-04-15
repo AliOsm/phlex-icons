@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GridGoldenratioOutlined < Base
       def view_template
-        render GridGoldenratio.new(variant: :outlined)
+        render GridGoldenratio.new(variant: :outlined, **attrs)
       end
     end
   end

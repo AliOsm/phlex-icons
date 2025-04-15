@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScheduleSendOutlined < Base
       def view_template
-        render ScheduleSend.new(variant: :outlined)
+        render ScheduleSend.new(variant: :outlined, **attrs)
       end
     end
   end

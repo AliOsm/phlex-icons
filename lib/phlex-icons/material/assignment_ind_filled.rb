@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AssignmentIndFilled < Base
       def view_template
-        render AssignmentInd.new(variant: :filled)
+        render AssignmentInd.new(variant: :filled, **attrs)
       end
     end
   end

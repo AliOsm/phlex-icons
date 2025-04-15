@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScreenSearchDesktopOutlined < Base
       def view_template
-        render ScreenSearchDesktop.new(variant: :outlined)
+        render ScreenSearchDesktop.new(variant: :outlined, **attrs)
       end
     end
   end

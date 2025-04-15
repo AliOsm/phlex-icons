@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HandymanFilled < Base
       def view_template
-        render Handyman.new(variant: :filled)
+        render Handyman.new(variant: :filled, **attrs)
       end
     end
   end

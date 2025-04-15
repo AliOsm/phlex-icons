@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EditFilled < Base
       def view_template
-        render Edit.new(variant: :filled)
+        render Edit.new(variant: :filled, **attrs)
       end
     end
   end

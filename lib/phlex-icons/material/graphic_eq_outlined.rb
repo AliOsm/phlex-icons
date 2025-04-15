@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GraphicEqOutlined < Base
       def view_template
-        render GraphicEq.new(variant: :outlined)
+        render GraphicEq.new(variant: :outlined, **attrs)
       end
     end
   end

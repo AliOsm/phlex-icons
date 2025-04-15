@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ModeFanOffFilled < Base
       def view_template
-        render ModeFanOff.new(variant: :filled)
+        render ModeFanOff.new(variant: :filled, **attrs)
       end
     end
   end

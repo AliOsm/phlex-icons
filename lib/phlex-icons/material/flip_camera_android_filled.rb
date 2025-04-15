@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlipCameraAndroidFilled < Base
       def view_template
-        render FlipCameraAndroid.new(variant: :filled)
+        render FlipCameraAndroid.new(variant: :filled, **attrs)
       end
     end
   end

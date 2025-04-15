@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlightFilled < Base
       def view_template
-        render Flight.new(variant: :filled)
+        render Flight.new(variant: :filled, **attrs)
       end
     end
   end

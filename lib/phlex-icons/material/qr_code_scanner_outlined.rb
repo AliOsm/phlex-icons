@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class QrCodeScannerOutlined < Base
       def view_template
-        render QrCodeScanner.new(variant: :outlined)
+        render QrCodeScanner.new(variant: :outlined, **attrs)
       end
     end
   end

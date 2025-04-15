@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EventAvailableOutlined < Base
       def view_template
-        render EventAvailable.new(variant: :outlined)
+        render EventAvailable.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReplyAllFilled < Base
       def view_template
-        render ReplyAll.new(variant: :filled)
+        render ReplyAll.new(variant: :filled, **attrs)
       end
     end
   end

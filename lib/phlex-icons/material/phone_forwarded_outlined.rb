@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhoneForwardedOutlined < Base
       def view_template
-        render PhoneForwarded.new(variant: :outlined)
+        render PhoneForwarded.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EdgesensorLowOutlined < Base
       def view_template
-        render EdgesensorLow.new(variant: :outlined)
+        render EdgesensorLow.new(variant: :outlined, **attrs)
       end
     end
   end

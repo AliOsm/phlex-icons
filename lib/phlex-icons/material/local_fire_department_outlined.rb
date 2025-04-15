@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalFireDepartmentOutlined < Base
       def view_template
-        render LocalFireDepartment.new(variant: :outlined)
+        render LocalFireDepartment.new(variant: :outlined, **attrs)
       end
     end
   end

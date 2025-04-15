@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SoupKitchenFilled < Base
       def view_template
-        render SoupKitchen.new(variant: :filled)
+        render SoupKitchen.new(variant: :filled, **attrs)
       end
     end
   end

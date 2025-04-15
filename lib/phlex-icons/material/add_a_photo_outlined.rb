@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddAPhotoOutlined < Base
       def view_template
-        render AddAPhoto.new(variant: :outlined)
+        render AddAPhoto.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CurrencyExchangeFilled < Base
       def view_template
-        render CurrencyExchange.new(variant: :filled)
+        render CurrencyExchange.new(variant: :filled, **attrs)
       end
     end
   end

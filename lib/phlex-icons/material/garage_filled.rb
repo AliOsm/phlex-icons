@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GarageFilled < Base
       def view_template
-        render Garage.new(variant: :filled)
+        render Garage.new(variant: :filled, **attrs)
       end
     end
   end

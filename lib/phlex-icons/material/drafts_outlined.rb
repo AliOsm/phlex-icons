@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DraftsOutlined < Base
       def view_template
-        render Drafts.new(variant: :outlined)
+        render Drafts.new(variant: :outlined, **attrs)
       end
     end
   end

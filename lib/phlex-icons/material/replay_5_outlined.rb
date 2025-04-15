@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Replay5Outlined < Base
       def view_template
-        render Replay5.new(variant: :outlined)
+        render Replay5.new(variant: :outlined, **attrs)
       end
     end
   end

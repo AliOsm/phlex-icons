@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CameraFrontOutlined < Base
       def view_template
-        render CameraFront.new(variant: :outlined)
+        render CameraFront.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewKanbanOutlined < Base
       def view_template
-        render ViewKanban.new(variant: :outlined)
+        render ViewKanban.new(variant: :outlined, **attrs)
       end
     end
   end

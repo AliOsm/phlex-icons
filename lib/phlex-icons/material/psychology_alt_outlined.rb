@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PsychologyAltOutlined < Base
       def view_template
-        render PsychologyAlt.new(variant: :outlined)
+        render PsychologyAlt.new(variant: :outlined, **attrs)
       end
     end
   end

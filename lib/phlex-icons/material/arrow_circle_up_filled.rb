@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ArrowCircleUpFilled < Base
       def view_template
-        render ArrowCircleUp.new(variant: :filled)
+        render ArrowCircleUp.new(variant: :filled, **attrs)
       end
     end
   end

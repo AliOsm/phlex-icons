@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatColorTextOutlined < Base
       def view_template
-        render FormatColorText.new(variant: :outlined)
+        render FormatColorText.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VoiceChatFilled < Base
       def view_template
-        render VoiceChat.new(variant: :filled)
+        render VoiceChat.new(variant: :filled, **attrs)
       end
     end
   end

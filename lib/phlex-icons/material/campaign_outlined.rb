@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CampaignOutlined < Base
       def view_template
-        render Campaign.new(variant: :outlined)
+        render Campaign.new(variant: :outlined, **attrs)
       end
     end
   end

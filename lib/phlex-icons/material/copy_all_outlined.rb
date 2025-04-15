@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CopyAllOutlined < Base
       def view_template
-        render CopyAll.new(variant: :outlined)
+        render CopyAll.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ArrowDownwardOutlined < Base
       def view_template
-        render ArrowDownward.new(variant: :outlined)
+        render ArrowDownward.new(variant: :outlined, **attrs)
       end
     end
   end

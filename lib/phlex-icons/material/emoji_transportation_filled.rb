@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EmojiTransportationFilled < Base
       def view_template
-        render EmojiTransportation.new(variant: :filled)
+        render EmojiTransportation.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CookieFilled < Base
       def view_template
-        render Cookie.new(variant: :filled)
+        render Cookie.new(variant: :filled, **attrs)
       end
     end
   end

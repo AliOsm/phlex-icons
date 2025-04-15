@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PrintOutlined < Base
       def view_template
-        render Print.new(variant: :outlined)
+        render Print.new(variant: :outlined, **attrs)
       end
     end
   end

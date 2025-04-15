@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalShippingFilled < Base
       def view_template
-        render LocalShipping.new(variant: :filled)
+        render LocalShipping.new(variant: :filled, **attrs)
       end
     end
   end

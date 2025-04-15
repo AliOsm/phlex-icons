@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BatteryStdOutlined < Base
       def view_template
-        render BatteryStd.new(variant: :outlined)
+        render BatteryStd.new(variant: :outlined, **attrs)
       end
     end
   end
