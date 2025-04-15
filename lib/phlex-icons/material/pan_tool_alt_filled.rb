@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Material
+    class PanToolAltFilled < Base
+      def view_template
+        render PanToolAlt.new(variant: :filled)
+      end
+    end
+  end
+end

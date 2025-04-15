@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Material
+    class ViewArrayOutlined < Base
+      def view_template
+        render ViewArray.new(variant: :outlined)
+      end
+    end
+  end
+end

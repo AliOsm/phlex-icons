@@ -73,8 +73,8 @@ def component_file_name(icon_file_name, replacements = nil)
   "#{icon_name.gsub('-', '_')}.rb"
 end
 
-def variant_component_file_name(icon_file_name, variant)
-  "#{component_file_name(icon_file_name).gsub('.rb', '')}_#{variant.to_s.downcase}.rb"
+def variant_component_file_name(icon_file_name, variant, replacements = nil)
+  "#{component_file_name(icon_file_name, replacements).gsub('.rb', '')}_#{variant.to_s.downcase}.rb"
 end
 
 def component_class_name(icon_file_name, replacements = nil)

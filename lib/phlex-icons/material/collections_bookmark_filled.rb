@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Material
+    class CollectionsBookmarkFilled < Base
+      def view_template
+        render CollectionsBookmark.new(variant: :filled)
+      end
+    end
+  end
+end
