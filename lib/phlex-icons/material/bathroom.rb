@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/MethodLength
 module PhlexIcons
   module Material
     class Bathroom < Base
@@ -29,7 +29,61 @@ module PhlexIcons
           )
         end
       end
+
+      def round
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 18c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-8-4c0-2.76 2.24-5 5-5s5 2.24 5 5c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1z'
+          )
+        end
+      end
+
+      def sharp
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M22 2H2v20h20V2zM9 18c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm2-3H7v-1c0-2.76 2.24-5 5-5s5 2.24 5 5v1z'
+          )
+        end
+      end
+
+      def two_tone
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            d:
+              'M4 20h16V4H4v16zm5-2c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-8-4c0-2.76 2.24-5 5-5s5 2.24 5 5v1H7v-1z',
+            opacity: '.3'
+          )
+          s.circle(cx: '15', cy: '14', r: '1')
+          s.circle(cx: '12', cy: '14', r: '1')
+          s.circle(cx: '15', cy: '17', r: '1')
+          s.path(
+            d:
+              'M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H4V4h16v16z'
+          )
+          s.path(
+            d:
+              'M17 11c0-2.76-2.24-5-5-5s-5 2.24-5 5v1h10v-1zm-8.46-.5c.24-1.69 1.7-3 3.46-3s3.22 1.31 3.47 3H8.54z'
+          )
+          s.circle(cx: '9', cy: '17', r: '1')
+          s.circle(cx: '9', cy: '14', r: '1')
+          s.circle(cx: '12', cy: '17', r: '1')
+        end
+      end
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/MethodLength

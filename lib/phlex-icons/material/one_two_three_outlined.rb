@@ -1,13 +1,11 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/ClassLength,Metrics/MethodLength
 module PhlexIcons
   module Material
-    class 123Outlined < Base
+    class OneTwoThreeOutlined < Base
       def view_template
-        render 123.new(variant: :outlined, **attrs)
+        render OneTwoThree.new(variant: :outlined, **attrs)
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/AbcSize,Metrics/BlockLength,Metrics/ClassLength,Metrics/MethodLength

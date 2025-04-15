@@ -6,7 +6,7 @@ REPO_URL = 'https://github.com/marella/material-design-icons.git'
 REPO_NAME = 'material-design-icons'
 ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/material.rb'
 ICONS_PACK_PATH = 'lib/phlex-icons/material'
-VARIANTS = %i[filled outlined].freeze
+VARIANTS = %i[filled outlined round sharp two_tone].freeze
 REPLACEMENTS = {
   '123' => 'one_two_three',
   '360' => 'three_sixty',
@@ -35,6 +35,18 @@ TEMPLATE = ERB.new <<~TEMPLATE
         def outlined
           <%= outlined_icon %>
         end
+
+        def round
+          <%= round_icon %>
+        end
+
+        def sharp
+          <%= sharp_icon %>
+        end
+
+        def two_tone
+          <%= two_tone_icon %>
+        end
       end
     end
   end
@@ -47,7 +59,7 @@ VARIANT_TEMPLATE = ERB.new <<~VARIANT_TEMPLATE
   # rubocop:disable #{ROBOCOP_DISABLE_WARNINGS}
   module PhlexIcons
     module Material
-      class <%= icon_name %><%= variant.to_s.capitalize %> < Base
+      class <%= icon_name %><%= component_class_name(variant.to_s) %> < Base
         def view_template
           render <%= icon_name %>.new(variant: :<%= variant %>, **attrs)
         end
@@ -90,7 +102,10 @@ def create_icon_component(icon_file_name)
     TEMPLATE.result_with_hash(
       icon_name: component_class_name(icon_file_name, REPLACEMENTS),
       filled_icon: read_and_convert_icon(icon_file_path('filled', icon_file_name)),
-      outlined_icon: read_and_convert_icon(icon_file_path('outlined', icon_file_name))
+      outlined_icon: read_and_convert_icon(icon_file_path('outlined', icon_file_name)),
+      sharp_icon: read_and_convert_icon(icon_file_path('sharp', icon_file_name)),
+      round_icon: read_and_convert_icon(icon_file_path('round', icon_file_name)),
+      two_tone_icon: read_and_convert_icon(icon_file_path('two-tone', icon_file_name)),
     )
   )
 
@@ -98,7 +113,7 @@ def create_icon_component(icon_file_name)
     File.write(
       File.join(ICONS_PACK_PATH, variant_component_file_name(icon_file_name, variant, REPLACEMENTS)),
       VARIANT_TEMPLATE.result_with_hash(
-        icon_name: component_class_name(icon_file_name),
+        icon_name: component_class_name(icon_file_name, REPLACEMENTS),
         variant: variant
       )
     )
