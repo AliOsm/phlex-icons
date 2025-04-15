@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PasswordFilled < Base
       def view_template
-        render Password.new(variant: :filled)
+        render Password.new(variant: :filled, **attrs)
       end
     end
   end

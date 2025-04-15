@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KitesurfingFilled < Base
       def view_template
-        render Kitesurfing.new(variant: :filled)
+        render Kitesurfing.new(variant: :filled, **attrs)
       end
     end
   end

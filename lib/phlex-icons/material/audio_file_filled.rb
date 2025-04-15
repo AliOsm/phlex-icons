@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AudioFileFilled < Base
       def view_template
-        render AudioFile.new(variant: :filled)
+        render AudioFile.new(variant: :filled, **attrs)
       end
     end
   end

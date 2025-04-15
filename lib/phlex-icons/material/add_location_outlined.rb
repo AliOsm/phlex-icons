@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddLocationOutlined < Base
       def view_template
-        render AddLocation.new(variant: :outlined)
+        render AddLocation.new(variant: :outlined, **attrs)
       end
     end
   end

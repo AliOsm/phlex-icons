@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UnfoldLessDoubleOutlined < Base
       def view_template
-        render UnfoldLessDouble.new(variant: :outlined)
+        render UnfoldLessDouble.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FestivalFilled < Base
       def view_template
-        render Festival.new(variant: :filled)
+        render Festival.new(variant: :filled, **attrs)
       end
     end
   end

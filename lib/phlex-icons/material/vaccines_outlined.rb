@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VaccinesOutlined < Base
       def view_template
-        render Vaccines.new(variant: :outlined)
+        render Vaccines.new(variant: :outlined, **attrs)
       end
     end
   end

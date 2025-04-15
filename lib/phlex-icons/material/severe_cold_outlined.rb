@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SevereColdOutlined < Base
       def view_template
-        render SevereCold.new(variant: :outlined)
+        render SevereCold.new(variant: :outlined, **attrs)
       end
     end
   end

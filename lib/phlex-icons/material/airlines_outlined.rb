@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AirlinesOutlined < Base
       def view_template
-        render Airlines.new(variant: :outlined)
+        render Airlines.new(variant: :outlined, **attrs)
       end
     end
   end

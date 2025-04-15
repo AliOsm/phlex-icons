@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhonelinkSetupFilled < Base
       def view_template
-        render PhonelinkSetup.new(variant: :filled)
+        render PhonelinkSetup.new(variant: :filled, **attrs)
       end
     end
   end

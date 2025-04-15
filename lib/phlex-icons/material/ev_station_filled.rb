@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EvStationFilled < Base
       def view_template
-        render EvStation.new(variant: :filled)
+        render EvStation.new(variant: :filled, **attrs)
       end
     end
   end

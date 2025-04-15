@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlashOffOutlined < Base
       def view_template
-        render FlashOff.new(variant: :outlined)
+        render FlashOff.new(variant: :outlined, **attrs)
       end
     end
   end

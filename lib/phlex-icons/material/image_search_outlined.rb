@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ImageSearchOutlined < Base
       def view_template
-        render ImageSearch.new(variant: :outlined)
+        render ImageSearch.new(variant: :outlined, **attrs)
       end
     end
   end

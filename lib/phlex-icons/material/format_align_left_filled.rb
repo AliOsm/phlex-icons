@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatAlignLeftFilled < Base
       def view_template
-        render FormatAlignLeft.new(variant: :filled)
+        render FormatAlignLeft.new(variant: :filled, **attrs)
       end
     end
   end

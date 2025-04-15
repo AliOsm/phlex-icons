@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoGraphOutlined < Base
       def view_template
-        render AutoGraph.new(variant: :outlined)
+        render AutoGraph.new(variant: :outlined, **attrs)
       end
     end
   end

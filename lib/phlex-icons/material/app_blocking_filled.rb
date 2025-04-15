@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AppBlockingFilled < Base
       def view_template
-        render AppBlocking.new(variant: :filled)
+        render AppBlocking.new(variant: :filled, **attrs)
       end
     end
   end

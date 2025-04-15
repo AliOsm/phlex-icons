@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SyncDisabledFilled < Base
       def view_template
-        render SyncDisabled.new(variant: :filled)
+        render SyncDisabled.new(variant: :filled, **attrs)
       end
     end
   end

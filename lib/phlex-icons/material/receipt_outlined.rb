@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReceiptOutlined < Base
       def view_template
-        render Receipt.new(variant: :outlined)
+        render Receipt.new(variant: :outlined, **attrs)
       end
     end
   end

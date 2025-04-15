@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AndroidFilled < Base
       def view_template
-        render Android.new(variant: :filled)
+        render Android.new(variant: :filled, **attrs)
       end
     end
   end

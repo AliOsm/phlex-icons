@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MediationFilled < Base
       def view_template
-        render Mediation.new(variant: :filled)
+        render Mediation.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextsmsOutlined < Base
       def view_template
-        render Textsms.new(variant: :outlined)
+        render Textsms.new(variant: :outlined, **attrs)
       end
     end
   end

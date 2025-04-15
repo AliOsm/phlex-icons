@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UpdateOutlined < Base
       def view_template
-        render Update.new(variant: :outlined)
+        render Update.new(variant: :outlined, **attrs)
       end
     end
   end

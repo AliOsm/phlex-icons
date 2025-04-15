@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NearMeOutlined < Base
       def view_template
-        render NearMe.new(variant: :outlined)
+        render NearMe.new(variant: :outlined, **attrs)
       end
     end
   end

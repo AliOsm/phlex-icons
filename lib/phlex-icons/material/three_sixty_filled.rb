@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 360Filled < Base
       def view_template
-        render 360.new(variant: :filled)
+        render 360.new(variant: :filled, **attrs)
       end
     end
   end

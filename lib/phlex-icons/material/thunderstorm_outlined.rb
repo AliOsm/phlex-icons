@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ThunderstormOutlined < Base
       def view_template
-        render Thunderstorm.new(variant: :outlined)
+        render Thunderstorm.new(variant: :outlined, **attrs)
       end
     end
   end

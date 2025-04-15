@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChildCareOutlined < Base
       def view_template
-        render ChildCare.new(variant: :outlined)
+        render ChildCare.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BlindsClosedOutlined < Base
       def view_template
-        render BlindsClosed.new(variant: :outlined)
+        render BlindsClosed.new(variant: :outlined, **attrs)
       end
     end
   end

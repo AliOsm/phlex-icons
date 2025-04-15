@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ExposureZeroOutlined < Base
       def view_template
-        render ExposureZero.new(variant: :outlined)
+        render ExposureZero.new(variant: :outlined, **attrs)
       end
     end
   end

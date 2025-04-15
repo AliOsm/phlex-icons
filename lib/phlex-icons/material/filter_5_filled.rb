@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Filter5Filled < Base
       def view_template
-        render Filter5.new(variant: :filled)
+        render Filter5.new(variant: :filled, **attrs)
       end
     end
   end

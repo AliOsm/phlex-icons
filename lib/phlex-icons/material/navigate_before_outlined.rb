@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NavigateBeforeOutlined < Base
       def view_template
-        render NavigateBefore.new(variant: :outlined)
+        render NavigateBefore.new(variant: :outlined, **attrs)
       end
     end
   end

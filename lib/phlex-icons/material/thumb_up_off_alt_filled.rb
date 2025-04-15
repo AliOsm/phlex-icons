@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ThumbUpOffAltFilled < Base
       def view_template
-        render ThumbUpOffAlt.new(variant: :filled)
+        render ThumbUpOffAlt.new(variant: :filled, **attrs)
       end
     end
   end

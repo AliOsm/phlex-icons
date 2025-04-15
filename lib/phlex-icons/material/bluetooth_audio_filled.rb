@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BluetoothAudioFilled < Base
       def view_template
-        render BluetoothAudio.new(variant: :filled)
+        render BluetoothAudio.new(variant: :filled, **attrs)
       end
     end
   end

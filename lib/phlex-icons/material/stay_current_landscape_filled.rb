@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StayCurrentLandscapeFilled < Base
       def view_template
-        render StayCurrentLandscape.new(variant: :filled)
+        render StayCurrentLandscape.new(variant: :filled, **attrs)
       end
     end
   end

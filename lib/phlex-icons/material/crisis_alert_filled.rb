@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CrisisAlertFilled < Base
       def view_template
-        render CrisisAlert.new(variant: :filled)
+        render CrisisAlert.new(variant: :filled, **attrs)
       end
     end
   end

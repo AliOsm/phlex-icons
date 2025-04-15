@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AccessTimeFilledFilled < Base
       def view_template
-        render AccessTimeFilled.new(variant: :filled)
+        render AccessTimeFilled.new(variant: :filled, **attrs)
       end
     end
   end

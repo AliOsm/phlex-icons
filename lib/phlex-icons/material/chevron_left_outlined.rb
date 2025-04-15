@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChevronLeftOutlined < Base
       def view_template
-        render ChevronLeft.new(variant: :outlined)
+        render ChevronLeft.new(variant: :outlined, **attrs)
       end
     end
   end

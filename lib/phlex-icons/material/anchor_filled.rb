@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AnchorFilled < Base
       def view_template
-        render Anchor.new(variant: :filled)
+        render Anchor.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TrendingFlatFilled < Base
       def view_template
-        render TrendingFlat.new(variant: :filled)
+        render TrendingFlat.new(variant: :filled, **attrs)
       end
     end
   end

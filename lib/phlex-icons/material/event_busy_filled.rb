@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EventBusyFilled < Base
       def view_template
-        render EventBusy.new(variant: :filled)
+        render EventBusy.new(variant: :filled, **attrs)
       end
     end
   end

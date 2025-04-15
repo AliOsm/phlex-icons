@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DataObjectFilled < Base
       def view_template
-        render DataObject.new(variant: :filled)
+        render DataObject.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LockPersonOutlined < Base
       def view_template
-        render LockPerson.new(variant: :outlined)
+        render LockPerson.new(variant: :outlined, **attrs)
       end
     end
   end

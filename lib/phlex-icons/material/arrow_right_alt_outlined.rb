@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ArrowRightAltOutlined < Base
       def view_template
-        render ArrowRightAlt.new(variant: :outlined)
+        render ArrowRightAlt.new(variant: :outlined, **attrs)
       end
     end
   end

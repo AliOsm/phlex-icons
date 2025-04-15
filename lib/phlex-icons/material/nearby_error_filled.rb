@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NearbyErrorFilled < Base
       def view_template
-        render NearbyError.new(variant: :filled)
+        render NearbyError.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SdStorageOutlined < Base
       def view_template
-        render SdStorage.new(variant: :outlined)
+        render SdStorage.new(variant: :outlined, **attrs)
       end
     end
   end

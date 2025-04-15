@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SkateboardingOutlined < Base
       def view_template
-        render Skateboarding.new(variant: :outlined)
+        render Skateboarding.new(variant: :outlined, **attrs)
       end
     end
   end

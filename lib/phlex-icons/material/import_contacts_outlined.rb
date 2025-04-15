@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ImportContactsOutlined < Base
       def view_template
-        render ImportContacts.new(variant: :outlined)
+        render ImportContacts.new(variant: :outlined, **attrs)
       end
     end
   end

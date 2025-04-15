@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsInputAntennaOutlined < Base
       def view_template
-        render SettingsInputAntenna.new(variant: :outlined)
+        render SettingsInputAntenna.new(variant: :outlined, **attrs)
       end
     end
   end

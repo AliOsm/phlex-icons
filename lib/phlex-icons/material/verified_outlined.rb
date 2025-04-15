@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VerifiedOutlined < Base
       def view_template
-        render Verified.new(variant: :outlined)
+        render Verified.new(variant: :outlined, **attrs)
       end
     end
   end

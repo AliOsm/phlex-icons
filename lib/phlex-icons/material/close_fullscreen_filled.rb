@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CloseFullscreenFilled < Base
       def view_template
-        render CloseFullscreen.new(variant: :filled)
+        render CloseFullscreen.new(variant: :filled, **attrs)
       end
     end
   end

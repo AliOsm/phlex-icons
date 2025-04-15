@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShoppingBagOutlined < Base
       def view_template
-        render ShoppingBag.new(variant: :outlined)
+        render ShoppingBag.new(variant: :outlined, **attrs)
       end
     end
   end

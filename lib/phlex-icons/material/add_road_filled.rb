@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddRoadFilled < Base
       def view_template
-        render AddRoad.new(variant: :filled)
+        render AddRoad.new(variant: :filled, **attrs)
       end
     end
   end

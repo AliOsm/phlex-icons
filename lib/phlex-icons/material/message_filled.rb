@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MessageFilled < Base
       def view_template
-        render Message.new(variant: :filled)
+        render Message.new(variant: :filled, **attrs)
       end
     end
   end

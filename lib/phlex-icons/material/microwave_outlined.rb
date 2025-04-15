@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MicrowaveOutlined < Base
       def view_template
-        render Microwave.new(variant: :outlined)
+        render Microwave.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IcecreamFilled < Base
       def view_template
-        render Icecream.new(variant: :filled)
+        render Icecream.new(variant: :filled, **attrs)
       end
     end
   end

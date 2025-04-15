@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SkipNextOutlined < Base
       def view_template
-        render SkipNext.new(variant: :outlined)
+        render SkipNext.new(variant: :outlined, **attrs)
       end
     end
   end

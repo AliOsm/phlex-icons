@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AlarmAddOutlined < Base
       def view_template
-        render AlarmAdd.new(variant: :outlined)
+        render AlarmAdd.new(variant: :outlined, **attrs)
       end
     end
   end

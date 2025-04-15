@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BungalowFilled < Base
       def view_template
-        render Bungalow.new(variant: :filled)
+        render Bungalow.new(variant: :filled, **attrs)
       end
     end
   end

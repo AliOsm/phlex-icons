@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IndeterminateCheckBoxOutlined < Base
       def view_template
-        render IndeterminateCheckBox.new(variant: :outlined)
+        render IndeterminateCheckBox.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Crop54Outlined < Base
       def view_template
-        render Crop54.new(variant: :outlined)
+        render Crop54.new(variant: :outlined, **attrs)
       end
     end
   end

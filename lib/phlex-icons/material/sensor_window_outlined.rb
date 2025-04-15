@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SensorWindowOutlined < Base
       def view_template
-        render SensorWindow.new(variant: :outlined)
+        render SensorWindow.new(variant: :outlined, **attrs)
       end
     end
   end

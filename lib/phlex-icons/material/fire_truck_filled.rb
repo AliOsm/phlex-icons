@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FireTruckFilled < Base
       def view_template
-        render FireTruck.new(variant: :filled)
+        render FireTruck.new(variant: :filled, **attrs)
       end
     end
   end

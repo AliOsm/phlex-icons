@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GetAppFilled < Base
       def view_template
-        render GetApp.new(variant: :filled)
+        render GetApp.new(variant: :filled, **attrs)
       end
     end
   end

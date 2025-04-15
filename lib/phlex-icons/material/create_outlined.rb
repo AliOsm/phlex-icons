@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CreateOutlined < Base
       def view_template
-        render Create.new(variant: :outlined)
+        render Create.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NfcOutlined < Base
       def view_template
-        render Nfc.new(variant: :outlined)
+        render Nfc.new(variant: :outlined, **attrs)
       end
     end
   end

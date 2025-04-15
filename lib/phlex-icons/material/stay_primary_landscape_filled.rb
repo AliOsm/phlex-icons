@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StayPrimaryLandscapeFilled < Base
       def view_template
-        render StayPrimaryLandscape.new(variant: :filled)
+        render StayPrimaryLandscape.new(variant: :filled, **attrs)
       end
     end
   end

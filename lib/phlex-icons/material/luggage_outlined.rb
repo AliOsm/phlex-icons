@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LuggageOutlined < Base
       def view_template
-        render Luggage.new(variant: :outlined)
+        render Luggage.new(variant: :outlined, **attrs)
       end
     end
   end

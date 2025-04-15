@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RectangleOutlined < Base
       def view_template
-        render Rectangle.new(variant: :outlined)
+        render Rectangle.new(variant: :outlined, **attrs)
       end
     end
   end

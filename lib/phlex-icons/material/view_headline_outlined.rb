@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewHeadlineOutlined < Base
       def view_template
-        render ViewHeadline.new(variant: :outlined)
+        render ViewHeadline.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class YoutubeSearchedForOutlined < Base
       def view_template
-        render YoutubeSearchedFor.new(variant: :outlined)
+        render YoutubeSearchedFor.new(variant: :outlined, **attrs)
       end
     end
   end

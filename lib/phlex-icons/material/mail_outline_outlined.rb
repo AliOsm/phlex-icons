@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MailOutlineOutlined < Base
       def view_template
-        render MailOutline.new(variant: :outlined)
+        render MailOutline.new(variant: :outlined, **attrs)
       end
     end
   end

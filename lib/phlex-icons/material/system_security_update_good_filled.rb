@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SystemSecurityUpdateGoodFilled < Base
       def view_template
-        render SystemSecurityUpdateGood.new(variant: :filled)
+        render SystemSecurityUpdateGood.new(variant: :filled, **attrs)
       end
     end
   end

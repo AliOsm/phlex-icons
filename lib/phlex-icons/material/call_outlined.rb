@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CallOutlined < Base
       def view_template
-        render Call.new(variant: :outlined)
+        render Call.new(variant: :outlined, **attrs)
       end
     end
   end

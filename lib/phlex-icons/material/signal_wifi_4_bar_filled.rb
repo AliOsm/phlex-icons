@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SignalWifi4BarFilled < Base
       def view_template
-        render SignalWifi4Bar.new(variant: :filled)
+        render SignalWifi4Bar.new(variant: :filled, **attrs)
       end
     end
   end

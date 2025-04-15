@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPrintshopFilled < Base
       def view_template
-        render LocalPrintshop.new(variant: :filled)
+        render LocalPrintshop.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WrapTextOutlined < Base
       def view_template
-        render WrapText.new(variant: :outlined)
+        render WrapText.new(variant: :outlined, **attrs)
       end
     end
   end

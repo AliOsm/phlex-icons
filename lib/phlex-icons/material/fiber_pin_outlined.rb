@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FiberPinOutlined < Base
       def view_template
-        render FiberPin.new(variant: :outlined)
+        render FiberPin.new(variant: :outlined, **attrs)
       end
     end
   end

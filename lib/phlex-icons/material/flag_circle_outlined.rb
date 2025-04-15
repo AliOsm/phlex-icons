@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlagCircleOutlined < Base
       def view_template
-        render FlagCircle.new(variant: :outlined)
+        render FlagCircle.new(variant: :outlined, **attrs)
       end
     end
   end

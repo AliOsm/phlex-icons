@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlipToFrontFilled < Base
       def view_template
-        render FlipToFront.new(variant: :filled)
+        render FlipToFront.new(variant: :filled, **attrs)
       end
     end
   end

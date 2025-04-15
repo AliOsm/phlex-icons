@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ModeFilled < Base
       def view_template
-        render Mode.new(variant: :filled)
+        render Mode.new(variant: :filled, **attrs)
       end
     end
   end

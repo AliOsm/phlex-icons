@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AccountBoxFilled < Base
       def view_template
-        render AccountBox.new(variant: :filled)
+        render AccountBox.new(variant: :filled, **attrs)
       end
     end
   end

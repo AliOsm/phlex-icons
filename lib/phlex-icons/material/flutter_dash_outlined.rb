@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlutterDashOutlined < Base
       def view_template
-        render FlutterDash.new(variant: :outlined)
+        render FlutterDash.new(variant: :outlined, **attrs)
       end
     end
   end

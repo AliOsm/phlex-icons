@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NotificationsOffFilled < Base
       def view_template
-        render NotificationsOff.new(variant: :filled)
+        render NotificationsOff.new(variant: :filled, **attrs)
       end
     end
   end

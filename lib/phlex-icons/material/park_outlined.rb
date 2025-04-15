@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ParkOutlined < Base
       def view_template
-        render Park.new(variant: :outlined)
+        render Park.new(variant: :outlined, **attrs)
       end
     end
   end

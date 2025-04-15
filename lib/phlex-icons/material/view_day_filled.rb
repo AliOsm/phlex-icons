@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewDayFilled < Base
       def view_template
-        render ViewDay.new(variant: :filled)
+        render ViewDay.new(variant: :filled, **attrs)
       end
     end
   end

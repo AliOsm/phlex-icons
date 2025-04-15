@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GroupFilled < Base
       def view_template
-        render Group.new(variant: :filled)
+        render Group.new(variant: :filled, **attrs)
       end
     end
   end

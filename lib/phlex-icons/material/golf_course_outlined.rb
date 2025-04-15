@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GolfCourseOutlined < Base
       def view_template
-        render GolfCourse.new(variant: :outlined)
+        render GolfCourse.new(variant: :outlined, **attrs)
       end
     end
   end

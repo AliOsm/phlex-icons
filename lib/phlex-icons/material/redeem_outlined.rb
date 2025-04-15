@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RedeemOutlined < Base
       def view_template
-        render Redeem.new(variant: :outlined)
+        render Redeem.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsInputSvideoFilled < Base
       def view_template
-        render SettingsInputSvideo.new(variant: :filled)
+        render SettingsInputSvideo.new(variant: :filled, **attrs)
       end
     end
   end

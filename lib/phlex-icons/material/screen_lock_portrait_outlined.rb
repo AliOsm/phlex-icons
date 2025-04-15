@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScreenLockPortraitOutlined < Base
       def view_template
-        render ScreenLockPortrait.new(variant: :outlined)
+        render ScreenLockPortrait.new(variant: :outlined, **attrs)
       end
     end
   end

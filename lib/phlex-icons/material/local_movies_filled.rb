@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalMoviesFilled < Base
       def view_template
-        render LocalMovies.new(variant: :filled)
+        render LocalMovies.new(variant: :filled, **attrs)
       end
     end
   end

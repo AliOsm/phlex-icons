@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class OutboxFilled < Base
       def view_template
-        render Outbox.new(variant: :filled)
+        render Outbox.new(variant: :filled, **attrs)
       end
     end
   end

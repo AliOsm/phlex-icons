@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DesktopWindowsFilled < Base
       def view_template
-        render DesktopWindows.new(variant: :filled)
+        render DesktopWindows.new(variant: :filled, **attrs)
       end
     end
   end

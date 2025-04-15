@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NotificationsOffOutlined < Base
       def view_template
-        render NotificationsOff.new(variant: :outlined)
+        render NotificationsOff.new(variant: :outlined, **attrs)
       end
     end
   end

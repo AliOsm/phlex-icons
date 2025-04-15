@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NearMeFilled < Base
       def view_template
-        render NearMe.new(variant: :filled)
+        render NearMe.new(variant: :filled, **attrs)
       end
     end
   end

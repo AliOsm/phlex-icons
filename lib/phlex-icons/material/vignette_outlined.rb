@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VignetteOutlined < Base
       def view_template
-        render Vignette.new(variant: :outlined)
+        render Vignette.new(variant: :outlined, **attrs)
       end
     end
   end

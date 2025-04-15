@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextRotationAngledownOutlined < Base
       def view_template
-        render TextRotationAngledown.new(variant: :outlined)
+        render TextRotationAngledown.new(variant: :outlined, **attrs)
       end
     end
   end

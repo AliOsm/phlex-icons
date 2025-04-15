@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoAwesomeMotionFilled < Base
       def view_template
-        render AutoAwesomeMotion.new(variant: :filled)
+        render AutoAwesomeMotion.new(variant: :filled, **attrs)
       end
     end
   end

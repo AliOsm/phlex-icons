@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TapAndPlayOutlined < Base
       def view_template
-        render TapAndPlay.new(variant: :outlined)
+        render TapAndPlay.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DoorBackFilled < Base
       def view_template
-        render DoorBack.new(variant: :filled)
+        render DoorBack.new(variant: :filled, **attrs)
       end
     end
   end

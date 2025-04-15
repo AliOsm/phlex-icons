@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HowToRegOutlined < Base
       def view_template
-        render HowToReg.new(variant: :outlined)
+        render HowToReg.new(variant: :outlined, **attrs)
       end
     end
   end

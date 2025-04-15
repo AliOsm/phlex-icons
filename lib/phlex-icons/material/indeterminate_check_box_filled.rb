@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IndeterminateCheckBoxFilled < Base
       def view_template
-        render IndeterminateCheckBox.new(variant: :filled)
+        render IndeterminateCheckBox.new(variant: :filled, **attrs)
       end
     end
   end

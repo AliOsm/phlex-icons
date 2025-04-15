@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AlternateEmailFilled < Base
       def view_template
-        render AlternateEmail.new(variant: :filled)
+        render AlternateEmail.new(variant: :filled, **attrs)
       end
     end
   end

@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 6FtApartFilled < Base
       def view_template
-        render 6FtApart.new(variant: :filled)
+        render 6FtApart.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScreenRotationOutlined < Base
       def view_template
-        render ScreenRotation.new(variant: :outlined)
+        render ScreenRotation.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WebhookOutlined < Base
       def view_template
-        render Webhook.new(variant: :outlined)
+        render Webhook.new(variant: :outlined, **attrs)
       end
     end
   end

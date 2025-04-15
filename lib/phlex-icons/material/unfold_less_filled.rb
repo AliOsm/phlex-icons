@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UnfoldLessFilled < Base
       def view_template
-        render UnfoldLess.new(variant: :filled)
+        render UnfoldLess.new(variant: :filled, **attrs)
       end
     end
   end

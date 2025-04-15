@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChecklistRtlFilled < Base
       def view_template
-        render ChecklistRtl.new(variant: :filled)
+        render ChecklistRtl.new(variant: :filled, **attrs)
       end
     end
   end

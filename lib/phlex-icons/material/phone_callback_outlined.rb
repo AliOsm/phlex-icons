@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhoneCallbackOutlined < Base
       def view_template
-        render PhoneCallback.new(variant: :outlined)
+        render PhoneCallback.new(variant: :outlined, **attrs)
       end
     end
   end

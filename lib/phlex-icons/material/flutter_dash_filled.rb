@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlutterDashFilled < Base
       def view_template
-        render FlutterDash.new(variant: :filled)
+        render FlutterDash.new(variant: :filled, **attrs)
       end
     end
   end

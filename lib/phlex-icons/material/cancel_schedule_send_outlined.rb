@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CancelScheduleSendOutlined < Base
       def view_template
-        render CancelScheduleSend.new(variant: :outlined)
+        render CancelScheduleSend.new(variant: :outlined, **attrs)
       end
     end
   end

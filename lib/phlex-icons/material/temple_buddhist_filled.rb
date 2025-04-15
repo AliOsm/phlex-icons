@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TempleBuddhistFilled < Base
       def view_template
-        render TempleBuddhist.new(variant: :filled)
+        render TempleBuddhist.new(variant: :filled, **attrs)
       end
     end
   end

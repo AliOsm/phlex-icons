@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ElderlyOutlined < Base
       def view_template
-        render Elderly.new(variant: :outlined)
+        render Elderly.new(variant: :outlined, **attrs)
       end
     end
   end

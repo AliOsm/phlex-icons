@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RemoveDoneFilled < Base
       def view_template
-        render RemoveDone.new(variant: :filled)
+        render RemoveDone.new(variant: :filled, **attrs)
       end
     end
   end

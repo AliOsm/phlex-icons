@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class QrCode2Outlined < Base
       def view_template
-        render QrCode2.new(variant: :outlined)
+        render QrCode2.new(variant: :outlined, **attrs)
       end
     end
   end

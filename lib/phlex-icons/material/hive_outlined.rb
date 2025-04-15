@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HiveOutlined < Base
       def view_template
-        render Hive.new(variant: :outlined)
+        render Hive.new(variant: :outlined, **attrs)
       end
     end
   end

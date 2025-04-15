@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ImportantDevicesOutlined < Base
       def view_template
-        render ImportantDevices.new(variant: :outlined)
+        render ImportantDevices.new(variant: :outlined, **attrs)
       end
     end
   end

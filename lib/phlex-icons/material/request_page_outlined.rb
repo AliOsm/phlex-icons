@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RequestPageOutlined < Base
       def view_template
-        render RequestPage.new(variant: :outlined)
+        render RequestPage.new(variant: :outlined, **attrs)
       end
     end
   end

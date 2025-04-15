@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FireTruckOutlined < Base
       def view_template
-        render FireTruck.new(variant: :outlined)
+        render FireTruck.new(variant: :outlined, **attrs)
       end
     end
   end

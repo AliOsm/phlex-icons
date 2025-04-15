@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NextPlanFilled < Base
       def view_template
-        render NextPlan.new(variant: :filled)
+        render NextPlan.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TwoWheelerOutlined < Base
       def view_template
-        render TwoWheeler.new(variant: :outlined)
+        render TwoWheeler.new(variant: :outlined, **attrs)
       end
     end
   end

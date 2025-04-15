@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AirplanemodeInactiveOutlined < Base
       def view_template
-        render AirplanemodeInactive.new(variant: :outlined)
+        render AirplanemodeInactive.new(variant: :outlined, **attrs)
       end
     end
   end

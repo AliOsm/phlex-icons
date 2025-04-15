@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CloseFilled < Base
       def view_template
-        render Close.new(variant: :filled)
+        render Close.new(variant: :filled, **attrs)
       end
     end
   end

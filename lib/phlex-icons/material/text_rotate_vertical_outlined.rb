@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextRotateVerticalOutlined < Base
       def view_template
-        render TextRotateVertical.new(variant: :outlined)
+        render TextRotateVertical.new(variant: :outlined, **attrs)
       end
     end
   end

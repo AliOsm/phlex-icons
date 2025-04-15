@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LockOpenFilled < Base
       def view_template
-        render LockOpen.new(variant: :filled)
+        render LockOpen.new(variant: :filled, **attrs)
       end
     end
   end

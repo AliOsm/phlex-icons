@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SaveAsOutlined < Base
       def view_template
-        render SaveAs.new(variant: :outlined)
+        render SaveAs.new(variant: :outlined, **attrs)
       end
     end
   end

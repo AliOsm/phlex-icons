@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MobileScreenShareFilled < Base
       def view_template
-        render MobileScreenShare.new(variant: :filled)
+        render MobileScreenShare.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InvertColorsOffOutlined < Base
       def view_template
-        render InvertColorsOff.new(variant: :outlined)
+        render InvertColorsOff.new(variant: :outlined, **attrs)
       end
     end
   end

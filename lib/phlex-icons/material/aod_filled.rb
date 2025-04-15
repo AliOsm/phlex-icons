@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AodFilled < Base
       def view_template
-        render Aod.new(variant: :filled)
+        render Aod.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StackedLineChartOutlined < Base
       def view_template
-        render StackedLineChart.new(variant: :outlined)
+        render StackedLineChart.new(variant: :outlined, **attrs)
       end
     end
   end

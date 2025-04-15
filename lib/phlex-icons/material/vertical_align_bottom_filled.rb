@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VerticalAlignBottomFilled < Base
       def view_template
-        render VerticalAlignBottom.new(variant: :filled)
+        render VerticalAlignBottom.new(variant: :filled, **attrs)
       end
     end
   end

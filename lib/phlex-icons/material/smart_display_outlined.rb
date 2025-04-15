@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SmartDisplayOutlined < Base
       def view_template
-        render SmartDisplay.new(variant: :outlined)
+        render SmartDisplay.new(variant: :outlined, **attrs)
       end
     end
   end

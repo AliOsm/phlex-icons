@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StraightOutlined < Base
       def view_template
-        render Straight.new(variant: :outlined)
+        render Straight.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HubFilled < Base
       def view_template
-        render Hub.new(variant: :filled)
+        render Hub.new(variant: :filled, **attrs)
       end
     end
   end

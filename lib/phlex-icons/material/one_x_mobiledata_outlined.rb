@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 1xMobiledataOutlined < Base
       def view_template
-        render 1xMobiledata.new(variant: :outlined)
+        render 1xMobiledata.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MaximizeFilled < Base
       def view_template
-        render Maximize.new(variant: :filled)
+        render Maximize.new(variant: :filled, **attrs)
       end
     end
   end

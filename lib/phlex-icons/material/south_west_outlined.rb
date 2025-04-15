@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SouthWestOutlined < Base
       def view_template
-        render SouthWest.new(variant: :outlined)
+        render SouthWest.new(variant: :outlined, **attrs)
       end
     end
   end

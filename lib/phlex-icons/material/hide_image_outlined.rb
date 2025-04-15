@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HideImageOutlined < Base
       def view_template
-        render HideImage.new(variant: :outlined)
+        render HideImage.new(variant: :outlined, **attrs)
       end
     end
   end

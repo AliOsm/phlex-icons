@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PrecisionManufacturingOutlined < Base
       def view_template
-        render PrecisionManufacturing.new(variant: :outlined)
+        render PrecisionManufacturing.new(variant: :outlined, **attrs)
       end
     end
   end

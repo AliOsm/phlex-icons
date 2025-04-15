@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RiceBowlOutlined < Base
       def view_template
-        render RiceBowl.new(variant: :outlined)
+        render RiceBowl.new(variant: :outlined, **attrs)
       end
     end
   end

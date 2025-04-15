@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlipToFrontOutlined < Base
       def view_template
-        render FlipToFront.new(variant: :outlined)
+        render FlipToFront.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class QueryStatsFilled < Base
       def view_template
-        render QueryStats.new(variant: :filled)
+        render QueryStats.new(variant: :filled, **attrs)
       end
     end
   end

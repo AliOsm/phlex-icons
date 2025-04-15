@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhotoCameraOutlined < Base
       def view_template
-        render PhotoCamera.new(variant: :outlined)
+        render PhotoCamera.new(variant: :outlined, **attrs)
       end
     end
   end

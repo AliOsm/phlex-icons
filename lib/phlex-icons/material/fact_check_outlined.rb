@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FactCheckOutlined < Base
       def view_template
-        render FactCheck.new(variant: :outlined)
+        render FactCheck.new(variant: :outlined, **attrs)
       end
     end
   end

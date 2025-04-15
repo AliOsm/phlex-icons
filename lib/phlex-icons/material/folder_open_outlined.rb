@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FolderOpenOutlined < Base
       def view_template
-        render FolderOpen.new(variant: :outlined)
+        render FolderOpen.new(variant: :outlined, **attrs)
       end
     end
   end

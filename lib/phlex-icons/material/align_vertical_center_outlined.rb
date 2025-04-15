@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AlignVerticalCenterOutlined < Base
       def view_template
-        render AlignVerticalCenter.new(variant: :outlined)
+        render AlignVerticalCenter.new(variant: :outlined, **attrs)
       end
     end
   end

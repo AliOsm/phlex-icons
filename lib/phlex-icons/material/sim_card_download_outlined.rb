@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SimCardDownloadOutlined < Base
       def view_template
-        render SimCardDownload.new(variant: :outlined)
+        render SimCardDownload.new(variant: :outlined, **attrs)
       end
     end
   end

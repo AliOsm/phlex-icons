@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CloudOffOutlined < Base
       def view_template
-        render CloudOff.new(variant: :outlined)
+        render CloudOff.new(variant: :outlined, **attrs)
       end
     end
   end

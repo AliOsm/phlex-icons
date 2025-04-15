@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class IntegrationInstructionsOutlined < Base
       def view_template
-        render IntegrationInstructions.new(variant: :outlined)
+        render IntegrationInstructions.new(variant: :outlined, **attrs)
       end
     end
   end

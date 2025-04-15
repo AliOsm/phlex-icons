@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NaturePeopleOutlined < Base
       def view_template
-        render NaturePeople.new(variant: :outlined)
+        render NaturePeople.new(variant: :outlined, **attrs)
       end
     end
   end

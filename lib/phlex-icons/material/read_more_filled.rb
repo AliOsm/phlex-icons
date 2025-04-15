@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReadMoreFilled < Base
       def view_template
-        render ReadMore.new(variant: :filled)
+        render ReadMore.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EmergencyOutlined < Base
       def view_template
-        render Emergency.new(variant: :outlined)
+        render Emergency.new(variant: :outlined, **attrs)
       end
     end
   end

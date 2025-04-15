@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RepartitionFilled < Base
       def view_template
-        render Repartition.new(variant: :filled)
+        render Repartition.new(variant: :filled, **attrs)
       end
     end
   end

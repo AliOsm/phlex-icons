@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FaxFilled < Base
       def view_template
-        render Fax.new(variant: :filled)
+        render Fax.new(variant: :filled, **attrs)
       end
     end
   end

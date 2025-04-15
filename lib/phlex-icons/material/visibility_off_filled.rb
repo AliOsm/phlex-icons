@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VisibilityOffFilled < Base
       def view_template
-        render VisibilityOff.new(variant: :filled)
+        render VisibilityOff.new(variant: :filled, **attrs)
       end
     end
   end

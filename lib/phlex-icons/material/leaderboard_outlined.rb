@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LeaderboardOutlined < Base
       def view_template
-        render Leaderboard.new(variant: :outlined)
+        render Leaderboard.new(variant: :outlined, **attrs)
       end
     end
   end

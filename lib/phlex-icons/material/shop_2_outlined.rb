@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Shop2Outlined < Base
       def view_template
-        render Shop2.new(variant: :outlined)
+        render Shop2.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CompressFilled < Base
       def view_template
-        render Compress.new(variant: :filled)
+        render Compress.new(variant: :filled, **attrs)
       end
     end
   end

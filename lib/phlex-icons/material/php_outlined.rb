@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhpOutlined < Base
       def view_template
-        render Php.new(variant: :outlined)
+        render Php.new(variant: :outlined, **attrs)
       end
     end
   end

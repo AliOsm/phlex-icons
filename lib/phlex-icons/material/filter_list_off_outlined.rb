@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterListOffOutlined < Base
       def view_template
-        render FilterListOff.new(variant: :outlined)
+        render FilterListOff.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ExitToAppFilled < Base
       def view_template
-        render ExitToApp.new(variant: :filled)
+        render ExitToApp.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddIcCallOutlined < Base
       def view_template
-        render AddIcCall.new(variant: :outlined)
+        render AddIcCall.new(variant: :outlined, **attrs)
       end
     end
   end

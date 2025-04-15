@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RestaurantFilled < Base
       def view_template
-        render Restaurant.new(variant: :filled)
+        render Restaurant.new(variant: :filled, **attrs)
       end
     end
   end

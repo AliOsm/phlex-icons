@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WatchLaterOutlined < Base
       def view_template
-        render WatchLater.new(variant: :outlined)
+        render WatchLater.new(variant: :outlined, **attrs)
       end
     end
   end

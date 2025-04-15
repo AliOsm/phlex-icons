@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DataExplorationFilled < Base
       def view_template
-        render DataExploration.new(variant: :filled)
+        render DataExploration.new(variant: :filled, **attrs)
       end
     end
   end

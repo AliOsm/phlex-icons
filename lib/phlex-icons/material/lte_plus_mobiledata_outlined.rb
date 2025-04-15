@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LtePlusMobiledataOutlined < Base
       def view_template
-        render LtePlusMobiledata.new(variant: :outlined)
+        render LtePlusMobiledata.new(variant: :outlined, **attrs)
       end
     end
   end

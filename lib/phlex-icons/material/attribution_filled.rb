@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AttributionFilled < Base
       def view_template
-        render Attribution.new(variant: :filled)
+        render Attribution.new(variant: :filled, **attrs)
       end
     end
   end

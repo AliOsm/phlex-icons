@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PropaneFilled < Base
       def view_template
-        render Propane.new(variant: :filled)
+        render Propane.new(variant: :filled, **attrs)
       end
     end
   end

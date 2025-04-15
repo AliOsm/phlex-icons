@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Diversity1Outlined < Base
       def view_template
-        render Diversity1.new(variant: :outlined)
+        render Diversity1.new(variant: :outlined, **attrs)
       end
     end
   end

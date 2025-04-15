@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BluetoothConnectedOutlined < Base
       def view_template
-        render BluetoothConnected.new(variant: :outlined)
+        render BluetoothConnected.new(variant: :outlined, **attrs)
       end
     end
   end

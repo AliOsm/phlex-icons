@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LayersClearOutlined < Base
       def view_template
-        render LayersClear.new(variant: :outlined)
+        render LayersClear.new(variant: :outlined, **attrs)
       end
     end
   end

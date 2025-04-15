@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalConvenienceStoreOutlined < Base
       def view_template
-        render LocalConvenienceStore.new(variant: :outlined)
+        render LocalConvenienceStore.new(variant: :outlined, **attrs)
       end
     end
   end

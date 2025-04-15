@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RestorePageFilled < Base
       def view_template
-        render RestorePage.new(variant: :filled)
+        render RestorePage.new(variant: :filled, **attrs)
       end
     end
   end

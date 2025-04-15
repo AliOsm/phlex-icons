@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CompareOutlined < Base
       def view_template
-        render Compare.new(variant: :outlined)
+        render Compare.new(variant: :outlined, **attrs)
       end
     end
   end

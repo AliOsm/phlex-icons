@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ListOutlined < Base
       def view_template
-        render List.new(variant: :outlined)
+        render List.new(variant: :outlined, **attrs)
       end
     end
   end

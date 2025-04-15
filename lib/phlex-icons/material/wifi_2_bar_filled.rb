@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Wifi2BarFilled < Base
       def view_template
-        render Wifi2Bar.new(variant: :filled)
+        render Wifi2Bar.new(variant: :filled, **attrs)
       end
     end
   end

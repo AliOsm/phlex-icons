@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StackedBarChartFilled < Base
       def view_template
-        render StackedBarChart.new(variant: :filled)
+        render StackedBarChart.new(variant: :filled, **attrs)
       end
     end
   end

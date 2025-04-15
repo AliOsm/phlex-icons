@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatClearFilled < Base
       def view_template
-        render FormatClear.new(variant: :filled)
+        render FormatClear.new(variant: :filled, **attrs)
       end
     end
   end

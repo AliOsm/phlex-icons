@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class OpenInNewOutlined < Base
       def view_template
-        render OpenInNew.new(variant: :outlined)
+        render OpenInNew.new(variant: :outlined, **attrs)
       end
     end
   end

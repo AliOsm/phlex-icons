@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StayCurrentLandscapeOutlined < Base
       def view_template
-        render StayCurrentLandscape.new(variant: :outlined)
+        render StayCurrentLandscape.new(variant: :outlined, **attrs)
       end
     end
   end

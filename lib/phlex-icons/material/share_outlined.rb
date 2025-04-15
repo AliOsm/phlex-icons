@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShareOutlined < Base
       def view_template
-        render Share.new(variant: :outlined)
+        render Share.new(variant: :outlined, **attrs)
       end
     end
   end

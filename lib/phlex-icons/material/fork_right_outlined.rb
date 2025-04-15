@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ForkRightOutlined < Base
       def view_template
-        render ForkRight.new(variant: :outlined)
+        render ForkRight.new(variant: :outlined, **attrs)
       end
     end
   end

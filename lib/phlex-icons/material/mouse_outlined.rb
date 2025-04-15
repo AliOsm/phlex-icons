@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MouseOutlined < Base
       def view_template
-        render Mouse.new(variant: :outlined)
+        render Mouse.new(variant: :outlined, **attrs)
       end
     end
   end

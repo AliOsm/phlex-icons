@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardCapslockOutlined < Base
       def view_template
-        render KeyboardCapslock.new(variant: :outlined)
+        render KeyboardCapslock.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ThumbsUpDownOutlined < Base
       def view_template
-        render ThumbsUpDown.new(variant: :outlined)
+        render ThumbsUpDown.new(variant: :outlined, **attrs)
       end
     end
   end

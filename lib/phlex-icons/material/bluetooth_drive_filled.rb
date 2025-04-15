@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BluetoothDriveFilled < Base
       def view_template
-        render BluetoothDrive.new(variant: :filled)
+        render BluetoothDrive.new(variant: :filled, **attrs)
       end
     end
   end

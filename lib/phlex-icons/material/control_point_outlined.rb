@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ControlPointOutlined < Base
       def view_template
-        render ControlPoint.new(variant: :outlined)
+        render ControlPoint.new(variant: :outlined, **attrs)
       end
     end
   end

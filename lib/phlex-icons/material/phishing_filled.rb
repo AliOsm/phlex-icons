@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhishingFilled < Base
       def view_template
-        render Phishing.new(variant: :filled)
+        render Phishing.new(variant: :filled, **attrs)
       end
     end
   end

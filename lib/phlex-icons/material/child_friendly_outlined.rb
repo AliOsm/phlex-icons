@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChildFriendlyOutlined < Base
       def view_template
-        render ChildFriendly.new(variant: :outlined)
+        render ChildFriendly.new(variant: :outlined, **attrs)
       end
     end
   end

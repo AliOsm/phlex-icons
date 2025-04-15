@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MotionPhotosPauseFilled < Base
       def view_template
-        render MotionPhotosPause.new(variant: :filled)
+        render MotionPhotosPause.new(variant: :filled, **attrs)
       end
     end
   end

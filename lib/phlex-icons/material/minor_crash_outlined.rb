@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MinorCrashOutlined < Base
       def view_template
-        render MinorCrash.new(variant: :outlined)
+        render MinorCrash.new(variant: :outlined, **attrs)
       end
     end
   end

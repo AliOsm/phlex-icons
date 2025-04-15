@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextIncreaseFilled < Base
       def view_template
-        render TextIncrease.new(variant: :filled)
+        render TextIncrease.new(variant: :filled, **attrs)
       end
     end
   end

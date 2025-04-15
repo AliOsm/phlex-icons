@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoEncryptionGmailerrorredOutlined < Base
       def view_template
-        render NoEncryptionGmailerrorred.new(variant: :outlined)
+        render NoEncryptionGmailerrorred.new(variant: :outlined, **attrs)
       end
     end
   end

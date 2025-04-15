@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SwitchAccessShortcutAddOutlined < Base
       def view_template
-        render SwitchAccessShortcutAdd.new(variant: :outlined)
+        render SwitchAccessShortcutAdd.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FormatBoldFilled < Base
       def view_template
-        render FormatBold.new(variant: :filled)
+        render FormatBold.new(variant: :filled, **attrs)
       end
     end
   end

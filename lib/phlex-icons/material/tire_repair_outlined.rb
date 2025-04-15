@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TireRepairOutlined < Base
       def view_template
-        render TireRepair.new(variant: :outlined)
+        render TireRepair.new(variant: :outlined, **attrs)
       end
     end
   end

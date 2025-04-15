@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ForumOutlined < Base
       def view_template
-        render Forum.new(variant: :outlined)
+        render Forum.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddPhotoAlternateOutlined < Base
       def view_template
-        render AddPhotoAlternate.new(variant: :outlined)
+        render AddPhotoAlternate.new(variant: :outlined, **attrs)
       end
     end
   end

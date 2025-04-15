@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrAutoOutlined < Base
       def view_template
-        render HdrAuto.new(variant: :outlined)
+        render HdrAuto.new(variant: :outlined, **attrs)
       end
     end
   end

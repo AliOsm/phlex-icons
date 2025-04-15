@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterVintageOutlined < Base
       def view_template
-        render FilterVintage.new(variant: :outlined)
+        render FilterVintage.new(variant: :outlined, **attrs)
       end
     end
   end

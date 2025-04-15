@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ContactMailFilled < Base
       def view_template
-        render ContactMail.new(variant: :filled)
+        render ContactMail.new(variant: :filled, **attrs)
       end
     end
   end

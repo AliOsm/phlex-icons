@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CachedFilled < Base
       def view_template
-        render Cached.new(variant: :filled)
+        render Cached.new(variant: :filled, **attrs)
       end
     end
   end

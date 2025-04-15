@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GridOffOutlined < Base
       def view_template
-        render GridOff.new(variant: :outlined)
+        render GridOff.new(variant: :outlined, **attrs)
       end
     end
   end

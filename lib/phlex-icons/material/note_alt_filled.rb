@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoteAltFilled < Base
       def view_template
-        render NoteAlt.new(variant: :filled)
+        render NoteAlt.new(variant: :filled, **attrs)
       end
     end
   end

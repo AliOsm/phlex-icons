@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WebFilled < Base
       def view_template
-        render Web.new(variant: :filled)
+        render Web.new(variant: :filled, **attrs)
       end
     end
   end

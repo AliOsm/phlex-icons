@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UploadFilled < Base
       def view_template
-        render Upload.new(variant: :filled)
+        render Upload.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RadioFilled < Base
       def view_template
-        render Radio.new(variant: :filled)
+        render Radio.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoFixHighOutlined < Base
       def view_template
-        render AutoFixHigh.new(variant: :outlined)
+        render AutoFixHigh.new(variant: :outlined, **attrs)
       end
     end
   end

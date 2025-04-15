@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewStreamFilled < Base
       def view_template
-        render ViewStream.new(variant: :filled)
+        render ViewStream.new(variant: :filled, **attrs)
       end
     end
   end

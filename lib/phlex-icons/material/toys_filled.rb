@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ToysFilled < Base
       def view_template
-        render Toys.new(variant: :filled)
+        render Toys.new(variant: :filled, **attrs)
       end
     end
   end

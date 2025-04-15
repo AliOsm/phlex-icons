@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BedtimeOffOutlined < Base
       def view_template
-        render BedtimeOff.new(variant: :outlined)
+        render BedtimeOff.new(variant: :outlined, **attrs)
       end
     end
   end

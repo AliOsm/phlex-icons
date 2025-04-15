@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrStrongOutlined < Base
       def view_template
-        render HdrStrong.new(variant: :outlined)
+        render HdrStrong.new(variant: :outlined, **attrs)
       end
     end
   end

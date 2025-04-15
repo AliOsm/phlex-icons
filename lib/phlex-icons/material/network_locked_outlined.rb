@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NetworkLockedOutlined < Base
       def view_template
-        render NetworkLocked.new(variant: :outlined)
+        render NetworkLocked.new(variant: :outlined, **attrs)
       end
     end
   end

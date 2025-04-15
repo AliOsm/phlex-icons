@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AutoDeleteFilled < Base
       def view_template
-        render AutoDelete.new(variant: :filled)
+        render AutoDelete.new(variant: :filled, **attrs)
       end
     end
   end

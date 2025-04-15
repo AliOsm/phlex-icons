@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MpFilled < Base
       def view_template
-        render Mp.new(variant: :filled)
+        render Mp.new(variant: :filled, **attrs)
       end
     end
   end

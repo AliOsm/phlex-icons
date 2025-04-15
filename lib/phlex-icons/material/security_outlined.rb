@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SecurityOutlined < Base
       def view_template
-        render Security.new(variant: :outlined)
+        render Security.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PendingActionsOutlined < Base
       def view_template
-        render PendingActions.new(variant: :outlined)
+        render PendingActions.new(variant: :outlined, **attrs)
       end
     end
   end

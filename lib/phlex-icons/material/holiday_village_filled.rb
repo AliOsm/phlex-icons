@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HolidayVillageFilled < Base
       def view_template
-        render HolidayVillage.new(variant: :filled)
+        render HolidayVillage.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BlurOnFilled < Base
       def view_template
-        render BlurOn.new(variant: :filled)
+        render BlurOn.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SpeakerGroupOutlined < Base
       def view_template
-        render SpeakerGroup.new(variant: :outlined)
+        render SpeakerGroup.new(variant: :outlined, **attrs)
       end
     end
   end

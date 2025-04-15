@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PaidOutlined < Base
       def view_template
-        render Paid.new(variant: :outlined)
+        render Paid.new(variant: :outlined, **attrs)
       end
     end
   end

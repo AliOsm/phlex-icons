@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PieChartOutlineOutlined < Base
       def view_template
-        render PieChartOutline.new(variant: :outlined)
+        render PieChartOutline.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CheckOutlined < Base
       def view_template
-        render Check.new(variant: :outlined)
+        render Check.new(variant: :outlined, **attrs)
       end
     end
   end

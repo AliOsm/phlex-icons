@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InterestsOutlined < Base
       def view_template
-        render Interests.new(variant: :outlined)
+        render Interests.new(variant: :outlined, **attrs)
       end
     end
   end

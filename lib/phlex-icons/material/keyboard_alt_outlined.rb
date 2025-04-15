@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardAltOutlined < Base
       def view_template
-        render KeyboardAlt.new(variant: :outlined)
+        render KeyboardAlt.new(variant: :outlined, **attrs)
       end
     end
   end

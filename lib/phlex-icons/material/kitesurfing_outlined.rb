@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KitesurfingOutlined < Base
       def view_template
-        render Kitesurfing.new(variant: :outlined)
+        render Kitesurfing.new(variant: :outlined, **attrs)
       end
     end
   end

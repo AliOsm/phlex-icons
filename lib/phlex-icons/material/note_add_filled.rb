@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoteAddFilled < Base
       def view_template
-        render NoteAdd.new(variant: :filled)
+        render NoteAdd.new(variant: :filled, **attrs)
       end
     end
   end

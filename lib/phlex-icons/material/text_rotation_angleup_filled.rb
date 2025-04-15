@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextRotationAngleupFilled < Base
       def view_template
-        render TextRotationAngleup.new(variant: :filled)
+        render TextRotationAngleup.new(variant: :filled, **attrs)
       end
     end
   end

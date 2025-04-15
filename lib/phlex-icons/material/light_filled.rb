@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LightFilled < Base
       def view_template
-        render Light.new(variant: :filled)
+        render Light.new(variant: :filled, **attrs)
       end
     end
   end

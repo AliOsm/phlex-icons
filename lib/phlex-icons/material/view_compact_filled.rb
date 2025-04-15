@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewCompactFilled < Base
       def view_template
-        render ViewCompact.new(variant: :filled)
+        render ViewCompact.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SoapOutlined < Base
       def view_template
-        render Soap.new(variant: :outlined)
+        render Soap.new(variant: :outlined, **attrs)
       end
     end
   end

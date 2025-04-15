@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ConfirmationNumberOutlined < Base
       def view_template
-        render ConfirmationNumber.new(variant: :outlined)
+        render ConfirmationNumber.new(variant: :outlined, **attrs)
       end
     end
   end

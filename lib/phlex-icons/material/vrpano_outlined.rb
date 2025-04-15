@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VrpanoOutlined < Base
       def view_template
-        render Vrpano.new(variant: :outlined)
+        render Vrpano.new(variant: :outlined, **attrs)
       end
     end
   end

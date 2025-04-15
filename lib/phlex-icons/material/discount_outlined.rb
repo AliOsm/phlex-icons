@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DiscountOutlined < Base
       def view_template
-        render Discount.new(variant: :outlined)
+        render Discount.new(variant: :outlined, **attrs)
       end
     end
   end

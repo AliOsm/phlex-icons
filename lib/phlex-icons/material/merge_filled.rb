@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MergeFilled < Base
       def view_template
-        render Merge.new(variant: :filled)
+        render Merge.new(variant: :filled, **attrs)
       end
     end
   end

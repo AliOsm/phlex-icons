@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoteAltOutlined < Base
       def view_template
-        render NoteAlt.new(variant: :outlined)
+        render NoteAlt.new(variant: :outlined, **attrs)
       end
     end
   end

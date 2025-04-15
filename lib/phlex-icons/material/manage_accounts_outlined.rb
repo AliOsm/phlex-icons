@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ManageAccountsOutlined < Base
       def view_template
-        render ManageAccounts.new(variant: :outlined)
+        render ManageAccounts.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AirportShuttleFilled < Base
       def view_template
-        render AirportShuttle.new(variant: :filled)
+        render AirportShuttle.new(variant: :filled, **attrs)
       end
     end
   end

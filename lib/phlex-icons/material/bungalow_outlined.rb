@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BungalowOutlined < Base
       def view_template
-        render Bungalow.new(variant: :outlined)
+        render Bungalow.new(variant: :outlined, **attrs)
       end
     end
   end

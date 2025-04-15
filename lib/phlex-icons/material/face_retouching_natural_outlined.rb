@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FaceRetouchingNaturalOutlined < Base
       def view_template
-        render FaceRetouchingNatural.new(variant: :outlined)
+        render FaceRetouchingNatural.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DiningOutlined < Base
       def view_template
-        render Dining.new(variant: :outlined)
+        render Dining.new(variant: :outlined, **attrs)
       end
     end
   end

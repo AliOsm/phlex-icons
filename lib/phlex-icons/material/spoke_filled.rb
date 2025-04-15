@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SpokeFilled < Base
       def view_template
-        render Spoke.new(variant: :filled)
+        render Spoke.new(variant: :filled, **attrs)
       end
     end
   end

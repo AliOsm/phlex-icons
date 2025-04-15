@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MuseumOutlined < Base
       def view_template
-        render Museum.new(variant: :outlined)
+        render Museum.new(variant: :outlined, **attrs)
       end
     end
   end

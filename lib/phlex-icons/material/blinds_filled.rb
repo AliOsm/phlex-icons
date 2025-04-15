@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BlindsFilled < Base
       def view_template
-        render Blinds.new(variant: :filled)
+        render Blinds.new(variant: :filled, **attrs)
       end
     end
   end

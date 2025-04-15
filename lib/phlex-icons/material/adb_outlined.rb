@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AdbOutlined < Base
       def view_template
-        render Adb.new(variant: :outlined)
+        render Adb.new(variant: :outlined, **attrs)
       end
     end
   end

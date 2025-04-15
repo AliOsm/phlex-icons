@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BrightnessHighFilled < Base
       def view_template
-        render BrightnessHigh.new(variant: :filled)
+        render BrightnessHigh.new(variant: :filled, **attrs)
       end
     end
   end

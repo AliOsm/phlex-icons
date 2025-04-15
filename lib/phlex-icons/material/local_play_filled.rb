@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalPlayFilled < Base
       def view_template
-        render LocalPlay.new(variant: :filled)
+        render LocalPlay.new(variant: :filled, **attrs)
       end
     end
   end

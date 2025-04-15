@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhotoLibraryOutlined < Base
       def view_template
-        render PhotoLibrary.new(variant: :outlined)
+        render PhotoLibrary.new(variant: :outlined, **attrs)
       end
     end
   end

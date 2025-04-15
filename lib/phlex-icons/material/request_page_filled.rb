@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RequestPageFilled < Base
       def view_template
-        render RequestPage.new(variant: :filled)
+        render RequestPage.new(variant: :filled, **attrs)
       end
     end
   end

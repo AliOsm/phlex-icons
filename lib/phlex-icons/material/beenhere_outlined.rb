@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BeenhereOutlined < Base
       def view_template
-        render Beenhere.new(variant: :outlined)
+        render Beenhere.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShareLocationFilled < Base
       def view_template
-        render ShareLocation.new(variant: :filled)
+        render ShareLocation.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewSidebarFilled < Base
       def view_template
-        render ViewSidebar.new(variant: :filled)
+        render ViewSidebar.new(variant: :filled, **attrs)
       end
     end
   end

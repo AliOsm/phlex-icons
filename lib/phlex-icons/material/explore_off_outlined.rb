@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ExploreOffOutlined < Base
       def view_template
-        render ExploreOff.new(variant: :outlined)
+        render ExploreOff.new(variant: :outlined, **attrs)
       end
     end
   end

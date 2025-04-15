@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CarCrashOutlined < Base
       def view_template
-        render CarCrash.new(variant: :outlined)
+        render CarCrash.new(variant: :outlined, **attrs)
       end
     end
   end

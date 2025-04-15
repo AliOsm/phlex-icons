@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WifiOffOutlined < Base
       def view_template
-        render WifiOff.new(variant: :outlined)
+        render WifiOff.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MosqueOutlined < Base
       def view_template
-        render Mosque.new(variant: :outlined)
+        render Mosque.new(variant: :outlined, **attrs)
       end
     end
   end

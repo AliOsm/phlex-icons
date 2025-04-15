@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StraightenFilled < Base
       def view_template
-        render Straighten.new(variant: :filled)
+        render Straighten.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CancelPresentationFilled < Base
       def view_template
-        render CancelPresentation.new(variant: :filled)
+        render CancelPresentation.new(variant: :filled, **attrs)
       end
     end
   end

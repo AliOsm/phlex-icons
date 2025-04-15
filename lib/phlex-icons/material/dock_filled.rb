@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DockFilled < Base
       def view_template
-        render Dock.new(variant: :filled)
+        render Dock.new(variant: :filled, **attrs)
       end
     end
   end

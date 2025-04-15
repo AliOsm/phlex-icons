@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ScoreboardOutlined < Base
       def view_template
-        render Scoreboard.new(variant: :outlined)
+        render Scoreboard.new(variant: :outlined, **attrs)
       end
     end
   end

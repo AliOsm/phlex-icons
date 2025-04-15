@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PhotoFilterFilled < Base
       def view_template
-        render PhotoFilter.new(variant: :filled)
+        render PhotoFilter.new(variant: :filled, **attrs)
       end
     end
   end

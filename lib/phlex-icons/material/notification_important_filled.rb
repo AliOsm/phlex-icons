@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NotificationImportantFilled < Base
       def view_template
-        render NotificationImportant.new(variant: :filled)
+        render NotificationImportant.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EarbudsOutlined < Base
       def view_template
-        render Earbuds.new(variant: :outlined)
+        render Earbuds.new(variant: :outlined, **attrs)
       end
     end
   end

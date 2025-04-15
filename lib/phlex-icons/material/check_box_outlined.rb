@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CheckBoxOutlined < Base
       def view_template
-        render CheckBox.new(variant: :outlined)
+        render CheckBox.new(variant: :outlined, **attrs)
       end
     end
   end

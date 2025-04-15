@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FontDownloadOffFilled < Base
       def view_template
-        render FontDownloadOff.new(variant: :filled)
+        render FontDownloadOff.new(variant: :filled, **attrs)
       end
     end
   end

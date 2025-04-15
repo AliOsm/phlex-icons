@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ApartmentFilled < Base
       def view_template
-        render Apartment.new(variant: :filled)
+        render Apartment.new(variant: :filled, **attrs)
       end
     end
   end

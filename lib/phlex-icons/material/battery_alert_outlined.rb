@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BatteryAlertOutlined < Base
       def view_template
-        render BatteryAlert.new(variant: :outlined)
+        render BatteryAlert.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoFoodFilled < Base
       def view_template
-        render NoFood.new(variant: :filled)
+        render NoFood.new(variant: :filled, **attrs)
       end
     end
   end

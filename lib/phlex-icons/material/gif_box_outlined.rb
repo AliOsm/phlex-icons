@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GifBoxOutlined < Base
       def view_template
-        render GifBox.new(variant: :outlined)
+        render GifBox.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewCompactOutlined < Base
       def view_template
-        render ViewCompact.new(variant: :outlined)
+        render ViewCompact.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class StormOutlined < Base
       def view_template
-        render Storm.new(variant: :outlined)
+        render Storm.new(variant: :outlined, **attrs)
       end
     end
   end

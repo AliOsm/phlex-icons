@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddToHomeScreenOutlined < Base
       def view_template
-        render AddToHomeScreen.new(variant: :outlined)
+        render AddToHomeScreen.new(variant: :outlined, **attrs)
       end
     end
   end

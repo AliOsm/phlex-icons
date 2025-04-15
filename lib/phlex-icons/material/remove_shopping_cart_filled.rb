@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RemoveShoppingCartFilled < Base
       def view_template
-        render RemoveShoppingCart.new(variant: :filled)
+        render RemoveShoppingCart.new(variant: :filled, **attrs)
       end
     end
   end

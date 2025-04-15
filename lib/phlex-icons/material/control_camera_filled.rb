@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ControlCameraFilled < Base
       def view_template
-        render ControlCamera.new(variant: :filled)
+        render ControlCamera.new(variant: :filled, **attrs)
       end
     end
   end

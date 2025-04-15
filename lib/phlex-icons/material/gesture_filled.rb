@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GestureFilled < Base
       def view_template
-        render Gesture.new(variant: :filled)
+        render Gesture.new(variant: :filled, **attrs)
       end
     end
   end

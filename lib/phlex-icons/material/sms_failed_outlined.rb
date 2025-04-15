@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SmsFailedOutlined < Base
       def view_template
-        render SmsFailed.new(variant: :outlined)
+        render SmsFailed.new(variant: :outlined, **attrs)
       end
     end
   end

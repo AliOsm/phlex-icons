@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VpnKeyOffFilled < Base
       def view_template
-        render VpnKeyOff.new(variant: :filled)
+        render VpnKeyOff.new(variant: :filled, **attrs)
       end
     end
   end

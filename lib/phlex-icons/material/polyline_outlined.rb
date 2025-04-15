@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PolylineOutlined < Base
       def view_template
-        render Polyline.new(variant: :outlined)
+        render Polyline.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PolicyOutlined < Base
       def view_template
-        render Policy.new(variant: :outlined)
+        render Policy.new(variant: :outlined, **attrs)
       end
     end
   end

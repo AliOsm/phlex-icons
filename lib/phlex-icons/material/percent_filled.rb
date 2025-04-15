@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PercentFilled < Base
       def view_template
-        render Percent.new(variant: :filled)
+        render Percent.new(variant: :filled, **attrs)
       end
     end
   end

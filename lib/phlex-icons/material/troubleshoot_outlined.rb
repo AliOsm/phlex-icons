@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TroubleshootOutlined < Base
       def view_template
-        render Troubleshoot.new(variant: :outlined)
+        render Troubleshoot.new(variant: :outlined, **attrs)
       end
     end
   end

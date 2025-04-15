@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WebAssetOutlined < Base
       def view_template
-        render WebAsset.new(variant: :outlined)
+        render WebAsset.new(variant: :outlined, **attrs)
       end
     end
   end

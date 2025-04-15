@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AlarmOffOutlined < Base
       def view_template
-        render AlarmOff.new(variant: :outlined)
+        render AlarmOff.new(variant: :outlined, **attrs)
       end
     end
   end

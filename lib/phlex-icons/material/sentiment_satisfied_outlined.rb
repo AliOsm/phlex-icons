@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SentimentSatisfiedOutlined < Base
       def view_template
-        render SentimentSatisfied.new(variant: :outlined)
+        render SentimentSatisfied.new(variant: :outlined, **attrs)
       end
     end
   end

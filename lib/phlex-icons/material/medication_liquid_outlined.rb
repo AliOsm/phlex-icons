@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MedicationLiquidOutlined < Base
       def view_template
-        render MedicationLiquid.new(variant: :outlined)
+        render MedicationLiquid.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CameraOutdoorFilled < Base
       def view_template
-        render CameraOutdoor.new(variant: :filled)
+        render CameraOutdoor.new(variant: :filled, **attrs)
       end
     end
   end

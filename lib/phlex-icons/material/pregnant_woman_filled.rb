@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PregnantWomanFilled < Base
       def view_template
-        render PregnantWoman.new(variant: :filled)
+        render PregnantWoman.new(variant: :filled, **attrs)
       end
     end
   end

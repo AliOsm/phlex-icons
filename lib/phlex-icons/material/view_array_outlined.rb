@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewArrayOutlined < Base
       def view_template
-        render ViewArray.new(variant: :outlined)
+        render ViewArray.new(variant: :outlined, **attrs)
       end
     end
   end

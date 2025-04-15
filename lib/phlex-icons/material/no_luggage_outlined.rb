@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoLuggageOutlined < Base
       def view_template
-        render NoLuggage.new(variant: :outlined)
+        render NoLuggage.new(variant: :outlined, **attrs)
       end
     end
   end

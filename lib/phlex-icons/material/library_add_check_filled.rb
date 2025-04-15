@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LibraryAddCheckFilled < Base
       def view_template
-        render LibraryAddCheck.new(variant: :filled)
+        render LibraryAddCheck.new(variant: :filled, **attrs)
       end
     end
   end

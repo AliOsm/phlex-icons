@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Timer3Outlined < Base
       def view_template
-        render Timer3.new(variant: :outlined)
+        render Timer3.new(variant: :outlined, **attrs)
       end
     end
   end

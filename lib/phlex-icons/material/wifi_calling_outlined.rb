@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WifiCallingOutlined < Base
       def view_template
-        render WifiCalling.new(variant: :outlined)
+        render WifiCalling.new(variant: :outlined, **attrs)
       end
     end
   end

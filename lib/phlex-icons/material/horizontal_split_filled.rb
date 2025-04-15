@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HorizontalSplitFilled < Base
       def view_template
-        render HorizontalSplit.new(variant: :filled)
+        render HorizontalSplit.new(variant: :filled, **attrs)
       end
     end
   end

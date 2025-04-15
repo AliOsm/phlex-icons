@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DnsOutlined < Base
       def view_template
-        render Dns.new(variant: :outlined)
+        render Dns.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PageviewOutlined < Base
       def view_template
-        render Pageview.new(variant: :outlined)
+        render Pageview.new(variant: :outlined, **attrs)
       end
     end
   end

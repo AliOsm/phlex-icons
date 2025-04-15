@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HailFilled < Base
       def view_template
-        render Hail.new(variant: :filled)
+        render Hail.new(variant: :filled, **attrs)
       end
     end
   end

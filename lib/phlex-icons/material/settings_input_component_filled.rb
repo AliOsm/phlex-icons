@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsInputComponentFilled < Base
       def view_template
-        render SettingsInputComponent.new(variant: :filled)
+        render SettingsInputComponent.new(variant: :filled, **attrs)
       end
     end
   end

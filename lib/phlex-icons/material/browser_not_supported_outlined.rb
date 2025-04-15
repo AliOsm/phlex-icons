@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BrowserNotSupportedOutlined < Base
       def view_template
-        render BrowserNotSupported.new(variant: :outlined)
+        render BrowserNotSupported.new(variant: :outlined, **attrs)
       end
     end
   end

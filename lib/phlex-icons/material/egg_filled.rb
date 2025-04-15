@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EggFilled < Base
       def view_template
-        render Egg.new(variant: :filled)
+        render Egg.new(variant: :filled, **attrs)
       end
     end
   end

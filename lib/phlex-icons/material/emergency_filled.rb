@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class EmergencyFilled < Base
       def view_template
-        render Emergency.new(variant: :filled)
+        render Emergency.new(variant: :filled, **attrs)
       end
     end
   end

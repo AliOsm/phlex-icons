@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideoLibraryOutlined < Base
       def view_template
-        render VideoLibrary.new(variant: :outlined)
+        render VideoLibrary.new(variant: :outlined, **attrs)
       end
     end
   end

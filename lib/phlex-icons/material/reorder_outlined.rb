@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReorderOutlined < Base
       def view_template
-        render Reorder.new(variant: :outlined)
+        render Reorder.new(variant: :outlined, **attrs)
       end
     end
   end

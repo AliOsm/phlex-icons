@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HvacOutlined < Base
       def view_template
-        render Hvac.new(variant: :outlined)
+        render Hvac.new(variant: :outlined, **attrs)
       end
     end
   end

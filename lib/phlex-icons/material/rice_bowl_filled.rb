@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RiceBowlFilled < Base
       def view_template
-        render RiceBowl.new(variant: :filled)
+        render RiceBowl.new(variant: :filled, **attrs)
       end
     end
   end

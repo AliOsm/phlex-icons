@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MilitaryTechFilled < Base
       def view_template
-        render MilitaryTech.new(variant: :filled)
+        render MilitaryTech.new(variant: :filled, **attrs)
       end
     end
   end

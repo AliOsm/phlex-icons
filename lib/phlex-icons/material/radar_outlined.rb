@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RadarOutlined < Base
       def view_template
-        render Radar.new(variant: :outlined)
+        render Radar.new(variant: :outlined, **attrs)
       end
     end
   end

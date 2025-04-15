@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WifiTetheringErrorOutlined < Base
       def view_template
-        render WifiTetheringError.new(variant: :outlined)
+        render WifiTetheringError.new(variant: :outlined, **attrs)
       end
     end
   end

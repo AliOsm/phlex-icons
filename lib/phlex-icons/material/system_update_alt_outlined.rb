@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SystemUpdateAltOutlined < Base
       def view_template
-        render SystemUpdateAlt.new(variant: :outlined)
+        render SystemUpdateAlt.new(variant: :outlined, **attrs)
       end
     end
   end

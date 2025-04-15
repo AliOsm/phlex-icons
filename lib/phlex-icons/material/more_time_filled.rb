@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MoreTimeFilled < Base
       def view_template
-        render MoreTime.new(variant: :filled)
+        render MoreTime.new(variant: :filled, **attrs)
       end
     end
   end

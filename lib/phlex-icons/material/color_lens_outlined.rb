@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ColorLensOutlined < Base
       def view_template
-        render ColorLens.new(variant: :outlined)
+        render ColorLens.new(variant: :outlined, **attrs)
       end
     end
   end

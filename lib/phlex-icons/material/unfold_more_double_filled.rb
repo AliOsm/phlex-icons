@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class UnfoldMoreDoubleFilled < Base
       def view_template
-        render UnfoldMoreDouble.new(variant: :filled)
+        render UnfoldMoreDouble.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReceiptFilled < Base
       def view_template
-        render Receipt.new(variant: :filled)
+        render Receipt.new(variant: :filled, **attrs)
       end
     end
   end

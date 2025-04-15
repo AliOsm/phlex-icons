@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AbcOutlined < Base
       def view_template
-        render Abc.new(variant: :outlined)
+        render Abc.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShuffleFilled < Base
       def view_template
-        render Shuffle.new(variant: :filled)
+        render Shuffle.new(variant: :filled, **attrs)
       end
     end
   end

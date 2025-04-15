@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CropSquareOutlined < Base
       def view_template
-        render CropSquare.new(variant: :outlined)
+        render CropSquare.new(variant: :outlined, **attrs)
       end
     end
   end

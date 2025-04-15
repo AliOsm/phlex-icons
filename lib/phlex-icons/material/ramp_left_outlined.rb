@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RampLeftOutlined < Base
       def view_template
-        render RampLeft.new(variant: :outlined)
+        render RampLeft.new(variant: :outlined, **attrs)
       end
     end
   end

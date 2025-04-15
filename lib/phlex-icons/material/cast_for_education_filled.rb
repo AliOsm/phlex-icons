@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CastForEducationFilled < Base
       def view_template
-        render CastForEducation.new(variant: :filled)
+        render CastForEducation.new(variant: :filled, **attrs)
       end
     end
   end

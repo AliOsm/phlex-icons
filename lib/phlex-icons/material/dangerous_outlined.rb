@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DangerousOutlined < Base
       def view_template
-        render Dangerous.new(variant: :outlined)
+        render Dangerous.new(variant: :outlined, **attrs)
       end
     end
   end

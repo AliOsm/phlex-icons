@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddIcCallFilled < Base
       def view_template
-        render AddIcCall.new(variant: :filled)
+        render AddIcCall.new(variant: :filled, **attrs)
       end
     end
   end

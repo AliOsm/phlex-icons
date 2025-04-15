@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShieldMoonOutlined < Base
       def view_template
-        render ShieldMoon.new(variant: :outlined)
+        render ShieldMoon.new(variant: :outlined, **attrs)
       end
     end
   end

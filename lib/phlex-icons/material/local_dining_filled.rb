@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalDiningFilled < Base
       def view_template
-        render LocalDining.new(variant: :filled)
+        render LocalDining.new(variant: :filled, **attrs)
       end
     end
   end

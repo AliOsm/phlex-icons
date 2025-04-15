@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlashlightOffFilled < Base
       def view_template
-        render FlashlightOff.new(variant: :filled)
+        render FlashlightOff.new(variant: :filled, **attrs)
       end
     end
   end

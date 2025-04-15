@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MobileScreenShareOutlined < Base
       def view_template
-        render MobileScreenShare.new(variant: :outlined)
+        render MobileScreenShare.new(variant: :outlined, **attrs)
       end
     end
   end

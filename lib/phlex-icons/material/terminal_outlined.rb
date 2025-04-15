@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TerminalOutlined < Base
       def view_template
-        render Terminal.new(variant: :outlined)
+        render Terminal.new(variant: :outlined, **attrs)
       end
     end
   end

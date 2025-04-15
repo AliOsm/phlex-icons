@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CommentOutlined < Base
       def view_template
-        render Comment.new(variant: :outlined)
+        render Comment.new(variant: :outlined, **attrs)
       end
     end
   end

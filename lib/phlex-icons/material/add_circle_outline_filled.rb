@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AddCircleOutlineFilled < Base
       def view_template
-        render AddCircleOutline.new(variant: :filled)
+        render AddCircleOutline.new(variant: :filled, **attrs)
       end
     end
   end

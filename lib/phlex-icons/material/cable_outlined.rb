@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CableOutlined < Base
       def view_template
-        render Cable.new(variant: :outlined)
+        render Cable.new(variant: :outlined, **attrs)
       end
     end
   end

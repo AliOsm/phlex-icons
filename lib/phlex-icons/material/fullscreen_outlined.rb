@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FullscreenOutlined < Base
       def view_template
-        render Fullscreen.new(variant: :outlined)
+        render Fullscreen.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class VideocamOffFilled < Base
       def view_template
-        render VideocamOff.new(variant: :filled)
+        render VideocamOff.new(variant: :filled, **attrs)
       end
     end
   end

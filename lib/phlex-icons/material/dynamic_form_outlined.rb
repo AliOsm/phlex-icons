@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DynamicFormOutlined < Base
       def view_template
-        render DynamicForm.new(variant: :outlined)
+        render DynamicForm.new(variant: :outlined, **attrs)
       end
     end
   end

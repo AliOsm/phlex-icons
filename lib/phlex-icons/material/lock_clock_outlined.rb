@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LockClockOutlined < Base
       def view_template
-        render LockClock.new(variant: :outlined)
+        render LockClock.new(variant: :outlined, **attrs)
       end
     end
   end

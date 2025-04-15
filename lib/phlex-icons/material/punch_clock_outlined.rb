@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PunchClockOutlined < Base
       def view_template
-        render PunchClock.new(variant: :outlined)
+        render PunchClock.new(variant: :outlined, **attrs)
       end
     end
   end

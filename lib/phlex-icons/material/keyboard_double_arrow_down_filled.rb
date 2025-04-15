@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class KeyboardDoubleArrowDownFilled < Base
       def view_template
-        render KeyboardDoubleArrowDown.new(variant: :filled)
+        render KeyboardDoubleArrowDown.new(variant: :filled, **attrs)
       end
     end
   end

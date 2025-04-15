@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FullscreenExitOutlined < Base
       def view_template
-        render FullscreenExit.new(variant: :outlined)
+        render FullscreenExit.new(variant: :outlined, **attrs)
       end
     end
   end

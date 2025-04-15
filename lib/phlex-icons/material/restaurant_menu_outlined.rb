@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RestaurantMenuOutlined < Base
       def view_template
-        render RestaurantMenu.new(variant: :outlined)
+        render RestaurantMenu.new(variant: :outlined, **attrs)
       end
     end
   end

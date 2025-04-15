@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FireHydrantAltOutlined < Base
       def view_template
-        render FireHydrantAlt.new(variant: :outlined)
+        render FireHydrantAlt.new(variant: :outlined, **attrs)
       end
     end
   end

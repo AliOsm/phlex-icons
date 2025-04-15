@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewComfyAltOutlined < Base
       def view_template
-        render ViewComfyAlt.new(variant: :outlined)
+        render ViewComfyAlt.new(variant: :outlined, **attrs)
       end
     end
   end

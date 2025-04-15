@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HomeRepairServiceOutlined < Base
       def view_template
-        render HomeRepairService.new(variant: :outlined)
+        render HomeRepairService.new(variant: :outlined, **attrs)
       end
     end
   end

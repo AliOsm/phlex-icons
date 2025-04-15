@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PrintDisabledFilled < Base
       def view_template
-        render PrintDisabled.new(variant: :filled)
+        render PrintDisabled.new(variant: :filled, **attrs)
       end
     end
   end

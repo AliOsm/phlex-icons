@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class GroupWorkFilled < Base
       def view_template
-        render GroupWork.new(variant: :filled)
+        render GroupWork.new(variant: :filled, **attrs)
       end
     end
   end

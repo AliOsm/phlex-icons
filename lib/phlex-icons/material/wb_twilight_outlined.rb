@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WbTwilightOutlined < Base
       def view_template
-        render WbTwilight.new(variant: :outlined)
+        render WbTwilight.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ClosedCaptionDisabledOutlined < Base
       def view_template
-        render ClosedCaptionDisabled.new(variant: :outlined)
+        render ClosedCaptionDisabled.new(variant: :outlined, **attrs)
       end
     end
   end

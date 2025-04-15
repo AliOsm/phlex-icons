@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoCrashOutlined < Base
       def view_template
-        render NoCrash.new(variant: :outlined)
+        render NoCrash.new(variant: :outlined, **attrs)
       end
     end
   end

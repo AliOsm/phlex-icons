@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InsertCommentFilled < Base
       def view_template
-        render InsertComment.new(variant: :filled)
+        render InsertComment.new(variant: :filled, **attrs)
       end
     end
   end

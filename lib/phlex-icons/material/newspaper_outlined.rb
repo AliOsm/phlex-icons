@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NewspaperOutlined < Base
       def view_template
-        render Newspaper.new(variant: :outlined)
+        render Newspaper.new(variant: :outlined, **attrs)
       end
     end
   end

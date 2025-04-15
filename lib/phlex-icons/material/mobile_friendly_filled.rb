@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MobileFriendlyFilled < Base
       def view_template
-        render MobileFriendly.new(variant: :filled)
+        render MobileFriendly.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlipOutlined < Base
       def view_template
-        render Flip.new(variant: :outlined)
+        render Flip.new(variant: :outlined, **attrs)
       end
     end
   end

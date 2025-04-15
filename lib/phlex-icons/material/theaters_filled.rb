@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TheatersFilled < Base
       def view_template
-        render Theaters.new(variant: :filled)
+        render Theaters.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PlayDisabledFilled < Base
       def view_template
-        render PlayDisabled.new(variant: :filled)
+        render PlayDisabled.new(variant: :filled, **attrs)
       end
     end
   end

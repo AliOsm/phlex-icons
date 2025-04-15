@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewWeekOutlined < Base
       def view_template
-        render ViewWeek.new(variant: :outlined)
+        render ViewWeek.new(variant: :outlined, **attrs)
       end
     end
   end

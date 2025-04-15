@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoMealsOutlined < Base
       def view_template
-        render NoMeals.new(variant: :outlined)
+        render NoMeals.new(variant: :outlined, **attrs)
       end
     end
   end

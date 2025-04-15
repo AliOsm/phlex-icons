@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LocalMallFilled < Base
       def view_template
-        render LocalMall.new(variant: :filled)
+        render LocalMall.new(variant: :filled, **attrs)
       end
     end
   end

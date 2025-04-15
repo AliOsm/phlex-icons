@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 5gOutlined < Base
       def view_template
-        render 5g.new(variant: :outlined)
+        render 5g.new(variant: :outlined, **attrs)
       end
     end
   end

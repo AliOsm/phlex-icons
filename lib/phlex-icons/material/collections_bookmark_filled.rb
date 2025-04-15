@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CollectionsBookmarkFilled < Base
       def view_template
-        render CollectionsBookmark.new(variant: :filled)
+        render CollectionsBookmark.new(variant: :filled, **attrs)
       end
     end
   end

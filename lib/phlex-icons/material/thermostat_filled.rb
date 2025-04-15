@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ThermostatFilled < Base
       def view_template
-        render Thermostat.new(variant: :filled)
+        render Thermostat.new(variant: :filled, **attrs)
       end
     end
   end

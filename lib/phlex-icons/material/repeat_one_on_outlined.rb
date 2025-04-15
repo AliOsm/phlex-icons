@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RepeatOneOnOutlined < Base
       def view_template
-        render RepeatOneOn.new(variant: :outlined)
+        render RepeatOneOn.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsPhoneOutlined < Base
       def view_template
-        render SettingsPhone.new(variant: :outlined)
+        render SettingsPhone.new(variant: :outlined, **attrs)
       end
     end
   end

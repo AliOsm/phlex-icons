@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class BathroomOutlined < Base
       def view_template
-        render Bathroom.new(variant: :outlined)
+        render Bathroom.new(variant: :outlined, **attrs)
       end
     end
   end

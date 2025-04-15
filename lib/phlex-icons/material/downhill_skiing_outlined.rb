@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DownhillSkiingOutlined < Base
       def view_template
-        render DownhillSkiing.new(variant: :outlined)
+        render DownhillSkiing.new(variant: :outlined, **attrs)
       end
     end
   end

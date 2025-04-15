@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RadioButtonUncheckedFilled < Base
       def view_template
-        render RadioButtonUnchecked.new(variant: :filled)
+        render RadioButtonUnchecked.new(variant: :filled, **attrs)
       end
     end
   end

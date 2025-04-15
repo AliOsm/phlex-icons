@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ForwardToInboxOutlined < Base
       def view_template
-        render ForwardToInbox.new(variant: :outlined)
+        render ForwardToInbox.new(variant: :outlined, **attrs)
       end
     end
   end

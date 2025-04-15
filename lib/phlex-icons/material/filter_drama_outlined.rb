@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterDramaOutlined < Base
       def view_template
-        render FilterDrama.new(variant: :outlined)
+        render FilterDrama.new(variant: :outlined, **attrs)
       end
     end
   end

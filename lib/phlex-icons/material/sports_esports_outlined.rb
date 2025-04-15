@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SportsEsportsOutlined < Base
       def view_template
-        render SportsEsports.new(variant: :outlined)
+        render SportsEsports.new(variant: :outlined, **attrs)
       end
     end
   end

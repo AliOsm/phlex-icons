@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class HdrOffOutlined < Base
       def view_template
-        render HdrOff.new(variant: :outlined)
+        render HdrOff.new(variant: :outlined, **attrs)
       end
     end
   end

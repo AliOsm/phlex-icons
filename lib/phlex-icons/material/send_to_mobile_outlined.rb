@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SendToMobileOutlined < Base
       def view_template
-        render SendToMobile.new(variant: :outlined)
+        render SendToMobile.new(variant: :outlined, **attrs)
       end
     end
   end

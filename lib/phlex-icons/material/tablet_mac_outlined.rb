@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TabletMacOutlined < Base
       def view_template
-        render TabletMac.new(variant: :outlined)
+        render TabletMac.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class InsertPhotoOutlined < Base
       def view_template
-        render InsertPhoto.new(variant: :outlined)
+        render InsertPhoto.new(variant: :outlined, **attrs)
       end
     end
   end

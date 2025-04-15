@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class MoneyOffFilled < Base
       def view_template
-        render MoneyOff.new(variant: :filled)
+        render MoneyOff.new(variant: :filled, **attrs)
       end
     end
   end

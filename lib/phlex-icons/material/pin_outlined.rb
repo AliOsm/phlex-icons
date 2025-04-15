@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PinOutlined < Base
       def view_template
-        render Pin.new(variant: :outlined)
+        render Pin.new(variant: :outlined, **attrs)
       end
     end
   end

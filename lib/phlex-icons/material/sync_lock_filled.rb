@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SyncLockFilled < Base
       def view_template
-        render SyncLock.new(variant: :filled)
+        render SyncLock.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PersonPinCircleFilled < Base
       def view_template
-        render PersonPinCircle.new(variant: :filled)
+        render PersonPinCircle.new(variant: :filled, **attrs)
       end
     end
   end

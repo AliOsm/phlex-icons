@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SelectAllFilled < Base
       def view_template
-        render SelectAll.new(variant: :filled)
+        render SelectAll.new(variant: :filled, **attrs)
       end
     end
   end

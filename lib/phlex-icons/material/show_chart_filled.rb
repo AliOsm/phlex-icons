@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ShowChartFilled < Base
       def view_template
-        render ShowChart.new(variant: :filled)
+        render ShowChart.new(variant: :filled, **attrs)
       end
     end
   end

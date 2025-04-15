@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DryCleaningFilled < Base
       def view_template
-        render DryCleaning.new(variant: :filled)
+        render DryCleaning.new(variant: :filled, **attrs)
       end
     end
   end

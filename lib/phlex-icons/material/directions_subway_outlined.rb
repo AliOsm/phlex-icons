@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DirectionsSubwayOutlined < Base
       def view_template
-        render DirectionsSubway.new(variant: :outlined)
+        render DirectionsSubway.new(variant: :outlined, **attrs)
       end
     end
   end

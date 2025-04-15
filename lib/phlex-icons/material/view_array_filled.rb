@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewArrayFilled < Base
       def view_template
-        render ViewArray.new(variant: :filled)
+        render ViewArray.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DoorbellFilled < Base
       def view_template
-        render Doorbell.new(variant: :filled)
+        render Doorbell.new(variant: :filled, **attrs)
       end
     end
   end

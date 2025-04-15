@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SubjectOutlined < Base
       def view_template
-        render Subject.new(variant: :outlined)
+        render Subject.new(variant: :outlined, **attrs)
       end
     end
   end

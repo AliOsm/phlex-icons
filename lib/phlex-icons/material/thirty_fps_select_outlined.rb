@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 30fpsSelectOutlined < Base
       def view_template
-        render 30fpsSelect.new(variant: :outlined)
+        render 30fpsSelect.new(variant: :outlined, **attrs)
       end
     end
   end

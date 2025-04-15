@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsBrightnessFilled < Base
       def view_template
-        render SettingsBrightness.new(variant: :filled)
+        render SettingsBrightness.new(variant: :filled, **attrs)
       end
     end
   end

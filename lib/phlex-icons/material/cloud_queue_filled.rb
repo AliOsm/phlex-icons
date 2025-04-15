@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class CloudQueueFilled < Base
       def view_template
-        render CloudQueue.new(variant: :filled)
+        render CloudQueue.new(variant: :filled, **attrs)
       end
     end
   end

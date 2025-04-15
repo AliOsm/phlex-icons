@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PanoramaPhotosphereFilled < Base
       def view_template
-        render PanoramaPhotosphere.new(variant: :filled)
+        render PanoramaPhotosphere.new(variant: :filled, **attrs)
       end
     end
   end

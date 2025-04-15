@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AttractionsOutlined < Base
       def view_template
-        render Attractions.new(variant: :outlined)
+        render Attractions.new(variant: :outlined, **attrs)
       end
     end
   end

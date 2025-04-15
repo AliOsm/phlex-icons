@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DashboardCustomizeOutlined < Base
       def view_template
-        render DashboardCustomize.new(variant: :outlined)
+        render DashboardCustomize.new(variant: :outlined, **attrs)
       end
     end
   end

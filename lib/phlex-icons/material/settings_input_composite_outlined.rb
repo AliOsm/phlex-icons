@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SettingsInputCompositeOutlined < Base
       def view_template
-        render SettingsInputComposite.new(variant: :outlined)
+        render SettingsInputComposite.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SensorWindowFilled < Base
       def view_template
-        render SensorWindow.new(variant: :filled)
+        render SensorWindow.new(variant: :filled, **attrs)
       end
     end
   end

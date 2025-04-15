@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PublicOutlined < Base
       def view_template
-        render Public.new(variant: :outlined)
+        render Public.new(variant: :outlined, **attrs)
       end
     end
   end

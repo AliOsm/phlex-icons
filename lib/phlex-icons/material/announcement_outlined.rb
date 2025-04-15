@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class AnnouncementOutlined < Base
       def view_template
-        render Announcement.new(variant: :outlined)
+        render Announcement.new(variant: :outlined, **attrs)
       end
     end
   end

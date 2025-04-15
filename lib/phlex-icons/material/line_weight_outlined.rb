@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class LineWeightOutlined < Base
       def view_template
-        render LineWeight.new(variant: :outlined)
+        render LineWeight.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ViewDayOutlined < Base
       def view_template
-        render ViewDay.new(variant: :outlined)
+        render ViewDay.new(variant: :outlined, **attrs)
       end
     end
   end

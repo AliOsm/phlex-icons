@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DesignServicesOutlined < Base
       def view_template
-        render DesignServices.new(variant: :outlined)
+        render DesignServices.new(variant: :outlined, **attrs)
       end
     end
   end

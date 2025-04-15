@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class NoMeetingRoomFilled < Base
       def view_template
-        render NoMeetingRoom.new(variant: :filled)
+        render NoMeetingRoom.new(variant: :filled, **attrs)
       end
     end
   end

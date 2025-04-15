@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class Forward30Filled < Base
       def view_template
-        render Forward30.new(variant: :filled)
+        render Forward30.new(variant: :filled, **attrs)
       end
     end
   end

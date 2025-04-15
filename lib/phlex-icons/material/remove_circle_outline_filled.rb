@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RemoveCircleOutlineFilled < Base
       def view_template
-        render RemoveCircleOutline.new(variant: :filled)
+        render RemoveCircleOutline.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FactoryOutlined < Base
       def view_template
-        render Factory.new(variant: :outlined)
+        render Factory.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SafetyCheckOutlined < Base
       def view_template
-        render SafetyCheck.new(variant: :outlined)
+        render SafetyCheck.new(variant: :outlined, **attrs)
       end
     end
   end

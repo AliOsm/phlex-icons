@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FlagOutlined < Base
       def view_template
-        render Flag.new(variant: :outlined)
+        render Flag.new(variant: :outlined, **attrs)
       end
     end
   end

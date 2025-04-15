@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DomainFilled < Base
       def view_template
-        render Domain.new(variant: :filled)
+        render Domain.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TextDecreaseOutlined < Base
       def view_template
-        render TextDecrease.new(variant: :outlined)
+        render TextDecrease.new(variant: :outlined, **attrs)
       end
     end
   end

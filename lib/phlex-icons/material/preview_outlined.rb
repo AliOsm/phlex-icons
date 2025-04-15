@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class PreviewOutlined < Base
       def view_template
-        render Preview.new(variant: :outlined)
+        render Preview.new(variant: :outlined, **attrs)
       end
     end
   end

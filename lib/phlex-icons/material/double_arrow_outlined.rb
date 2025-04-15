@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class DoubleArrowOutlined < Base
       def view_template
-        render DoubleArrow.new(variant: :outlined)
+        render DoubleArrow.new(variant: :outlined, **attrs)
       end
     end
   end

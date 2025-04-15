@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class WidthNormalOutlined < Base
       def view_template
-        render WidthNormal.new(variant: :outlined)
+        render WidthNormal.new(variant: :outlined, **attrs)
       end
     end
   end

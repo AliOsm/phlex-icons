@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SelectAllOutlined < Base
       def view_template
-        render SelectAll.new(variant: :outlined)
+        render SelectAll.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class SyncOutlined < Base
       def view_template
-        render Sync.new(variant: :outlined)
+        render Sync.new(variant: :outlined, **attrs)
       end
     end
   end

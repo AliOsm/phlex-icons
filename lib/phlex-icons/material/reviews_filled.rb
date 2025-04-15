@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ReviewsFilled < Base
       def view_template
-        render Reviews.new(variant: :filled)
+        render Reviews.new(variant: :filled, **attrs)
       end
     end
   end

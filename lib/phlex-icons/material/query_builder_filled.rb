@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class QueryBuilderFilled < Base
       def view_template
-        render QueryBuilder.new(variant: :filled)
+        render QueryBuilder.new(variant: :filled, **attrs)
       end
     end
   end

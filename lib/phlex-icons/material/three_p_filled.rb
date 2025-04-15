@@ -5,7 +5,7 @@ module PhlexIcons
   module Material
     class 3pFilled < Base
       def view_template
-        render 3p.new(variant: :filled)
+        render 3p.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class FilterFramesOutlined < Base
       def view_template
-        render FilterFrames.new(variant: :outlined)
+        render FilterFrames.new(variant: :outlined, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class RoundedCornerOutlined < Base
       def view_template
-        render RoundedCorner.new(variant: :outlined)
+        render RoundedCorner.new(variant: :outlined, **attrs)
       end
     end
   end

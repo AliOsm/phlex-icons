@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class TurnedInFilled < Base
       def view_template
-        render TurnedIn.new(variant: :filled)
+        render TurnedIn.new(variant: :filled, **attrs)
       end
     end
   end

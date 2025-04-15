@@ -4,7 +4,7 @@ module PhlexIcons
   module Material
     class ChatBubbleOutlineOutlined < Base
       def view_template
-        render ChatBubbleOutline.new(variant: :outlined)
+        render ChatBubbleOutline.new(variant: :outlined, **attrs)
       end
     end
   end
