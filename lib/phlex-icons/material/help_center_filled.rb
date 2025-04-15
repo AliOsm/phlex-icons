@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Material
+    class HelpCenterFilled < Base
+      def view_template
+        render HelpCenter.new(variant: :filled)
+      end
+    end
+  end
+end

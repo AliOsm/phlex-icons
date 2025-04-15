@@ -1,0 +1,27 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Material
+    class TrendingFlat < Base
+      def filled
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(d: 'm22 12-4-4v3H3v2h15v3z')
+        end
+      end
+
+      def outlined
+        svg(
+          **attrs,
+          fill: 'currentColor',
+          xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(d: 'm22 12-4-4v3H3v2h15v3l4-4z')
+        end
+      end
+    end
+  end
+end
