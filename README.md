@@ -18,6 +18,7 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)
 - [Remix Icons](https://remixicon.com) (2,800+)
 - [Tabler Icons](https://tabler.io/icons) (4,800+)
+- [Material Design Icons](https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons) (2,200+)
 
 And happy to extend to other icon packs!
 
@@ -30,6 +31,7 @@ If you don't want to add all icon packs to your application, you can add a speci
 - [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
 - [phlex-icons-remix](https://rubygems.org/gems/phlex-icons-remix)
 - [phlex-icons-tabler](https://rubygems.org/gems/phlex-icons-tabler)
+- [phlex-icons-material](https://rubygems.org/gems/phlex-icons-material)
 
 Thanks [nejdetkadir](https://github.com/nejdetkadir) for creating [Phlex::Heroicons](https://github.com/nejdetkadir/phlex-heroicons) as it was the base for this gem.
 
@@ -99,6 +101,18 @@ PhlexIcons::Hero.configuration.default_variant = :solid # or :outline
 
 Nothing to configure for Lucide Icons.
 
+### Material Design Icons configuration
+
+```ruby
+PhlexIcons::Material.configure do |config|
+  config.default_variant = :filled # or :outlined
+end
+
+# OR
+
+PhlexIcons::Material.configuration.default_variant = :filled # or :outlined
+```
+
 ### RadixUI Icons configuration
 
 Nothing to configure for RadixUI Icons.
@@ -135,6 +149,7 @@ class PhlexIcons < Phlex::HTML
       Flag::Sa(variant: :rectangle, class: 'size-4')
       Hero::Home(variant: :solid, class: 'size-4')
       Lucide::House(class: 'size-4')
+      Material::House(variant: :filled, class: 'size-4')
       Radix::Home(class: 'size-4')
       Remix::HomeLine(class: 'size-4')
       Tabler::Home(variant: :filled, class: 'size-4')
@@ -155,6 +170,7 @@ class PhlexIcons < Phlex::HTML
       render PhlexIcons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
       render PhlexIcons::Hero::Home.new(variant: :solid, class: 'size-4')
       render PhlexIcons::Lucide::House.new(class: 'size-4')
+      render PhlexIcons::Material::House.new(variant: :filled, class: 'size-4')
       render PhlexIcons::Radix::Home.new(class: 'size-4')
       render PhlexIcons::Remix::HomeLine.new(class: 'size-4')
       render PhlexIcons::Tabler::Home.new(variant: :filled, class: 'size-4')
