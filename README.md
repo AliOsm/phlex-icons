@@ -28,10 +28,10 @@ If you don't want to add all icon packs to your application, you can add a speci
 - [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
 - [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
 - [phlex-icons-lucide](https://rubygems.org/gems/phlex-icons-lucide)
+- [phlex-icons-material](https://rubygems.org/gems/phlex-icons-material)
 - [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
 - [phlex-icons-remix](https://rubygems.org/gems/phlex-icons-remix)
 - [phlex-icons-tabler](https://rubygems.org/gems/phlex-icons-tabler)
-- [phlex-icons-material](https://rubygems.org/gems/phlex-icons-material)
 
 Thanks [nejdetkadir](https://github.com/nejdetkadir) for creating [Phlex::Heroicons](https://github.com/nejdetkadir/phlex-heroicons) as it was the base for this gem.
 
@@ -105,12 +105,12 @@ Nothing to configure for Lucide Icons.
 
 ```ruby
 PhlexIcons::Material.configure do |config|
-  config.default_variant = :filled # or :outlined
+  config.default_variant = :filled # or :outlined, :round, :sharp, :two_tone
 end
 
 # OR
 
-PhlexIcons::Material.configuration.default_variant = :filled # or :outlined
+PhlexIcons::Material.configuration.default_variant = :filled # or :outlined, :round, :sharp, :two_tone
 ```
 
 ### RadixUI Icons configuration

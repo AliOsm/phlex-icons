@@ -52,15 +52,6 @@ jobs:
             echo "🔔 Icons were updated/added to Hero icon pack"
           fi
 
-      - name: Re-generate Material Design icon pack
-        run: |
-          bundle exec ruby generators/material.rb
-          if [ -n "$(git status --porcelain lib/phlex-icons/material lib/phlex-icons/material.rb)" ]; then
-            git add lib/phlex-icons/material lib/phlex-icons/material.rb
-            git commit -m "Re-generate Material Design icon pack"
-            echo "🔔 Icons were updated/added to Material Design Hero icon pack"
-          fi
-
       - name: Re-generate Lucide icon pack
         run: |
           bundle exec ruby generators/lucide.rb
@@ -68,6 +59,15 @@ jobs:
             git add lib/phlex-icons/lucide lib/phlex-icons/lucide.rb
             git commit -m "Re-generate Lucide icon pack"
             echo "🔔 Icons were updated/added to Lucide icon pack"
+          fi
+
+      - name: Re-generate Material Design icon pack
+        run: |
+          bundle exec ruby generators/material.rb
+          if [ -n "$(git status --porcelain lib/phlex-icons/material lib/phlex-icons/material.rb)" ]; then
+            git add lib/phlex-icons/material lib/phlex-icons/material.rb
+            git commit -m "Re-generate Material Design icon pack"
+            echo "🔔 Icons were updated/added to Material Design Hero icon pack"
           fi
 
       - name: Re-generate Remix icon pack
