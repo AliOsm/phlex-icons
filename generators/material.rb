@@ -3,7 +3,7 @@
 require_relative 'helper'
 
 REPO_URL = 'https://github.com/marella/material-design-icons.git'
-REPO_NAME = 'material-design-icons'
+REPO_NAME = 'marella-material-design-icons'
 ICONS_PACK_MODULE_PATH = 'lib/phlex-icons/material.rb'
 ICONS_PACK_PATH = 'lib/phlex-icons/material'
 VARIANTS = %i[filled outlined round sharp two_tone].freeze
@@ -18,7 +18,7 @@ REPLACEMENTS = {
   '4g' => 'four_g',
   '5g' => 'five_g',
   '60fps' => 'sixty_fps',
-  '6_ft' => 'six_feet',
+  '6_ft' => 'six_feet'
 }.freeze
 
 TEMPLATE = ERB.new <<~TEMPLATE
@@ -82,21 +82,25 @@ def icon_file_names
   Dir.glob("generators/#{REPO_NAME}/svg/#{VARIANTS.first}/*").map { |file| File.basename(file) }
 end
 
-def validated_file_name(icon_file_name)
+def valid_file_name?(icon_file_name)
   # Replacements
-  return icon_file_name if REPLACEMENTS.keys.any?{ |key| icon_file_name.start_with?(key) }
+  return true if REPLACEMENTS.keys.any? { |key| icon_file_name.start_with?(key) }
 
   # Skip all files starting with numbers
-  return if icon_file_name =~ /^\d+/
+  return false if icon_file_name =~ /^\d+/
 
   # Standard
-  icon_file_name
+  true
 end
 
 def create_icon_component(icon_file_name)
-  validated_name = validated_file_name(icon_file_name)
-  return unless validated_name
+  return unless valid_file_name?(icon_file_name)
 
+  write_main_icon_class(icon_file_name)
+  write_variant_classes(icon_file_name)
+end
+
+def write_main_icon_class(icon_file_name)
   File.write(
     File.join(ICONS_PACK_PATH, component_file_name(icon_file_name, REPLACEMENTS)),
     TEMPLATE.result_with_hash(
@@ -105,10 +109,12 @@ def create_icon_component(icon_file_name)
       outlined_icon: read_and_convert_icon(icon_file_path('outlined', icon_file_name)),
       sharp_icon: read_and_convert_icon(icon_file_path('sharp', icon_file_name)),
       round_icon: read_and_convert_icon(icon_file_path('round', icon_file_name)),
-      two_tone_icon: read_and_convert_icon(icon_file_path('two-tone', icon_file_name)),
+      two_tone_icon: read_and_convert_icon(icon_file_path('two-tone', icon_file_name))
     )
   )
+end
 
+def write_variant_classes(icon_file_name)
   VARIANTS.each do |variant|
     File.write(
       File.join(ICONS_PACK_PATH, variant_component_file_name(icon_file_name, variant, REPLACEMENTS)),
@@ -122,9 +128,12 @@ end
 
 def read_and_convert_icon(icon_file_path)
   icon_file_content = File.read(icon_file_path)
-                        .sub('width="24"', '')
-                        .sub('height="24"', '')
-  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\n**attrs,\nfill: 'currentColor',\n")
+                          .sub('width="24"', '')
+                          .sub('height="24"', '')
+  Phlexing::Converter.convert(icon_file_content)
+                     .sub('svg(', "svg(\n**attrs,\nfill: 'currentColor',\n")
+                     .sub('xmlns:xlink:', '"xmlns:xlink":')
+                     .gsub('xlink:href:', '"xlink:href":')
 end
 
 def icon_file_path(variant, icon_file_name)
