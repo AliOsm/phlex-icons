@@ -9,6 +9,7 @@ module PhlexIcons
     require_relative 'material/base'
     require_relative 'material/configuration'
 
+    # rubocop:disable Layout/LineLength
     # auto-generated autoload: start
     autoload :Abc, 'phlex-icons/material/abc'
     autoload :AbcFilled, 'phlex-icons/material/abc_filled'
@@ -12732,6 +12733,7 @@ module PhlexIcons
     autoload :ZoomOutSharp, 'phlex-icons/material/zoom_out_sharp'
     autoload :ZoomOutTwoTone, 'phlex-icons/material/zoom_out_two_tone'
     # auto-generated autoload: end
+    # rubocop:enable Layout/LineLength
 
     class << self
       def configuration
