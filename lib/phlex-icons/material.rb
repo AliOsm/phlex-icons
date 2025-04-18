@@ -2,6 +2,7 @@
 
 module PhlexIcons
   module Material # rubocop:disable Metrics/ModuleLength
+    VERSION = '0.14.15'
     VARIANTS = %i[outlined filled round sharp two_tone].freeze
 
     extend Phlex::Kit

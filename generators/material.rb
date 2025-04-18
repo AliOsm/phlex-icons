@@ -105,7 +105,7 @@ VARIANT_TEMPLATE
 
 def main
   run_generator do
-    new_version = JSON.parse(File.read("generators/#{REPO_NAME}/package.json"))['version']
+    new_version = JSON.parse(File.read("generators/#{REPO_NAME}/svg/package.json"))['version']
     update_icon_path_version(new_version)
 
     icon_file_names.tqdm.each { create_icon_component(_1) }
