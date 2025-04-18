@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingHospitalFilled < Base
       def view_template
-        render BuildingHospital.new(variant: :filled)
+        render BuildingHospital.new(variant: :filled, **attrs)
       end
     end
   end

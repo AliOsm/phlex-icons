@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SearchOffOutline < Base
       def view_template
-        render SearchOff.new(variant: :outline)
+        render SearchOff.new(variant: :outline, **attrs)
       end
     end
   end

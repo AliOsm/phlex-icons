@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceWatchHeartOutline < Base
       def view_template
-        render DeviceWatchHeart.new(variant: :outline)
+        render DeviceWatchHeart.new(variant: :outline, **attrs)
       end
     end
   end

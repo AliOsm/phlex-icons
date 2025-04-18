@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RestoreOutline < Base
       def view_template
-        render Restore.new(variant: :outline)
+        render Restore.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyOffFilled < Base
       def view_template
-        render KeyOff.new(variant: :filled)
+        render KeyOff.new(variant: :filled, **attrs)
       end
     end
   end

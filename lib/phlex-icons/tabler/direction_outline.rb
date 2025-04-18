@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DirectionOutline < Base
       def view_template
-        render Direction.new(variant: :outline)
+        render Direction.new(variant: :outline, **attrs)
       end
     end
   end

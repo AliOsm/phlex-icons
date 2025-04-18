@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class QuestionMarkOutline < Base
       def view_template
-        render QuestionMark.new(variant: :outline)
+        render QuestionMark.new(variant: :outline, **attrs)
       end
     end
   end

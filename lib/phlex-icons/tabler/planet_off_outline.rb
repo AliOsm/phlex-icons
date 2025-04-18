@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlanetOffOutline < Base
       def view_template
-        render PlanetOff.new(variant: :outline)
+        render PlanetOff.new(variant: :outline, **attrs)
       end
     end
   end

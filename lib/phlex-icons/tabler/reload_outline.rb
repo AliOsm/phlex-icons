@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReloadOutline < Base
       def view_template
-        render Reload.new(variant: :outline)
+        render Reload.new(variant: :outline, **attrs)
       end
     end
   end

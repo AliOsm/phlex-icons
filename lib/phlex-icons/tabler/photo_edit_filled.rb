@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoEditFilled < Base
       def view_template
-        render PhotoEdit.new(variant: :filled)
+        render PhotoEdit.new(variant: :filled, **attrs)
       end
     end
   end

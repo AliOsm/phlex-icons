@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ApiOffFilled < Base
       def view_template
-        render ApiOff.new(variant: :filled)
+        render ApiOff.new(variant: :filled, **attrs)
       end
     end
   end

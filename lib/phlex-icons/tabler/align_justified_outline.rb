@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignJustifiedOutline < Base
       def view_template
-        render AlignJustified.new(variant: :outline)
+        render AlignJustified.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PaperclipFilled < Base
       def view_template
-        render Paperclip.new(variant: :filled)
+        render Paperclip.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileLikeOutline < Base
       def view_template
-        render FileLike.new(variant: :outline)
+        render FileLike.new(variant: :outline, **attrs)
       end
     end
   end

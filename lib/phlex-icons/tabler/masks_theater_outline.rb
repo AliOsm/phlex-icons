@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MasksTheaterOutline < Base
       def view_template
-        render MasksTheater.new(variant: :outline)
+        render MasksTheater.new(variant: :outline, **attrs)
       end
     end
   end

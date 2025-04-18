@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RecycleOutline < Base
       def view_template
-        render Recycle.new(variant: :outline)
+        render Recycle.new(variant: :outline, **attrs)
       end
     end
   end

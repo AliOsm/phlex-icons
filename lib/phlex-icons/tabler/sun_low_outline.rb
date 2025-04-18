@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SunLowOutline < Base
       def view_template
-        render SunLow.new(variant: :outline)
+        render SunLow.new(variant: :outline, **attrs)
       end
     end
   end

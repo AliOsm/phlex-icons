@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FishHookOutline < Base
       def view_template
-        render FishHook.new(variant: :outline)
+        render FishHook.new(variant: :outline, **attrs)
       end
     end
   end

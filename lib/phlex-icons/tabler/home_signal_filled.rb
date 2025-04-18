@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeSignalFilled < Base
       def view_template
-        render HomeSignal.new(variant: :filled)
+        render HomeSignal.new(variant: :filled, **attrs)
       end
     end
   end

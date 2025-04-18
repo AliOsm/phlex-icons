@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DotsVerticalOutline < Base
       def view_template
-        render DotsVertical.new(variant: :outline)
+        render DotsVertical.new(variant: :outline, **attrs)
       end
     end
   end

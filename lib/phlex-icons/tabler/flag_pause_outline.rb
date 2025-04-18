@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagPauseOutline < Base
       def view_template
-        render FlagPause.new(variant: :outline)
+        render FlagPause.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessagePauseFilled < Base
       def view_template
-        render MessagePause.new(variant: :filled)
+        render MessagePause.new(variant: :filled, **attrs)
       end
     end
   end

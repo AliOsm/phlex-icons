@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SailboatOffOutline < Base
       def view_template
-        render SailboatOff.new(variant: :outline)
+        render SailboatOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellOffOutline < Base
       def view_template
-        render BellOff.new(variant: :outline)
+        render BellOff.new(variant: :outline, **attrs)
       end
     end
   end

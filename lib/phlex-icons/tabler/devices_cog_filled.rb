@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DevicesCogFilled < Base
       def view_template
-        render DevicesCog.new(variant: :filled)
+        render DevicesCog.new(variant: :filled, **attrs)
       end
     end
   end

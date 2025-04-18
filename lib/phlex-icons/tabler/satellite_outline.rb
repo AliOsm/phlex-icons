@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SatelliteOutline < Base
       def view_template
-        render Satellite.new(variant: :outline)
+        render Satellite.new(variant: :outline, **attrs)
       end
     end
   end

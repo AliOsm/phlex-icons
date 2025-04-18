@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWebflowOutline < Base
       def view_template
-        render BrandWebflow.new(variant: :outline)
+        render BrandWebflow.new(variant: :outline, **attrs)
       end
     end
   end

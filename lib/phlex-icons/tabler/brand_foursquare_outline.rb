@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFoursquareOutline < Base
       def view_template
-        render BrandFoursquare.new(variant: :outline)
+        render BrandFoursquare.new(variant: :outline, **attrs)
       end
     end
   end

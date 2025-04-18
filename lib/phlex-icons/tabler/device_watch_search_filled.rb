@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceWatchSearchFilled < Base
       def view_template
-        render DeviceWatchSearch.new(variant: :filled)
+        render DeviceWatchSearch.new(variant: :filled, **attrs)
       end
     end
   end

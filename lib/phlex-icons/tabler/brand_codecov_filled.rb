@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCodecovFilled < Base
       def view_template
-        render BrandCodecov.new(variant: :filled)
+        render BrandCodecov.new(variant: :filled, **attrs)
       end
     end
   end

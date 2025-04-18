@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrademarkFilled < Base
       def view_template
-        render Trademark.new(variant: :filled)
+        render Trademark.new(variant: :filled, **attrs)
       end
     end
   end

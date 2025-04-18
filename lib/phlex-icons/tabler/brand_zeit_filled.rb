@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandZeitFilled < Base
       def view_template
-        render BrandZeit.new(variant: :filled)
+        render BrandZeit.new(variant: :filled, **attrs)
       end
     end
   end

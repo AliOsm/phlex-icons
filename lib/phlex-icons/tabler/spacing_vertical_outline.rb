@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpacingVerticalOutline < Base
       def view_template
-        render SpacingVertical.new(variant: :outline)
+        render SpacingVertical.new(variant: :outline, **attrs)
       end
     end
   end

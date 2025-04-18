@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeXFilled < Base
       def view_template
-        render EyeX.new(variant: :filled)
+        render EyeX.new(variant: :filled, **attrs)
       end
     end
   end

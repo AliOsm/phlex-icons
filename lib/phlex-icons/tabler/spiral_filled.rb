@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpiralFilled < Base
       def view_template
-        render Spiral.new(variant: :filled)
+        render Spiral.new(variant: :filled, **attrs)
       end
     end
   end

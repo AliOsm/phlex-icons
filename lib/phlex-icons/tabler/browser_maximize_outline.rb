@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrowserMaximizeOutline < Base
       def view_template
-        render BrowserMaximize.new(variant: :outline)
+        render BrowserMaximize.new(variant: :outline, **attrs)
       end
     end
   end

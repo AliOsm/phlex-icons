@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudCheckOutline < Base
       def view_template
-        render CloudCheck.new(variant: :outline)
+        render CloudCheck.new(variant: :outline, **attrs)
       end
     end
   end

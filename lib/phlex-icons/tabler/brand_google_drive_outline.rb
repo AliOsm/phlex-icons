@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGoogleDriveOutline < Base
       def view_template
-        render BrandGoogleDrive.new(variant: :outline)
+        render BrandGoogleDrive.new(variant: :outline, **attrs)
       end
     end
   end

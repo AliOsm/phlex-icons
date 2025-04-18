@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTorchainFilled < Base
       def view_template
-        render BrandTorchain.new(variant: :filled)
+        render BrandTorchain.new(variant: :filled, **attrs)
       end
     end
   end

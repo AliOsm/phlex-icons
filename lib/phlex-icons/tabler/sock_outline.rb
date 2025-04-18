@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SockOutline < Base
       def view_template
-        render Sock.new(variant: :outline)
+        render Sock.new(variant: :outline, **attrs)
       end
     end
   end

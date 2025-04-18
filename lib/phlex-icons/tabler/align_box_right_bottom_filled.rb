@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignBoxRightBottomFilled < Base
       def view_template
-        render AlignBoxRightBottom.new(variant: :filled)
+        render AlignBoxRightBottom.new(variant: :filled, **attrs)
       end
     end
   end

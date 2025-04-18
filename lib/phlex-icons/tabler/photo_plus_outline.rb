@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoPlusOutline < Base
       def view_template
-        render PhotoPlus.new(variant: :outline)
+        render PhotoPlus.new(variant: :outline, **attrs)
       end
     end
   end

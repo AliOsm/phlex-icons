@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PngOutline < Base
       def view_template
-        render Png.new(variant: :outline)
+        render Png.new(variant: :outline, **attrs)
       end
     end
   end

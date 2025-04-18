@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Dice4Filled < Base
       def view_template
-        render Dice4.new(variant: :filled)
+        render Dice4.new(variant: :filled, **attrs)
       end
     end
   end

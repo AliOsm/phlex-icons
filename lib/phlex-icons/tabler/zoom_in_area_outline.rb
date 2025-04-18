@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZoomInAreaOutline < Base
       def view_template
-        render ZoomInArea.new(variant: :outline)
+        render ZoomInArea.new(variant: :outline, **attrs)
       end
     end
   end

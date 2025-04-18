@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowForwardUpDoubleFilled < Base
       def view_template
-        render ArrowForwardUpDouble.new(variant: :filled)
+        render ArrowForwardUpDouble.new(variant: :filled, **attrs)
       end
     end
   end

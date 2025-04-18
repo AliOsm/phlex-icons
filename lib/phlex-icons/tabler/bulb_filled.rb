@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BulbFilled < Base
       def view_template
-        render Bulb.new(variant: :filled)
+        render Bulb.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFirebaseOutline < Base
       def view_template
-        render BrandFirebase.new(variant: :outline)
+        render BrandFirebase.new(variant: :outline, **attrs)
       end
     end
   end

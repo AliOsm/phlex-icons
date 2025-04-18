@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TableAliasOutline < Base
       def view_template
-        render TableAlias.new(variant: :outline)
+        render TableAlias.new(variant: :outline, **attrs)
       end
     end
   end

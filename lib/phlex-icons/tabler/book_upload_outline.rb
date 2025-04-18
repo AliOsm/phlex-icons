@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BookUploadOutline < Base
       def view_template
-        render BookUpload.new(variant: :outline)
+        render BookUpload.new(variant: :outline, **attrs)
       end
     end
   end

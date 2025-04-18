@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartCandleFilled < Base
       def view_template
-        render ChartCandle.new(variant: :filled)
+        render ChartCandle.new(variant: :filled, **attrs)
       end
     end
   end

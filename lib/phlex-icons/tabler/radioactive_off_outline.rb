@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RadioactiveOffOutline < Base
       def view_template
-        render RadioactiveOff.new(variant: :outline)
+        render RadioactiveOff.new(variant: :outline, **attrs)
       end
     end
   end

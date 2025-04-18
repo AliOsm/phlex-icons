@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockStarOutline < Base
       def view_template
-        render LockStar.new(variant: :outline)
+        render LockStar.new(variant: :outline, **attrs)
       end
     end
   end

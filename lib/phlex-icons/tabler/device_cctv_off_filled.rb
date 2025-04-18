@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceCctvOffFilled < Base
       def view_template
-        render DeviceCctvOff.new(variant: :filled)
+        render DeviceCctvOff.new(variant: :filled, **attrs)
       end
     end
   end

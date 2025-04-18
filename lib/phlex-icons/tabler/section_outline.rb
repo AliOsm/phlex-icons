@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SectionOutline < Base
       def view_template
-        render Section.new(variant: :outline)
+        render Section.new(variant: :outline, **attrs)
       end
     end
   end

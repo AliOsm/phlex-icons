@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LadderFilled < Base
       def view_template
-        render Ladder.new(variant: :filled)
+        render Ladder.new(variant: :filled, **attrs)
       end
     end
   end

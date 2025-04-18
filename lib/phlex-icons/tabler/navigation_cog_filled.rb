@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationCogFilled < Base
       def view_template
-        render NavigationCog.new(variant: :filled)
+        render NavigationCog.new(variant: :filled, **attrs)
       end
     end
   end

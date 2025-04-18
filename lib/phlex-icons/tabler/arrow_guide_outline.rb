@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowGuideOutline < Base
       def view_template
-        render ArrowGuide.new(variant: :outline)
+        render ArrowGuide.new(variant: :outline, **attrs)
       end
     end
   end

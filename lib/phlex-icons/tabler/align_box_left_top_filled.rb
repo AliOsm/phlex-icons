@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignBoxLeftTopFilled < Base
       def view_template
-        render AlignBoxLeftTop.new(variant: :filled)
+        render AlignBoxLeftTop.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RecycleOffFilled < Base
       def view_template
-        render RecycleOff.new(variant: :filled)
+        render RecycleOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodSilenceOutline < Base
       def view_template
-        render MoodSilence.new(variant: :outline)
+        render MoodSilence.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseStarOutline < Base
       def view_template
-        render DatabaseStar.new(variant: :outline)
+        render DatabaseStar.new(variant: :outline, **attrs)
       end
     end
   end

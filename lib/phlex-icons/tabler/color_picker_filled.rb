@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ColorPickerFilled < Base
       def view_template
-        render ColorPicker.new(variant: :filled)
+        render ColorPicker.new(variant: :filled, **attrs)
       end
     end
   end

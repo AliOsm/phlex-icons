@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandDribbbleOutline < Base
       def view_template
-        render BrandDribbble.new(variant: :outline)
+        render BrandDribbble.new(variant: :outline, **attrs)
       end
     end
   end

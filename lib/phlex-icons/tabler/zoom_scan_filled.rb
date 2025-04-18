@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZoomScanFilled < Base
       def view_template
-        render ZoomScan.new(variant: :filled)
+        render ZoomScan.new(variant: :filled, **attrs)
       end
     end
   end

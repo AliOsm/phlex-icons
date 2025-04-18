@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MouseOffOutline < Base
       def view_template
-        render MouseOff.new(variant: :outline)
+        render MouseOff.new(variant: :outline, **attrs)
       end
     end
   end

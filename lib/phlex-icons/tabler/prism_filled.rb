@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PrismFilled < Base
       def view_template
-        render Prism.new(variant: :filled)
+        render Prism.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VocabularyOffOutline < Base
       def view_template
-        render VocabularyOff.new(variant: :outline)
+        render VocabularyOff.new(variant: :outline, **attrs)
       end
     end
   end

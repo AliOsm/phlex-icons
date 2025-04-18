@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReceiptPoundOutline < Base
       def view_template
-        render ReceiptPound.new(variant: :outline)
+        render ReceiptPound.new(variant: :outline, **attrs)
       end
     end
   end

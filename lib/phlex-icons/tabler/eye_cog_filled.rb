@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeCogFilled < Base
       def view_template
-        render EyeCog.new(variant: :filled)
+        render EyeCog.new(variant: :filled, **attrs)
       end
     end
   end

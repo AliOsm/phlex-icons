@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypeBmpOutline < Base
       def view_template
-        render FileTypeBmp.new(variant: :outline)
+        render FileTypeBmp.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrowserOffOutline < Base
       def view_template
-        render BrowserOff.new(variant: :outline)
+        render BrowserOff.new(variant: :outline, **attrs)
       end
     end
   end

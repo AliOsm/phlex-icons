@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandNemFilled < Base
       def view_template
-        render BrandNem.new(variant: :filled)
+        render BrandNem.new(variant: :filled, **attrs)
       end
     end
   end

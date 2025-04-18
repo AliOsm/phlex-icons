@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeSearchOutline < Base
       def view_template
-        render HomeSearch.new(variant: :outline)
+        render HomeSearch.new(variant: :outline, **attrs)
       end
     end
   end

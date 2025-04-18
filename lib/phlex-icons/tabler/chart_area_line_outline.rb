@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartAreaLineOutline < Base
       def view_template
-        render ChartAreaLine.new(variant: :outline)
+        render ChartAreaLine.new(variant: :outline, **attrs)
       end
     end
   end

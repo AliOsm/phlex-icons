@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Multiplier2xFilled < Base
       def view_template
-        render Multiplier2x.new(variant: :filled)
+        render Multiplier2x.new(variant: :filled, **attrs)
       end
     end
   end

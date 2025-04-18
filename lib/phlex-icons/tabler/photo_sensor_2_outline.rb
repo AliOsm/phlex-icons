@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoSensor2Outline < Base
       def view_template
-        render PhotoSensor2.new(variant: :outline)
+        render PhotoSensor2.new(variant: :outline, **attrs)
       end
     end
   end

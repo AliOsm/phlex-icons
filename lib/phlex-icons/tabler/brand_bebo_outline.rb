@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBeboOutline < Base
       def view_template
-        render BrandBebo.new(variant: :outline)
+        render BrandBebo.new(variant: :outline, **attrs)
       end
     end
   end

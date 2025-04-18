@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandUnityOutline < Base
       def view_template
-        render BrandUnity.new(variant: :outline)
+        render BrandUnity.new(variant: :outline, **attrs)
       end
     end
   end

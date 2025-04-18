@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSnowflakeOutline < Base
       def view_template
-        render BrandSnowflake.new(variant: :outline)
+        render BrandSnowflake.new(variant: :outline, **attrs)
       end
     end
   end

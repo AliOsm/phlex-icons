@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartOffOutline < Base
       def view_template
-        render HeartOff.new(variant: :outline)
+        render HeartOff.new(variant: :outline, **attrs)
       end
     end
   end

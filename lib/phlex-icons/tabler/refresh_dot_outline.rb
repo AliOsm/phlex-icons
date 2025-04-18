@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RefreshDotOutline < Base
       def view_template
-        render RefreshDot.new(variant: :outline)
+        render RefreshDot.new(variant: :outline, **attrs)
       end
     end
   end

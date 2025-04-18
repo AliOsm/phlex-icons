@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyRufiyaaOutline < Base
       def view_template
-        render CurrencyRufiyaa.new(variant: :outline)
+        render CurrencyRufiyaa.new(variant: :outline, **attrs)
       end
     end
   end

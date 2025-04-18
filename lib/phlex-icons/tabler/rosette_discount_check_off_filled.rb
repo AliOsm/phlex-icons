@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RosetteDiscountCheckOffFilled < Base
       def view_template
-        render RosetteDiscountCheckOff.new(variant: :filled)
+        render RosetteDiscountCheckOff.new(variant: :filled, **attrs)
       end
     end
   end

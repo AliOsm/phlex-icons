@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceSim1Filled < Base
       def view_template
-        render DeviceSim1.new(variant: :filled)
+        render DeviceSim1.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FishBoneOutline < Base
       def view_template
-        render FishBone.new(variant: :outline)
+        render FishBone.new(variant: :outline, **attrs)
       end
     end
   end

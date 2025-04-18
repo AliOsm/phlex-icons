@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileOrientationOutline < Base
       def view_template
-        render FileOrientation.new(variant: :outline)
+        render FileOrientation.new(variant: :outline, **attrs)
       end
     end
   end

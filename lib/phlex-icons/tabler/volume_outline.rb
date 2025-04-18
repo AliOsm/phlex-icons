@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VolumeOutline < Base
       def view_template
-        render Volume.new(variant: :outline)
+        render Volume.new(variant: :outline, **attrs)
       end
     end
   end

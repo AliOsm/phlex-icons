@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloverOutline < Base
       def view_template
-        render Clover.new(variant: :outline)
+        render Clover.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EditOutline < Base
       def view_template
-        render Edit.new(variant: :outline)
+        render Edit.new(variant: :outline, **attrs)
       end
     end
   end

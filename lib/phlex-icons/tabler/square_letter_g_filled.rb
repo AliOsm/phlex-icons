@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareLetterGFilled < Base
       def view_template
-        render SquareLetterG.new(variant: :filled)
+        render SquareLetterG.new(variant: :filled, **attrs)
       end
     end
   end

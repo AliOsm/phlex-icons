@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AbacusOffOutline < Base
       def view_template
-        render AbacusOff.new(variant: :outline)
+        render AbacusOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RunOutline < Base
       def view_template
-        render Run.new(variant: :outline)
+        render Run.new(variant: :outline, **attrs)
       end
     end
   end

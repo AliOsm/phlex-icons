@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypePdfOutline < Base
       def view_template
-        render FileTypePdf.new(variant: :outline)
+        render FileTypePdf.new(variant: :outline, **attrs)
       end
     end
   end

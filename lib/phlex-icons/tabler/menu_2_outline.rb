@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Menu2Outline < Base
       def view_template
-        render Menu2.new(variant: :outline)
+        render Menu2.new(variant: :outline, **attrs)
       end
     end
   end

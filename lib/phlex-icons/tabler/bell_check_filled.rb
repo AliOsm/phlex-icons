@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellCheckFilled < Base
       def view_template
-        render BellCheck.new(variant: :filled)
+        render BellCheck.new(variant: :filled, **attrs)
       end
     end
   end

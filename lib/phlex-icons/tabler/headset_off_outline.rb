@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeadsetOffOutline < Base
       def view_template
-        render HeadsetOff.new(variant: :outline)
+        render HeadsetOff.new(variant: :outline, **attrs)
       end
     end
   end

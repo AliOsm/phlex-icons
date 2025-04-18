@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayerRecordFilled < Base
       def view_template
-        render PlayerRecord.new(variant: :filled)
+        render PlayerRecord.new(variant: :filled, **attrs)
       end
     end
   end

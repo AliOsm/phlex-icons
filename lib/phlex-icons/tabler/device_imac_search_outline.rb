@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceImacSearchOutline < Base
       def view_template
-        render DeviceImacSearch.new(variant: :outline)
+        render DeviceImacSearch.new(variant: :outline, **attrs)
       end
     end
   end

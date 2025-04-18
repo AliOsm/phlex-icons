@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignBoxCenterMiddleFilled < Base
       def view_template
-        render AlignBoxCenterMiddle.new(variant: :filled)
+        render AlignBoxCenterMiddle.new(variant: :filled, **attrs)
       end
     end
   end

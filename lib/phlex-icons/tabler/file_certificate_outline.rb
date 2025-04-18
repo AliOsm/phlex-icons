@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileCertificateOutline < Base
       def view_template
-        render FileCertificate.new(variant: :outline)
+        render FileCertificate.new(variant: :outline, **attrs)
       end
     end
   end

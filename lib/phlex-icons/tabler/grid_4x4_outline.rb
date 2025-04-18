@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Grid4x4Outline < Base
       def view_template
-        render Grid4x4.new(variant: :outline)
+        render Grid4x4.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaystationSquareFilled < Base
       def view_template
-        render PlaystationSquare.new(variant: :filled)
+        render PlaystationSquare.new(variant: :filled, **attrs)
       end
     end
   end

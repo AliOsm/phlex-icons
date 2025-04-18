@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WindmillFilled < Base
       def view_template
-        render Windmill.new(variant: :filled)
+        render Windmill.new(variant: :filled, **attrs)
       end
     end
   end

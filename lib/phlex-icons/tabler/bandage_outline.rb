@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BandageOutline < Base
       def view_template
-        render Bandage.new(variant: :outline)
+        render Bandage.new(variant: :outline, **attrs)
       end
     end
   end

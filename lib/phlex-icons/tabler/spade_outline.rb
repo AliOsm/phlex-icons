@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpadeOutline < Base
       def view_template
-        render Spade.new(variant: :outline)
+        render Spade.new(variant: :outline, **attrs)
       end
     end
   end

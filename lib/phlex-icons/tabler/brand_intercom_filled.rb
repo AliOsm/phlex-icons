@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandIntercomFilled < Base
       def view_template
-        render BrandIntercom.new(variant: :filled)
+        render BrandIntercom.new(variant: :filled, **attrs)
       end
     end
   end

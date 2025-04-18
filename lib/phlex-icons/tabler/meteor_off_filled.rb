@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MeteorOffFilled < Base
       def view_template
-        render MeteorOff.new(variant: :filled)
+        render MeteorOff.new(variant: :filled, **attrs)
       end
     end
   end

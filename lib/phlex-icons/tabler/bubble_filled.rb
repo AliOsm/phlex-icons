@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BubbleFilled < Base
       def view_template
-        render Bubble.new(variant: :filled)
+        render Bubble.new(variant: :filled, **attrs)
       end
     end
   end

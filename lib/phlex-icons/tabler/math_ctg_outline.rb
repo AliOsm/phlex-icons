@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathCtgOutline < Base
       def view_template
-        render MathCtg.new(variant: :outline)
+        render MathCtg.new(variant: :outline, **attrs)
       end
     end
   end

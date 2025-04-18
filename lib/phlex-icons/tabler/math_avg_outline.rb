@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathAvgOutline < Base
       def view_template
-        render MathAvg.new(variant: :outline)
+        render MathAvg.new(variant: :outline, **attrs)
       end
     end
   end

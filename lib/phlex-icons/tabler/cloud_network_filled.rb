@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudNetworkFilled < Base
       def view_template
-        render CloudNetwork.new(variant: :filled)
+        render CloudNetwork.new(variant: :filled, **attrs)
       end
     end
   end

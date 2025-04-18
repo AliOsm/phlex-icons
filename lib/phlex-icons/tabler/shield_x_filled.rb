@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldXFilled < Base
       def view_template
-        render ShieldX.new(variant: :filled)
+        render ShieldX.new(variant: :filled, **attrs)
       end
     end
   end

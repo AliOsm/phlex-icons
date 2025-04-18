@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudRainOutline < Base
       def view_template
-        render CloudRain.new(variant: :outline)
+        render CloudRain.new(variant: :outline, **attrs)
       end
     end
   end

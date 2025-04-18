@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MilitaryAwardFilled < Base
       def view_template
-        render MilitaryAward.new(variant: :filled)
+        render MilitaryAward.new(variant: :filled, **attrs)
       end
     end
   end

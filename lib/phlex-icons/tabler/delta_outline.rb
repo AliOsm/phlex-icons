@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeltaOutline < Base
       def view_template
-        render Delta.new(variant: :outline)
+        render Delta.new(variant: :outline, **attrs)
       end
     end
   end

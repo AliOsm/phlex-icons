@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandItchOutline < Base
       def view_template
-        render BrandItch.new(variant: :outline)
+        render BrandItch.new(variant: :outline, **attrs)
       end
     end
   end

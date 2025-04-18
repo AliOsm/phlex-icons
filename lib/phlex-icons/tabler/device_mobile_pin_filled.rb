@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobilePinFilled < Base
       def view_template
-        render DeviceMobilePin.new(variant: :filled)
+        render DeviceMobilePin.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Rotate2Filled < Base
       def view_template
-        render Rotate2.new(variant: :filled)
+        render Rotate2.new(variant: :filled, **attrs)
       end
     end
   end

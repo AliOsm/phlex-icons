@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoonOffFilled < Base
       def view_template
-        render MoonOff.new(variant: :filled)
+        render MoonOff.new(variant: :filled, **attrs)
       end
     end
   end

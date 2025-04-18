@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadHorizontalExclamationOutline < Base
       def view_template
-        render DeviceIpadHorizontalExclamation.new(variant: :outline)
+        render DeviceIpadHorizontalExclamation.new(variant: :outline, **attrs)
       end
     end
   end

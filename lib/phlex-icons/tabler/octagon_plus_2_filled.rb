@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OctagonPlus2Filled < Base
       def view_template
-        render OctagonPlus2.new(variant: :filled)
+        render OctagonPlus2.new(variant: :filled, **attrs)
       end
     end
   end

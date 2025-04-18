@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LibraryPhotoOutline < Base
       def view_template
-        render LibraryPhoto.new(variant: :outline)
+        render LibraryPhoto.new(variant: :outline, **attrs)
       end
     end
   end

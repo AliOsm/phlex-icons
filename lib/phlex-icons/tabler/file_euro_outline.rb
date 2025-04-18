@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileEuroOutline < Base
       def view_template
-        render FileEuro.new(variant: :outline)
+        render FileEuro.new(variant: :outline, **attrs)
       end
     end
   end

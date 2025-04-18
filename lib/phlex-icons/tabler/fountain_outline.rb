@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FountainOutline < Base
       def view_template
-        render Fountain.new(variant: :outline)
+        render Fountain.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeCancelOutline < Base
       def view_template
-        render HomeCancel.new(variant: :outline)
+        render HomeCancel.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RocketOutline < Base
       def view_template
-        render Rocket.new(variant: :outline)
+        render Rocket.new(variant: :outline, **attrs)
       end
     end
   end

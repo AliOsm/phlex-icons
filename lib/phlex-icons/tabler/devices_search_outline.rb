@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DevicesSearchOutline < Base
       def view_template
-        render DevicesSearch.new(variant: :outline)
+        render DevicesSearch.new(variant: :outline, **attrs)
       end
     end
   end

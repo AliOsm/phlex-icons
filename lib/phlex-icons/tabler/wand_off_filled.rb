@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WandOffFilled < Base
       def view_template
-        render WandOff.new(variant: :filled)
+        render WandOff.new(variant: :filled, **attrs)
       end
     end
   end

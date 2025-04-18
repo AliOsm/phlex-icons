@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpeedboatOutline < Base
       def view_template
-        render Speedboat.new(variant: :outline)
+        render Speedboat.new(variant: :outline, **attrs)
       end
     end
   end

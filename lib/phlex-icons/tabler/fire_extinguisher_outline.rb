@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FireExtinguisherOutline < Base
       def view_template
-        render FireExtinguisher.new(variant: :outline)
+        render FireExtinguisher.new(variant: :outline, **attrs)
       end
     end
   end

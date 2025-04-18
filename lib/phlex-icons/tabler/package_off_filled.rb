@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PackageOffFilled < Base
       def view_template
-        render PackageOff.new(variant: :filled)
+        render PackageOff.new(variant: :filled, **attrs)
       end
     end
   end

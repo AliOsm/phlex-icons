@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HangerOutline < Base
       def view_template
-        render Hanger.new(variant: :outline)
+        render Hanger.new(variant: :outline, **attrs)
       end
     end
   end

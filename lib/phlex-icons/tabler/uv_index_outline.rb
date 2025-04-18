@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UvIndexOutline < Base
       def view_template
-        render UvIndex.new(variant: :outline)
+        render UvIndex.new(variant: :outline, **attrs)
       end
     end
   end

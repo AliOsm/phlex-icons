@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TildeOutline < Base
       def view_template
-        render Tilde.new(variant: :outline)
+        render Tilde.new(variant: :outline, **attrs)
       end
     end
   end

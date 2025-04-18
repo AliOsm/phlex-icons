@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathNotFilled < Base
       def view_template
-        render MathNot.new(variant: :filled)
+        render MathNot.new(variant: :filled, **attrs)
       end
     end
   end

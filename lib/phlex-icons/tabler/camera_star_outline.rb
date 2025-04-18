@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraStarOutline < Base
       def view_template
-        render CameraStar.new(variant: :outline)
+        render CameraStar.new(variant: :outline, **attrs)
       end
     end
   end

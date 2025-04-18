@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StackPopFilled < Base
       def view_template
-        render StackPop.new(variant: :filled)
+        render StackPop.new(variant: :filled, **attrs)
       end
     end
   end

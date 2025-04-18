@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReportOutline < Base
       def view_template
-        render Report.new(variant: :outline)
+        render Report.new(variant: :outline, **attrs)
       end
     end
   end

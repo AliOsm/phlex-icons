@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceImacXOutline < Base
       def view_template
-        render DeviceImacX.new(variant: :outline)
+        render DeviceImacX.new(variant: :outline, **attrs)
       end
     end
   end

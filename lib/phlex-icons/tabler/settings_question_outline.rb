@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SettingsQuestionOutline < Base
       def view_template
-        render SettingsQuestion.new(variant: :outline)
+        render SettingsQuestion.new(variant: :outline, **attrs)
       end
     end
   end

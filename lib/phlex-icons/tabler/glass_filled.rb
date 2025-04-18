@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GlassFilled < Base
       def view_template
-        render Glass.new(variant: :filled)
+        render Glass.new(variant: :filled, **attrs)
       end
     end
   end

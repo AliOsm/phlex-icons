@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class InputAiOutline < Base
       def view_template
-        render InputAi.new(variant: :outline)
+        render InputAi.new(variant: :outline, **attrs)
       end
     end
   end

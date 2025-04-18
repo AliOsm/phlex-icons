@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageCircleHeartOutline < Base
       def view_template
-        render MessageCircleHeart.new(variant: :outline)
+        render MessageCircleHeart.new(variant: :outline, **attrs)
       end
     end
   end

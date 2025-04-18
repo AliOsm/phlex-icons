@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseDollarOutline < Base
       def view_template
-        render DatabaseDollar.new(variant: :outline)
+        render DatabaseDollar.new(variant: :outline, **attrs)
       end
     end
   end

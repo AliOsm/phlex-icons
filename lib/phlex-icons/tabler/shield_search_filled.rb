@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldSearchFilled < Base
       def view_template
-        render ShieldSearch.new(variant: :filled)
+        render ShieldSearch.new(variant: :filled, **attrs)
       end
     end
   end

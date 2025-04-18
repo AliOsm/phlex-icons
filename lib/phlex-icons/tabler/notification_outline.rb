@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NotificationOutline < Base
       def view_template
-        render Notification.new(variant: :outline)
+        render Notification.new(variant: :outline, **attrs)
       end
     end
   end

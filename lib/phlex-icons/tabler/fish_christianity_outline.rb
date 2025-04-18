@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FishChristianityOutline < Base
       def view_template
-        render FishChristianity.new(variant: :outline)
+        render FishChristianity.new(variant: :outline, **attrs)
       end
     end
   end

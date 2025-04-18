@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapRouteOutline < Base
       def view_template
-        render MapRoute.new(variant: :outline)
+        render MapRoute.new(variant: :outline, **attrs)
       end
     end
   end

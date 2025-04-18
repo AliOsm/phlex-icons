@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransactionYenFilled < Base
       def view_template
-        render TransactionYen.new(variant: :filled)
+        render TransactionYen.new(variant: :filled, **attrs)
       end
     end
   end

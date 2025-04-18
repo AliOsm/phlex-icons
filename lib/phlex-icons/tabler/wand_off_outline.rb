@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WandOffOutline < Base
       def view_template
-        render WandOff.new(variant: :outline)
+        render WandOff.new(variant: :outline, **attrs)
       end
     end
   end

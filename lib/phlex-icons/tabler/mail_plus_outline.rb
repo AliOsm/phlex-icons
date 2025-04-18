@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailPlusOutline < Base
       def view_template
-        render MailPlus.new(variant: :outline)
+        render MailPlus.new(variant: :outline, **attrs)
       end
     end
   end

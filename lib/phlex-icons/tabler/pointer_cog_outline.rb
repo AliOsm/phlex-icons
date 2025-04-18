@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerCogOutline < Base
       def view_template
-        render PointerCog.new(variant: :outline)
+        render PointerCog.new(variant: :outline, **attrs)
       end
     end
   end

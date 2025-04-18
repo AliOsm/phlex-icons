@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFirefoxOutline < Base
       def view_template
-        render BrandFirefox.new(variant: :outline)
+        render BrandFirefox.new(variant: :outline, **attrs)
       end
     end
   end

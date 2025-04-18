@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Share2Outline < Base
       def view_template
-        render Share2.new(variant: :outline)
+        render Share2.new(variant: :outline, **attrs)
       end
     end
   end

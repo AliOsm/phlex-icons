@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PilcrowOutline < Base
       def view_template
-        render Pilcrow.new(variant: :outline)
+        render Pilcrow.new(variant: :outline, **attrs)
       end
     end
   end

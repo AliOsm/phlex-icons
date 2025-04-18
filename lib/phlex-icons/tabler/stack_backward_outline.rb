@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StackBackwardOutline < Base
       def view_template
-        render StackBackward.new(variant: :outline)
+        render StackBackward.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceImacStarFilled < Base
       def view_template
-        render DeviceImacStar.new(variant: :filled)
+        render DeviceImacStar.new(variant: :filled, **attrs)
       end
     end
   end

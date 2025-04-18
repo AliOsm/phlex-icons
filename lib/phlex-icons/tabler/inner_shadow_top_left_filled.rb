@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class InnerShadowTopLeftFilled < Base
       def view_template
-        render InnerShadowTopLeft.new(variant: :filled)
+        render InnerShadowTopLeft.new(variant: :filled, **attrs)
       end
     end
   end

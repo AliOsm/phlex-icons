@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NurseFilled < Base
       def view_template
-        render Nurse.new(variant: :filled)
+        render Nurse.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SeedlingFilled < Base
       def view_template
-        render Seedling.new(variant: :filled)
+        render Seedling.new(variant: :filled, **attrs)
       end
     end
   end

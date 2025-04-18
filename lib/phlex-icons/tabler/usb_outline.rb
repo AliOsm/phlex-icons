@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UsbOutline < Base
       def view_template
-        render Usb.new(variant: :outline)
+        render Usb.new(variant: :outline, **attrs)
       end
     end
   end

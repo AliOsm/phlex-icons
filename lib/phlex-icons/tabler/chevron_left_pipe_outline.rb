@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChevronLeftPipeOutline < Base
       def view_template
-        render ChevronLeftPipe.new(variant: :outline)
+        render ChevronLeftPipe.new(variant: :outline, **attrs)
       end
     end
   end

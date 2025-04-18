@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoSquareRoundedOutline < Base
       def view_template
-        render PhotoSquareRounded.new(variant: :outline)
+        render PhotoSquareRounded.new(variant: :outline, **attrs)
       end
     end
   end

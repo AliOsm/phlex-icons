@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BarrierBlockOffOutline < Base
       def view_template
-        render BarrierBlockOff.new(variant: :outline)
+        render BarrierBlockOff.new(variant: :outline, **attrs)
       end
     end
   end

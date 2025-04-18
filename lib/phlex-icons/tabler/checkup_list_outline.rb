@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CheckupListOutline < Base
       def view_template
-        render CheckupList.new(variant: :outline)
+        render CheckupList.new(variant: :outline, **attrs)
       end
     end
   end

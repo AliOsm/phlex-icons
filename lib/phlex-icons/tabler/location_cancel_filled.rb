@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationCancelFilled < Base
       def view_template
-        render LocationCancel.new(variant: :filled)
+        render LocationCancel.new(variant: :filled, **attrs)
       end
     end
   end

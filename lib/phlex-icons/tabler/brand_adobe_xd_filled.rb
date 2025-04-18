@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAdobeXdFilled < Base
       def view_template
-        render BrandAdobeXd.new(variant: :filled)
+        render BrandAdobeXd.new(variant: :filled, **attrs)
       end
     end
   end

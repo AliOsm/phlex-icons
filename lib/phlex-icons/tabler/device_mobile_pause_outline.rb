@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobilePauseOutline < Base
       def view_template
-        render DeviceMobilePause.new(variant: :outline)
+        render DeviceMobilePause.new(variant: :outline, **attrs)
       end
     end
   end

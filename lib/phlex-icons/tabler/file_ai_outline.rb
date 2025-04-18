@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileAiOutline < Base
       def view_template
-        render FileAi.new(variant: :outline)
+        render FileAi.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrowserShareOutline < Base
       def view_template
-        render BrowserShare.new(variant: :outline)
+        render BrowserShare.new(variant: :outline, **attrs)
       end
     end
   end

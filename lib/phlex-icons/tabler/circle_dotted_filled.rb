@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleDottedFilled < Base
       def view_template
-        render CircleDotted.new(variant: :filled)
+        render CircleDotted.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CubePlusOutline < Base
       def view_template
-        render CubePlus.new(variant: :outline)
+        render CubePlus.new(variant: :outline, **attrs)
       end
     end
   end

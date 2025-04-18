@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GenderFemaleFilled < Base
       def view_template
-        render GenderFemale.new(variant: :filled)
+        render GenderFemale.new(variant: :filled, **attrs)
       end
     end
   end

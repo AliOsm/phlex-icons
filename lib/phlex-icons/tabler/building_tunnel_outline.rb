@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingTunnelOutline < Base
       def view_template
-        render BuildingTunnel.new(variant: :outline)
+        render BuildingTunnel.new(variant: :outline, **attrs)
       end
     end
   end

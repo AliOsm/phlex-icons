@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrianglePlus2Outline < Base
       def view_template
-        render TrianglePlus2.new(variant: :outline)
+        render TrianglePlus2.new(variant: :outline, **attrs)
       end
     end
   end

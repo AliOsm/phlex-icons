@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSugarizerOutline < Base
       def view_template
-        render BrandSugarizer.new(variant: :outline)
+        render BrandSugarizer.new(variant: :outline, **attrs)
       end
     end
   end

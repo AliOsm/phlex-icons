@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BooksFilled < Base
       def view_template
-        render Books.new(variant: :filled)
+        render Books.new(variant: :filled, **attrs)
       end
     end
   end

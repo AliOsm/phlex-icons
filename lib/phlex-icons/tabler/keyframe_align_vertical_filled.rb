@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyframeAlignVerticalFilled < Base
       def view_template
-        render KeyframeAlignVertical.new(variant: :filled)
+        render KeyframeAlignVertical.new(variant: :filled, **attrs)
       end
     end
   end

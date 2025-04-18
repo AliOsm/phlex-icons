@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ColumnRemoveFilled < Base
       def view_template
-        render ColumnRemove.new(variant: :filled)
+        render ColumnRemove.new(variant: :filled, **attrs)
       end
     end
   end

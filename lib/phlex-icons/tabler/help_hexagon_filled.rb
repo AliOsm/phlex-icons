@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelpHexagonFilled < Base
       def view_template
-        render HelpHexagon.new(variant: :filled)
+        render HelpHexagon.new(variant: :filled, **attrs)
       end
     end
   end

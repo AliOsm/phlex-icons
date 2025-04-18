@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlienFilled < Base
       def view_template
-        render Alien.new(variant: :filled)
+        render Alien.new(variant: :filled, **attrs)
       end
     end
   end

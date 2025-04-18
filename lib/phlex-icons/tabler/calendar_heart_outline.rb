@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CalendarHeartOutline < Base
       def view_template
-        render CalendarHeart.new(variant: :outline)
+        render CalendarHeart.new(variant: :outline, **attrs)
       end
     end
   end

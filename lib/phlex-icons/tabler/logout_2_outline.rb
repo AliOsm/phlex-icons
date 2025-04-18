@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Logout2Outline < Base
       def view_template
-        render Logout2.new(variant: :outline)
+        render Logout2.new(variant: :outline, **attrs)
       end
     end
   end

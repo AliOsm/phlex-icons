@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudHeartFilled < Base
       def view_template
-        render CloudHeart.new(variant: :filled)
+        render CloudHeart.new(variant: :filled, **attrs)
       end
     end
   end

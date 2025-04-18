@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TreeOutline < Base
       def view_template
-        render Tree.new(variant: :outline)
+        render Tree.new(variant: :outline, **attrs)
       end
     end
   end

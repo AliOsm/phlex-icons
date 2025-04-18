@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhysotherapistOutline < Base
       def view_template
-        render Physotherapist.new(variant: :outline)
+        render Physotherapist.new(variant: :outline, **attrs)
       end
     end
   end

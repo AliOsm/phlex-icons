@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelpSquareRoundedFilled < Base
       def view_template
-        render HelpSquareRounded.new(variant: :filled)
+        render HelpSquareRounded.new(variant: :filled, **attrs)
       end
     end
   end

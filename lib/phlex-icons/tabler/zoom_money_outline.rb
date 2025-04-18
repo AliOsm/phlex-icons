@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZoomMoneyOutline < Base
       def view_template
-        render ZoomMoney.new(variant: :outline)
+        render ZoomMoney.new(variant: :outline, **attrs)
       end
     end
   end

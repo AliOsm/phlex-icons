@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGoogleAnalyticsOutline < Base
       def view_template
-        render BrandGoogleAnalytics.new(variant: :outline)
+        render BrandGoogleAnalytics.new(variant: :outline, **attrs)
       end
     end
   end

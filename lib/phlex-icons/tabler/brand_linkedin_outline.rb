@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandLinkedinOutline < Base
       def view_template
-        render BrandLinkedin.new(variant: :outline)
+        render BrandLinkedin.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CopyrightOffOutline < Base
       def view_template
-        render CopyrightOff.new(variant: :outline)
+        render CopyrightOff.new(variant: :outline, **attrs)
       end
     end
   end

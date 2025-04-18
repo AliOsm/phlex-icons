@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandMediumOutline < Base
       def view_template
-        render BrandMedium.new(variant: :outline)
+        render BrandMedium.new(variant: :outline, **attrs)
       end
     end
   end

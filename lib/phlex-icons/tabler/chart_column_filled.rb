@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartColumnFilled < Base
       def view_template
-        render ChartColumn.new(variant: :filled)
+        render ChartColumn.new(variant: :filled, **attrs)
       end
     end
   end

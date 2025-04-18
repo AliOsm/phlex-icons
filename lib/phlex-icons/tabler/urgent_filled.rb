@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UrgentFilled < Base
       def view_template
-        render Urgent.new(variant: :filled)
+        render Urgent.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSublimeTextFilled < Base
       def view_template
-        render BrandSublimeText.new(variant: :filled)
+        render BrandSublimeText.new(variant: :filled, **attrs)
       end
     end
   end

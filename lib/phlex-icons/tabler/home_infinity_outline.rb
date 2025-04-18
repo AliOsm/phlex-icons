@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeInfinityOutline < Base
       def view_template
-        render HomeInfinity.new(variant: :outline)
+        render HomeInfinity.new(variant: :outline, **attrs)
       end
     end
   end

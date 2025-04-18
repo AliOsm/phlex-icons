@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MedicalCrossOffFilled < Base
       def view_template
-        render MedicalCrossOff.new(variant: :filled)
+        render MedicalCrossOff.new(variant: :filled, **attrs)
       end
     end
   end

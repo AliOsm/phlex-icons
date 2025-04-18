@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StackMiddleOutline < Base
       def view_template
-        render StackMiddle.new(variant: :outline)
+        render StackMiddle.new(variant: :outline, **attrs)
       end
     end
   end

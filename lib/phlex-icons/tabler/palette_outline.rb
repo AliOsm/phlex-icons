@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PaletteOutline < Base
       def view_template
-        render Palette.new(variant: :outline)
+        render Palette.new(variant: :outline, **attrs)
       end
     end
   end

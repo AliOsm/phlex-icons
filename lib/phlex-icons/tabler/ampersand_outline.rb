@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AmpersandOutline < Base
       def view_template
-        render Ampersand.new(variant: :outline)
+        render Ampersand.new(variant: :outline, **attrs)
       end
     end
   end

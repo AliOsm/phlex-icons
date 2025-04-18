@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlertTriangleOffFilled < Base
       def view_template
-        render AlertTriangleOff.new(variant: :filled)
+        render AlertTriangleOff.new(variant: :filled, **attrs)
       end
     end
   end

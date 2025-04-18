@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlusMinusFilled < Base
       def view_template
-        render PlusMinus.new(variant: :filled)
+        render PlusMinus.new(variant: :filled, **attrs)
       end
     end
   end

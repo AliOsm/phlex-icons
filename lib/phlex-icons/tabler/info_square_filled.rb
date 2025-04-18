@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class InfoSquareFilled < Base
       def view_template
-        render InfoSquare.new(variant: :filled)
+        render InfoSquare.new(variant: :filled, **attrs)
       end
     end
   end

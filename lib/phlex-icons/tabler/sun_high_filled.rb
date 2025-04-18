@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SunHighFilled < Base
       def view_template
-        render SunHigh.new(variant: :filled)
+        render SunHigh.new(variant: :filled, **attrs)
       end
     end
   end

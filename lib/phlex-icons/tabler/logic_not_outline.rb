@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LogicNotOutline < Base
       def view_template
-        render LogicNot.new(variant: :outline)
+        render LogicNot.new(variant: :outline, **attrs)
       end
     end
   end

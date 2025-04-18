@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandOkRuOutline < Base
       def view_template
-        render BrandOkRu.new(variant: :outline)
+        render BrandOkRu.new(variant: :outline, **attrs)
       end
     end
   end

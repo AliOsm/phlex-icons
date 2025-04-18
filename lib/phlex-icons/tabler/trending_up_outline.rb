@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrendingUpOutline < Base
       def view_template
-        render TrendingUp.new(variant: :outline)
+        render TrendingUp.new(variant: :outline, **attrs)
       end
     end
   end

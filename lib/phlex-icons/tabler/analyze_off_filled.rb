@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AnalyzeOffFilled < Base
       def view_template
-        render AnalyzeOff.new(variant: :filled)
+        render AnalyzeOff.new(variant: :filled, **attrs)
       end
     end
   end

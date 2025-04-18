@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ListNumbersFilled < Base
       def view_template
-        render ListNumbers.new(variant: :filled)
+        render ListNumbers.new(variant: :filled, **attrs)
       end
     end
   end

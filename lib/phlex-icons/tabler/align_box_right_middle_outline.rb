@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignBoxRightMiddleOutline < Base
       def view_template
-        render AlignBoxRightMiddle.new(variant: :outline)
+        render AlignBoxRightMiddle.new(variant: :outline, **attrs)
       end
     end
   end

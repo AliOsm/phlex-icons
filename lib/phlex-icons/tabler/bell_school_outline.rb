@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellSchoolOutline < Base
       def view_template
-        render BellSchool.new(variant: :outline)
+        render BellSchool.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdCircleFilled < Base
       def view_template
-        render AdCircle.new(variant: :filled)
+        render AdCircle.new(variant: :filled, **attrs)
       end
     end
   end

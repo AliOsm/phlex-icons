@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayersIntersectOutline < Base
       def view_template
-        render LayersIntersect.new(variant: :outline)
+        render LayersIntersect.new(variant: :outline, **attrs)
       end
     end
   end

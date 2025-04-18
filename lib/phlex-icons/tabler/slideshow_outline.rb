@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SlideshowOutline < Base
       def view_template
-        render Slideshow.new(variant: :outline)
+        render Slideshow.new(variant: :outline, **attrs)
       end
     end
   end

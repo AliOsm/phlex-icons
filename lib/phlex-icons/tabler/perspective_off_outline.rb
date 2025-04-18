@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PerspectiveOffOutline < Base
       def view_template
-        render PerspectiveOff.new(variant: :outline)
+        render PerspectiveOff.new(variant: :outline, **attrs)
       end
     end
   end

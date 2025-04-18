@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SphereFilled < Base
       def view_template
-        render Sphere.new(variant: :filled)
+        render Sphere.new(variant: :filled, **attrs)
       end
     end
   end

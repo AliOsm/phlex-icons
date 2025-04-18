@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsDoubleSwNeOutline < Base
       def view_template
-        render ArrowsDoubleSwNe.new(variant: :outline)
+        render ArrowsDoubleSwNe.new(variant: :outline, **attrs)
       end
     end
   end

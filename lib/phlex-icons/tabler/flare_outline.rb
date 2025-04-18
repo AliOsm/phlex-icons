@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlareOutline < Base
       def view_template
-        render Flare.new(variant: :outline)
+        render Flare.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoEditOutline < Base
       def view_template
-        render PhotoEdit.new(variant: :outline)
+        render PhotoEdit.new(variant: :outline, **attrs)
       end
     end
   end

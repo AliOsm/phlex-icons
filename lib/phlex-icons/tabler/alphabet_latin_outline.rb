@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlphabetLatinOutline < Base
       def view_template
-        render AlphabetLatin.new(variant: :outline)
+        render AlphabetLatin.new(variant: :outline, **attrs)
       end
     end
   end

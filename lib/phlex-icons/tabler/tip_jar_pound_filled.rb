@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TipJarPoundFilled < Base
       def view_template
-        render TipJarPound.new(variant: :filled)
+        render TipJarPound.new(variant: :filled, **attrs)
       end
     end
   end

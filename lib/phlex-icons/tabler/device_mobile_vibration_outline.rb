@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobileVibrationOutline < Base
       def view_template
-        render DeviceMobileVibration.new(variant: :outline)
+        render DeviceMobileVibration.new(variant: :outline, **attrs)
       end
     end
   end

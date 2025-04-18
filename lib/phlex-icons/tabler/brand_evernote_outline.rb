@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandEvernoteOutline < Base
       def view_template
-        render BrandEvernote.new(variant: :outline)
+        render BrandEvernote.new(variant: :outline, **attrs)
       end
     end
   end

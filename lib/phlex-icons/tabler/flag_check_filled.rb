@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagCheckFilled < Base
       def view_template
-        render FlagCheck.new(variant: :filled)
+        render FlagCheck.new(variant: :filled, **attrs)
       end
     end
   end

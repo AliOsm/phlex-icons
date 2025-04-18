@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TournamentOutline < Base
       def view_template
-        render Tournament.new(variant: :outline)
+        render Tournament.new(variant: :outline, **attrs)
       end
     end
   end

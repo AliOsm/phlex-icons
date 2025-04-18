@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CubeSendFilled < Base
       def view_template
-        render CubeSend.new(variant: :filled)
+        render CubeSend.new(variant: :filled, **attrs)
       end
     end
   end

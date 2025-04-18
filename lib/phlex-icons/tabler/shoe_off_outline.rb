@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoeOffOutline < Base
       def view_template
-        render ShoeOff.new(variant: :outline)
+        render ShoeOff.new(variant: :outline, **attrs)
       end
     end
   end

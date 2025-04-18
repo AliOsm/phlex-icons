@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartCirclesFilled < Base
       def view_template
-        render ChartCircles.new(variant: :filled)
+        render ChartCircles.new(variant: :filled, **attrs)
       end
     end
   end

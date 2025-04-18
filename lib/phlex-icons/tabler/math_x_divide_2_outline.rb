@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathXDivide2Outline < Base
       def view_template
-        render MathXDivide2.new(variant: :outline)
+        render MathXDivide2.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsCancelOutline < Base
       def view_template
-        render AdjustmentsCancel.new(variant: :outline)
+        render AdjustmentsCancel.new(variant: :outline, **attrs)
       end
     end
   end

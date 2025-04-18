@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BasketSearchOutline < Base
       def view_template
-        render BasketSearch.new(variant: :outline)
+        render BasketSearch.new(variant: :outline, **attrs)
       end
     end
   end

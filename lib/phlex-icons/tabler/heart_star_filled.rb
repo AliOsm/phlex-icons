@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartStarFilled < Base
       def view_template
-        render HeartStar.new(variant: :filled)
+        render HeartStar.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZodiacScorpioFilled < Base
       def view_template
-        render ZodiacScorpio.new(variant: :filled)
+        render ZodiacScorpio.new(variant: :filled, **attrs)
       end
     end
   end

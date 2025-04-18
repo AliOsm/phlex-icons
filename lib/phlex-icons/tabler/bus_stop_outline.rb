@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BusStopOutline < Base
       def view_template
-        render BusStop.new(variant: :outline)
+        render BusStop.new(variant: :outline, **attrs)
       end
     end
   end

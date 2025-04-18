@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapCancelFilled < Base
       def view_template
-        render MapCancel.new(variant: :filled)
+        render MapCancel.new(variant: :filled, **attrs)
       end
     end
   end

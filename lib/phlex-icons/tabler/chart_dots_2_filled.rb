@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartDots2Filled < Base
       def view_template
-        render ChartDots2.new(variant: :filled)
+        render ChartDots2.new(variant: :filled, **attrs)
       end
     end
   end

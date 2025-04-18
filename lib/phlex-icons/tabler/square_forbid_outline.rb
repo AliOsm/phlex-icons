@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareForbidOutline < Base
       def view_template
-        render SquareForbid.new(variant: :outline)
+        render SquareForbid.new(variant: :outline, **attrs)
       end
     end
   end

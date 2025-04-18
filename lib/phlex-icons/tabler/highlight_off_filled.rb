@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HighlightOffFilled < Base
       def view_template
-        render HighlightOff.new(variant: :filled)
+        render HighlightOff.new(variant: :filled, **attrs)
       end
     end
   end

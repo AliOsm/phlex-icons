@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneOffFilled < Base
       def view_template
-        render PhoneOff.new(variant: :filled)
+        render PhoneOff.new(variant: :filled, **attrs)
       end
     end
   end

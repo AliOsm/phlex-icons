@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandMatrixOutline < Base
       def view_template
-        render BrandMatrix.new(variant: :outline)
+        render BrandMatrix.new(variant: :outline, **attrs)
       end
     end
   end

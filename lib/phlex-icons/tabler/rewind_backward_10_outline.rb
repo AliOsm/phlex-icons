@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RewindBackward10Outline < Base
       def view_template
-        render RewindBackward10.new(variant: :outline)
+        render RewindBackward10.new(variant: :outline, **attrs)
       end
     end
   end

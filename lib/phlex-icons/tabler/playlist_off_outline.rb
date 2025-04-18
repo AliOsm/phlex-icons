@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaylistOffOutline < Base
       def view_template
-        render PlaylistOff.new(variant: :outline)
+        render PlaylistOff.new(variant: :outline, **attrs)
       end
     end
   end

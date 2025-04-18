@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextRecognitionOutline < Base
       def view_template
-        render TextRecognition.new(variant: :outline)
+        render TextRecognition.new(variant: :outline, **attrs)
       end
     end
   end

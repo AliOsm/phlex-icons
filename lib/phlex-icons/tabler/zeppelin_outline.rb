@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZeppelinOutline < Base
       def view_template
-        render Zeppelin.new(variant: :outline)
+        render Zeppelin.new(variant: :outline, **attrs)
       end
     end
   end

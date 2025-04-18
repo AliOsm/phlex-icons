@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCitymapperOutline < Base
       def view_template
-        render BrandCitymapper.new(variant: :outline)
+        render BrandCitymapper.new(variant: :outline, **attrs)
       end
     end
   end

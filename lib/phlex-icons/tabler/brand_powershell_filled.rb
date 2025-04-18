@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPowershellFilled < Base
       def view_template
-        render BrandPowershell.new(variant: :filled)
+        render BrandPowershell.new(variant: :filled, **attrs)
       end
     end
   end

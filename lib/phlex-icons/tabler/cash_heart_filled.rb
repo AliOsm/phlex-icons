@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CashHeartFilled < Base
       def view_template
-        render CashHeart.new(variant: :filled)
+        render CashHeart.new(variant: :filled, **attrs)
       end
     end
   end

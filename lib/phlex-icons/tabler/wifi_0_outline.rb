@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Wifi0Outline < Base
       def view_template
-        render Wifi0.new(variant: :outline)
+        render Wifi0.new(variant: :outline, **attrs)
       end
     end
   end

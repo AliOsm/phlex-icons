@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextDirectionLtrOutline < Base
       def view_template
-        render TextDirectionLtr.new(variant: :outline)
+        render TextDirectionLtr.new(variant: :outline, **attrs)
       end
     end
   end

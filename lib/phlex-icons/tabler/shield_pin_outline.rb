@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldPinOutline < Base
       def view_template
-        render ShieldPin.new(variant: :outline)
+        render ShieldPin.new(variant: :outline, **attrs)
       end
     end
   end

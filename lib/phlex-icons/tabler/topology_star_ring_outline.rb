@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TopologyStarRingOutline < Base
       def view_template
-        render TopologyStarRing.new(variant: :outline)
+        render TopologyStarRing.new(variant: :outline, **attrs)
       end
     end
   end

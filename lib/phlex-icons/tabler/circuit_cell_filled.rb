@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitCellFilled < Base
       def view_template
-        render CircuitCell.new(variant: :filled)
+        render CircuitCell.new(variant: :filled, **attrs)
       end
     end
   end

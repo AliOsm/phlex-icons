@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraCodeFilled < Base
       def view_template
-        render CameraCode.new(variant: :filled)
+        render CameraCode.new(variant: :filled, **attrs)
       end
     end
   end

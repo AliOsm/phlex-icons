@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandJavascriptFilled < Base
       def view_template
-        render BrandJavascript.new(variant: :filled)
+        render BrandJavascript.new(variant: :filled, **attrs)
       end
     end
   end

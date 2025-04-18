@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPinExclamationFilled < Base
       def view_template
-        render MapPinExclamation.new(variant: :filled)
+        render MapPinExclamation.new(variant: :filled, **attrs)
       end
     end
   end

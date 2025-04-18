@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MatchstickFilled < Base
       def view_template
-        render Matchstick.new(variant: :filled)
+        render Matchstick.new(variant: :filled, **attrs)
       end
     end
   end

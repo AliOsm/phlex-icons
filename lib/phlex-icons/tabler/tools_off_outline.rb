@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ToolsOffOutline < Base
       def view_template
-        render ToolsOff.new(variant: :outline)
+        render ToolsOff.new(variant: :outline, **attrs)
       end
     end
   end

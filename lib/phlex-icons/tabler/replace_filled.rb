@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReplaceFilled < Base
       def view_template
-        render Replace.new(variant: :filled)
+        render Replace.new(variant: :filled, **attrs)
       end
     end
   end

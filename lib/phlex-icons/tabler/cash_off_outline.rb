@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CashOffOutline < Base
       def view_template
-        render CashOff.new(variant: :outline)
+        render CashOff.new(variant: :outline, **attrs)
       end
     end
   end

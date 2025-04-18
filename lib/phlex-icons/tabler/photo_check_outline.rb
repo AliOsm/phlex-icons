@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoCheckOutline < Base
       def view_template
-        render PhotoCheck.new(variant: :outline)
+        render PhotoCheck.new(variant: :outline, **attrs)
       end
     end
   end

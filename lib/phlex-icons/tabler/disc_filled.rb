@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DiscFilled < Base
       def view_template
-        render Disc.new(variant: :filled)
+        render Disc.new(variant: :filled, **attrs)
       end
     end
   end

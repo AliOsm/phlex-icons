@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RosetteNumber0Outline < Base
       def view_template
-        render RosetteNumber0.new(variant: :outline)
+        render RosetteNumber0.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Ad2Outline < Base
       def view_template
-        render Ad2.new(variant: :outline)
+        render Ad2.new(variant: :outline, **attrs)
       end
     end
   end

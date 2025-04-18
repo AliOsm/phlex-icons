@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCakephpOutline < Base
       def view_template
-        render BrandCakephp.new(variant: :outline)
+        render BrandCakephp.new(variant: :outline, **attrs)
       end
     end
   end

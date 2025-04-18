@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAdobeIndesignOutline < Base
       def view_template
-        render BrandAdobeIndesign.new(variant: :outline)
+        render BrandAdobeIndesign.new(variant: :outline, **attrs)
       end
     end
   end

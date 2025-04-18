@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BongFilled < Base
       def view_template
-        render Bong.new(variant: :filled)
+        render Bong.new(variant: :filled, **attrs)
       end
     end
   end

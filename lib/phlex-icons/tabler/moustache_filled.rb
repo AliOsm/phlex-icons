@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoustacheFilled < Base
       def view_template
-        render Moustache.new(variant: :filled)
+        render Moustache.new(variant: :filled, **attrs)
       end
     end
   end

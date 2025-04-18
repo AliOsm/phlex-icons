@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TimelineEventExclamationFilled < Base
       def view_template
-        render TimelineEventExclamation.new(variant: :filled)
+        render TimelineEventExclamation.new(variant: :filled, **attrs)
       end
     end
   end

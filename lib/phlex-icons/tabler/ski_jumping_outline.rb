@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SkiJumpingOutline < Base
       def view_template
-        render SkiJumping.new(variant: :outline)
+        render SkiJumping.new(variant: :outline, **attrs)
       end
     end
   end

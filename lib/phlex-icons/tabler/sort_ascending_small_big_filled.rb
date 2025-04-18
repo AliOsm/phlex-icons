@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SortAscendingSmallBigFilled < Base
       def view_template
-        render SortAscendingSmallBig.new(variant: :filled)
+        render SortAscendingSmallBig.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GuitarPickFilled < Base
       def view_template
-        render GuitarPick.new(variant: :filled)
+        render GuitarPick.new(variant: :filled, **attrs)
       end
     end
   end

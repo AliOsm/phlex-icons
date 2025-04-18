@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LivePhotoOffFilled < Base
       def view_template
-        render LivePhotoOff.new(variant: :filled)
+        render LivePhotoOff.new(variant: :filled, **attrs)
       end
     end
   end

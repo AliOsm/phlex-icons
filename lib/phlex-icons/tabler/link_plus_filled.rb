@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LinkPlusFilled < Base
       def view_template
-        render LinkPlus.new(variant: :filled)
+        render LinkPlus.new(variant: :filled, **attrs)
       end
     end
   end

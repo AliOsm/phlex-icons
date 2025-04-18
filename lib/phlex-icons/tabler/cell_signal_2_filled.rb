@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CellSignal2Filled < Base
       def view_template
-        render CellSignal2.new(variant: :filled)
+        render CellSignal2.new(variant: :filled, **attrs)
       end
     end
   end

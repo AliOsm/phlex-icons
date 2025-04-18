@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFeedlyFilled < Base
       def view_template
-        render BrandFeedly.new(variant: :filled)
+        render BrandFeedly.new(variant: :filled, **attrs)
       end
     end
   end

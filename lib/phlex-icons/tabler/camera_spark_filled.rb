@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraSparkFilled < Base
       def view_template
-        render CameraSpark.new(variant: :filled)
+        render CameraSpark.new(variant: :filled, **attrs)
       end
     end
   end

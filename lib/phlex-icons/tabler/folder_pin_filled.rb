@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderPinFilled < Base
       def view_template
-        render FolderPin.new(variant: :filled)
+        render FolderPin.new(variant: :filled, **attrs)
       end
     end
   end

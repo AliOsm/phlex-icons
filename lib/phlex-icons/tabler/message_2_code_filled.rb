@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2CodeFilled < Base
       def view_template
-        render Message2Code.new(variant: :filled)
+        render Message2Code.new(variant: :filled, **attrs)
       end
     end
   end

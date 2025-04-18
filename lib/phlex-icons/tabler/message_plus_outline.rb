@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessagePlusOutline < Base
       def view_template
-        render MessagePlus.new(variant: :outline)
+        render MessagePlus.new(variant: :outline, **attrs)
       end
     end
   end

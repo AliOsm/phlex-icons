@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoppingCartExclamationOutline < Base
       def view_template
-        render ShoppingCartExclamation.new(variant: :outline)
+        render ShoppingCartExclamation.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SortAZOutline < Base
       def view_template
-        render SortAZ.new(variant: :outline)
+        render SortAZ.new(variant: :outline, **attrs)
       end
     end
   end

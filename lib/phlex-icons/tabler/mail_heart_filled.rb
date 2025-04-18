@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailHeartFilled < Base
       def view_template
-        render MailHeart.new(variant: :filled)
+        render MailHeart.new(variant: :filled, **attrs)
       end
     end
   end

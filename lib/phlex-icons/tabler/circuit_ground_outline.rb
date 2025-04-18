@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitGroundOutline < Base
       def view_template
-        render CircuitGround.new(variant: :outline)
+        render CircuitGround.new(variant: :outline, **attrs)
       end
     end
   end

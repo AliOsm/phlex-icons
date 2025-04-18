@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CornerLeftUpDoubleFilled < Base
       def view_template
-        render CornerLeftUpDouble.new(variant: :filled)
+        render CornerLeftUpDouble.new(variant: :filled, **attrs)
       end
     end
   end

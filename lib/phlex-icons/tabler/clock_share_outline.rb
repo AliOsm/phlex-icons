@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockShareOutline < Base
       def view_template
-        render ClockShare.new(variant: :outline)
+        render ClockShare.new(variant: :outline, **attrs)
       end
     end
   end

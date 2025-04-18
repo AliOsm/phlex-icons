@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SeparatorHorizontalFilled < Base
       def view_template
-        render SeparatorHorizontal.new(variant: :filled)
+        render SeparatorHorizontal.new(variant: :filled, **attrs)
       end
     end
   end

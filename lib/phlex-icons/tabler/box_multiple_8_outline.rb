@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BoxMultiple8Outline < Base
       def view_template
-        render BoxMultiple8.new(variant: :outline)
+        render BoxMultiple8.new(variant: :outline, **attrs)
       end
     end
   end

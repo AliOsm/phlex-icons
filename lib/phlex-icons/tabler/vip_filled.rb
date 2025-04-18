@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VipFilled < Base
       def view_template
-        render Vip.new(variant: :filled)
+        render Vip.new(variant: :filled, **attrs)
       end
     end
   end

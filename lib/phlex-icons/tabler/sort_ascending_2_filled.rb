@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SortAscending2Filled < Base
       def view_template
-        render SortAscending2.new(variant: :filled)
+        render SortAscending2.new(variant: :filled, **attrs)
       end
     end
   end

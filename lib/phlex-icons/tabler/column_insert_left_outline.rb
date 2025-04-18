@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ColumnInsertLeftOutline < Base
       def view_template
-        render ColumnInsertLeft.new(variant: :outline)
+        render ColumnInsertLeft.new(variant: :outline, **attrs)
       end
     end
   end

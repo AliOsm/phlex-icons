@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BookmarkAiFilled < Base
       def view_template
-        render BookmarkAi.new(variant: :filled)
+        render BookmarkAi.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BleachChlorineOutline < Base
       def view_template
-        render BleachChlorine.new(variant: :outline)
+        render BleachChlorine.new(variant: :outline, **attrs)
       end
     end
   end

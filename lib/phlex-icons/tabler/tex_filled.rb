@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TexFilled < Base
       def view_template
-        render Tex.new(variant: :filled)
+        render Tex.new(variant: :filled, **attrs)
       end
     end
   end

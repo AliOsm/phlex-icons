@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TemperatureFilled < Base
       def view_template
-        render Temperature.new(variant: :filled)
+        render Temperature.new(variant: :filled, **attrs)
       end
     end
   end

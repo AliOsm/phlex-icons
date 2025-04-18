@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoeFilled < Base
       def view_template
-        render Shoe.new(variant: :filled)
+        render Shoe.new(variant: :filled, **attrs)
       end
     end
   end

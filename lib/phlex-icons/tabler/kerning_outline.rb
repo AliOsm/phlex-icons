@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KerningOutline < Base
       def view_template
-        render Kerning.new(variant: :outline)
+        render Kerning.new(variant: :outline, **attrs)
       end
     end
   end

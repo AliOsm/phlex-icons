@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VariableFilled < Base
       def view_template
-        render Variable.new(variant: :filled)
+        render Variable.new(variant: :filled, **attrs)
       end
     end
   end

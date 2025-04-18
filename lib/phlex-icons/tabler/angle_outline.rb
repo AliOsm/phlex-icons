@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AngleOutline < Base
       def view_template
-        render Angle.new(variant: :outline)
+        render Angle.new(variant: :outline, **attrs)
       end
     end
   end

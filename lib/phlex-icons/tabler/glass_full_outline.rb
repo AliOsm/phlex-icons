@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GlassFullOutline < Base
       def view_template
-        render GlassFull.new(variant: :outline)
+        render GlassFull.new(variant: :outline, **attrs)
       end
     end
   end

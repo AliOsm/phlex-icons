@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BaselineDensityMediumFilled < Base
       def view_template
-        render BaselineDensityMedium.new(variant: :filled)
+        render BaselineDensityMedium.new(variant: :filled, **attrs)
       end
     end
   end

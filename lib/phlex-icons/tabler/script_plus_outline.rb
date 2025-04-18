@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScriptPlusOutline < Base
       def view_template
-        render ScriptPlus.new(variant: :outline)
+        render ScriptPlus.new(variant: :outline, **attrs)
       end
     end
   end

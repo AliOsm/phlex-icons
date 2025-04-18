@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RazorElectricFilled < Base
       def view_template
-        render RazorElectric.new(variant: :filled)
+        render RazorElectric.new(variant: :filled, **attrs)
       end
     end
   end

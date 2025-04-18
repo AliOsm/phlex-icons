@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZodiacLibraOutline < Base
       def view_template
-        render ZodiacLibra.new(variant: :outline)
+        render ZodiacLibra.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RosetteDiscountOffOutline < Base
       def view_template
-        render RosetteDiscountOff.new(variant: :outline)
+        render RosetteDiscountOff.new(variant: :outline, **attrs)
       end
     end
   end

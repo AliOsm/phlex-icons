@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransformPointBottomLeftFilled < Base
       def view_template
-        render TransformPointBottomLeft.new(variant: :filled)
+        render TransformPointBottomLeft.new(variant: :filled, **attrs)
       end
     end
   end

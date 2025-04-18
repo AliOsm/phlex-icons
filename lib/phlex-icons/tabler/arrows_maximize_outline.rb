@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsMaximizeOutline < Base
       def view_template
-        render ArrowsMaximize.new(variant: :outline)
+        render ArrowsMaximize.new(variant: :outline, **attrs)
       end
     end
   end

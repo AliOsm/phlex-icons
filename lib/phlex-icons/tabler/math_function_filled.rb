@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathFunctionFilled < Base
       def view_template
-        render MathFunction.new(variant: :filled)
+        render MathFunction.new(variant: :filled, **attrs)
       end
     end
   end

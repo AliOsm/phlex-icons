@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTerraformOutline < Base
       def view_template
-        render BrandTerraform.new(variant: :outline)
+        render BrandTerraform.new(variant: :outline, **attrs)
       end
     end
   end

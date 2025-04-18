@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MugOffOutline < Base
       def view_template
-        render MugOff.new(variant: :outline)
+        render MugOff.new(variant: :outline, **attrs)
       end
     end
   end

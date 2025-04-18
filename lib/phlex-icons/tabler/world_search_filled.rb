@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldSearchFilled < Base
       def view_template
-        render WorldSearch.new(variant: :filled)
+        render WorldSearch.new(variant: :filled, **attrs)
       end
     end
   end

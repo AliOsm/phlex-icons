@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LoaderQuarterFilled < Base
       def view_template
-        render LoaderQuarter.new(variant: :filled)
+        render LoaderQuarter.new(variant: :filled, **attrs)
       end
     end
   end

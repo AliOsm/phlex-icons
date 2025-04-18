@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagCancelOutline < Base
       def view_template
-        render FlagCancel.new(variant: :outline)
+        render FlagCancel.new(variant: :outline, **attrs)
       end
     end
   end

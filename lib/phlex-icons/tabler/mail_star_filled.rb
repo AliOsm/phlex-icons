@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailStarFilled < Base
       def view_template
-        render MailStar.new(variant: :filled)
+        render MailStar.new(variant: :filled, **attrs)
       end
     end
   end

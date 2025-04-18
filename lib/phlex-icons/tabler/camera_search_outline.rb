@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraSearchOutline < Base
       def view_template
-        render CameraSearch.new(variant: :outline)
+        render CameraSearch.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareRoundedArrowDownOutline < Base
       def view_template
-        render SquareRoundedArrowDown.new(variant: :outline)
+        render SquareRoundedArrowDown.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EqualDoubleFilled < Base
       def view_template
-        render EqualDouble.new(variant: :filled)
+        render EqualDouble.new(variant: :filled, **attrs)
       end
     end
   end

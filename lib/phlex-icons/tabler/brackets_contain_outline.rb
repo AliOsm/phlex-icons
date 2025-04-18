@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BracketsContainOutline < Base
       def view_template
-        render BracketsContain.new(variant: :outline)
+        render BracketsContain.new(variant: :outline, **attrs)
       end
     end
   end

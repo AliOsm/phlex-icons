@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCoreosOutline < Base
       def view_template
-        render BrandCoreos.new(variant: :outline)
+        render BrandCoreos.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DogBowlFilled < Base
       def view_template
-        render DogBowl.new(variant: :filled)
+        render DogBowl.new(variant: :filled, **attrs)
       end
     end
   end

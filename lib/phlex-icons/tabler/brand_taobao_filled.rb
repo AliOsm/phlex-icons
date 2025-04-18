@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTaobaoFilled < Base
       def view_template
-        render BrandTaobao.new(variant: :filled)
+        render BrandTaobao.new(variant: :filled, **attrs)
       end
     end
   end

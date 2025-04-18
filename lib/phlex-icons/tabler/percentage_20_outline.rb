@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Percentage20Outline < Base
       def view_template
-        render Percentage20.new(variant: :outline)
+        render Percentage20.new(variant: :outline, **attrs)
       end
     end
   end

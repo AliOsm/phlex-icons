@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GasStationOutline < Base
       def view_template
-        render GasStation.new(variant: :outline)
+        render GasStation.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CodeCircle2Filled < Base
       def view_template
-        render CodeCircle2.new(variant: :filled)
+        render CodeCircle2.new(variant: :filled, **attrs)
       end
     end
   end

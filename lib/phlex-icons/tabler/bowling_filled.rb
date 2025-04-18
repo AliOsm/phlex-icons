@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BowlingFilled < Base
       def view_template
-        render Bowling.new(variant: :filled)
+        render Bowling.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandNetflixFilled < Base
       def view_template
-        render BrandNetflix.new(variant: :filled)
+        render BrandNetflix.new(variant: :filled, **attrs)
       end
     end
   end

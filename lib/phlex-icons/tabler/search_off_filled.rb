@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SearchOffFilled < Base
       def view_template
-        render SearchOff.new(variant: :filled)
+        render SearchOff.new(variant: :filled, **attrs)
       end
     end
   end

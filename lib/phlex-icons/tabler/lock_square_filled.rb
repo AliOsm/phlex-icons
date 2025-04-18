@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockSquareFilled < Base
       def view_template
-        render LockSquare.new(variant: :filled)
+        render LockSquare.new(variant: :filled, **attrs)
       end
     end
   end

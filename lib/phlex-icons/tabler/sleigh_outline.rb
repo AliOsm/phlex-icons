@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SleighOutline < Base
       def view_template
-        render Sleigh.new(variant: :outline)
+        render Sleigh.new(variant: :outline, **attrs)
       end
     end
   end

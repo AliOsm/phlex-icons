@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilDiscountFilled < Base
       def view_template
-        render PencilDiscount.new(variant: :filled)
+        render PencilDiscount.new(variant: :filled, **attrs)
       end
     end
   end

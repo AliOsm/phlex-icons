@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CraneFilled < Base
       def view_template
-        render Crane.new(variant: :filled)
+        render Crane.new(variant: :filled, **attrs)
       end
     end
   end

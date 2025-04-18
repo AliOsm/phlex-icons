@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FocusOutline < Base
       def view_template
-        render Focus.new(variant: :outline)
+        render Focus.new(variant: :outline, **attrs)
       end
     end
   end

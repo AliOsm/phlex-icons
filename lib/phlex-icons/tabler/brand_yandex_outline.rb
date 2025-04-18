@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandYandexOutline < Base
       def view_template
-        render BrandYandex.new(variant: :outline)
+        render BrandYandex.new(variant: :outline, **attrs)
       end
     end
   end

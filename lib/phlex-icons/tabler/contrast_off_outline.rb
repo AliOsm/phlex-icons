@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ContrastOffOutline < Base
       def view_template
-        render ContrastOff.new(variant: :outline)
+        render ContrastOff.new(variant: :outline, **attrs)
       end
     end
   end

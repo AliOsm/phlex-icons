@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HandFingerOutline < Base
       def view_template
-        render HandFinger.new(variant: :outline)
+        render HandFinger.new(variant: :outline, **attrs)
       end
     end
   end

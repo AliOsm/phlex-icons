@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PolygonFilled < Base
       def view_template
-        render Polygon.new(variant: :filled)
+        render Polygon.new(variant: :filled, **attrs)
       end
     end
   end

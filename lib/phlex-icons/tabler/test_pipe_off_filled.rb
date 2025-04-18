@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TestPipeOffFilled < Base
       def view_template
-        render TestPipeOff.new(variant: :filled)
+        render TestPipeOff.new(variant: :filled, **attrs)
       end
     end
   end

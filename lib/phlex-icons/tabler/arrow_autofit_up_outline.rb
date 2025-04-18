@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowAutofitUpOutline < Base
       def view_template
-        render ArrowAutofitUp.new(variant: :outline)
+        render ArrowAutofitUp.new(variant: :outline, **attrs)
       end
     end
   end

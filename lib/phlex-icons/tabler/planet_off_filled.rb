@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlanetOffFilled < Base
       def view_template
-        render PlanetOff.new(variant: :filled)
+        render PlanetOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleArrowLeftFilled < Base
       def view_template
-        render CircleArrowLeft.new(variant: :filled)
+        render CircleArrowLeft.new(variant: :filled, **attrs)
       end
     end
   end

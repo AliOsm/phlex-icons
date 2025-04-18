@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UnderlineFilled < Base
       def view_template
-        render Underline.new(variant: :filled)
+        render Underline.new(variant: :filled, **attrs)
       end
     end
   end

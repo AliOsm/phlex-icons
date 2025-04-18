@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandDjangoFilled < Base
       def view_template
-        render BrandDjango.new(variant: :filled)
+        render BrandDjango.new(variant: :filled, **attrs)
       end
     end
   end

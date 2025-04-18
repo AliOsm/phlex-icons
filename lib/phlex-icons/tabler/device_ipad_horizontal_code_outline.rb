@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadHorizontalCodeOutline < Base
       def view_template
-        render DeviceIpadHorizontalCode.new(variant: :outline)
+        render DeviceIpadHorizontalCode.new(variant: :outline, **attrs)
       end
     end
   end

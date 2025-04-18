@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Grid3x3Filled < Base
       def view_template
-        render Grid3x3.new(variant: :filled)
+        render Grid3x3.new(variant: :filled, **attrs)
       end
     end
   end

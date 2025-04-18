@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LogicAndFilled < Base
       def view_template
-        render LogicAnd.new(variant: :filled)
+        render LogicAnd.new(variant: :filled, **attrs)
       end
     end
   end

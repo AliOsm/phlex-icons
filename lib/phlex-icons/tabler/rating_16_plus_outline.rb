@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Rating16PlusOutline < Base
       def view_template
-        render Rating16Plus.new(variant: :outline)
+        render Rating16Plus.new(variant: :outline, **attrs)
       end
     end
   end

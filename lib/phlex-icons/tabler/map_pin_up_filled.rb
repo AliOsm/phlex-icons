@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPinUpFilled < Base
       def view_template
-        render MapPinUp.new(variant: :filled)
+        render MapPinUp.new(variant: :filled, **attrs)
       end
     end
   end

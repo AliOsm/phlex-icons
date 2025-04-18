@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Badge8kFilled < Base
       def view_template
-        render Badge8k.new(variant: :filled)
+        render Badge8k.new(variant: :filled, **attrs)
       end
     end
   end

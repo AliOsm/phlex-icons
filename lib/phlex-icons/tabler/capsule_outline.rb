@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CapsuleOutline < Base
       def view_template
-        render Capsule.new(variant: :outline)
+        render Capsule.new(variant: :outline, **attrs)
       end
     end
   end

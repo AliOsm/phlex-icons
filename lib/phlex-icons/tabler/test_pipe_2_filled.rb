@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TestPipe2Filled < Base
       def view_template
-        render TestPipe2.new(variant: :filled)
+        render TestPipe2.new(variant: :filled, **attrs)
       end
     end
   end

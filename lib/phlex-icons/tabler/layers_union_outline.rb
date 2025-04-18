@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayersUnionOutline < Base
       def view_template
-        render LayersUnion.new(variant: :outline)
+        render LayersUnion.new(variant: :outline, **attrs)
       end
     end
   end

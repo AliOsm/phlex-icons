@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SumFilled < Base
       def view_template
-        render Sum.new(variant: :filled)
+        render Sum.new(variant: :filled, **attrs)
       end
     end
   end

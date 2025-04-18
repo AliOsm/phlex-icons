@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraOffFilled < Base
       def view_template
-        render CameraOff.new(variant: :filled)
+        render CameraOff.new(variant: :filled, **attrs)
       end
     end
   end

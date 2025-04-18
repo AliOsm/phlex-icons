@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlaskOffFilled < Base
       def view_template
-        render FlaskOff.new(variant: :filled)
+        render FlaskOff.new(variant: :filled, **attrs)
       end
     end
   end

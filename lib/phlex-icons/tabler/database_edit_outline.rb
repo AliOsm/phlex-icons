@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseEditOutline < Base
       def view_template
-        render DatabaseEdit.new(variant: :outline)
+        render DatabaseEdit.new(variant: :outline, **attrs)
       end
     end
   end

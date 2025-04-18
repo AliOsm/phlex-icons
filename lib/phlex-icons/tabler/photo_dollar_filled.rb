@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoDollarFilled < Base
       def view_template
-        render PhotoDollar.new(variant: :filled)
+        render PhotoDollar.new(variant: :filled, **attrs)
       end
     end
   end

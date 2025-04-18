@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FocusAutoFilled < Base
       def view_template
-        render FocusAuto.new(variant: :filled)
+        render FocusAuto.new(variant: :filled, **attrs)
       end
     end
   end

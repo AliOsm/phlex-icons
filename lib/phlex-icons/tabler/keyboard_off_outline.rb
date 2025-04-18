@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyboardOffOutline < Base
       def view_template
-        render KeyboardOff.new(variant: :outline)
+        render KeyboardOff.new(variant: :outline, **attrs)
       end
     end
   end

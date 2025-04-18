@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockShieldFilled < Base
       def view_template
-        render ClockShield.new(variant: :filled)
+        render ClockShield.new(variant: :filled, **attrs)
       end
     end
   end

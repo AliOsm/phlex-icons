@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Cone2Outline < Base
       def view_template
-        render Cone2.new(variant: :outline)
+        render Cone2.new(variant: :outline, **attrs)
       end
     end
   end

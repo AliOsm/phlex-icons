@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PentagonNumber4Outline < Base
       def view_template
-        render PentagonNumber4.new(variant: :outline)
+        render PentagonNumber4.new(variant: :outline, **attrs)
       end
     end
   end

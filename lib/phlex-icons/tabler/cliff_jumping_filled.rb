@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CliffJumpingFilled < Base
       def view_template
-        render CliffJumping.new(variant: :filled)
+        render CliffJumping.new(variant: :filled, **attrs)
       end
     end
   end

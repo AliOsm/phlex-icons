@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrafficConeFilled < Base
       def view_template
-        render TrafficCone.new(variant: :filled)
+        render TrafficCone.new(variant: :filled, **attrs)
       end
     end
   end

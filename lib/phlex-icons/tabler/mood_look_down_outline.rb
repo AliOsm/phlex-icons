@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodLookDownOutline < Base
       def view_template
-        render MoodLookDown.new(variant: :outline)
+        render MoodLookDown.new(variant: :outline, **attrs)
       end
     end
   end

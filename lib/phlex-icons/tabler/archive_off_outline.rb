@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArchiveOffOutline < Base
       def view_template
-        render ArchiveOff.new(variant: :outline)
+        render ArchiveOff.new(variant: :outline, **attrs)
       end
     end
   end

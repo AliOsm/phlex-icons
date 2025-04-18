@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderOffOutline < Base
       def view_template
-        render FolderOff.new(variant: :outline)
+        render FolderOff.new(variant: :outline, **attrs)
       end
     end
   end

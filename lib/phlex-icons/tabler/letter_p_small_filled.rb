@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LetterPSmallFilled < Base
       def view_template
-        render LetterPSmall.new(variant: :filled)
+        render LetterPSmall.new(variant: :filled, **attrs)
       end
     end
   end

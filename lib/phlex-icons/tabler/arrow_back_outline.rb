@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBackOutline < Base
       def view_template
-        render ArrowBack.new(variant: :outline)
+        render ArrowBack.new(variant: :outline, **attrs)
       end
     end
   end

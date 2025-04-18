@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandQqOutline < Base
       def view_template
-        render BrandQq.new(variant: :outline)
+        render BrandQq.new(variant: :outline, **attrs)
       end
     end
   end

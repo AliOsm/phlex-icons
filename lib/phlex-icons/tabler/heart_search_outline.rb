@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartSearchOutline < Base
       def view_template
-        render HeartSearch.new(variant: :outline)
+        render HeartSearch.new(variant: :outline, **attrs)
       end
     end
   end

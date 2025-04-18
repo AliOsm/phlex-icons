@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilCheckOutline < Base
       def view_template
-        render PencilCheck.new(variant: :outline)
+        render PencilCheck.new(variant: :outline, **attrs)
       end
     end
   end

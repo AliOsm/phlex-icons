@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSentryOutline < Base
       def view_template
-        render BrandSentry.new(variant: :outline)
+        render BrandSentry.new(variant: :outline, **attrs)
       end
     end
   end

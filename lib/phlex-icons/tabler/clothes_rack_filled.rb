@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClothesRackFilled < Base
       def view_template
-        render ClothesRack.new(variant: :filled)
+        render ClothesRack.new(variant: :filled, **attrs)
       end
     end
   end

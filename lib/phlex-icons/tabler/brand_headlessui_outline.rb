@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandHeadlessuiOutline < Base
       def view_template
-        render BrandHeadlessui.new(variant: :outline)
+        render BrandHeadlessui.new(variant: :outline, **attrs)
       end
     end
   end

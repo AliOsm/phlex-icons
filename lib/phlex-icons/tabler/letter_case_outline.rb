@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LetterCaseOutline < Base
       def view_template
-        render LetterCase.new(variant: :outline)
+        render LetterCase.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareRoot2Filled < Base
       def view_template
-        render SquareRoot2.new(variant: :filled)
+        render SquareRoot2.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TableDownFilled < Base
       def view_template
-        render TableDown.new(variant: :filled)
+        render TableDown.new(variant: :filled, **attrs)
       end
     end
   end

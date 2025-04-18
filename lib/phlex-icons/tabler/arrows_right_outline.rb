@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsRightOutline < Base
       def view_template
-        render ArrowsRight.new(variant: :outline)
+        render ArrowsRight.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBootstrapFilled < Base
       def view_template
-        render BrandBootstrap.new(variant: :filled)
+        render BrandBootstrap.new(variant: :filled, **attrs)
       end
     end
   end

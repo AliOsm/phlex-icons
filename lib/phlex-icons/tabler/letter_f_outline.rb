@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LetterFOutline < Base
       def view_template
-        render LetterF.new(variant: :outline)
+        render LetterF.new(variant: :outline, **attrs)
       end
     end
   end

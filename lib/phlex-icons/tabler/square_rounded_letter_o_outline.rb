@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareRoundedLetterOOutline < Base
       def view_template
-        render SquareRoundedLetterO.new(variant: :outline)
+        render SquareRoundedLetterO.new(variant: :outline, **attrs)
       end
     end
   end

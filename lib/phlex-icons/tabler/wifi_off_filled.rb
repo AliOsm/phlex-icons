@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WifiOffFilled < Base
       def view_template
-        render WifiOff.new(variant: :filled)
+        render WifiOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EqualNotFilled < Base
       def view_template
-        render EqualNot.new(variant: :filled)
+        render EqualNot.new(variant: :filled, **attrs)
       end
     end
   end

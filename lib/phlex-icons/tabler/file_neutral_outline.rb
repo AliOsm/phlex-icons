@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileNeutralOutline < Base
       def view_template
-        render FileNeutral.new(variant: :outline)
+        render FileNeutral.new(variant: :outline, **attrs)
       end
     end
   end

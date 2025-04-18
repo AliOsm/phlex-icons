@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CreditCardOffOutline < Base
       def view_template
-        render CreditCardOff.new(variant: :outline)
+        render CreditCardOff.new(variant: :outline, **attrs)
       end
     end
   end

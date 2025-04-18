@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoppingBagSearchFilled < Base
       def view_template
-        render ShoppingBagSearch.new(variant: :filled)
+        render ShoppingBagSearch.new(variant: :filled, **attrs)
       end
     end
   end

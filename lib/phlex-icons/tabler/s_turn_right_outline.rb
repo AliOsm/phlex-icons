@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class STurnRightOutline < Base
       def view_template
-        render STurnRight.new(variant: :outline)
+        render STurnRight.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Login2Filled < Base
       def view_template
-        render Login2.new(variant: :filled)
+        render Login2.new(variant: :filled, **attrs)
       end
     end
   end

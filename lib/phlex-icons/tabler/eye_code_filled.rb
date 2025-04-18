@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeCodeFilled < Base
       def view_template
-        render EyeCode.new(variant: :filled)
+        render EyeCode.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockCancelFilled < Base
       def view_template
-        render ClockCancel.new(variant: :filled)
+        render ClockCancel.new(variant: :filled, **attrs)
       end
     end
   end

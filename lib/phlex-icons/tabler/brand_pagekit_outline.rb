@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPagekitOutline < Base
       def view_template
-        render BrandPagekit.new(variant: :outline)
+        render BrandPagekit.new(variant: :outline, **attrs)
       end
     end
   end

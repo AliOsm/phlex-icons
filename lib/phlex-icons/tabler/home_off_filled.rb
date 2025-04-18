@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeOffFilled < Base
       def view_template
-        render HomeOff.new(variant: :filled)
+        render HomeOff.new(variant: :filled, **attrs)
       end
     end
   end

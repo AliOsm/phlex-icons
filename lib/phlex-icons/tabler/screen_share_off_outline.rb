@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScreenShareOffOutline < Base
       def view_template
-        render ScreenShareOff.new(variant: :outline)
+        render ScreenShareOff.new(variant: :outline, **attrs)
       end
     end
   end

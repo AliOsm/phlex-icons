@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageCircleCheckOutline < Base
       def view_template
-        render MessageCircleCheck.new(variant: :outline)
+        render MessageCircleCheck.new(variant: :outline, **attrs)
       end
     end
   end

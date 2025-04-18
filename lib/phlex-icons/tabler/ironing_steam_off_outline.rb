@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IroningSteamOffOutline < Base
       def view_template
-        render IroningSteamOff.new(variant: :outline)
+        render IroningSteamOff.new(variant: :outline, **attrs)
       end
     end
   end

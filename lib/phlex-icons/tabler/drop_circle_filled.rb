@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropCircleFilled < Base
       def view_template
-        render DropCircle.new(variant: :filled)
+        render DropCircle.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShirtOffFilled < Base
       def view_template
-        render ShirtOff.new(variant: :filled)
+        render ShirtOff.new(variant: :filled, **attrs)
       end
     end
   end

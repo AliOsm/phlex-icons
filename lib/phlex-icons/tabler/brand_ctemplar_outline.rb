@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCtemplarOutline < Base
       def view_template
-        render BrandCtemplar.new(variant: :outline)
+        render BrandCtemplar.new(variant: :outline, **attrs)
       end
     end
   end

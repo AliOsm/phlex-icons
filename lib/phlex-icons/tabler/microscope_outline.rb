@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MicroscopeOutline < Base
       def view_template
-        render Microscope.new(variant: :outline)
+        render Microscope.new(variant: :outline, **attrs)
       end
     end
   end

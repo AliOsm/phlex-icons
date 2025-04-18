@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClipboardListFilled < Base
       def view_template
-        render ClipboardList.new(variant: :filled)
+        render ClipboardList.new(variant: :filled, **attrs)
       end
     end
   end

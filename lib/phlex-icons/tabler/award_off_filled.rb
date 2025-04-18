@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AwardOffFilled < Base
       def view_template
-        render AwardOff.new(variant: :filled)
+        render AwardOff.new(variant: :filled, **attrs)
       end
     end
   end

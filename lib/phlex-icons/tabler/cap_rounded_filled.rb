@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CapRoundedFilled < Base
       def view_template
-        render CapRounded.new(variant: :filled)
+        render CapRounded.new(variant: :filled, **attrs)
       end
     end
   end

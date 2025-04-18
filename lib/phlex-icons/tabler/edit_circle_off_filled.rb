@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EditCircleOffFilled < Base
       def view_template
-        render EditCircleOff.new(variant: :filled)
+        render EditCircleOff.new(variant: :filled, **attrs)
       end
     end
   end

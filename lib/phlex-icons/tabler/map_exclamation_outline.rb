@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapExclamationOutline < Base
       def view_template
-        render MapExclamation.new(variant: :outline)
+        render MapExclamation.new(variant: :outline, **attrs)
       end
     end
   end

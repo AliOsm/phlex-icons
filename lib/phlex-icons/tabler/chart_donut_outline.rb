@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartDonutOutline < Base
       def view_template
-        render ChartDonut.new(variant: :outline)
+        render ChartDonut.new(variant: :outline, **attrs)
       end
     end
   end

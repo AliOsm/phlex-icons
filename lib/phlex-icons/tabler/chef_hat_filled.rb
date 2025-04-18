@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChefHatFilled < Base
       def view_template
-        render ChefHat.new(variant: :filled)
+        render ChefHat.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockSearchOutline < Base
       def view_template
-        render LockSearch.new(variant: :outline)
+        render LockSearch.new(variant: :outline, **attrs)
       end
     end
   end

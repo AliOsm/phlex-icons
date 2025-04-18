@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGrammarlyOutline < Base
       def view_template
-        render BrandGrammarly.new(variant: :outline)
+        render BrandGrammarly.new(variant: :outline, **attrs)
       end
     end
   end

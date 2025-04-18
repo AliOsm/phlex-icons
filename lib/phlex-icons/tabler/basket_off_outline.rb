@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BasketOffOutline < Base
       def view_template
-        render BasketOff.new(variant: :outline)
+        render BasketOff.new(variant: :outline, **attrs)
       end
     end
   end

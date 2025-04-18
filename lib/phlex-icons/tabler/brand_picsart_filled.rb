@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPicsartFilled < Base
       def view_template
-        render BrandPicsart.new(variant: :filled)
+        render BrandPicsart.new(variant: :filled, **attrs)
       end
     end
   end

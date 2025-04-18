@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AbacusFilled < Base
       def view_template
-        render Abacus.new(variant: :filled)
+        render Abacus.new(variant: :filled, **attrs)
       end
     end
   end

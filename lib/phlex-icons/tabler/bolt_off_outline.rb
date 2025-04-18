@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BoltOffOutline < Base
       def view_template
-        render BoltOff.new(variant: :outline)
+        render BoltOff.new(variant: :outline, **attrs)
       end
     end
   end

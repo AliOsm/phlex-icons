@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZoomCodeOutline < Base
       def view_template
-        render ZoomCode.new(variant: :outline)
+        render ZoomCode.new(variant: :outline, **attrs)
       end
     end
   end

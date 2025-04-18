@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FrustumOffFilled < Base
       def view_template
-        render FrustumOff.new(variant: :filled)
+        render FrustumOff.new(variant: :filled, **attrs)
       end
     end
   end

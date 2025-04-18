@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingBridgeOutline < Base
       def view_template
-        render BuildingBridge.new(variant: :outline)
+        render BuildingBridge.new(variant: :outline, **attrs)
       end
     end
   end

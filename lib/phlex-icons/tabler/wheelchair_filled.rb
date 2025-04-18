@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WheelchairFilled < Base
       def view_template
-        render Wheelchair.new(variant: :filled)
+        render Wheelchair.new(variant: :filled, **attrs)
       end
     end
   end

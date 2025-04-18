@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ConfettiFilled < Base
       def view_template
-        render Confetti.new(variant: :filled)
+        render Confetti.new(variant: :filled, **attrs)
       end
     end
   end

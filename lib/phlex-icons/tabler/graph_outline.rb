@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GraphOutline < Base
       def view_template
-        render Graph.new(variant: :outline)
+        render Graph.new(variant: :outline, **attrs)
       end
     end
   end

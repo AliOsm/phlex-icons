@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CaptureFilled < Base
       def view_template
-        render Capture.new(variant: :filled)
+        render Capture.new(variant: :filled, **attrs)
       end
     end
   end

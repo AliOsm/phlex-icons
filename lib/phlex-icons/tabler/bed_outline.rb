@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BedOutline < Base
       def view_template
-        render Bed.new(variant: :outline)
+        render Bed.new(variant: :outline, **attrs)
       end
     end
   end

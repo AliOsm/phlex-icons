@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Clock12Outline < Base
       def view_template
-        render Clock12.new(variant: :outline)
+        render Clock12.new(variant: :outline, **attrs)
       end
     end
   end

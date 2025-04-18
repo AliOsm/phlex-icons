@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EggCrackedFilled < Base
       def view_template
-        render EggCracked.new(variant: :filled)
+        render EggCracked.new(variant: :filled, **attrs)
       end
     end
   end

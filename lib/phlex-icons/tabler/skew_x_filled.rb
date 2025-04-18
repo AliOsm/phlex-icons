@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SkewXFilled < Base
       def view_template
-        render SkewX.new(variant: :filled)
+        render SkewX.new(variant: :filled, **attrs)
       end
     end
   end

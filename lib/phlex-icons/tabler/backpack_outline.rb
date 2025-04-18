@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BackpackOutline < Base
       def view_template
-        render Backpack.new(variant: :outline)
+        render Backpack.new(variant: :outline, **attrs)
       end
     end
   end

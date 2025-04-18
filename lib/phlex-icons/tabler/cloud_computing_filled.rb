@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudComputingFilled < Base
       def view_template
-        render CloudComputing.new(variant: :filled)
+        render CloudComputing.new(variant: :filled, **attrs)
       end
     end
   end

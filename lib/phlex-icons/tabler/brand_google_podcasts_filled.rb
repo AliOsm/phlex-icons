@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGooglePodcastsFilled < Base
       def view_template
-        render BrandGooglePodcasts.new(variant: :filled)
+        render BrandGooglePodcasts.new(variant: :filled, **attrs)
       end
     end
   end

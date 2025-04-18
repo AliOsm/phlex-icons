@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2CancelOutline < Base
       def view_template
-        render Message2Cancel.new(variant: :outline)
+        render Message2Cancel.new(variant: :outline, **attrs)
       end
     end
   end

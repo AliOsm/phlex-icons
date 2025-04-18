@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ConfettiOffOutline < Base
       def view_template
-        render ConfettiOff.new(variant: :outline)
+        render ConfettiOff.new(variant: :outline, **attrs)
       end
     end
   end

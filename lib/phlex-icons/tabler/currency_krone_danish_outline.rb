@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyKroneDanishOutline < Base
       def view_template
-        render CurrencyKroneDanish.new(variant: :outline)
+        render CurrencyKroneDanish.new(variant: :outline, **attrs)
       end
     end
   end

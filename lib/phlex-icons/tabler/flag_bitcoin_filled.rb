@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagBitcoinFilled < Base
       def view_template
-        render FlagBitcoin.new(variant: :filled)
+        render FlagBitcoin.new(variant: :filled, **attrs)
       end
     end
   end

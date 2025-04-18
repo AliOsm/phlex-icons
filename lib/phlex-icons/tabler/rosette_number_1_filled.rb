@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RosetteNumber1Filled < Base
       def view_template
-        render RosetteNumber1.new(variant: :filled)
+        render RosetteNumber1.new(variant: :filled, **attrs)
       end
     end
   end

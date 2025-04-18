@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitMotorOutline < Base
       def view_template
-        render CircuitMotor.new(variant: :outline)
+        render CircuitMotor.new(variant: :outline, **attrs)
       end
     end
   end

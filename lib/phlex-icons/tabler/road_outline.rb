@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RoadOutline < Base
       def view_template
-        render Road.new(variant: :outline)
+        render Road.new(variant: :outline, **attrs)
       end
     end
   end

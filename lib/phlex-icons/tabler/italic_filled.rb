@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ItalicFilled < Base
       def view_template
-        render Italic.new(variant: :filled)
+        render Italic.new(variant: :filled, **attrs)
       end
     end
   end

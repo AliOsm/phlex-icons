@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTidalOutline < Base
       def view_template
-        render BrandTidal.new(variant: :outline)
+        render BrandTidal.new(variant: :outline, **attrs)
       end
     end
   end

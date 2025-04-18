@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PilcrowRightFilled < Base
       def view_template
-        render PilcrowRight.new(variant: :filled)
+        render PilcrowRight.new(variant: :filled, **attrs)
       end
     end
   end

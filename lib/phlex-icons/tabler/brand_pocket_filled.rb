@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPocketFilled < Base
       def view_template
-        render BrandPocket.new(variant: :filled)
+        render BrandPocket.new(variant: :filled, **attrs)
       end
     end
   end

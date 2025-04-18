@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellPauseFilled < Base
       def view_template
-        render BellPause.new(variant: :filled)
+        render BellPause.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DevicesHeartFilled < Base
       def view_template
-        render DevicesHeart.new(variant: :filled)
+        render DevicesHeart.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScanEyeFilled < Base
       def view_template
-        render ScanEye.new(variant: :filled)
+        render ScanEye.new(variant: :filled, **attrs)
       end
     end
   end

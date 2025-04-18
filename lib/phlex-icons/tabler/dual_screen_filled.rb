@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DualScreenFilled < Base
       def view_template
-        render DualScreen.new(variant: :filled)
+        render DualScreen.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockXFilled < Base
       def view_template
-        render ClockX.new(variant: :filled)
+        render ClockX.new(variant: :filled, **attrs)
       end
     end
   end

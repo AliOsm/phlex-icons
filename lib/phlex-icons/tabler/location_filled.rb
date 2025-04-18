@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationFilled < Base
       def view_template
-        render Location.new(variant: :filled)
+        render Location.new(variant: :filled, **attrs)
       end
     end
   end

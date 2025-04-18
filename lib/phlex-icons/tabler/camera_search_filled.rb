@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraSearchFilled < Base
       def view_template
-        render CameraSearch.new(variant: :filled)
+        render CameraSearch.new(variant: :filled, **attrs)
       end
     end
   end

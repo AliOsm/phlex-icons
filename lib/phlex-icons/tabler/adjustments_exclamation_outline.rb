@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsExclamationOutline < Base
       def view_template
-        render AdjustmentsExclamation.new(variant: :outline)
+        render AdjustmentsExclamation.new(variant: :outline, **attrs)
       end
     end
   end

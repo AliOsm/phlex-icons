@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BookmarksOffOutline < Base
       def view_template
-        render BookmarksOff.new(variant: :outline)
+        render BookmarksOff.new(variant: :outline, **attrs)
       end
     end
   end

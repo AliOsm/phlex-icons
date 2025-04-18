@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CornerRightDownDoubleOutline < Base
       def view_template
-        render CornerRightDownDouble.new(variant: :outline)
+        render CornerRightDownDouble.new(variant: :outline, **attrs)
       end
     end
   end

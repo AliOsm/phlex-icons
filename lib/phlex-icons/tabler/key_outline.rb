@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyOutline < Base
       def view_template
-        render Key.new(variant: :outline)
+        render Key.new(variant: :outline, **attrs)
       end
     end
   end

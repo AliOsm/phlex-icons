@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GuitarPickOutline < Base
       def view_template
-        render GuitarPick.new(variant: :outline)
+        render GuitarPick.new(variant: :outline, **attrs)
       end
     end
   end

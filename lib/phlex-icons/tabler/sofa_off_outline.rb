@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SofaOffOutline < Base
       def view_template
-        render SofaOff.new(variant: :outline)
+        render SofaOff.new(variant: :outline, **attrs)
       end
     end
   end

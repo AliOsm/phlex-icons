@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ServicemarkFilled < Base
       def view_template
-        render Servicemark.new(variant: :filled)
+        render Servicemark.new(variant: :filled, **attrs)
       end
     end
   end

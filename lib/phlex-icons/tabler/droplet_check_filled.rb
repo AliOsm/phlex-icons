@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropletCheckFilled < Base
       def view_template
-        render DropletCheck.new(variant: :filled)
+        render DropletCheck.new(variant: :filled, **attrs)
       end
     end
   end

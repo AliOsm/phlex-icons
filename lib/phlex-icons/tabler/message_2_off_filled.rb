@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2OffFilled < Base
       def view_template
-        render Message2Off.new(variant: :filled)
+        render Message2Off.new(variant: :filled, **attrs)
       end
     end
   end

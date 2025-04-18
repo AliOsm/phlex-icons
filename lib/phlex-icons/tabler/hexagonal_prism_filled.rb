@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HexagonalPrismFilled < Base
       def view_template
-        render HexagonalPrism.new(variant: :filled)
+        render HexagonalPrism.new(variant: :filled, **attrs)
       end
     end
   end

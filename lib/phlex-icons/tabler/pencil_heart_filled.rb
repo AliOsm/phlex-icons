@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilHeartFilled < Base
       def view_template
-        render PencilHeart.new(variant: :filled)
+        render PencilHeart.new(variant: :filled, **attrs)
       end
     end
   end

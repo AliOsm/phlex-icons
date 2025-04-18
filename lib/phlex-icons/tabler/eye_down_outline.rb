@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeDownOutline < Base
       def view_template
-        render EyeDown.new(variant: :outline)
+        render EyeDown.new(variant: :outline, **attrs)
       end
     end
   end

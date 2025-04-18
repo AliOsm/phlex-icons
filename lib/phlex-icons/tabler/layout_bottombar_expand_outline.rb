@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutBottombarExpandOutline < Base
       def view_template
-        render LayoutBottombarExpand.new(variant: :outline)
+        render LayoutBottombarExpand.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsSearchOutline < Base
       def view_template
-        render AdjustmentsSearch.new(variant: :outline)
+        render AdjustmentsSearch.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFigmaFilled < Base
       def view_template
-        render BrandFigma.new(variant: :filled)
+        render BrandFigma.new(variant: :filled, **attrs)
       end
     end
   end

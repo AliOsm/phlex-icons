@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Ironing1Outline < Base
       def view_template
-        render Ironing1.new(variant: :outline)
+        render Ironing1.new(variant: :outline, **attrs)
       end
     end
   end

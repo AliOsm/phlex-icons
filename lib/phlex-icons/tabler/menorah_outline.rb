@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MenorahOutline < Base
       def view_template
-        render Menorah.new(variant: :outline)
+        render Menorah.new(variant: :outline, **attrs)
       end
     end
   end

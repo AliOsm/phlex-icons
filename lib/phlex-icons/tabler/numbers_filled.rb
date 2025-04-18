@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NumbersFilled < Base
       def view_template
-        render Numbers.new(variant: :filled)
+        render Numbers.new(variant: :filled, **attrs)
       end
     end
   end

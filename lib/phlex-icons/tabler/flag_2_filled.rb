@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Flag2Filled < Base
       def view_template
-        render Flag2.new(variant: :filled)
+        render Flag2.new(variant: :filled, **attrs)
       end
     end
   end

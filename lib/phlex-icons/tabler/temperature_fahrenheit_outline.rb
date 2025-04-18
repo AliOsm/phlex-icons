@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TemperatureFahrenheitOutline < Base
       def view_template
-        render TemperatureFahrenheit.new(variant: :outline)
+        render TemperatureFahrenheit.new(variant: :outline, **attrs)
       end
     end
   end

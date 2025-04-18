@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JoinRoundFilled < Base
       def view_template
-        render JoinRound.new(variant: :filled)
+        render JoinRound.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SwitchHorizontalFilled < Base
       def view_template
-        render SwitchHorizontal.new(variant: :filled)
+        render SwitchHorizontal.new(variant: :filled, **attrs)
       end
     end
   end

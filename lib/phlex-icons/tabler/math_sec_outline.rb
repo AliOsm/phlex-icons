@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathSecOutline < Base
       def view_template
-        render MathSec.new(variant: :outline)
+        render MathSec.new(variant: :outline, **attrs)
       end
     end
   end

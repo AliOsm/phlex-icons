@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ApiAppFilled < Base
       def view_template
-        render ApiApp.new(variant: :filled)
+        render ApiApp.new(variant: :filled, **attrs)
       end
     end
   end

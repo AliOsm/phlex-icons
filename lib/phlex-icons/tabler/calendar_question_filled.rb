@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CalendarQuestionFilled < Base
       def view_template
-        render CalendarQuestion.new(variant: :filled)
+        render CalendarQuestion.new(variant: :filled, **attrs)
       end
     end
   end

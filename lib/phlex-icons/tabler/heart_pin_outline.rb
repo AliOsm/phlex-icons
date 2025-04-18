@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartPinOutline < Base
       def view_template
-        render HeartPin.new(variant: :outline)
+        render HeartPin.new(variant: :outline, **attrs)
       end
     end
   end

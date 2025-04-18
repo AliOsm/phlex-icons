@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GitBranchFilled < Base
       def view_template
-        render GitBranch.new(variant: :filled)
+        render GitBranch.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodXdOutline < Base
       def view_template
-        render MoodXd.new(variant: :outline)
+        render MoodXd.new(variant: :outline, **attrs)
       end
     end
   end

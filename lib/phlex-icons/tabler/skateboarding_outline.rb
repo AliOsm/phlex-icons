@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SkateboardingOutline < Base
       def view_template
-        render Skateboarding.new(variant: :outline)
+        render Skateboarding.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandMessengerFilled < Base
       def view_template
-        render BrandMessenger.new(variant: :filled)
+        render BrandMessenger.new(variant: :filled, **attrs)
       end
     end
   end

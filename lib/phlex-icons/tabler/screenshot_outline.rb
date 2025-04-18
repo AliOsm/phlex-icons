@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScreenshotOutline < Base
       def view_template
-        render Screenshot.new(variant: :outline)
+        render Screenshot.new(variant: :outline, **attrs)
       end
     end
   end

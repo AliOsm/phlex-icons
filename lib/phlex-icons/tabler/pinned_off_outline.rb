@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PinnedOffOutline < Base
       def view_template
-        render PinnedOff.new(variant: :outline)
+        render PinnedOff.new(variant: :outline, **attrs)
       end
     end
   end

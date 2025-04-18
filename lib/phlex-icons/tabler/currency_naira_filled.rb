@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyNairaFilled < Base
       def view_template
-        render CurrencyNaira.new(variant: :filled)
+        render CurrencyNaira.new(variant: :filled, **attrs)
       end
     end
   end

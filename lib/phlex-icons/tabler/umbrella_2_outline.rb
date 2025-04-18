@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Umbrella2Outline < Base
       def view_template
-        render Umbrella2.new(variant: :outline)
+        render Umbrella2.new(variant: :outline, **attrs)
       end
     end
   end

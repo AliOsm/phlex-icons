@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAsanaOutline < Base
       def view_template
-        render BrandAsana.new(variant: :outline)
+        render BrandAsana.new(variant: :outline, **attrs)
       end
     end
   end

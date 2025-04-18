@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleDashedCheckFilled < Base
       def view_template
-        render CircleDashedCheck.new(variant: :filled)
+        render CircleDashedCheck.new(variant: :filled, **attrs)
       end
     end
   end

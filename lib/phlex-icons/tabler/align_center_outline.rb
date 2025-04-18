@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignCenterOutline < Base
       def view_template
-        render AlignCenter.new(variant: :outline)
+        render AlignCenter.new(variant: :outline, **attrs)
       end
     end
   end

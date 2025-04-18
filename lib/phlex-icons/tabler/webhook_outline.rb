@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WebhookOutline < Base
       def view_template
-        render Webhook.new(variant: :outline)
+        render Webhook.new(variant: :outline, **attrs)
       end
     end
   end

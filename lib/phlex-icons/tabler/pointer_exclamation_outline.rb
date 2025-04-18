@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerExclamationOutline < Base
       def view_template
-        render PointerExclamation.new(variant: :outline)
+        render PointerExclamation.new(variant: :outline, **attrs)
       end
     end
   end

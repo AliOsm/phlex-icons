@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandToyotaFilled < Base
       def view_template
-        render BrandToyota.new(variant: :filled)
+        render BrandToyota.new(variant: :filled, **attrs)
       end
     end
   end

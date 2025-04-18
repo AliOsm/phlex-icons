@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationHeartOutline < Base
       def view_template
-        render NavigationHeart.new(variant: :outline)
+        render NavigationHeart.new(variant: :outline, **attrs)
       end
     end
   end

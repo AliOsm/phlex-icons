@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Share3Filled < Base
       def view_template
-        render Share3.new(variant: :filled)
+        render Share3.new(variant: :filled, **attrs)
       end
     end
   end

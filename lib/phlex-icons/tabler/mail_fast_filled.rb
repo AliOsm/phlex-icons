@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailFastFilled < Base
       def view_template
-        render MailFast.new(variant: :filled)
+        render MailFast.new(variant: :filled, **attrs)
       end
     end
   end

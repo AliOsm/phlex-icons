@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OmegaFilled < Base
       def view_template
-        render Omega.new(variant: :filled)
+        render Omega.new(variant: :filled, **attrs)
       end
     end
   end

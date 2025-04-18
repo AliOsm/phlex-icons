@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderCancelOutline < Base
       def view_template
-        render FolderCancel.new(variant: :outline)
+        render FolderCancel.new(variant: :outline, **attrs)
       end
     end
   end

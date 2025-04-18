@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RotateClockwise2Filled < Base
       def view_template
-        render RotateClockwise2.new(variant: :filled)
+        render RotateClockwise2.new(variant: :filled, **attrs)
       end
     end
   end

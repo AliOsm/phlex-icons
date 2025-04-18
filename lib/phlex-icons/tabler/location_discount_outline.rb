@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationDiscountOutline < Base
       def view_template
-        render LocationDiscount.new(variant: :outline)
+        render LocationDiscount.new(variant: :outline, **attrs)
       end
     end
   end

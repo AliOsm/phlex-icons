@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeMinusFilled < Base
       def view_template
-        render HomeMinus.new(variant: :filled)
+        render HomeMinus.new(variant: :filled, **attrs)
       end
     end
   end

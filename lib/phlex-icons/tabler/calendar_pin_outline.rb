@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CalendarPinOutline < Base
       def view_template
-        render CalendarPin.new(variant: :outline)
+        render CalendarPin.new(variant: :outline, **attrs)
       end
     end
   end

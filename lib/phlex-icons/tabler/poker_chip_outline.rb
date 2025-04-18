@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PokerChipOutline < Base
       def view_template
-        render PokerChip.new(variant: :outline)
+        render PokerChip.new(variant: :outline, **attrs)
       end
     end
   end

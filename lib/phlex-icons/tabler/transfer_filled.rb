@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransferFilled < Base
       def view_template
-        render Transfer.new(variant: :filled)
+        render Transfer.new(variant: :filled, **attrs)
       end
     end
   end

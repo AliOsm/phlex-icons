@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CongruentToFilled < Base
       def view_template
-        render CongruentTo.new(variant: :filled)
+        render CongruentTo.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageCircleOffFilled < Base
       def view_template
-        render MessageCircleOff.new(variant: :filled)
+        render MessageCircleOff.new(variant: :filled, **attrs)
       end
     end
   end

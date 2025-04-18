@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutDashboardFilled < Base
       def view_template
-        render LayoutDashboard.new(variant: :filled)
+        render LayoutDashboard.new(variant: :filled, **attrs)
       end
     end
   end

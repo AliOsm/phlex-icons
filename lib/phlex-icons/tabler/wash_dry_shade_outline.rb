@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashDryShadeOutline < Base
       def view_template
-        render WashDryShade.new(variant: :outline)
+        render WashDryShade.new(variant: :outline, **attrs)
       end
     end
   end

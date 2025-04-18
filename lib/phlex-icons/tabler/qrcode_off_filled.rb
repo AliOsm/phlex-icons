@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class QrcodeOffFilled < Base
       def view_template
-        render QrcodeOff.new(variant: :filled)
+        render QrcodeOff.new(variant: :filled, **attrs)
       end
     end
   end

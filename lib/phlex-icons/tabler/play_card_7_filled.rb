@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayCard7Filled < Base
       def view_template
-        render PlayCard7.new(variant: :filled)
+        render PlayCard7.new(variant: :filled, **attrs)
       end
     end
   end

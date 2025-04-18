@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileSadFilled < Base
       def view_template
-        render FileSad.new(variant: :filled)
+        render FileSad.new(variant: :filled, **attrs)
       end
     end
   end

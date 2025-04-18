@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBackUpFilled < Base
       def view_template
-        render ArrowBackUp.new(variant: :filled)
+        render ArrowBackUp.new(variant: :filled, **attrs)
       end
     end
   end

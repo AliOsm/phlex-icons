@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareRoundedPercentageFilled < Base
       def view_template
-        render SquareRoundedPercentage.new(variant: :filled)
+        render SquareRoundedPercentage.new(variant: :filled, **attrs)
       end
     end
   end

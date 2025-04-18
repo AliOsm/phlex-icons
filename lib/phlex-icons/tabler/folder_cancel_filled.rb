@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderCancelFilled < Base
       def view_template
-        render FolderCancel.new(variant: :filled)
+        render FolderCancel.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CastOffFilled < Base
       def view_template
-        render CastOff.new(variant: :filled)
+        render CastOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraDollarFilled < Base
       def view_template
-        render CameraDollar.new(variant: :filled)
+        render CameraDollar.new(variant: :filled, **attrs)
       end
     end
   end

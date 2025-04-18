@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodCheckOutline < Base
       def view_template
-        render MoodCheck.new(variant: :outline)
+        render MoodCheck.new(variant: :outline, **attrs)
       end
     end
   end

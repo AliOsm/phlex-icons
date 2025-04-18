@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceSimOutline < Base
       def view_template
-        render DeviceSim.new(variant: :outline)
+        render DeviceSim.new(variant: :outline, **attrs)
       end
     end
   end

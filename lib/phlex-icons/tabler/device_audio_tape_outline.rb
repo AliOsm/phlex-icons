@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceAudioTapeOutline < Base
       def view_template
-        render DeviceAudioTape.new(variant: :outline)
+        render DeviceAudioTape.new(variant: :outline, **attrs)
       end
     end
   end

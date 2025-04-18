@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyframeAlignCenterFilled < Base
       def view_template
-        render KeyframeAlignCenter.new(variant: :filled)
+        render KeyframeAlignCenter.new(variant: :filled, **attrs)
       end
     end
   end

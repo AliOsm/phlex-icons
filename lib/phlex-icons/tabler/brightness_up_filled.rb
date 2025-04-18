@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrightnessUpFilled < Base
       def view_template
-        render BrightnessUp.new(variant: :filled)
+        render BrightnessUp.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HammerOutline < Base
       def view_template
-        render Hammer.new(variant: :outline)
+        render Hammer.new(variant: :outline, **attrs)
       end
     end
   end

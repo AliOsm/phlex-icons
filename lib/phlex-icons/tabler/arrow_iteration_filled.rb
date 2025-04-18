@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowIterationFilled < Base
       def view_template
-        render ArrowIteration.new(variant: :filled)
+        render ArrowIteration.new(variant: :filled, **attrs)
       end
     end
   end

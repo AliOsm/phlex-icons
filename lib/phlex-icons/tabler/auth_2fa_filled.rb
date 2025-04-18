@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Auth2faFilled < Base
       def view_template
-        render Auth2fa.new(variant: :filled)
+        render Auth2fa.new(variant: :filled, **attrs)
       end
     end
   end

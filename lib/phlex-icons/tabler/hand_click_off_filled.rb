@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HandClickOffFilled < Base
       def view_template
-        render HandClickOff.new(variant: :filled)
+        render HandClickOff.new(variant: :filled, **attrs)
       end
     end
   end

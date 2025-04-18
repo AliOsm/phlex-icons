@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SumOffOutline < Base
       def view_template
-        render SumOff.new(variant: :outline)
+        render SumOff.new(variant: :outline, **attrs)
       end
     end
   end

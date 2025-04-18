@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2HeartOutline < Base
       def view_template
-        render Message2Heart.new(variant: :outline)
+        render Message2Heart.new(variant: :outline, **attrs)
       end
     end
   end

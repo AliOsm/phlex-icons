@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeRibbonOutline < Base
       def view_template
-        render HomeRibbon.new(variant: :outline)
+        render HomeRibbon.new(variant: :outline, **attrs)
       end
     end
   end

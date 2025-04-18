@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoBitcoinOutline < Base
       def view_template
-        render PhotoBitcoin.new(variant: :outline)
+        render PhotoBitcoin.new(variant: :outline, **attrs)
       end
     end
   end

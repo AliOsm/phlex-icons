@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MaximizeOffOutline < Base
       def view_template
-        render MaximizeOff.new(variant: :outline)
+        render MaximizeOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutRowsOutline < Base
       def view_template
-        render LayoutRows.new(variant: :outline)
+        render LayoutRows.new(variant: :outline, **attrs)
       end
     end
   end

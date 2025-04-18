@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodWink2Filled < Base
       def view_template
-        render MoodWink2.new(variant: :filled)
+        render MoodWink2.new(variant: :filled, **attrs)
       end
     end
   end

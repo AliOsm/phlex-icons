@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Rotate3dFilled < Base
       def view_template
-        render Rotate3d.new(variant: :filled)
+        render Rotate3d.new(variant: :filled, **attrs)
       end
     end
   end

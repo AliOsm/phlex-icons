@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EscalatorDownFilled < Base
       def view_template
-        render EscalatorDown.new(variant: :filled)
+        render EscalatorDown.new(variant: :filled, **attrs)
       end
     end
   end

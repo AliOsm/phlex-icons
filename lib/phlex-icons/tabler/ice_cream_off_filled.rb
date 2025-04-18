@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IceCreamOffFilled < Base
       def view_template
-        render IceCreamOff.new(variant: :filled)
+        render IceCreamOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPinShareOutline < Base
       def view_template
-        render MapPinShare.new(variant: :outline)
+        render MapPinShare.new(variant: :outline, **attrs)
       end
     end
   end

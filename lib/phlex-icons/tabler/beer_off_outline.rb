@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BeerOffOutline < Base
       def view_template
-        render BeerOff.new(variant: :outline)
+        render BeerOff.new(variant: :outline, **attrs)
       end
     end
   end

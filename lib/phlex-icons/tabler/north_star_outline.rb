@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NorthStarOutline < Base
       def view_template
-        render NorthStar.new(variant: :outline)
+        render NorthStar.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VectorTriangleOffFilled < Base
       def view_template
-        render VectorTriangleOff.new(variant: :filled)
+        render VectorTriangleOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodSadOutline < Base
       def view_template
-        render MoodSad.new(variant: :outline)
+        render MoodSad.new(variant: :outline, **attrs)
       end
     end
   end

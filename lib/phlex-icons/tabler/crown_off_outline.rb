@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrownOffOutline < Base
       def view_template
-        render CrownOff.new(variant: :outline)
+        render CrownOff.new(variant: :outline, **attrs)
       end
     end
   end

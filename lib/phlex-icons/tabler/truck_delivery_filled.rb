@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TruckDeliveryFilled < Base
       def view_template
-        render TruckDelivery.new(variant: :filled)
+        render TruckDelivery.new(variant: :filled, **attrs)
       end
     end
   end

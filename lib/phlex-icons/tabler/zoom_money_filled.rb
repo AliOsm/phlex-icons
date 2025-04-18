@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZoomMoneyFilled < Base
       def view_template
-        render ZoomMoney.new(variant: :filled)
+        render ZoomMoney.new(variant: :filled, **attrs)
       end
     end
   end

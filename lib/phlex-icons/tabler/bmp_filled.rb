@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BmpFilled < Base
       def view_template
-        render Bmp.new(variant: :filled)
+        render Bmp.new(variant: :filled, **attrs)
       end
     end
   end

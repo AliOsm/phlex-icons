@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldChevronFilled < Base
       def view_template
-        render ShieldChevron.new(variant: :filled)
+        render ShieldChevron.new(variant: :filled, **attrs)
       end
     end
   end

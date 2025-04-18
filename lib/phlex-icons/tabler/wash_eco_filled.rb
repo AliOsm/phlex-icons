@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashEcoFilled < Base
       def view_template
-        render WashEco.new(variant: :filled)
+        render WashEco.new(variant: :filled, **attrs)
       end
     end
   end

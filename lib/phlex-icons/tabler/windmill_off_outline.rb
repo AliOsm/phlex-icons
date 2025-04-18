@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WindmillOffOutline < Base
       def view_template
-        render WindmillOff.new(variant: :outline)
+        render WindmillOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCodepenOutline < Base
       def view_template
-        render BrandCodepen.new(variant: :outline)
+        render BrandCodepen.new(variant: :outline, **attrs)
       end
     end
   end

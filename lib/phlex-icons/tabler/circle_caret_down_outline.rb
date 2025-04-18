@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleCaretDownOutline < Base
       def view_template
-        render CircleCaretDown.new(variant: :outline)
+        render CircleCaretDown.new(variant: :outline, **attrs)
       end
     end
   end

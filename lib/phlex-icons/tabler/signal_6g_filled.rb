@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Signal6gFilled < Base
       def view_template
-        render Signal6g.new(variant: :filled)
+        render Signal6g.new(variant: :filled, **attrs)
       end
     end
   end

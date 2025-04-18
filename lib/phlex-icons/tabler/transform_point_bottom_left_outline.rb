@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransformPointBottomLeftOutline < Base
       def view_template
-        render TransformPointBottomLeft.new(variant: :outline)
+        render TransformPointBottomLeft.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBookingOutline < Base
       def view_template
-        render BrandBooking.new(variant: :outline)
+        render BrandBooking.new(variant: :outline, **attrs)
       end
     end
   end

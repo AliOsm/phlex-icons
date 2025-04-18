@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypeSqlOutline < Base
       def view_template
-        render FileTypeSql.new(variant: :outline)
+        render FileTypeSql.new(variant: :outline, **attrs)
       end
     end
   end

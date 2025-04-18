@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BugOffOutline < Base
       def view_template
-        render BugOff.new(variant: :outline)
+        render BugOff.new(variant: :outline, **attrs)
       end
     end
   end

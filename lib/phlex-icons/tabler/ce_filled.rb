@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CeFilled < Base
       def view_template
-        render Ce.new(variant: :filled)
+        render Ce.new(variant: :filled, **attrs)
       end
     end
   end

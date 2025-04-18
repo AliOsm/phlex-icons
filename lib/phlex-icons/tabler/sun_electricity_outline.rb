@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SunElectricityOutline < Base
       def view_template
-        render SunElectricity.new(variant: :outline)
+        render SunElectricity.new(variant: :outline, **attrs)
       end
     end
   end

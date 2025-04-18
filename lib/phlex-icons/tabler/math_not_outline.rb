@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathNotOutline < Base
       def view_template
-        render MathNot.new(variant: :outline)
+        render MathNot.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WritingSignOffOutline < Base
       def view_template
-        render WritingSignOff.new(variant: :outline)
+        render WritingSignOff.new(variant: :outline, **attrs)
       end
     end
   end

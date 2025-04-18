@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitResistorOutline < Base
       def view_template
-        render CircuitResistor.new(variant: :outline)
+        render CircuitResistor.new(variant: :outline, **attrs)
       end
     end
   end

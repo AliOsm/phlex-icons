@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneRingingOutline < Base
       def view_template
-        render PhoneRinging.new(variant: :outline)
+        render PhoneRinging.new(variant: :outline, **attrs)
       end
     end
   end

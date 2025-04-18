@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HttpOptionsOffOutline < Base
       def view_template
-        render HttpOptionsOff.new(variant: :outline)
+        render HttpOptionsOff.new(variant: :outline, **attrs)
       end
     end
   end

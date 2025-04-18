@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GenderGenderlessOutline < Base
       def view_template
-        render GenderGenderless.new(variant: :outline)
+        render GenderGenderless.new(variant: :outline, **attrs)
       end
     end
   end

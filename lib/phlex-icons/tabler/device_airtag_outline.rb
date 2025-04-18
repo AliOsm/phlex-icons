@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceAirtagOutline < Base
       def view_template
-        render DeviceAirtag.new(variant: :outline)
+        render DeviceAirtag.new(variant: :outline, **attrs)
       end
     end
   end

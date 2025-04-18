@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HazeMoonFilled < Base
       def view_template
-        render HazeMoon.new(variant: :filled)
+        render HazeMoon.new(variant: :filled, **attrs)
       end
     end
   end

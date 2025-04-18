@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HexagonPlusOutline < Base
       def view_template
-        render HexagonPlus.new(variant: :outline)
+        render HexagonPlus.new(variant: :outline, **attrs)
       end
     end
   end

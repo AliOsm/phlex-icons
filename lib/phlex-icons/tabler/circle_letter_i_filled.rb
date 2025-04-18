@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleLetterIFilled < Base
       def view_template
-        render CircleLetterI.new(variant: :filled)
+        render CircleLetterI.new(variant: :filled, **attrs)
       end
     end
   end

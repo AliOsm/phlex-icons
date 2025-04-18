@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandLinktreeOutline < Base
       def view_template
-        render BrandLinktree.new(variant: :outline)
+        render BrandLinktree.new(variant: :outline, **attrs)
       end
     end
   end

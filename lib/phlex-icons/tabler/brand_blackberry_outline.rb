@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBlackberryOutline < Base
       def view_template
-        render BrandBlackberry.new(variant: :outline)
+        render BrandBlackberry.new(variant: :outline, **attrs)
       end
     end
   end

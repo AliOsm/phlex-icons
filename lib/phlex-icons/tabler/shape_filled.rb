@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShapeFilled < Base
       def view_template
-        render Shape.new(variant: :filled)
+        render Shape.new(variant: :filled, **attrs)
       end
     end
   end

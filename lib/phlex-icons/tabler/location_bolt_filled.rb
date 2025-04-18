@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationBoltFilled < Base
       def view_template
-        render LocationBolt.new(variant: :filled)
+        render LocationBolt.new(variant: :filled, **attrs)
       end
     end
   end

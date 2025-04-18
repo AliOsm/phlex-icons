@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RegisteredFilled < Base
       def view_template
-        render Registered.new(variant: :filled)
+        render Registered.new(variant: :filled, **attrs)
       end
     end
   end

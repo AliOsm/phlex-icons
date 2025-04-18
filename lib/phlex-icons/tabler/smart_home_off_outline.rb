@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SmartHomeOffOutline < Base
       def view_template
-        render SmartHomeOff.new(variant: :outline)
+        render SmartHomeOff.new(variant: :outline, **attrs)
       end
     end
   end

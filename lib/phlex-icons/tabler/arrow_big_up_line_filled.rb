@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBigUpLineFilled < Base
       def view_template
-        render ArrowBigUpLine.new(variant: :filled)
+        render ArrowBigUpLine.new(variant: :filled, **attrs)
       end
     end
   end

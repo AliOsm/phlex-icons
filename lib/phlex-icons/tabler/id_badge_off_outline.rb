@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IdBadgeOffOutline < Base
       def view_template
-        render IdBadgeOff.new(variant: :outline)
+        render IdBadgeOff.new(variant: :outline, **attrs)
       end
     end
   end

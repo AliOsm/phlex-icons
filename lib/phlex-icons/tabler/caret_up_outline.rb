@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CaretUpOutline < Base
       def view_template
-        render CaretUp.new(variant: :outline)
+        render CaretUp.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GhostOffFilled < Base
       def view_template
-        render GhostOff.new(variant: :filled)
+        render GhostOff.new(variant: :filled, **attrs)
       end
     end
   end

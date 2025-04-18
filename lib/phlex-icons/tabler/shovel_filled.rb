@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShovelFilled < Base
       def view_template
-        render Shovel.new(variant: :filled)
+        render Shovel.new(variant: :filled, **attrs)
       end
     end
   end

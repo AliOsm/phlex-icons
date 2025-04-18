@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextureOutline < Base
       def view_template
-        render Texture.new(variant: :outline)
+        render Texture.new(variant: :outline, **attrs)
       end
     end
   end

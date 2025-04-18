@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PyramidPlusOutline < Base
       def view_template
-        render PyramidPlus.new(variant: :outline)
+        render PyramidPlus.new(variant: :outline, **attrs)
       end
     end
   end

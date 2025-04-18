@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpeakerphoneFilled < Base
       def view_template
-        render Speakerphone.new(variant: :filled)
+        render Speakerphone.new(variant: :filled, **attrs)
       end
     end
   end

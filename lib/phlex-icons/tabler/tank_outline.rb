@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TankOutline < Base
       def view_template
-        render Tank.new(variant: :outline)
+        render Tank.new(variant: :outline, **attrs)
       end
     end
   end

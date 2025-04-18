@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPauseOutline < Base
       def view_template
-        render MapPause.new(variant: :outline)
+        render MapPause.new(variant: :outline, **attrs)
       end
     end
   end

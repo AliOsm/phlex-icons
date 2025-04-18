@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypePngFilled < Base
       def view_template
-        render FileTypePng.new(variant: :filled)
+        render FileTypePng.new(variant: :filled, **attrs)
       end
     end
   end

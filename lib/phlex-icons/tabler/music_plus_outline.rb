@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MusicPlusOutline < Base
       def view_template
-        render MusicPlus.new(variant: :outline)
+        render MusicPlus.new(variant: :outline, **attrs)
       end
     end
   end

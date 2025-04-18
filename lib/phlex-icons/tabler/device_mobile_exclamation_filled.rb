@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobileExclamationFilled < Base
       def view_template
-        render DeviceMobileExclamation.new(variant: :filled)
+        render DeviceMobileExclamation.new(variant: :filled, **attrs)
       end
     end
   end

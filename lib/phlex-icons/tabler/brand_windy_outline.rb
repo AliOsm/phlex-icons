@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWindyOutline < Base
       def view_template
-        render BrandWindy.new(variant: :outline)
+        render BrandWindy.new(variant: :outline, **attrs)
       end
     end
   end

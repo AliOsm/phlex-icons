@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarouselHorizontalOutline < Base
       def view_template
-        render CarouselHorizontal.new(variant: :outline)
+        render CarouselHorizontal.new(variant: :outline, **attrs)
       end
     end
   end

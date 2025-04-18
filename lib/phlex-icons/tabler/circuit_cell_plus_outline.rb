@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitCellPlusOutline < Base
       def view_template
-        render CircuitCellPlus.new(variant: :outline)
+        render CircuitCellPlus.new(variant: :outline, **attrs)
       end
     end
   end

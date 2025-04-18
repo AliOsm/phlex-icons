@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudPinOutline < Base
       def view_template
-        render CloudPin.new(variant: :outline)
+        render CloudPin.new(variant: :outline, **attrs)
       end
     end
   end

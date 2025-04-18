@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TableDashedOutline < Base
       def view_template
-        render TableDashed.new(variant: :outline)
+        render TableDashed.new(variant: :outline, **attrs)
       end
     end
   end

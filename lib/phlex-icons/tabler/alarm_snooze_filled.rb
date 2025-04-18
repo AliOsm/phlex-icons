@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlarmSnoozeFilled < Base
       def view_template
-        render AlarmSnooze.new(variant: :filled)
+        render AlarmSnooze.new(variant: :filled, **attrs)
       end
     end
   end

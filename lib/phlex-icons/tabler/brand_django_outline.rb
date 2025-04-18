@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandDjangoOutline < Base
       def view_template
-        render BrandDjango.new(variant: :outline)
+        render BrandDjango.new(variant: :outline, **attrs)
       end
     end
   end

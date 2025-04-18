@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RulerMeasure2Filled < Base
       def view_template
-        render RulerMeasure2.new(variant: :filled)
+        render RulerMeasure2.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UnlinkOutline < Base
       def view_template
-        render Unlink.new(variant: :outline)
+        render Unlink.new(variant: :outline, **attrs)
       end
     end
   end

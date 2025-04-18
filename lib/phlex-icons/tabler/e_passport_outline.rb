@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EPassportOutline < Base
       def view_template
-        render EPassport.new(variant: :outline)
+        render EPassport.new(variant: :outline, **attrs)
       end
     end
   end

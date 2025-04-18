@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpyOutline < Base
       def view_template
-        render Spy.new(variant: :outline)
+        render Spy.new(variant: :outline, **attrs)
       end
     end
   end

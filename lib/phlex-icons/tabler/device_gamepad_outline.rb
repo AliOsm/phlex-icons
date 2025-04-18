@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceGamepadOutline < Base
       def view_template
-        render DeviceGamepad.new(variant: :outline)
+        render DeviceGamepad.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeadingOutline < Base
       def view_template
-        render Heading.new(variant: :outline)
+        render Heading.new(variant: :outline, **attrs)
       end
     end
   end

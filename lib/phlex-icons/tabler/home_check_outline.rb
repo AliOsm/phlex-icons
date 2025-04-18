@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeCheckOutline < Base
       def view_template
-        render HomeCheck.new(variant: :outline)
+        render HomeCheck.new(variant: :outline, **attrs)
       end
     end
   end

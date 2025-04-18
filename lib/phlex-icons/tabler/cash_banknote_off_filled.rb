@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CashBanknoteOffFilled < Base
       def view_template
-        render CashBanknoteOff.new(variant: :filled)
+        render CashBanknoteOff.new(variant: :filled, **attrs)
       end
     end
   end

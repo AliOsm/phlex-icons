@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationPlusOutline < Base
       def view_template
-        render LocationPlus.new(variant: :outline)
+        render LocationPlus.new(variant: :outline, **attrs)
       end
     end
   end

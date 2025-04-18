@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlarmOutline < Base
       def view_template
-        render Alarm.new(variant: :outline)
+        render Alarm.new(variant: :outline, **attrs)
       end
     end
   end

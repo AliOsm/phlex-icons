@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BodyScanOutline < Base
       def view_template
-        render BodyScan.new(variant: :outline)
+        render BodyScan.new(variant: :outline, **attrs)
       end
     end
   end

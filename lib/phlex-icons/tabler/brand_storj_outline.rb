@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandStorjOutline < Base
       def view_template
-        render BrandStorj.new(variant: :outline)
+        render BrandStorj.new(variant: :outline, **attrs)
       end
     end
   end

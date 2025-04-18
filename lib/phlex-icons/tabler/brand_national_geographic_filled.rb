@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandNationalGeographicFilled < Base
       def view_template
-        render BrandNationalGeographic.new(variant: :filled)
+        render BrandNationalGeographic.new(variant: :filled, **attrs)
       end
     end
   end

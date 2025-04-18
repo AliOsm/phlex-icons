@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CpuOffFilled < Base
       def view_template
-        render CpuOff.new(variant: :filled)
+        render CpuOff.new(variant: :filled, **attrs)
       end
     end
   end

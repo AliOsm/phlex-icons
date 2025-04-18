@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrowserCheckFilled < Base
       def view_template
-        render BrowserCheck.new(variant: :filled)
+        render BrowserCheck.new(variant: :filled, **attrs)
       end
     end
   end

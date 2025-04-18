@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LogicXnorFilled < Base
       def view_template
-        render LogicXnor.new(variant: :filled)
+        render LogicXnor.new(variant: :filled, **attrs)
       end
     end
   end

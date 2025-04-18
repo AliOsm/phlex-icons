@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StethoscopeFilled < Base
       def view_template
-        render Stethoscope.new(variant: :filled)
+        render Stethoscope.new(variant: :filled, **attrs)
       end
     end
   end

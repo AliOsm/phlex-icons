@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DoorOutline < Base
       def view_template
-        render Door.new(variant: :outline)
+        render Door.new(variant: :outline, **attrs)
       end
     end
   end

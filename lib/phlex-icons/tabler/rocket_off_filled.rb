@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RocketOffFilled < Base
       def view_template
-        render RocketOff.new(variant: :filled)
+        render RocketOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAngularFilled < Base
       def view_template
-        render BrandAngular.new(variant: :filled)
+        render BrandAngular.new(variant: :filled, **attrs)
       end
     end
   end

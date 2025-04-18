@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BusinessplanFilled < Base
       def view_template
-        render Businessplan.new(variant: :filled)
+        render Businessplan.new(variant: :filled, **attrs)
       end
     end
   end

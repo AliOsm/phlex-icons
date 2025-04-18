@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TomlFilled < Base
       def view_template
-        render Toml.new(variant: :filled)
+        render Toml.new(variant: :filled, **attrs)
       end
     end
   end

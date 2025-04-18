@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathMaxOutline < Base
       def view_template
-        render MathMax.new(variant: :outline)
+        render MathMax.new(variant: :outline, **attrs)
       end
     end
   end

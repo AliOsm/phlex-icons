@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GiftOffOutline < Base
       def view_template
-        render GiftOff.new(variant: :outline)
+        render GiftOff.new(variant: :outline, **attrs)
       end
     end
   end

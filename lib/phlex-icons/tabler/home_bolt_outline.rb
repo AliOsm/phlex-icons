@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeBoltOutline < Base
       def view_template
-        render HomeBolt.new(variant: :outline)
+        render HomeBolt.new(variant: :outline, **attrs)
       end
     end
   end

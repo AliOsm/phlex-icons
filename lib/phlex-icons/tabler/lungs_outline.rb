@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LungsOutline < Base
       def view_template
-        render Lungs.new(variant: :outline)
+        render Lungs.new(variant: :outline, **attrs)
       end
     end
   end

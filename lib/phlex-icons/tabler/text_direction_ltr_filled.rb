@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextDirectionLtrFilled < Base
       def view_template
-        render TextDirectionLtr.new(variant: :filled)
+        render TextDirectionLtr.new(variant: :filled, **attrs)
       end
     end
   end

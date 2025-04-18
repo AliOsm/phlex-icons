@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HammerFilled < Base
       def view_template
-        render Hammer.new(variant: :filled)
+        render Hammer.new(variant: :filled, **attrs)
       end
     end
   end

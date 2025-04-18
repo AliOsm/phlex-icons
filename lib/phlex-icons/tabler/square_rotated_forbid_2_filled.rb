@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareRotatedForbid2Filled < Base
       def view_template
-        render SquareRotatedForbid2.new(variant: :filled)
+        render SquareRotatedForbid2.new(variant: :filled, **attrs)
       end
     end
   end

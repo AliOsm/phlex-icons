@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayersSubtractOutline < Base
       def view_template
-        render LayersSubtract.new(variant: :outline)
+        render LayersSubtract.new(variant: :outline, **attrs)
       end
     end
   end

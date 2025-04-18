@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldCheckeredOutline < Base
       def view_template
-        render ShieldCheckered.new(variant: :outline)
+        render ShieldCheckered.new(variant: :outline, **attrs)
       end
     end
   end

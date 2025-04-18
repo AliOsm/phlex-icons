@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SeparatorVerticalFilled < Base
       def view_template
-        render SeparatorVertical.new(variant: :filled)
+        render SeparatorVertical.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AutomaticGearboxOutline < Base
       def view_template
-        render AutomaticGearbox.new(variant: :outline)
+        render AutomaticGearbox.new(variant: :outline, **attrs)
       end
     end
   end

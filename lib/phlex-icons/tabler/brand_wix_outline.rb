@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWixOutline < Base
       def view_template
-        render BrandWix.new(variant: :outline)
+        render BrandWix.new(variant: :outline, **attrs)
       end
     end
   end

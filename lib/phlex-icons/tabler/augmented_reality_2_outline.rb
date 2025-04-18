@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AugmentedReality2Outline < Base
       def view_template
-        render AugmentedReality2.new(variant: :outline)
+        render AugmentedReality2.new(variant: :outline, **attrs)
       end
     end
   end

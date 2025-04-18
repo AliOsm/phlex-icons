@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TagOutline < Base
       def view_template
-        render Tag.new(variant: :outline)
+        render Tag.new(variant: :outline, **attrs)
       end
     end
   end

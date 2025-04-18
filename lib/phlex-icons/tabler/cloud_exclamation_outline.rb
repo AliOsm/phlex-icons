@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudExclamationOutline < Base
       def view_template
-        render CloudExclamation.new(variant: :outline)
+        render CloudExclamation.new(variant: :outline, **attrs)
       end
     end
   end

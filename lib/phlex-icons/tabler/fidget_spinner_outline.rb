@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FidgetSpinnerOutline < Base
       def view_template
-        render FidgetSpinner.new(variant: :outline)
+        render FidgetSpinner.new(variant: :outline, **attrs)
       end
     end
   end

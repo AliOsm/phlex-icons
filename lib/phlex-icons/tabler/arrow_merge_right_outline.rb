@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowMergeRightOutline < Base
       def view_template
-        render ArrowMergeRight.new(variant: :outline)
+        render ArrowMergeRight.new(variant: :outline, **attrs)
       end
     end
   end

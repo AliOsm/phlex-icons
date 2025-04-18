@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PremiumRightsFilled < Base
       def view_template
-        render PremiumRights.new(variant: :filled)
+        render PremiumRights.new(variant: :filled, **attrs)
       end
     end
   end

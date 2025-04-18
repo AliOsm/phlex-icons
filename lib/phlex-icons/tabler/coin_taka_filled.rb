@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CoinTakaFilled < Base
       def view_template
-        render CoinTaka.new(variant: :filled)
+        render CoinTaka.new(variant: :filled, **attrs)
       end
     end
   end

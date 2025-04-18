@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarTurbineFilled < Base
       def view_template
-        render CarTurbine.new(variant: :filled)
+        render CarTurbine.new(variant: :filled, **attrs)
       end
     end
   end

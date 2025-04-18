@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodHappyFilled < Base
       def view_template
-        render MoodHappy.new(variant: :filled)
+        render MoodHappy.new(variant: :filled, **attrs)
       end
     end
   end

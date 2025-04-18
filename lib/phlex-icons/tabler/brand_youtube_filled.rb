@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandYoutubeFilled < Base
       def view_template
-        render BrandYoutube.new(variant: :filled)
+        render BrandYoutube.new(variant: :filled, **attrs)
       end
     end
   end

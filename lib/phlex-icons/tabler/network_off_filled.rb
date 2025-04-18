@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NetworkOffFilled < Base
       def view_template
-        render NetworkOff.new(variant: :filled)
+        render NetworkOff.new(variant: :filled, **attrs)
       end
     end
   end

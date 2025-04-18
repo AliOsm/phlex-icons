@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LogicNorOutline < Base
       def view_template
-        render LogicNor.new(variant: :outline)
+        render LogicNor.new(variant: :outline, **attrs)
       end
     end
   end

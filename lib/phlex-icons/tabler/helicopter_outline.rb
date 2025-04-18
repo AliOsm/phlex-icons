@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelicopterOutline < Base
       def view_template
-        render Helicopter.new(variant: :outline)
+        render Helicopter.new(variant: :outline, **attrs)
       end
     end
   end

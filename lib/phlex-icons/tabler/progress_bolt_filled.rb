@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ProgressBoltFilled < Base
       def view_template
-        render ProgressBolt.new(variant: :filled)
+        render ProgressBolt.new(variant: :filled, **attrs)
       end
     end
   end

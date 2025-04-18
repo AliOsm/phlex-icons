@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ThermometerOutline < Base
       def view_template
-        render Thermometer.new(variant: :outline)
+        render Thermometer.new(variant: :outline, **attrs)
       end
     end
   end

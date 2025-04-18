@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LassoOffOutline < Base
       def view_template
-        render LassoOff.new(variant: :outline)
+        render LassoOff.new(variant: :outline, **attrs)
       end
     end
   end

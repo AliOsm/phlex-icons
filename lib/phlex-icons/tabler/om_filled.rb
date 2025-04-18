@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OmFilled < Base
       def view_template
-        render Om.new(variant: :filled)
+        render Om.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PasswordFingerprintFilled < Base
       def view_template
-        render PasswordFingerprint.new(variant: :filled)
+        render PasswordFingerprint.new(variant: :filled, **attrs)
       end
     end
   end

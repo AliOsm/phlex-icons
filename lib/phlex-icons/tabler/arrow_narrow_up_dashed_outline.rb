@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowNarrowUpDashedOutline < Base
       def view_template
-        render ArrowNarrowUpDashed.new(variant: :outline)
+        render ArrowNarrowUpDashed.new(variant: :outline, **attrs)
       end
     end
   end

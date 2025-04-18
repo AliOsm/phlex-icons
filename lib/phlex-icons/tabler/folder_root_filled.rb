@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderRootFilled < Base
       def view_template
-        render FolderRoot.new(variant: :filled)
+        render FolderRoot.new(variant: :filled, **attrs)
       end
     end
   end

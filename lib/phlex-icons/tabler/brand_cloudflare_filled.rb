@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCloudflareFilled < Base
       def view_template
-        render BrandCloudflare.new(variant: :filled)
+        render BrandCloudflare.new(variant: :filled, **attrs)
       end
     end
   end

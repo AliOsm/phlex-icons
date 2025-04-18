@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CheeseOutline < Base
       def view_template
-        render Cheese.new(variant: :outline)
+        render Cheese.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HexagonLetterHOutline < Base
       def view_template
-        render HexagonLetterH.new(variant: :outline)
+        render HexagonLetterH.new(variant: :outline, **attrs)
       end
     end
   end

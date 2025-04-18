@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MedicineSyrupOutline < Base
       def view_template
-        render MedicineSyrup.new(variant: :outline)
+        render MedicineSyrup.new(variant: :outline, **attrs)
       end
     end
   end

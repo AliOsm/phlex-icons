@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrossOutline < Base
       def view_template
-        render Cross.new(variant: :outline)
+        render Cross.new(variant: :outline, **attrs)
       end
     end
   end

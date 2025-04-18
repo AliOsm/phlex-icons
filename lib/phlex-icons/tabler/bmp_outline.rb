@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BmpOutline < Base
       def view_template
-        render Bmp.new(variant: :outline)
+        render Bmp.new(variant: :outline, **attrs)
       end
     end
   end

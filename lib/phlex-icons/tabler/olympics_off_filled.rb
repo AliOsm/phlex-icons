@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OlympicsOffFilled < Base
       def view_template
-        render OlympicsOff.new(variant: :filled)
+        render OlympicsOff.new(variant: :filled, **attrs)
       end
     end
   end

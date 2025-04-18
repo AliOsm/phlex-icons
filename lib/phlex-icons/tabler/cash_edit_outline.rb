@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CashEditOutline < Base
       def view_template
-        render CashEdit.new(variant: :outline)
+        render CashEdit.new(variant: :outline, **attrs)
       end
     end
   end

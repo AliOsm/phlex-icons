@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeCancelOutline < Base
       def view_template
-        render EyeCancel.new(variant: :outline)
+        render EyeCancel.new(variant: :outline, **attrs)
       end
     end
   end

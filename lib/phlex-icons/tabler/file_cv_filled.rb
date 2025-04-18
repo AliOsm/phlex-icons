@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileCvFilled < Base
       def view_template
-        render FileCv.new(variant: :filled)
+        render FileCv.new(variant: :filled, **attrs)
       end
     end
   end

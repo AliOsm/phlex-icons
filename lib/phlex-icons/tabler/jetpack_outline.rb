@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JetpackOutline < Base
       def view_template
-        render Jetpack.new(variant: :outline)
+        render Jetpack.new(variant: :outline, **attrs)
       end
     end
   end

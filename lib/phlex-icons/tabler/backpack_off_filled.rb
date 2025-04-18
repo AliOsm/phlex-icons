@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BackpackOffFilled < Base
       def view_template
-        render BackpackOff.new(variant: :filled)
+        render BackpackOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathXFloorDivideYOutline < Base
       def view_template
-        render MathXFloorDivideY.new(variant: :outline)
+        render MathXFloorDivideY.new(variant: :outline, **attrs)
       end
     end
   end

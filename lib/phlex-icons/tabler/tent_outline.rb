@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TentOutline < Base
       def view_template
-        render Tent.new(variant: :outline)
+        render Tent.new(variant: :outline, **attrs)
       end
     end
   end

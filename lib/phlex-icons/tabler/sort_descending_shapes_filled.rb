@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SortDescendingShapesFilled < Base
       def view_template
-        render SortDescendingShapes.new(variant: :filled)
+        render SortDescendingShapes.new(variant: :filled, **attrs)
       end
     end
   end

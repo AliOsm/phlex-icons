@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowForkOutline < Base
       def view_template
-        render ArrowFork.new(variant: :outline)
+        render ArrowFork.new(variant: :outline, **attrs)
       end
     end
   end

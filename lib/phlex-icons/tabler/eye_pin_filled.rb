@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyePinFilled < Base
       def view_template
-        render EyePin.new(variant: :filled)
+        render EyePin.new(variant: :filled, **attrs)
       end
     end
   end

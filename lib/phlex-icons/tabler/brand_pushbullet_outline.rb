@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPushbulletOutline < Base
       def view_template
-        render BrandPushbullet.new(variant: :outline)
+        render BrandPushbullet.new(variant: :outline, **attrs)
       end
     end
   end

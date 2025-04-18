@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CopyrightOffFilled < Base
       def view_template
-        render CopyrightOff.new(variant: :filled)
+        render CopyrightOff.new(variant: :filled, **attrs)
       end
     end
   end

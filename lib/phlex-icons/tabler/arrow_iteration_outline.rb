@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowIterationOutline < Base
       def view_template
-        render ArrowIteration.new(variant: :outline)
+        render ArrowIteration.new(variant: :outline, **attrs)
       end
     end
   end

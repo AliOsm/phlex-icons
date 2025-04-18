@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingCommunityFilled < Base
       def view_template
-        render BuildingCommunity.new(variant: :filled)
+        render BuildingCommunity.new(variant: :filled, **attrs)
       end
     end
   end

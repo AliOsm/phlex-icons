@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClipboardTextOutline < Base
       def view_template
-        render ClipboardText.new(variant: :outline)
+        render ClipboardText.new(variant: :outline, **attrs)
       end
     end
   end

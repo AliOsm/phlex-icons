@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GifFilled < Base
       def view_template
-        render Gif.new(variant: :filled)
+        render Gif.new(variant: :filled, **attrs)
       end
     end
   end

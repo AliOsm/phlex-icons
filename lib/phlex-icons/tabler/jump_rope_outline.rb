@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JumpRopeOutline < Base
       def view_template
-        render JumpRope.new(variant: :outline)
+        render JumpRope.new(variant: :outline, **attrs)
       end
     end
   end

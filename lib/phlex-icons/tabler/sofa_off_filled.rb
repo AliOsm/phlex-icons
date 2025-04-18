@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SofaOffFilled < Base
       def view_template
-        render SofaOff.new(variant: :filled)
+        render SofaOff.new(variant: :filled, **attrs)
       end
     end
   end

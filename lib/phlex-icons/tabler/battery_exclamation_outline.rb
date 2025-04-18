@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BatteryExclamationOutline < Base
       def view_template
-        render BatteryExclamation.new(variant: :outline)
+        render BatteryExclamation.new(variant: :outline, **attrs)
       end
     end
   end

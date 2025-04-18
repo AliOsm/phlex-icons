@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGumroadFilled < Base
       def view_template
-        render BrandGumroad.new(variant: :filled)
+        render BrandGumroad.new(variant: :filled, **attrs)
       end
     end
   end

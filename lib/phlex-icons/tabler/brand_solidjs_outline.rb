@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSolidjsOutline < Base
       def view_template
-        render BrandSolidjs.new(variant: :outline)
+        render BrandSolidjs.new(variant: :outline, **attrs)
       end
     end
   end

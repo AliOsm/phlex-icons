@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HashOutline < Base
       def view_template
-        render Hash.new(variant: :outline)
+        render Hash.new(variant: :outline, **attrs)
       end
     end
   end

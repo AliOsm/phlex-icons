@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChevronsUpRightOutline < Base
       def view_template
-        render ChevronsUpRight.new(variant: :outline)
+        render ChevronsUpRight.new(variant: :outline, **attrs)
       end
     end
   end

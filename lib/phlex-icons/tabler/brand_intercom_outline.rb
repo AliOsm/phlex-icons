@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandIntercomOutline < Base
       def view_template
-        render BrandIntercom.new(variant: :outline)
+        render BrandIntercom.new(variant: :outline, **attrs)
       end
     end
   end

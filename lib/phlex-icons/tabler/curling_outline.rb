@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurlingOutline < Base
       def view_template
-        render Curling.new(variant: :outline)
+        render Curling.new(variant: :outline, **attrs)
       end
     end
   end

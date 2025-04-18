@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GitPullRequestDraftFilled < Base
       def view_template
-        render GitPullRequestDraft.new(variant: :filled)
+        render GitPullRequestDraft.new(variant: :filled, **attrs)
       end
     end
   end

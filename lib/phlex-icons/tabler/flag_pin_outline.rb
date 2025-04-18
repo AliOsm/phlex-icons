@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagPinOutline < Base
       def view_template
-        render FlagPin.new(variant: :outline)
+        render FlagPin.new(variant: :outline, **attrs)
       end
     end
   end

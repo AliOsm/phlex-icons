@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VacuumCleanerOutline < Base
       def view_template
-        render VacuumCleaner.new(variant: :outline)
+        render VacuumCleaner.new(variant: :outline, **attrs)
       end
     end
   end

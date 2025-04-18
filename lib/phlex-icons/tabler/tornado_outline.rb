@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TornadoOutline < Base
       def view_template
-        render Tornado.new(variant: :outline)
+        render Tornado.new(variant: :outline, **attrs)
       end
     end
   end

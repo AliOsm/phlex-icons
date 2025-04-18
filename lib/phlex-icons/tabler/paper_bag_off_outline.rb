@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PaperBagOffOutline < Base
       def view_template
-        render PaperBagOff.new(variant: :outline)
+        render PaperBagOff.new(variant: :outline, **attrs)
       end
     end
   end

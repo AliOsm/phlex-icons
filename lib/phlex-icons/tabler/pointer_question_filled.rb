@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerQuestionFilled < Base
       def view_template
-        render PointerQuestion.new(variant: :filled)
+        render PointerQuestion.new(variant: :filled, **attrs)
       end
     end
   end

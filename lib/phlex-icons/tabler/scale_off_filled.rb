@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScaleOffFilled < Base
       def view_template
-        render ScaleOff.new(variant: :filled)
+        render ScaleOff.new(variant: :filled, **attrs)
       end
     end
   end

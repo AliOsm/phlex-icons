@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrutchesFilled < Base
       def view_template
-        render Crutches.new(variant: :filled)
+        render Crutches.new(variant: :filled, **attrs)
       end
     end
   end

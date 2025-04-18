@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GlobeOutline < Base
       def view_template
-        render Globe.new(variant: :outline)
+        render Globe.new(variant: :outline, **attrs)
       end
     end
   end

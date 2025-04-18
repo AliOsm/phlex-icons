@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CirclesOutline < Base
       def view_template
-        render Circles.new(variant: :outline)
+        render Circles.new(variant: :outline, **attrs)
       end
     end
   end

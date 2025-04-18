@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MedicineSyrupFilled < Base
       def view_template
-        render MedicineSyrup.new(variant: :filled)
+        render MedicineSyrup.new(variant: :filled, **attrs)
       end
     end
   end

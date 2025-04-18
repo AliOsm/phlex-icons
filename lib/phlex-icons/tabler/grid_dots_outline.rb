@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GridDotsOutline < Base
       def view_template
-        render GridDots.new(variant: :outline)
+        render GridDots.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Number93SmallOutline < Base
       def view_template
-        render Number93Small.new(variant: :outline)
+        render Number93Small.new(variant: :outline, **attrs)
       end
     end
   end

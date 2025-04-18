@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeHeartOutline < Base
       def view_template
-        render HomeHeart.new(variant: :outline)
+        render HomeHeart.new(variant: :outline, **attrs)
       end
     end
   end

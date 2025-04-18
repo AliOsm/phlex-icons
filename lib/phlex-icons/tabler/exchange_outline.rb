@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ExchangeOutline < Base
       def view_template
-        render Exchange.new(variant: :outline)
+        render Exchange.new(variant: :outline, **attrs)
       end
     end
   end

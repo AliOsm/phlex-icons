@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BombFilled < Base
       def view_template
-        render Bomb.new(variant: :filled)
+        render Bomb.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlipFlopsOutline < Base
       def view_template
-        render FlipFlops.new(variant: :outline)
+        render FlipFlops.new(variant: :outline, **attrs)
       end
     end
   end

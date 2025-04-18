@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TieOutline < Base
       def view_template
-        render Tie.new(variant: :outline)
+        render Tie.new(variant: :outline, **attrs)
       end
     end
   end

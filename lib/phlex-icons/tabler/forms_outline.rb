@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FormsOutline < Base
       def view_template
-        render Forms.new(variant: :outline)
+        render Forms.new(variant: :outline, **attrs)
       end
     end
   end

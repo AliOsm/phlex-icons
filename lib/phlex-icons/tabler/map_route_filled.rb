@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapRouteFilled < Base
       def view_template
-        render MapRoute.new(variant: :filled)
+        render MapRoute.new(variant: :filled, **attrs)
       end
     end
   end

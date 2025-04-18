@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleDashedNumber2Filled < Base
       def view_template
-        render CircleDashedNumber2.new(variant: :filled)
+        render CircleDashedNumber2.new(variant: :filled, **attrs)
       end
     end
   end

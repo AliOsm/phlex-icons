@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockPinOutline < Base
       def view_template
-        render LockPin.new(variant: :outline)
+        render LockPin.new(variant: :outline, **attrs)
       end
     end
   end

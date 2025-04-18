@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPinCheckOutline < Base
       def view_template
-        render MapPinCheck.new(variant: :outline)
+        render MapPinCheck.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PicnicTableOutline < Base
       def view_template
-        render PicnicTable.new(variant: :outline)
+        render PicnicTable.new(variant: :outline, **attrs)
       end
     end
   end

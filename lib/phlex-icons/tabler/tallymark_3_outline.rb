@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Tallymark3Outline < Base
       def view_template
-        render Tallymark3.new(variant: :outline)
+        render Tallymark3.new(variant: :outline, **attrs)
       end
     end
   end

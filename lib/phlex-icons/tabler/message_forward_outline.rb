@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageForwardOutline < Base
       def view_template
-        render MessageForward.new(variant: :outline)
+        render MessageForward.new(variant: :outline, **attrs)
       end
     end
   end

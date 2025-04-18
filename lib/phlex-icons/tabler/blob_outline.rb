@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BlobOutline < Base
       def view_template
-        render Blob.new(variant: :outline)
+        render Blob.new(variant: :outline, **attrs)
       end
     end
   end

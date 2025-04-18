@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderStarFilled < Base
       def view_template
-        render FolderStar.new(variant: :filled)
+        render FolderStar.new(variant: :filled, **attrs)
       end
     end
   end

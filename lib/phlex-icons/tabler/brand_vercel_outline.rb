@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandVercelOutline < Base
       def view_template
-        render BrandVercel.new(variant: :outline)
+        render BrandVercel.new(variant: :outline, **attrs)
       end
     end
   end

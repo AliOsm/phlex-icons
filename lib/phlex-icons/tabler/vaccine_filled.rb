@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VaccineFilled < Base
       def view_template
-        render Vaccine.new(variant: :filled)
+        render Vaccine.new(variant: :filled, **attrs)
       end
     end
   end

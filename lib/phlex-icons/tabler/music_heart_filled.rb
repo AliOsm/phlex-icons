@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MusicHeartFilled < Base
       def view_template
-        render MusicHeart.new(variant: :filled)
+        render MusicHeart.new(variant: :filled, **attrs)
       end
     end
   end

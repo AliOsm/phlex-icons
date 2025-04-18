@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailPauseOutline < Base
       def view_template
-        render MailPause.new(variant: :outline)
+        render MailPause.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZodiacLeoFilled < Base
       def view_template
-        render ZodiacLeo.new(variant: :filled)
+        render ZodiacLeo.new(variant: :filled, **attrs)
       end
     end
   end

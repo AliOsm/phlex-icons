@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BasketPinOutline < Base
       def view_template
-        render BasketPin.new(variant: :outline)
+        render BasketPin.new(variant: :outline, **attrs)
       end
     end
   end

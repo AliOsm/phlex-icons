@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsDiagonalMinimizeOutline < Base
       def view_template
-        render ArrowsDiagonalMinimize.new(variant: :outline)
+        render ArrowsDiagonalMinimize.new(variant: :outline, **attrs)
       end
     end
   end

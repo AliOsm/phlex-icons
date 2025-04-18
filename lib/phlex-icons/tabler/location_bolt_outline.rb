@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationBoltOutline < Base
       def view_template
-        render LocationBolt.new(variant: :outline)
+        render LocationBolt.new(variant: :outline, **attrs)
       end
     end
   end

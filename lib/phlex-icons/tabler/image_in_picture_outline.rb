@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ImageInPictureOutline < Base
       def view_template
-        render ImageInPicture.new(variant: :outline)
+        render ImageInPicture.new(variant: :outline, **attrs)
       end
     end
   end

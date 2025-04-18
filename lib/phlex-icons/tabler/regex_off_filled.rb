@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RegexOffFilled < Base
       def view_template
-        render RegexOff.new(variant: :filled)
+        render RegexOff.new(variant: :filled, **attrs)
       end
     end
   end

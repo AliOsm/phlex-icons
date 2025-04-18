@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Lemon2Filled < Base
       def view_template
-        render Lemon2.new(variant: :filled)
+        render Lemon2.new(variant: :filled, **attrs)
       end
     end
   end

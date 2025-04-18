@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShipOutline < Base
       def view_template
-        render Ship.new(variant: :outline)
+        render Ship.new(variant: :outline, **attrs)
       end
     end
   end

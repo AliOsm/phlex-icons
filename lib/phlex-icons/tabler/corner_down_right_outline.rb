@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CornerDownRightOutline < Base
       def view_template
-        render CornerDownRight.new(variant: :outline)
+        render CornerDownRight.new(variant: :outline, **attrs)
       end
     end
   end

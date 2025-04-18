@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HandOffFilled < Base
       def view_template
-        render HandOff.new(variant: :filled)
+        render HandOff.new(variant: :filled, **attrs)
       end
     end
   end
