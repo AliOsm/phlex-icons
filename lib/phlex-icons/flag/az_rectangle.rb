@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class AzRectangle < Base
       def view_template
-        render Az.new(variant: :rectangle)
+        render Az.new(variant: :rectangle, **attrs)
       end
     end
   end

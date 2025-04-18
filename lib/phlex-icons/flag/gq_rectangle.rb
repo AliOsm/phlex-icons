@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class GqRectangle < Base
       def view_template
-        render Gq.new(variant: :rectangle)
+        render Gq.new(variant: :rectangle, **attrs)
       end
     end
   end

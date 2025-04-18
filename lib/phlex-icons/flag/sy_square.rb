@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class SySquare < Base
       def view_template
-        render Sy.new(variant: :square)
+        render Sy.new(variant: :square, **attrs)
       end
     end
   end

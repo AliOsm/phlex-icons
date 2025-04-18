@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class IrRectangle < Base
       def view_template
-        render Ir.new(variant: :rectangle)
+        render Ir.new(variant: :rectangle, **attrs)
       end
     end
   end

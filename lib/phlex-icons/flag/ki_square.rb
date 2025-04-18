@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class KiSquare < Base
       def view_template
-        render Ki.new(variant: :square)
+        render Ki.new(variant: :square, **attrs)
       end
     end
   end

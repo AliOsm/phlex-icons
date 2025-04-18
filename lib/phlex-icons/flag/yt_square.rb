@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class YtSquare < Base
       def view_template
-        render Yt.new(variant: :square)
+        render Yt.new(variant: :square, **attrs)
       end
     end
   end

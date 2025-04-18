@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class GpSquare < Base
       def view_template
-        render Gp.new(variant: :square)
+        render Gp.new(variant: :square, **attrs)
       end
     end
   end

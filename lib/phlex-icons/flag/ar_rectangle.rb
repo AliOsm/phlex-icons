@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class ArRectangle < Base
       def view_template
-        render Ar.new(variant: :rectangle)
+        render Ar.new(variant: :rectangle, **attrs)
       end
     end
   end

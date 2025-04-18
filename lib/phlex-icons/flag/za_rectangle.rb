@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class ZaRectangle < Base
       def view_template
-        render Za.new(variant: :rectangle)
+        render Za.new(variant: :rectangle, **attrs)
       end
     end
   end

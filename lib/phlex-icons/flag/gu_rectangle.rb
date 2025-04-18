@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class GuRectangle < Base
       def view_template
-        render Gu.new(variant: :rectangle)
+        render Gu.new(variant: :rectangle, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class DjRectangle < Base
       def view_template
-        render Dj.new(variant: :rectangle)
+        render Dj.new(variant: :rectangle, **attrs)
       end
     end
   end

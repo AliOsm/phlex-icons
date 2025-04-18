@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class UmRectangle < Base
       def view_template
-        render Um.new(variant: :rectangle)
+        render Um.new(variant: :rectangle, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class EtRectangle < Base
       def view_template
-        render Et.new(variant: :rectangle)
+        render Et.new(variant: :rectangle, **attrs)
       end
     end
   end

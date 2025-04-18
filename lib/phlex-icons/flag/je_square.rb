@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class JeSquare < Base
       def view_template
-        render Je.new(variant: :square)
+        render Je.new(variant: :square, **attrs)
       end
     end
   end

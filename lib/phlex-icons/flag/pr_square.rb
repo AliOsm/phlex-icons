@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class PrSquare < Base
       def view_template
-        render Pr.new(variant: :square)
+        render Pr.new(variant: :square, **attrs)
       end
     end
   end

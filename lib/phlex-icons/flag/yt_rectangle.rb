@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class YtRectangle < Base
       def view_template
-        render Yt.new(variant: :rectangle)
+        render Yt.new(variant: :rectangle, **attrs)
       end
     end
   end

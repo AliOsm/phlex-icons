@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class QaRectangle < Base
       def view_template
-        render Qa.new(variant: :rectangle)
+        render Qa.new(variant: :rectangle, **attrs)
       end
     end
   end

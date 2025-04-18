@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class KmSquare < Base
       def view_template
-        render Km.new(variant: :square)
+        render Km.new(variant: :square, **attrs)
       end
     end
   end

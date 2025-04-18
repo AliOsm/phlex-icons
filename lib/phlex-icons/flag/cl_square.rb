@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class ClSquare < Base
       def view_template
-        render Cl.new(variant: :square)
+        render Cl.new(variant: :square, **attrs)
       end
     end
   end

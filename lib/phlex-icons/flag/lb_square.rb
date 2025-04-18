@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class LbSquare < Base
       def view_template
-        render Lb.new(variant: :square)
+        render Lb.new(variant: :square, **attrs)
       end
     end
   end

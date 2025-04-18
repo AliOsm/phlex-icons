@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class UgSquare < Base
       def view_template
-        render Ug.new(variant: :square)
+        render Ug.new(variant: :square, **attrs)
       end
     end
   end

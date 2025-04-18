@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class KgRectangle < Base
       def view_template
-        render Kg.new(variant: :rectangle)
+        render Kg.new(variant: :rectangle, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class GbEngSquare < Base
       def view_template
-        render GbEng.new(variant: :square)
+        render GbEng.new(variant: :square, **attrs)
       end
     end
   end

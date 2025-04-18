@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class MoRectangle < Base
       def view_template
-        render Mo.new(variant: :rectangle)
+        render Mo.new(variant: :rectangle, **attrs)
       end
     end
   end

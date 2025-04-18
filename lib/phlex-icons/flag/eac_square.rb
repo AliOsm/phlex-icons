@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class EacSquare < Base
       def view_template
-        render Eac.new(variant: :square)
+        render Eac.new(variant: :square, **attrs)
       end
     end
   end
