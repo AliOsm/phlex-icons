@@ -14,8 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.rect(width: '20', height: '12', x: '2', y: '6', rx: '6', ry: '6')
-          s.circle(cx: '8', cy: '12', r: '2')
+          s.circle(cx: '9', cy: '12', r: '3')
+          s.rect(width: '20', height: '14', x: '2', y: '5', rx: '7')
         end
       end
     end
