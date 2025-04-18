@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileVectorOutline < Base
       def view_template
-        render FileVector.new(variant: :outline)
+        render FileVector.new(variant: :outline, **attrs)
       end
     end
   end

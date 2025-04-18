@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CalendarDueOutline < Base
       def view_template
-        render CalendarDue.new(variant: :outline)
+        render CalendarDue.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceTabletDownFilled < Base
       def view_template
-        render DeviceTabletDown.new(variant: :filled)
+        render DeviceTabletDown.new(variant: :filled, **attrs)
       end
     end
   end

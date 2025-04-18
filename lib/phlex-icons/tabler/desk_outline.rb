@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeskOutline < Base
       def view_template
-        render Desk.new(variant: :outline)
+        render Desk.new(variant: :outline, **attrs)
       end
     end
   end

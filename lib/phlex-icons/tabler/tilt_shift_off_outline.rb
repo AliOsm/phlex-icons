@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TiltShiftOffOutline < Base
       def view_template
-        render TiltShiftOff.new(variant: :outline)
+        render TiltShiftOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Disabled2Filled < Base
       def view_template
-        render Disabled2.new(variant: :filled)
+        render Disabled2.new(variant: :filled, **attrs)
       end
     end
   end

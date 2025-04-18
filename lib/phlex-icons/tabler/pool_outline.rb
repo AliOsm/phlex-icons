@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PoolOutline < Base
       def view_template
-        render Pool.new(variant: :outline)
+        render Pool.new(variant: :outline, **attrs)
       end
     end
   end

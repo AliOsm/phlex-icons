@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VideoOutline < Base
       def view_template
-        render Video.new(variant: :outline)
+        render Video.new(variant: :outline, **attrs)
       end
     end
   end

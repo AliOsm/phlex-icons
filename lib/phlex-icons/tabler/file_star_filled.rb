@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileStarFilled < Base
       def view_template
-        render FileStar.new(variant: :filled)
+        render FileStar.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HttpConnectOffFilled < Base
       def view_template
-        render HttpConnectOff.new(variant: :filled)
+        render HttpConnectOff.new(variant: :filled, **attrs)
       end
     end
   end

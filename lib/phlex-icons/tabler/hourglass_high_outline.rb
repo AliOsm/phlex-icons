@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HourglassHighOutline < Base
       def view_template
-        render HourglassHigh.new(variant: :outline)
+        render HourglassHigh.new(variant: :outline, **attrs)
       end
     end
   end

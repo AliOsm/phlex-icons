@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadHorizontalCogFilled < Base
       def view_template
-        render DeviceIpadHorizontalCog.new(variant: :filled)
+        render DeviceIpadHorizontalCog.new(variant: :filled, **attrs)
       end
     end
   end

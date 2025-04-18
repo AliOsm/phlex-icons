@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BetaFilled < Base
       def view_template
-        render Beta.new(variant: :filled)
+        render Beta.new(variant: :filled, **attrs)
       end
     end
   end

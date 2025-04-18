@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderExclamationOutline < Base
       def view_template
-        render FolderExclamation.new(variant: :outline)
+        render FolderExclamation.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PokeballFilled < Base
       def view_template
-        render Pokeball.new(variant: :filled)
+        render Pokeball.new(variant: :filled, **attrs)
       end
     end
   end

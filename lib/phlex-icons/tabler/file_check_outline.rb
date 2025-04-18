@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileCheckOutline < Base
       def view_template
-        render FileCheck.new(variant: :outline)
+        render FileCheck.new(variant: :outline, **attrs)
       end
     end
   end

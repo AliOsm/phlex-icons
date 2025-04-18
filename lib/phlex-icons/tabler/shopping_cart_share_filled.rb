@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoppingCartShareFilled < Base
       def view_template
-        render ShoppingCartShare.new(variant: :filled)
+        render ShoppingCartShare.new(variant: :filled, **attrs)
       end
     end
   end

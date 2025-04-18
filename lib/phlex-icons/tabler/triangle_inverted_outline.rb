@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TriangleInvertedOutline < Base
       def view_template
-        render TriangleInverted.new(variant: :outline)
+        render TriangleInverted.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ServerOffFilled < Base
       def view_template
-        render ServerOff.new(variant: :filled)
+        render ServerOff.new(variant: :filled, **attrs)
       end
     end
   end

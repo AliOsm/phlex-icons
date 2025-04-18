@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldOffOutline < Base
       def view_template
-        render ShieldOff.new(variant: :outline)
+        render ShieldOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBilibiliFilled < Base
       def view_template
-        render BrandBilibili.new(variant: :filled)
+        render BrandBilibili.new(variant: :filled, **attrs)
       end
     end
   end

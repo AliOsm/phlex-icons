@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PinnedOffFilled < Base
       def view_template
-        render PinnedOff.new(variant: :filled)
+        render PinnedOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CellSignal3Outline < Base
       def view_template
-        render CellSignal3.new(variant: :outline)
+        render CellSignal3.new(variant: :outline, **attrs)
       end
     end
   end

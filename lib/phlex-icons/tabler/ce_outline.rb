@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CeOutline < Base
       def view_template
-        render Ce.new(variant: :outline)
+        render Ce.new(variant: :outline, **attrs)
       end
     end
   end

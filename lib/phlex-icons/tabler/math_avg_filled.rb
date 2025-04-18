@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathAvgFilled < Base
       def view_template
-        render MathAvg.new(variant: :filled)
+        render MathAvg.new(variant: :filled, **attrs)
       end
     end
   end

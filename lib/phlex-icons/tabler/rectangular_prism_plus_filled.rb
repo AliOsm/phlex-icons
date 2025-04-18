@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RectangularPrismPlusFilled < Base
       def view_template
-        render RectangularPrismPlus.new(variant: :filled)
+        render RectangularPrismPlus.new(variant: :filled, **attrs)
       end
     end
   end

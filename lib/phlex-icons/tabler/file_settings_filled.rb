@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileSettingsFilled < Base
       def view_template
-        render FileSettings.new(variant: :filled)
+        render FileSettings.new(variant: :filled, **attrs)
       end
     end
   end

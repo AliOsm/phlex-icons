@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapDiscountFilled < Base
       def view_template
-        render MapDiscount.new(variant: :filled)
+        render MapDiscount.new(variant: :filled, **attrs)
       end
     end
   end

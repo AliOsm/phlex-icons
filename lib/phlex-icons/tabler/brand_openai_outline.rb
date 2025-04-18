@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandOpenaiOutline < Base
       def view_template
-        render BrandOpenai.new(variant: :outline)
+        render BrandOpenai.new(variant: :outline, **attrs)
       end
     end
   end

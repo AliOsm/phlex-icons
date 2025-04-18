@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartColumnOutline < Base
       def view_template
-        render ChartColumn.new(variant: :outline)
+        render ChartColumn.new(variant: :outline, **attrs)
       end
     end
   end

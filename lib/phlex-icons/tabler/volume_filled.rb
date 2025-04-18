@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VolumeFilled < Base
       def view_template
-        render Volume.new(variant: :filled)
+        render Volume.new(variant: :filled, **attrs)
       end
     end
   end

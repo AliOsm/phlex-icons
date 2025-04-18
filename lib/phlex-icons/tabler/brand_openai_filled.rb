@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandOpenaiFilled < Base
       def view_template
-        render BrandOpenai.new(variant: :filled)
+        render BrandOpenai.new(variant: :filled, **attrs)
       end
     end
   end

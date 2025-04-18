@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GizmoOutline < Base
       def view_template
-        render Gizmo.new(variant: :outline)
+        render Gizmo.new(variant: :outline, **attrs)
       end
     end
   end

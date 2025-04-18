@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFortniteFilled < Base
       def view_template
-        render BrandFortnite.new(variant: :filled)
+        render BrandFortnite.new(variant: :filled, **attrs)
       end
     end
   end

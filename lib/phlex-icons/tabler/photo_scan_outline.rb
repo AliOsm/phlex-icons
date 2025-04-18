@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoScanOutline < Base
       def view_template
-        render PhotoScan.new(variant: :outline)
+        render PhotoScan.new(variant: :outline, **attrs)
       end
     end
   end

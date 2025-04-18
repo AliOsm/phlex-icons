@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FishHookFilled < Base
       def view_template
-        render FishHook.new(variant: :filled)
+        render FishHook.new(variant: :filled, **attrs)
       end
     end
   end

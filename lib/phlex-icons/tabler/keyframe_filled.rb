@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyframeFilled < Base
       def view_template
-        render Keyframe.new(variant: :filled)
+        render Keyframe.new(variant: :filled, **attrs)
       end
     end
   end

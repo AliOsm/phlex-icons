@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashHandOutline < Base
       def view_template
-        render WashHand.new(variant: :outline)
+        render WashHand.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RewindForward10Filled < Base
       def view_template
-        render RewindForward10.new(variant: :filled)
+        render RewindForward10.new(variant: :filled, **attrs)
       end
     end
   end

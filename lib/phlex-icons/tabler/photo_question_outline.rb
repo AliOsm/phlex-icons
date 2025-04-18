@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoQuestionOutline < Base
       def view_template
-        render PhotoQuestion.new(variant: :outline)
+        render PhotoQuestion.new(variant: :outline, **attrs)
       end
     end
   end

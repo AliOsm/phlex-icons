@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SwordsOutline < Base
       def view_template
-        render Swords.new(variant: :outline)
+        render Swords.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BoldOffOutline < Base
       def view_template
-        render BoldOff.new(variant: :outline)
+        render BoldOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerHeartOutline < Base
       def view_template
-        render PointerHeart.new(variant: :outline)
+        render PointerHeart.new(variant: :outline, **attrs)
       end
     end
   end

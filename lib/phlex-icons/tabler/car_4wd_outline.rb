@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Car4wdOutline < Base
       def view_template
-        render Car4wd.new(variant: :outline)
+        render Car4wd.new(variant: :outline, **attrs)
       end
     end
   end

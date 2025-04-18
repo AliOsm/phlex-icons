@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class XboxXFilled < Base
       def view_template
-        render XboxX.new(variant: :filled)
+        render XboxX.new(variant: :filled, **attrs)
       end
     end
   end

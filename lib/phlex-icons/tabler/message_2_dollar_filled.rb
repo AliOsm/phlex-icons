@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2DollarFilled < Base
       def view_template
-        render Message2Dollar.new(variant: :filled)
+        render Message2Dollar.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraPinFilled < Base
       def view_template
-        render CameraPin.new(variant: :filled)
+        render CameraPin.new(variant: :filled, **attrs)
       end
     end
   end

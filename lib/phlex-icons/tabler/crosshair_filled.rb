@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrosshairFilled < Base
       def view_template
-        render Crosshair.new(variant: :filled)
+        render Crosshair.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SubmarineFilled < Base
       def view_template
-        render Submarine.new(variant: :filled)
+        render Submarine.new(variant: :filled, **attrs)
       end
     end
   end

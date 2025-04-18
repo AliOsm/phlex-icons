@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TagStarredFilled < Base
       def view_template
-        render TagStarred.new(variant: :filled)
+        render TagStarred.new(variant: :filled, **attrs)
       end
     end
   end

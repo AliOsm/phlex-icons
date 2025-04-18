@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircuitCapacitorOutline < Base
       def view_template
-        render CircuitCapacitor.new(variant: :outline)
+        render CircuitCapacitor.new(variant: :outline, **attrs)
       end
     end
   end

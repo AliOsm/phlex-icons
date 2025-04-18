@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ThumbUpOffOutline < Base
       def view_template
-        render ThumbUpOff.new(variant: :outline)
+        render ThumbUpOff.new(variant: :outline, **attrs)
       end
     end
   end

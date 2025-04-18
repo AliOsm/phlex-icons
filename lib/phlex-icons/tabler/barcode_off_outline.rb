@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BarcodeOffOutline < Base
       def view_template
-        render BarcodeOff.new(variant: :outline)
+        render BarcodeOff.new(variant: :outline, **attrs)
       end
     end
   end

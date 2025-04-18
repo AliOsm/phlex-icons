@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZipFilled < Base
       def view_template
-        render Zip.new(variant: :filled)
+        render Zip.new(variant: :filled, **attrs)
       end
     end
   end

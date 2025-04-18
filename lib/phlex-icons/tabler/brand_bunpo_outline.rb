@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBunpoOutline < Base
       def view_template
-        render BrandBunpo.new(variant: :outline)
+        render BrandBunpo.new(variant: :outline, **attrs)
       end
     end
   end

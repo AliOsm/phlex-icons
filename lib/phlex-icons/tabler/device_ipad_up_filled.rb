@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadUpFilled < Base
       def view_template
-        render DeviceIpadUp.new(variant: :filled)
+        render DeviceIpadUp.new(variant: :filled, **attrs)
       end
     end
   end

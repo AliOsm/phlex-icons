@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsSplitFilled < Base
       def view_template
-        render ArrowsSplit.new(variant: :filled)
+        render ArrowsSplit.new(variant: :filled, **attrs)
       end
     end
   end

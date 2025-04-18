@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Contrast2Filled < Base
       def view_template
-        render Contrast2.new(variant: :filled)
+        render Contrast2.new(variant: :filled, **attrs)
       end
     end
   end

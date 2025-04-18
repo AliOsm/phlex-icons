@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NoDerivativesFilled < Base
       def view_template
-        render NoDerivatives.new(variant: :filled)
+        render NoDerivatives.new(variant: :filled, **attrs)
       end
     end
   end

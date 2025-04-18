@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ExchangeFilled < Base
       def view_template
-        render Exchange.new(variant: :filled)
+        render Exchange.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReportMoneyOutline < Base
       def view_template
-        render ReportMoney.new(variant: :outline)
+        render ReportMoney.new(variant: :outline, **attrs)
       end
     end
   end

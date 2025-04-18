@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CoinMoneroFilled < Base
       def view_template
-        render CoinMonero.new(variant: :filled)
+        render CoinMonero.new(variant: :filled, **attrs)
       end
     end
   end

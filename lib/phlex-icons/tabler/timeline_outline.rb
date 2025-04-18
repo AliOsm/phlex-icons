@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TimelineOutline < Base
       def view_template
-        render Timeline.new(variant: :outline)
+        render Timeline.new(variant: :outline, **attrs)
       end
     end
   end

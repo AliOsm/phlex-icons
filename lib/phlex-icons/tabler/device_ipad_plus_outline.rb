@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadPlusOutline < Base
       def view_template
-        render DeviceIpadPlus.new(variant: :outline)
+        render DeviceIpadPlus.new(variant: :outline, **attrs)
       end
     end
   end

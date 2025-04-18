@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class InputSearchFilled < Base
       def view_template
-        render InputSearch.new(variant: :filled)
+        render InputSearch.new(variant: :filled, **attrs)
       end
     end
   end

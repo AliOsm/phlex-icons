@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathSinOutline < Base
       def view_template
-        render MathSin.new(variant: :outline)
+        render MathSin.new(variant: :outline, **attrs)
       end
     end
   end

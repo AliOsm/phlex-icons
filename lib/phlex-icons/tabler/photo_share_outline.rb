@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoShareOutline < Base
       def view_template
-        render PhotoShare.new(variant: :outline)
+        render PhotoShare.new(variant: :outline, **attrs)
       end
     end
   end

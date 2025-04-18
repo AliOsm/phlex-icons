@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShieldMinusOutline < Base
       def view_template
-        render ShieldMinus.new(variant: :outline)
+        render ShieldMinus.new(variant: :outline, **attrs)
       end
     end
   end

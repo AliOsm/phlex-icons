@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyCentOutline < Base
       def view_template
-        render CurrencyCent.new(variant: :outline)
+        render CurrencyCent.new(variant: :outline, **attrs)
       end
     end
   end

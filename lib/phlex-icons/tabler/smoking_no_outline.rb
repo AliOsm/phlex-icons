@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SmokingNoOutline < Base
       def view_template
-        render SmokingNo.new(variant: :outline)
+        render SmokingNo.new(variant: :outline, **attrs)
       end
     end
   end

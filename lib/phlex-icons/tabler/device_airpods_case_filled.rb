@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceAirpodsCaseFilled < Base
       def view_template
-        render DeviceAirpodsCase.new(variant: :filled)
+        render DeviceAirpodsCase.new(variant: :filled, **attrs)
       end
     end
   end

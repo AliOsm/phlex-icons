@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CheeseFilled < Base
       def view_template
-        render Cheese.new(variant: :filled)
+        render Cheese.new(variant: :filled, **attrs)
       end
     end
   end

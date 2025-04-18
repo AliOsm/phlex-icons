@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HistoryOutline < Base
       def view_template
-        render History.new(variant: :outline)
+        render History.new(variant: :outline, **attrs)
       end
     end
   end

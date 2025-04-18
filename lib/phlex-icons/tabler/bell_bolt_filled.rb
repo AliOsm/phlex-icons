@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellBoltFilled < Base
       def view_template
-        render BellBolt.new(variant: :filled)
+        render BellBolt.new(variant: :filled, **attrs)
       end
     end
   end

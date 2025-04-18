@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandVisualStudioOutline < Base
       def view_template
-        render BrandVisualStudio.new(variant: :outline)
+        render BrandVisualStudio.new(variant: :outline, **attrs)
       end
     end
   end

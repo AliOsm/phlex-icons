@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JsonOutline < Base
       def view_template
-        render Json.new(variant: :outline)
+        render Json.new(variant: :outline, **attrs)
       end
     end
   end

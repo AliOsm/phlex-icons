@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IrregularPolyhedronOffOutline < Base
       def view_template
-        render IrregularPolyhedronOff.new(variant: :outline)
+        render IrregularPolyhedronOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleDottedLetterIOutline < Base
       def view_template
-        render CircleDottedLetterI.new(variant: :outline)
+        render CircleDottedLetterI.new(variant: :outline, **attrs)
       end
     end
   end

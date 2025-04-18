@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReorderOutline < Base
       def view_template
-        render Reorder.new(variant: :outline)
+        render Reorder.new(variant: :outline, **attrs)
       end
     end
   end

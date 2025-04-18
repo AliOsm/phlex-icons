@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartPauseOutline < Base
       def view_template
-        render HeartPause.new(variant: :outline)
+        render HeartPause.new(variant: :outline, **attrs)
       end
     end
   end

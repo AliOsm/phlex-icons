@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WiperFilled < Base
       def view_template
-        render Wiper.new(variant: :filled)
+        render Wiper.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Dice1Outline < Base
       def view_template
-        render Dice1.new(variant: :outline)
+        render Dice1.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeBitcoinOutline < Base
       def view_template
-        render EyeBitcoin.new(variant: :outline)
+        render EyeBitcoin.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowUpTailOutline < Base
       def view_template
-        render ArrowUpTail.new(variant: :outline)
+        render ArrowUpTail.new(variant: :outline, **attrs)
       end
     end
   end

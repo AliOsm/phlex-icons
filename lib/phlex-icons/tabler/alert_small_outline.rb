@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlertSmallOutline < Base
       def view_template
-        render AlertSmall.new(variant: :outline)
+        render AlertSmall.new(variant: :outline, **attrs)
       end
     end
   end

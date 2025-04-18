@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClipboardHeartFilled < Base
       def view_template
-        render ClipboardHeart.new(variant: :filled)
+        render ClipboardHeart.new(variant: :filled, **attrs)
       end
     end
   end

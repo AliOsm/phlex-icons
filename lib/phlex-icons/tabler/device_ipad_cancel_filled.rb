@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadCancelFilled < Base
       def view_template
-        render DeviceIpadCancel.new(variant: :filled)
+        render DeviceIpadCancel.new(variant: :filled, **attrs)
       end
     end
   end

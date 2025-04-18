@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoSensorFilled < Base
       def view_template
-        render PhotoSensor.new(variant: :filled)
+        render PhotoSensor.new(variant: :filled, **attrs)
       end
     end
   end

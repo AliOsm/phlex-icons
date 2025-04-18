@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageStarFilled < Base
       def view_template
-        render MessageStar.new(variant: :filled)
+        render MessageStar.new(variant: :filled, **attrs)
       end
     end
   end

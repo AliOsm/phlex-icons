@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerOffFilled < Base
       def view_template
-        render PointerOff.new(variant: :filled)
+        render PointerOff.new(variant: :filled, **attrs)
       end
     end
   end

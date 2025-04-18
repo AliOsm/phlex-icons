@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FenceOutline < Base
       def view_template
-        render Fence.new(variant: :outline)
+        render Fence.new(variant: :outline, **attrs)
       end
     end
   end

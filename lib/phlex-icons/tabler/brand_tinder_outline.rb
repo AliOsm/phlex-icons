@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTinderOutline < Base
       def view_template
-        render BrandTinder.new(variant: :outline)
+        render BrandTinder.new(variant: :outline, **attrs)
       end
     end
   end

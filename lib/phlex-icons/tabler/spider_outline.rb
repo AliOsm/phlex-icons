@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpiderOutline < Base
       def view_template
-        render Spider.new(variant: :outline)
+        render Spider.new(variant: :outline, **attrs)
       end
     end
   end

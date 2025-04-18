@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseImportOutline < Base
       def view_template
-        render DatabaseImport.new(variant: :outline)
+        render DatabaseImport.new(variant: :outline, **attrs)
       end
     end
   end

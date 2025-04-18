@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VipOutline < Base
       def view_template
-        render Vip.new(variant: :outline)
+        render Vip.new(variant: :outline, **attrs)
       end
     end
   end

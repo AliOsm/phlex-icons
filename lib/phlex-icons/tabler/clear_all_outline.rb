@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClearAllOutline < Base
       def view_template
-        render ClearAll.new(variant: :outline)
+        render ClearAll.new(variant: :outline, **attrs)
       end
     end
   end

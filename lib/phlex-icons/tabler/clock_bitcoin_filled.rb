@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockBitcoinFilled < Base
       def view_template
-        render ClockBitcoin.new(variant: :filled)
+        render ClockBitcoin.new(variant: :filled, **attrs)
       end
     end
   end

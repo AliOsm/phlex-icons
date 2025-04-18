@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HexagonLetterQFilled < Base
       def view_template
-        render HexagonLetterQ.new(variant: :filled)
+        render HexagonLetterQ.new(variant: :filled, **attrs)
       end
     end
   end

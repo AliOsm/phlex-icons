@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBunpoFilled < Base
       def view_template
-        render BrandBunpo.new(variant: :filled)
+        render BrandBunpo.new(variant: :filled, **attrs)
       end
     end
   end

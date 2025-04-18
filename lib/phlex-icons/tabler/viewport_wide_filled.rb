@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ViewportWideFilled < Base
       def view_template
-        render ViewportWide.new(variant: :filled)
+        render ViewportWide.new(variant: :filled, **attrs)
       end
     end
   end

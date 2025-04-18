@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CaretDownFilled < Base
       def view_template
-        render CaretDown.new(variant: :filled)
+        render CaretDown.new(variant: :filled, **attrs)
       end
     end
   end

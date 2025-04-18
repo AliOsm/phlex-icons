@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTeamsFilled < Base
       def view_template
-        render BrandTeams.new(variant: :filled)
+        render BrandTeams.new(variant: :filled, **attrs)
       end
     end
   end

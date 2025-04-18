@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FirstAidKitOffOutline < Base
       def view_template
-        render FirstAidKitOff.new(variant: :outline)
+        render FirstAidKitOff.new(variant: :outline, **attrs)
       end
     end
   end

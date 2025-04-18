@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HemispherePlusOutline < Base
       def view_template
-        render HemispherePlus.new(variant: :outline)
+        render HemispherePlus.new(variant: :outline, **attrs)
       end
     end
   end

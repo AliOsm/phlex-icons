@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AspectRatioOutline < Base
       def view_template
-        render AspectRatio.new(variant: :outline)
+        render AspectRatio.new(variant: :outline, **attrs)
       end
     end
   end

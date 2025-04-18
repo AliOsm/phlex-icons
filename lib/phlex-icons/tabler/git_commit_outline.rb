@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GitCommitOutline < Base
       def view_template
-        render GitCommit.new(variant: :outline)
+        render GitCommit.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClearAllFilled < Base
       def view_template
-        render ClearAll.new(variant: :filled)
+        render ClearAll.new(variant: :filled, **attrs)
       end
     end
   end

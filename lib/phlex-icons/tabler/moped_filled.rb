@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MopedFilled < Base
       def view_template
-        render Moped.new(variant: :filled)
+        render Moped.new(variant: :filled, **attrs)
       end
     end
   end

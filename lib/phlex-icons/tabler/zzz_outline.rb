@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZzzOutline < Base
       def view_template
-        render Zzz.new(variant: :outline)
+        render Zzz.new(variant: :outline, **attrs)
       end
     end
   end

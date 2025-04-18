@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextScan2Filled < Base
       def view_template
-        render TextScan2.new(variant: :filled)
+        render TextScan2.new(variant: :filled, **attrs)
       end
     end
   end

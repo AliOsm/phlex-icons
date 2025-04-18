@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DirectionFilled < Base
       def view_template
-        render Direction.new(variant: :filled)
+        render Direction.new(variant: :filled, **attrs)
       end
     end
   end

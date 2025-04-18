@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandChromeOutline < Base
       def view_template
-        render BrandChrome.new(variant: :outline)
+        render BrandChrome.new(variant: :outline, **attrs)
       end
     end
   end

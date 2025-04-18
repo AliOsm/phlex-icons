@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseLeakFilled < Base
       def view_template
-        render DatabaseLeak.new(variant: :filled)
+        render DatabaseLeak.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutGridAddFilled < Base
       def view_template
-        render LayoutGridAdd.new(variant: :filled)
+        render LayoutGridAdd.new(variant: :filled, **attrs)
       end
     end
   end

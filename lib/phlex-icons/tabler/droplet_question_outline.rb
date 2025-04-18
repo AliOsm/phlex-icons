@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropletQuestionOutline < Base
       def view_template
-        render DropletQuestion.new(variant: :outline)
+        render DropletQuestion.new(variant: :outline, **attrs)
       end
     end
   end

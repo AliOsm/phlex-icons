@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CopyOffOutline < Base
       def view_template
-        render CopyOff.new(variant: :outline)
+        render CopyOff.new(variant: :outline, **attrs)
       end
     end
   end

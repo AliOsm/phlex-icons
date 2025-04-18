@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSpeedtestFilled < Base
       def view_template
-        render BrandSpeedtest.new(variant: :filled)
+        render BrandSpeedtest.new(variant: :filled, **attrs)
       end
     end
   end

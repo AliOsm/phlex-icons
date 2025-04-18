@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HttpPutOutline < Base
       def view_template
-        render HttpPut.new(variant: :outline)
+        render HttpPut.new(variant: :outline, **attrs)
       end
     end
   end

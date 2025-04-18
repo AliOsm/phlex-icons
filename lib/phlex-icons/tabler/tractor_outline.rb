@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TractorOutline < Base
       def view_template
-        render Tractor.new(variant: :outline)
+        render Tractor.new(variant: :outline, **attrs)
       end
     end
   end

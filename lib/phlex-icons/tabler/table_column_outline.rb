@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TableColumnOutline < Base
       def view_template
-        render TableColumn.new(variant: :outline)
+        render TableColumn.new(variant: :outline, **attrs)
       end
     end
   end

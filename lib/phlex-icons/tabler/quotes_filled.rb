@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class QuotesFilled < Base
       def view_template
-        render Quotes.new(variant: :filled)
+        render Quotes.new(variant: :filled, **attrs)
       end
     end
   end

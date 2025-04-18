@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SettingsCheckOutline < Base
       def view_template
-        render SettingsCheck.new(variant: :outline)
+        render SettingsCheck.new(variant: :outline, **attrs)
       end
     end
   end

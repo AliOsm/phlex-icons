@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CherryFilled < Base
       def view_template
-        render Cherry.new(variant: :filled)
+        render Cherry.new(variant: :filled, **attrs)
       end
     end
   end

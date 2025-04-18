@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCss3Outline < Base
       def view_template
-        render BrandCss3.new(variant: :outline)
+        render BrandCss3.new(variant: :outline, **attrs)
       end
     end
   end

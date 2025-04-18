@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilBoltOutline < Base
       def view_template
-        render PencilBolt.new(variant: :outline)
+        render PencilBolt.new(variant: :outline, **attrs)
       end
     end
   end

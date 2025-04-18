@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarOffFilled < Base
       def view_template
-        render CarOff.new(variant: :filled)
+        render CarOff.new(variant: :filled, **attrs)
       end
     end
   end

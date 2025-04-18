@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrainFilled < Base
       def view_template
-        render Train.new(variant: :filled)
+        render Train.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileLikeFilled < Base
       def view_template
-        render FileLike.new(variant: :filled)
+        render FileLike.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapPlusOutline < Base
       def view_template
-        render MapPlus.new(variant: :outline)
+        render MapPlus.new(variant: :outline, **attrs)
       end
     end
   end

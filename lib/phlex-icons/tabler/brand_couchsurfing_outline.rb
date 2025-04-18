@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCouchsurfingOutline < Base
       def view_template
-        render BrandCouchsurfing.new(variant: :outline)
+        render BrandCouchsurfing.new(variant: :outline, **attrs)
       end
     end
   end

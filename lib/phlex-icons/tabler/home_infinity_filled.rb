@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeInfinityFilled < Base
       def view_template
-        render HomeInfinity.new(variant: :filled)
+        render HomeInfinity.new(variant: :filled, **attrs)
       end
     end
   end

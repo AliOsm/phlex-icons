@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PaintOutline < Base
       def view_template
-        render Paint.new(variant: :outline)
+        render Paint.new(variant: :outline, **attrs)
       end
     end
   end

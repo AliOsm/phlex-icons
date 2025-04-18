@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowRoundaboutRightOutline < Base
       def view_template
-        render ArrowRoundaboutRight.new(variant: :outline)
+        render ArrowRoundaboutRight.new(variant: :outline, **attrs)
       end
     end
   end

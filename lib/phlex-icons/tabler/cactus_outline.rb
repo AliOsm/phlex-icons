@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CactusOutline < Base
       def view_template
-        render Cactus.new(variant: :outline)
+        render Cactus.new(variant: :outline, **attrs)
       end
     end
   end

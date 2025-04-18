@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BottleOutline < Base
       def view_template
-        render Bottle.new(variant: :outline)
+        render Bottle.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsPlusFilled < Base
       def view_template
-        render AdjustmentsPlus.new(variant: :filled)
+        render AdjustmentsPlus.new(variant: :filled, **attrs)
       end
     end
   end

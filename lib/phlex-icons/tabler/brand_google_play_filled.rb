@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGooglePlayFilled < Base
       def view_template
-        render BrandGooglePlay.new(variant: :filled)
+        render BrandGooglePlay.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BorderCornersOutline < Base
       def view_template
-        render BorderCorners.new(variant: :outline)
+        render BorderCorners.new(variant: :outline, **attrs)
       end
     end
   end

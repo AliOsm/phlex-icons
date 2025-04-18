@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TipJarEuroFilled < Base
       def view_template
-        render TipJarEuro.new(variant: :filled)
+        render TipJarEuro.new(variant: :filled, **attrs)
       end
     end
   end

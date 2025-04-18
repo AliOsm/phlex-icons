@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaystationXOutline < Base
       def view_template
-        render PlaystationX.new(variant: :outline)
+        render PlaystationX.new(variant: :outline, **attrs)
       end
     end
   end

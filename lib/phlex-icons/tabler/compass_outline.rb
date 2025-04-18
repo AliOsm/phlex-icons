@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CompassOutline < Base
       def view_template
-        render Compass.new(variant: :outline)
+        render Compass.new(variant: :outline, **attrs)
       end
     end
   end

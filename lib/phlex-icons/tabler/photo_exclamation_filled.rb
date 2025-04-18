@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoExclamationFilled < Base
       def view_template
-        render PhotoExclamation.new(variant: :filled)
+        render PhotoExclamation.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DialpadOffOutline < Base
       def view_template
-        render DialpadOff.new(variant: :outline)
+        render DialpadOff.new(variant: :outline, **attrs)
       end
     end
   end

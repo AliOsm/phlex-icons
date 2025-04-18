@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandElasticOutline < Base
       def view_template
-        render BrandElastic.new(variant: :outline)
+        render BrandElastic.new(variant: :outline, **attrs)
       end
     end
   end

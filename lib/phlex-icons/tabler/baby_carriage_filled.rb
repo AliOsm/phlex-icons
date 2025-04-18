@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BabyCarriageFilled < Base
       def view_template
-        render BabyCarriage.new(variant: :filled)
+        render BabyCarriage.new(variant: :filled, **attrs)
       end
     end
   end

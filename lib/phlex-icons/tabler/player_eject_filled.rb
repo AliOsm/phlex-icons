@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayerEjectFilled < Base
       def view_template
-        render PlayerEject.new(variant: :filled)
+        render PlayerEject.new(variant: :filled, **attrs)
       end
     end
   end

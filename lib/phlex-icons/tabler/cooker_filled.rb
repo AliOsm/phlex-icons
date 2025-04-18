@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CookerFilled < Base
       def view_template
-        render Cooker.new(variant: :filled)
+        render Cooker.new(variant: :filled, **attrs)
       end
     end
   end

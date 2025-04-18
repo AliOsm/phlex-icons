@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TargetOutline < Base
       def view_template
-        render Target.new(variant: :outline)
+        render Target.new(variant: :outline, **attrs)
       end
     end
   end

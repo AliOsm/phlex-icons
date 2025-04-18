@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldXFilled < Base
       def view_template
-        render WorldX.new(variant: :filled)
+        render WorldX.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IceCream2Outline < Base
       def view_template
-        render IceCream2.new(variant: :outline)
+        render IceCream2.new(variant: :outline, **attrs)
       end
     end
   end

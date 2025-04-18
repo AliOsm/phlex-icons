@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BreadOutline < Base
       def view_template
-        render Bread.new(variant: :outline)
+        render Bread.new(variant: :outline, **attrs)
       end
     end
   end

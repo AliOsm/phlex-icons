@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SolarPanelFilled < Base
       def view_template
-        render SolarPanel.new(variant: :filled)
+        render SolarPanel.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BatteryVertical2Filled < Base
       def view_template
-        render BatteryVertical2.new(variant: :filled)
+        render BatteryVertical2.new(variant: :filled, **attrs)
       end
     end
   end

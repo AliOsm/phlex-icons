@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DevicesBoltOutline < Base
       def view_template
-        render DevicesBolt.new(variant: :outline)
+        render DevicesBolt.new(variant: :outline, **attrs)
       end
     end
   end

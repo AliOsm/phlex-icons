@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoHeartFilled < Base
       def view_template
-        render PhotoHeart.new(variant: :filled)
+        render PhotoHeart.new(variant: :filled, **attrs)
       end
     end
   end

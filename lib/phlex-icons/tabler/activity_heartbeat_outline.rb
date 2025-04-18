@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ActivityHeartbeatOutline < Base
       def view_template
-        render ActivityHeartbeat.new(variant: :outline)
+        render ActivityHeartbeat.new(variant: :outline, **attrs)
       end
     end
   end

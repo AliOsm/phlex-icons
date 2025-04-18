@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PrescriptionOutline < Base
       def view_template
-        render Prescription.new(variant: :outline)
+        render Prescription.new(variant: :outline, **attrs)
       end
     end
   end

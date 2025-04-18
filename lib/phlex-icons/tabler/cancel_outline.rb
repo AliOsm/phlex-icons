@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CancelOutline < Base
       def view_template
-        render Cancel.new(variant: :outline)
+        render Cancel.new(variant: :outline, **attrs)
       end
     end
   end

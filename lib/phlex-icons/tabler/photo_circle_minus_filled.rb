@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoCircleMinusFilled < Base
       def view_template
-        render PhotoCircleMinus.new(variant: :filled)
+        render PhotoCircleMinus.new(variant: :filled, **attrs)
       end
     end
   end

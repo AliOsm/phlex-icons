@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceWatchStats2Outline < Base
       def view_template
-        render DeviceWatchStats2.new(variant: :outline)
+        render DeviceWatchStats2.new(variant: :outline, **attrs)
       end
     end
   end

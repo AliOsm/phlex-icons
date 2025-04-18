@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowUpDashedFilled < Base
       def view_template
-        render ArrowUpDashed.new(variant: :filled)
+        render ArrowUpDashed.new(variant: :filled, **attrs)
       end
     end
   end

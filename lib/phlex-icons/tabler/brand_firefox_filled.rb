@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFirefoxFilled < Base
       def view_template
-        render BrandFirefox.new(variant: :filled)
+        render BrandFirefox.new(variant: :filled, **attrs)
       end
     end
   end

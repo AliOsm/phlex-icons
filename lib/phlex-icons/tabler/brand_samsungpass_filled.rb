@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSamsungpassFilled < Base
       def view_template
-        render BrandSamsungpass.new(variant: :filled)
+        render BrandSamsungpass.new(variant: :filled, **attrs)
       end
     end
   end

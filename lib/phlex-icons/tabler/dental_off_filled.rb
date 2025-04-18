@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DentalOffFilled < Base
       def view_template
-        render DentalOff.new(variant: :filled)
+        render DentalOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IndentIncreaseFilled < Base
       def view_template
-        render IndentIncrease.new(variant: :filled)
+        render IndentIncrease.new(variant: :filled, **attrs)
       end
     end
   end

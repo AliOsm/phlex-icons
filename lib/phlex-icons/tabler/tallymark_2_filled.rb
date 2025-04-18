@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Tallymark2Filled < Base
       def view_template
-        render Tallymark2.new(variant: :filled)
+        render Tallymark2.new(variant: :filled, **attrs)
       end
     end
   end

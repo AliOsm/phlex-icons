@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AccessPointOutline < Base
       def view_template
-        render AccessPoint.new(variant: :outline)
+        render AccessPoint.new(variant: :outline, **attrs)
       end
     end
   end

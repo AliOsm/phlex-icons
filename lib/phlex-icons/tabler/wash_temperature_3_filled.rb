@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashTemperature3Filled < Base
       def view_template
-        render WashTemperature3.new(variant: :filled)
+        render WashTemperature3.new(variant: :filled, **attrs)
       end
     end
   end

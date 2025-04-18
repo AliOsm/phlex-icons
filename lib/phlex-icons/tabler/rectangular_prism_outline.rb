@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RectangularPrismOutline < Base
       def view_template
-        render RectangularPrism.new(variant: :outline)
+        render RectangularPrism.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LemonOutline < Base
       def view_template
-        render Lemon.new(variant: :outline)
+        render Lemon.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageCircleCogOutline < Base
       def view_template
-        render MessageCircleCog.new(variant: :outline)
+        render MessageCircleCog.new(variant: :outline, **attrs)
       end
     end
   end

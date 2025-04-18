@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutNavbarOutline < Base
       def view_template
-        render LayoutNavbar.new(variant: :outline)
+        render LayoutNavbar.new(variant: :outline, **attrs)
       end
     end
   end

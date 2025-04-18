@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ToolsKitchen3Outline < Base
       def view_template
-        render ToolsKitchen3.new(variant: :outline)
+        render ToolsKitchen3.new(variant: :outline, **attrs)
       end
     end
   end

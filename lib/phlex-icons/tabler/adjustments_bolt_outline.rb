@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsBoltOutline < Base
       def view_template
-        render AdjustmentsBolt.new(variant: :outline)
+        render AdjustmentsBolt.new(variant: :outline, **attrs)
       end
     end
   end

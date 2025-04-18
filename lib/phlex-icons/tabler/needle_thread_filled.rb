@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NeedleThreadFilled < Base
       def view_template
-        render NeedleThread.new(variant: :filled)
+        render NeedleThread.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FaceMaskOutline < Base
       def view_template
-        render FaceMask.new(variant: :outline)
+        render FaceMask.new(variant: :outline, **attrs)
       end
     end
   end

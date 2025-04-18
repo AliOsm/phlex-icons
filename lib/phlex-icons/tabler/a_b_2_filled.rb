@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AB2Filled < Base
       def view_template
-        render AB2.new(variant: :filled)
+        render AB2.new(variant: :filled, **attrs)
       end
     end
   end

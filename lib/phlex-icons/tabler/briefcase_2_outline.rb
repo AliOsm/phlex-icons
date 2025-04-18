@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Briefcase2Outline < Base
       def view_template
-        render Briefcase2.new(variant: :outline)
+        render Briefcase2.new(variant: :outline, **attrs)
       end
     end
   end

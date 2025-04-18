@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CirclePercentageFilled < Base
       def view_template
-        render CirclePercentage.new(variant: :filled)
+        render CirclePercentage.new(variant: :filled, **attrs)
       end
     end
   end

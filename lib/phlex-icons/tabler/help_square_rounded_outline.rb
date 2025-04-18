@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelpSquareRoundedOutline < Base
       def view_template
-        render HelpSquareRounded.new(variant: :outline)
+        render HelpSquareRounded.new(variant: :outline, **attrs)
       end
     end
   end

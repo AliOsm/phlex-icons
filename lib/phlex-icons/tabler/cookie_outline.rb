@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CookieOutline < Base
       def view_template
-        render Cookie.new(variant: :outline)
+        render Cookie.new(variant: :outline, **attrs)
       end
     end
   end

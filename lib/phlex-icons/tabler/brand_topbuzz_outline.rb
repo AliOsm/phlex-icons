@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTopbuzzOutline < Base
       def view_template
-        render BrandTopbuzz.new(variant: :outline)
+        render BrandTopbuzz.new(variant: :outline, **attrs)
       end
     end
   end

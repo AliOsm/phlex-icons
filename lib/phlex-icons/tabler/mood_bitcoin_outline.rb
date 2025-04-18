@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodBitcoinOutline < Base
       def view_template
-        render MoodBitcoin.new(variant: :outline)
+        render MoodBitcoin.new(variant: :outline, **attrs)
       end
     end
   end

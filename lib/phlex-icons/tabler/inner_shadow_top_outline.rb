@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class InnerShadowTopOutline < Base
       def view_template
-        render InnerShadowTop.new(variant: :outline)
+        render InnerShadowTop.new(variant: :outline, **attrs)
       end
     end
   end

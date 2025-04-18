@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserShareFilled < Base
       def view_template
-        render UserShare.new(variant: :filled)
+        render UserShare.new(variant: :filled, **attrs)
       end
     end
   end

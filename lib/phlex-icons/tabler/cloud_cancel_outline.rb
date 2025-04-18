@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudCancelOutline < Base
       def view_template
-        render CloudCancel.new(variant: :outline)
+        render CloudCancel.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBarToRightOutline < Base
       def view_template
-        render ArrowBarToRight.new(variant: :outline)
+        render ArrowBarToRight.new(variant: :outline, **attrs)
       end
     end
   end

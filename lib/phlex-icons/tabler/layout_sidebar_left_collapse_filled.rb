@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutSidebarLeftCollapseFilled < Base
       def view_template
-        render LayoutSidebarLeftCollapse.new(variant: :filled)
+        render LayoutSidebarLeftCollapse.new(variant: :filled, **attrs)
       end
     end
   end

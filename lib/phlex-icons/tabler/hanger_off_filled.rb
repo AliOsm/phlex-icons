@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HangerOffFilled < Base
       def view_template
-        render HangerOff.new(variant: :filled)
+        render HangerOff.new(variant: :filled, **attrs)
       end
     end
   end

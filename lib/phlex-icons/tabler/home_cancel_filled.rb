@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeCancelFilled < Base
       def view_template
-        render HomeCancel.new(variant: :filled)
+        render HomeCancel.new(variant: :filled, **attrs)
       end
     end
   end

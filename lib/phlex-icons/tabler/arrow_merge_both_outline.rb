@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowMergeBothOutline < Base
       def view_template
-        render ArrowMergeBoth.new(variant: :outline)
+        render ArrowMergeBoth.new(variant: :outline, **attrs)
       end
     end
   end

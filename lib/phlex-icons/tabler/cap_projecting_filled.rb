@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CapProjectingFilled < Base
       def view_template
-        render CapProjecting.new(variant: :filled)
+        render CapProjecting.new(variant: :filled, **attrs)
       end
     end
   end

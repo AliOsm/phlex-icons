@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrailleOutline < Base
       def view_template
-        render Braille.new(variant: :outline)
+        render Braille.new(variant: :outline, **attrs)
       end
     end
   end

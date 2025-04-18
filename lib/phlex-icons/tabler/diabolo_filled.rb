@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DiaboloFilled < Base
       def view_template
-        render Diabolo.new(variant: :filled)
+        render Diabolo.new(variant: :filled, **attrs)
       end
     end
   end

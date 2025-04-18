@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AsteriskSimpleFilled < Base
       def view_template
-        render AsteriskSimple.new(variant: :filled)
+        render AsteriskSimple.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBitbucketOutline < Base
       def view_template
-        render BrandBitbucket.new(variant: :outline)
+        render BrandBitbucket.new(variant: :outline, **attrs)
       end
     end
   end

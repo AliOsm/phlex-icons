@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Terminal2Outline < Base
       def view_template
-        render Terminal2.new(variant: :outline)
+        render Terminal2.new(variant: :outline, **attrs)
       end
     end
   end

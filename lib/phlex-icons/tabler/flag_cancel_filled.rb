@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagCancelFilled < Base
       def view_template
-        render FlagCancel.new(variant: :filled)
+        render FlagCancel.new(variant: :filled, **attrs)
       end
     end
   end

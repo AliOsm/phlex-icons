@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandLastfmFilled < Base
       def view_template
-        render BrandLastfm.new(variant: :filled)
+        render BrandLastfm.new(variant: :filled, **attrs)
       end
     end
   end

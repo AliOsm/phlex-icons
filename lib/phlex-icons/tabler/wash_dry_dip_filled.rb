@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashDryDipFilled < Base
       def view_template
-        render WashDryDip.new(variant: :filled)
+        render WashDryDip.new(variant: :filled, **attrs)
       end
     end
   end

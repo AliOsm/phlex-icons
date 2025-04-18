@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsDiagonal2Filled < Base
       def view_template
-        render ArrowsDiagonal2.new(variant: :filled)
+        render ArrowsDiagonal2.new(variant: :filled, **attrs)
       end
     end
   end

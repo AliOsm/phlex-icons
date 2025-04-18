@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAdobeIllustratorFilled < Base
       def view_template
-        render BrandAdobeIllustrator.new(variant: :filled)
+        render BrandAdobeIllustrator.new(variant: :filled, **attrs)
       end
     end
   end

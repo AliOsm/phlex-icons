@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaceholderFilled < Base
       def view_template
-        render Placeholder.new(variant: :filled)
+        render Placeholder.new(variant: :filled, **attrs)
       end
     end
   end

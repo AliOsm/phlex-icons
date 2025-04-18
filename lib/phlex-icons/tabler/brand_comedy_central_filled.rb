@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandComedyCentralFilled < Base
       def view_template
-        render BrandComedyCentral.new(variant: :filled)
+        render BrandComedyCentral.new(variant: :filled, **attrs)
       end
     end
   end

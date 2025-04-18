@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaneArrivalOutline < Base
       def view_template
-        render PlaneArrival.new(variant: :outline)
+        render PlaneArrival.new(variant: :outline, **attrs)
       end
     end
   end

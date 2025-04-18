@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudShareFilled < Base
       def view_template
-        render CloudShare.new(variant: :filled)
+        render CloudShare.new(variant: :filled, **attrs)
       end
     end
   end

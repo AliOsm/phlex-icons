@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeShieldFilled < Base
       def view_template
-        render HomeShield.new(variant: :filled)
+        render HomeShield.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MaskFilled < Base
       def view_template
-        render Mask.new(variant: :filled)
+        render Mask.new(variant: :filled, **attrs)
       end
     end
   end

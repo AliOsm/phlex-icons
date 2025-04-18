@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropletCancelOutline < Base
       def view_template
-        render DropletCancel.new(variant: :outline)
+        render DropletCancel.new(variant: :outline, **attrs)
       end
     end
   end

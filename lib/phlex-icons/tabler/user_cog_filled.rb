@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserCogFilled < Base
       def view_template
-        render UserCog.new(variant: :filled)
+        render UserCog.new(variant: :filled, **attrs)
       end
     end
   end

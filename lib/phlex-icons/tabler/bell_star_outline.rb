@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellStarOutline < Base
       def view_template
-        render BellStar.new(variant: :outline)
+        render BellStar.new(variant: :outline, **attrs)
       end
     end
   end

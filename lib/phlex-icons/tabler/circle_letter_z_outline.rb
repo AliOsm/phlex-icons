@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleLetterZOutline < Base
       def view_template
-        render CircleLetterZ.new(variant: :outline)
+        render CircleLetterZ.new(variant: :outline, **attrs)
       end
     end
   end

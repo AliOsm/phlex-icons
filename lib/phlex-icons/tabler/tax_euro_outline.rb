@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TaxEuroOutline < Base
       def view_template
-        render TaxEuro.new(variant: :outline)
+        render TaxEuro.new(variant: :outline, **attrs)
       end
     end
   end

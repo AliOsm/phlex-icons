@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationCheckFilled < Base
       def view_template
-        render NavigationCheck.new(variant: :filled)
+        render NavigationCheck.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagDiscountFilled < Base
       def view_template
-        render FlagDiscount.new(variant: :filled)
+        render FlagDiscount.new(variant: :filled, **attrs)
       end
     end
   end

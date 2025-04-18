@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DiamondsFilled < Base
       def view_template
-        render Diamonds.new(variant: :filled)
+        render Diamonds.new(variant: :filled, **attrs)
       end
     end
   end

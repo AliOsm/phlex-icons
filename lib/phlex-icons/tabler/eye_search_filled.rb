@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeSearchFilled < Base
       def view_template
-        render EyeSearch.new(variant: :filled)
+        render EyeSearch.new(variant: :filled, **attrs)
       end
     end
   end

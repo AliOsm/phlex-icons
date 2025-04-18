@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodPuzzledFilled < Base
       def view_template
-        render MoodPuzzled.new(variant: :filled)
+        render MoodPuzzled.new(variant: :filled, **attrs)
       end
     end
   end

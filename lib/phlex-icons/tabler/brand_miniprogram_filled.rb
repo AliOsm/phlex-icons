@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandMiniprogramFilled < Base
       def view_template
-        render BrandMiniprogram.new(variant: :filled)
+        render BrandMiniprogram.new(variant: :filled, **attrs)
       end
     end
   end

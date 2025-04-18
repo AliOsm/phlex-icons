@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseSmileFilled < Base
       def view_template
-        render DatabaseSmile.new(variant: :filled)
+        render DatabaseSmile.new(variant: :filled, **attrs)
       end
     end
   end

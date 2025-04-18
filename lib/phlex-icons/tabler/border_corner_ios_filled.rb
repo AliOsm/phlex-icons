@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BorderCornerIosFilled < Base
       def view_template
-        render BorderCornerIos.new(variant: :filled)
+        render BorderCornerIos.new(variant: :filled, **attrs)
       end
     end
   end

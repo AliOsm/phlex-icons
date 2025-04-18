@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CodeAsteriskOutline < Base
       def view_template
-        render CodeAsterisk.new(variant: :outline)
+        render CodeAsterisk.new(variant: :outline, **attrs)
       end
     end
   end

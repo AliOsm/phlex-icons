@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Battery3Outline < Base
       def view_template
-        render Battery3.new(variant: :outline)
+        render Battery3.new(variant: :outline, **attrs)
       end
     end
   end

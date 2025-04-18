@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAdonisJsFilled < Base
       def view_template
-        render BrandAdonisJs.new(variant: :filled)
+        render BrandAdonisJs.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayCardKOutline < Base
       def view_template
-        render PlayCardK.new(variant: :outline)
+        render PlayCardK.new(variant: :outline, **attrs)
       end
     end
   end

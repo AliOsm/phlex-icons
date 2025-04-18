@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LighterOutline < Base
       def view_template
-        render Lighter.new(variant: :outline)
+        render Lighter.new(variant: :outline, **attrs)
       end
     end
   end

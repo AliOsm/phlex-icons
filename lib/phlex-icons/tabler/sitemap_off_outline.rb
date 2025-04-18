@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SitemapOffOutline < Base
       def view_template
-        render SitemapOff.new(variant: :outline)
+        render SitemapOff.new(variant: :outline, **attrs)
       end
     end
   end

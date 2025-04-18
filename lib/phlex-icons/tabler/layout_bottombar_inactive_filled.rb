@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutBottombarInactiveFilled < Base
       def view_template
-        render LayoutBottombarInactive.new(variant: :filled)
+        render LayoutBottombarInactive.new(variant: :filled, **attrs)
       end
     end
   end

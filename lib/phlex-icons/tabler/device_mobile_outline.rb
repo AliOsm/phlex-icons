@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobileOutline < Base
       def view_template
-        render DeviceMobile.new(variant: :outline)
+        render DeviceMobile.new(variant: :outline, **attrs)
       end
     end
   end

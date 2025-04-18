@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RepeatOnceOutline < Base
       def view_template
-        render RepeatOnce.new(variant: :outline)
+        render RepeatOnce.new(variant: :outline, **attrs)
       end
     end
   end

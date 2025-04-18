@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandQqFilled < Base
       def view_template
-        render BrandQq.new(variant: :filled)
+        render BrandQq.new(variant: :filled, **attrs)
       end
     end
   end

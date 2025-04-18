@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeadingOffFilled < Base
       def view_template
-        render HeadingOff.new(variant: :filled)
+        render HeadingOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LetterCaseLowerFilled < Base
       def view_template
-        render LetterCaseLower.new(variant: :filled)
+        render LetterCaseLower.new(variant: :filled, **attrs)
       end
     end
   end

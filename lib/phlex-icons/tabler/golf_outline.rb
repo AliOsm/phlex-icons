@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GolfOutline < Base
       def view_template
-        render Golf.new(variant: :outline)
+        render Golf.new(variant: :outline, **attrs)
       end
     end
   end

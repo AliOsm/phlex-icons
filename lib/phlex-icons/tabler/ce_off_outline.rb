@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CeOffOutline < Base
       def view_template
-        render CeOff.new(variant: :outline)
+        render CeOff.new(variant: :outline, **attrs)
       end
     end
   end

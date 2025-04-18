@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BorderLeftPlusOutline < Base
       def view_template
-        render BorderLeftPlus.new(variant: :outline)
+        render BorderLeftPlus.new(variant: :outline, **attrs)
       end
     end
   end

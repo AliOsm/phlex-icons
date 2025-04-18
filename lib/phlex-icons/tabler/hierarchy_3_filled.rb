@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Hierarchy3Filled < Base
       def view_template
-        render Hierarchy3.new(variant: :filled)
+        render Hierarchy3.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSteamOutline < Base
       def view_template
-        render BrandSteam.new(variant: :outline)
+        render BrandSteam.new(variant: :outline, **attrs)
       end
     end
   end

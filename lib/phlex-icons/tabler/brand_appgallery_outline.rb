@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAppgalleryOutline < Base
       def view_template
-        render BrandAppgallery.new(variant: :outline)
+        render BrandAppgallery.new(variant: :outline, **attrs)
       end
     end
   end

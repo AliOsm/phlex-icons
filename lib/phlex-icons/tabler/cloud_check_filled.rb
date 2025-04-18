@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudCheckFilled < Base
       def view_template
-        render CloudCheck.new(variant: :filled)
+        render CloudCheck.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseSearchFilled < Base
       def view_template
-        render DatabaseSearch.new(variant: :filled)
+        render DatabaseSearch.new(variant: :filled, **attrs)
       end
     end
   end

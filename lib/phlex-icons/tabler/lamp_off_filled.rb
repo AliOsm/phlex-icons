@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LampOffFilled < Base
       def view_template
-        render LampOff.new(variant: :filled)
+        render LampOff.new(variant: :filled, **attrs)
       end
     end
   end

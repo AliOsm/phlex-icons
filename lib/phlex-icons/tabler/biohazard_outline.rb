@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BiohazardOutline < Base
       def view_template
-        render Biohazard.new(variant: :outline)
+        render Biohazard.new(variant: :outline, **attrs)
       end
     end
   end

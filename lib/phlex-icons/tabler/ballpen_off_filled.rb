@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BallpenOffFilled < Base
       def view_template
-        render BallpenOff.new(variant: :filled)
+        render BallpenOff.new(variant: :filled, **attrs)
       end
     end
   end

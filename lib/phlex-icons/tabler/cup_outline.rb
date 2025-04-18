@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CupOutline < Base
       def view_template
-        render Cup.new(variant: :outline)
+        render Cup.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyQuetzalFilled < Base
       def view_template
-        render CurrencyQuetzal.new(variant: :filled)
+        render CurrencyQuetzal.new(variant: :filled, **attrs)
       end
     end
   end

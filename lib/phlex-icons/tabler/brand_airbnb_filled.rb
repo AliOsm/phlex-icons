@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAirbnbFilled < Base
       def view_template
-        render BrandAirbnb.new(variant: :filled)
+        render BrandAirbnb.new(variant: :filled, **attrs)
       end
     end
   end

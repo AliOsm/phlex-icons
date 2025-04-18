@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWindowsFilled < Base
       def view_template
-        render BrandWindows.new(variant: :filled)
+        render BrandWindows.new(variant: :filled, **attrs)
       end
     end
   end

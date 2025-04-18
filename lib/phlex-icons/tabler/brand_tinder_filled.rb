@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTinderFilled < Base
       def view_template
-        render BrandTinder.new(variant: :filled)
+        render BrandTinder.new(variant: :filled, **attrs)
       end
     end
   end

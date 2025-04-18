@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointFilled < Base
       def view_template
-        render Point.new(variant: :filled)
+        render Point.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WallpaperOutline < Base
       def view_template
-        render Wallpaper.new(variant: :outline)
+        render Wallpaper.new(variant: :outline, **attrs)
       end
     end
   end

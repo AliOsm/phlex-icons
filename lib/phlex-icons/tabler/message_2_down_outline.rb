@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2DownOutline < Base
       def view_template
-        render Message2Down.new(variant: :outline)
+        render Message2Down.new(variant: :outline, **attrs)
       end
     end
   end

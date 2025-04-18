@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextDecreaseFilled < Base
       def view_template
-        render TextDecrease.new(variant: :filled)
+        render TextDecrease.new(variant: :filled, **attrs)
       end
     end
   end

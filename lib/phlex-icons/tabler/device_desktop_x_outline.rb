@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceDesktopXOutline < Base
       def view_template
-        render DeviceDesktopX.new(variant: :outline)
+        render DeviceDesktopX.new(variant: :outline, **attrs)
       end
     end
   end

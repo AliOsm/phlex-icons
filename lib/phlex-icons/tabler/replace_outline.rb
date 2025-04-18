@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReplaceOutline < Base
       def view_template
-        render Replace.new(variant: :outline)
+        render Replace.new(variant: :outline, **attrs)
       end
     end
   end

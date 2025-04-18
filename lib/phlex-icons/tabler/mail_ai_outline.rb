@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailAiOutline < Base
       def view_template
-        render MailAi.new(variant: :outline)
+        render MailAi.new(variant: :outline, **attrs)
       end
     end
   end

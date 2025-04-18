@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeSparkOutline < Base
       def view_template
-        render EyeSpark.new(variant: :outline)
+        render EyeSpark.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OverlineFilled < Base
       def view_template
-        render Overline.new(variant: :filled)
+        render Overline.new(variant: :filled, **attrs)
       end
     end
   end

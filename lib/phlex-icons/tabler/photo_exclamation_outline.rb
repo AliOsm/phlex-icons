@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoExclamationOutline < Base
       def view_template
-        render PhotoExclamation.new(variant: :outline)
+        render PhotoExclamation.new(variant: :outline, **attrs)
       end
     end
   end

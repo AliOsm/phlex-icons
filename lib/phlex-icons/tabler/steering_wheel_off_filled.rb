@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SteeringWheelOffFilled < Base
       def view_template
-        render SteeringWheelOff.new(variant: :filled)
+        render SteeringWheelOff.new(variant: :filled, **attrs)
       end
     end
   end

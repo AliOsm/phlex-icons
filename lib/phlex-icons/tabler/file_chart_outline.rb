@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileChartOutline < Base
       def view_template
-        render FileChart.new(variant: :outline)
+        render FileChart.new(variant: :outline, **attrs)
       end
     end
   end

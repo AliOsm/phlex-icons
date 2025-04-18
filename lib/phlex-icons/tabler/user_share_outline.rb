@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserShareOutline < Base
       def view_template
-        render UserShare.new(variant: :outline)
+        render UserShare.new(variant: :outline, **attrs)
       end
     end
   end

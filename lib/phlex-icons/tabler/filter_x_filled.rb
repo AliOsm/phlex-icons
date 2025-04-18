@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilterXFilled < Base
       def view_template
-        render FilterX.new(variant: :filled)
+        render FilterX.new(variant: :filled, **attrs)
       end
     end
   end

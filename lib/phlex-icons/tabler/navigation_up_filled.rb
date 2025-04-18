@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationUpFilled < Base
       def view_template
-        render NavigationUp.new(variant: :filled)
+        render NavigationUp.new(variant: :filled, **attrs)
       end
     end
   end

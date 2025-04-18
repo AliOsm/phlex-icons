@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandVisualStudioFilled < Base
       def view_template
-        render BrandVisualStudio.new(variant: :filled)
+        render BrandVisualStudio.new(variant: :filled, **attrs)
       end
     end
   end

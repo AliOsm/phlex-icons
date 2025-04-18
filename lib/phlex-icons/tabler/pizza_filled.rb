@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PizzaFilled < Base
       def view_template
-        render Pizza.new(variant: :filled)
+        render Pizza.new(variant: :filled, **attrs)
       end
     end
   end

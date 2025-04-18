@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class H4Outline < Base
       def view_template
-        render H4.new(variant: :outline)
+        render H4.new(variant: :outline, **attrs)
       end
     end
   end

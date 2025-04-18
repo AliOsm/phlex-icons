@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandVimeoOutline < Base
       def view_template
-        render BrandVimeo.new(variant: :outline)
+        render BrandVimeo.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransitionLeftOutline < Base
       def view_template
-        render TransitionLeft.new(variant: :outline)
+        render TransitionLeft.new(variant: :outline, **attrs)
       end
     end
   end

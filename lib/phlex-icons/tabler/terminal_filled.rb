@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TerminalFilled < Base
       def view_template
-        render Terminal.new(variant: :filled)
+        render Terminal.new(variant: :filled, **attrs)
       end
     end
   end

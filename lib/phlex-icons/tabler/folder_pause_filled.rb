@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderPauseFilled < Base
       def view_template
-        render FolderPause.new(variant: :filled)
+        render FolderPause.new(variant: :filled, **attrs)
       end
     end
   end

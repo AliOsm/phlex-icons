@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RollercoasterOffFilled < Base
       def view_template
-        render RollercoasterOff.new(variant: :filled)
+        render RollercoasterOff.new(variant: :filled, **attrs)
       end
     end
   end

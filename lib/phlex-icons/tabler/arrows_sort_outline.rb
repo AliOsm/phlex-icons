@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsSortOutline < Base
       def view_template
-        render ArrowsSort.new(variant: :outline)
+        render ArrowsSort.new(variant: :outline, **attrs)
       end
     end
   end

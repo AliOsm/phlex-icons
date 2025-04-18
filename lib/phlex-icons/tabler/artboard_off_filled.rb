@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArtboardOffFilled < Base
       def view_template
-        render ArtboardOff.new(variant: :filled)
+        render ArtboardOff.new(variant: :filled, **attrs)
       end
     end
   end

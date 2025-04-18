@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VectorBezier2Filled < Base
       def view_template
-        render VectorBezier2.new(variant: :filled)
+        render VectorBezier2.new(variant: :filled, **attrs)
       end
     end
   end

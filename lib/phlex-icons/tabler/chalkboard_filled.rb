@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChalkboardFilled < Base
       def view_template
-        render Chalkboard.new(variant: :filled)
+        render Chalkboard.new(variant: :filled, **attrs)
       end
     end
   end

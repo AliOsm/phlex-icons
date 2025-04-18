@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ExclamationMarkOffFilled < Base
       def view_template
-        render ExclamationMarkOff.new(variant: :filled)
+        render ExclamationMarkOff.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ProgressAlertOutline < Base
       def view_template
-        render ProgressAlert.new(variant: :outline)
+        render ProgressAlert.new(variant: :outline, **attrs)
       end
     end
   end

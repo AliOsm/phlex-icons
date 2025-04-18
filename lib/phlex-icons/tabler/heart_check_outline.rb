@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartCheckOutline < Base
       def view_template
-        render HeartCheck.new(variant: :outline)
+        render HeartCheck.new(variant: :outline, **attrs)
       end
     end
   end

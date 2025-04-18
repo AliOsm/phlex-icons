@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CodeVariableMinusFilled < Base
       def view_template
-        render CodeVariableMinus.new(variant: :filled)
+        render CodeVariableMinus.new(variant: :filled, **attrs)
       end
     end
   end

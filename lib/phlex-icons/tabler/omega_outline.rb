@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OmegaOutline < Base
       def view_template
-        render Omega.new(variant: :outline)
+        render Omega.new(variant: :outline, **attrs)
       end
     end
   end

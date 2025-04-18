@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TimeDuration5Outline < Base
       def view_template
-        render TimeDuration5.new(variant: :outline)
+        render TimeDuration5.new(variant: :outline, **attrs)
       end
     end
   end

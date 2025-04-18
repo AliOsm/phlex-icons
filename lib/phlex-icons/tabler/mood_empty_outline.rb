@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodEmptyOutline < Base
       def view_template
-        render MoodEmpty.new(variant: :outline)
+        render MoodEmpty.new(variant: :outline, **attrs)
       end
     end
   end

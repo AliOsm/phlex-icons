@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSugarizerFilled < Base
       def view_template
-        render BrandSugarizer.new(variant: :filled)
+        render BrandSugarizer.new(variant: :filled, **attrs)
       end
     end
   end

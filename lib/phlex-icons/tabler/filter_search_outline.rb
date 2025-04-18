@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilterSearchOutline < Base
       def view_template
-        render FilterSearch.new(variant: :outline)
+        render FilterSearch.new(variant: :outline, **attrs)
       end
     end
   end

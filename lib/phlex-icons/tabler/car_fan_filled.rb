@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarFanFilled < Base
       def view_template
-        render CarFan.new(variant: :filled)
+        render CarFan.new(variant: :filled, **attrs)
       end
     end
   end

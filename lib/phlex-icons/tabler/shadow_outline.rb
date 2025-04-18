@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShadowOutline < Base
       def view_template
-        render Shadow.new(variant: :outline)
+        render Shadow.new(variant: :outline, **attrs)
       end
     end
   end

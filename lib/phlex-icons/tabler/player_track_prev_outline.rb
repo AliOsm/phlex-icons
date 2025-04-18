@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayerTrackPrevOutline < Base
       def view_template
-        render PlayerTrackPrev.new(variant: :outline)
+        render PlayerTrackPrev.new(variant: :outline, **attrs)
       end
     end
   end

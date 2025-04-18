@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CropPortraitOutline < Base
       def view_template
-        render CropPortrait.new(variant: :outline)
+        render CropPortrait.new(variant: :outline, **attrs)
       end
     end
   end

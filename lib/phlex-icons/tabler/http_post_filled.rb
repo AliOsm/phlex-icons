@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HttpPostFilled < Base
       def view_template
-        render HttpPost.new(variant: :filled)
+        render HttpPost.new(variant: :filled, **attrs)
       end
     end
   end

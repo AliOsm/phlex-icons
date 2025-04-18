@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldDownloadFilled < Base
       def view_template
-        render WorldDownload.new(variant: :filled)
+        render WorldDownload.new(variant: :filled, **attrs)
       end
     end
   end

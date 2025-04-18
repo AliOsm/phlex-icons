@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudDownloadFilled < Base
       def view_template
-        render CloudDownload.new(variant: :filled)
+        render CloudDownload.new(variant: :filled, **attrs)
       end
     end
   end

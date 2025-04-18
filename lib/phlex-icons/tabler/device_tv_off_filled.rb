@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceTvOffFilled < Base
       def view_template
-        render DeviceTvOff.new(variant: :filled)
+        render DeviceTvOff.new(variant: :filled, **attrs)
       end
     end
   end

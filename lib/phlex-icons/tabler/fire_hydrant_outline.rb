@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FireHydrantOutline < Base
       def view_template
-        render FireHydrant.new(variant: :outline)
+        render FireHydrant.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingBankOutline < Base
       def view_template
-        render BuildingBank.new(variant: :outline)
+        render BuildingBank.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MeterSquareFilled < Base
       def view_template
-        render MeterSquare.new(variant: :filled)
+        render MeterSquare.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CopyPlusOutline < Base
       def view_template
-        render CopyPlus.new(variant: :outline)
+        render CopyPlus.new(variant: :outline, **attrs)
       end
     end
   end

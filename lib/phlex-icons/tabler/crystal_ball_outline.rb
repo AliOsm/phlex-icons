@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrystalBallOutline < Base
       def view_template
-        render CrystalBall.new(variant: :outline)
+        render CrystalBall.new(variant: :outline, **attrs)
       end
     end
   end

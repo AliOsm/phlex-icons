@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SwitchHorizontalOutline < Base
       def view_template
-        render SwitchHorizontal.new(variant: :outline)
+        render SwitchHorizontal.new(variant: :outline, **attrs)
       end
     end
   end

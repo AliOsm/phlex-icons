@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBigUpLineOutline < Base
       def view_template
-        render ArrowBigUpLine.new(variant: :outline)
+        render ArrowBigUpLine.new(variant: :outline, **attrs)
       end
     end
   end

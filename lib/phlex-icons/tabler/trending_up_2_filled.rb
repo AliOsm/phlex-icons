@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrendingUp2Filled < Base
       def view_template
-        render TrendingUp2.new(variant: :filled)
+        render TrendingUp2.new(variant: :filled, **attrs)
       end
     end
   end

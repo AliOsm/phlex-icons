@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PodiumOutline < Base
       def view_template
-        render Podium.new(variant: :outline)
+        render Podium.new(variant: :outline, **attrs)
       end
     end
   end

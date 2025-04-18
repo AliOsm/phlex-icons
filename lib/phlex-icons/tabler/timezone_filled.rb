@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TimezoneFilled < Base
       def view_template
-        render Timezone.new(variant: :filled)
+        render Timezone.new(variant: :filled, **attrs)
       end
     end
   end

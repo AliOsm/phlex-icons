@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoppingCartPlusOutline < Base
       def view_template
-        render ShoppingCartPlus.new(variant: :outline)
+        render ShoppingCartPlus.new(variant: :outline, **attrs)
       end
     end
   end

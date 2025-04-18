@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PingPongFilled < Base
       def view_template
-        render PingPong.new(variant: :filled)
+        render PingPong.new(variant: :filled, **attrs)
       end
     end
   end

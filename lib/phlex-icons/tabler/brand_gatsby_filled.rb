@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGatsbyFilled < Base
       def view_template
-        render BrandGatsby.new(variant: :filled)
+        render BrandGatsby.new(variant: :filled, **attrs)
       end
     end
   end

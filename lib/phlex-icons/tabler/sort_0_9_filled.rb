@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Sort09Filled < Base
       def view_template
-        render Sort09.new(variant: :filled)
+        render Sort09.new(variant: :filled, **attrs)
       end
     end
   end

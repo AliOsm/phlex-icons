@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RulerMeasureOutline < Base
       def view_template
-        render RulerMeasure.new(variant: :outline)
+        render RulerMeasure.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowLoopLeft2Filled < Base
       def view_template
-        render ArrowLoopLeft2.new(variant: :filled)
+        render ArrowLoopLeft2.new(variant: :filled, **attrs)
       end
     end
   end

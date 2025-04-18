@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudNetworkOutline < Base
       def view_template
-        render CloudNetwork.new(variant: :outline)
+        render CloudNetwork.new(variant: :outline, **attrs)
       end
     end
   end

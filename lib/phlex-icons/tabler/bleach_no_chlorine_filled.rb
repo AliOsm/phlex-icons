@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BleachNoChlorineFilled < Base
       def view_template
-        render BleachNoChlorine.new(variant: :filled)
+        render BleachNoChlorine.new(variant: :filled, **attrs)
       end
     end
   end

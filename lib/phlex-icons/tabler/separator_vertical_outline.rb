@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SeparatorVerticalOutline < Base
       def view_template
-        render SeparatorVertical.new(variant: :outline)
+        render SeparatorVertical.new(variant: :outline, **attrs)
       end
     end
   end

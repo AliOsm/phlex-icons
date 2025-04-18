@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapEastFilled < Base
       def view_template
-        render MapEast.new(variant: :filled)
+        render MapEast.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileSparkFilled < Base
       def view_template
-        render FileSpark.new(variant: :filled)
+        render FileSpark.new(variant: :filled, **attrs)
       end
     end
   end

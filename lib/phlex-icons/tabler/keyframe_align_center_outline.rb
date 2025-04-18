@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyframeAlignCenterOutline < Base
       def view_template
-        render KeyframeAlignCenter.new(variant: :outline)
+        render KeyframeAlignCenter.new(variant: :outline, **attrs)
       end
     end
   end

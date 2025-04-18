@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UniverseOutline < Base
       def view_template
-        render Universe.new(variant: :outline)
+        render Universe.new(variant: :outline, **attrs)
       end
     end
   end

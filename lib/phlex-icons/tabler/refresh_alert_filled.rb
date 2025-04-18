@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RefreshAlertFilled < Base
       def view_template
-        render RefreshAlert.new(variant: :filled)
+        render RefreshAlert.new(variant: :filled, **attrs)
       end
     end
   end

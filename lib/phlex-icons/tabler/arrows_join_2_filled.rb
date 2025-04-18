@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsJoin2Filled < Base
       def view_template
-        render ArrowsJoin2.new(variant: :filled)
+        render ArrowsJoin2.new(variant: :filled, **attrs)
       end
     end
   end

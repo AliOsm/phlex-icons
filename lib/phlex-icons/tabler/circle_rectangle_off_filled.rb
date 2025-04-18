@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleRectangleOffFilled < Base
       def view_template
-        render CircleRectangleOff.new(variant: :filled)
+        render CircleRectangleOff.new(variant: :filled, **attrs)
       end
     end
   end

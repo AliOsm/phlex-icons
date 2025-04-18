@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPrintablesFilled < Base
       def view_template
-        render BrandPrintables.new(variant: :filled)
+        render BrandPrintables.new(variant: :filled, **attrs)
       end
     end
   end

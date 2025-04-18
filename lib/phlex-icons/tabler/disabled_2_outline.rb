@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Disabled2Outline < Base
       def view_template
-        render Disabled2.new(variant: :outline)
+        render Disabled2.new(variant: :outline, **attrs)
       end
     end
   end

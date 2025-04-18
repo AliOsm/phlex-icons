@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlphabetKoreanOutline < Base
       def view_template
-        render AlphabetKorean.new(variant: :outline)
+        render AlphabetKorean.new(variant: :outline, **attrs)
       end
     end
   end

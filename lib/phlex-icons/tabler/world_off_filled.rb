@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldOffFilled < Base
       def view_template
-        render WorldOff.new(variant: :filled)
+        render WorldOff.new(variant: :filled, **attrs)
       end
     end
   end

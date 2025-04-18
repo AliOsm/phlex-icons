@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TipJarOutline < Base
       def view_template
-        render TipJar.new(variant: :outline)
+        render TipJar.new(variant: :outline, **attrs)
       end
     end
   end

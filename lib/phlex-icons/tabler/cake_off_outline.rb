@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CakeOffOutline < Base
       def view_template
-        render CakeOff.new(variant: :outline)
+        render CakeOff.new(variant: :outline, **attrs)
       end
     end
   end

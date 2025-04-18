@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ToiletPaperOutline < Base
       def view_template
-        render ToiletPaper.new(variant: :outline)
+        render ToiletPaper.new(variant: :outline, **attrs)
       end
     end
   end

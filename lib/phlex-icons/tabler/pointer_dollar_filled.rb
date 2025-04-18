@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerDollarFilled < Base
       def view_template
-        render PointerDollar.new(variant: :filled)
+        render PointerDollar.new(variant: :filled, **attrs)
       end
     end
   end

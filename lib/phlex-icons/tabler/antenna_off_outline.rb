@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AntennaOffOutline < Base
       def view_template
-        render AntennaOff.new(variant: :outline)
+        render AntennaOff.new(variant: :outline, **attrs)
       end
     end
   end

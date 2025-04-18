@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChalkboardOffOutline < Base
       def view_template
-        render ChalkboardOff.new(variant: :outline)
+        render ChalkboardOff.new(variant: :outline, **attrs)
       end
     end
   end

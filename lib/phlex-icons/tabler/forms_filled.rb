@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FormsFilled < Base
       def view_template
-        render Forms.new(variant: :filled)
+        render Forms.new(variant: :filled, **attrs)
       end
     end
   end

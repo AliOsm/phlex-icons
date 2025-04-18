@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EmergencyBedFilled < Base
       def view_template
-        render EmergencyBed.new(variant: :filled)
+        render EmergencyBed.new(variant: :filled, **attrs)
       end
     end
   end

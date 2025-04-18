@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RadiusBottomLeftOutline < Base
       def view_template
-        render RadiusBottomLeft.new(variant: :outline)
+        render RadiusBottomLeft.new(variant: :outline, **attrs)
       end
     end
   end

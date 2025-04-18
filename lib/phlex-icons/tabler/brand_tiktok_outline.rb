@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTiktokOutline < Base
       def view_template
-        render BrandTiktok.new(variant: :outline)
+        render BrandTiktok.new(variant: :outline, **attrs)
       end
     end
   end

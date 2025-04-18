@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandNextcloudOutline < Base
       def view_template
-        render BrandNextcloud.new(variant: :outline)
+        render BrandNextcloud.new(variant: :outline, **attrs)
       end
     end
   end

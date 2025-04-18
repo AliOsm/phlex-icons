@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraCodeOutline < Base
       def view_template
-        render CameraCode.new(variant: :outline)
+        render CameraCode.new(variant: :outline, **attrs)
       end
     end
   end

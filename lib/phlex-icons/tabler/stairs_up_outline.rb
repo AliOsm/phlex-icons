@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StairsUpOutline < Base
       def view_template
-        render StairsUp.new(variant: :outline)
+        render StairsUp.new(variant: :outline, **attrs)
       end
     end
   end

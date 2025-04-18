@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseLeakOutline < Base
       def view_template
-        render DatabaseLeak.new(variant: :outline)
+        render DatabaseLeak.new(variant: :outline, **attrs)
       end
     end
   end

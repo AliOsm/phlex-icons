@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CircleChevronRightOutline < Base
       def view_template
-        render CircleChevronRight.new(variant: :outline)
+        render CircleChevronRight.new(variant: :outline, **attrs)
       end
     end
   end

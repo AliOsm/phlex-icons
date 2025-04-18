@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilterPinOutline < Base
       def view_template
-        render FilterPin.new(variant: :outline)
+        render FilterPin.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandHtml5Filled < Base
       def view_template
-        render BrandHtml5.new(variant: :filled)
+        render BrandHtml5.new(variant: :filled, **attrs)
       end
     end
   end

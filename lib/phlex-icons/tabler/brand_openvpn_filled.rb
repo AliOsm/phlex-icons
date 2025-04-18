@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandOpenvpnFilled < Base
       def view_template
-        render BrandOpenvpn.new(variant: :filled)
+        render BrandOpenvpn.new(variant: :filled, **attrs)
       end
     end
   end

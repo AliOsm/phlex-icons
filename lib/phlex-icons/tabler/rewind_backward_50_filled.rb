@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RewindBackward50Filled < Base
       def view_template
-        render RewindBackward50.new(variant: :filled)
+        render RewindBackward50.new(variant: :filled, **attrs)
       end
     end
   end

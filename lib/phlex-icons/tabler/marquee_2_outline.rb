@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Marquee2Outline < Base
       def view_template
-        render Marquee2.new(variant: :outline)
+        render Marquee2.new(variant: :outline, **attrs)
       end
     end
   end

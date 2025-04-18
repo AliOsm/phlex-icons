@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AccessibleFilled < Base
       def view_template
-        render Accessible.new(variant: :filled)
+        render Accessible.new(variant: :filled, **attrs)
       end
     end
   end

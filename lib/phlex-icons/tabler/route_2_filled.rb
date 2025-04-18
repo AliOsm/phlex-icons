@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Route2Filled < Base
       def view_template
-        render Route2.new(variant: :filled)
+        render Route2.new(variant: :filled, **attrs)
       end
     end
   end

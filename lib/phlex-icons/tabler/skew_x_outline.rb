@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SkewXOutline < Base
       def view_template
-        render SkewX.new(variant: :outline)
+        render SkewX.new(variant: :outline, **attrs)
       end
     end
   end

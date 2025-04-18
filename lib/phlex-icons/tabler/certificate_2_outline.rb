@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Certificate2Outline < Base
       def view_template
-        render Certificate2.new(variant: :outline)
+        render Certificate2.new(variant: :outline, **attrs)
       end
     end
   end

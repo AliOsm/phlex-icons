@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapXFilled < Base
       def view_template
-        render MapX.new(variant: :filled)
+        render MapX.new(variant: :filled, **attrs)
       end
     end
   end

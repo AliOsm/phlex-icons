@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WalletOffOutline < Base
       def view_template
-        render WalletOff.new(variant: :outline)
+        render WalletOff.new(variant: :outline, **attrs)
       end
     end
   end

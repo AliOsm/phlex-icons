@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypePhpOutline < Base
       def view_template
-        render FileTypePhp.new(variant: :outline)
+        render FileTypePhp.new(variant: :outline, **attrs)
       end
     end
   end

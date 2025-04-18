@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BadgeCcOutline < Base
       def view_template
-        render BadgeCc.new(variant: :outline)
+        render BadgeCc.new(variant: :outline, **attrs)
       end
     end
   end

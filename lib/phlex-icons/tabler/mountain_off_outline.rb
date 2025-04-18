@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MountainOffOutline < Base
       def view_template
-        render MountainOff.new(variant: :outline)
+        render MountainOff.new(variant: :outline, **attrs)
       end
     end
   end

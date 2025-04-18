@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceCameraPhoneFilled < Base
       def view_template
-        render DeviceCameraPhone.new(variant: :filled)
+        render DeviceCameraPhone.new(variant: :filled, **attrs)
       end
     end
   end

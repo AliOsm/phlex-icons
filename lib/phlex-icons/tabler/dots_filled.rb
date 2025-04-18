@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DotsFilled < Base
       def view_template
-        render Dots.new(variant: :filled)
+        render Dots.new(variant: :filled, **attrs)
       end
     end
   end

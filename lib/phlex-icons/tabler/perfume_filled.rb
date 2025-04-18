@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PerfumeFilled < Base
       def view_template
-        render Perfume.new(variant: :filled)
+        render Perfume.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BarbellFilled < Base
       def view_template
-        render Barbell.new(variant: :filled)
+        render Barbell.new(variant: :filled, **attrs)
       end
     end
   end

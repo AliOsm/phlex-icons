@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LineOutline < Base
       def view_template
-        render Line.new(variant: :outline)
+        render Line.new(variant: :outline, **attrs)
       end
     end
   end

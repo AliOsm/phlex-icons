@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Send2Outline < Base
       def view_template
-        render Send2.new(variant: :outline)
+        render Send2.new(variant: :outline, **attrs)
       end
     end
   end

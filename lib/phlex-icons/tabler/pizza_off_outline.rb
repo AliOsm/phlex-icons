@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PizzaOffOutline < Base
       def view_template
-        render PizzaOff.new(variant: :outline)
+        render PizzaOff.new(variant: :outline, **attrs)
       end
     end
   end

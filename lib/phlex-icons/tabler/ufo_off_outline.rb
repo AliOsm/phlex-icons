@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UfoOffOutline < Base
       def view_template
-        render UfoOff.new(variant: :outline)
+        render UfoOff.new(variant: :outline, **attrs)
       end
     end
   end

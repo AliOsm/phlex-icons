@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandDisneyOutline < Base
       def view_template
-        render BrandDisney.new(variant: :outline)
+        render BrandDisney.new(variant: :outline, **attrs)
       end
     end
   end

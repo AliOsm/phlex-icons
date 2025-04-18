@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlusEqualOutline < Base
       def view_template
-        render PlusEqual.new(variant: :outline)
+        render PlusEqual.new(variant: :outline, **attrs)
       end
     end
   end

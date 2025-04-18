@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BuildingWarehouseOutline < Base
       def view_template
-        render BuildingWarehouse.new(variant: :outline)
+        render BuildingWarehouse.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsCogOutline < Base
       def view_template
-        render AdjustmentsCog.new(variant: :outline)
+        render AdjustmentsCog.new(variant: :outline, **attrs)
       end
     end
   end

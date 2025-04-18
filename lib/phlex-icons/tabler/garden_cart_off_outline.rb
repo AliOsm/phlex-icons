@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GardenCartOffOutline < Base
       def view_template
-        render GardenCartOff.new(variant: :outline)
+        render GardenCartOff.new(variant: :outline, **attrs)
       end
     end
   end

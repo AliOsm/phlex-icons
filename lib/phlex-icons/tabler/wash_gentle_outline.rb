@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashGentleOutline < Base
       def view_template
-        render WashGentle.new(variant: :outline)
+        render WashGentle.new(variant: :outline, **attrs)
       end
     end
   end

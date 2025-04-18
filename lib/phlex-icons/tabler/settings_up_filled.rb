@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SettingsUpFilled < Base
       def view_template
-        render SettingsUp.new(variant: :filled)
+        render SettingsUp.new(variant: :filled, **attrs)
       end
     end
   end

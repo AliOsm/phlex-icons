@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileArrowRightFilled < Base
       def view_template
-        render FileArrowRight.new(variant: :filled)
+        render FileArrowRight.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWishOutline < Base
       def view_template
-        render BrandWish.new(variant: :outline)
+        render BrandWish.new(variant: :outline, **attrs)
       end
     end
   end

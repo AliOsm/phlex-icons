@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrashOffOutline < Base
       def view_template
-        render TrashOff.new(variant: :outline)
+        render TrashOff.new(variant: :outline, **attrs)
       end
     end
   end

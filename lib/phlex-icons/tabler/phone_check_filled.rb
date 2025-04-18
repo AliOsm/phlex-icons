@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneCheckFilled < Base
       def view_template
-        render PhoneCheck.new(variant: :filled)
+        render PhoneCheck.new(variant: :filled, **attrs)
       end
     end
   end

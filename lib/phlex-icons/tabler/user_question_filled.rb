@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserQuestionFilled < Base
       def view_template
-        render UserQuestion.new(variant: :filled)
+        render UserQuestion.new(variant: :filled, **attrs)
       end
     end
   end

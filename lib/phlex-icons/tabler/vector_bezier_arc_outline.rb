@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VectorBezierArcOutline < Base
       def view_template
-        render VectorBezierArc.new(variant: :outline)
+        render VectorBezierArc.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartPieFilled < Base
       def view_template
-        render ChartPie.new(variant: :filled)
+        render ChartPie.new(variant: :filled, **attrs)
       end
     end
   end

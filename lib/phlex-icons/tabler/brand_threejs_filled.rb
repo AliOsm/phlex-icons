@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandThreejsFilled < Base
       def view_template
-        render BrandThreejs.new(variant: :filled)
+        render BrandThreejs.new(variant: :filled, **attrs)
       end
     end
   end

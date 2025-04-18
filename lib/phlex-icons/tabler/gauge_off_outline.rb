@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GaugeOffOutline < Base
       def view_template
-        render GaugeOff.new(variant: :outline)
+        render GaugeOff.new(variant: :outline, **attrs)
       end
     end
   end

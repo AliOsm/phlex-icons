@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class H5Filled < Base
       def view_template
-        render H5.new(variant: :filled)
+        render H5.new(variant: :filled, **attrs)
       end
     end
   end

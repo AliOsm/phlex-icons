@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SendOffFilled < Base
       def view_template
-        render SendOff.new(variant: :filled)
+        render SendOff.new(variant: :filled, **attrs)
       end
     end
   end

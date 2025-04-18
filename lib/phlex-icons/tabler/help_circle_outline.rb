@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelpCircleOutline < Base
       def view_template
-        render HelpCircle.new(variant: :outline)
+        render HelpCircle.new(variant: :outline, **attrs)
       end
     end
   end

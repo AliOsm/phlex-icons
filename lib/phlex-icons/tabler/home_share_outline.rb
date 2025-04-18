@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeShareOutline < Base
       def view_template
-        render HomeShare.new(variant: :outline)
+        render HomeShare.new(variant: :outline, **attrs)
       end
     end
   end

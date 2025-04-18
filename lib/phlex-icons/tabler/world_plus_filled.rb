@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldPlusFilled < Base
       def view_template
-        render WorldPlus.new(variant: :filled)
+        render WorldPlus.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAlipayOutline < Base
       def view_template
-        render BrandAlipay.new(variant: :outline)
+        render BrandAlipay.new(variant: :outline, **attrs)
       end
     end
   end

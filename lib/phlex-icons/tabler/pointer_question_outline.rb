@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PointerQuestionOutline < Base
       def view_template
-        render PointerQuestion.new(variant: :outline)
+        render PointerQuestion.new(variant: :outline, **attrs)
       end
     end
   end

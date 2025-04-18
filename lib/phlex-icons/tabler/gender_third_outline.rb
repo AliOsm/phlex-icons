@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GenderThirdOutline < Base
       def view_template
-        render GenderThird.new(variant: :outline)
+        render GenderThird.new(variant: :outline, **attrs)
       end
     end
   end

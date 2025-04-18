@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FaceIdErrorOutline < Base
       def view_template
-        render FaceIdError.new(variant: :outline)
+        render FaceIdError.new(variant: :outline, **attrs)
       end
     end
   end

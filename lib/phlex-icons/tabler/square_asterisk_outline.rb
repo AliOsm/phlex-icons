@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareAsteriskOutline < Base
       def view_template
-        render SquareAsterisk.new(variant: :outline)
+        render SquareAsterisk.new(variant: :outline, **attrs)
       end
     end
   end

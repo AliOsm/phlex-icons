@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BorderRadiusOutline < Base
       def view_template
-        render BorderRadius.new(variant: :outline)
+        render BorderRadius.new(variant: :outline, **attrs)
       end
     end
   end

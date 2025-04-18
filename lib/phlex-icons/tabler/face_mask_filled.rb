@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FaceMaskFilled < Base
       def view_template
-        render FaceMask.new(variant: :filled)
+        render FaceMask.new(variant: :filled, **attrs)
       end
     end
   end

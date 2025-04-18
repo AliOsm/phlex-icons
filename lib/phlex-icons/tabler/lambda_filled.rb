@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LambdaFilled < Base
       def view_template
-        render Lambda.new(variant: :filled)
+        render Lambda.new(variant: :filled, **attrs)
       end
     end
   end

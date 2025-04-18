@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderCogOutline < Base
       def view_template
-        render FolderCog.new(variant: :outline)
+        render FolderCog.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ShoppingCartCogOutline < Base
       def view_template
-        render ShoppingCartCog.new(variant: :outline)
+        render ShoppingCartCog.new(variant: :outline, **attrs)
       end
     end
   end

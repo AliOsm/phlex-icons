@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Plant2Filled < Base
       def view_template
-        render Plant2.new(variant: :filled)
+        render Plant2.new(variant: :filled, **attrs)
       end
     end
   end

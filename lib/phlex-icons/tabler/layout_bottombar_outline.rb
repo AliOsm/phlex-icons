@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutBottombarOutline < Base
       def view_template
-        render LayoutBottombar.new(variant: :outline)
+        render LayoutBottombar.new(variant: :outline, **attrs)
       end
     end
   end

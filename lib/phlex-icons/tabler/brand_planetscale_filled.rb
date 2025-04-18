@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPlanetscaleFilled < Base
       def view_template
-        render BrandPlanetscale.new(variant: :filled)
+        render BrandPlanetscale.new(variant: :filled, **attrs)
       end
     end
   end

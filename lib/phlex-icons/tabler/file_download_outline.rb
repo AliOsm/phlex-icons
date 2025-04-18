@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileDownloadOutline < Base
       def view_template
-        render FileDownload.new(variant: :outline)
+        render FileDownload.new(variant: :outline, **attrs)
       end
     end
   end

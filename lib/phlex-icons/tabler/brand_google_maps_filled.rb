@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGoogleMapsFilled < Base
       def view_template
-        render BrandGoogleMaps.new(variant: :filled)
+        render BrandGoogleMaps.new(variant: :filled, **attrs)
       end
     end
   end

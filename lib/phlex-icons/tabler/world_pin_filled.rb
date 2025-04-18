@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldPinFilled < Base
       def view_template
-        render WorldPin.new(variant: :filled)
+        render WorldPin.new(variant: :filled, **attrs)
       end
     end
   end

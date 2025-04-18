@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ImageInPictureFilled < Base
       def view_template
-        render ImageInPicture.new(variant: :filled)
+        render ImageInPicture.new(variant: :filled, **attrs)
       end
     end
   end

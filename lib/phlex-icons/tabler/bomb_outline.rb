@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BombOutline < Base
       def view_template
-        render Bomb.new(variant: :outline)
+        render Bomb.new(variant: :outline, **attrs)
       end
     end
   end

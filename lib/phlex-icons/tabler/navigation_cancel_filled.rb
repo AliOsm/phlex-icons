@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationCancelFilled < Base
       def view_template
-        render NavigationCancel.new(variant: :filled)
+        render NavigationCancel.new(variant: :filled, **attrs)
       end
     end
   end

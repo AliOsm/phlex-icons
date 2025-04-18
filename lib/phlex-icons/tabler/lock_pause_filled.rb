@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockPauseFilled < Base
       def view_template
-        render LockPause.new(variant: :filled)
+        render LockPause.new(variant: :filled, **attrs)
       end
     end
   end

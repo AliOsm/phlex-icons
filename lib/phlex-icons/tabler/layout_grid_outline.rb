@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutGridOutline < Base
       def view_template
-        render LayoutGrid.new(variant: :outline)
+        render LayoutGrid.new(variant: :outline, **attrs)
       end
     end
   end

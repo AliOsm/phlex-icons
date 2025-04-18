@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BladeFilled < Base
       def view_template
-        render Blade.new(variant: :filled)
+        render Blade.new(variant: :filled, **attrs)
       end
     end
   end

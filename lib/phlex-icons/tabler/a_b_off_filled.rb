@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ABOffFilled < Base
       def view_template
-        render ABOff.new(variant: :filled)
+        render ABOff.new(variant: :filled, **attrs)
       end
     end
   end

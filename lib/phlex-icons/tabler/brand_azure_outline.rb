@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAzureOutline < Base
       def view_template
-        render BrandAzure.new(variant: :outline)
+        render BrandAzure.new(variant: :outline, **attrs)
       end
     end
   end

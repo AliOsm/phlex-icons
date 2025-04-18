@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WindElectricityFilled < Base
       def view_template
-        render WindElectricity.new(variant: :filled)
+        render WindElectricity.new(variant: :filled, **attrs)
       end
     end
   end

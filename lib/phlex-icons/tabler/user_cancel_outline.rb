@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserCancelOutline < Base
       def view_template
-        render UserCancel.new(variant: :outline)
+        render UserCancel.new(variant: :outline, **attrs)
       end
     end
   end

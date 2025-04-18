@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyePauseFilled < Base
       def view_template
-        render EyePause.new(variant: :filled)
+        render EyePause.new(variant: :filled, **attrs)
       end
     end
   end

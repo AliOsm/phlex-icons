@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneCallingOutline < Base
       def view_template
-        render PhoneCalling.new(variant: :outline)
+        render PhoneCalling.new(variant: :outline, **attrs)
       end
     end
   end

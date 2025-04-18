@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandStravaOutline < Base
       def view_template
-        render BrandStrava.new(variant: :outline)
+        render BrandStrava.new(variant: :outline, **attrs)
       end
     end
   end

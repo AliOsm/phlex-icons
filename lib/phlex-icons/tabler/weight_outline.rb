@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WeightOutline < Base
       def view_template
-        render Weight.new(variant: :outline)
+        render Weight.new(variant: :outline, **attrs)
       end
     end
   end

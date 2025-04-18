@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GolfOffFilled < Base
       def view_template
-        render GolfOff.new(variant: :filled)
+        render GolfOff.new(variant: :filled, **attrs)
       end
     end
   end

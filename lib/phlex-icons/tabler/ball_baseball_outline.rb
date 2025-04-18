@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BallBaseballOutline < Base
       def view_template
-        render BallBaseball.new(variant: :outline)
+        render BallBaseball.new(variant: :outline, **attrs)
       end
     end
   end

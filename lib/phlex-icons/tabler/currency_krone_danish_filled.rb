@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CurrencyKroneDanishFilled < Base
       def view_template
-        render CurrencyKroneDanish.new(variant: :filled)
+        render CurrencyKroneDanish.new(variant: :filled, **attrs)
       end
     end
   end

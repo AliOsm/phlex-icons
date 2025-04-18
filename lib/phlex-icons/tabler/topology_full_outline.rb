@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TopologyFullOutline < Base
       def view_template
-        render TopologyFull.new(variant: :outline)
+        render TopologyFull.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StackBackFilled < Base
       def view_template
-        render StackBack.new(variant: :filled)
+        render StackBack.new(variant: :filled, **attrs)
       end
     end
   end

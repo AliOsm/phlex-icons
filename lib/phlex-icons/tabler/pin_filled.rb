@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PinFilled < Base
       def view_template
-        render Pin.new(variant: :filled)
+        render Pin.new(variant: :filled, **attrs)
       end
     end
   end

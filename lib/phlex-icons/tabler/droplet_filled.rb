@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropletFilled < Base
       def view_template
-        render Droplet.new(variant: :filled)
+        render Droplet.new(variant: :filled, **attrs)
       end
     end
   end

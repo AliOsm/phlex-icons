@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAmdOutline < Base
       def view_template
-        render BrandAmd.new(variant: :outline)
+        render BrandAmd.new(variant: :outline, **attrs)
       end
     end
   end

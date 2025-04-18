@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneRingingFilled < Base
       def view_template
-        render PhoneRinging.new(variant: :filled)
+        render PhoneRinging.new(variant: :filled, **attrs)
       end
     end
   end

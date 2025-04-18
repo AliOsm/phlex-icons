@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraSparkOutline < Base
       def view_template
-        render CameraSpark.new(variant: :outline)
+        render CameraSpark.new(variant: :outline, **attrs)
       end
     end
   end

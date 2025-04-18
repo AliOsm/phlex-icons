@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpiralOffOutline < Base
       def view_template
-        render SpiralOff.new(variant: :outline)
+        render SpiralOff.new(variant: :outline, **attrs)
       end
     end
   end

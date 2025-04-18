@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTypeSvgOutline < Base
       def view_template
-        render FileTypeSvg.new(variant: :outline)
+        render FileTypeSvg.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserEditFilled < Base
       def view_template
-        render UserEdit.new(variant: :filled)
+        render UserEdit.new(variant: :filled, **attrs)
       end
     end
   end

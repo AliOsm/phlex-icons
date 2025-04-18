@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCoreosFilled < Base
       def view_template
-        render BrandCoreos.new(variant: :filled)
+        render BrandCoreos.new(variant: :filled, **attrs)
       end
     end
   end

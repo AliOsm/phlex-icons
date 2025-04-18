@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BatteryFilled < Base
       def view_template
-        render Battery.new(variant: :filled)
+        render Battery.new(variant: :filled, **attrs)
       end
     end
   end

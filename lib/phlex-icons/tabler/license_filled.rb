@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LicenseFilled < Base
       def view_template
-        render License.new(variant: :filled)
+        render License.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilPauseOutline < Base
       def view_template
-        render PencilPause.new(variant: :outline)
+        render PencilPause.new(variant: :outline, **attrs)
       end
     end
   end

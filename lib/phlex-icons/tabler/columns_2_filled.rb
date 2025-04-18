@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Columns2Filled < Base
       def view_template
-        render Columns2.new(variant: :filled)
+        render Columns2.new(variant: :filled, **attrs)
       end
     end
   end

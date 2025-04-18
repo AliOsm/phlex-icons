@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowRotaryFirstRightFilled < Base
       def view_template
-        render ArrowRotaryFirstRight.new(variant: :filled)
+        render ArrowRotaryFirstRight.new(variant: :filled, **attrs)
       end
     end
   end

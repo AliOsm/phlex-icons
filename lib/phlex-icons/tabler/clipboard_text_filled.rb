@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClipboardTextFilled < Base
       def view_template
-        render ClipboardText.new(variant: :filled)
+        render ClipboardText.new(variant: :filled, **attrs)
       end
     end
   end

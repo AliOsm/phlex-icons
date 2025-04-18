@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RectangleOutline < Base
       def view_template
-        render Rectangle.new(variant: :outline)
+        render Rectangle.new(variant: :outline, **attrs)
       end
     end
   end

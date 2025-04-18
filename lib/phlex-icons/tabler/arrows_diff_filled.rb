@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsDiffFilled < Base
       def view_template
-        render ArrowsDiff.new(variant: :filled)
+        render ArrowsDiff.new(variant: :filled, **attrs)
       end
     end
   end

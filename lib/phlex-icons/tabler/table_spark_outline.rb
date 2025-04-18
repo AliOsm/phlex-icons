@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TableSparkOutline < Base
       def view_template
-        render TableSpark.new(variant: :outline)
+        render TableSpark.new(variant: :outline, **attrs)
       end
     end
   end

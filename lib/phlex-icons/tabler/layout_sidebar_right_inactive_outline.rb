@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutSidebarRightInactiveOutline < Base
       def view_template
-        render LayoutSidebarRightInactive.new(variant: :outline)
+        render LayoutSidebarRightInactive.new(variant: :outline, **attrs)
       end
     end
   end

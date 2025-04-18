@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseHeartOutline < Base
       def view_template
-        render DatabaseHeart.new(variant: :outline)
+        render DatabaseHeart.new(variant: :outline, **attrs)
       end
     end
   end

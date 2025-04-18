@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BucketDropletFilled < Base
       def view_template
-        render BucketDroplet.new(variant: :filled)
+        render BucketDroplet.new(variant: :filled, **attrs)
       end
     end
   end

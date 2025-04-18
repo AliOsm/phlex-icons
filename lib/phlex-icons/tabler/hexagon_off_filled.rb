@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HexagonOffFilled < Base
       def view_template
-        render HexagonOff.new(variant: :filled)
+        render HexagonOff.new(variant: :filled, **attrs)
       end
     end
   end

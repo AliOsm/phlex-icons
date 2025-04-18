@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LaurelWreath2Outline < Base
       def view_template
-        render LaurelWreath2.new(variant: :outline)
+        render LaurelWreath2.new(variant: :outline, **attrs)
       end
     end
   end

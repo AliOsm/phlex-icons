@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RouteSquareOutline < Base
       def view_template
-        render RouteSquare.new(variant: :outline)
+        render RouteSquare.new(variant: :outline, **attrs)
       end
     end
   end

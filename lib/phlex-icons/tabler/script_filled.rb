@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScriptFilled < Base
       def view_template
-        render Script.new(variant: :filled)
+        render Script.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellSearchFilled < Base
       def view_template
-        render BellSearch.new(variant: :filled)
+        render BellSearch.new(variant: :filled, **attrs)
       end
     end
   end

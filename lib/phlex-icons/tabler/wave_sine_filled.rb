@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WaveSineFilled < Base
       def view_template
-        render WaveSine.new(variant: :filled)
+        render WaveSine.new(variant: :filled, **attrs)
       end
     end
   end

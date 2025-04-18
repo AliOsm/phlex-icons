@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LetterZFilled < Base
       def view_template
-        render LetterZ.new(variant: :filled)
+        render LetterZ.new(variant: :filled, **attrs)
       end
     end
   end

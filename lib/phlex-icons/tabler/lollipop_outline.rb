@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LollipopOutline < Base
       def view_template
-        render Lollipop.new(variant: :outline)
+        render Lollipop.new(variant: :outline, **attrs)
       end
     end
   end

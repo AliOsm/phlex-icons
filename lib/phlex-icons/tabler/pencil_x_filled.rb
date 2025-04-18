@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilXFilled < Base
       def view_template
-        render PencilX.new(variant: :filled)
+        render PencilX.new(variant: :filled, **attrs)
       end
     end
   end

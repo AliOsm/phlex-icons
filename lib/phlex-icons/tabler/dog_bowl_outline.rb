@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DogBowlOutline < Base
       def view_template
-        render DogBowl.new(variant: :outline)
+        render DogBowl.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ToolsKitchen2OffFilled < Base
       def view_template
-        render ToolsKitchen2Off.new(variant: :filled)
+        render ToolsKitchen2Off.new(variant: :filled, **attrs)
       end
     end
   end

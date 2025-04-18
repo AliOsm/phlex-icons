@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTopbuzzFilled < Base
       def view_template
-        render BrandTopbuzz.new(variant: :filled)
+        render BrandTopbuzz.new(variant: :filled, **attrs)
       end
     end
   end

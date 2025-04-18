@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RechargingFilled < Base
       def view_template
-        render Recharging.new(variant: :filled)
+        render Recharging.new(variant: :filled, **attrs)
       end
     end
   end

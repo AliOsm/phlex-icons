@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutDistributeHorizontalOutline < Base
       def view_template
-        render LayoutDistributeHorizontal.new(variant: :outline)
+        render LayoutDistributeHorizontal.new(variant: :outline, **attrs)
       end
     end
   end

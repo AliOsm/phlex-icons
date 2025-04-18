@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileInvoiceOutline < Base
       def view_template
-        render FileInvoice.new(variant: :outline)
+        render FileInvoice.new(variant: :outline, **attrs)
       end
     end
   end

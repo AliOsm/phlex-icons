@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JoinStraightOutline < Base
       def view_template
-        render JoinStraight.new(variant: :outline)
+        render JoinStraight.new(variant: :outline, **attrs)
       end
     end
   end

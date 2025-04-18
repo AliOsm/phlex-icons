@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CookerOutline < Base
       def view_template
-        render Cooker.new(variant: :outline)
+        render Cooker.new(variant: :outline, **attrs)
       end
     end
   end

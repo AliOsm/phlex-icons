@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignBoxTopCenterOutline < Base
       def view_template
-        render AlignBoxTopCenter.new(variant: :outline)
+        render AlignBoxTopCenter.new(variant: :outline, **attrs)
       end
     end
   end

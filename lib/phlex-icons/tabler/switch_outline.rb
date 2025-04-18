@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SwitchOutline < Base
       def view_template
-        render Switch.new(variant: :outline)
+        render Switch.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceImacCheckFilled < Base
       def view_template
-        render DeviceImacCheck.new(variant: :filled)
+        render DeviceImacCheck.new(variant: :filled, **attrs)
       end
     end
   end

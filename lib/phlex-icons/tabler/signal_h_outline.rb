@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SignalHOutline < Base
       def view_template
-        render SignalH.new(variant: :outline)
+        render SignalH.new(variant: :outline, **attrs)
       end
     end
   end

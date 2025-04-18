@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BikeOffFilled < Base
       def view_template
-        render BikeOff.new(variant: :filled)
+        render BikeOff.new(variant: :filled, **attrs)
       end
     end
   end

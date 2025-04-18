@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CursorOffOutline < Base
       def view_template
-        render CursorOff.new(variant: :outline)
+        render CursorOff.new(variant: :outline, **attrs)
       end
     end
   end

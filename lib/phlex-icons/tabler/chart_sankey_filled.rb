@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartSankeyFilled < Base
       def view_template
-        render ChartSankey.new(variant: :filled)
+        render ChartSankey.new(variant: :filled, **attrs)
       end
     end
   end

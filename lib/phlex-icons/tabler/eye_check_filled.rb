@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EyeCheckFilled < Base
       def view_template
-        render EyeCheck.new(variant: :filled)
+        render EyeCheck.new(variant: :filled, **attrs)
       end
     end
   end

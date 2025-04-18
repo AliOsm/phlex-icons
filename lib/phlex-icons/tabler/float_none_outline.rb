@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FloatNoneOutline < Base
       def view_template
-        render FloatNone.new(variant: :outline)
+        render FloatNone.new(variant: :outline, **attrs)
       end
     end
   end

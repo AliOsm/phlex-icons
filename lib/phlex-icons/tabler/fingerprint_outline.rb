@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FingerprintOutline < Base
       def view_template
-        render Fingerprint.new(variant: :outline)
+        render Fingerprint.new(variant: :outline, **attrs)
       end
     end
   end

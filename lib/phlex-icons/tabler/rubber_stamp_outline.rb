@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RubberStampOutline < Base
       def view_template
-        render RubberStamp.new(variant: :outline)
+        render RubberStamp.new(variant: :outline, **attrs)
       end
     end
   end

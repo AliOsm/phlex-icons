@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobileCogFilled < Base
       def view_template
-        render DeviceMobileCog.new(variant: :filled)
+        render DeviceMobileCog.new(variant: :filled, **attrs)
       end
     end
   end

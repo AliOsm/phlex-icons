@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ExclamationMarkOutline < Base
       def view_template
-        render ExclamationMark.new(variant: :outline)
+        render ExclamationMark.new(variant: :outline, **attrs)
       end
     end
   end

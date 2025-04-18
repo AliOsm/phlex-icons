@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlugConnectedFilled < Base
       def view_template
-        render PlugConnected.new(variant: :filled)
+        render PlugConnected.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReceiptRupeeFilled < Base
       def view_template
-        render ReceiptRupee.new(variant: :filled)
+        render ReceiptRupee.new(variant: :filled, **attrs)
       end
     end
   end

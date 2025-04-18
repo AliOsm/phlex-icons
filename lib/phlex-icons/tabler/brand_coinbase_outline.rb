@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCoinbaseOutline < Base
       def view_template
-        render BrandCoinbase.new(variant: :outline)
+        render BrandCoinbase.new(variant: :outline, **attrs)
       end
     end
   end

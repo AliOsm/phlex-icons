@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class XdOutline < Base
       def view_template
-        render Xd.new(variant: :outline)
+        render Xd.new(variant: :outline, **attrs)
       end
     end
   end

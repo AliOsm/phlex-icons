@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WheatOffFilled < Base
       def view_template
-        render WheatOff.new(variant: :filled)
+        render WheatOff.new(variant: :filled, **attrs)
       end
     end
   end

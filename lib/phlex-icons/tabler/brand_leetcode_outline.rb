@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandLeetcodeOutline < Base
       def view_template
-        render BrandLeetcode.new(variant: :outline)
+        render BrandLeetcode.new(variant: :outline, **attrs)
       end
     end
   end

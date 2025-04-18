@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagCodeOutline < Base
       def view_template
-        render FlagCode.new(variant: :outline)
+        render FlagCode.new(variant: :outline, **attrs)
       end
     end
   end

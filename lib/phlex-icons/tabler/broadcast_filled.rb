@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BroadcastFilled < Base
       def view_template
-        render Broadcast.new(variant: :filled)
+        render Broadcast.new(variant: :filled, **attrs)
       end
     end
   end

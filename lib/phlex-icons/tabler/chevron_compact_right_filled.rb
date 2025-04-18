@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChevronCompactRightFilled < Base
       def view_template
-        render ChevronCompactRight.new(variant: :filled)
+        render ChevronCompactRight.new(variant: :filled, **attrs)
       end
     end
   end

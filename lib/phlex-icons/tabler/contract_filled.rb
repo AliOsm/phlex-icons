@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ContractFilled < Base
       def view_template
-        render Contract.new(variant: :filled)
+        render Contract.new(variant: :filled, **attrs)
       end
     end
   end

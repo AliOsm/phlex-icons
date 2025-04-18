@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CashBanknoteHeartOutline < Base
       def view_template
-        render CashBanknoteHeart.new(variant: :outline)
+        render CashBanknoteHeart.new(variant: :outline, **attrs)
       end
     end
   end

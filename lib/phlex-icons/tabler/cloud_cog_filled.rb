@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudCogFilled < Base
       def view_template
-        render CloudCog.new(variant: :filled)
+        render CloudCog.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTailwindOutline < Base
       def view_template
-        render BrandTailwind.new(variant: :outline)
+        render BrandTailwind.new(variant: :outline, **attrs)
       end
     end
   end

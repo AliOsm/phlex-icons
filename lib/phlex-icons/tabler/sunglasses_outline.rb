@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SunglassesOutline < Base
       def view_template
-        render Sunglasses.new(variant: :outline)
+        render Sunglasses.new(variant: :outline, **attrs)
       end
     end
   end

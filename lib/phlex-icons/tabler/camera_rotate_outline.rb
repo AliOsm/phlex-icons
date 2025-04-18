@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraRotateOutline < Base
       def view_template
-        render CameraRotate.new(variant: :outline)
+        render CameraRotate.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WallpaperFilled < Base
       def view_template
-        render Wallpaper.new(variant: :filled)
+        render Wallpaper.new(variant: :filled, **attrs)
       end
     end
   end

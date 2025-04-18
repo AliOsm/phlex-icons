@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandEnvatoFilled < Base
       def view_template
-        render BrandEnvato.new(variant: :filled)
+        render BrandEnvato.new(variant: :filled, **attrs)
       end
     end
   end

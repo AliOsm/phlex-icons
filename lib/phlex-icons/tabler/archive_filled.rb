@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArchiveFilled < Base
       def view_template
-        render Archive.new(variant: :filled)
+        render Archive.new(variant: :filled, **attrs)
       end
     end
   end

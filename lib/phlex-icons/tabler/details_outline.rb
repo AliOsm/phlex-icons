@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DetailsOutline < Base
       def view_template
-        render Details.new(variant: :outline)
+        render Details.new(variant: :outline, **attrs)
       end
     end
   end

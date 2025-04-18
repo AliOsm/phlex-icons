@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RadiusBottomRightFilled < Base
       def view_template
-        render RadiusBottomRight.new(variant: :filled)
+        render RadiusBottomRight.new(variant: :filled, **attrs)
       end
     end
   end

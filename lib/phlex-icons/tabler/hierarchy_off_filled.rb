@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HierarchyOffFilled < Base
       def view_template
-        render HierarchyOff.new(variant: :filled)
+        render HierarchyOff.new(variant: :filled, **attrs)
       end
     end
   end

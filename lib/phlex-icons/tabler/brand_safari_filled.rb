@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSafariFilled < Base
       def view_template
-        render BrandSafari.new(variant: :filled)
+        render BrandSafari.new(variant: :filled, **attrs)
       end
     end
   end

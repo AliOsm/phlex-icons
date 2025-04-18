@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AntennaBars1Filled < Base
       def view_template
-        render AntennaBars1.new(variant: :filled)
+        render AntennaBars1.new(variant: :filled, **attrs)
       end
     end
   end

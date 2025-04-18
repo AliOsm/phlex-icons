@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BanFilled < Base
       def view_template
-        render Ban.new(variant: :filled)
+        render Ban.new(variant: :filled, **attrs)
       end
     end
   end

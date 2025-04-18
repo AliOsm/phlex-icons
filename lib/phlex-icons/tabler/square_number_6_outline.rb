@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SquareNumber6Outline < Base
       def view_template
-        render SquareNumber6.new(variant: :outline)
+        render SquareNumber6.new(variant: :outline, **attrs)
       end
     end
   end

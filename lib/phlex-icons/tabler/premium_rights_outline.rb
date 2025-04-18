@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PremiumRightsOutline < Base
       def view_template
-        render PremiumRights.new(variant: :outline)
+        render PremiumRights.new(variant: :outline, **attrs)
       end
     end
   end

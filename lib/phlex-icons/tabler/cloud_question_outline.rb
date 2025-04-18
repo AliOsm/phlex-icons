@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudQuestionOutline < Base
       def view_template
-        render CloudQuestion.new(variant: :outline)
+        render CloudQuestion.new(variant: :outline, **attrs)
       end
     end
   end

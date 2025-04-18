@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MinimizeOutline < Base
       def view_template
-        render Minimize.new(variant: :outline)
+        render Minimize.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WindsockOutline < Base
       def view_template
-        render Windsock.new(variant: :outline)
+        render Windsock.new(variant: :outline, **attrs)
       end
     end
   end

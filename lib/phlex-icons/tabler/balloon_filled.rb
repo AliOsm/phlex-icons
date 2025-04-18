@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BalloonFilled < Base
       def view_template
-        render Balloon.new(variant: :filled)
+        render Balloon.new(variant: :filled, **attrs)
       end
     end
   end

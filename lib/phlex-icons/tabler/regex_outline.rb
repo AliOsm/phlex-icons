@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RegexOutline < Base
       def view_template
-        render Regex.new(variant: :outline)
+        render Regex.new(variant: :outline, **attrs)
       end
     end
   end

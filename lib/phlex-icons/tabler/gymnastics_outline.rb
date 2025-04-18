@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GymnasticsOutline < Base
       def view_template
-        render Gymnastics.new(variant: :outline)
+        render Gymnastics.new(variant: :outline, **attrs)
       end
     end
   end

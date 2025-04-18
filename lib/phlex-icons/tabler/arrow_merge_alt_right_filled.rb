@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowMergeAltRightFilled < Base
       def view_template
-        render ArrowMergeAltRight.new(variant: :filled)
+        render ArrowMergeAltRight.new(variant: :filled, **attrs)
       end
     end
   end

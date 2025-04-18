@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartFunnelOutline < Base
       def view_template
-        render ChartFunnel.new(variant: :outline)
+        render ChartFunnel.new(variant: :outline, **attrs)
       end
     end
   end

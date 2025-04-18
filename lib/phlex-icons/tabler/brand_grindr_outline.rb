@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGrindrOutline < Base
       def view_template
-        render BrandGrindr.new(variant: :outline)
+        render BrandGrindr.new(variant: :outline, **attrs)
       end
     end
   end

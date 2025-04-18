@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ElevatorOffOutline < Base
       def view_template
-        render ElevatorOff.new(variant: :outline)
+        render ElevatorOff.new(variant: :outline, **attrs)
       end
     end
   end

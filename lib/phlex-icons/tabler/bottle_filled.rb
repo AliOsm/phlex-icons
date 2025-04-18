@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BottleFilled < Base
       def view_template
-        render Bottle.new(variant: :filled)
+        render Bottle.new(variant: :filled, **attrs)
       end
     end
   end

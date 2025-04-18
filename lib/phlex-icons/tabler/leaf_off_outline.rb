@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LeafOffOutline < Base
       def view_template
-        render LeafOff.new(variant: :outline)
+        render LeafOff.new(variant: :outline, **attrs)
       end
     end
   end

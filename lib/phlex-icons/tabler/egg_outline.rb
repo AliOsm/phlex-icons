@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EggOutline < Base
       def view_template
-        render Egg.new(variant: :outline)
+        render Egg.new(variant: :outline, **attrs)
       end
     end
   end

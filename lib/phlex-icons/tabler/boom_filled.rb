@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BoomFilled < Base
       def view_template
-        render Boom.new(variant: :filled)
+        render Boom.new(variant: :filled, **attrs)
       end
     end
   end

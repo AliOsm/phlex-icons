@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsMoveVerticalFilled < Base
       def view_template
-        render ArrowsMoveVertical.new(variant: :filled)
+        render ArrowsMoveVertical.new(variant: :filled, **attrs)
       end
     end
   end

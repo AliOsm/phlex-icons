@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SignatureOffOutline < Base
       def view_template
-        render SignatureOff.new(variant: :outline)
+        render SignatureOff.new(variant: :outline, **attrs)
       end
     end
   end

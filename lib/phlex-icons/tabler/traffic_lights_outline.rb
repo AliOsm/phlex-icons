@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrafficLightsOutline < Base
       def view_template
-        render TrafficLights.new(variant: :outline)
+        render TrafficLights.new(variant: :outline, **attrs)
       end
     end
   end

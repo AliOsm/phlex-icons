@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudDataConnectionFilled < Base
       def view_template
-        render CloudDataConnection.new(variant: :filled)
+        render CloudDataConnection.new(variant: :filled, **attrs)
       end
     end
   end

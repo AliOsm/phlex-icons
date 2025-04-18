@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandXamarinFilled < Base
       def view_template
-        render BrandXamarin.new(variant: :filled)
+        render BrandXamarin.new(variant: :filled, **attrs)
       end
     end
   end

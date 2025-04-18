@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayersSubtractFilled < Base
       def view_template
-        render LayersSubtract.new(variant: :filled)
+        render LayersSubtract.new(variant: :filled, **attrs)
       end
     end
   end

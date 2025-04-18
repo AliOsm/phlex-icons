@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoneybagMoveBackFilled < Base
       def view_template
-        render MoneybagMoveBack.new(variant: :filled)
+        render MoneybagMoveBack.new(variant: :filled, **attrs)
       end
     end
   end

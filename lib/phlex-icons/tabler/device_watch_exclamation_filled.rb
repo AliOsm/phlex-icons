@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceWatchExclamationFilled < Base
       def view_template
-        render DeviceWatchExclamation.new(variant: :filled)
+        render DeviceWatchExclamation.new(variant: :filled, **attrs)
       end
     end
   end

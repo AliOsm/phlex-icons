@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoCirclePlusOutline < Base
       def view_template
-        render PhotoCirclePlus.new(variant: :outline)
+        render PhotoCirclePlus.new(variant: :outline, **attrs)
       end
     end
   end

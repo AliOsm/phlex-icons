@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RotateOutline < Base
       def view_template
-        render Rotate.new(variant: :outline)
+        render Rotate.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlugXOutline < Base
       def view_template
-        render PlugX.new(variant: :outline)
+        render PlugX.new(variant: :outline, **attrs)
       end
     end
   end

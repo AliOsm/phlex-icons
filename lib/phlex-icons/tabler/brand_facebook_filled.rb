@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandFacebookFilled < Base
       def view_template
-        render BrandFacebook.new(variant: :filled)
+        render BrandFacebook.new(variant: :filled, **attrs)
       end
     end
   end

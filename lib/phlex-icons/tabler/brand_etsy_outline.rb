@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandEtsyOutline < Base
       def view_template
-        render BrandEtsy.new(variant: :outline)
+        render BrandEtsy.new(variant: :outline, **attrs)
       end
     end
   end

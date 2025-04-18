@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailBoltOutline < Base
       def view_template
-        render MailBolt.new(variant: :outline)
+        render MailBolt.new(variant: :outline, **attrs)
       end
     end
   end

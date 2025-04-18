@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MailPauseFilled < Base
       def view_template
-        render MailPause.new(variant: :filled)
+        render MailPause.new(variant: :filled, **attrs)
       end
     end
   end

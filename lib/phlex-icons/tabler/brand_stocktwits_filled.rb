@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandStocktwitsFilled < Base
       def view_template
-        render BrandStocktwits.new(variant: :filled)
+        render BrandStocktwits.new(variant: :filled, **attrs)
       end
     end
   end

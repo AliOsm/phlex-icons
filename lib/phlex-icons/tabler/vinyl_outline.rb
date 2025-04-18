@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class VinylOutline < Base
       def view_template
-        render Vinyl.new(variant: :outline)
+        render Vinyl.new(variant: :outline, **attrs)
       end
     end
   end

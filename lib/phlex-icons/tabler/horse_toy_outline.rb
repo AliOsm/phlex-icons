@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HorseToyOutline < Base
       def view_template
-        render HorseToy.new(variant: :outline)
+        render HorseToy.new(variant: :outline, **attrs)
       end
     end
   end

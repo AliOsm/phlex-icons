@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldBoltOutline < Base
       def view_template
-        render WorldBolt.new(variant: :outline)
+        render WorldBolt.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandAuth0Filled < Base
       def view_template
-        render BrandAuth0.new(variant: :filled)
+        render BrandAuth0.new(variant: :filled, **attrs)
       end
     end
   end

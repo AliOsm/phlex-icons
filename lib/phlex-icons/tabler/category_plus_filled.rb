@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CategoryPlusFilled < Base
       def view_template
-        render CategoryPlus.new(variant: :filled)
+        render CategoryPlus.new(variant: :filled, **attrs)
       end
     end
   end

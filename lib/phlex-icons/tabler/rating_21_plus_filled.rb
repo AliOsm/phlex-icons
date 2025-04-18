@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Rating21PlusFilled < Base
       def view_template
-        render Rating21Plus.new(variant: :filled)
+        render Rating21Plus.new(variant: :filled, **attrs)
       end
     end
   end

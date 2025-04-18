@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowRampRight3Filled < Base
       def view_template
-        render ArrowRampRight3.new(variant: :filled)
+        render ArrowRampRight3.new(variant: :filled, **attrs)
       end
     end
   end

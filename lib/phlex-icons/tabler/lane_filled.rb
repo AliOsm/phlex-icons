@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LaneFilled < Base
       def view_template
-        render Lane.new(variant: :filled)
+        render Lane.new(variant: :filled, **attrs)
       end
     end
   end

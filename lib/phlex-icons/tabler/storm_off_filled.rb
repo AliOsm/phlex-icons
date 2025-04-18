@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StormOffFilled < Base
       def view_template
-        render StormOff.new(variant: :filled)
+        render StormOff.new(variant: :filled, **attrs)
       end
     end
   end

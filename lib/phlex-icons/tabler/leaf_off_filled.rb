@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LeafOffFilled < Base
       def view_template
-        render LeafOff.new(variant: :filled)
+        render LeafOff.new(variant: :filled, **attrs)
       end
     end
   end

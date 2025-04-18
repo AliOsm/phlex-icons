@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayoutNavbarInactiveFilled < Base
       def view_template
-        render LayoutNavbarInactive.new(variant: :filled)
+        render LayoutNavbarInactive.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoDownOutline < Base
       def view_template
-        render PhotoDown.new(variant: :outline)
+        render PhotoDown.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RunFilled < Base
       def view_template
-        render Run.new(variant: :filled)
+        render Run.new(variant: :filled, **attrs)
       end
     end
   end

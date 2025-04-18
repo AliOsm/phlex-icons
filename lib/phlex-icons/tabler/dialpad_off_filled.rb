@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DialpadOffFilled < Base
       def view_template
-        render DialpadOff.new(variant: :filled)
+        render DialpadOff.new(variant: :filled, **attrs)
       end
     end
   end

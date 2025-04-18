@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ExposureMinus2Outline < Base
       def view_template
-        render ExposureMinus2.new(variant: :outline)
+        render ExposureMinus2.new(variant: :outline, **attrs)
       end
     end
   end

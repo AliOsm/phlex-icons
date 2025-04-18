@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileInvoiceFilled < Base
       def view_template
-        render FileInvoice.new(variant: :filled)
+        render FileInvoice.new(variant: :filled, **attrs)
       end
     end
   end

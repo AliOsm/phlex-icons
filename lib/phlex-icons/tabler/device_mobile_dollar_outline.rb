@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceMobileDollarOutline < Base
       def view_template
-        render DeviceMobileDollar.new(variant: :outline)
+        render DeviceMobileDollar.new(variant: :outline, **attrs)
       end
     end
   end

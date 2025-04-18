@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NotebookFilled < Base
       def view_template
-        render Notebook.new(variant: :filled)
+        render Notebook.new(variant: :filled, **attrs)
       end
     end
   end

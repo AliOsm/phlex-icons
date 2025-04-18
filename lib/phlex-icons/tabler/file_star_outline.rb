@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileStarOutline < Base
       def view_template
-        render FileStar.new(variant: :outline)
+        render FileStar.new(variant: :outline, **attrs)
       end
     end
   end

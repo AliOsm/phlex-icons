@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TaxPoundFilled < Base
       def view_template
-        render TaxPound.new(variant: :filled)
+        render TaxPound.new(variant: :filled, **attrs)
       end
     end
   end

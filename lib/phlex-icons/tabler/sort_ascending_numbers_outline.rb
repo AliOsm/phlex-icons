@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SortAscendingNumbersOutline < Base
       def view_template
-        render SortAscendingNumbers.new(variant: :outline)
+        render SortAscendingNumbers.new(variant: :outline, **attrs)
       end
     end
   end

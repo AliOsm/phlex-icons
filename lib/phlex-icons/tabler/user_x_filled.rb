@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserXFilled < Base
       def view_template
-        render UserX.new(variant: :filled)
+        render UserX.new(variant: :filled, **attrs)
       end
     end
   end

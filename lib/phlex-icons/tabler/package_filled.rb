@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PackageFilled < Base
       def view_template
-        render Package.new(variant: :filled)
+        render Package.new(variant: :filled, **attrs)
       end
     end
   end

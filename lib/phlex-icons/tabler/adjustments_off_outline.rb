@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AdjustmentsOffOutline < Base
       def view_template
-        render AdjustmentsOff.new(variant: :outline)
+        render AdjustmentsOff.new(variant: :outline, **attrs)
       end
     end
   end

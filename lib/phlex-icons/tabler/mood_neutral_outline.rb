@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodNeutralOutline < Base
       def view_template
-        render MoodNeutral.new(variant: :outline)
+        render MoodNeutral.new(variant: :outline, **attrs)
       end
     end
   end

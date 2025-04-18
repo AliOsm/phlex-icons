@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PencilShareFilled < Base
       def view_template
-        render PencilShare.new(variant: :filled)
+        render PencilShare.new(variant: :filled, **attrs)
       end
     end
   end

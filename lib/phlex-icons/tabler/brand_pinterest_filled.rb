@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPinterestFilled < Base
       def view_template
-        render BrandPinterest.new(variant: :filled)
+        render BrandPinterest.new(variant: :filled, **attrs)
       end
     end
   end

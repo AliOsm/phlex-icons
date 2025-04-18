@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZodiacCancerOutline < Base
       def view_template
-        render ZodiacCancer.new(variant: :outline)
+        render ZodiacCancer.new(variant: :outline, **attrs)
       end
     end
   end

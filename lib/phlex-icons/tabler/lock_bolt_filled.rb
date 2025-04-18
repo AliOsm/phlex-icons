@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockBoltFilled < Base
       def view_template
-        render LockBolt.new(variant: :filled)
+        render LockBolt.new(variant: :filled, **attrs)
       end
     end
   end

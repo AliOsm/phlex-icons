@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NotebookOffOutline < Base
       def view_template
-        render NotebookOff.new(variant: :outline)
+        render NotebookOff.new(variant: :outline, **attrs)
       end
     end
   end

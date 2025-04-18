@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SuperscriptFilled < Base
       def view_template
-        render Superscript.new(variant: :filled)
+        render Superscript.new(variant: :filled, **attrs)
       end
     end
   end

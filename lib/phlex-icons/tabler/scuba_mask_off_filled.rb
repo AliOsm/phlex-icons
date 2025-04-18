@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScubaMaskOffFilled < Base
       def view_template
-        render ScubaMaskOff.new(variant: :filled)
+        render ScubaMaskOff.new(variant: :filled, **attrs)
       end
     end
   end

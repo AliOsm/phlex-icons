@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudLockFilled < Base
       def view_template
-        render CloudLock.new(variant: :filled)
+        render CloudLock.new(variant: :filled, **attrs)
       end
     end
   end

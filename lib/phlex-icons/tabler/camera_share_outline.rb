@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraShareOutline < Base
       def view_template
-        render CameraShare.new(variant: :outline)
+        render CameraShare.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class IroningOffFilled < Base
       def view_template
-        render IroningOff.new(variant: :filled)
+        render IroningOff.new(variant: :filled, **attrs)
       end
     end
   end

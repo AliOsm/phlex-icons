@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScreenshotFilled < Base
       def view_template
-        render Screenshot.new(variant: :filled)
+        render Screenshot.new(variant: :filled, **attrs)
       end
     end
   end

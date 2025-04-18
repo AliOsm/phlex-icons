@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MarsOutline < Base
       def view_template
-        render Mars.new(variant: :outline)
+        render Mars.new(variant: :outline, **attrs)
       end
     end
   end

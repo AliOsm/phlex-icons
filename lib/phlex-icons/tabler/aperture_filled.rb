@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ApertureFilled < Base
       def view_template
-        render Aperture.new(variant: :filled)
+        render Aperture.new(variant: :filled, **attrs)
       end
     end
   end

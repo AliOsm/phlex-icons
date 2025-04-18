@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FolderSymlinkFilled < Base
       def view_template
-        render FolderSymlink.new(variant: :filled)
+        render FolderSymlink.new(variant: :filled, **attrs)
       end
     end
   end

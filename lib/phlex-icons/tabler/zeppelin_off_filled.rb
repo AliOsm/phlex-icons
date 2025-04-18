@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ZeppelinOffFilled < Base
       def view_template
-        render ZeppelinOff.new(variant: :filled)
+        render ZeppelinOff.new(variant: :filled, **attrs)
       end
     end
   end

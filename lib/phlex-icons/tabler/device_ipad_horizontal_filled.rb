@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceIpadHorizontalFilled < Base
       def view_template
-        render DeviceIpadHorizontal.new(variant: :filled)
+        render DeviceIpadHorizontal.new(variant: :filled, **attrs)
       end
     end
   end

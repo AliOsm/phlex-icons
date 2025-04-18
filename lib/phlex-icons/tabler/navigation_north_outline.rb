@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationNorthOutline < Base
       def view_template
-        render NavigationNorth.new(variant: :outline)
+        render NavigationNorth.new(variant: :outline, **attrs)
       end
     end
   end

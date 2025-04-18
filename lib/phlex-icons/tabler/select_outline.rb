@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SelectOutline < Base
       def view_template
-        render Select.new(variant: :outline)
+        render Select.new(variant: :outline, **attrs)
       end
     end
   end

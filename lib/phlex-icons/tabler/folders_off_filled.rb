@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FoldersOffFilled < Base
       def view_template
-        render FoldersOff.new(variant: :filled)
+        render FoldersOff.new(variant: :filled, **attrs)
       end
     end
   end

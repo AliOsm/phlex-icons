@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DentalBrokenOutline < Base
       def view_template
-        render DentalBroken.new(variant: :outline)
+        render DentalBroken.new(variant: :outline, **attrs)
       end
     end
   end

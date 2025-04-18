@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationSearchOutline < Base
       def view_template
-        render LocationSearch.new(variant: :outline)
+        render LocationSearch.new(variant: :outline, **attrs)
       end
     end
   end

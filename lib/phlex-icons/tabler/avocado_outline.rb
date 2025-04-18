@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AvocadoOutline < Base
       def view_template
-        render Avocado.new(variant: :outline)
+        render Avocado.new(variant: :outline, **attrs)
       end
     end
   end

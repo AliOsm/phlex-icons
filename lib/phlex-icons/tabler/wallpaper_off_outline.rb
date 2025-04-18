@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WallpaperOffOutline < Base
       def view_template
-        render WallpaperOff.new(variant: :outline)
+        render WallpaperOff.new(variant: :outline, **attrs)
       end
     end
   end

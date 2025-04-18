@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class KeyboardHideOutline < Base
       def view_template
-        render KeyboardHide.new(variant: :outline)
+        render KeyboardHide.new(variant: :outline, **attrs)
       end
     end
   end

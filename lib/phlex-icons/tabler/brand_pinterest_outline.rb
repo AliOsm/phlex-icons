@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPinterestOutline < Base
       def view_template
-        render BrandPinterest.new(variant: :outline)
+        render BrandPinterest.new(variant: :outline, **attrs)
       end
     end
   end

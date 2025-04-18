@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlignLeft2Outline < Base
       def view_template
-        render AlignLeft2.new(variant: :outline)
+        render AlignLeft2.new(variant: :outline, **attrs)
       end
     end
   end

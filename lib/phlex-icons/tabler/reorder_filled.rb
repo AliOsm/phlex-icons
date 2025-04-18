@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReorderFilled < Base
       def view_template
-        render Reorder.new(variant: :filled)
+        render Reorder.new(variant: :filled, **attrs)
       end
     end
   end

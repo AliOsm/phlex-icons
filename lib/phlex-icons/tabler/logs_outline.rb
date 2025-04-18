@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LogsOutline < Base
       def view_template
-        render Logs.new(variant: :outline)
+        render Logs.new(variant: :outline, **attrs)
       end
     end
   end

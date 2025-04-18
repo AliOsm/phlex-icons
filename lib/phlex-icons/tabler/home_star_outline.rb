@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeStarOutline < Base
       def view_template
-        render HomeStar.new(variant: :outline)
+        render HomeStar.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AirBalloonOutline < Base
       def view_template
-        render AirBalloon.new(variant: :outline)
+        render AirBalloon.new(variant: :outline, **attrs)
       end
     end
   end

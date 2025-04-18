@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlayerSkipForwardFilled < Base
       def view_template
-        render PlayerSkipForward.new(variant: :filled)
+        render PlayerSkipForward.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BallVolleyballFilled < Base
       def view_template
-        render BallVolleyball.new(variant: :filled)
+        render BallVolleyball.new(variant: :filled, **attrs)
       end
     end
   end

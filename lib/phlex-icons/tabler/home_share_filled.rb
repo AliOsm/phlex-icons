@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeShareFilled < Base
       def view_template
-        render HomeShare.new(variant: :filled)
+        render HomeShare.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileTimeOutline < Base
       def view_template
-        render FileTime.new(variant: :outline)
+        render FileTime.new(variant: :outline, **attrs)
       end
     end
   end

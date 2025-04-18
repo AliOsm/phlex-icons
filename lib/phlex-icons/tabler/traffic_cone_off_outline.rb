@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TrafficConeOffOutline < Base
       def view_template
-        render TrafficConeOff.new(variant: :outline)
+        render TrafficConeOff.new(variant: :outline, **attrs)
       end
     end
   end

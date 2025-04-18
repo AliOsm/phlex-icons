@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandHeadlessuiFilled < Base
       def view_template
-        render BrandHeadlessui.new(variant: :filled)
+        render BrandHeadlessui.new(variant: :filled, **attrs)
       end
     end
   end

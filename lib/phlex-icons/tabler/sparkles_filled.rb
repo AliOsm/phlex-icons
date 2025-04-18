@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SparklesFilled < Base
       def view_template
-        render Sparkles.new(variant: :filled)
+        render Sparkles.new(variant: :filled, **attrs)
       end
     end
   end

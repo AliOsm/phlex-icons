@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClothesRackOffOutline < Base
       def view_template
-        render ClothesRackOff.new(variant: :outline)
+        render ClothesRackOff.new(variant: :outline, **attrs)
       end
     end
   end

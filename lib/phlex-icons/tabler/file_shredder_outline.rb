@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileShredderOutline < Base
       def view_template
-        render FileShredder.new(variant: :outline)
+        render FileShredder.new(variant: :outline, **attrs)
       end
     end
   end

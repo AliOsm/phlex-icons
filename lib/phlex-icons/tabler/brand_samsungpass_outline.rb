@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandSamsungpassOutline < Base
       def view_template
-        render BrandSamsungpass.new(variant: :outline)
+        render BrandSamsungpass.new(variant: :outline, **attrs)
       end
     end
   end

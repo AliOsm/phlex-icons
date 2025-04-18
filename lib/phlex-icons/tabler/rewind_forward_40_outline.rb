@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RewindForward40Outline < Base
       def view_template
-        render RewindForward40.new(variant: :outline)
+        render RewindForward40.new(variant: :outline, **attrs)
       end
     end
   end

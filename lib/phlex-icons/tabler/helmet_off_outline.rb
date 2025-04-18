@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelmetOffOutline < Base
       def view_template
-        render HelmetOff.new(variant: :outline)
+        render HelmetOff.new(variant: :outline, **attrs)
       end
     end
   end

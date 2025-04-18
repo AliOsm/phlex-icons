@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathXDivideY2Filled < Base
       def view_template
-        render MathXDivideY2.new(variant: :filled)
+        render MathXDivideY2.new(variant: :filled, **attrs)
       end
     end
   end

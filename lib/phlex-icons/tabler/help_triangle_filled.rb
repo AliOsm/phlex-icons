@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelpTriangleFilled < Base
       def view_template
-        render HelpTriangle.new(variant: :filled)
+        render HelpTriangle.new(variant: :filled, **attrs)
       end
     end
   end

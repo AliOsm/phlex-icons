@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BracketsAngleOutline < Base
       def view_template
-        render BracketsAngle.new(variant: :outline)
+        render BracketsAngle.new(variant: :outline, **attrs)
       end
     end
   end

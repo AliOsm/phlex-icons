@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandUbuntuOutline < Base
       def view_template
-        render BrandUbuntu.new(variant: :outline)
+        render BrandUbuntu.new(variant: :outline, **attrs)
       end
     end
   end

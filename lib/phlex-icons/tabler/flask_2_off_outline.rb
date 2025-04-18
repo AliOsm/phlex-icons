@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Flask2OffOutline < Base
       def view_template
-        render Flask2Off.new(variant: :outline)
+        render Flask2Off.new(variant: :outline, **attrs)
       end
     end
   end

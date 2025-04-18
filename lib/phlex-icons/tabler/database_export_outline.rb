@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DatabaseExportOutline < Base
       def view_template
-        render DatabaseExport.new(variant: :outline)
+        render DatabaseExport.new(variant: :outline, **attrs)
       end
     end
   end

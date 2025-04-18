@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Clover2Filled < Base
       def view_template
-        render Clover2.new(variant: :filled)
+        render Clover2.new(variant: :filled, **attrs)
       end
     end
   end

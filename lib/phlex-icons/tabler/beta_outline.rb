@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BetaOutline < Base
       def view_template
-        render Beta.new(variant: :outline)
+        render Beta.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowsDoubleNeSwFilled < Base
       def view_template
-        render ArrowsDoubleNeSw.new(variant: :filled)
+        render ArrowsDoubleNeSw.new(variant: :filled, **attrs)
       end
     end
   end

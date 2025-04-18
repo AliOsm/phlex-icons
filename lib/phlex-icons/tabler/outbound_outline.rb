@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OutboundOutline < Base
       def view_template
-        render Outbound.new(variant: :outline)
+        render Outbound.new(variant: :outline, **attrs)
       end
     end
   end

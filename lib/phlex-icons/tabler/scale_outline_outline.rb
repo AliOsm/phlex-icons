@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScaleOutlineOutline < Base
       def view_template
-        render ScaleOutline.new(variant: :outline)
+        render ScaleOutline.new(variant: :outline, **attrs)
       end
     end
   end

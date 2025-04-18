@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilterDownFilled < Base
       def view_template
-        render FilterDown.new(variant: :filled)
+        render FilterDown.new(variant: :filled, **attrs)
       end
     end
   end

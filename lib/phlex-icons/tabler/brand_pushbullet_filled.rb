@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPushbulletFilled < Base
       def view_template
-        render BrandPushbullet.new(variant: :filled)
+        render BrandPushbullet.new(variant: :filled, **attrs)
       end
     end
   end

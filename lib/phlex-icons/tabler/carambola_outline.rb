@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarambolaOutline < Base
       def view_template
-        render Carambola.new(variant: :outline)
+        render Carambola.new(variant: :outline, **attrs)
       end
     end
   end

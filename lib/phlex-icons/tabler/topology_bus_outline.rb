@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TopologyBusOutline < Base
       def view_template
-        render TopologyBus.new(variant: :outline)
+        render TopologyBus.new(variant: :outline, **attrs)
       end
     end
   end

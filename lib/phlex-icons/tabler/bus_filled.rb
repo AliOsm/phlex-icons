@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BusFilled < Base
       def view_template
-        render Bus.new(variant: :filled)
+        render Bus.new(variant: :filled, **attrs)
       end
     end
   end

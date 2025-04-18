@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CarFan2Outline < Base
       def view_template
-        render CarFan2.new(variant: :outline)
+        render CarFan2.new(variant: :outline, **attrs)
       end
     end
   end

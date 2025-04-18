@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AlertSmallOffFilled < Base
       def view_template
-        render AlertSmallOff.new(variant: :filled)
+        render AlertSmallOff.new(variant: :filled, **attrs)
       end
     end
   end

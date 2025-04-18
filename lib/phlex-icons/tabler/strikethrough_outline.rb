@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class StrikethroughOutline < Base
       def view_template
-        render Strikethrough.new(variant: :outline)
+        render Strikethrough.new(variant: :outline, **attrs)
       end
     end
   end

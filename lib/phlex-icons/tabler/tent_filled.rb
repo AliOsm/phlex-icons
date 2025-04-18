@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TentFilled < Base
       def view_template
-        render Tent.new(variant: :filled)
+        render Tent.new(variant: :filled, **attrs)
       end
     end
   end

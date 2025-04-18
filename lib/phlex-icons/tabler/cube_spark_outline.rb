@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CubeSparkOutline < Base
       def view_template
-        render CubeSpark.new(variant: :outline)
+        render CubeSpark.new(variant: :outline, **attrs)
       end
     end
   end

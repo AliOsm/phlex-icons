@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChartPie4Outline < Base
       def view_template
-        render ChartPie4.new(variant: :outline)
+        render ChartPie4.new(variant: :outline, **attrs)
       end
     end
   end

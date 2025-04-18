@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ScribbleOutline < Base
       def view_template
-        render Scribble.new(variant: :outline)
+        render Scribble.new(variant: :outline, **attrs)
       end
     end
   end

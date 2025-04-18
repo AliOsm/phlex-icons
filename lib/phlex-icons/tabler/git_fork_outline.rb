@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GitForkOutline < Base
       def view_template
-        render GitFork.new(variant: :outline)
+        render GitFork.new(variant: :outline, **attrs)
       end
     end
   end

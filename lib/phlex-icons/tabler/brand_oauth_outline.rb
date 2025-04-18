@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandOauthOutline < Base
       def view_template
-        render BrandOauth.new(variant: :outline)
+        render BrandOauth.new(variant: :outline, **attrs)
       end
     end
   end

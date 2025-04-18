@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChevronsDownLeftFilled < Base
       def view_template
-        render ChevronsDownLeft.new(variant: :filled)
+        render ChevronsDownLeft.new(variant: :filled, **attrs)
       end
     end
   end

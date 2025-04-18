@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MoodSad2Filled < Base
       def view_template
-        render MoodSad2.new(variant: :filled)
+        render MoodSad2.new(variant: :filled, **attrs)
       end
     end
   end

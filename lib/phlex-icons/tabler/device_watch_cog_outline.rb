@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceWatchCogOutline < Base
       def view_template
-        render DeviceWatchCog.new(variant: :outline)
+        render DeviceWatchCog.new(variant: :outline, **attrs)
       end
     end
   end

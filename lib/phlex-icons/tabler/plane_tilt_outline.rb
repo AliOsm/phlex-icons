@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaneTiltOutline < Base
       def view_template
-        render PlaneTilt.new(variant: :outline)
+        render PlaneTilt.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageLanguageOutline < Base
       def view_template
-        render MessageLanguage.new(variant: :outline)
+        render MessageLanguage.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FreeRightsFilled < Base
       def view_template
-        render FreeRights.new(variant: :filled)
+        render FreeRights.new(variant: :filled, **attrs)
       end
     end
   end

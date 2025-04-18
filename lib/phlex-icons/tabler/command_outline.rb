@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CommandOutline < Base
       def view_template
-        render Command.new(variant: :outline)
+        render Command.new(variant: :outline, **attrs)
       end
     end
   end

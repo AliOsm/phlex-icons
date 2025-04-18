@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MicrophoneOutline < Base
       def view_template
-        render Microphone.new(variant: :outline)
+        render Microphone.new(variant: :outline, **attrs)
       end
     end
   end

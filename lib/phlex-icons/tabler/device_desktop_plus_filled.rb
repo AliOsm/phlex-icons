@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DeviceDesktopPlusFilled < Base
       def view_template
-        render DeviceDesktopPlus.new(variant: :filled)
+        render DeviceDesktopPlus.new(variant: :filled, **attrs)
       end
     end
   end

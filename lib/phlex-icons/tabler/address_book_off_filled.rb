@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AddressBookOffFilled < Base
       def view_template
-        render AddressBookOff.new(variant: :filled)
+        render AddressBookOff.new(variant: :filled, **attrs)
       end
     end
   end

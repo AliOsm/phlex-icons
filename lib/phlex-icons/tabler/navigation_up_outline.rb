@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NavigationUpOutline < Base
       def view_template
-        render NavigationUp.new(variant: :outline)
+        render NavigationUp.new(variant: :outline, **attrs)
       end
     end
   end

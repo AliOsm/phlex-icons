@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RoadSignOutline < Base
       def view_template
-        render RoadSign.new(variant: :outline)
+        render RoadSign.new(variant: :outline, **attrs)
       end
     end
   end

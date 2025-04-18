@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathFunctionYOutline < Base
       def view_template
-        render MathFunctionY.new(variant: :outline)
+        render MathFunctionY.new(variant: :outline, **attrs)
       end
     end
   end

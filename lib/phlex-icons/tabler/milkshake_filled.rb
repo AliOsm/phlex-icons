@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MilkshakeFilled < Base
       def view_template
-        render Milkshake.new(variant: :filled)
+        render Milkshake.new(variant: :filled, **attrs)
       end
     end
   end

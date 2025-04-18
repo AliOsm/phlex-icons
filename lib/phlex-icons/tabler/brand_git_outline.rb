@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandGitOutline < Base
       def view_template
-        render BrandGit.new(variant: :outline)
+        render BrandGit.new(variant: :outline, **attrs)
       end
     end
   end

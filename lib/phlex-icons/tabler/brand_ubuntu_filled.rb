@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandUbuntuFilled < Base
       def view_template
-        render BrandUbuntu.new(variant: :filled)
+        render BrandUbuntu.new(variant: :filled, **attrs)
       end
     end
   end

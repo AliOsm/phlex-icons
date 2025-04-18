@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathCosFilled < Base
       def view_template
-        render MathCos.new(variant: :filled)
+        render MathCos.new(variant: :filled, **attrs)
       end
     end
   end

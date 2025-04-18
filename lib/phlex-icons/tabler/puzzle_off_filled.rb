@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PuzzleOffFilled < Base
       def view_template
-        render PuzzleOff.new(variant: :filled)
+        render PuzzleOff.new(variant: :filled, **attrs)
       end
     end
   end

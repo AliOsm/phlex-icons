@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CameraOffOutline < Base
       def view_template
-        render CameraOff.new(variant: :outline)
+        render CameraOff.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PaperclipOutline < Base
       def view_template
-        render Paperclip.new(variant: :outline)
+        render Paperclip.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SignLeftOutline < Base
       def view_template
-        render SignLeft.new(variant: :outline)
+        render SignLeft.new(variant: :outline, **attrs)
       end
     end
   end

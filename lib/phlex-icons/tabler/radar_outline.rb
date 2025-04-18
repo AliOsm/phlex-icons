@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RadarOutline < Base
       def view_template
-        render Radar.new(variant: :outline)
+        render Radar.new(variant: :outline, **attrs)
       end
     end
   end

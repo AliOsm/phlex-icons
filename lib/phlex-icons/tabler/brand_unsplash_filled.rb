@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandUnsplashFilled < Base
       def view_template
-        render BrandUnsplash.new(variant: :filled)
+        render BrandUnsplash.new(variant: :filled, **attrs)
       end
     end
   end

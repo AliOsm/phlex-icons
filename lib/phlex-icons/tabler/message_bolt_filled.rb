@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageBoltFilled < Base
       def view_template
-        render MessageBolt.new(variant: :filled)
+        render MessageBolt.new(variant: :filled, **attrs)
       end
     end
   end

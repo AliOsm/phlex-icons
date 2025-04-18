@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandBingOutline < Base
       def view_template
-        render BrandBing.new(variant: :outline)
+        render BrandBing.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class OctagonPlus2Outline < Base
       def view_template
-        render OctagonPlus2.new(variant: :outline)
+        render OctagonPlus2.new(variant: :outline, **attrs)
       end
     end
   end

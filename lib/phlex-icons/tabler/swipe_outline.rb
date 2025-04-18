@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SwipeOutline < Base
       def view_template
-        render Swipe.new(variant: :outline)
+        render Swipe.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class AirConditioningDisabledOutline < Base
       def view_template
-        render AirConditioningDisabled.new(variant: :outline)
+        render AirConditioningDisabled.new(variant: :outline, **attrs)
       end
     end
   end

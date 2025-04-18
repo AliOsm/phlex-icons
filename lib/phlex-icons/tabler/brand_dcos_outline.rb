@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandDcosOutline < Base
       def view_template
-        render BrandDcos.new(variant: :outline)
+        render BrandDcos.new(variant: :outline, **attrs)
       end
     end
   end

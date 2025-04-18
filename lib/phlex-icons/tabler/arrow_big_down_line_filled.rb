@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowBigDownLineFilled < Base
       def view_template
-        render ArrowBigDownLine.new(variant: :filled)
+        render ArrowBigDownLine.new(variant: :filled, **attrs)
       end
     end
   end

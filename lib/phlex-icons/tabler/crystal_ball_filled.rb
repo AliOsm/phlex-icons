@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CrystalBallFilled < Base
       def view_template
-        render CrystalBall.new(variant: :filled)
+        render CrystalBall.new(variant: :filled, **attrs)
       end
     end
   end

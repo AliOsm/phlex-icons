@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LocationPauseFilled < Base
       def view_template
-        render LocationPause.new(variant: :filled)
+        render LocationPause.new(variant: :filled, **attrs)
       end
     end
   end

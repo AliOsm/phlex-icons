@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCypressFilled < Base
       def view_template
-        render BrandCypress.new(variant: :filled)
+        render BrandCypress.new(variant: :filled, **attrs)
       end
     end
   end

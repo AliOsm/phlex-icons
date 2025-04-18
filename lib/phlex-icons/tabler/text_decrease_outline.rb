@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TextDecreaseOutline < Base
       def view_template
-        render TextDecrease.new(variant: :outline)
+        render TextDecrease.new(variant: :outline, **attrs)
       end
     end
   end

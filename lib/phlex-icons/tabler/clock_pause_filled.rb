@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ClockPauseFilled < Base
       def view_template
-        render ClockPause.new(variant: :filled)
+        render ClockPause.new(variant: :filled, **attrs)
       end
     end
   end

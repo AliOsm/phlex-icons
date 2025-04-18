@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTidalFilled < Base
       def view_template
-        render BrandTidal.new(variant: :filled)
+        render BrandTidal.new(variant: :filled, **attrs)
       end
     end
   end

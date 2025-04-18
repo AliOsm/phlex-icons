@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DevicesCheckOutline < Base
       def view_template
-        render DevicesCheck.new(variant: :outline)
+        render DevicesCheck.new(variant: :outline, **attrs)
       end
     end
   end

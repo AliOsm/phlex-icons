@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FlagOffOutline < Base
       def view_template
-        render FlagOff.new(variant: :outline)
+        render FlagOff.new(variant: :outline, **attrs)
       end
     end
   end

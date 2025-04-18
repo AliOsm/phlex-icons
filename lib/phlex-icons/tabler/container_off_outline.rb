@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ContainerOffOutline < Base
       def view_template
-        render ContainerOff.new(variant: :outline)
+        render ContainerOff.new(variant: :outline, **attrs)
       end
     end
   end

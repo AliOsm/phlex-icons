@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Message2PauseOutline < Base
       def view_template
-        render Message2Pause.new(variant: :outline)
+        render Message2Pause.new(variant: :outline, **attrs)
       end
     end
   end

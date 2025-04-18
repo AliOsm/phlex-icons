@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhoneSparkOutline < Base
       def view_template
-        render PhoneSpark.new(variant: :outline)
+        render PhoneSpark.new(variant: :outline, **attrs)
       end
     end
   end

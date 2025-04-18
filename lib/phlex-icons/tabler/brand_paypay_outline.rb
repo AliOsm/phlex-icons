@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandPaypayOutline < Base
       def view_template
-        render BrandPaypay.new(variant: :outline)
+        render BrandPaypay.new(variant: :outline, **attrs)
       end
     end
   end

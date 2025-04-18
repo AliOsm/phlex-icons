@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RegexOffOutline < Base
       def view_template
-        render RegexOff.new(variant: :outline)
+        render RegexOff.new(variant: :outline, **attrs)
       end
     end
   end

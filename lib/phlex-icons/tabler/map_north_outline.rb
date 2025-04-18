@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MapNorthOutline < Base
       def view_template
-        render MapNorth.new(variant: :outline)
+        render MapNorth.new(variant: :outline, **attrs)
       end
     end
   end

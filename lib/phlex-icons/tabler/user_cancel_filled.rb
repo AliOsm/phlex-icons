@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class UserCancelFilled < Base
       def view_template
-        render UserCancel.new(variant: :filled)
+        render UserCancel.new(variant: :filled, **attrs)
       end
     end
   end

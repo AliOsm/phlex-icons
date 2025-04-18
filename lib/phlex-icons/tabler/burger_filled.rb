@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BurgerFilled < Base
       def view_template
-        render Burger.new(variant: :filled)
+        render Burger.new(variant: :filled, **attrs)
       end
     end
   end

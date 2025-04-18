@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class NotesOffFilled < Base
       def view_template
-        render NotesOff.new(variant: :filled)
+        render NotesOff.new(variant: :filled, **attrs)
       end
     end
   end

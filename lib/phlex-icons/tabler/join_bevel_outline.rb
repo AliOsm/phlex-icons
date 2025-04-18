@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class JoinBevelOutline < Base
       def view_template
-        render JoinBevel.new(variant: :outline)
+        render JoinBevel.new(variant: :outline, **attrs)
       end
     end
   end

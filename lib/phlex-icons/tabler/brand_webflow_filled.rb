@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandWebflowFilled < Base
       def view_template
-        render BrandWebflow.new(variant: :filled)
+        render BrandWebflow.new(variant: :filled, **attrs)
       end
     end
   end

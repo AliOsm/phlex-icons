@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CreativeCommonsSaFilled < Base
       def view_template
-        render CreativeCommonsSa.new(variant: :filled)
+        render CreativeCommonsSa.new(variant: :filled, **attrs)
       end
     end
   end

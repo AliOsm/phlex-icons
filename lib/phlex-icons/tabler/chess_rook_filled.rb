@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChessRookFilled < Base
       def view_template
-        render ChessRook.new(variant: :filled)
+        render ChessRook.new(variant: :filled, **attrs)
       end
     end
   end

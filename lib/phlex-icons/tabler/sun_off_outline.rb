@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SunOffOutline < Base
       def view_template
-        render SunOff.new(variant: :outline)
+        render SunOff.new(variant: :outline, **attrs)
       end
     end
   end

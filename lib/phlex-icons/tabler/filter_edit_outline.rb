@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilterEditOutline < Base
       def view_template
-        render FilterEdit.new(variant: :outline)
+        render FilterEdit.new(variant: :outline, **attrs)
       end
     end
   end

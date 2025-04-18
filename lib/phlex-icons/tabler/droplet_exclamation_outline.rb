@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class DropletExclamationOutline < Base
       def view_template
-        render DropletExclamation.new(variant: :outline)
+        render DropletExclamation.new(variant: :outline, **attrs)
       end
     end
   end

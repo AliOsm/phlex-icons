@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MusicBoltFilled < Base
       def view_template
-        render MusicBolt.new(variant: :filled)
+        render MusicBolt.new(variant: :filled, **attrs)
       end
     end
   end

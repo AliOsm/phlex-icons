@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LockOutline < Base
       def view_template
-        render Lock.new(variant: :outline)
+        render Lock.new(variant: :outline, **attrs)
       end
     end
   end

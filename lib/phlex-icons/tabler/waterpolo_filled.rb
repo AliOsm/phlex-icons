@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WaterpoloFilled < Base
       def view_template
-        render Waterpolo.new(variant: :filled)
+        render Waterpolo.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FoldUpOutline < Base
       def view_template
-        render FoldUp.new(variant: :outline)
+        render FoldUp.new(variant: :outline, **attrs)
       end
     end
   end

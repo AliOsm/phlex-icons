@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class LayersDifferenceOutline < Base
       def view_template
-        render LayersDifference.new(variant: :outline)
+        render LayersDifference.new(variant: :outline, **attrs)
       end
     end
   end

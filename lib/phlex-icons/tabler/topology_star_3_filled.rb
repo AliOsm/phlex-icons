@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TopologyStar3Filled < Base
       def view_template
-        render TopologyStar3.new(variant: :filled)
+        render TopologyStar3.new(variant: :filled, **attrs)
       end
     end
   end

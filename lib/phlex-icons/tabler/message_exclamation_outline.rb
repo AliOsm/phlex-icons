@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageExclamationOutline < Base
       def view_template
-        render MessageExclamation.new(variant: :outline)
+        render MessageExclamation.new(variant: :outline, **attrs)
       end
     end
   end

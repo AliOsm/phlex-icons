@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CellSignalOffOutline < Base
       def view_template
-        render CellSignalOff.new(variant: :outline)
+        render CellSignalOff.new(variant: :outline, **attrs)
       end
     end
   end

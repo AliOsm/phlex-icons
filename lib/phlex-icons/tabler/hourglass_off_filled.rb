@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HourglassOffFilled < Base
       def view_template
-        render HourglassOff.new(variant: :filled)
+        render HourglassOff.new(variant: :filled, **attrs)
       end
     end
   end

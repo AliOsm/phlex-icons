@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HomeCogOutline < Base
       def view_template
-        render HomeCog.new(variant: :outline)
+        render HomeCog.new(variant: :outline, **attrs)
       end
     end
   end

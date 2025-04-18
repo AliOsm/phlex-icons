@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReportAnalyticsFilled < Base
       def view_template
-        render ReportAnalytics.new(variant: :filled)
+        render ReportAnalytics.new(variant: :filled, **attrs)
       end
     end
   end

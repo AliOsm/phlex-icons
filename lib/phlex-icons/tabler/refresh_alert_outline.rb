@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class RefreshAlertOutline < Base
       def view_template
-        render RefreshAlert.new(variant: :outline)
+        render RefreshAlert.new(variant: :outline, **attrs)
       end
     end
   end

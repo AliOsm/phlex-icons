@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PlaystationTriangleOutline < Base
       def view_template
-        render PlaystationTriangle.new(variant: :outline)
+        render PlaystationTriangle.new(variant: :outline, **attrs)
       end
     end
   end

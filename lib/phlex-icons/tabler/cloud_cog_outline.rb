@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class CloudCogOutline < Base
       def view_template
-        render CloudCog.new(variant: :outline)
+        render CloudCog.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TicTacOutline < Base
       def view_template
-        render TicTac.new(variant: :outline)
+        render TicTac.new(variant: :outline, **attrs)
       end
     end
   end

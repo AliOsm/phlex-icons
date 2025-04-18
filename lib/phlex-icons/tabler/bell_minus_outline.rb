@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BellMinusOutline < Base
       def view_template
-        render BellMinus.new(variant: :outline)
+        render BellMinus.new(variant: :outline, **attrs)
       end
     end
   end

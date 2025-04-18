@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PhotoSparkFilled < Base
       def view_template
-        render PhotoSpark.new(variant: :filled)
+        render PhotoSpark.new(variant: :filled, **attrs)
       end
     end
   end

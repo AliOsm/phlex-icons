@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpaceOffOutline < Base
       def view_template
-        render SpaceOff.new(variant: :outline)
+        render SpaceOff.new(variant: :outline, **attrs)
       end
     end
   end

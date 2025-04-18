@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BoxAlignBottomRightOutline < Base
       def view_template
-        render BoxAlignBottomRight.new(variant: :outline)
+        render BoxAlignBottomRight.new(variant: :outline, **attrs)
       end
     end
   end

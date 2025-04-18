@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowUpRightCircleOutline < Base
       def view_template
-        render ArrowUpRightCircle.new(variant: :outline)
+        render ArrowUpRightCircle.new(variant: :outline, **attrs)
       end
     end
   end

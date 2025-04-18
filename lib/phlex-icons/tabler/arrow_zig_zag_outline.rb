@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowZigZagOutline < Base
       def view_template
-        render ArrowZigZag.new(variant: :outline)
+        render ArrowZigZag.new(variant: :outline, **attrs)
       end
     end
   end

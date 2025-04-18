@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashDryHangFilled < Base
       def view_template
-        render WashDryHang.new(variant: :filled)
+        render WashDryHang.new(variant: :filled, **attrs)
       end
     end
   end

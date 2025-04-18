@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FilePencilFilled < Base
       def view_template
-        render FilePencil.new(variant: :filled)
+        render FilePencil.new(variant: :filled, **attrs)
       end
     end
   end

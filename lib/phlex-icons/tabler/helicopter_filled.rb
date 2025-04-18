@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HelicopterFilled < Base
       def view_template
-        render Helicopter.new(variant: :filled)
+        render Helicopter.new(variant: :filled, **attrs)
       end
     end
   end

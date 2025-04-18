@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MenuDeepFilled < Base
       def view_template
-        render MenuDeep.new(variant: :filled)
+        render MenuDeep.new(variant: :filled, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandNeteaseMusicFilled < Base
       def view_template
-        render BrandNeteaseMusic.new(variant: :filled)
+        render BrandNeteaseMusic.new(variant: :filled, **attrs)
       end
     end
   end

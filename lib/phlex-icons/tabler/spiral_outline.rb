@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SpiralOutline < Base
       def view_template
-        render Spiral.new(variant: :outline)
+        render Spiral.new(variant: :outline, **attrs)
       end
     end
   end

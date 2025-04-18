@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WorldOffOutline < Base
       def view_template
-        render WorldOff.new(variant: :outline)
+        render WorldOff.new(variant: :outline, **attrs)
       end
     end
   end

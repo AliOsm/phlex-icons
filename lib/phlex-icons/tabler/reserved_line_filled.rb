@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ReservedLineFilled < Base
       def view_template
-        render ReservedLine.new(variant: :filled)
+        render ReservedLine.new(variant: :filled, **attrs)
       end
     end
   end

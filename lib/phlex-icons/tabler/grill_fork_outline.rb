@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class GrillForkOutline < Base
       def view_template
-        render GrillFork.new(variant: :outline)
+        render GrillFork.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BracketsAngleOffFilled < Base
       def view_template
-        render BracketsAngleOff.new(variant: :filled)
+        render BracketsAngleOff.new(variant: :filled, **attrs)
       end
     end
   end

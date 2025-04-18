@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowWaveRightDownFilled < Base
       def view_template
-        render ArrowWaveRightDown.new(variant: :filled)
+        render ArrowWaveRightDown.new(variant: :filled, **attrs)
       end
     end
   end

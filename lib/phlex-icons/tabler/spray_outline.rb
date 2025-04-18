@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class SprayOutline < Base
       def view_template
-        render Spray.new(variant: :outline)
+        render Spray.new(variant: :outline, **attrs)
       end
     end
   end

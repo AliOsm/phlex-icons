@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class Dna2Filled < Base
       def view_template
-        render Dna2.new(variant: :filled)
+        render Dna2.new(variant: :filled, **attrs)
       end
     end
   end

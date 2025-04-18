@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrightnessOutline < Base
       def view_template
-        render Brightness.new(variant: :outline)
+        render Brightness.new(variant: :outline, **attrs)
       end
     end
   end

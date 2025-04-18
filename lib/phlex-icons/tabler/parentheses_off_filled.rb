@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ParenthesesOffFilled < Base
       def view_template
-        render ParenthesesOff.new(variant: :filled)
+        render ParenthesesOff.new(variant: :filled, **attrs)
       end
     end
   end

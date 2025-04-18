@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class TransferOutOutline < Base
       def view_template
-        render TransferOut.new(variant: :outline)
+        render TransferOut.new(variant: :outline, **attrs)
       end
     end
   end

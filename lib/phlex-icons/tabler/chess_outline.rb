@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ChessOutline < Base
       def view_template
-        render Chess.new(variant: :outline)
+        render Chess.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class WashTemperature1Outline < Base
       def view_template
-        render WashTemperature1.new(variant: :outline)
+        render WashTemperature1.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MessageCogFilled < Base
       def view_template
-        render MessageCog.new(variant: :filled)
+        render MessageCog.new(variant: :filled, **attrs)
       end
     end
   end

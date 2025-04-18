@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class PentagonNumber8Filled < Base
       def view_template
-        render PentagonNumber8.new(variant: :filled)
+        render PentagonNumber8.new(variant: :filled, **attrs)
       end
     end
   end

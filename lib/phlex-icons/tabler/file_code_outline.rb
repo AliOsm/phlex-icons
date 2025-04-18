@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class FileCodeOutline < Base
       def view_template
-        render FileCode.new(variant: :outline)
+        render FileCode.new(variant: :outline, **attrs)
       end
     end
   end

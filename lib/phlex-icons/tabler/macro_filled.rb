@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MacroFilled < Base
       def view_template
-        render Macro.new(variant: :filled)
+        render Macro.new(variant: :filled, **attrs)
       end
     end
   end

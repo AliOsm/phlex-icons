@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandTumblrFilled < Base
       def view_template
-        render BrandTumblr.new(variant: :filled)
+        render BrandTumblr.new(variant: :filled, **attrs)
       end
     end
   end

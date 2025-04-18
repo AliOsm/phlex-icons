@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ArrowWaveLeftDownOutline < Base
       def view_template
-        render ArrowWaveLeftDown.new(variant: :outline)
+        render ArrowWaveLeftDown.new(variant: :outline, **attrs)
       end
     end
   end

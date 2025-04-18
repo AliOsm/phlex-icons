@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BluetoothOutline < Base
       def view_template
-        render Bluetooth.new(variant: :outline)
+        render Bluetooth.new(variant: :outline, **attrs)
       end
     end
   end

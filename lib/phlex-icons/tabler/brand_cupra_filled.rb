@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandCupraFilled < Base
       def view_template
-        render BrandCupra.new(variant: :filled)
+        render BrandCupra.new(variant: :filled, **attrs)
       end
     end
   end

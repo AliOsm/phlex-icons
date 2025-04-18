@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class BrandElectronicArtsFilled < Base
       def view_template
-        render BrandElectronicArts.new(variant: :filled)
+        render BrandElectronicArts.new(variant: :filled, **attrs)
       end
     end
   end

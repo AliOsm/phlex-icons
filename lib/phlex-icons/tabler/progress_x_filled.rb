@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class ProgressXFilled < Base
       def view_template
-        render ProgressX.new(variant: :filled)
+        render ProgressX.new(variant: :filled, **attrs)
       end
     end
   end

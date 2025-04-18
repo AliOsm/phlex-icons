@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class EaseInOutControlPointsFilled < Base
       def view_template
-        render EaseInOutControlPoints.new(variant: :filled)
+        render EaseInOutControlPoints.new(variant: :filled, **attrs)
       end
     end
   end

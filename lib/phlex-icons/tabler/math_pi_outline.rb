@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class MathPiOutline < Base
       def view_template
-        render MathPi.new(variant: :outline)
+        render MathPi.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Tabler
     class HeartRateMonitorOutline < Base
       def view_template
-        render HeartRateMonitor.new(variant: :outline)
+        render HeartRateMonitor.new(variant: :outline, **attrs)
       end
     end
   end
