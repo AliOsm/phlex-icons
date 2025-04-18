@@ -36,7 +36,7 @@ VARIANT_TEMPLATE = ERB.new <<~VARIANT_TEMPLATE
     module Hero
       class <%= icon_name %><%= variant.to_s.capitalize %> < Base
         def view_template
-          render <%= icon_name %>.new(variant: :<%= variant %>)
+          render <%= icon_name %>.new(variant: :<%= variant %>, **attrs)
         end
       end
     end
