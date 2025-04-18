@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class HomeModernSolid < Base
       def view_template
-        render HomeModern.new(variant: :solid)
+        render HomeModern.new(variant: :solid, **attrs)
       end
     end
   end

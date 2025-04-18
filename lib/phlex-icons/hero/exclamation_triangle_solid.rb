@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ExclamationTriangleSolid < Base
       def view_template
-        render ExclamationTriangle.new(variant: :solid)
+        render ExclamationTriangle.new(variant: :solid, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowLongUpSolid < Base
       def view_template
-        render ArrowLongUp.new(variant: :solid)
+        render ArrowLongUp.new(variant: :solid, **attrs)
       end
     end
   end

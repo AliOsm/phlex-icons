@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MapPinOutline < Base
       def view_template
-        render MapPin.new(variant: :outline)
+        render MapPin.new(variant: :outline, **attrs)
       end
     end
   end

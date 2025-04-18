@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class VariableSolid < Base
       def view_template
-        render Variable.new(variant: :solid)
+        render Variable.new(variant: :solid, **attrs)
       end
     end
   end

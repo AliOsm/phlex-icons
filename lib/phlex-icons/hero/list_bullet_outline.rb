@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ListBulletOutline < Base
       def view_template
-        render ListBullet.new(variant: :outline)
+        render ListBullet.new(variant: :outline, **attrs)
       end
     end
   end

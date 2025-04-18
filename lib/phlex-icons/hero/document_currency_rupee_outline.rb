@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class DocumentCurrencyRupeeOutline < Base
       def view_template
-        render DocumentCurrencyRupee.new(variant: :outline)
+        render DocumentCurrencyRupee.new(variant: :outline, **attrs)
       end
     end
   end

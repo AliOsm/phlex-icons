@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class NoSymbolOutline < Base
       def view_template
-        render NoSymbol.new(variant: :outline)
+        render NoSymbol.new(variant: :outline, **attrs)
       end
     end
   end

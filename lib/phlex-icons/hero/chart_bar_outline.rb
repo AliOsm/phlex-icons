@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ChartBarOutline < Base
       def view_template
-        render ChartBar.new(variant: :outline)
+        render ChartBar.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class QrCodeOutline < Base
       def view_template
-        render QrCode.new(variant: :outline)
+        render QrCode.new(variant: :outline, **attrs)
       end
     end
   end

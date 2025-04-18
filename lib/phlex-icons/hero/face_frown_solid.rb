@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class FaceFrownSolid < Base
       def view_template
-        render FaceFrown.new(variant: :solid)
+        render FaceFrown.new(variant: :solid, **attrs)
       end
     end
   end

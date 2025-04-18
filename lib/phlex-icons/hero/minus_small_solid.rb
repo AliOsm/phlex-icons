@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MinusSmallSolid < Base
       def view_template
-        render MinusSmall.new(variant: :solid)
+        render MinusSmall.new(variant: :solid, **attrs)
       end
     end
   end

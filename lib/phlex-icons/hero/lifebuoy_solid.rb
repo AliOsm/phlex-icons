@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class LifebuoySolid < Base
       def view_template
-        render Lifebuoy.new(variant: :solid)
+        render Lifebuoy.new(variant: :solid, **attrs)
       end
     end
   end

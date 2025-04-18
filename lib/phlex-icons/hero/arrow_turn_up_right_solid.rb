@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowTurnUpRightSolid < Base
       def view_template
-        render ArrowTurnUpRight.new(variant: :solid)
+        render ArrowTurnUpRight.new(variant: :solid, **attrs)
       end
     end
   end

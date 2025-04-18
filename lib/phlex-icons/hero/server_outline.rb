@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ServerOutline < Base
       def view_template
-        render Server.new(variant: :outline)
+        render Server.new(variant: :outline, **attrs)
       end
     end
   end

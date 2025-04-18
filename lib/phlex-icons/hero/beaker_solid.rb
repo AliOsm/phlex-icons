@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BeakerSolid < Base
       def view_template
-        render Beaker.new(variant: :solid)
+        render Beaker.new(variant: :solid, **attrs)
       end
     end
   end

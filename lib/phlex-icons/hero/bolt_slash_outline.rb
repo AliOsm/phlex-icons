@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BoltSlashOutline < Base
       def view_template
-        render BoltSlash.new(variant: :outline)
+        render BoltSlash.new(variant: :outline, **attrs)
       end
     end
   end

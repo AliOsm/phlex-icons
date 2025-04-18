@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class HeartSolid < Base
       def view_template
-        render Heart.new(variant: :solid)
+        render Heart.new(variant: :solid, **attrs)
       end
     end
   end

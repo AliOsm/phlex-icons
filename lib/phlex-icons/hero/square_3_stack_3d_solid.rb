@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class Square3Stack3dSolid < Base
       def view_template
-        render Square3Stack3d.new(variant: :solid)
+        render Square3Stack3d.new(variant: :solid, **attrs)
       end
     end
   end

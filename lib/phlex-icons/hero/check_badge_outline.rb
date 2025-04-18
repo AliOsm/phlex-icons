@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class CheckBadgeOutline < Base
       def view_template
-        render CheckBadge.new(variant: :outline)
+        render CheckBadge.new(variant: :outline, **attrs)
       end
     end
   end

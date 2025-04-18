@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MoonOutline < Base
       def view_template
-        render Moon.new(variant: :outline)
+        render Moon.new(variant: :outline, **attrs)
       end
     end
   end

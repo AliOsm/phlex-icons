@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class GifOutline < Base
       def view_template
-        render Gif.new(variant: :outline)
+        render Gif.new(variant: :outline, **attrs)
       end
     end
   end

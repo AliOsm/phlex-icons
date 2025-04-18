@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BackwardOutline < Base
       def view_template
-        render Backward.new(variant: :outline)
+        render Backward.new(variant: :outline, **attrs)
       end
     end
   end

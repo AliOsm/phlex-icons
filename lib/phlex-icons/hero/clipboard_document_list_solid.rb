@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ClipboardDocumentListSolid < Base
       def view_template
-        render ClipboardDocumentList.new(variant: :solid)
+        render ClipboardDocumentList.new(variant: :solid, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ChevronDoubleUpOutline < Base
       def view_template
-        render ChevronDoubleUp.new(variant: :outline)
+        render ChevronDoubleUp.new(variant: :outline, **attrs)
       end
     end
   end

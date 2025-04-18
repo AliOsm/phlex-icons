@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class PlayCircleOutline < Base
       def view_template
-        render PlayCircle.new(variant: :outline)
+        render PlayCircle.new(variant: :outline, **attrs)
       end
     end
   end

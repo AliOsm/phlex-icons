@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ScissorsSolid < Base
       def view_template
-        render Scissors.new(variant: :solid)
+        render Scissors.new(variant: :solid, **attrs)
       end
     end
   end

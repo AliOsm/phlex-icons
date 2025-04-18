@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ShieldExclamationOutline < Base
       def view_template
-        render ShieldExclamation.new(variant: :outline)
+        render ShieldExclamation.new(variant: :outline, **attrs)
       end
     end
   end

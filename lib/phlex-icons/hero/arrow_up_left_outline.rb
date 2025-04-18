@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowUpLeftOutline < Base
       def view_template
-        render ArrowUpLeft.new(variant: :outline)
+        render ArrowUpLeft.new(variant: :outline, **attrs)
       end
     end
   end

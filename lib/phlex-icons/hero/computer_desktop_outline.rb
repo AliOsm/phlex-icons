@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ComputerDesktopOutline < Base
       def view_template
-        render ComputerDesktop.new(variant: :outline)
+        render ComputerDesktop.new(variant: :outline, **attrs)
       end
     end
   end

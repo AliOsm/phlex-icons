@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class FilmOutline < Base
       def view_template
-        render Film.new(variant: :outline)
+        render Film.new(variant: :outline, **attrs)
       end
     end
   end

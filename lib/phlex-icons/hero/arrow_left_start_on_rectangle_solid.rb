@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowLeftStartOnRectangleSolid < Base
       def view_template
-        render ArrowLeftStartOnRectangle.new(variant: :solid)
+        render ArrowLeftStartOnRectangle.new(variant: :solid, **attrs)
       end
     end
   end

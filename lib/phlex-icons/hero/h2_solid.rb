@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class H2Solid < Base
       def view_template
-        render H2.new(variant: :solid)
+        render H2.new(variant: :solid, **attrs)
       end
     end
   end

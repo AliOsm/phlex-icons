@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class DocumentPlusOutline < Base
       def view_template
-        render DocumentPlus.new(variant: :outline)
+        render DocumentPlus.new(variant: :outline, **attrs)
       end
     end
   end

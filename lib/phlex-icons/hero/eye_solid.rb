@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class EyeSolid < Base
       def view_template
-        render Eye.new(variant: :solid)
+        render Eye.new(variant: :solid, **attrs)
       end
     end
   end

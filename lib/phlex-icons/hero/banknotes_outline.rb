@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BanknotesOutline < Base
       def view_template
-        render Banknotes.new(variant: :outline)
+        render Banknotes.new(variant: :outline, **attrs)
       end
     end
   end

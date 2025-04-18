@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class CpuChipOutline < Base
       def view_template
-        render CpuChip.new(variant: :outline)
+        render CpuChip.new(variant: :outline, **attrs)
       end
     end
   end

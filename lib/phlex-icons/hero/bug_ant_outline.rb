@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BugAntOutline < Base
       def view_template
-        render BugAnt.new(variant: :outline)
+        render BugAnt.new(variant: :outline, **attrs)
       end
     end
   end

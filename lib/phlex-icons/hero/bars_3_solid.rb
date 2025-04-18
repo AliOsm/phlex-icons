@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class Bars3Solid < Base
       def view_template
-        render Bars3.new(variant: :solid)
+        render Bars3.new(variant: :solid, **attrs)
       end
     end
   end

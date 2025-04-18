@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MusicalNoteSolid < Base
       def view_template
-        render MusicalNote.new(variant: :solid)
+        render MusicalNote.new(variant: :solid, **attrs)
       end
     end
   end
