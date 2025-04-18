@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class UserSolid < Base
       def view_template
-        render User.new(variant: :solid)
+        render User.new(variant: :solid, **attrs)
       end
     end
   end

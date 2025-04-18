@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class PaperClipOutline < Base
       def view_template
-        render PaperClip.new(variant: :outline)
+        render PaperClip.new(variant: :outline, **attrs)
       end
     end
   end

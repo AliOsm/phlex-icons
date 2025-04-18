@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class LanguageSolid < Base
       def view_template
-        render Language.new(variant: :solid)
+        render Language.new(variant: :solid, **attrs)
       end
     end
   end

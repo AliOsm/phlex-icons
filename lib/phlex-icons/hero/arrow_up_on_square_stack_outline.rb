@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowUpOnSquareStackOutline < Base
       def view_template
-        render ArrowUpOnSquareStack.new(variant: :outline)
+        render ArrowUpOnSquareStack.new(variant: :outline, **attrs)
       end
     end
   end

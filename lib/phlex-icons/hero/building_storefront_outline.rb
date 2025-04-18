@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BuildingStorefrontOutline < Base
       def view_template
-        render BuildingStorefront.new(variant: :outline)
+        render BuildingStorefront.new(variant: :outline, **attrs)
       end
     end
   end

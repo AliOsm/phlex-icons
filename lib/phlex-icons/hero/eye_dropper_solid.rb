@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class EyeDropperSolid < Base
       def view_template
-        render EyeDropper.new(variant: :solid)
+        render EyeDropper.new(variant: :solid, **attrs)
       end
     end
   end

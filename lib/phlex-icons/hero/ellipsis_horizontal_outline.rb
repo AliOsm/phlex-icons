@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class EllipsisHorizontalOutline < Base
       def view_template
-        render EllipsisHorizontal.new(variant: :outline)
+        render EllipsisHorizontal.new(variant: :outline, **attrs)
       end
     end
   end

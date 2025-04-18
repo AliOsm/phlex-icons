@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class StopCircleOutline < Base
       def view_template
-        render StopCircle.new(variant: :outline)
+        render StopCircle.new(variant: :outline, **attrs)
       end
     end
   end

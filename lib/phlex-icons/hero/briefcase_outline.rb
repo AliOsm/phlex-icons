@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BriefcaseOutline < Base
       def view_template
-        render Briefcase.new(variant: :outline)
+        render Briefcase.new(variant: :outline, **attrs)
       end
     end
   end

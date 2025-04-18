@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class HandThumbDownSolid < Base
       def view_template
-        render HandThumbDown.new(variant: :solid)
+        render HandThumbDown.new(variant: :solid, **attrs)
       end
     end
   end

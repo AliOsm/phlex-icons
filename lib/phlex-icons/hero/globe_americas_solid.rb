@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class GlobeAmericasSolid < Base
       def view_template
-        render GlobeAmericas.new(variant: :solid)
+        render GlobeAmericas.new(variant: :solid, **attrs)
       end
     end
   end

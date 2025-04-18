@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class WrenchOutline < Base
       def view_template
-        render Wrench.new(variant: :outline)
+        render Wrench.new(variant: :outline, **attrs)
       end
     end
   end

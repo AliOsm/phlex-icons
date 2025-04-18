@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowTopRightOnSquareOutline < Base
       def view_template
-        render ArrowTopRightOnSquare.new(variant: :outline)
+        render ArrowTopRightOnSquare.new(variant: :outline, **attrs)
       end
     end
   end

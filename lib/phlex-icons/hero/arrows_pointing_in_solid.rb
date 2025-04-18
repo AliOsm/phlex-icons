@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowsPointingInSolid < Base
       def view_template
-        render ArrowsPointingIn.new(variant: :solid)
+        render ArrowsPointingIn.new(variant: :solid, **attrs)
       end
     end
   end

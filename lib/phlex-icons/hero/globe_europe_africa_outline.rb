@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class GlobeEuropeAfricaOutline < Base
       def view_template
-        render GlobeEuropeAfrica.new(variant: :outline)
+        render GlobeEuropeAfrica.new(variant: :outline, **attrs)
       end
     end
   end

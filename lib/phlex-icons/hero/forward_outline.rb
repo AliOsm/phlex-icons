@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ForwardOutline < Base
       def view_template
-        render Forward.new(variant: :outline)
+        render Forward.new(variant: :outline, **attrs)
       end
     end
   end

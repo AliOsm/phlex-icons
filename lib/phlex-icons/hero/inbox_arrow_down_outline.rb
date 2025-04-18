@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class InboxArrowDownOutline < Base
       def view_template
-        render InboxArrowDown.new(variant: :outline)
+        render InboxArrowDown.new(variant: :outline, **attrs)
       end
     end
   end

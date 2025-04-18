@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class QueueListOutline < Base
       def view_template
-        render QueueList.new(variant: :outline)
+        render QueueList.new(variant: :outline, **attrs)
       end
     end
   end

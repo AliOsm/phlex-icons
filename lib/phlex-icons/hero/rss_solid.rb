@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class RssSolid < Base
       def view_template
-        render Rss.new(variant: :solid)
+        render Rss.new(variant: :solid, **attrs)
       end
     end
   end

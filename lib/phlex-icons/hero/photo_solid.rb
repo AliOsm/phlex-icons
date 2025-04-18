@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class PhotoSolid < Base
       def view_template
-        render Photo.new(variant: :solid)
+        render Photo.new(variant: :solid, **attrs)
       end
     end
   end

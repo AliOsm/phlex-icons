@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class NumberedListOutline < Base
       def view_template
-        render NumberedList.new(variant: :outline)
+        render NumberedList.new(variant: :outline, **attrs)
       end
     end
   end

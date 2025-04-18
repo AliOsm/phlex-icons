@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class PhoneOutline < Base
       def view_template
-        render Phone.new(variant: :outline)
+        render Phone.new(variant: :outline, **attrs)
       end
     end
   end

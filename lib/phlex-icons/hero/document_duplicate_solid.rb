@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class DocumentDuplicateSolid < Base
       def view_template
-        render DocumentDuplicate.new(variant: :solid)
+        render DocumentDuplicate.new(variant: :solid, **attrs)
       end
     end
   end

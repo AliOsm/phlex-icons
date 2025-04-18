@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class LanguageOutline < Base
       def view_template
-        render Language.new(variant: :outline)
+        render Language.new(variant: :outline, **attrs)
       end
     end
   end

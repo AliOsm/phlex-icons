@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class WrenchScrewdriverSolid < Base
       def view_template
-        render WrenchScrewdriver.new(variant: :solid)
+        render WrenchScrewdriver.new(variant: :solid, **attrs)
       end
     end
   end

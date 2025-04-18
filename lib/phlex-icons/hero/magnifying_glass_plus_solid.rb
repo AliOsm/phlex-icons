@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MagnifyingGlassPlusSolid < Base
       def view_template
-        render MagnifyingGlassPlus.new(variant: :solid)
+        render MagnifyingGlassPlus.new(variant: :solid, **attrs)
       end
     end
   end

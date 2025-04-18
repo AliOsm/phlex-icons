@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BuildingOfficeOutline < Base
       def view_template
-        render BuildingOffice.new(variant: :outline)
+        render BuildingOffice.new(variant: :outline, **attrs)
       end
     end
   end

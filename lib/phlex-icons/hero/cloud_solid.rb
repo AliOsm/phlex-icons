@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class CloudSolid < Base
       def view_template
-        render Cloud.new(variant: :solid)
+        render Cloud.new(variant: :solid, **attrs)
       end
     end
   end

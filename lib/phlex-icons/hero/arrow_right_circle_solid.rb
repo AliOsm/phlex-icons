@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArrowRightCircleSolid < Base
       def view_template
-        render ArrowRightCircle.new(variant: :solid)
+        render ArrowRightCircle.new(variant: :solid, **attrs)
       end
     end
   end

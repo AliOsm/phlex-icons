@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class Bars4Outline < Base
       def view_template
-        render Bars4.new(variant: :outline)
+        render Bars4.new(variant: :outline, **attrs)
       end
     end
   end

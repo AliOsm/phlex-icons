@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class PencilSquareOutline < Base
       def view_template
-        render PencilSquare.new(variant: :outline)
+        render PencilSquare.new(variant: :outline, **attrs)
       end
     end
   end

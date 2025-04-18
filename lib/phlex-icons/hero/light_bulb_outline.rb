@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class LightBulbOutline < Base
       def view_template
-        render LightBulb.new(variant: :outline)
+        render LightBulb.new(variant: :outline, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class HashtagOutline < Base
       def view_template
-        render Hashtag.new(variant: :outline)
+        render Hashtag.new(variant: :outline, **attrs)
       end
     end
   end

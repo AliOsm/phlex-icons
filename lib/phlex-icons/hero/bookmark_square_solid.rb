@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class BookmarkSquareSolid < Base
       def view_template
-        render BookmarkSquare.new(variant: :solid)
+        render BookmarkSquare.new(variant: :solid, **attrs)
       end
     end
   end

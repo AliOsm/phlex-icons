@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class FingerPrintSolid < Base
       def view_template
-        render FingerPrint.new(variant: :solid)
+        render FingerPrint.new(variant: :solid, **attrs)
       end
     end
   end

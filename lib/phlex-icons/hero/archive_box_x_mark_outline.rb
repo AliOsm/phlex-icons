@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class ArchiveBoxXMarkOutline < Base
       def view_template
-        render ArchiveBoxXMark.new(variant: :outline)
+        render ArchiveBoxXMark.new(variant: :outline, **attrs)
       end
     end
   end

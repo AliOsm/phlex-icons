@@ -4,7 +4,7 @@ module PhlexIcons
   module Hero
     class MinusSmallOutline < Base
       def view_template
-        render MinusSmall.new(variant: :outline)
+        render MinusSmall.new(variant: :outline, **attrs)
       end
     end
   end
