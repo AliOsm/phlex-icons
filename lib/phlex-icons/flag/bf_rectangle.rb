@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class BfRectangle < Base
       def view_template
-        render Bf.new(variant: :rectangle)
+        render Bf.new(variant: :rectangle, **attrs)
       end
     end
   end

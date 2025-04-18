@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class CcRectangle < Base
       def view_template
-        render Cc.new(variant: :rectangle)
+        render Cc.new(variant: :rectangle, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class GbWlsRectangle < Base
       def view_template
-        render GbWls.new(variant: :rectangle)
+        render GbWls.new(variant: :rectangle, **attrs)
       end
     end
   end

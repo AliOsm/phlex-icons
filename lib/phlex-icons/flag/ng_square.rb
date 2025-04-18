@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class NgSquare < Base
       def view_template
-        render Ng.new(variant: :square)
+        render Ng.new(variant: :square, **attrs)
       end
     end
   end

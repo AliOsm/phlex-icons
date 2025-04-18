@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class TgRectangle < Base
       def view_template
-        render Tg.new(variant: :rectangle)
+        render Tg.new(variant: :rectangle, **attrs)
       end
     end
   end

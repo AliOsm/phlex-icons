@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class NoRectangle < Base
       def view_template
-        render No.new(variant: :rectangle)
+        render No.new(variant: :rectangle, **attrs)
       end
     end
   end

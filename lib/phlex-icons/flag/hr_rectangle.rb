@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class HrRectangle < Base
       def view_template
-        render Hr.new(variant: :rectangle)
+        render Hr.new(variant: :rectangle, **attrs)
       end
     end
   end

@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class ShHlRectangle < Base
       def view_template
-        render ShHl.new(variant: :rectangle)
+        render ShHl.new(variant: :rectangle, **attrs)
       end
     end
   end

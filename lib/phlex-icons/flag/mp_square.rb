@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class MpSquare < Base
       def view_template
-        render Mp.new(variant: :square)
+        render Mp.new(variant: :square, **attrs)
       end
     end
   end

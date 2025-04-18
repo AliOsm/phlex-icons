@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class EeSquare < Base
       def view_template
-        render Ee.new(variant: :square)
+        render Ee.new(variant: :square, **attrs)
       end
     end
   end

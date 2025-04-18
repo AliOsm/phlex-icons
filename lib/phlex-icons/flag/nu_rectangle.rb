@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class NuRectangle < Base
       def view_template
-        render Nu.new(variant: :rectangle)
+        render Nu.new(variant: :rectangle, **attrs)
       end
     end
   end

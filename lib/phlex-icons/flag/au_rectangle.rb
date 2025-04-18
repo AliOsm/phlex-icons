@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class AuRectangle < Base
       def view_template
-        render Au.new(variant: :rectangle)
+        render Au.new(variant: :rectangle, **attrs)
       end
     end
   end

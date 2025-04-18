@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class NaSquare < Base
       def view_template
-        render Na.new(variant: :square)
+        render Na.new(variant: :square, **attrs)
       end
     end
   end

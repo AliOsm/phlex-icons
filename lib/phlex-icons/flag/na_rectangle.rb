@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class NaRectangle < Base
       def view_template
-        render Na.new(variant: :rectangle)
+        render Na.new(variant: :rectangle, **attrs)
       end
     end
   end

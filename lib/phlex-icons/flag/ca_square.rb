@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class CaSquare < Base
       def view_template
-        render Ca.new(variant: :square)
+        render Ca.new(variant: :square, **attrs)
       end
     end
   end

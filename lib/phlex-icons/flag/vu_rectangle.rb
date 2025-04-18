@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class VuRectangle < Base
       def view_template
-        render Vu.new(variant: :rectangle)
+        render Vu.new(variant: :rectangle, **attrs)
       end
     end
   end

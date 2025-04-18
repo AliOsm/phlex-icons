@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class JoRectangle < Base
       def view_template
-        render Jo.new(variant: :rectangle)
+        render Jo.new(variant: :rectangle, **attrs)
       end
     end
   end

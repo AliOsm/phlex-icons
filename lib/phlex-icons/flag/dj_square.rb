@@ -4,7 +4,7 @@ module PhlexIcons
   module Flag
     class DjSquare < Base
       def view_template
-        render Dj.new(variant: :square)
+        render Dj.new(variant: :square, **attrs)
       end
     end
   end
