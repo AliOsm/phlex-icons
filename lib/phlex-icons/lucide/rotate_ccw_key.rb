@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Brush < Base
+    class RotateCcwKey < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm11 10 3 3')
-          s.path(
-            d: 'M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z'
-          )
-          s.path(d: 'M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031')
+          s.path(d: 'm14.5 9.5 1 1')
+          s.path(d: 'm15.5 8.5-4 4')
+          s.path(d: 'M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8')
+          s.path(d: 'M3 3v5h5')
+          s.circle(cx: '10', cy: '14', r: '2')
         end
       end
     end

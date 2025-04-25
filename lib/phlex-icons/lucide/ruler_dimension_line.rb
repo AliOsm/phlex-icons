@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Brush < Base
+    class RulerDimensionLine < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm11 10 3 3')
-          s.path(
-            d: 'M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z'
-          )
-          s.path(d: 'M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031')
+          s.path(d: 'M12 15v-3.014')
+          s.path(d: 'M16 15v-3.014')
+          s.path(d: 'M20 6H4')
+          s.path(d: 'M20 8V4')
+          s.path(d: 'M4 8V4')
+          s.path(d: 'M8 15v-3.014')
+          s.rect(x: '3', y: '12', width: '18', height: '7', rx: '1')
         end
       end
     end

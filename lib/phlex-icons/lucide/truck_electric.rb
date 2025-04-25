@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class LampWallDown < Base
+    class TruckElectric < Base
       def view_template
         svg(
           **attrs,
@@ -14,14 +14,18 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M14 19V7a2 2 0 0 0-2-2H9')
+          s.path(d: 'M15 19H9')
           s.path(
             d:
-              'M19.929 18.629A1 1 0 0 1 19 20H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 13h6a1 1 0 0 1 .928.629z'
+              'M19 19h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14'
           )
+          s.path(d: 'M2 13v5a1 1 0 0 0 1 1h2')
           s.path(
-            d: 'M6 3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z'
+            d: 'M4 3 2.15 5.15a.495.495 0 0 0 .35.86h2.15a.47.47 0 0 1 .35.86L3 9.02'
           )
-          s.path(d: 'M8 6h4a2 2 0 0 1 2 2v5')
+          s.circle(cx: '17', cy: '19', r: '2')
+          s.circle(cx: '7', cy: '19', r: '2')
         end
       end
     end

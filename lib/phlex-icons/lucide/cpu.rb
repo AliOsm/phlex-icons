@@ -15,16 +15,20 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.rect(width: '16', height: '16', x: '4', y: '4', rx: '2')
-          s.rect(width: '6', height: '6', x: '9', y: '9', rx: '1')
-          s.path(d: 'M15 2v2')
-          s.path(d: 'M15 20v2')
-          s.path(d: 'M2 15h2')
-          s.path(d: 'M2 9h2')
-          s.path(d: 'M20 15h2')
-          s.path(d: 'M20 9h2')
-          s.path(d: 'M9 2v2')
-          s.path(d: 'M9 20v2')
+          s.path(d: 'M12 20v2')
+          s.path(d: 'M12 2v2')
+          s.path(d: 'M17 20v2')
+          s.path(d: 'M17 2v2')
+          s.path(d: 'M2 12h2')
+          s.path(d: 'M2 17h2')
+          s.path(d: 'M2 7h2')
+          s.path(d: 'M20 12h2')
+          s.path(d: 'M20 17h2')
+          s.path(d: 'M20 7h2')
+          s.path(d: 'M7 20v2')
+          s.path(d: 'M7 2v2')
+          s.rect(x: '4', y: '4', width: '16', height: '16', rx: '2')
+          s.rect(x: '8', y: '8', width: '8', height: '8', rx: '1')
         end
       end
     end

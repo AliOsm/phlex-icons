@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class TrafficCone < Base
+    class BrickWallFire < Base
       def view_template
         svg(
           **attrs,
@@ -15,13 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M16.05 10.966a5 2.5 0 0 1-8.1 0')
+          s.path(d: 'M16 3v2.107')
           s.path(
             d:
-              'm16.923 14.049 4.48 2.04a1 1 0 0 1 .001 1.831l-8.574 3.9a2 2 0 0 1-1.66 0l-8.574-3.91a1 1 0 0 1 0-1.83l4.484-2.04'
+              'M17 9c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 22 17a5 5 0 0 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C13 11.5 16 9 17 9'
           )
-          s.path(d: 'M16.949 14.14a5 2.5 0 1 1-9.9 0L10.063 3.5a2 2 0 0 1 3.874 0z')
-          s.path(d: 'M9.194 6.57a5 2.5 0 0 0 5.61 0')
+          s.path(d: 'M21 8.274V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.938')
+          s.path(d: 'M3 15h5.253')
+          s.path(d: 'M3 9h8.228')
+          s.path(d: 'M8 15v6')
+          s.path(d: 'M8 3v6')
         end
       end
     end
