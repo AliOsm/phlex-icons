@@ -29,10 +29,5 @@ module PhlexIcons
     def configure
       yield configuration
     end
-
-    # This allows us to use `PhlexIcons::Icon("icon_name")` as a shortcut for `PhlexIcons::Icon.call`
-    def Icon(*args, **kwargs) # rubocop:disable Naming/MethodName
-      Icon.call(*args, **kwargs)
-    end
   end
 end

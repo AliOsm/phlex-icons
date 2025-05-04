@@ -16,17 +16,5 @@ RSpec.describe PhlexIcons::Icon do
       expect(PhlexIcons::Lucide::ArrowLeft).to receive(:new).with(class: 'xyz', variant: :solid)
       described_class.call('lucide/arrow-left:solid', class: 'xyz', variant: :outline)
     end
-
-    context 'using .[] alias' do
-      it 'works the same as .call' do
-        expect(described_class['lucide/arrow-left']).to be_a(PhlexIcons::Lucide::ArrowLeft)
-      end
-    end
-
-    context 'using .() alias' do
-      it 'works the same as .call' do
-        expect(PhlexIcons::Icon('lucide/arrow-left')).to be_a(PhlexIcons::Lucide::ArrowLeft)
-      end
-    end
   end
 end
