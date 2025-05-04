@@ -7,7 +7,7 @@ module PhlexIcons
 
     def initialize(default_classes: 'size-6')
       @default_classes = default_classes
-      @helper_method_name = :phlex_icon # Default helper name
+      @helper_method_name = :phlex_icon
       @default_pack = nil
     end
 
