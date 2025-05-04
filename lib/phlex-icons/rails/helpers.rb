@@ -47,21 +47,39 @@ module PhlexIcons
         if name_part.include?('/')
           library_name, icon_name = name_part.split('/', 2)
         else
-          library_name = PhlexIcons.configuration.default_pack&.to_s
+          library_name = _get_default_library_name_or_raise(name_part)
           icon_name = name_part
-          unless library_name && !library_name.empty?
-            raise ArgumentError,
-                  "Icon name '#{name}' is missing the library prefix (e.g., 'hero/'), " \
-                  'and no `default_pack` is configured in PhlexIcons.'
-          end
         end
 
-        unless library_name && !library_name.empty? && icon_name && !icon_name.empty?
-          raise ArgumentError, # This check might be redundant now, but kept for safety
-                "Invalid icon name format. Could not determine library or icon name from '#{name}'."
-        end
+        _validate_identifier_parts(library_name, icon_name, name)
 
         [library_name, icon_name]
+      end
+
+      # Retrieves the configured default pack name or raises if not configured.
+      # @param original_name [String] The original icon name (used for error message).
+      # @return [String] The default library name.
+      # @raise [ArgumentError] If default_pack is not configured.
+      def _get_default_library_name_or_raise(original_name)
+        library_name = PhlexIcons.configuration.default_pack&.to_s
+        unless library_name && !library_name.empty?
+          raise ArgumentError,
+                "Icon name '#{original_name}' is missing the library prefix (e.g., 'hero/'), " \
+                'and no `default_pack` is configured in PhlexIcons.'
+        end
+        library_name
+      end
+
+      # Validates that both library and icon names were successfully determined.
+      # @param library_name [String, nil] The determined library name.
+      # @param icon_name [String, nil] The determined icon name.
+      # @param original_name [String] The original icon identifier (for error message).
+      # @raise [ArgumentError] If either part is missing or empty.
+      def _validate_identifier_parts(library_name, icon_name, original_name)
+        return if library_name && !library_name.empty? && icon_name && !icon_name.empty?
+
+        raise ArgumentError,
+              "Invalid icon name format. Could not determine library or icon name from '#{original_name}'."
       end
 
       # Constructs the full Ruby class name for an icon component.
