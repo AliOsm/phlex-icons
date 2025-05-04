@@ -1,0 +1,31 @@
+# frozen_string_literal: true
+
+require 'active_support/core_ext/string/inflections'
+require 'active_support/core_ext/hash/indifferent_access'
+require_relative 'icon/name_parser'
+
+module PhlexIcons
+  module Icon
+    extend Phlex::Kit
+
+    # Factory method to create an icon component instance.
+    # Parses the name string, finds the corresponding class, and initializes it with options.
+    # @param name [String] Icon identifier (e.g., "hero/house:solid", "lucide/arrow-right").
+    # @param options [Hash] HTML attributes and options for the icon component.
+    # @return [Phlex::HTML] An instance of the resolved icon component.
+    # @raise [ArgumentError] If the name format is invalid or default pack is missing.
+    # @raise [NameError] If the corresponding icon class cannot be found.
+    def self.call(name, **options)
+      parser = NameParser.new(name)
+      options = options&.with_indifferent_access
+
+      # Prioritize variant from the name string over options hash
+      options[:variant] = parser.variant_name if parser.variant_name
+
+      parser.klass.new(**options)
+    end
+
+    # Alias `.[]` to `call` for convenience
+    singleton_class.send(:alias_method, :[], :call)
+  end
+end
