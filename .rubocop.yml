@@ -26,3 +26,7 @@ Metrics/MethodLength:
 
 Metrics/ClassLength:
   CountAsOne: ['array', 'method_call']
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'

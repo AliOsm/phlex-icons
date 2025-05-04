@@ -62,11 +62,15 @@ The gem provides global configuration options, and per icons pack configuration 
 ```ruby
 PhlexIcons.configure do |config|
   config.default_classes = 'size-6'
+  config.helper_method_name = :phlex_icon # Default: :phlex_icon
+  config.default_pack = :hero # Default: nil. Accepts :symbol, "string", or Class (e.g., PhlexIcons::Hero)
 end
 
 # OR
 
 PhlexIcons.configuration.default_classes = 'size-6'
+PhlexIcons.configuration.helper_method_name = :phlex_icon
+PhlexIcons.configuration.default_pack = :hero
 ```
 
 ### Bootstrap Icons configuration
@@ -153,6 +157,9 @@ class PhlexIcons < Phlex::HTML
       Radix::Home(class: 'size-4')
       Remix::HomeLine(class: 'size-4')
       Tabler::Home(variant: :filled, class: 'size-4')
+
+      # or with a string
+      Icon('bootstrap/house', class: 'size-4')
     end
   end
 end
@@ -174,10 +181,47 @@ class PhlexIcons < Phlex::HTML
       render PhlexIcons::Radix::Home.new(class: 'size-4')
       render PhlexIcons::Remix::HomeLine.new(class: 'size-4')
       render PhlexIcons::Tabler::Home.new(variant: :filled, class: 'size-4')
+
+      # or with a string
+      render PhlexIcons::Icon('bootstrap/house', class: 'size-4')
     end
   end
 end
 ```
+
+### Rails View Helper
+
+`phlex-icons` provides a convenient helper method to render icons directly in your ERB or Phlex views.
+
+By default, the helper method is named `phlex_icon`, but is configurable.
+
+```erb
+<%# Render a Bootstrap house icon with default size %>
+<%= phlex_icon 'bootstrap/house' %>
+
+<%# Render a Heroicons solid home icon with a specific class %>
+<%= phlex_icon 'hero/home', variant: :solid, class: 'w-5 h-5 text-blue-500' %>
+
+<%# Render a Tabler home icon, filled variant %>
+<%= phlex_icon 'tabler/home:filled' %>
+
+<%# If default_pack = :hero, render a Heroicons home icon %>
+<%= phlex_icon 'home', class: 'w-6 h-6' %>
+
+<%# Render a Flag icon (rectangle variant is default for flags if not configured otherwise) %>
+<%= phlex_icon 'flag/sa' %>
+
+<%# Render a custom icon %>
+<%= phlex_icon 'custom/my_awesome_icon:variant_name' %>
+```
+
+The first argument is the icon identifier. Such as: `'pack/icon_name:variant'`.
+
+*   If `default_pack` is configured, you can omit the pack name (e.g., `'icon_name:variant'` instead of `'pack/icon_name:variant'`).
+*   The `:variant` part is optional.
+*   Examples: `'hero/house:solid'`, `'house:solid'`, `'house'`
+
+Subsequent arguments are passed as options to the icon component, such as `variant`, `class`, etc.
 
 ### Specific icon pack(s)
 
