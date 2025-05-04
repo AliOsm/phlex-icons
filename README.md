@@ -157,6 +157,9 @@ class PhlexIcons < Phlex::HTML
       Radix::Home(class: 'size-4')
       Remix::HomeLine(class: 'size-4')
       Tabler::Home(variant: :filled, class: 'size-4')
+
+      # or with a string
+      Icon("bootstrap/house", class: '...')
     end
   end
 end
@@ -178,6 +181,9 @@ class PhlexIcons < Phlex::HTML
       render PhlexIcons::Radix::Home.new(class: 'size-4')
       render PhlexIcons::Remix::HomeLine.new(class: 'size-4')
       render PhlexIcons::Tabler::Home.new(variant: :filled, class: 'size-4')
+
+      # or with a string
+      render PhlexIcons::Icon("bootstrap/house", class: '...')
     end
   end
 end
