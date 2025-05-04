@@ -8,7 +8,7 @@ module PhlexIcons
     def initialize(default_classes: 'size-6')
       @default_classes = default_classes
       @helper_method_name = :phlex_icon # Default helper name
-      @default_pack = nil # Renamed from @default_helper_pack
+      @default_pack = nil
     end
 
     # Custom setter for default_pack
@@ -16,8 +16,8 @@ module PhlexIcons
     #
     # @param value [Class, String, Symbol, nil] The value to set the default pack to.
     # @raise [ArgumentError] If the value is not a Class, String, Symbol, or nil.
-    def default_pack=(value) # Renamed from default_helper_pack=
-      @default_pack = case value # Renamed from @default_helper_pack
+    def default_pack=(value)
+      @default_pack = case value
                       when Class
                         # Extract 'Hero' from PhlexIcons::Hero, lowercase, symbolize
                         value.name.split('::').last&.downcase&.to_sym
@@ -27,7 +27,7 @@ module PhlexIcons
                         nil
                       else
                         raise ArgumentError,
-                              "Invalid type for default_pack: #{value.class}. Expected Class, String, Symbol, or nil." # Updated error message
+                              "Invalid type for default_pack: #{value.class}. Expected Class, String, Symbol, or nil."
                       end
     end
   end

@@ -51,7 +51,7 @@ module PhlexIcons
           icon_name = name_part
           unless library_name && !library_name.empty?
             raise ArgumentError,
-                  "Icon name '#{name}' is missing the library prefix (e.g., 'heroicons/'), " \
+                  "Icon name '#{name}' is missing the library prefix (e.g., 'hero/'), " \
                   'and no `default_pack` is configured in PhlexIcons.'
           end
         end

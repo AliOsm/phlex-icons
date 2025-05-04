@@ -61,7 +61,10 @@ RSpec.describe PhlexIcons::Rails::Helpers do
         it 'raises an error' do
           expect do
             helper.phlex_icon_class('chevron-right')
-          end.to raise_error(ArgumentError).with_message("Icon name 'chevron-right' is missing the library prefix (e.g., 'heroicons/'), and no `default_pack` is configured in PhlexIcons.")
+          end.to raise_error(ArgumentError).with_message(
+            "Icon name 'chevron-right' is missing the library prefix (e.g., 'hero/'), " \
+            'and no `default_pack` is configured in PhlexIcons.'
+          )
         end
       end
     end
