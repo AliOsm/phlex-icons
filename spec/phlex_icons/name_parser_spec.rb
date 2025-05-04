@@ -29,7 +29,7 @@ RSpec.describe PhlexIcons::NameParser do
       subject(:parser) { described_class.new(valid_name_full) }
 
       it 'parses the library name correctly' do
-        expect(parser.library_name).to eq(valid_library)
+        expect(parser.pack_name).to eq(valid_library)
       end
 
       it 'parses the icon name correctly' do
@@ -54,7 +54,7 @@ RSpec.describe PhlexIcons::NameParser do
       let(:variant) { :solid }
 
       it 'parses the library name correctly' do
-        expect(parser.library_name).to eq(valid_library)
+        expect(parser.pack_name).to eq(valid_library)
       end
 
       it 'parses the icon name correctly' do
@@ -78,7 +78,7 @@ RSpec.describe PhlexIcons::NameParser do
       subject(:parser) { described_class.new(valid_icon_kebab) }
 
       it 'uses the default library name' do
-        expect(parser.library_name).to eq(valid_library)
+        expect(parser.pack_name).to eq(valid_library)
       end
 
       it 'parses the icon name correctly' do
@@ -103,7 +103,7 @@ RSpec.describe PhlexIcons::NameParser do
       let(:variant) { :outline }
 
       it 'uses the default library name' do
-        expect(parser.library_name).to eq(valid_library)
+        expect(parser.pack_name).to eq(valid_library)
       end
 
       it 'parses the icon name correctly' do
@@ -124,7 +124,7 @@ RSpec.describe PhlexIcons::NameParser do
       subject(:parser) { described_class.new(hyphenated_name) }
 
       it 'parses library and icon names correctly' do
-        expect(parser.library_name).to eq('hero')
+        expect(parser.pack_name).to eq('hero')
         expect(parser.icon_name).to eq('map-pin')
       end
 
@@ -138,7 +138,7 @@ RSpec.describe PhlexIcons::NameParser do
       subject(:parser) { described_class.new(name_with_empty_variant) }
 
       it 'parses the library name correctly' do
-        expect(parser.library_name).to eq(valid_library)
+        expect(parser.pack_name).to eq(valid_library)
       end
 
       it 'parses the icon name correctly' do
