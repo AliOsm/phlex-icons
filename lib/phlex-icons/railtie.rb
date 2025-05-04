@@ -11,7 +11,7 @@ module PhlexIcons
         include PhlexIcons::Rails::Helpers
 
         # Get the configured helper name
-        helper_method_name = PhlexIcons.configuration.helper_name
+        helper_method_name = PhlexIcons.configuration.helper_method_name
 
         # Define the public helper method dynamically
         define_method helper_method_name do |name, **options|

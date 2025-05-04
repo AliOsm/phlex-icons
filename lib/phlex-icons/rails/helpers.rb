@@ -15,7 +15,7 @@ module PhlexIcons
       # @raise [ArgumentError] If the name format is invalid.
       # @raise [NameError] If the corresponding icon class cannot be found.
       def _render_phlex_icon(name, **options)
-        render PhlexIcons::Icon.call(name, **options)
+        PhlexIcons::Icon.call(name, **options)&.html_safe
       end
     end
   end

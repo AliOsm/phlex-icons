@@ -19,6 +19,7 @@ require_relative 'phlex-icons/remix'
 require_relative 'phlex-icons/tabler'
 
 require_relative 'phlex-icons/icon'
+require_relative 'phlex-icons/railtie' if defined?(Rails)
 
 module PhlexIcons
   class << self
