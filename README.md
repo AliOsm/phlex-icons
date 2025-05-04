@@ -62,13 +62,15 @@ The gem provides global configuration options, and per icons pack configuration 
 ```ruby
 PhlexIcons.configure do |config|
   config.default_classes = 'size-6'
-  config.helper_method_name = "phlex_icon"
+  config.helper_method_name = "phlex_icon" # Default: :phlex_icon
+  config.default_pack = :hero # Renamed. Default: nil. Accepts :symbol, "string", or Class (e.g., PhlexIcons::Hero)
 end
 
 # OR
 
 PhlexIcons.configuration.default_classes = 'size-6'
-PhlexIcons.configuration.helper_method_name = "phlex_icon"
+PhlexIcons.configuration.helper_method_name = :phlex_icon
+PhlexIcons.configuration.default_pack = :hero # Renamed
 ```
 
 ### Bootstrap Icons configuration
@@ -197,6 +199,9 @@ By default, the helper method is named `phlex_icon`, but is configurable.
 <%# Render a Tabler home icon, filled variant %>
 <%= phlex_icon "tabler/home:filled" %>
 
+<%# If default_pack = :hero, render a Heroicons home icon %>
+<%= phlex_icon "home", class: "w-6 h-6" %>
+
 <%# Render a Flag icon (rectangle variant is default for flags if not configured otherwise) %>
 <%= phlex_icon "flag/sa" %>
 
@@ -204,7 +209,13 @@ By default, the helper method is named `phlex_icon`, but is configurable.
 <%= phlex_icon "custom/my_awesome_icon:variant_name" %>
 ```
 
-The first argument is the icon name, following the format `"pack/icon_name:variant"`. `variant` is optional. Subsequent arguments are passed as options to the icon component, such as `variant`, `class`, etc.
+The first argument is the icon identifier. Such as: `"pack/icon_name:variant"`.
+
+*   If `default_pack` is configured, you can omit the pack name (e.g., `"icon_name:variant"` instead of `"pack/icon_name:variant"`).
+*   The `:variant` part is optional.
+*   Examples: `"hero/house:solid"`, `"house:solid"`, `"house"`
+
+Subsequent arguments are passed as options to the icon component, such as `variant`, `class`, etc.
 
 ### Specific icon pack(s)
 

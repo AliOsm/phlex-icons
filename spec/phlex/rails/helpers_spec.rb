@@ -25,9 +25,45 @@ end
 RSpec.describe PhlexIcons::Rails::Helpers do
   subject(:helper) { IconHelperTester.new }
 
+  after do
+    PhlexIcons.instance_variable_set(:@configuration, PhlexIcons::Configuration.new)
+  end
+
   describe '#phlex_icon_class' do
-    it 'returns the correct class' do
-      expect(helper.phlex_icon_class('hero/chevron-right')).to eq(PhlexIcons::Hero::ChevronRight)
+    context 'when the pack name is specified' do
+      it 'returns the correct class' do
+        expect(helper.phlex_icon_class('hero/chevron-right')).to eq(PhlexIcons::Hero::ChevronRight)
+      end
+
+      context 'and a default pack is configured' do
+        before do
+          PhlexIcons.configure { |config| config.default_pack = :lucide }
+        end
+
+        it 'returns the correct class' do
+          expect(helper.phlex_icon_class('hero/chevron-right')).to eq(PhlexIcons::Hero::ChevronRight)
+        end
+      end
+    end
+
+    context 'when the pack name is not specified' do
+      context 'and a default pack is configured' do
+        before do
+          PhlexIcons.configure { |config| config.default_pack = :hero }
+        end
+
+        it 'returns the correct class' do
+          expect(helper.phlex_icon_class('chevron-right')).to eq(PhlexIcons::Hero::ChevronRight)
+        end
+      end
+
+      context 'and no default pack is configured' do
+        it 'raises an error' do
+          expect do
+            helper.phlex_icon_class('chevron-right')
+          end.to raise_error(ArgumentError).with_message("Icon name 'chevron-right' is missing the library prefix (e.g., 'heroicons/'), and no `default_pack` is configured in PhlexIcons.")
+        end
+      end
     end
   end
 
