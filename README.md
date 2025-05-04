@@ -62,11 +62,13 @@ The gem provides global configuration options, and per icons pack configuration 
 ```ruby
 PhlexIcons.configure do |config|
   config.default_classes = 'size-6'
+  config.helper_method_name = "phlex_icon"
 end
 
 # OR
 
 PhlexIcons.configuration.default_classes = 'size-6'
+PhlexIcons.configuration.helper_method_name = "phlex_icon"
 ```
 
 ### Bootstrap Icons configuration
@@ -178,6 +180,31 @@ class PhlexIcons < Phlex::HTML
   end
 end
 ```
+
+### Rails View Helper
+
+`phlex-icons` provides a convenient helper method to render icons directly in your ERB or Phlex views.
+
+By default, the helper method is named `phlex_icon`, but is configurable.
+
+```erb
+<%# Render a Bootstrap house icon with default size %>
+<%= phlex_icon "bootstrap/house" %>
+
+<%# Render a Heroicons solid home icon with a specific class %>
+<%= phlex_icon "hero/home", variant: :solid, class: "w-5 h-5 text-blue-500" %>
+
+<%# Render a Tabler home icon, filled variant %>
+<%= phlex_icon "tabler/home:filled" %>
+
+<%# Render a Flag icon (rectangle variant is default for flags if not configured otherwise) %>
+<%= phlex_icon "flag/sa" %>
+
+<%# Render a custom icon %>
+<%= phlex_icon "custom/my_awesome_icon:variant_name" %>
+```
+
+The first argument is the icon name, following the format `"pack/icon_name:variant"`. `variant` is optional. Subsequent arguments are passed as options to the icon component, such as `variant`, `class`, etc.
 
 ### Specific icon pack(s)
 
