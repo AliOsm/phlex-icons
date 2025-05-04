@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'active_support/core_ext/string/inflections'
-require 'active_support/core_ext/hash/indifferent_access'
 require_relative 'name_parser'
 
 module PhlexIcons
@@ -17,7 +15,7 @@ module PhlexIcons
     # @raise [NameError] If the corresponding icon class cannot be found.
     def initialize(name, **options)
       @name = name
-      @options = options&.with_indifferent_access
+      @options = options&.transform_keys(&:to_sym) || {}
       super()
     end
 

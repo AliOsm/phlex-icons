@@ -106,14 +106,12 @@ module PhlexIcons
     # @return [Class] The found icon component class.
     # @raise [NameError] If the class cannot be found.
     def find_and_validate_icon_class(class_name, pack_name, icon_name)
-      klass = class_name.safe_constantize
-      unless klass
-        raise NameError,
-              "Could not find icon component class '#{class_name}'. " \
-              "Make sure the pack ('#{pack_name}') and name ('#{icon_name}') " \
-              'are correct and the corresponding file is loaded.'
-      end
-      klass
+      Object.const_get(class_name)
+    rescue NameError
+      raise NameError,
+            "Could not find icon component class '#{class_name}'. " \
+            "Make sure the pack ('#{pack_name}') and name ('#{icon_name}') " \
+            'are correct and the corresponding file is loaded.'
     end
   end
 end
