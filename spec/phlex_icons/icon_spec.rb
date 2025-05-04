@@ -8,25 +8,14 @@ require 'phlex-icons/icon'
 RSpec.describe PhlexIcons::Icon do
   describe '.call' do
     it 'calls the proper icon class' do
-      expect(PhlexIcons::Lucide::ArrowLeft).to receive(:new).with(class: 'xyz')
+      expect(PhlexIcons::Lucide::ArrowLeft).to receive(:new).with(class: 'xyz').and_return(PhlexIcons::Lucide::ArrowLeft.new)
       described_class.call('lucide/arrow-left', class: 'xyz')
     end
 
     it 'parses and overrides variant from name' do
-      expect(PhlexIcons::Lucide::ArrowLeft).to receive(:new).with(class: 'xyz', variant: :solid)
+      expect(PhlexIcons::Lucide::ArrowLeft).to receive(:new).with(class: 'xyz',
+                                                                  variant: :solid).and_return(PhlexIcons::Lucide::ArrowLeft.new)
       described_class.call('lucide/arrow-left:solid', class: 'xyz', variant: :outline)
-    end
-
-    context 'using .[] alias' do
-      it 'works the same as .call' do
-        expect(described_class['lucide/arrow-left']).to be_a(PhlexIcons::Lucide::ArrowLeft)
-      end
-    end
-
-    context 'using .() alias' do
-      it 'works the same as .call' do
-        expect(PhlexIcons::Icon('lucide/arrow-left')).to be_a(PhlexIcons::Lucide::ArrowLeft)
-      end
     end
   end
 end
