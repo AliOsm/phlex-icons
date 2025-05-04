@@ -106,11 +106,6 @@ module PhlexIcons
     # @return [Class] The found icon component class.
     # @raise [NameError] If the class cannot be found.
     def find_and_validate_icon_class(class_name, pack_name, icon_name)
-      # Check if safe_constantize is available
-      unless class_name.respond_to?(:safe_constantize)
-        raise NameError, 'String#safe_constantize is not available. Please ensure ActiveSupport is loaded.'
-      end
-
       klass = class_name.safe_constantize
       unless klass
         raise NameError,
