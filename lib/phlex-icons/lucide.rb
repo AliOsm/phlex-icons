@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.503.0'
+    VERSION = '0.508.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -242,6 +242,7 @@ module PhlexIcons
     autoload :BriefcaseMedical, 'phlex-icons/lucide/briefcase_medical'
     autoload :BringToFront, 'phlex-icons/lucide/bring_to_front'
     autoload :Brush, 'phlex-icons/lucide/brush'
+    autoload :BrushCleaning, 'phlex-icons/lucide/brush_cleaning'
     autoload :Bubbles, 'phlex-icons/lucide/bubbles'
     autoload :Bug, 'phlex-icons/lucide/bug'
     autoload :BugOff, 'phlex-icons/lucide/bug_off'
@@ -417,6 +418,7 @@ module PhlexIcons
     autoload :ClockArrowDown, 'phlex-icons/lucide/clock_arrow_down'
     autoload :ClockArrowUp, 'phlex-icons/lucide/clock_arrow_up'
     autoload :ClockFading, 'phlex-icons/lucide/clock_fading'
+    autoload :ClockPlus, 'phlex-icons/lucide/clock_plus'
     autoload :Cloud, 'phlex-icons/lucide/cloud'
     autoload :CloudAlert, 'phlex-icons/lucide/cloud_alert'
     autoload :CloudCog, 'phlex-icons/lucide/cloud_cog'
@@ -742,6 +744,7 @@ module PhlexIcons
     autoload :Group, 'phlex-icons/lucide/group'
     autoload :Guitar, 'phlex-icons/lucide/guitar'
     autoload :Ham, 'phlex-icons/lucide/ham'
+    autoload :Hamburger, 'phlex-icons/lucide/hamburger'
     autoload :Hammer, 'phlex-icons/lucide/hammer'
     autoload :Hand, 'phlex-icons/lucide/hand'
     autoload :HandCoins, 'phlex-icons/lucide/hand_coins'
@@ -1047,6 +1050,7 @@ module PhlexIcons
     autoload :Paintbrush, 'phlex-icons/lucide/paintbrush'
     autoload :PaintbrushVertical, 'phlex-icons/lucide/paintbrush_vertical'
     autoload :Palette, 'phlex-icons/lucide/palette'
+    autoload :Panda, 'phlex-icons/lucide/panda'
     autoload :PanelBottom, 'phlex-icons/lucide/panel_bottom'
     autoload :PanelBottomClose, 'phlex-icons/lucide/panel_bottom_close'
     autoload :PanelBottomDashed, 'phlex-icons/lucide/panel_bottom_dashed'
@@ -1298,6 +1302,7 @@ module PhlexIcons
     autoload :SmilePlus, 'phlex-icons/lucide/smile_plus'
     autoload :Snail, 'phlex-icons/lucide/snail'
     autoload :Snowflake, 'phlex-icons/lucide/snowflake'
+    autoload :SoapDispenserDroplet, 'phlex-icons/lucide/soap_dispenser_droplet'
     autoload :Sofa, 'phlex-icons/lucide/sofa'
     autoload :Soup, 'phlex-icons/lucide/soup'
     autoload :Space, 'phlex-icons/lucide/space'

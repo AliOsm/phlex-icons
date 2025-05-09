@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class LocateOff < Base
+    class ClockPlus < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 19v3')
-          s.path(d: 'M12 2v3')
-          s.path(d: 'M18.89 13.24a7 7 0 0 0-8.13-8.13')
-          s.path(d: 'M19 12h3')
-          s.path(d: 'M2 12h3')
-          s.path(d: 'm2 2 20 20')
-          s.path(d: 'M7.05 7.05a7 7 0 0 0 9.9 9.9')
+          s.path(d: 'M12 6v6l3.644 1.822')
+          s.path(d: 'M16 19h6')
+          s.path(d: 'M19 16v6')
+          s.path(d: 'M21.92 13.267a10 10 0 1 0-8.653 8.653')
         end
       end
     end
