@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phlex-icons (2.19.0)
+    phlex-icons (2.20.0)
       phlex (>= 1.11)
 
 GEM
