@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Bootstrap # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.11.3'
+    VERSION = '1.12.1'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -201,6 +201,7 @@ module PhlexIcons
     autoload :BinocularsFill, 'phlex-icons/bootstrap/binoculars_fill'
     autoload :BlockquoteLeft, 'phlex-icons/bootstrap/blockquote_left'
     autoload :BlockquoteRight, 'phlex-icons/bootstrap/blockquote_right'
+    autoload :Bluesky, 'phlex-icons/bootstrap/bluesky'
     autoload :Bluetooth, 'phlex-icons/bootstrap/bluetooth'
     autoload :BodyText, 'phlex-icons/bootstrap/body_text'
     autoload :Book, 'phlex-icons/bootstrap/book'
