@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Brackets < Base
+    class CheckLine < Base
       def view_template
         svg(
           **attrs,
@@ -14,8 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M16 3h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-3')
-          s.path(d: 'M8 21H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h3')
+          s.path(d: 'M20 4L9 15')
+          s.path(d: 'M21 19L3 19')
+          s.path(d: 'M9 15L4 10')
         end
       end
     end

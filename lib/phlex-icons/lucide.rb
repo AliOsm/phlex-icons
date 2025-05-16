@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.508.0'
+    VERSION = '0.510.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -323,6 +323,7 @@ module PhlexIcons
     autoload :ChartSpline, 'phlex-icons/lucide/chart_spline'
     autoload :Check, 'phlex-icons/lucide/check'
     autoload :CheckCheck, 'phlex-icons/lucide/check_check'
+    autoload :CheckLine, 'phlex-icons/lucide/check_line'
     autoload :ChefHat, 'phlex-icons/lucide/chef_hat'
     autoload :Cherry, 'phlex-icons/lucide/cherry'
     autoload :ChevronDown, 'phlex-icons/lucide/chevron_down'
@@ -730,6 +731,7 @@ module PhlexIcons
     autoload :Globe, 'phlex-icons/lucide/globe'
     autoload :GlobeLock, 'phlex-icons/lucide/globe_lock'
     autoload :Goal, 'phlex-icons/lucide/goal'
+    autoload :Gpu, 'phlex-icons/lucide/gpu'
     autoload :Grab, 'phlex-icons/lucide/grab'
     autoload :GraduationCap, 'phlex-icons/lucide/graduation_cap'
     autoload :Grape, 'phlex-icons/lucide/grape'
