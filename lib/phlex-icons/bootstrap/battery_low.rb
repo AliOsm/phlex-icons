@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Bootstrap
-    class UnlockFill < Base
+    class BatteryLow < Base
       def view_template
         svg(
           **attrs,
@@ -11,10 +11,10 @@ module PhlexIcons
           fill: 'currentColor',
           viewbox: '0 0 16 16'
         ) do |s|
+          s.path(d: 'M2 6h2v4H2z')
           s.path(
-            fill_rule: 'evenodd',
             d:
-              'M12 0a4 4 0 0 1 4 4v2.5h-1V4a3 3 0 1 0-6 0v2h.5A2.5 2.5 0 0 1 12 8.5v5A2.5 2.5 0 0 1 9.5 16h-7A2.5 2.5 0 0 1 0 13.5v-5A2.5 2.5 0 0 1 2.5 6H8V4a4 4 0 0 1 4-4'
+              'M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8'
           )
         end
       end
