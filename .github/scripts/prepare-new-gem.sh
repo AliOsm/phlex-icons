@@ -10,7 +10,7 @@ fi
 
 pack_to_keep=$1
 pack_to_keep_cap=$(echo "${pack_to_keep}" | awk '{print toupper(substr($0, 1, 1)) tolower(substr($0, 2))}')
-packs="bootstrap flag hero lucide radix remix tabler"
+packs="bootstrap flag hero lucide material radix remix tabler"
 
 # Remove all packs except the one to keep
 for pack in $packs; do
