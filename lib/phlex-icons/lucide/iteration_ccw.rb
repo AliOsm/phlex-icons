@@ -14,8 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M20 10c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8h8')
-          s.polyline(points: '16 14 20 18 16 22')
+          s.path(d: 'm16 14 4 4-4 4')
+          s.path(d: 'M20 10a8 8 0 1 0-8 8h8')
         end
       end
     end
