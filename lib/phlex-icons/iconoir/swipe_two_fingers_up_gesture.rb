@@ -1,0 +1,38 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
+module PhlexIcons
+  module Iconoir
+    class SwipeTwoFingersUpGesture < PhlexIcons::Iconoir::Base
+      def solid
+        raise NotImplementedError
+      end
+
+      def regular
+        svg(
+          **attrs,
+          stroke_width: '1.5',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M6.5 12C4.567 12 3 13.567 3 15.5C3 17.433 4.567 19 6.5 19C8.433 19 10 17.433 10 15.5C10 13.567 8.433 12 6.5 12ZM6.5 12V5M6.5 5L9 7.4M6.5 5L4 7.4',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.5 12C15.567 12 14 13.567 14 15.5C14 17.433 15.567 19 17.5 19C19.433 19 21 17.433 21 15.5C21 13.567 19.433 12 17.5 12ZM17.5 12V5M17.5 5L20 7.4M17.5 5L15 7.4',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength
