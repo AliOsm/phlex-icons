@@ -102,6 +102,18 @@ end
 PhlexIcons::Hero.configuration.default_variant = :solid # or :outline
 ```
 
+### Iconoir Icons configuration
+
+```ruby
+PhlexIcons::Iconoir.configure do |config|
+  config.default_variant = :solid # or :regular
+end
+
+# OR
+
+PhlexIcons::Iconoir.configuration.default_variant = :solid # or :regular
+```
+
 ### Lucide Icons configuration
 
 Nothing to configure for Lucide Icons.
@@ -137,19 +149,6 @@ end
 
 PhlexIcons::Tabler.configuration.default_variant = :outline # or :filled
 ```
-
-### Iconoir Icons configuration
-
-```ruby
-PhlexIcons::Iconoir.configure do |config|
-  config.default_variant = :solid # or :regular
-end
-
-# OR
-
-PhlexIcons::Iconoir.configuration.default_variant = :solid # or :regular
-```
-
 
 ## Usage
 

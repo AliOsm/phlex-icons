@@ -5,7 +5,7 @@ module PhlexIcons
     class Configuration
       attr_accessor :default_variant
 
-      def initialize(default_variant: :filled)
+      def initialize(default_variant: :regular)
         @default_variant = default_variant
       end
     end

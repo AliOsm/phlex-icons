@@ -10,7 +10,6 @@ module PhlexIcons
     require_relative 'iconoir/base'
     require_relative 'iconoir/configuration'
 
-    # rubocop:disable Layout/LineLength
     # auto-generated autoload: start
     autoload :Accessibility, 'phlex-icons/iconoir/accessibility'
     autoload :AccessibilityRegular, 'phlex-icons/iconoir/accessibility_regular'
@@ -4162,7 +4161,6 @@ module PhlexIcons
     autoload :ZoomOutRegular, 'phlex-icons/iconoir/zoom_out_regular'
     autoload :ZoomOutSolid, 'phlex-icons/iconoir/zoom_out_solid'
     # auto-generated autoload: end
-    # rubocop:enable Layout/LineLength
 
     class << self
       def configuration

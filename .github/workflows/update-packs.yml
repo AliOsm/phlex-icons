@@ -52,6 +52,15 @@ jobs:
             echo "🔔 Icons were updated/added to Hero icon pack"
           fi
 
+      - name: Re-generate Iconoir icon pack
+        run: |
+          bundle exec ruby generators/iconoir.rb
+          if [ -n "$(git status --porcelain lib/phlex-icons/iconoir lib/phlex-icons/iconoir.rb)" ]; then
+            git add lib/phlex-icons/iconoir lib/phlex-icons/iconoir.rb
+            git commit -m "Re-generate Iconoir icon pack"
+            echo "🔔 Icons were updated/added to Iconoir icon pack"
+          fi
+
       - name: Re-generate Lucide icon pack
         run: |
           bundle exec ruby generators/lucide.rb
