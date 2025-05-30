@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class BatteryMedium < Base
+    class CloudCheck < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M10 14v-4')
-          s.path(d: 'M22 14v-4')
-          s.path(d: 'M6 14v-4')
-          s.rect(x: '2', y: '6', width: '16', height: '12', rx: '2')
+          s.path(d: 'm17 15-5.5 5.5L9 18')
+          s.path(d: 'M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742')
         end
       end
     end

@@ -14,11 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.rect(width: '16', height: '10', x: '2', y: '7', rx: '2', ry: '2')
-          s.line(x1: '22', x2: '22', y1: '11', y2: '13')
-          s.line(x1: '6', x2: '6', y1: '11', y2: '13')
-          s.line(x1: '10', x2: '10', y1: '11', y2: '13')
-          s.line(x1: '14', x2: '14', y1: '11', y2: '13')
+          s.path(d: 'M10 10v4')
+          s.path(d: 'M14 10v4')
+          s.path(d: 'M22 14v-4')
+          s.path(d: 'M6 10v4')
+          s.rect(x: '2', y: '6', width: '16', height: '12', rx: '2')
         end
       end
     end
