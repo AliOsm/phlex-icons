@@ -4,7 +4,33 @@ module PhlexIcons
   module Tabler
     class LayoutBoardSplit < Base
       def filled
-        raise NotImplementedError
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'currentColor'
+        ) do |s|
+          s.path(
+            d:
+              'M5 3h5a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-5a2 2 0 0 1 2 -2'
+          )
+          s.path(
+            d:
+              'M14 3h5a2 2 0 0 1 2 2v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1'
+          )
+          s.path(
+            d:
+              'M13 10m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z'
+          )
+          s.path(
+            d:
+              'M14 16h6a1 1 0 0 1 1 1v2a2 2 0 0 1 -2 2h-5a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1'
+          )
+          s.path(
+            d:
+              'M4 13h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-5a2 2 0 0 1 -2 -2v-5a1 1 0 0 1 1 -1'
+          )
+        end
       end
 
       def outline

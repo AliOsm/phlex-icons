@@ -4,7 +4,25 @@ module PhlexIcons
   module Tabler
     class Columns3 < Base
       def filled
-        raise NotImplementedError
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'currentColor'
+        ) do |s|
+          s.path(
+            d:
+              'M4 2h2a1 1 0 0 1 1 1v18a1 1 0 0 1 -1 1h-2a2 2 0 0 1 -2 -2v-16a2 2 0 0 1 2 -2'
+          )
+          s.path(
+            d:
+              'M9 2m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v18a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z'
+          )
+          s.path(
+            d:
+              'M18 2h2a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2h-2a1 1 0 0 1 -1 -1v-18a1 1 0 0 1 1 -1'
+          )
+        end
       end
 
       def outline

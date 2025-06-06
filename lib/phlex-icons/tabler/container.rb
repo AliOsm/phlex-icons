@@ -5,7 +5,27 @@ module PhlexIcons
   module Tabler
     class Container < Base
       def filled
-        raise NotImplementedError
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'currentColor'
+        ) do |s|
+          s.path(d: 'M20 3a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M20 19a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M20 15a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M20 11a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M20 7a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(
+            d:
+              'M15 3a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2z'
+          )
+          s.path(d: 'M4 3a1 1 0 0 1 1 1v.01a1 1 0 1 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M4 19a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M4 15a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M4 11a1 1 0 0 1 1 1v.01a1 1 0 0 1 -2 0v-.01a1 1 0 0 1 1 -1')
+          s.path(d: 'M4 7a1 1 0 0 1 1 1v.01a1 1 0 1 1 -2 0v-.01a1 1 0 0 1 1 -1')
+        end
       end
 
       def outline
