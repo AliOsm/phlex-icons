@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.511.0'
+    VERSION = '0.513.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -289,6 +289,7 @@ module PhlexIcons
     autoload :CarFront, 'phlex-icons/lucide/car_front'
     autoload :CarTaxiFront, 'phlex-icons/lucide/car_taxi_front'
     autoload :Caravan, 'phlex-icons/lucide/caravan'
+    autoload :CardSim, 'phlex-icons/lucide/card_sim'
     autoload :Carrot, 'phlex-icons/lucide/carrot'
     autoload :CaseLower, 'phlex-icons/lucide/case_lower'
     autoload :CaseSensitive, 'phlex-icons/lucide/case_sensitive'
@@ -741,6 +742,7 @@ module PhlexIcons
     autoload :Grid2x2Check, 'phlex-icons/lucide/grid_2x2_check'
     autoload :Grid2x2Plus, 'phlex-icons/lucide/grid_2x2_plus'
     autoload :Grid2x2X, 'phlex-icons/lucide/grid_2x2_x'
+    autoload :Grid3x2, 'phlex-icons/lucide/grid_3x2'
     autoload :Grid3x3, 'phlex-icons/lucide/grid_3x3'
     autoload :Grip, 'phlex-icons/lucide/grip'
     autoload :GripHorizontal, 'phlex-icons/lucide/grip_horizontal'
