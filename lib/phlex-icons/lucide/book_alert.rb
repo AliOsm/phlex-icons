@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class HousePlus < Base
+    class BookAlert < Base
       def view_template
         svg(
           **attrs,
@@ -15,16 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M12 13h.01')
+          s.path(d: 'M12 6v3')
           s.path(
             d:
-              'M12.662 21H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v2.475'
+              'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'
           )
-          s.path(d: 'M14.959 12.717A1 1 0 0 0 14 12h-4a1 1 0 0 0-1 1v8')
-          s.path(d: 'M15 18h6')
-          s.path(d: 'M18 15v6')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

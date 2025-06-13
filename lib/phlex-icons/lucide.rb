@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.513.0'
+    VERSION = '0.514.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -195,6 +195,7 @@ module PhlexIcons
     autoload :Bone, 'phlex-icons/lucide/bone'
     autoload :Book, 'phlex-icons/lucide/book'
     autoload :BookA, 'phlex-icons/lucide/book_a'
+    autoload :BookAlert, 'phlex-icons/lucide/book_alert'
     autoload :BookAudio, 'phlex-icons/lucide/book_audio'
     autoload :BookCheck, 'phlex-icons/lucide/book_check'
     autoload :BookCopy, 'phlex-icons/lucide/book_copy'
