@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Blocks < Base
+    class Barrel < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +15,17 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M10 3a41 41 0 0 0 0 18')
+          s.path(d: 'M14 3a41 41 0 0 1 0 18')
           s.path(
             d:
-              'M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2'
+              'M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z'
           )
-          s.rect(x: '14', y: '2', width: '8', height: '8', rx: '1')
+          s.path(d: 'M3.84 17h16.32')
+          s.path(d: 'M3.84 7h16.32')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileQuestion < Base
+    class RectangleCircle < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 17h.01')
-          s.path(d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z')
-          s.path(d: 'M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3')
+          s.path(d: 'M14 4v16H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z')
+          s.circle(cx: '14', cy: '12', r: '8')
         end
       end
     end
