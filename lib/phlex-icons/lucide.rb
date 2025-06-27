@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.518.0'
+    VERSION = '0.523.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -228,6 +228,7 @@ module PhlexIcons
     autoload :Bot, 'phlex-icons/lucide/bot'
     autoload :BotMessageSquare, 'phlex-icons/lucide/bot_message_square'
     autoload :BotOff, 'phlex-icons/lucide/bot_off'
+    autoload :BottleWine, 'phlex-icons/lucide/bottle_wine'
     autoload :BowArrow, 'phlex-icons/lucide/bow_arrow'
     autoload :Box, 'phlex-icons/lucide/box'
     autoload :Boxes, 'phlex-icons/lucide/boxes'
@@ -713,6 +714,7 @@ module PhlexIcons
     autoload :Gauge, 'phlex-icons/lucide/gauge'
     autoload :Gavel, 'phlex-icons/lucide/gavel'
     autoload :Gem, 'phlex-icons/lucide/gem'
+    autoload :GeorgianLari, 'phlex-icons/lucide/georgian_lari'
     autoload :Ghost, 'phlex-icons/lucide/ghost'
     autoload :Gift, 'phlex-icons/lucide/gift'
     autoload :GitBranch, 'phlex-icons/lucide/git_branch'
@@ -866,6 +868,7 @@ module PhlexIcons
     autoload :Ligature, 'phlex-icons/lucide/ligature'
     autoload :Lightbulb, 'phlex-icons/lucide/lightbulb'
     autoload :LightbulbOff, 'phlex-icons/lucide/lightbulb_off'
+    autoload :LineSquiggle, 'phlex-icons/lucide/line_squiggle'
     autoload :Link, 'phlex-icons/lucide/link'
     autoload :Link2, 'phlex-icons/lucide/link_2'
     autoload :Link2Off, 'phlex-icons/lucide/link_2_off'
@@ -1327,6 +1330,7 @@ module PhlexIcons
     autoload :Spline, 'phlex-icons/lucide/spline'
     autoload :SplinePointer, 'phlex-icons/lucide/spline_pointer'
     autoload :Split, 'phlex-icons/lucide/split'
+    autoload :Spool, 'phlex-icons/lucide/spool'
     autoload :SprayCan, 'phlex-icons/lucide/spray_can'
     autoload :Sprout, 'phlex-icons/lucide/sprout'
     autoload :Square, 'phlex-icons/lucide/square'
@@ -1396,6 +1400,7 @@ module PhlexIcons
     autoload :SquaresSubtract, 'phlex-icons/lucide/squares_subtract'
     autoload :SquaresUnite, 'phlex-icons/lucide/squares_unite'
     autoload :Squircle, 'phlex-icons/lucide/squircle'
+    autoload :SquircleDashed, 'phlex-icons/lucide/squircle_dashed'
     autoload :Squirrel, 'phlex-icons/lucide/squirrel'
     autoload :Stamp, 'phlex-icons/lucide/stamp'
     autoload :Star, 'phlex-icons/lucide/star'
