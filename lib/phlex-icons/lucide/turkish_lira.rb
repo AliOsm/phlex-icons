@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class MegaphoneOff < Base
+    class TurkishLira < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M11.636 6A13 13 0 0 0 19.4 3.2 1 1 0 0 1 21 4v11.344')
-          s.path(
-            d: 'M14.378 14.357A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h1'
-          )
-          s.path(d: 'm2 2 20 20')
-          s.path(d: 'M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14')
-          s.path(d: 'M8 8v6')
+          s.path(d: 'M15 4 5 9')
+          s.path(d: 'm15 8.5-10 5')
+          s.path(d: 'M18 12a9 9 0 0 1-9 9V3')
         end
       end
     end

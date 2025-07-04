@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.523.0'
+    VERSION = '0.525.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -136,6 +136,7 @@ module PhlexIcons
     autoload :BadgeQuestionMark, 'phlex-icons/lucide/badge_question_mark'
     autoload :BadgeRussianRuble, 'phlex-icons/lucide/badge_russian_ruble'
     autoload :BadgeSwissFranc, 'phlex-icons/lucide/badge_swiss_franc'
+    autoload :BadgeTurkishLira, 'phlex-icons/lucide/badge_turkish_lira'
     autoload :BadgeX, 'phlex-icons/lucide/badge_x'
     autoload :BaggageClaim, 'phlex-icons/lucide/baggage_claim'
     autoload :Ban, 'phlex-icons/lucide/ban'
@@ -1172,6 +1173,7 @@ module PhlexIcons
     autoload :ReceiptRussianRuble, 'phlex-icons/lucide/receipt_russian_ruble'
     autoload :ReceiptSwissFranc, 'phlex-icons/lucide/receipt_swiss_franc'
     autoload :ReceiptText, 'phlex-icons/lucide/receipt_text'
+    autoload :ReceiptTurkishLira, 'phlex-icons/lucide/receipt_turkish_lira'
     autoload :RectangleCircle, 'phlex-icons/lucide/rectangle_circle'
     autoload :RectangleEllipsis, 'phlex-icons/lucide/rectangle_ellipsis'
     autoload :RectangleGoggles, 'phlex-icons/lucide/rectangle_goggles'
@@ -1484,6 +1486,7 @@ module PhlexIcons
     autoload :ToggleLeft, 'phlex-icons/lucide/toggle_left'
     autoload :ToggleRight, 'phlex-icons/lucide/toggle_right'
     autoload :Toilet, 'phlex-icons/lucide/toilet'
+    autoload :ToolCase, 'phlex-icons/lucide/tool_case'
     autoload :Tornado, 'phlex-icons/lucide/tornado'
     autoload :Torus, 'phlex-icons/lucide/torus'
     autoload :Touchpad, 'phlex-icons/lucide/touchpad'
@@ -1514,6 +1517,7 @@ module PhlexIcons
     autoload :Trophy, 'phlex-icons/lucide/trophy'
     autoload :Truck, 'phlex-icons/lucide/truck'
     autoload :TruckElectric, 'phlex-icons/lucide/truck_electric'
+    autoload :TurkishLira, 'phlex-icons/lucide/turkish_lira'
     autoload :Turtle, 'phlex-icons/lucide/turtle'
     autoload :Tv, 'phlex-icons/lucide/tv'
     autoload :TvMinimal, 'phlex-icons/lucide/tv_minimal'
@@ -1561,6 +1565,7 @@ module PhlexIcons
     autoload :UtilityPole, 'phlex-icons/lucide/utility_pole'
     autoload :Variable, 'phlex-icons/lucide/variable'
     autoload :Vault, 'phlex-icons/lucide/vault'
+    autoload :VectorSquare, 'phlex-icons/lucide/vector_square'
     autoload :Vegan, 'phlex-icons/lucide/vegan'
     autoload :VenetianMask, 'phlex-icons/lucide/venetian_mask'
     autoload :Venus, 'phlex-icons/lucide/venus'
