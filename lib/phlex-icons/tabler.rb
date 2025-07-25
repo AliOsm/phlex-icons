@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Tabler # rubocop:disable Metrics/ModuleLength
-    VERSION = '3.34.0'
+    VERSION = '3.34.1'
     VARIANTS = %i[outline filled].freeze
 
     extend Phlex::Kit
@@ -2168,6 +2168,9 @@ module PhlexIcons
     autoload :BrandDribbble, 'phlex-icons/tabler/brand_dribbble'
     autoload :BrandDribbbleFilled, 'phlex-icons/tabler/brand_dribbble_filled'
     autoload :BrandDribbbleOutline, 'phlex-icons/tabler/brand_dribbble_outline'
+    autoload :BrandDropbox, 'phlex-icons/tabler/brand_dropbox'
+    autoload :BrandDropboxFilled, 'phlex-icons/tabler/brand_dropbox_filled'
+    autoload :BrandDropboxOutline, 'phlex-icons/tabler/brand_dropbox_outline'
     autoload :BrandDrops, 'phlex-icons/tabler/brand_drops'
     autoload :BrandDropsFilled, 'phlex-icons/tabler/brand_drops_filled'
     autoload :BrandDropsOutline, 'phlex-icons/tabler/brand_drops_outline'

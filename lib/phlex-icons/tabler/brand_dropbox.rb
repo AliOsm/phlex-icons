@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
-    class LanguageOff < Base
+    class BrandDropbox < Base
       def filled
         raise NotImplementedError
       end
@@ -18,14 +19,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 20l2.463 -5.541m1.228 -2.764l.309 -.695l.8 1.8')
-          s.path(d: 'M18 18h-5.1')
-          s.path(d: 'M8.747 8.748c-.66 2.834 -2.536 4.252 -4.747 4.252')
-          s.path(d: 'M4 6.371l2.371 0')
-          s.path(d: 'M5 9c0 2.144 2.252 3.908 6 4')
-          s.path(d: 'M3 3l18 18')
+          s.path(
+            d:
+              'M7.5 10.625l-4.5 -2.813l4.5 -2.812l4.5 2.813m-4.5 2.812l4.5 -2.813m-4.5 2.813l-4.5 2.823l4.5 2.802m0 -5.625l4.5 2.823m0 -5.636l4.5 2.791l4.5 -2.812l-4.5 -2.791l-4.5 2.813zm-4.5 8.438l4.5 -2.802m-4.5 2.802v1.123l4.5 2.627l4.5 -2.627v-1.123m-4.5 -2.802l4.5 -2.823l4.5 2.823l-4.5 2.802m-4.5 -2.802l4.5 2.802'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
