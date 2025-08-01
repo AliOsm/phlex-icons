@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class MessageCircleReply < Base
@@ -14,11 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M7.9 20A9 9 0 1 0 4 16.1L2 22Z')
+          s.path(
+            d:
+              'M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719'
+          )
           s.path(d: 'm10 15-3-3 3-3')
-          s.path(d: 'M7 12h7a2 2 0 0 1 2 2v1')
+          s.path(d: 'M7 12h8a2 2 0 0 1 2 2v1')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

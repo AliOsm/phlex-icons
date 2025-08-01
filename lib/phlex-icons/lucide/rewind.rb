@@ -14,8 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.polygon(points: '11 19 2 12 11 5 11 19')
-          s.polygon(points: '22 19 13 12 22 5 22 19')
+          s.path(
+            d: 'M12 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 12 18z'
+          )
+          s.path(
+            d: 'M22 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 22 18z'
+          )
         end
       end
     end

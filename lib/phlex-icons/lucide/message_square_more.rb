@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class MessageSquareMore < Base
@@ -14,12 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z')
-          s.path(d: 'M8 10h.01')
-          s.path(d: 'M12 10h.01')
-          s.path(d: 'M16 10h.01')
+          s.path(
+            d:
+              'M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z'
+          )
+          s.path(d: 'M12 11h.01')
+          s.path(d: 'M16 11h.01')
+          s.path(d: 'M8 11h.01')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

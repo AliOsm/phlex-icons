@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileVideo2 < Base
+    class WifiSync < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.rect(width: '8', height: '6', x: '2', y: '12', rx: '1')
-          s.path(d: 'm10 15.5 4 2.5v-6l-4 2.5')
+          s.path(d: 'M11.965 10.105v4L13.5 12.5a5 5 0 0 1 8 1.5')
+          s.path(d: 'M11.965 14.105h4')
+          s.path(d: 'M17.965 18.105h4L20.43 19.71a5 5 0 0 1-8-1.5')
+          s.path(d: 'M2 8.82a15 15 0 0 1 20 0')
+          s.path(d: 'M21.965 22.105v-4')
+          s.path(d: 'M5 12.86a10 10 0 0 1 3-2.032')
+          s.path(d: 'M8.5 16.429h.01')
         end
       end
     end

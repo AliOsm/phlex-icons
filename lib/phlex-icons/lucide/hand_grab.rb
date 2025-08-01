@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Grab < Base
+    class HandGrab < Base
       def view_template
         svg(
           **attrs,

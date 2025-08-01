@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileVideo < Base
+    class SquareStop < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.path(d: 'm10 11 5 3-5 3v-6Z')
+          s.rect(width: '18', height: '18', x: '3', y: '3', rx: '2')
+          s.rect(x: '9', y: '9', width: '6', height: '6', rx: '1')
         end
       end
     end

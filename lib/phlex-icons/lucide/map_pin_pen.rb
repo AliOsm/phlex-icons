@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class LocationEdit < Base
+    class MapPinPen < Base
       def view_template
         svg(
           **attrs,

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class ArrowBigRightDash < Base
@@ -14,10 +15,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M5 9v6')
-          s.path(d: 'M9 9h3V5l7 7-7 7v-4H9V9z')
+          s.path(
+            d:
+              'M11 9a1 1 0 0 0 1-1V5.061a1 1 0 0 1 1.811-.75l6.836 6.836a1.207 1.207 0 0 1 0 1.707l-6.836 6.835a1 1 0 0 1-1.811-.75V16a1 1 0 0 0-1-1H9a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z'
+          )
+          s.path(d: 'M4 9v6')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
