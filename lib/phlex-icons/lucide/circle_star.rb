@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Spade < Base
+    class CircleStar < Base
       def view_template
         svg(
           **attrs,
@@ -15,11 +15,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 18v4')
           s.path(
             d:
-              'M2 14.499a5.5 5.5 0 0 0 9.591 3.675.6.6 0 0 1 .818.001A5.5 5.5 0 0 0 22 14.5c0-2.29-1.5-4-3-5.5l-5.492-5.312a2 2 0 0 0-3-.02L5 8.999c-1.5 1.5-3 3.2-3 5.5'
+              'M11.051 7.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.867l-1.156-1.152a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z'
           )
+          s.circle(cx: '12', cy: '12', r: '10')
         end
       end
     end

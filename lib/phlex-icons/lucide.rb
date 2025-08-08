@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.535.0'
+    VERSION = '0.537.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -390,6 +390,7 @@ module PhlexIcons
     autoload :CircleSlash, 'phlex-icons/lucide/circle_slash'
     autoload :CircleSlash2, 'phlex-icons/lucide/circle_slash_2'
     autoload :CircleSmall, 'phlex-icons/lucide/circle_small'
+    autoload :CircleStar, 'phlex-icons/lucide/circle_star'
     autoload :CircleStop, 'phlex-icons/lucide/circle_stop'
     autoload :CircleUser, 'phlex-icons/lucide/circle_user'
     autoload :CircleUserRound, 'phlex-icons/lucide/circle_user_round'
@@ -1401,6 +1402,7 @@ module PhlexIcons
     autoload :SquareSplitVertical, 'phlex-icons/lucide/square_split_vertical'
     autoload :SquareSquare, 'phlex-icons/lucide/square_square'
     autoload :SquareStack, 'phlex-icons/lucide/square_stack'
+    autoload :SquareStar, 'phlex-icons/lucide/square_star'
     autoload :SquareStop, 'phlex-icons/lucide/square_stop'
     autoload :SquareTerminal, 'phlex-icons/lucide/square_terminal'
     autoload :SquareUser, 'phlex-icons/lucide/square_user'
@@ -1527,6 +1529,7 @@ module PhlexIcons
     autoload :Truck, 'phlex-icons/lucide/truck'
     autoload :TruckElectric, 'phlex-icons/lucide/truck_electric'
     autoload :TurkishLira, 'phlex-icons/lucide/turkish_lira'
+    autoload :Turntable, 'phlex-icons/lucide/turntable'
     autoload :Turtle, 'phlex-icons/lucide/turtle'
     autoload :Tv, 'phlex-icons/lucide/tv'
     autoload :TvMinimal, 'phlex-icons/lucide/tv_minimal'

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class CakeSlice < Base
@@ -14,14 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.circle(cx: '9', cy: '7', r: '2')
-          s.path(
-            d: 'M7.2 7.9 3 11v9c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-9c0-2-3-6-7-8l-3.6 2.6'
-          )
           s.path(d: 'M16 13H3')
           s.path(d: 'M16 17H3')
+          s.path(
+            d:
+              'm7.2 7.9-3.388 2.5A2 2 0 0 0 3 12.01V20a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8.654c0-2-2.44-6.026-6.44-8.026a1 1 0 0 0-1.082.057L10.4 5.6'
+          )
+          s.circle(cx: '9', cy: '7', r: '2')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
