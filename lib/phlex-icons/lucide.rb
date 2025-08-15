@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.537.0'
+    VERSION = '0.539.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -240,6 +240,7 @@ module PhlexIcons
     autoload :BrainCog, 'phlex-icons/lucide/brain_cog'
     autoload :BrickWall, 'phlex-icons/lucide/brick_wall'
     autoload :BrickWallFire, 'phlex-icons/lucide/brick_wall_fire'
+    autoload :BrickWallShield, 'phlex-icons/lucide/brick_wall_shield'
     autoload :Briefcase, 'phlex-icons/lucide/briefcase'
     autoload :BriefcaseBusiness, 'phlex-icons/lucide/briefcase_business'
     autoload :BriefcaseConveyorBelt, 'phlex-icons/lucide/briefcase_conveyor_belt'
@@ -836,6 +837,7 @@ module PhlexIcons
     autoload :JapaneseYen, 'phlex-icons/lucide/japanese_yen'
     autoload :Joystick, 'phlex-icons/lucide/joystick'
     autoload :Kanban, 'phlex-icons/lucide/kanban'
+    autoload :Kayak, 'phlex-icons/lucide/kayak'
     autoload :Key, 'phlex-icons/lucide/key'
     autoload :KeyRound, 'phlex-icons/lucide/key_round'
     autoload :KeySquare, 'phlex-icons/lucide/key_square'
