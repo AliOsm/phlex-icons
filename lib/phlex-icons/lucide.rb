@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.539.0'
+    VERSION = '0.540.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1211,6 +1211,7 @@ module PhlexIcons
     autoload :Rocket, 'phlex-icons/lucide/rocket'
     autoload :RockingChair, 'phlex-icons/lucide/rocking_chair'
     autoload :RollerCoaster, 'phlex-icons/lucide/roller_coaster'
+    autoload :Rose, 'phlex-icons/lucide/rose'
     autoload :Rotate3d, 'phlex-icons/lucide/rotate_3d'
     autoload :RotateCcw, 'phlex-icons/lucide/rotate_ccw'
     autoload :RotateCcwKey, 'phlex-icons/lucide/rotate_ccw_key'

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class CameraOff < Base
@@ -14,12 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.line(x1: '2', x2: '22', y1: '2', y2: '22')
-          s.path(d: 'M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16')
-          s.path(d: 'M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5')
-          s.path(d: 'M14.121 15.121A3 3 0 1 1 9.88 10.88')
+          s.path(d: 'M14.564 14.558a3 3 0 1 1-4.122-4.121')
+          s.path(d: 'm2 2 20 20')
+          s.path(d: 'M20 20H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 .819-.175')
+          s.path(
+            d:
+              'M9.695 4.024A2 2 0 0 1 10.004 4h3.993a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v7.344'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
