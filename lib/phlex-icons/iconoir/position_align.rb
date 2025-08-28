@@ -1,0 +1,126 @@
+# frozen_string_literal: true
+
+# rubocop:disable Metrics/AbcSize,Metrics/BlockLength,Metrics/MethodLength
+module PhlexIcons
+  module Iconoir
+    class PositionAlign < PhlexIcons::Iconoir::Base
+      def solid
+        raise NotImplementedError
+      end
+
+      def regular
+        svg(
+          **attrs,
+          stroke_width: '1.5',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d: 'M4 16.01L4.01 15.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4 20.01L4.01 19.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4 8.01L4.01 7.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4 4.01L4.01 3.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4 12.01L4.01 11.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M12 12.01L12.01 11.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M8 20.01L8.01 19.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M12 20.01L12.01 19.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M16 20.01L16.01 19.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 20.01L20.01 19.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 16.01L20.01 15.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 12.01L20.01 11.9989',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 8.01L20.01 7.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 4.01L20.01 3.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M16 4.01L16.01 3.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M12 4.01L12.01 3.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M8 4.01L8.01 3.99889',
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Metrics/AbcSize,Metrics/BlockLength,Metrics/MethodLength

@@ -19,6 +19,7 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)
 - [Remix Icons](https://remixicon.com) (3,000+)
 - [Tabler Icons](https://tabler.io/icons) (4,900+)
+- [Iconoir Icons](https://iconoir.com/) (1,600+)
 
 And happy to extend to other icon packs!
 
@@ -99,6 +100,18 @@ end
 # OR
 
 PhlexIcons::Hero.configuration.default_variant = :solid # or :outline
+```
+
+### Iconoir Icons configuration
+
+```ruby
+PhlexIcons::Iconoir.configure do |config|
+  config.default_variant = :solid # or :regular
+end
+
+# OR
+
+PhlexIcons::Iconoir.configuration.default_variant = :solid # or :regular
 ```
 
 ### Lucide Icons configuration
