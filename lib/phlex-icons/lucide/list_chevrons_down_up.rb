@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Chrome < Base
+    class ListChevronsDownUp < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10')
-          s.circle(cx: '12', cy: '12', r: '4')
-          s.line(x1: '21.17', x2: '12', y1: '8', y2: '8')
-          s.line(x1: '3.95', x2: '8.54', y1: '6.06', y2: '14')
-          s.line(x1: '10.88', x2: '15.46', y1: '21.94', y2: '14')
+          s.path(d: 'm15 18 3-3 3 3')
+          s.path(d: 'm15 6 3 3 3-3')
+          s.path(d: 'M3 12h8')
+          s.path(d: 'M3 18h8')
+          s.path(d: 'M3 6h8')
         end
       end
     end

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Wallpaper < Base
+    class Chromium < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 17v4')
-          s.path(d: 'M8 21h8')
-          s.path(d: 'm9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15')
-          s.circle(cx: '8', cy: '9', r: '2')
-          s.rect(x: '2', y: '3', width: '20', height: '14', rx: '2')
+          s.path(d: 'M10.88 21.94 15.46 14')
+          s.path(d: 'M21.17 8H12')
+          s.path(d: 'M3.95 6.06 8.54 14')
+          s.circle(cx: '12', cy: '12', r: '10')
+          s.circle(cx: '12', cy: '12', r: '4')
         end
       end
     end

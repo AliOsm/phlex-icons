@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.540.0'
+    VERSION = '0.542.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -347,7 +347,7 @@ module PhlexIcons
     autoload :ChevronsRightLeft, 'phlex-icons/lucide/chevrons_right_left'
     autoload :ChevronsUp, 'phlex-icons/lucide/chevrons_up'
     autoload :ChevronsUpDown, 'phlex-icons/lucide/chevrons_up_down'
-    autoload :Chrome, 'phlex-icons/lucide/chrome'
+    autoload :Chromium, 'phlex-icons/lucide/chromium'
     autoload :Church, 'phlex-icons/lucide/church'
     autoload :Cigarette, 'phlex-icons/lucide/cigarette'
     autoload :CigaretteOff, 'phlex-icons/lucide/cigarette_off'
@@ -885,6 +885,7 @@ module PhlexIcons
     autoload :List, 'phlex-icons/lucide/list'
     autoload :ListCheck, 'phlex-icons/lucide/list_check'
     autoload :ListChecks, 'phlex-icons/lucide/list_checks'
+    autoload :ListChevronsDownUp, 'phlex-icons/lucide/list_chevrons_down_up'
     autoload :ListCollapse, 'phlex-icons/lucide/list_collapse'
     autoload :ListEnd, 'phlex-icons/lucide/list_end'
     autoload :ListFilter, 'phlex-icons/lucide/list_filter'
@@ -1082,11 +1083,13 @@ module PhlexIcons
     autoload :PanelLeftClose, 'phlex-icons/lucide/panel_left_close'
     autoload :PanelLeftDashed, 'phlex-icons/lucide/panel_left_dashed'
     autoload :PanelLeftOpen, 'phlex-icons/lucide/panel_left_open'
+    autoload :PanelLeftRightDashed, 'phlex-icons/lucide/panel_left_right_dashed'
     autoload :PanelRight, 'phlex-icons/lucide/panel_right'
     autoload :PanelRightClose, 'phlex-icons/lucide/panel_right_close'
     autoload :PanelRightDashed, 'phlex-icons/lucide/panel_right_dashed'
     autoload :PanelRightOpen, 'phlex-icons/lucide/panel_right_open'
     autoload :PanelTop, 'phlex-icons/lucide/panel_top'
+    autoload :PanelTopBottomDashed, 'phlex-icons/lucide/panel_top_bottom_dashed'
     autoload :PanelTopClose, 'phlex-icons/lucide/panel_top_close'
     autoload :PanelTopDashed, 'phlex-icons/lucide/panel_top_dashed'
     autoload :PanelTopOpen, 'phlex-icons/lucide/panel_top_open'

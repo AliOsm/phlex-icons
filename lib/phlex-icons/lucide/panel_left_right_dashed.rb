@@ -3,7 +3,7 @@
 # rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
-    class Building < Base
+    class PanelLeftRightDashed < Base
       def view_template
         svg(
           **attrs,
@@ -15,17 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 10h.01')
-          s.path(d: 'M12 14h.01')
-          s.path(d: 'M12 6h.01')
-          s.path(d: 'M16 10h.01')
-          s.path(d: 'M16 14h.01')
-          s.path(d: 'M16 6h.01')
-          s.path(d: 'M8 10h.01')
-          s.path(d: 'M8 14h.01')
-          s.path(d: 'M8 6h.01')
-          s.path(d: 'M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3')
-          s.rect(x: '4', y: '2', width: '16', height: '20', rx: '2')
+          s.path(d: 'M16 10V9')
+          s.path(d: 'M16 15v-1')
+          s.path(d: 'M16 21v-2')
+          s.path(d: 'M16 5V3')
+          s.path(d: 'M8 10V9')
+          s.path(d: 'M8 15v-1')
+          s.path(d: 'M8 21v-2')
+          s.path(d: 'M8 5V3')
+          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
         end
       end
     end
