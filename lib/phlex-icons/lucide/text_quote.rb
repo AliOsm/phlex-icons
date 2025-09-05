@@ -14,10 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M17 6H3')
+          s.path(d: 'M17 5H3')
           s.path(d: 'M21 12H8')
-          s.path(d: 'M21 18H8')
-          s.path(d: 'M3 12v6')
+          s.path(d: 'M21 19H8')
+          s.path(d: 'M3 12v7')
         end
       end
     end

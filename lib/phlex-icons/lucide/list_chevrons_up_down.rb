@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class AlignJustify < Base
+    class ListChevronsUpDown < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 12h18')
-          s.path(d: 'M3 18h18')
-          s.path(d: 'M3 6h18')
+          s.path(d: 'M3 5h8')
+          s.path(d: 'M3 12h8')
+          s.path(d: 'M3 19h8')
+          s.path(d: 'm15 8 3-3 3 3')
+          s.path(d: 'm15 16 3 3 3-3')
         end
       end
     end

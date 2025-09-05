@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Text < Base
+    class TextAlignStart < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 18H3')
-          s.path(d: 'M17 6H3')
-          s.path(d: 'M21 12H3')
+          s.path(d: 'M21 5H3')
+          s.path(d: 'M15 12H3')
+          s.path(d: 'M17 19H3')
         end
       end
     end

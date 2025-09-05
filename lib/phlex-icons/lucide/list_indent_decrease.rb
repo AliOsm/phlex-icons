@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class LetterText < Base
+    class ListIndentDecrease < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 12h6')
-          s.path(d: 'M15 6h6')
-          s.path(d: 'm3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13')
-          s.path(d: 'M3 18h18')
-          s.path(d: 'M3.92 11h6.16')
+          s.path(d: 'M21 5H11')
+          s.path(d: 'M21 12H11')
+          s.path(d: 'M21 19H11')
+          s.path(d: 'm7 8-4 4 4 4')
         end
       end
     end

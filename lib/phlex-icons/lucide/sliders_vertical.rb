@@ -15,15 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.line(x1: '4', x2: '4', y1: '21', y2: '14')
-          s.line(x1: '4', x2: '4', y1: '10', y2: '3')
-          s.line(x1: '12', x2: '12', y1: '21', y2: '12')
-          s.line(x1: '12', x2: '12', y1: '8', y2: '3')
-          s.line(x1: '20', x2: '20', y1: '21', y2: '16')
-          s.line(x1: '20', x2: '20', y1: '12', y2: '3')
-          s.line(x1: '2', x2: '6', y1: '14', y2: '14')
-          s.line(x1: '10', x2: '14', y1: '8', y2: '8')
-          s.line(x1: '18', x2: '22', y1: '16', y2: '16')
+          s.path(d: 'M10 8h4')
+          s.path(d: 'M12 21v-9')
+          s.path(d: 'M12 8V3')
+          s.path(d: 'M17 16h4')
+          s.path(d: 'M19 12V3')
+          s.path(d: 'M19 21v-5')
+          s.path(d: 'M3 14h4')
+          s.path(d: 'M5 10V3')
+          s.path(d: 'M5 21v-7')
         end
       end
     end

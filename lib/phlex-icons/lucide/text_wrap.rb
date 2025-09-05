@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class IndentDecrease < Base
+    class TextWrap < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M21 12H11')
-          s.path(d: 'M21 18H11')
-          s.path(d: 'M21 6H11')
-          s.path(d: 'm7 8-4 4 4 4')
+          s.path(d: 'm16 16-3 3 3 3')
+          s.path(d: 'M3 12h14.5a1 1 0 0 1 0 7H13')
+          s.path(d: 'M3 19h6')
+          s.path(d: 'M3 5h18')
         end
       end
     end
