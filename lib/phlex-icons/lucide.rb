@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.542.0'
+    VERSION = '0.544.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -564,6 +564,7 @@ module PhlexIcons
     autoload :Eraser, 'phlex-icons/lucide/eraser'
     autoload :EthernetPort, 'phlex-icons/lucide/ethernet_port'
     autoload :Euro, 'phlex-icons/lucide/euro'
+    autoload :EvCharger, 'phlex-icons/lucide/ev_charger'
     autoload :Expand, 'phlex-icons/lucide/expand'
     autoload :ExternalLink, 'phlex-icons/lucide/external_link'
     autoload :Eye, 'phlex-icons/lucide/eye'
@@ -802,6 +803,7 @@ module PhlexIcons
     autoload :Hotel, 'phlex-icons/lucide/hotel'
     autoload :Hourglass, 'phlex-icons/lucide/hourglass'
     autoload :House, 'phlex-icons/lucide/house'
+    autoload :HouseHeart, 'phlex-icons/lucide/house_heart'
     autoload :HousePlug, 'phlex-icons/lucide/house_plug'
     autoload :HousePlus, 'phlex-icons/lucide/house_plus'
     autoload :HouseWifi, 'phlex-icons/lucide/house_wifi'
