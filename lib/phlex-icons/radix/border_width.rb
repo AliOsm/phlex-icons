@@ -11,9 +11,7 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            fill_rule: 'evenodd',
-            clip_rule: 'evenodd',
-            d: 'M1 3H14V4H1V3ZM1 6H14V8H1V6ZM14 10.25H1V12.75H14V10.25Z',
+            d: 'M14 12.75H1V10.25H14V12.75ZM14 8H1V6H14V8ZM14 4H1V3H14V4Z',
             fill: 'currentColor'
           )
         end

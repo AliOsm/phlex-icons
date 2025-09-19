@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Radix
     class VercelLogo < Base
@@ -12,10 +11,8 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            fill_rule: 'evenodd',
-            clip_rule: 'evenodd',
             d:
-              'M7.49998 1L6.92321 2.00307L1.17498 12L0.599976 13H1.7535H13.2464H14.4L13.825 12L8.07674 2.00307L7.49998 1ZM7.49998 3.00613L2.3285 12H12.6714L7.49998 3.00613Z',
+              'M14.3998 13H0.599976L7.50037 1L14.3998 13ZM2.32849 12H12.6713L7.49939 3.00488L2.32849 12Z',
             fill: 'currentColor'
           )
         end
@@ -23,4 +20,3 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength
