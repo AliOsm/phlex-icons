@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Combine < Base
+    class Motorbike < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M14 3a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1')
-          s.path(d: 'M19 3a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1')
-          s.path(d: 'm7 15 3 3')
-          s.path(d: 'm7 21 3-3H5a2 2 0 0 1-2-2v-2')
-          s.rect(x: '14', y: '14', width: '7', height: '7', rx: '1')
-          s.rect(x: '3', y: '3', width: '7', height: '7', rx: '1')
+          s.path(d: 'm18 14-1-3')
+          s.path(d: 'm3 9 6 2a2 2 0 0 1 2-2h2a2 2 0 0 1 1.99 1.81')
+          s.path(
+            d: 'M8 17h3a1 1 0 0 0 1-1 6 6 0 0 1 6-6 1 1 0 0 0 1-1v-.75A5 5 0 0 0 17 5'
+          )
+          s.circle(cx: '19', cy: '17', r: '3')
+          s.circle(cx: '5', cy: '17', r: '3')
         end
       end
     end

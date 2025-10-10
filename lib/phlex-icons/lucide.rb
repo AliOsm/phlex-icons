@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.544.0'
+    VERSION = '0.545.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1008,6 +1008,7 @@ module PhlexIcons
     autoload :MonitorX, 'phlex-icons/lucide/monitor_x'
     autoload :Moon, 'phlex-icons/lucide/moon'
     autoload :MoonStar, 'phlex-icons/lucide/moon_star'
+    autoload :Motorbike, 'phlex-icons/lucide/motorbike'
     autoload :Mountain, 'phlex-icons/lucide/mountain'
     autoload :MountainSnow, 'phlex-icons/lucide/mountain_snow'
     autoload :Mouse, 'phlex-icons/lucide/mouse'
