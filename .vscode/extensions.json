@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "Shopify.ruby-lsp",
+    "eamodio.gitlens",
+    "hverlin.mise-vscode",
+    "vscode-icons-team.vscode-icons",
+    "waderyan.gitblame"
+  ]
+}
