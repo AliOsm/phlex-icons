@@ -13,10 +13,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Ruby 3.3.4
+      - name: Set up Ruby 3.4.7
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3.4
+          ruby-version: 3.4.7
 
       - name: Check release validity
         run: sh .github/scripts/check-release.sh
