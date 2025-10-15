@@ -10,7 +10,7 @@
 
 # PhlexIcons
 
-General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 14,500 icons from:
+PhlexIcons brings 14,500+ SVG icons to [Phlex](https://phlex.fun) through a single, consistent API:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
 - [Heroicons](https://heroicons.com) (300+)
@@ -20,9 +20,9 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 
 - [Remix Icons](https://remixicon.com) (3,000+)
 - [Tabler Icons](https://tabler.io/icons) (4,900+)
 
-And happy to extend to other icon packs!
+More packs can be added over time.
 
-If you don't want to add all icon packs to your application, you can add a specific icon pack by using one (or multiple) of the following gems:
+Prefer not to include every pack? Install only the packs you need with these gems:
 
 - [phlex-icons-bootstrap](https://rubygems.org/gems/phlex-icons-bootstrap)
 - [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
@@ -39,6 +39,16 @@ Other Phlex icon gems:
 - [phlex-remixicon](https://github.com/danieldocki/phlex-remixicon)
 - [phlex-lucide](https://github.com/akodkod/phlex-lucide)
 
+## Features
+
+- **Unified API**: One way to render icons across all supported packs.
+- **Use everything or just a pack**: Depend on the main gem or install per-pack gems.
+- **Configurable defaults**: Global defaults and per-pack variants.
+- **Works anywhere Phlex works**: With `Phlex::Kit` or plain Phlex components.
+- **Rails helper**: Simple `phlex_icon` helper (name is configurable).
+- **Custom icons**: Add your own icons alongside built-in packs.
+- **Kept up-to-date**: Auto-generated packs and weekly updates.
+
 ## Installation
 
 Install the gem and add it to the application's Gemfile by executing:
@@ -53,9 +63,26 @@ If bundler is not being used to manage dependencies, install the gem by executin
 gem install phlex-icons
 ```
 
+## Quick start
+
+```ruby
+require 'phlex-icons' # Not needed in Rails apps; Bundler will require it.
+
+class IconsDemo < Phlex::HTML
+  include PhlexIcons
+
+  def view_template
+    div do
+      Hero::Home(variant: :solid, class: 'w-6 h-6')
+      Icon('bootstrap/house', class: 'w-6 h-6') # string form
+    end
+  end
+end
+```
+
 ## Configuration
 
-The gem provides global configuration options, and per icons pack configuration options.
+The gem provides global configuration options and per-pack options.
 
 ### Global configuration
 
@@ -144,7 +171,7 @@ PhlexIcons::Tabler.configuration.default_variant = :outline # or :filled
 ```ruby
 require 'phlex-icons' # No need to require the gem if you are using it in a Rails application.
 
-class PhlexIcons < Phlex::HTML
+class IconsDemo < Phlex::HTML
   include PhlexIcons
 
   def view_template
@@ -170,7 +197,7 @@ end
 ```ruby
 require 'phlex-icons' # No need to require the gem if you are using it in a Rails application.
 
-class PhlexIcons < Phlex::HTML
+class IconsDemo < Phlex::HTML
   def view_template
     div do
       render PhlexIcons::Bootstrap::House.new(class: 'size-4')
@@ -183,7 +210,7 @@ class PhlexIcons < Phlex::HTML
       render PhlexIcons::Tabler::Home.new(variant: :filled, class: 'size-4')
 
       # or with a string
-      render PhlexIcons::Icon('bootstrap/house', class: 'size-4')
+      render PhlexIcons::Icon.new('bootstrap/house', class: 'size-4')
     end
   end
 end
@@ -191,9 +218,11 @@ end
 
 ### Rails View Helper
 
-`phlex-icons` provides a convenient helper method to render icons directly in your ERB or Phlex views.
+PhlexIcons provides a convenient helper method to render icons directly in your ERB or Phlex views.
 
-By default, the helper method is named `phlex_icon`, but is configurable.
+By default, the helper method is named `phlex_icon`, but it is configurable. You can change it by configuring `PhlexIcons.configuration.helper_method_name`.
+
+To use the helper method inside Phlex views/components, you need to register it in your base component (Or any other component) using `register_output_helper`.
 
 ```erb
 <%# Render a Bootstrap house icon with default size %>
@@ -217,15 +246,15 @@ By default, the helper method is named `phlex_icon`, but is configurable.
 
 The first argument is the icon identifier. Such as: `'pack/icon_name:variant'`.
 
-*   If `default_pack` is configured, you can omit the pack name (e.g., `'icon_name:variant'` instead of `'pack/icon_name:variant'`).
-*   The `:variant` part is optional.
-*   Examples: `'hero/house:solid'`, `'house:solid'`, `'house'`
+- If `default_pack` is configured, you can omit the pack name (e.g., `'icon_name:variant'` instead of `'pack/icon_name:variant'`).
+- The `:variant` part is optional.
+- Examples: `'hero/house:solid'`, `'house:solid'`, `'house'`
 
 Subsequent arguments are passed as options to the icon component, such as `variant`, `class`, etc.
 
-### Specific icon pack(s)
+### Use only specific packs
 
-Let's say you want to use only Heroicons and Flag Icons, you can use the following gems:
+For example, to use only Heroicons and Flag Icons, add:
 - [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
 - [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
 
@@ -252,12 +281,12 @@ class PhlexIcons < Phlex::HTML
 end
 ```
 
-### Add custom icons to your Rails application
+### Add custom icons (Rails)
 
-You can extend the gem in your Rails application to add new icons by creating a `phlex-icons/custom` directory inside `views/components` directory. Then, you can create a new component for each icon you want to add. For example:
+To add your own icons in a Rails app, create a `phlex_icons/custom` directory under `app/components`, then create one component per icon. For example:
 
 ```ruby
-# app/views/components/phlex-icons/custom/icon_class_name.rb
+# app/components/phlex_icons/custom/icon_class_name.rb
 
 module PhlexIcons
   module Custom
@@ -270,35 +299,23 @@ module PhlexIcons
 end
 ```
 
-Finally, you will need to create a `PhlexIcons::Custom` module in `phlex-icons/custom.rb` file to include your custom icons and make them a `Phlex::Kit`:
-
-```ruby
-# app/views/components/phlex-icons/custom.rb
-
-module PhlexIcons
-  module Custom
-    extend Phlex::Kit
-  end
-end
-```
-
 Now, you can use your custom icons like any other icon pack as described above.
 
 ## Update icon packs
 
-All icon packs provided in this gem are auto-generated by their generator under [`generators`](/generators) directory. You just need to clone the repo and run the generator for the icon pack you want to update. Also, there is a GitHub Action that will run the generator for all icon packs and update the gem weekly on each Friday.
+All packs are generated from the scripts under [`generators`](/generators). Clone the repo and run the relevant generator to update a pack. A GitHub Action also regenerates all packs weekly and ships updates.
 
-## What is the icon pack version used in the gem?
+## Icon pack versions
 
-Each icon pack contains a `VERSION` constant in its module represents the version of the icon pack used in the gem. So, for example, to get the Bootstrap version used in the gem you can access it by `PhlexIcons::Bootstrap::VERSION`.
+Each pack exposes a `VERSION` constant indicating the source version used by the gem. For example: `PhlexIcons::Bootstrap::VERSION`.
 
 ## Development
 
-After checking out the repo, open it in VSCode and click `Reopen in Container` to start a development container. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, open it in VS Code and choose `Reopen in Container` to start a development container. Then run `rake spec` to execute tests. Use `bin/console` to experiment interactively.
 
-If you don't want to use the development container setup, you can install Mise, then run `mise trust && mise install` to install the dependencies.
+If you prefer not to use the dev container, install Mise and run `mise trust && mise install` to set up dependencies.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem locally, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, then run `bundle exec rake release` to tag, push, and publish the gem to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
