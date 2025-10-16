@@ -10,15 +10,16 @@
 
 # PhlexIcons
 
-PhlexIcons brings 14,500+ SVG icons to [Phlex](https://phlex.fun) through a single, consistent API:
-- [Bootstrap Icons](https://icons.getbootstrap.com) (2,000+)
+PhlexIcons brings 19,250+ SVG icons to [Phlex](https://phlex.fun) through a single, consistent API:
+- [Bootstrap Icons](https://icons.getbootstrap.com) (2,050+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
 - [Heroicons](https://heroicons.com) (300+)
-- [Lucide Icons](https://lucide.dev/icons) (1,500+)
+- [Hugeicons](https://hugeicons.com) (4,450+)
+- [Lucide Icons](https://lucide.dev/icons) (1,600+)
 - [Material Design Icons](https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons) (2,100+)
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)
-- [Remix Icons](https://remixicon.com) (3,000+)
-- [Tabler Icons](https://tabler.io/icons) (4,900+)
+- [Remix Icons](https://remixicon.com) (3,050+)
+- [Tabler Icons](https://tabler.io/icons) (4,950+)
 
 More packs can be added over time.
 
@@ -27,6 +28,7 @@ Prefer not to include every pack? Install only the packs you need with these gem
 - [phlex-icons-bootstrap](https://rubygems.org/gems/phlex-icons-bootstrap)
 - [phlex-icons-flag](https://rubygems.org/gems/phlex-icons-flag)
 - [phlex-icons-hero](https://rubygems.org/gems/phlex-icons-hero)
+- [phlex-icons-huge](https://rubygems.org/gems/phlex-icons-huge)
 - [phlex-icons-lucide](https://rubygems.org/gems/phlex-icons-lucide)
 - [phlex-icons-material](https://rubygems.org/gems/phlex-icons-material)
 - [phlex-icons-radix](https://rubygems.org/gems/phlex-icons-radix)
@@ -128,6 +130,10 @@ end
 PhlexIcons::Hero.configuration.default_variant = :solid # or :outline
 ```
 
+### Hugeicons configuration
+
+Nothing to configure for Hugeicons, as we are providing only the free stroke variant.
+
 ### Lucide Icons configuration
 
 Nothing to configure for Lucide Icons.
@@ -179,6 +185,7 @@ class IconsDemo < Phlex::HTML
       Bootstrap::House(class: 'size-4')
       Flag::Sa(variant: :rectangle, class: 'size-4')
       Hero::Home(variant: :solid, class: 'size-4')
+      Huge::Home08(variant: :stroke, class: 'size-4')
       Lucide::House(class: 'size-4')
       Material::House(variant: :filled, class: 'size-4')
       Radix::Home(class: 'size-4')
@@ -203,6 +210,7 @@ class IconsDemo < Phlex::HTML
       render PhlexIcons::Bootstrap::House.new(class: 'size-4')
       render PhlexIcons::Flag::Sa.new(variant: :rectangle, class: 'size-4')
       render PhlexIcons::Hero::Home.new(variant: :solid, class: 'size-4')
+      render PhlexIcons::Huge::Home08.new(variant: :stroke, class: 'size-4')
       render PhlexIcons::Lucide::House.new(class: 'size-4')
       render PhlexIcons::Material::House.new(variant: :filled, class: 'size-4')
       render PhlexIcons::Radix::Home.new(class: 'size-4')

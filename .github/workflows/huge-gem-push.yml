@@ -1,0 +1,12 @@
+name: Release Huge Icons Gem to RubyGems.org
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  call-reusable:
+    uses: ./.github/workflows/specific-gem-push.yml
+    with:
+      pack_name: huge
+    secrets: inherit
