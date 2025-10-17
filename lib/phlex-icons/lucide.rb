@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.545.0'
+    VERSION = '0.546.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -995,6 +995,7 @@ module PhlexIcons
     autoload :Minus, 'phlex-icons/lucide/minus'
     autoload :Monitor, 'phlex-icons/lucide/monitor'
     autoload :MonitorCheck, 'phlex-icons/lucide/monitor_check'
+    autoload :MonitorCloud, 'phlex-icons/lucide/monitor_cloud'
     autoload :MonitorCog, 'phlex-icons/lucide/monitor_cog'
     autoload :MonitorDot, 'phlex-icons/lucide/monitor_dot'
     autoload :MonitorDown, 'phlex-icons/lucide/monitor_down'

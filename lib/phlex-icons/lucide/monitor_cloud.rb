@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Sword < Base
+    class MonitorCloud < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm11 19-6-6')
-          s.path(d: 'm5 21-2-2')
-          s.path(d: 'm8 16-4 4')
-          s.path(d: 'M9.5 17.5 21 6V3h-3L6.5 14.5')
+          s.path(d: 'M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z')
+          s.path(d: 'M12 17v4')
+          s.path(d: 'M8 21h8')
+          s.rect(x: '2', y: '3', width: '20', height: '14', rx: '2')
         end
       end
     end
