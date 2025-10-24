@@ -15,28 +15,28 @@ module PhlexIcons
             cx: '12',
             cy: '12',
             r: '10',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M8.00897 9H8M16 9H15.991',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M9 16H15',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M10.5 15L10.5 17M13.5 15L13.5 17',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'

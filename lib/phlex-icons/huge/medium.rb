@@ -14,7 +14,7 @@ module PhlexIcons
             cx: '6.5',
             cy: '12',
             r: '4.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
           s.ellipse(
@@ -22,7 +22,7 @@ module PhlexIcons
             cy: '12',
             rx: '2.5',
             ry: '4.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
           s.ellipse(
@@ -30,7 +30,7 @@ module PhlexIcons
             cy: '12',
             rx: '1',
             ry: '4.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
         end

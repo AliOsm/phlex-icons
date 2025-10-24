@@ -17,7 +17,7 @@ module PhlexIcons
             width: '3',
             height: '3',
             rx: '1',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
           s.rect(
@@ -26,7 +26,7 @@ module PhlexIcons
             width: '3',
             height: '3',
             rx: '1',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
           s.rect(
@@ -35,7 +35,7 @@ module PhlexIcons
             width: '3',
             height: '3',
             rx: '1',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5'
           )
         end

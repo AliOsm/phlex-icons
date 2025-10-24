@@ -14,7 +14,7 @@ module PhlexIcons
             cx: '12',
             cy: '12',
             r: '10',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linejoin: 'round'
           )
@@ -22,13 +22,13 @@ module PhlexIcons
             cx: '12',
             cy: '12',
             r: '4',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M12 8H21M16 12V21M8 12V3M12 16H3',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )

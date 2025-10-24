@@ -14,7 +14,7 @@ module PhlexIcons
             cx: '12',
             cy: '12',
             r: '9',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
@@ -23,7 +23,7 @@ module PhlexIcons
             cx: '12',
             cy: '12',
             r: '4',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
