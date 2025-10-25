@@ -91,8 +91,7 @@ def read_and_convert_icon(icon_file_path)
                           .sub('height="24"', '')
                           .gsub(/stroke="#[0-9A-Fa-f]{6}"/, 'stroke="currentColor"')
 
-  Phlexing::Converter.convert(icon_file_content)
-                     .sub('svg(', "svg(\n**attrs,")
+  Phlexing::Converter.convert(icon_file_content).sub('svg(', "svg(\n**attrs,")
 end
 
 def stroke_icon_file_path(icon_file_name)
