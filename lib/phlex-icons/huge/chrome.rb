@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Chrome < Base
@@ -10,23 +11,35 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10', stroke: '#141B34', stroke_width: '1.5')
-          s.circle(cx: '12', cy: '12', r: '4', stroke: '#141B34', stroke_width: '1.5')
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '10',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '4',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
           s.path(
             d: 'M8.53448 14L4.0332 6',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
             d: 'M11.5 21.5L15.5 14',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
             d: 'M12 8H21',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
@@ -35,3 +48,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Metrics/BlockLength

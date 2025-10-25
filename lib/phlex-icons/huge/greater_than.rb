@@ -13,7 +13,7 @@ module PhlexIcons
           s.path(
             d:
               'M7 4L15.3306 10.0405C17.5565 11.6545 17.5565 12.3455 15.3306 13.9595L7 20',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'

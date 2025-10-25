@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d: 'M18 5.5L19 4.5M5 4.5L6 5.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
@@ -22,27 +22,27 @@ module PhlexIcons
             cx: '12',
             cy: '13',
             r: '9',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
             d: 'M12 9.5V13.5L14 15.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M12 3.5V2',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M10 2H14',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'

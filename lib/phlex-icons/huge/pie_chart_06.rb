@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/BlockLength
 module PhlexIcons
   module Huge
     class PieChart06 < Base
@@ -10,17 +11,29 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10', stroke: '#141B34', stroke_width: '1.5')
-          s.circle(cx: '12', cy: '12', r: '5', stroke: '#141B34', stroke_width: '1.5')
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '10',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '5',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
           s.path(
             d: 'M7 12H2',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
             d: 'M12 17L12 22',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
@@ -30,3 +43,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Metrics/BlockLength

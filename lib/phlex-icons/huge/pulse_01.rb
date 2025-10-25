@@ -12,7 +12,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d: 'M2 12H6L7.5 8L9.5 15L13 6L15.5 18L18 12H22',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'

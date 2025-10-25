@@ -18,7 +18,7 @@ module PhlexIcons
           )
           s.path(
             d: 'M12 9V17M16 13L8 13',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'

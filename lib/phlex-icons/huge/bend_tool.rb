@@ -14,7 +14,7 @@ module PhlexIcons
             cx: '19',
             cy: '4',
             r: '2',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
@@ -22,13 +22,13 @@ module PhlexIcons
             cx: '5',
             cy: '20',
             r: '2',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
             d: 'M5 18C5 10 10 4 17 4',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )

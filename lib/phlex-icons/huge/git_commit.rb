@@ -12,12 +12,18 @@ module PhlexIcons
         ) do |s|
           s.path(
             d: 'M12 3L12 8.5M12 21L12 15',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
-          s.circle(cx: '12', cy: '12', r: '3', stroke: '#141B34', stroke_width: '1.5')
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '3',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
         end
       end
     end

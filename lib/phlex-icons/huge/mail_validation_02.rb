@@ -14,13 +14,13 @@ module PhlexIcons
           s.path(
             d:
               'M2 4.5L8.91302 8.41697C11.4616 9.86101 12.5384 9.86101 15.087 8.41697L22 4.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M15 17.5C15 17.5 15.5 17.5 16 18.5C16 18.5 17.5882 16 19 15.5',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
@@ -28,7 +28,7 @@ module PhlexIcons
           s.path(
             d:
               'M22 17C22 19.7614 19.7614 22 17 22C14.2386 22 12 19.7614 12 17C12 14.2386 14.2386 12 17 12C19.7614 12 22 14.2386 22 17Z',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )

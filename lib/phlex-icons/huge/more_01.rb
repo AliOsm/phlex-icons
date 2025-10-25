@@ -13,63 +13,63 @@ module PhlexIcons
         ) do |s|
           s.path(
             d: 'M11.9959 18H12.0049',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M17.9998 18H18.0088',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M5.99981 18H6.00879',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M11.9959 12H12.0049',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M11.9998 6H12.0088',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M17.9998 12H18.0088',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M17.9998 6H18.0088',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M5.99981 12H6.00879',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d: 'M5.99981 6H6.00879',
-            stroke: '#141B34',
+            stroke: 'currentColor',
             stroke_width: '2.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
