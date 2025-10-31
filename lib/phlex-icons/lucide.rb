@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.546.0'
+    VERSION = '0.548.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -179,6 +179,7 @@ module PhlexIcons
     autoload :Binoculars, 'phlex-icons/lucide/binoculars'
     autoload :Biohazard, 'phlex-icons/lucide/biohazard'
     autoload :Bird, 'phlex-icons/lucide/bird'
+    autoload :Birdhouse, 'phlex-icons/lucide/birdhouse'
     autoload :Bitcoin, 'phlex-icons/lucide/bitcoin'
     autoload :Blend, 'phlex-icons/lucide/blend'
     autoload :Blinds, 'phlex-icons/lucide/blinds'
@@ -713,6 +714,7 @@ module PhlexIcons
     autoload :GalleryVerticalEnd, 'phlex-icons/lucide/gallery_vertical_end'
     autoload :Gamepad, 'phlex-icons/lucide/gamepad'
     autoload :Gamepad2, 'phlex-icons/lucide/gamepad_2'
+    autoload :GamepadDirectional, 'phlex-icons/lucide/gamepad_directional'
     autoload :Gauge, 'phlex-icons/lucide/gauge'
     autoload :Gavel, 'phlex-icons/lucide/gavel'
     autoload :Gem, 'phlex-icons/lucide/gem'
