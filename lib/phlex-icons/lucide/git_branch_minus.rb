@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileSearch2 < Base
+    class GitBranchMinus < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.circle(cx: '11.5', cy: '14.5', r: '2.5')
-          s.path(d: 'M13.3 16.3 15 18')
+          s.path(d: 'M15 6a9 9 0 0 0-9 9V3')
+          s.path(d: 'M21 18h-6')
+          s.circle(cx: '18', cy: '6', r: '3')
+          s.circle(cx: '6', cy: '18', r: '3')
         end
       end
     end

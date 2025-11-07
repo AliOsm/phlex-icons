@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileJson2 < Base
+    class SolarPanel < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.path(d: 'M4 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1')
+          s.path(d: 'M11 2h2')
+          s.path(d: 'm14.28 14-4.56 8')
+          s.path(d: 'm21 22-1.558-4H4.558')
+          s.path(d: 'M3 10v2')
           s.path(
-            d: 'M8 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1'
+            d:
+              'M6.245 15.04A2 2 0 0 1 8 14h12a1 1 0 0 1 .864 1.505l-3.11 5.457A2 2 0 0 1 16 22H4a1 1 0 0 1-.863-1.506z'
           )
+          s.path(d: 'M7 2a4 4 0 0 1-4 4')
+          s.path(d: 'm8.66 7.66 1.41 1.41')
         end
       end
     end

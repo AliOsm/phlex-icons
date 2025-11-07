@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class FileImage < Base
+    class FileSignal < Base
       def view_template
         svg(
           **attrs,
@@ -20,8 +20,9 @@ module PhlexIcons
               'M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z'
           )
           s.path(d: 'M14 2v5a1 1 0 0 0 1 1h5')
-          s.circle(cx: '10', cy: '12', r: '2')
-          s.path(d: 'm20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22')
+          s.path(d: 'M8 15h.01')
+          s.path(d: 'M11.5 13.5a2.5 2.5 0 0 1 0 3')
+          s.path(d: 'M15 12a5 5 0 0 1 0 6')
         end
       end
     end

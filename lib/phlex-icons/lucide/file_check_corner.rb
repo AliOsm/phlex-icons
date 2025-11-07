@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class FileBadge2 < Base
+    class FileCheckCorner < Base
       def view_template
         svg(
           **attrs,
@@ -17,13 +16,12 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'm13.69 12.479 1.29 4.88a.5.5 0 0 1-.697.591l-1.844-.849a1 1 0 0 0-.88.001l-1.846.85a.5.5 0 0 1-.693-.593l1.29-4.88'
+              'M10.5 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v6'
           )
-          s.path(d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z')
-          s.circle(cx: '12', cy: '10', r: '3')
+          s.path(d: 'M14 2v5a1 1 0 0 0 1 1h5')
+          s.path(d: 'm14 20 2 2 4-4')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

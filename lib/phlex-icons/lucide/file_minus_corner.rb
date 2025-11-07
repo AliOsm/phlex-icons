@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileJson < Base
+    class FileMinusCorner < Base
       def view_template
         svg(
           **attrs,
@@ -14,14 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
           s.path(
-            d: 'M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1'
+            d:
+              'M20 14V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12'
           )
-          s.path(
-            d: 'M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1'
-          )
+          s.path(d: 'M14 2v5a1 1 0 0 0 1 1h5')
+          s.path(d: 'M14 18h6')
         end
       end
     end

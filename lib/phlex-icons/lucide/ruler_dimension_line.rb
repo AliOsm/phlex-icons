@@ -14,13 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 15v-3.014')
-          s.path(d: 'M16 15v-3.014')
-          s.path(d: 'M20 6H4')
-          s.path(d: 'M20 8V4')
-          s.path(d: 'M4 8V4')
-          s.path(d: 'M8 15v-3.014')
-          s.rect(x: '3', y: '12', width: '18', height: '7', rx: '1')
+          s.path(d: 'M10 15v-3')
+          s.path(d: 'M14 15v-3')
+          s.path(d: 'M18 15v-3')
+          s.path(d: 'M2 8V4')
+          s.path(d: 'M22 6H2')
+          s.path(d: 'M22 8V4')
+          s.path(d: 'M6 15v-3')
+          s.rect(x: '2', y: '12', width: '20', height: '8', rx: '2')
         end
       end
     end

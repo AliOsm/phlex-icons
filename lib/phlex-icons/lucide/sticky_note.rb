@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class StickyNote < Base
@@ -14,10 +15,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8Z')
-          s.path(d: 'M15 3v4a2 2 0 0 0 2 2h4')
+          s.path(
+            d:
+              'M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z'
+          )
+          s.path(d: 'M15 3v5a1 1 0 0 0 1 1h5')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

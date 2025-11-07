@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileType2 < Base
+    class Helicopter < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.path(d: 'M2 13v-1h6v1')
-          s.path(d: 'M5 12v6')
-          s.path(d: 'M4 18h2')
+          s.path(d: 'M11 17v4')
+          s.path(d: 'M14 3v8a2 2 0 0 0 2 2h5.865')
+          s.path(d: 'M17 17v4')
+          s.path(d: 'M18 17a4 4 0 0 0 4-4 8 6 0 0 0-8-6 6 5 0 0 0-6 5v3a2 2 0 0 0 2 2z')
+          s.path(d: 'M2 10v5')
+          s.path(d: 'M6 3h16')
+          s.path(d: 'M7 21h14')
+          s.path(d: 'M8 13H2')
         end
       end
     end

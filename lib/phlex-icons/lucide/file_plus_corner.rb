@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileLock2 < Base
+    class FilePlusCorner < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v1')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.rect(width: '8', height: '5', x: '2', y: '13', rx: '1')
-          s.path(d: 'M8 13v-2a2 2 0 1 0-4 0v2')
+          s.path(
+            d:
+              'M11.35 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5.35'
+          )
+          s.path(d: 'M14 2v5a1 1 0 0 0 1 1h5')
+          s.path(d: 'M14 19h6')
+          s.path(d: 'M17 16v6')
         end
       end
     end

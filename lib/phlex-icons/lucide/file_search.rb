@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class FileSearch < Base
@@ -14,14 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
           s.path(
-            d: 'M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3'
+            d:
+              'M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z'
           )
-          s.path(d: 'm9 18-1.5-1.5')
-          s.circle(cx: '5', cy: '14', r: '3')
+          s.path(d: 'M14 2v5a1 1 0 0 0 1 1h5')
+          s.circle(cx: '11.5', cy: '14.5', r: '2.5')
+          s.path(d: 'M13.3 16.3 15 18')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

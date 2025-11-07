@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FileMinus2 < Base
+    class ClockCheck < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4')
-          s.path(d: 'M14 2v4a2 2 0 0 0 2 2h4')
-          s.path(d: 'M3 15h6')
+          s.path(d: 'M12 6v6l4 2')
+          s.path(d: 'M22 12a10 10 0 1 0-11 9.95')
+          s.path(d: 'm22 16-5.5 5.5L14 19')
         end
       end
     end
