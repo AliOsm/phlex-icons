@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.552.0'
+    VERSION = '0.553.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -329,6 +329,12 @@ module PhlexIcons
     autoload :CheckLine, 'phlex-icons/lucide/check_line'
     autoload :ChefHat, 'phlex-icons/lucide/chef_hat'
     autoload :Cherry, 'phlex-icons/lucide/cherry'
+    autoload :ChessBishop, 'phlex-icons/lucide/chess_bishop'
+    autoload :ChessKing, 'phlex-icons/lucide/chess_king'
+    autoload :ChessKnight, 'phlex-icons/lucide/chess_knight'
+    autoload :ChessPawn, 'phlex-icons/lucide/chess_pawn'
+    autoload :ChessQueen, 'phlex-icons/lucide/chess_queen'
+    autoload :ChessRook, 'phlex-icons/lucide/chess_rook'
     autoload :ChevronDown, 'phlex-icons/lucide/chevron_down'
     autoload :ChevronFirst, 'phlex-icons/lucide/chevron_first'
     autoload :ChevronLast, 'phlex-icons/lucide/chevron_last'
