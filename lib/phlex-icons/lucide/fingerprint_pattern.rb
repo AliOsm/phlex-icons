@@ -3,7 +3,7 @@
 # rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
-    class Fingerprint < Base
+    class FingerprintPattern < Base
       def view_template
         svg(
           **attrs,

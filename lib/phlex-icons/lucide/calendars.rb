@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Ampersand < Base
+    class Calendars < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M16 12h3')
-          s.path(
-            d:
-              'M17.5 12a8 8 0 0 1-8 8A4.5 4.5 0 0 1 5 15.5c0-6 8-4 8-8.5a3 3 0 1 0-6 0c0 3 2.5 8.5 12 13'
-          )
+          s.path(d: 'M12 2v2')
+          s.path(d: 'M15.726 21.01A2 2 0 0 1 14 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2')
+          s.path(d: 'M18 2v2')
+          s.path(d: 'M2 13h2')
+          s.path(d: 'M8 8h14')
+          s.rect(x: '8', y: '3', width: '14', height: '14', rx: '2')
         end
       end
     end

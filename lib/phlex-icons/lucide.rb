@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.553.0'
+    VERSION = '0.554.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -279,6 +279,7 @@ module PhlexIcons
     autoload :CalendarSync, 'phlex-icons/lucide/calendar_sync'
     autoload :CalendarX, 'phlex-icons/lucide/calendar_x'
     autoload :CalendarX2, 'phlex-icons/lucide/calendar_x_2'
+    autoload :Calendars, 'phlex-icons/lucide/calendars'
     autoload :Camera, 'phlex-icons/lucide/camera'
     autoload :CameraOff, 'phlex-icons/lucide/camera_off'
     autoload :Candy, 'phlex-icons/lucide/candy'
@@ -643,7 +644,7 @@ module PhlexIcons
     autoload :FileXCorner, 'phlex-icons/lucide/file_x_corner'
     autoload :Files, 'phlex-icons/lucide/files'
     autoload :Film, 'phlex-icons/lucide/film'
-    autoload :Fingerprint, 'phlex-icons/lucide/fingerprint'
+    autoload :FingerprintPattern, 'phlex-icons/lucide/fingerprint_pattern'
     autoload :FireExtinguisher, 'phlex-icons/lucide/fire_extinguisher'
     autoload :Fish, 'phlex-icons/lucide/fish'
     autoload :FishOff, 'phlex-icons/lucide/fish_off'
