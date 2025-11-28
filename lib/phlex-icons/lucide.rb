@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.554.0'
+    VERSION = '0.555.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -211,6 +211,7 @@ module PhlexIcons
     autoload :BookOpenCheck, 'phlex-icons/lucide/book_open_check'
     autoload :BookOpenText, 'phlex-icons/lucide/book_open_text'
     autoload :BookPlus, 'phlex-icons/lucide/book_plus'
+    autoload :BookSearch, 'phlex-icons/lucide/book_search'
     autoload :BookText, 'phlex-icons/lucide/book_text'
     autoload :BookType, 'phlex-icons/lucide/book_type'
     autoload :BookUp, 'phlex-icons/lucide/book_up'
@@ -702,6 +703,7 @@ module PhlexIcons
     autoload :Folders, 'phlex-icons/lucide/folders'
     autoload :Footprints, 'phlex-icons/lucide/footprints'
     autoload :Forklift, 'phlex-icons/lucide/forklift'
+    autoload :Form, 'phlex-icons/lucide/form'
     autoload :Forward, 'phlex-icons/lucide/forward'
     autoload :Frame, 'phlex-icons/lucide/frame'
     autoload :Framer, 'phlex-icons/lucide/framer'
@@ -1628,6 +1630,8 @@ module PhlexIcons
     autoload :WashingMachine, 'phlex-icons/lucide/washing_machine'
     autoload :Watch, 'phlex-icons/lucide/watch'
     autoload :Waves, 'phlex-icons/lucide/waves'
+    autoload :WavesArrowDown, 'phlex-icons/lucide/waves_arrow_down'
+    autoload :WavesArrowUp, 'phlex-icons/lucide/waves_arrow_up'
     autoload :WavesLadder, 'phlex-icons/lucide/waves_ladder'
     autoload :Waypoints, 'phlex-icons/lucide/waypoints'
     autoload :Webcam, 'phlex-icons/lucide/webcam'

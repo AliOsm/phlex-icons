@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Scale < Base
+    class BookSearch < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 3v18')
-          s.path(d: 'm19 8 3 8a5 5 0 0 1-6 0zV7')
-          s.path(d: 'M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1')
-          s.path(d: 'm5 8 3 8a5 5 0 0 1-6 0zV7')
-          s.path(d: 'M7 21h10')
+          s.path(d: 'M11 22H5.5a1 1 0 0 1 0-5h4.501')
+          s.path(d: 'm21 22-1.879-1.878')
+          s.path(d: 'M3 19.5v-15A2.5 2.5 0 0 1 5.5 2H18a1 1 0 0 1 1 1v8')
+          s.circle(cx: '17', cy: '18', r: '3')
         end
       end
     end
