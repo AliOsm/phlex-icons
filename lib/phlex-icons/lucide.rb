@@ -1266,6 +1266,7 @@ module PhlexIcons
     autoload :School, 'phlex-icons/lucide/school'
     autoload :Scissors, 'phlex-icons/lucide/scissors'
     autoload :ScissorsLineDashed, 'phlex-icons/lucide/scissors_line_dashed'
+    autoload :Scooter, 'phlex-icons/lucide/scooter'
     autoload :ScreenShare, 'phlex-icons/lucide/screen_share'
     autoload :ScreenShareOff, 'phlex-icons/lucide/screen_share_off'
     autoload :Scroll, 'phlex-icons/lucide/scroll'
