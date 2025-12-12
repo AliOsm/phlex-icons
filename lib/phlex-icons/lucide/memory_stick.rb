@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/MethodLength
+# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
     class MemoryStick < Base
@@ -15,21 +15,20 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M6 19v-3')
-          s.path(d: 'M10 19v-3')
-          s.path(d: 'M14 19v-3')
-          s.path(d: 'M18 19v-3')
-          s.path(d: 'M8 11V9')
-          s.path(d: 'M16 11V9')
-          s.path(d: 'M12 11V9')
-          s.path(d: 'M2 15h20')
-          s.path(
-            d:
-              'M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.1a2 2 0 0 0 0 3.837V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.1a2 2 0 0 0 0-3.837Z'
-          )
+          s.path(d: 'M12 12v-2')
+          s.path(d: 'M12 18v-2')
+          s.path(d: 'M16 12v-2')
+          s.path(d: 'M16 18v-2')
+          s.path(d: 'M2 11h1.5')
+          s.path(d: 'M20 18v-2')
+          s.path(d: 'M20.5 11H22')
+          s.path(d: 'M4 18v-2')
+          s.path(d: 'M8 12v-2')
+          s.path(d: 'M8 18v-2')
+          s.rect(x: '2', y: '6', width: '20', height: '10', rx: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength

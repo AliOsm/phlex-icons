@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/MethodLength
+# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
     class Microchip < Base
@@ -15,23 +15,19 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M10 12h4')
+          s.path(d: 'M10 17h4')
+          s.path(d: 'M10 7h4')
           s.path(d: 'M18 12h2')
-          s.path(d: 'M18 16h2')
-          s.path(d: 'M18 20h2')
-          s.path(d: 'M18 4h2')
-          s.path(d: 'M18 8h2')
+          s.path(d: 'M18 18h2')
+          s.path(d: 'M18 6h2')
           s.path(d: 'M4 12h2')
-          s.path(d: 'M4 16h2')
-          s.path(d: 'M4 20h2')
-          s.path(d: 'M4 4h2')
-          s.path(d: 'M4 8h2')
-          s.path(
-            d:
-              'M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z'
-          )
+          s.path(d: 'M4 18h2')
+          s.path(d: 'M4 6h2')
+          s.rect(x: '6', y: '2', width: '12', height: '20', rx: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength

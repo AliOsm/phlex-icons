@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FlashlightOff < Base
+    class CloudBackup < Base
       def view_template
         svg(
           **attrs,
@@ -14,15 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M11.652 6H18')
-          s.path(d: 'M12 13v1')
+          s.path(d: 'M21 15.251A4.5 4.5 0 0 0 17.5 8h-1.79A7 7 0 1 0 3 13.607')
+          s.path(d: 'M7 11v4h4')
           s.path(
             d:
-              'M16 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V6'
-          )
-          s.path(d: 'm2 2 20 20')
-          s.path(
-            d: 'M7.649 2H17a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8a4 4 0 0 0-.55 1.007'
+              'M8 19a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5 4.82 4.82 0 0 0-3.41 1.41L7 15'
           )
         end
       end

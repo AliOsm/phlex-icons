@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class Flashlight < Base
@@ -14,14 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M12 13v1')
           s.path(
             d:
-              'M18 6c0 2-2 2-2 4v10a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V10c0-2-2-2-2-4V2h12z'
+              'M17 2a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8A4 4 0 0 0 16 12v8a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V3a1 1 0 0 1 1-1z'
           )
-          s.line(x1: '6', x2: '18', y1: '6', y2: '6')
-          s.line(x1: '12', x2: '12', y1: '12', y2: '12')
+          s.path(d: 'M6 6h12')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

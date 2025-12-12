@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FlashlightOff < Base
+    class FishingHook < Base
       def view_template
         svg(
           **attrs,
@@ -14,16 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M11.652 6H18')
-          s.path(d: 'M12 13v1')
           s.path(
             d:
-              'M16 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V6'
+              'm17.586 11.414-5.93 5.93a1 1 0 0 1-8-8l3.137-3.137a.707.707 0 0 1 1.207.5V10'
           )
-          s.path(d: 'm2 2 20 20')
-          s.path(
-            d: 'M7.649 2H17a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8a4 4 0 0 0-.55 1.007'
-          )
+          s.path(d: 'M20.414 8.586 22 7')
+          s.circle(cx: '19', cy: '10', r: '2')
         end
       end
     end
