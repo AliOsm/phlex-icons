@@ -3,19 +3,9 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
-    class SquareMinus < Base
+    class Whisk < Base
       def filled
-        svg(
-          **attrs,
-          xmlns: 'http://www.w3.org/2000/svg',
-          viewbox: '0 0 24 24',
-          fill: 'currentColor'
-        ) do |s|
-          s.path(
-            d:
-              'M19 2a3 3 0 0 1 3 3v14a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-14a3 3 0 0 1 3 -3zm-4 9h-6l-.117 .007a1 1 0 0 0 .117 1.993h6l.117 -.007a1 1 0 0 0 -.117 -1.993z'
-          )
-        end
+        raise NotImplementedError
       end
 
       def outline
@@ -29,10 +19,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M9 12h6')
+          s.path(d: 'M21.015 3.035l-16.515 16.465')
           s.path(
             d:
-              'M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z'
+              'M3.173 17.619a4.63 4.63 0 0 0 3.284 3.26a4.67 4.67 0 0 0 4.487 -1.194c1.85 -1.836 4.07 -10.65 4.07 -10.65s-8.88 2.296 -10.639 4.132a4.59 4.59 0 0 0 -1.202 4.452'
           )
         end
       end
