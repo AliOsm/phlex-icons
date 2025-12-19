@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.560.0'
+    VERSION = '0.562.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1452,6 +1452,7 @@ module PhlexIcons
     autoload :Stethoscope, 'phlex-icons/lucide/stethoscope'
     autoload :Sticker, 'phlex-icons/lucide/sticker'
     autoload :StickyNote, 'phlex-icons/lucide/sticky_note'
+    autoload :Stone, 'phlex-icons/lucide/stone'
     autoload :Store, 'phlex-icons/lucide/store'
     autoload :StretchHorizontal, 'phlex-icons/lucide/stretch_horizontal'
     autoload :StretchVertical, 'phlex-icons/lucide/stretch_vertical'
@@ -1531,6 +1532,7 @@ module PhlexIcons
     autoload :ToggleRight, 'phlex-icons/lucide/toggle_right'
     autoload :Toilet, 'phlex-icons/lucide/toilet'
     autoload :ToolCase, 'phlex-icons/lucide/tool_case'
+    autoload :Toolbox, 'phlex-icons/lucide/toolbox'
     autoload :Tornado, 'phlex-icons/lucide/tornado'
     autoload :Torus, 'phlex-icons/lucide/torus'
     autoload :Touchpad, 'phlex-icons/lucide/touchpad'
