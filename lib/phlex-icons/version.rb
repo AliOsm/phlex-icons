@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module PhlexIcons
-  VERSION = '2.50.0'
+  VERSION = '2.51.0'
 end
