@@ -2,9 +2,9 @@
 
 module PhlexIcons
   module Tabler
-    class BrandAdobePremierOutline < Base
+    class BrandAdobePremiereOutline < Base
       def view_template
-        render BrandAdobePremier.new(variant: :outline, **attrs)
+        render BrandAdobePremiere.new(variant: :outline, **attrs)
       end
     end
   end

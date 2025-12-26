@@ -25,7 +25,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M17 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z'
+              'M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2'
           )
           s.path(
             d:
@@ -33,7 +33,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z'
+              'M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2'
           )
           s.path(d: 'M5 7v10')
           s.path(d: 'M19 7v8')

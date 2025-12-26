@@ -19,7 +19,7 @@ module PhlexIcons
           stroke_linejoin: 'round'
         ) do |s|
           s.path(
-            d: 'M12 3a9 9 0 1 1 -8.495 11.973l8.495 -2.973z',
+            d: 'M12 3a9 9 0 1 1 -8.495 11.973l8.495 -2.973v-9',
             fill: 'currentColor',
             stroke: 'none'
           )

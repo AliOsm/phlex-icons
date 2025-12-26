@@ -20,10 +20,10 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M15 11l1 -9l5 .5l-1 13.5l-3 6l-12.5 -2.5l-1.5 -6l7 -1.5l-1.5 -7.5l4.5 -1z'
+              'M15 11l1 -9l5 .5l-1 13.5l-3 6l-12.5 -2.5l-1.5 -6l7 -1.5l-1.5 -7.5l4.5 -1l2 7.5'
           )
-          s.circle(cx: '15.5', cy: '15.5', r: '1', fill: 'currentColor')
-          s.circle(cx: '11.5', cy: '14.5', r: '1', fill: 'currentColor')
+          s.path(d: 'M14.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0', fill: 'currentColor')
+          s.path(d: 'M10.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0', fill: 'currentColor')
         end
       end
     end

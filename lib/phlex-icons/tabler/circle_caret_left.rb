@@ -29,8 +29,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M9 12l4 -4v8z')
-          s.path(d: 'M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z')
+          s.path(d: 'M9 12l4 -4v8l-4 -4')
+          s.path(d: 'M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18')
         end
       end
     end

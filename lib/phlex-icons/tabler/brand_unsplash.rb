@@ -17,7 +17,10 @@ module PhlexIcons
           stroke_width: '2',
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
-        ) { |s| s.path(d: 'M4 11h5v4h6v-4h5v9h-16zm5 -7h6v4h-6z') }
+        ) do |s|
+          s.path(d: 'M4 11h5v4h6v-4h5v9h-16v-9')
+          s.path(d: 'M9 4h6v4h-6l0 -4')
+        end
       end
     end
   end

@@ -25,8 +25,8 @@ module PhlexIcons
           )
           s.path(d: 'M9 8v7')
           s.path(d: 'M9 12h6')
-          s.path(d: 'M16 16h-2l1 1z')
-          s.path(d: 'M8 8h2l-1 -1z')
+          s.path(d: 'M16 16h-2l1 1l1 -1')
+          s.path(d: 'M8 8h2l-1 -1l-1 1')
           s.path(d: 'M15 9v7')
         end
       end

@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
-    class BrandAdobePremier < Base
+    class BrandAdobePremiere < Base
       def filled
         raise NotImplementedError
       end
@@ -25,7 +25,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M7.263 15.79v-3.79m0 0v-3.248c0 -.335 .222 -.541 .542 -.541h1.353a1.895 1.895 0 1 1 0 3.789z'
+              'M7.263 15.79v-3.79m0 0v-3.248c0 -.335 .222 -.541 .542 -.541h1.353a1.895 1.895 0 1 1 0 3.789l-1.895 0'
           )
           s.path(
             d:

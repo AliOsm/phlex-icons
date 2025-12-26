@@ -37,7 +37,7 @@ module PhlexIcons
           s.path(d: 'M16 18h.01')
           s.path(
             d:
-              'M12 12h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1z'
+              'M12 12h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1l-1 0'
           )
           s.path(
             d:

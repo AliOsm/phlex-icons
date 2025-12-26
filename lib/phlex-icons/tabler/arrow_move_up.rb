@@ -32,7 +32,7 @@ module PhlexIcons
         ) do |s|
           s.path(d: 'M12 13v-10')
           s.path(d: 'M9 6l3 -3l3 3')
-          s.path(d: 'M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4z')
+          s.path(d: 'M12 17a2 2 0 1 1 0 4a2 2 0 0 1 0 -4')
         end
       end
     end

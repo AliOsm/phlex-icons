@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/MethodLength
+# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Tabler
     class AdjustmentsPin < Base
@@ -30,7 +30,7 @@ module PhlexIcons
           s.path(d: 'M18 9v2.5')
           s.path(
             d:
-              'M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z'
+              'M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879'
           )
           s.path(d: 'M19 18v.01')
         end
@@ -38,4 +38,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength

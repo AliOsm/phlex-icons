@@ -19,7 +19,7 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M16 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0')
+          s.path(d: 'M15 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0')
           s.path(d: 'M6 11l4 -2l3.5 3l-1.5 2')
           s.path(
             d:

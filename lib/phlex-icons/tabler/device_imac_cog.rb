@@ -23,7 +23,7 @@ module PhlexIcons
           s.path(d: 'M3 13h13')
           s.path(d: 'M8 21h4')
           s.path(d: 'M10 17l-.5 4')
-          s.path(d: 'M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0')
+          s.path(d: 'M17.001 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0')
           s.path(d: 'M19.001 15.5v1.5')
           s.path(d: 'M19.001 21v1.5')
           s.path(d: 'M22.032 17.25l-1.299 .75')

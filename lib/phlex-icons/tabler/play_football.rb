@@ -22,7 +22,7 @@ module PhlexIcons
           s.path(d: 'M3 17l5 1l.75 -1.5')
           s.path(d: 'M14 21v-4l-4 -3l1 -6')
           s.path(d: 'M6 12v-3l5 -1l3 3l3 1')
-          s.path(d: 'M19.5 20a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z', fill: 'currentColor')
+          s.path(d: 'M19.5 20a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1', fill: 'currentColor')
         end
       end
     end

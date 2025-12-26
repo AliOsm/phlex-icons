@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Tabler
     class ClockPin < Base
@@ -23,7 +22,7 @@ module PhlexIcons
           s.path(d: 'M12 7v5l1.5 1.5')
           s.path(
             d:
-              'M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z'
+              'M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879'
           )
           s.path(d: 'M19 18v.01')
         end
@@ -31,4 +30,3 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength

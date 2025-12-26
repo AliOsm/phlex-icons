@@ -27,7 +27,7 @@ module PhlexIcons
           stroke_width: '2',
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
-        ) { |s| s.path(d: 'M7 4v16l13 -8z') }
+        ) { |s| s.path(d: 'M7 4v16l13 -8l-13 -8') }
       end
     end
   end
