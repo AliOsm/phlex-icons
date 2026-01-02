@@ -2,14 +2,19 @@
 
 module PhlexIcons
   module Remix
-    class FontSansSerif < Base
+    class SignalCellular1Fill < Base
       def view_template
         svg(
           **attrs,
           viewbox: '0 0 24 24',
           fill: 'currentColor',
           xmlns: 'http://www.w3.org/2000/svg'
-        ) { |s| s.path(d: 'M7 4H19V6H10V12H18V14H10V21H7V4Z') }
+        ) do |s|
+          s.path(
+            d:
+              'M2 13H8V21H2V13ZM16 3H22V21H16V3ZM9 8H15V21H9V8ZM11 10V19H13V10H11ZM18 5V19H20V5H18Z'
+          )
+        end
       end
     end
   end

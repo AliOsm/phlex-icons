@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Remix
-    class FocusFill < Base
+    class FileScanFill < Base
       def view_template
         svg(
           **attrs,
@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z'
+              'M21 20.9922C21 21.5507 20.5554 21.9999 20.0068 22H3.99316C3.44482 21.9999 3 21.5555 3 21.0078V15H21V20.9922ZM23 13H1V11H23V13ZM21 9H3V2.99219C3 2.45576 3.44682 2.00012 3.99805 2H14L21 9Z'
           )
         end
       end

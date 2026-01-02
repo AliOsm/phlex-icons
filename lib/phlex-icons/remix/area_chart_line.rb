@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Remix
-    class FocusFill < Base
+    class AreaChartLine < Base
       def view_template
         svg(
           **attrs,
@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z'
+              'M15.1162 5.87598L21 3.52344V20H3V4.32324L9.11719 1.87598L15.1162 5.87598ZM5 14.5654V18H19V12.4766L15.0312 14.0645L9.12012 12.0938L5 14.5654ZM5 5.67676V12.2334L8.87988 9.90625L14.9678 11.9355L19 10.3223V6.47656L14.8828 8.12402L8.88281 4.12305L5 5.67676Z'
           )
         end
       end

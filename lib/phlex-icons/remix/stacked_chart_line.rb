@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Remix
-    class FocusFill < Base
+    class StackedChartLine < Base
       def view_template
         svg(
           **attrs,
@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z'
+              'M8 8V20H3V8H8ZM14.5 4V20H9.5V4H14.5ZM21 9V20H16V9H21ZM18 18H19V17H18V18ZM11.5 18H12.5V16H11.5V18ZM5 18H6V14H5V18ZM18 15H19V11H18V15ZM11.5 14H12.5V6H11.5V14ZM5 12H6V10H5V12Z'
           )
         end
       end
