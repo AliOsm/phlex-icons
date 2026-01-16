@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class BookmarkPlus < Base
+    class GlobeX < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 7v6')
-          s.path(d: 'M15 10H9')
+          s.path(d: 'm16 3 5 5')
           s.path(
-            d:
-              'M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z'
+            d: 'M2 12h20A10 10 0 1 1 12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 4-10'
           )
+          s.path(d: 'm21 3-5 5')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

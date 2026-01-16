@@ -755,6 +755,7 @@ module PhlexIcons
     autoload :Glasses, 'phlex-icons/lucide/glasses'
     autoload :Globe, 'phlex-icons/lucide/globe'
     autoload :GlobeLock, 'phlex-icons/lucide/globe_lock'
+    autoload :GlobeX, 'phlex-icons/lucide/globe_x'
     autoload :Goal, 'phlex-icons/lucide/goal'
     autoload :Gpu, 'phlex-icons/lucide/gpu'
     autoload :GraduationCap, 'phlex-icons/lucide/graduation_cap'
