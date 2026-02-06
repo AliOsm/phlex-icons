@@ -518,6 +518,7 @@ module PhlexIcons
     autoload :Dam, 'phlex-icons/lucide/dam'
     autoload :Database, 'phlex-icons/lucide/database'
     autoload :DatabaseBackup, 'phlex-icons/lucide/database_backup'
+    autoload :DatabaseSearch, 'phlex-icons/lucide/database_search'
     autoload :DatabaseZap, 'phlex-icons/lucide/database_zap'
     autoload :DecimalsArrowLeft, 'phlex-icons/lucide/decimals_arrow_left'
     autoload :DecimalsArrowRight, 'phlex-icons/lucide/decimals_arrow_right'
