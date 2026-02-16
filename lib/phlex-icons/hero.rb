@@ -3,7 +3,7 @@
 module PhlexIcons
   module Hero # rubocop:disable Metrics/ModuleLength
     VERSION = '2.2.0'
-    VARIANTS = %i[solid outline].freeze
+    VARIANTS = %i[solid outline mini micro].freeze
 
     extend Phlex::Kit
 
