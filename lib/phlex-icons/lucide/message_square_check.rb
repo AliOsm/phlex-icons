@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class CirclePower < Base
+    class MessageSquareCheck < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +15,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10')
-          s.path(d: 'M12 7v4')
-          s.path(d: 'M7.998 9.003a5 5 0 1 0 8-.005')
+          s.path(
+            d:
+              'M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.7.7 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z'
+          )
+          s.path(d: 'm9 11 2 2 4-4')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

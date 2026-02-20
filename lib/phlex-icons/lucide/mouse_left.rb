@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class FlipVertical < Base
+    class MouseLeft < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3')
-          s.path(d: 'M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3')
-          s.path(d: 'M4 12H2')
-          s.path(d: 'M10 12H8')
-          s.path(d: 'M16 12h-2')
-          s.path(d: 'M22 12h-2')
+          s.path(d: 'M12 7.318V10')
+          s.path(d: 'M5 10v5a7 7 0 0 0 14 0V9c0-3.527-2.608-6.515-6-7')
+          s.circle(cx: '7', cy: '4', r: '2')
         end
       end
     end

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class CirclePower < Base
+    class SquareArrowRightExit < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10')
-          s.path(d: 'M12 7v4')
-          s.path(d: 'M7.998 9.003a5 5 0 1 0 8-.005')
+          s.path(d: 'M10 12h11')
+          s.path(d: 'm17 16 4-4-4-4')
+          s.path(
+            d:
+              'M21 6.344V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-1.344'
+          )
         end
       end
     end
