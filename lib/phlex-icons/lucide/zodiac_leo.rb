@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class PackageMinus < Base
+    class ZodiacLeo < Base
       def view_template
         svg(
           **attrs,
@@ -15,17 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 22V12')
-          s.path(d: 'M16 17h6')
           s.path(
-            d:
-              'M21 13V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955'
+            d: 'M10 16c0-4-3-4.5-3-8a5 5 0 0 1 10 0c0 3.466-3 6.196-3 10a3 3 0 0 0 6 0'
           )
-          s.path(d: 'M3.29 7 12 12l8.71-5')
-          s.path(d: 'm7.5 4.27 8.997 5.148')
+          s.circle(cx: '7', cy: '16', r: '3')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
