@@ -19,8 +19,8 @@ module PhlexIcons
           **attrs, xmlns: 'http://www.w3.org/2000/svg', viewbox: '0 0 640 480'
         ) do |s|
           s.g(fill_rule: 'evenodd') do
-            s.path(fill: '#fff', d: 'M640 480H0V0h640z')
-            s.path(fill: '#dc143c', d: 'M640 480H0V240h640z')
+            s.path(fill: '#fff', d: 'M0 0h640v240H0z')
+            s.path(fill: '#dc143c', d: 'M0 240h640v240H0z')
           end
         end
       end
