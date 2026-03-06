@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '0.575.0'
+    VERSION = '0.577.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -572,6 +572,7 @@ module PhlexIcons
     autoload :Egg, 'phlex-icons/lucide/egg'
     autoload :EggFried, 'phlex-icons/lucide/egg_fried'
     autoload :EggOff, 'phlex-icons/lucide/egg_off'
+    autoload :Ellipse, 'phlex-icons/lucide/ellipse'
     autoload :Ellipsis, 'phlex-icons/lucide/ellipsis'
     autoload :EllipsisVertical, 'phlex-icons/lucide/ellipsis_vertical'
     autoload :Equal, 'phlex-icons/lucide/equal'
@@ -657,6 +658,7 @@ module PhlexIcons
     autoload :FishOff, 'phlex-icons/lucide/fish_off'
     autoload :FishSymbol, 'phlex-icons/lucide/fish_symbol'
     autoload :FishingHook, 'phlex-icons/lucide/fishing_hook'
+    autoload :FishingRod, 'phlex-icons/lucide/fishing_rod'
     autoload :Flag, 'phlex-icons/lucide/flag'
     autoload :FlagOff, 'phlex-icons/lucide/flag_off'
     autoload :FlagTriangleLeft, 'phlex-icons/lucide/flag_triangle_left'
