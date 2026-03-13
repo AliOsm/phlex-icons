@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Tabler
     class Api < Base
@@ -19,21 +18,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 19a9 9 0 0 1 9 0a9 9 0 0 1 1.006 -.5')
-          s.path(d: 'M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0')
-          s.path(d: 'M3 6v13')
-          s.path(d: 'M12 6v13')
-          s.path(d: 'M21 6v6')
-          s.path(d: 'M17.001 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0')
-          s.path(d: 'M19.001 15.5v1.5')
-          s.path(d: 'M19.001 21v1.5')
-          s.path(d: 'M22.032 17.25l-1.299 .75')
-          s.path(d: 'M17.27 20l-1.3 .75')
-          s.path(d: 'M15.97 17.25l1.3 .75')
-          s.path(d: 'M20.733 20l1.3 .75')
+          s.path(d: 'M4 13h5')
+          s.path(d: 'M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3')
+          s.path(d: 'M20 8v8')
+          s.path(d: 'M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5')
         end
       end
     end
   end
 end
-# rubocop:enable Metrics/MethodLength
