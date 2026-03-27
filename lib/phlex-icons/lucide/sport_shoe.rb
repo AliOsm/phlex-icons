@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Instagram < Base
+    class SportShoe < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.rect(width: '20', height: '20', x: '2', y: '2', rx: '5', ry: '5')
-          s.path(d: 'M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z')
-          s.line(x1: '17.5', x2: '17.51', y1: '6.5', y2: '6.5')
+          s.path(d: 'm15 10.42 4.8-5.07')
+          s.path(d: 'M19 18h3')
+          s.path(
+            d:
+              'M9.5 22 21.414 9.415A2 2 0 0 0 21.2 6.4l-5.61-4.208A1 1 0 0 0 14 3v2a2 2 0 0 1-1.394 1.906L8.677 8.053A1 1 0 0 0 8 9c-.155 6.393-2.082 9-4 9a2 2 0 0 0 0 4h14'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

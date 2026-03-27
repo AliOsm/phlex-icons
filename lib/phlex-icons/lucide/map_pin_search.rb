@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Twitter < Base
+    class MapPinSearch < Base
       def view_template
         svg(
           **attrs,
@@ -17,8 +17,11 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z'
+              'M 12.248 21.969 a 1 1 0 0 1 -0.849 -0.17 C 9.539 20.193 4 14.993 4 10 a 8 8 0 0 1 16 0 C 20 10.42 19.961 10.841 19.888 11.262'
           )
+          s.path(d: 'm22 22-1.88-1.88')
+          s.circle(cx: '12', cy: '10', r: '3')
+          s.circle(cx: '18', cy: '18', r: '3')
         end
       end
     end

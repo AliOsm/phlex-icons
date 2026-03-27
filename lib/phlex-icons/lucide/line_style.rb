@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Twitch < Base
+    class LineStyle < Base
       def view_template
         svg(
           **attrs,
@@ -13,7 +13,14 @@ module PhlexIcons
           stroke_width: '2',
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
-        ) { |s| s.path(d: 'M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7') }
+        ) do |s|
+          s.path(d: 'M11 5h2')
+          s.path(d: 'M15 12h6')
+          s.path(d: 'M19 5h2')
+          s.path(d: 'M3 12h6')
+          s.path(d: 'M3 19h18')
+          s.path(d: 'M3 5h2')
+        end
       end
     end
   end

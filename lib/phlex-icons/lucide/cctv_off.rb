@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Codesandbox < Base
+    class CctvOff < Base
       def view_template
         svg(
           **attrs,
@@ -17,13 +17,16 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'
+              'm12.309 6.652 4.797 2.401a1 1 0 0 1 .447 1.341l-.501 1.001.605.605h2.725a1 1 0 0 1 .894 1.447l-.724 1.448'
           )
-          s.polyline(points: '7.5 4.21 12 6.81 16.5 4.21')
-          s.polyline(points: '7.5 19.79 7.5 14.6 3 12')
-          s.polyline(points: '21 12 16.5 14.6 16.5 19.79')
-          s.polyline(points: '3.27 6.96 12 12.01 20.73 6.96')
-          s.line(x1: '12', x2: '12', y1: '22.08', y2: '12')
+          s.path(
+            d:
+              'm15.166 15.166-.719 1.439a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.9 2.9 0 0 1 .873-1.037'
+          )
+          s.path(d: 'M2 19h3.76a2 2 0 0 0 1.8-1.1l1.441-2.902')
+          s.path(d: 'm2 2 20 20')
+          s.path(d: 'M2 21v-4')
+          s.path(d: 'M7 9h.01')
         end
       end
     end
