@@ -3,7 +3,7 @@
 # rubocop:disable Metrics/AbcSize,Metrics/MethodLength
 module PhlexIcons
   module Lucide
-    class TextSelect < Base
+    class SquareDashedText < Base
       def view_template
         svg(
           **attrs,
