@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.7.0'
+    VERSION = '1.8.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -223,6 +223,7 @@ module PhlexIcons
     autoload :Bookmark, 'phlex-icons/lucide/bookmark'
     autoload :BookmarkCheck, 'phlex-icons/lucide/bookmark_check'
     autoload :BookmarkMinus, 'phlex-icons/lucide/bookmark_minus'
+    autoload :BookmarkOff, 'phlex-icons/lucide/bookmark_off'
     autoload :BookmarkPlus, 'phlex-icons/lucide/bookmark_plus'
     autoload :BookmarkX, 'phlex-icons/lucide/bookmark_x'
     autoload :BoomBox, 'phlex-icons/lucide/boom_box'
