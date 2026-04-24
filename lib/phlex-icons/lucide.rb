@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.8.0'
+    VERSION = '1.9.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1541,6 +1541,7 @@ module PhlexIcons
     autoload :TicketX, 'phlex-icons/lucide/ticket_x'
     autoload :Tickets, 'phlex-icons/lucide/tickets'
     autoload :TicketsPlane, 'phlex-icons/lucide/tickets_plane'
+    autoload :Timeline, 'phlex-icons/lucide/timeline'
     autoload :Timer, 'phlex-icons/lucide/timer'
     autoload :TimerOff, 'phlex-icons/lucide/timer_off'
     autoload :TimerReset, 'phlex-icons/lucide/timer_reset'
