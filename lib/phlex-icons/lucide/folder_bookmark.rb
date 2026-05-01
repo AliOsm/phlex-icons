@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Rotate3d < Base
+    class FolderBookmark < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +15,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm15.194 13.707 3.814 1.86-1.86 3.814')
-          s.path(d: 'M16.47214 7.52786 A 5 10 0 1 0 13 21.79796')
-          s.path(d: 'M21.79796 11 A 10 5 0 1 0 19 15.57071')
+          s.path(d: 'M12 6v8l3-3 3 3V6')
+          s.path(
+            d:
+              'M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.9.0'
+    VERSION = '1.14.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -107,6 +107,7 @@ module PhlexIcons
     autoload :ArrowUpZA, 'phlex-icons/lucide/arrow_up_z_a'
     autoload :ArrowsUpFromLine, 'phlex-icons/lucide/arrows_up_from_line'
     autoload :Asterisk, 'phlex-icons/lucide/asterisk'
+    autoload :Astroid, 'phlex-icons/lucide/astroid'
     autoload :AtSign, 'phlex-icons/lucide/at_sign'
     autoload :Atom, 'phlex-icons/lucide/atom'
     autoload :AudioLines, 'phlex-icons/lucide/audio_lines'
@@ -165,6 +166,7 @@ module PhlexIcons
     autoload :Beer, 'phlex-icons/lucide/beer'
     autoload :BeerOff, 'phlex-icons/lucide/beer_off'
     autoload :Bell, 'phlex-icons/lucide/bell'
+    autoload :BellCheck, 'phlex-icons/lucide/bell_check'
     autoload :BellDot, 'phlex-icons/lucide/bell_dot'
     autoload :BellElectric, 'phlex-icons/lucide/bell_electric'
     autoload :BellMinus, 'phlex-icons/lucide/bell_minus'
@@ -676,6 +678,7 @@ module PhlexIcons
     autoload :FoldVertical, 'phlex-icons/lucide/fold_vertical'
     autoload :Folder, 'phlex-icons/lucide/folder'
     autoload :FolderArchive, 'phlex-icons/lucide/folder_archive'
+    autoload :FolderBookmark, 'phlex-icons/lucide/folder_bookmark'
     autoload :FolderCheck, 'phlex-icons/lucide/folder_check'
     autoload :FolderClock, 'phlex-icons/lucide/folder_clock'
     autoload :FolderClosed, 'phlex-icons/lucide/folder_closed'
@@ -807,6 +810,7 @@ module PhlexIcons
     autoload :HeartOff, 'phlex-icons/lucide/heart_off'
     autoload :HeartPlus, 'phlex-icons/lucide/heart_plus'
     autoload :HeartPulse, 'phlex-icons/lucide/heart_pulse'
+    autoload :HeartX, 'phlex-icons/lucide/heart_x'
     autoload :Heater, 'phlex-icons/lucide/heater'
     autoload :Helicopter, 'phlex-icons/lucide/helicopter'
     autoload :Hexagon, 'phlex-icons/lucide/hexagon'
@@ -871,6 +875,7 @@ module PhlexIcons
     autoload :Laugh, 'phlex-icons/lucide/laugh'
     autoload :Layers, 'phlex-icons/lucide/layers'
     autoload :Layers2, 'phlex-icons/lucide/layers_2'
+    autoload :LayersMinus, 'phlex-icons/lucide/layers_minus'
     autoload :LayersPlus, 'phlex-icons/lucide/layers_plus'
     autoload :LayoutDashboard, 'phlex-icons/lucide/layout_dashboard'
     autoload :LayoutGrid, 'phlex-icons/lucide/layout_grid'
@@ -1232,6 +1237,7 @@ module PhlexIcons
     autoload :Repeat, 'phlex-icons/lucide/repeat'
     autoload :Repeat1, 'phlex-icons/lucide/repeat_1'
     autoload :Repeat2, 'phlex-icons/lucide/repeat_2'
+    autoload :RepeatOff, 'phlex-icons/lucide/repeat_off'
     autoload :Replace, 'phlex-icons/lucide/replace'
     autoload :ReplaceAll, 'phlex-icons/lucide/replace_all'
     autoload :Reply, 'phlex-icons/lucide/reply'
@@ -1659,10 +1665,11 @@ module PhlexIcons
     autoload :Warehouse, 'phlex-icons/lucide/warehouse'
     autoload :WashingMachine, 'phlex-icons/lucide/washing_machine'
     autoload :Watch, 'phlex-icons/lucide/watch'
-    autoload :Waves, 'phlex-icons/lucide/waves'
     autoload :WavesArrowDown, 'phlex-icons/lucide/waves_arrow_down'
     autoload :WavesArrowUp, 'phlex-icons/lucide/waves_arrow_up'
+    autoload :WavesHorizontal, 'phlex-icons/lucide/waves_horizontal'
     autoload :WavesLadder, 'phlex-icons/lucide/waves_ladder'
+    autoload :WavesVertical, 'phlex-icons/lucide/waves_vertical'
     autoload :Waypoints, 'phlex-icons/lucide/waypoints'
     autoload :Webcam, 'phlex-icons/lucide/webcam'
     autoload :Webhook, 'phlex-icons/lucide/webhook'

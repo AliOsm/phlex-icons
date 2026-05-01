@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Rotate3d < Base
+    class RepeatOff < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm15.194 13.707 3.814 1.86-1.86 3.814')
-          s.path(d: 'M16.47214 7.52786 A 5 10 0 1 0 13 21.79796')
-          s.path(d: 'M21.79796 11 A 10 5 0 1 0 19 15.57071')
+          s.path(d: 'M11.656 6H21l-4-4')
+          s.path(d: 'M17.898 17.898A4 4 0 0 1 17 18H3l4-4')
+          s.path(d: 'm2 2 20 20')
+          s.path(d: 'M21 13v1a4 4 0 0 1-.171 1.159')
+          s.path(d: 'm21 6-4 4')
+          s.path(d: 'M3 11v-1a4 4 0 0 1 3.102-3.898')
+          s.path(d: 'm7 22-4-4')
         end
       end
     end

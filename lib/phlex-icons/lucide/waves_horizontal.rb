@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Rotate3d < Base
+    class WavesHorizontal < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm15.194 13.707 3.814 1.86-1.86 3.814')
-          s.path(d: 'M16.47214 7.52786 A 5 10 0 1 0 13 21.79796')
-          s.path(d: 'M21.79796 11 A 10 5 0 1 0 19 15.57071')
+          s.path(d: 'M2 12q2.5 2 5 0t5 0 5 0 5 0')
+          s.path(d: 'M2 19q2.5 2 5 0t5 0 5 0 5 0')
+          s.path(d: 'M2 5q2.5 2 5 0t5 0 5 0 5 0')
         end
       end
     end

@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Rotate3d < Base
+    class Astroid < Base
       def view_template
         svg(
           **attrs,
@@ -14,11 +15,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm15.194 13.707 3.814 1.86-1.86 3.814')
-          s.path(d: 'M16.47214 7.52786 A 5 10 0 1 0 13 21.79796')
-          s.path(d: 'M21.79796 11 A 10 5 0 1 0 19 15.57071')
+          s.path(
+            d:
+              'M12.983 21.186a1 1 0 0 1-1.966 0 10 10 0 0 0-8.203-8.203 1 1 0 0 1 0-1.966 10 10 0 0 0 8.203-8.203 1 1 0 0 1 1.966 0 10 10 0 0 0 8.203 8.203 1 1 0 0 1 0 1.966 10 10 0 0 0-8.203 8.203'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength
