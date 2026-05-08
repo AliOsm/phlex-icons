@@ -1,0 +1,33 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Tabler
+    class Acorn < Base
+      def filled
+        raise NotImplementedError
+      end
+
+      def outline
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          stroke: 'currentColor',
+          stroke_width: '2',
+          stroke_linecap: 'round',
+          stroke_linejoin: 'round'
+        ) do |s|
+          s.path(
+            d:
+              'M18 10l-.45 4.1a8.36 8.36 0 0 1 -5.18 6.83a1 1 0 0 1 -.74 0a8.36 8.36 0 0 1 -5.18 -6.83l-.45 -4.1'
+          )
+          s.path(d: 'M13 3a4.9 4.9 0 0 0 -1 3')
+          s.path(
+            d: 'M8 6h8a3 3 0 0 1 3 3a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3'
+          )
+        end
+      end
+    end
+  end
+end

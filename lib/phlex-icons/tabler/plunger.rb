@@ -1,0 +1,28 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Tabler
+    class Plunger < Base
+      def filled
+        raise NotImplementedError
+      end
+
+      def outline
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          stroke: 'currentColor',
+          stroke_width: '2',
+          stroke_linecap: 'round',
+          stroke_linejoin: 'round'
+        ) do |s|
+          s.path(d: 'M12.71 14.12l7.81 -7.82a2 2 0 0 0 -2.82 -2.82l-7.82 7.81')
+          s.path(d: 'M3.71 13.22l.7 -.71a5 5 0 0 1 7.08 0a5 5 0 0 1 0 7.08l-.71 .7')
+          s.path(d: 'M3 12.5l8.5 8.5')
+        end
+      end
+    end
+  end
+end
