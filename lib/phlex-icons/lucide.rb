@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.14.0'
+    VERSION = '1.16.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -186,6 +186,7 @@ module PhlexIcons
     autoload :Birdhouse, 'phlex-icons/lucide/birdhouse'
     autoload :Bitcoin, 'phlex-icons/lucide/bitcoin'
     autoload :Blend, 'phlex-icons/lucide/blend'
+    autoload :Blender, 'phlex-icons/lucide/blender'
     autoload :Blinds, 'phlex-icons/lucide/blinds'
     autoload :Blocks, 'phlex-icons/lucide/blocks'
     autoload :Bluetooth, 'phlex-icons/lucide/bluetooth'
@@ -249,6 +250,7 @@ module PhlexIcons
     autoload :BriefcaseConveyorBelt, 'phlex-icons/lucide/briefcase_conveyor_belt'
     autoload :BriefcaseMedical, 'phlex-icons/lucide/briefcase_medical'
     autoload :BringToFront, 'phlex-icons/lucide/bring_to_front'
+    autoload :Broccoli, 'phlex-icons/lucide/broccoli'
     autoload :Brush, 'phlex-icons/lucide/brush'
     autoload :BrushCleaning, 'phlex-icons/lucide/brush_cleaning'
     autoload :Bubbles, 'phlex-icons/lucide/bubbles'
@@ -1475,6 +1477,12 @@ module PhlexIcons
     autoload :Stethoscope, 'phlex-icons/lucide/stethoscope'
     autoload :Sticker, 'phlex-icons/lucide/sticker'
     autoload :StickyNote, 'phlex-icons/lucide/sticky_note'
+    autoload :StickyNoteCheck, 'phlex-icons/lucide/sticky_note_check'
+    autoload :StickyNoteMinus, 'phlex-icons/lucide/sticky_note_minus'
+    autoload :StickyNoteOff, 'phlex-icons/lucide/sticky_note_off'
+    autoload :StickyNotePlus, 'phlex-icons/lucide/sticky_note_plus'
+    autoload :StickyNoteX, 'phlex-icons/lucide/sticky_note_x'
+    autoload :StickyNotes, 'phlex-icons/lucide/sticky_notes'
     autoload :Stone, 'phlex-icons/lucide/stone'
     autoload :Store, 'phlex-icons/lucide/store'
     autoload :StretchHorizontal, 'phlex-icons/lucide/stretch_horizontal'

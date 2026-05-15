@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Landmark < Base
+    class StickyNoteOff < Base
       def view_template
         svg(
           **attrs,
@@ -14,15 +14,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M10 18v-7')
+          s.path(d: 'M15 3v5a1 1 0 0 0 1 1h5')
+          s.path(d: 'm2 2 20 20')
+          s.path(
+            d: 'M3.586 3.586A2 2 0 0 0 3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.414-.586'
+          )
           s.path(
             d:
-              'M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z'
+              'M8.656 3H15a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 21 9v6.344'
           )
-          s.path(d: 'M14 18v-7')
-          s.path(d: 'M18 18v-7')
-          s.path(d: 'M3 22h18')
-          s.path(d: 'M6 18v-7')
         end
       end
     end
