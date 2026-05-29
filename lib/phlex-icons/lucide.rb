@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.16.0'
+    VERSION = '1.17.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -755,6 +755,7 @@ module PhlexIcons
     autoload :GlassWater, 'phlex-icons/lucide/glass_water'
     autoload :Glasses, 'phlex-icons/lucide/glasses'
     autoload :Globe, 'phlex-icons/lucide/globe'
+    autoload :GlobeCheck, 'phlex-icons/lucide/globe_check'
     autoload :GlobeLock, 'phlex-icons/lucide/globe_lock'
     autoload :GlobeOff, 'phlex-icons/lucide/globe_off'
     autoload :GlobeX, 'phlex-icons/lucide/globe_x'
@@ -1131,6 +1132,7 @@ module PhlexIcons
     autoload :PanelsRightBottom, 'phlex-icons/lucide/panels_right_bottom'
     autoload :PanelsTopLeft, 'phlex-icons/lucide/panels_top_left'
     autoload :Paperclip, 'phlex-icons/lucide/paperclip'
+    autoload :Parasol, 'phlex-icons/lucide/parasol'
     autoload :Parentheses, 'phlex-icons/lucide/parentheses'
     autoload :ParkingMeter, 'phlex-icons/lucide/parking_meter'
     autoload :PartyPopper, 'phlex-icons/lucide/party_popper'
@@ -1175,6 +1177,7 @@ module PhlexIcons
     autoload :PlaneLanding, 'phlex-icons/lucide/plane_landing'
     autoload :PlaneTakeoff, 'phlex-icons/lucide/plane_takeoff'
     autoload :Play, 'phlex-icons/lucide/play'
+    autoload :PlayOff, 'phlex-icons/lucide/play_off'
     autoload :Plug, 'phlex-icons/lucide/plug'
     autoload :Plug2, 'phlex-icons/lucide/plug_2'
     autoload :PlugZap, 'phlex-icons/lucide/plug_zap'
