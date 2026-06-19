@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class SquareArrowDownRight < Base
+    class WebcamOff < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 15 9 9')
-          s.path(d: 'M9 15h6V9')
-          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
+          s.path(d: 'M12 22v-4')
+          s.path(d: 'M12.754 7.096a3 3 0 0 1 2.15 2.15')
+          s.path(d: 'M12.863 12.873a3 3 0 0 1-3.736-3.735')
+          s.path(d: 'M16.566 16.57A8 8 0 0 1 5.43 5.433')
+          s.path(d: 'm2 2 20 20')
+          s.path(d: 'M7 22h10')
+          s.path(d: 'M8.478 2.817a8 8 0 0 1 10.705 10.705')
         end
       end
     end

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class SquareArrowDownRight < Base
+    class BanknoteCheck < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 15 9 9')
-          s.path(d: 'M9 15h6V9')
-          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
+          s.path(d: 'M11.748 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4.875')
+          s.path(d: 'm16 19 2 2 4-4')
+          s.path(d: 'M18 12h.01')
+          s.path(d: 'M6 12h.01')
+          s.circle(cx: '12', cy: '12', r: '2')
         end
       end
     end
