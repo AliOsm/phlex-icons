@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Carrot < Base
+    class Phi < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,8 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(
-            d:
-              'M15 16a1 1 0 0 0-7-7q-4 4-5.987 12.385a.5.5 0 0 0 .602.602Q11 20 15 16l-3-3'
-          )
-          s.path(d: 'M15 9q4 4 7 0-3-4-7 0 4-4 0-7-4 3 0 7')
-          s.path(d: 'm8 15-2.58-2.58')
+          s.path(d: 'M12 2v20')
+          s.circle(cx: '12', cy: '12', r: '7')
         end
       end
     end

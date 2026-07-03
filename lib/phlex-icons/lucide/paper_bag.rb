@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Carrot < Base
+    class PaperBag < Base
       def view_template
         svg(
           **attrs,
@@ -16,12 +17,15 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M15 16a1 1 0 0 0-7-7q-4 4-5.987 12.385a.5.5 0 0 0 .602.602Q11 20 15 16l-3-3'
+              'M5.364 3.848C4 6 3 9.652 3 12.652V19a2 2 0 002 2h14a2 2 0 002-2v-5c0-2.334-1.816-4.668-2.622-7.002'
           )
-          s.path(d: 'M15 9q4 4 7 0-3-4-7 0 4-4 0-7-4 3 0 7')
-          s.path(d: 'm8 15-2.58-2.58')
+          s.path(
+            d:
+              'M7 3h11.379a2 2 0 011.789 1.106l.723 1.447A1 1 0 0119.997 7h-8.525a2 2 0 01-1.789-1.106L8.79 4.105a2 2 0 10-3.579 1.789l2.261 4.522A5 5 0 018 12.652V21'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

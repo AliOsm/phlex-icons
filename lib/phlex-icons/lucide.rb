@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.21.0'
+    VERSION = '1.23.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1145,6 +1145,7 @@ module PhlexIcons
     autoload :PanelsLeftBottom, 'phlex-icons/lucide/panels_left_bottom'
     autoload :PanelsRightBottom, 'phlex-icons/lucide/panels_right_bottom'
     autoload :PanelsTopLeft, 'phlex-icons/lucide/panels_top_left'
+    autoload :PaperBag, 'phlex-icons/lucide/paper_bag'
     autoload :Paperclip, 'phlex-icons/lucide/paperclip'
     autoload :Parasol, 'phlex-icons/lucide/parasol'
     autoload :Parentheses, 'phlex-icons/lucide/parentheses'
@@ -1165,6 +1166,7 @@ module PhlexIcons
     autoload :Pentagon, 'phlex-icons/lucide/pentagon'
     autoload :Percent, 'phlex-icons/lucide/percent'
     autoload :PersonStanding, 'phlex-icons/lucide/person_standing'
+    autoload :Phi, 'phlex-icons/lucide/phi'
     autoload :PhilippinePeso, 'phlex-icons/lucide/philippine_peso'
     autoload :Phone, 'phlex-icons/lucide/phone'
     autoload :PhoneCall, 'phlex-icons/lucide/phone_call'
