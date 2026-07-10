@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.23.0'
+    VERSION = '1.24.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -390,6 +390,7 @@ module PhlexIcons
     autoload :CircleDotDashed, 'phlex-icons/lucide/circle_dot_dashed'
     autoload :CircleEllipsis, 'phlex-icons/lucide/circle_ellipsis'
     autoload :CircleEqual, 'phlex-icons/lucide/circle_equal'
+    autoload :CircleEuroSign, 'phlex-icons/lucide/circle_euro_sign'
     autoload :CircleFadingArrowUp, 'phlex-icons/lucide/circle_fading_arrow_up'
     autoload :CircleFadingPlus, 'phlex-icons/lucide/circle_fading_plus'
     autoload :CircleGauge, 'phlex-icons/lucide/circle_gauge'
@@ -1336,6 +1337,7 @@ module PhlexIcons
     autoload :ServerCog, 'phlex-icons/lucide/server_cog'
     autoload :ServerCrash, 'phlex-icons/lucide/server_crash'
     autoload :ServerOff, 'phlex-icons/lucide/server_off'
+    autoload :ServerPlus, 'phlex-icons/lucide/server_plus'
     autoload :Settings, 'phlex-icons/lucide/settings'
     autoload :Settings2, 'phlex-icons/lucide/settings_2'
     autoload :Shapes, 'phlex-icons/lucide/shapes'

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Dot < Base
+    class CircleEuroSign < Base
       def view_template
         svg(
           **attrs,
@@ -13,7 +13,11 @@ module PhlexIcons
           stroke_width: '2',
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
-        ) { |s| s.circle(cx: '12', cy: '12', r: '1') }
+        ) do |s|
+          s.path(d: 'M15 9.4a4 4 0 1 0 0 5.2')
+          s.path(d: 'M7 12h5')
+          s.circle(cx: '12', cy: '12', r: '10')
+        end
       end
     end
   end
