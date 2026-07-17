@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Tabler
-    class FlipVertical < Base
+    class TextOutline < Base
       def filled
         raise NotImplementedError
       end
@@ -18,9 +18,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 12l18 0')
-          s.path(d: 'M7 16l10 0l-10 5l0 -5')
-          s.path(d: 'M7 8l10 0l-10 -5l0 5')
+          s.path(d: 'M3 8v-1a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v1')
+          s.path(d: 'M3 16v1a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-1')
+          s.path(d: 'M21.01 12h.01')
+          s.path(d: 'M3.01 12h.01')
+          s.path(d: 'M10 15v-4a2 2 0 1 1 4 0v4')
+          s.path(d: 'M10 13h4')
         end
       end
     end

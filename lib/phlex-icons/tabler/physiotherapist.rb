@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Tabler
-    class FlipVertical < Base
+    class Physiotherapist < Base
       def filled
         raise NotImplementedError
       end
@@ -18,9 +18,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 12l18 0')
-          s.path(d: 'M7 16l10 0l-10 5l0 -5')
-          s.path(d: 'M7 8l10 0l-10 -5l0 5')
+          s.path(d: 'M9 15l-1 -3l4 -2l4 1h3.5')
+          s.path(d: 'M3 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0')
+          s.path(d: 'M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0')
+          s.path(d: 'M12 17v-7')
+          s.path(d: 'M8 20h7l1 -4l4 -2')
+          s.path(d: 'M18 20h3')
         end
       end
     end
