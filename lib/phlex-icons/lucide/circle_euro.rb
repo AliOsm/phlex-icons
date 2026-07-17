@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class CircleEuroSign < Base
+    class CircleEuro < Base
       def view_template
         svg(
           **attrs,

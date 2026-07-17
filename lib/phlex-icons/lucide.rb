@@ -390,7 +390,7 @@ module PhlexIcons
     autoload :CircleDotDashed, 'phlex-icons/lucide/circle_dot_dashed'
     autoload :CircleEllipsis, 'phlex-icons/lucide/circle_ellipsis'
     autoload :CircleEqual, 'phlex-icons/lucide/circle_equal'
-    autoload :CircleEuroSign, 'phlex-icons/lucide/circle_euro_sign'
+    autoload :CircleEuro, 'phlex-icons/lucide/circle_euro'
     autoload :CircleFadingArrowUp, 'phlex-icons/lucide/circle_fading_arrow_up'
     autoload :CircleFadingPlus, 'phlex-icons/lucide/circle_fading_plus'
     autoload :CircleGauge, 'phlex-icons/lucide/circle_gauge'
