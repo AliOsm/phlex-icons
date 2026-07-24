@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class History < Base
+    class RotateCcwClock < Base
       def view_template
         svg(
           **attrs,

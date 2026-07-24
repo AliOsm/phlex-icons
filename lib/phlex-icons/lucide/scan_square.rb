@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class ZapOff < Base
+    class ScanSquare < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M10.768 5.111 13.44 2.44a1.5 1.5 0 012.474 1.561l-1.633 4.625')
-          s.path(d: 'm18.889 13.232.672-.672A1.5 1.5 0 0018.5 10h-2.844')
-          s.path(d: 'm2 2 20 20')
-          s.path(
-            d:
-              'm7.94 7.94-3.5 3.499A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l5.5-5.5'
-          )
+          s.path(d: 'M3 7V5a2 2 0 0 1 2-2h2')
+          s.path(d: 'M17 3h2a2 2 0 0 1 2 2v2')
+          s.path(d: 'M21 17v2a2 2 0 0 1-2 2h-2')
+          s.path(d: 'M7 21H5a2 2 0 0 1-2-2v-2')
+          s.rect(width: '8', height: '8', x: '8', y: '8', rx: '1')
         end
       end
     end

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
     class HdmiPort < Base
@@ -16,11 +17,12 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z'
+              'M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z'
           )
-          s.path(d: 'M7.5 12h9')
+          s.path(d: 'M8 12h8')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

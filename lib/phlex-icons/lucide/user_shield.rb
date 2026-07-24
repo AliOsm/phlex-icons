@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class BookOpenText < Base
+    class UserShield < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +15,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 5v16')
-          s.path(d: 'M16 13h2')
-          s.path(d: 'M16 9h2')
+          s.path(d: 'M10 15H6a4 4 0 0 0-4 4v2')
           s.path(
             d:
-              'M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z'
+              'M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z'
           )
-          s.path(d: 'M6 13h2')
-          s.path(d: 'M6 9h2')
+          s.circle(cx: '9', cy: '7', r: '4')
         end
       end
     end

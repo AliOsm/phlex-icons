@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
     class SquareBottomDashedScissors < Base
@@ -15,23 +14,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.line(x1: '5', y1: '3', x2: '19', y2: '3')
-          s.line(x1: '3', y1: '5', x2: '3', y2: '19')
-          s.line(x1: '21', y1: '5', x2: '21', y2: '19')
-          s.line(x1: '9', y1: '21', x2: '10', y2: '21')
-          s.line(x1: '14', y1: '21', x2: '15', y2: '21')
-          s.path(d: 'M 3 5 A2 2 0 0 1 5 3')
-          s.path(d: 'M 19 3 A2 2 0 0 1 21 5')
-          s.path(d: 'M 5 21 A2 2 0 0 1 3 19')
-          s.path(d: 'M 21 19 A2 2 0 0 1 19 21')
-          s.circle(cx: '8.5', cy: '8.5', r: '1.5')
-          s.line(x1: '9.56066', y1: '9.56066', x2: '12', y2: '12')
-          s.line(x1: '17', y1: '17', x2: '14.82', y2: '14.82')
+          s.path(d: 'M14 21h1')
+          s.path(d: 'm17 17-2.18-2.18')
+          s.path(d: 'M5 21a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2')
+          s.path(d: 'M9 21h1')
+          s.path(d: 'M9.56 14.44 17 7')
+          s.path(d: 'M9.56 9.56 12 12')
           s.circle(cx: '8.5', cy: '15.5', r: '1.5')
-          s.line(x1: '9.56066', y1: '14.43934', x2: '17', y2: '7')
+          s.circle(cx: '8.5', cy: '8.5', r: '1.5')
         end
       end
     end
   end
 end
-# rubocop:enable Metrics/MethodLength

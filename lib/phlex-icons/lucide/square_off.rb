@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class ZapOff < Base
+    class SquareOff < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,9 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M10.768 5.111 13.44 2.44a1.5 1.5 0 012.474 1.561l-1.633 4.625')
-          s.path(d: 'm18.889 13.232.672-.672A1.5 1.5 0 0018.5 10h-2.844')
-          s.path(d: 'm2 2 20 20')
-          s.path(
-            d:
-              'm7.94 7.94-3.5 3.499A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l5.5-5.5'
-          )
+          s.path(d: 'M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41')
+          s.path(d: 'M21 15.3V5a2 2 0 00-2-2H8.7')
+          s.path(d: 'M22 22 2 2')
         end
       end
     end
