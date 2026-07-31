@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.26.0'
+    VERSION = '1.28.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -893,6 +893,7 @@ module PhlexIcons
     autoload :LayersMinus, 'phlex-icons/lucide/layers_minus'
     autoload :LayersPlus, 'phlex-icons/lucide/layers_plus'
     autoload :LayoutDashboard, 'phlex-icons/lucide/layout_dashboard'
+    autoload :LayoutFreeform, 'phlex-icons/lucide/layout_freeform'
     autoload :LayoutGrid, 'phlex-icons/lucide/layout_grid'
     autoload :LayoutList, 'phlex-icons/lucide/layout_list'
     autoload :LayoutPanelLeft, 'phlex-icons/lucide/layout_panel_left'
@@ -1026,7 +1027,9 @@ module PhlexIcons
     autoload :MessagesSquare, 'phlex-icons/lucide/messages_square'
     autoload :Metronome, 'phlex-icons/lucide/metronome'
     autoload :Mic, 'phlex-icons/lucide/mic'
+    autoload :MicAudioLines, 'phlex-icons/lucide/mic_audio_lines'
     autoload :MicOff, 'phlex-icons/lucide/mic_off'
+    autoload :MicSignal, 'phlex-icons/lucide/mic_signal'
     autoload :MicVocal, 'phlex-icons/lucide/mic_vocal'
     autoload :Microchip, 'phlex-icons/lucide/microchip'
     autoload :Microscope, 'phlex-icons/lucide/microscope'
@@ -1201,7 +1204,6 @@ module PhlexIcons
     autoload :PlugZap, 'phlex-icons/lucide/plug_zap'
     autoload :Plus, 'phlex-icons/lucide/plus'
     autoload :PocketKnife, 'phlex-icons/lucide/pocket_knife'
-    autoload :Podcast, 'phlex-icons/lucide/podcast'
     autoload :Podium, 'phlex-icons/lucide/podium'
     autoload :Pointer, 'phlex-icons/lucide/pointer'
     autoload :PointerOff, 'phlex-icons/lucide/pointer_off'

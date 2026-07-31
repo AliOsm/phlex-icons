@@ -3,7 +3,7 @@
 # rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Lucide
-    class CalendarCheck2 < Base
+    class MicAudioLines < Base
       def view_template
         svg(
           **attrs,
@@ -15,17 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M 19 3 L 5 3')
-          s.path(d: 'M 21 13 L 21 5')
-          s.path(d: 'M 21 5 A2 2 0 0 0 19 3')
-          s.path(d: 'M 3 19 A2 2 0 0 0 5 21')
-          s.path(d: 'M 3 5 L 3 19')
-          s.path(d: 'M 5 3 A2 2 0 0 0 3 5')
-          s.path(d: 'm16 19 2 2 4-4')
-          s.path(d: 'M16 2v3')
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M5 21 L12.5 21')
-          s.path(d: 'M8 2v3')
+          s.path(d: 'M10 3v2.341')
+          s.path(d: 'M12 17v4')
+          s.path(d: 'M14 5v.341')
+          s.path(d: 'M18 5v13')
+          s.path(d: 'M2 10v3')
+          s.path(d: 'M22 10v3')
+          s.path(d: 'M6 6v11')
+          s.path(d: 'M9 21h6')
+          s.rect(width: '4', height: '8', x: '10', y: '9', rx: '2')
         end
       end
     end
