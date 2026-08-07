@@ -39,6 +39,50 @@ module PhlexIcons
           )
         end
       end
+
+      def mini
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 20 20',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            fill_rule: 'evenodd',
+            d:
+              'M14 6.005a2.5 2.5 0 0 0-4-3 2.5 2.5 0 0 0-4 3H3.25c-.69 0-1.25.56-1.25 1.25v.5c0 .69.56 1.25 1.25 1.25h6v-3h1.5v3h6c.69 0 1.25-.56 1.25-1.25v-.5c0-.69-.56-1.25-1.25-1.25H14Zm-1-1.5a1 1 0 0 1-1 1h-1v-1a1 1 0 1 1 2 0Zm-6 0a1 1 0 0 0 1 1h1v-1a1 1 0 1 0-2 0Z',
+            clip_rule: 'evenodd'
+          )
+          s.path(
+            d:
+              'M9.25 10.505H3v4.75a2.75 2.75 0 0 0 2.75 2.75h3.5v-7.5ZM10.75 18.005v-7.5H17v4.75a2.75 2.75 0 0 1-2.75 2.75h-3.5Z'
+          )
+        end
+      end
+
+      def micro
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 16 16',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            fill_rule: 'evenodd',
+            d:
+              'M3.75 3.505c0 .562.186 1.082.5 1.5H2a1 1 0 1 0 0 2h5.25v-2h1.5v2H14a1 1 0 1 0 0-2h-2.25A2.5 2.5 0 0 0 8 1.719a2.5 2.5 0 0 0-4.25 1.786Zm3.499 0v-.038a1 1 0 1 0-.999 1.038h1l-.001-1Zm2.5-1a1 1 0 0 0-1 .962l.001.038v1h.999a1 1 0 0 0 0-2Z',
+            clip_rule: 'evenodd'
+          )
+          s.path(
+            d:
+              'M7.25 8.505H2v3.5a2 2 0 0 0 2 2h3.25v-5.5ZM8.75 14.005v-5.5H14v3.5a2 2 0 0 1-2 2H8.75Z'
+          )
+        end
+      end
     end
   end
 end
