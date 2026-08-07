@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Angry < Base
+    class FaceSlightlyFrowning < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M15 10V9')
+          s.path(d: 'M9 10V9')
+          s.path(d: 'M9 16a5 5 0 016 0')
           s.circle(cx: '12', cy: '12', r: '10')
-          s.path(d: 'M16 16s-1.5-2-4-2-4 2-4 2')
-          s.path(d: 'M7.5 8 10 9')
-          s.path(d: 'm14 9 2.5-1')
-          s.path(d: 'M9 10h.01')
-          s.path(d: 'M15 10h.01')
         end
       end
     end

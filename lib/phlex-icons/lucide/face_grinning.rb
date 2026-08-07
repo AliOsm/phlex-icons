@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Meh < Base
+    class FaceGrinning < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M15 10V9')
+          s.path(
+            d:
+              'M7.084 14.302a5.12 5.12 0 009.833 0 .24.24 0 00-.235-.302H7.32a.24.24 0 00-.235.302'
+          )
+          s.path(d: 'M9 10V9')
           s.circle(cx: '12', cy: '12', r: '10')
-          s.line(x1: '8', x2: '16', y1: '15', y2: '15')
-          s.line(x1: '9', x2: '9.01', y1: '9', y2: '9')
-          s.line(x1: '15', x2: '15.01', y1: '9', y2: '9')
         end
       end
     end

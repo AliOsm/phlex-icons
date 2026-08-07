@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Smile < Base
+    class LayerArrowDown < Base
       def view_template
         svg(
           **attrs,
@@ -14,10 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.circle(cx: '12', cy: '12', r: '10')
-          s.path(d: 'M8 14s1.5 2 4 2 4-2 4-2')
-          s.line(x1: '9', x2: '9.01', y1: '9', y2: '9')
-          s.line(x1: '15', x2: '15.01', y1: '9', y2: '9')
+          s.path(d: 'M12 10v10')
+          s.path(d: 'M22 10a1 1 0 01-.59.92l-5.077 2.308')
+          s.path(
+            d:
+              'M22.017 10.005a1 1 0 00-.597-.916l-8.59-3.91a2 2 0 00-1.66.001L2.6 9.08a1 1 0 00-.02 1.831l5.093 2.316'
+          )
+          s.path(d: 'm9 17 3 3 3-3')
         end
       end
     end
