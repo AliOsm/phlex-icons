@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.29.0'
+    VERSION = '1.31.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -52,6 +52,7 @@ module PhlexIcons
     autoload :Ampersands, 'phlex-icons/lucide/ampersands'
     autoload :Amphora, 'phlex-icons/lucide/amphora'
     autoload :Anchor, 'phlex-icons/lucide/anchor'
+    autoload :Angle, 'phlex-icons/lucide/angle'
     autoload :Antenna, 'phlex-icons/lucide/antenna'
     autoload :Anvil, 'phlex-icons/lucide/anvil'
     autoload :Aperture, 'phlex-icons/lucide/aperture'
@@ -253,6 +254,8 @@ module PhlexIcons
     autoload :BriefcaseMedical, 'phlex-icons/lucide/briefcase_medical'
     autoload :BringToFront, 'phlex-icons/lucide/bring_to_front'
     autoload :Broccoli, 'phlex-icons/lucide/broccoli'
+    autoload :Broom, 'phlex-icons/lucide/broom'
+    autoload :BroomSparkles, 'phlex-icons/lucide/broom_sparkles'
     autoload :Brush, 'phlex-icons/lucide/brush'
     autoload :BrushCleaning, 'phlex-icons/lucide/brush_cleaning'
     autoload :Bubbles, 'phlex-icons/lucide/bubbles'
@@ -300,6 +303,7 @@ module PhlexIcons
     autoload :Captions, 'phlex-icons/lucide/captions'
     autoload :CaptionsOff, 'phlex-icons/lucide/captions_off'
     autoload :Car, 'phlex-icons/lucide/car'
+    autoload :CarBattery, 'phlex-icons/lucide/car_battery'
     autoload :CarFront, 'phlex-icons/lucide/car_front'
     autoload :CarTaxiFront, 'phlex-icons/lucide/car_taxi_front'
     autoload :Caravan, 'phlex-icons/lucide/caravan'
@@ -586,6 +590,7 @@ module PhlexIcons
     autoload :Egg, 'phlex-icons/lucide/egg'
     autoload :EggFried, 'phlex-icons/lucide/egg_fried'
     autoload :EggOff, 'phlex-icons/lucide/egg_off'
+    autoload :Eject, 'phlex-icons/lucide/eject'
     autoload :Ellipse, 'phlex-icons/lucide/ellipse'
     autoload :Ellipsis, 'phlex-icons/lucide/ellipsis'
     autoload :EllipsisVertical, 'phlex-icons/lucide/ellipsis_vertical'
@@ -964,6 +969,7 @@ module PhlexIcons
     autoload :Luggage, 'phlex-icons/lucide/luggage'
     autoload :Magnet, 'phlex-icons/lucide/magnet'
     autoload :Mail, 'phlex-icons/lucide/mail'
+    autoload :MailBadge, 'phlex-icons/lucide/mail_badge'
     autoload :MailCheck, 'phlex-icons/lucide/mail_check'
     autoload :MailMinus, 'phlex-icons/lucide/mail_minus'
     autoload :MailOpen, 'phlex-icons/lucide/mail_open'
@@ -1368,6 +1374,7 @@ module PhlexIcons
     autoload :ShieldEllipsis, 'phlex-icons/lucide/shield_ellipsis'
     autoload :ShieldHalf, 'phlex-icons/lucide/shield_half'
     autoload :ShieldKeyhole, 'phlex-icons/lucide/shield_keyhole'
+    autoload :ShieldLock, 'phlex-icons/lucide/shield_lock'
     autoload :ShieldMinus, 'phlex-icons/lucide/shield_minus'
     autoload :ShieldOff, 'phlex-icons/lucide/shield_off'
     autoload :ShieldPlus, 'phlex-icons/lucide/shield_plus'
