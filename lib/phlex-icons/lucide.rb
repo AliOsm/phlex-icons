@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.31.0'
+    VERSION = '1.33.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -111,6 +111,7 @@ module PhlexIcons
     autoload :AtSign, 'phlex-icons/lucide/at_sign'
     autoload :Atom, 'phlex-icons/lucide/atom'
     autoload :AudioLines, 'phlex-icons/lucide/audio_lines'
+    autoload :AudioLinesOff, 'phlex-icons/lucide/audio_lines_off'
     autoload :AudioLinesX, 'phlex-icons/lucide/audio_lines_x'
     autoload :AudioWaveform, 'phlex-icons/lucide/audio_waveform'
     autoload :Award, 'phlex-icons/lucide/award'
@@ -934,6 +935,7 @@ module PhlexIcons
     autoload :ListChecks, 'phlex-icons/lucide/list_checks'
     autoload :ListChevronsDownUp, 'phlex-icons/lucide/list_chevrons_down_up'
     autoload :ListChevronsUpDown, 'phlex-icons/lucide/list_chevrons_up_down'
+    autoload :ListClock, 'phlex-icons/lucide/list_clock'
     autoload :ListCollapse, 'phlex-icons/lucide/list_collapse'
     autoload :ListEnd, 'phlex-icons/lucide/list_end'
     autoload :ListFilter, 'phlex-icons/lucide/list_filter'
@@ -1047,6 +1049,7 @@ module PhlexIcons
     autoload :Microchip, 'phlex-icons/lucide/microchip'
     autoload :Microscope, 'phlex-icons/lucide/microscope'
     autoload :Microwave, 'phlex-icons/lucide/microwave'
+    autoload :MidiPort, 'phlex-icons/lucide/midi_port'
     autoload :Milestone, 'phlex-icons/lucide/milestone'
     autoload :Milk, 'phlex-icons/lucide/milk'
     autoload :MilkOff, 'phlex-icons/lucide/milk_off'
@@ -1071,6 +1074,8 @@ module PhlexIcons
     autoload :MonitorX, 'phlex-icons/lucide/monitor_x'
     autoload :Moon, 'phlex-icons/lucide/moon'
     autoload :MoonStar, 'phlex-icons/lucide/moon_star'
+    autoload :Mop, 'phlex-icons/lucide/mop'
+    autoload :MopSparkles, 'phlex-icons/lucide/mop_sparkles'
     autoload :Mosque, 'phlex-icons/lucide/mosque'
     autoload :Motorbike, 'phlex-icons/lucide/motorbike'
     autoload :Mountain, 'phlex-icons/lucide/mountain'
@@ -1471,6 +1476,7 @@ module PhlexIcons
     autoload :SquareDashedMousePointer, 'phlex-icons/lucide/square_dashed_mouse_pointer'
     autoload :SquareDashedText, 'phlex-icons/lucide/square_dashed_text'
     autoload :SquareDashedTopSolid, 'phlex-icons/lucide/square_dashed_top_solid'
+    autoload :SquareDimensions, 'phlex-icons/lucide/square_dimensions'
     autoload :SquareDivide, 'phlex-icons/lucide/square_divide'
     autoload :SquareDot, 'phlex-icons/lucide/square_dot'
     autoload :SquareEqual, 'phlex-icons/lucide/square_equal'
@@ -1504,6 +1510,7 @@ module PhlexIcons
     autoload :SquareStar, 'phlex-icons/lucide/square_star'
     autoload :SquareStop, 'phlex-icons/lucide/square_stop'
     autoload :SquareTerminal, 'phlex-icons/lucide/square_terminal'
+    autoload :SquareText, 'phlex-icons/lucide/square_text'
     autoload :SquareUser, 'phlex-icons/lucide/square_user'
     autoload :SquareUserRound, 'phlex-icons/lucide/square_user_round'
     autoload :SquareX, 'phlex-icons/lucide/square_x'
@@ -1670,6 +1677,7 @@ module PhlexIcons
     autoload :Unplug, 'phlex-icons/lucide/unplug'
     autoload :Upload, 'phlex-icons/lucide/upload'
     autoload :Usb, 'phlex-icons/lucide/usb'
+    autoload :UsbCPort, 'phlex-icons/lucide/usb_c_port'
     autoload :User, 'phlex-icons/lucide/user'
     autoload :UserCheck, 'phlex-icons/lucide/user_check'
     autoload :UserCog, 'phlex-icons/lucide/user_cog'
