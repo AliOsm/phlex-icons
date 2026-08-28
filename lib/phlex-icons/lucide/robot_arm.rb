@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Ghost < Base
+    class RobotArm < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 10v1')
-          s.path(
-            d:
-              'M7.528 20.472a1.6 1.6 0 012.277 0l1.057 1.056a1.6 1.6 0 002.276 0l1.057-1.056a1.6 1.6 0 012.277 0l1.114 1.114a1.4 1.4 0 002.414-1V10a8 8 0 00-16 0v10.586a1.4 1.4 0 002.414 1z'
-          )
-          s.path(d: 'M9 10v1')
+          s.path(d: 'M12 21 7.5 8.322')
+          s.path(d: 'm14 7 1.75-3.767a.5.5 0 0 1 .662-.172L20 5.005')
+          s.path(d: 'm20 8.998-3.588 1.944a.5.5 0 0 1-.662-.172L14 7H8')
+          s.path(d: 'M3.486 21h10')
+          s.path(d: 'M5 21V8.732')
+          s.circle(cx: '6', cy: '7', r: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

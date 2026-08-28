@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Ship < Base
+    class ShipCargo < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M12 15v-3')
           s.path(d: 'M12 2v2')
-          s.path(d: 'M12 9.189V13')
-          s.path(d: 'M19 12V6a2 2 0 00-2-2H7a2 2 0 00-2 2v6')
           s.path(
             d:
-              'M19.38 19A11.6 11.6 0 0021 13l-8.188-3.639a2 2 0 00-1.624 0L3 13.001a11.6 11.6 0 002.81 7.76'
+              'M16.5 12V9a1 1 0 011-1h1a1 1 0 001-1V5a1 1 0 00-1-1h-13a1 1 0 00-1 1v2a1 1 0 001 1h1a1 1 0 011 1v3'
+          )
+          s.path(
+            d:
+              'M19.38 19c1.076-1.815 1.636-4.89 1.628-6.008a1 1 0 00-1-.992H3.984a1 1 0 00-1 .984c-.03 1.86.97 5.621 2.826 7.776'
           )
           s.path(
             d:
@@ -30,3 +34,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Layout/LineLength

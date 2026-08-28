@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Ghost < Base
+    class MailClock < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,13 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M15 10v1')
-          s.path(
-            d:
-              'M7.528 20.472a1.6 1.6 0 012.277 0l1.057 1.056a1.6 1.6 0 002.276 0l1.057-1.056a1.6 1.6 0 012.277 0l1.114 1.114a1.4 1.4 0 002.414-1V10a8 8 0 00-16 0v10.586a1.4 1.4 0 002.414 1z'
-          )
-          s.path(d: 'M9 10v1')
+          s.path(d: 'M16 14v2.2l1.6 1')
+          s.path(d: 'm22 7-.759.484')
+          s.path(d: 'M6.835 20H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v2')
+          s.path(d: 'M7.605 10.567 2 7')
+          s.circle(cx: '16', cy: '16', r: '6')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

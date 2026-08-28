@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.33.0'
+    VERSION = '1.35.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -745,6 +745,7 @@ module PhlexIcons
     autoload :Funnel, 'phlex-icons/lucide/funnel'
     autoload :FunnelPlus, 'phlex-icons/lucide/funnel_plus'
     autoload :FunnelX, 'phlex-icons/lucide/funnel_x'
+    autoload :Galaxy, 'phlex-icons/lucide/galaxy'
     autoload :GalleryHorizontal, 'phlex-icons/lucide/gallery_horizontal'
     autoload :GalleryHorizontalEnd, 'phlex-icons/lucide/gallery_horizontal_end'
     autoload :GalleryThumbnails, 'phlex-icons/lucide/gallery_thumbnails'
@@ -973,6 +974,7 @@ module PhlexIcons
     autoload :Mail, 'phlex-icons/lucide/mail'
     autoload :MailBadge, 'phlex-icons/lucide/mail_badge'
     autoload :MailCheck, 'phlex-icons/lucide/mail_check'
+    autoload :MailClock, 'phlex-icons/lucide/mail_clock'
     autoload :MailMinus, 'phlex-icons/lucide/mail_minus'
     autoload :MailOpen, 'phlex-icons/lucide/mail_open'
     autoload :MailPlus, 'phlex-icons/lucide/mail_plus'
@@ -1289,6 +1291,8 @@ module PhlexIcons
     autoload :Rewind, 'phlex-icons/lucide/rewind'
     autoload :Ribbon, 'phlex-icons/lucide/ribbon'
     autoload :Road, 'phlex-icons/lucide/road'
+    autoload :RobotArm, 'phlex-icons/lucide/robot_arm'
+    autoload :RobotVacuum, 'phlex-icons/lucide/robot_vacuum'
     autoload :Rocket, 'phlex-icons/lucide/rocket'
     autoload :RockingChair, 'phlex-icons/lucide/rocking_chair'
     autoload :RollerCoaster, 'phlex-icons/lucide/roller_coaster'
@@ -1387,6 +1391,7 @@ module PhlexIcons
     autoload :ShieldUser, 'phlex-icons/lucide/shield_user'
     autoload :ShieldX, 'phlex-icons/lucide/shield_x'
     autoload :Ship, 'phlex-icons/lucide/ship'
+    autoload :ShipCargo, 'phlex-icons/lucide/ship_cargo'
     autoload :ShipWheel, 'phlex-icons/lucide/ship_wheel'
     autoload :Shirt, 'phlex-icons/lucide/shirt'
     autoload :ShoppingBag, 'phlex-icons/lucide/shopping_bag'
@@ -1633,6 +1638,7 @@ module PhlexIcons
     autoload :ToyBrick, 'phlex-icons/lucide/toy_brick'
     autoload :Tractor, 'phlex-icons/lucide/tractor'
     autoload :TrafficCone, 'phlex-icons/lucide/traffic_cone'
+    autoload :Trailer, 'phlex-icons/lucide/trailer'
     autoload :TrainFront, 'phlex-icons/lucide/train_front'
     autoload :TrainFrontTunnel, 'phlex-icons/lucide/train_front_tunnel'
     autoload :TrainTrack, 'phlex-icons/lucide/train_track'
