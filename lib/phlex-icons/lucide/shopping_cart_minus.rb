@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class VolumeX < Base
+    class ShoppingCartMinus < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M16 5h6')
           s.path(
-            d:
-              'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z'
+            d: 'm2.05 2.05 1.099-.028a1 1 0 011.008.815l2.69 14.347A1 1 0 007.83 18H18'
           )
-          s.path(d: 'm16.5 14.5 5-5')
-          s.path(d: 'm16.5 9.5 5 5')
+          s.path(d: 'M4.564 5H12')
+          s.path(d: 'M6.25 14h12.712a2 2 0 001.991-1.57l.514-3.113')
+          s.circle(cx: '18', cy: '20', r: '2')
+          s.circle(cx: '8', cy: '20', r: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

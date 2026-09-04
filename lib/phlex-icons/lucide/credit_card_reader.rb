@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class VolumeX < Base
+    class CreditCardReader < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,18 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M15 16v1')
           s.path(
             d:
-              'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z'
+              'M16.963 7.734A1 1 0 0015.999 7H8.003a1 1 0 00-.964.734L4.073 18.467A2 2 0 006 21h12a2 2 0 001.927-2.532z'
           )
-          s.path(d: 'm16.5 14.5 5-5')
-          s.path(d: 'm16.5 9.5 5 5')
+          s.path(
+            d:
+              'M2.678 8.5A2 2 0 012 7V5a2 2 0 012-2h16a2 2 0 012 2v2a2 2 0 01-.676 1.499'
+          )
+          s.path(d: 'm9 21 2-14')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

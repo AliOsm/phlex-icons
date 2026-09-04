@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class VolumeX < Base
+    class SquareExclamationPoint < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(
-            d:
-              'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z'
-          )
-          s.path(d: 'm16.5 14.5 5-5')
-          s.path(d: 'm16.5 9.5 5 5')
+          s.rect(width: '18', height: '18', x: '3', y: '3', rx: '2')
+          s.line(x1: '12', x2: '12', y1: '8', y2: '12')
+          s.line(x1: '12', x2: '12.01', y1: '16', y2: '16')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

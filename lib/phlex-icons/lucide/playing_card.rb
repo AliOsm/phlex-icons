@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class VolumeX < Base
+    class PlayingCard < Base
       def view_template
         svg(
           **attrs,
@@ -17,13 +16,11 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z'
+              'M12.832 8.445a1 1 0 00-1.589-.098l-2.075 3.098a1 1 0 000 1.11l2 3a1 1 0 001.664 0l2-3a1 1 0 000-1.11z'
           )
-          s.path(d: 'm16.5 14.5 5-5')
-          s.path(d: 'm16.5 9.5 5 5')
+          s.rect(x: '5', y: '2', width: '14', height: '20', rx: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

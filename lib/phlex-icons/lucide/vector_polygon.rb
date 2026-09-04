@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class VolumeX < Base
+    class VectorPolygon < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(
-            d:
-              'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z'
-          )
-          s.path(d: 'm16.5 14.5 5-5')
-          s.path(d: 'm16.5 9.5 5 5')
+          s.path(d: 'm12.828 4.813 5.344 2.375')
+          s.path(d: 'm15.769 18.153 3.461-8.306')
+          s.path(d: 'm5.687 14.074 7.625 4.852')
+          s.path(d: 'M9.772 5.579 5.228 11.42')
+          s.circle(cx: '11', cy: '4', r: '2')
+          s.circle(cx: '15', cy: '20', r: '2')
+          s.circle(cx: '20', cy: '8', r: '2')
+          s.circle(cx: '4', cy: '13', r: '2')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
