@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class BookMarked < Base
+    class MessagesCircle < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +15,17 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M10 2v8l3-3 3 3V2')
           s.path(
             d:
-              'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'
+              'M19.95 10.05a7 7 0 011.412 7.872 1 1 0 00-.058.787l.675 2.089a1 1 0 01-1.236 1.168l-2.155-.631a1 1 0 00-.745.06 7 7 0 01-7.793-1.445'
+          )
+          s.path(
+            d:
+              'M2.696 12.708a1 1 0 00-.058-.785 7 7 0 113.518 3.473 1 1 0 00-.744-.061l-2.155.63a1 1 0 01-1.236-1.167z'
           )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

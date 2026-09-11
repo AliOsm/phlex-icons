@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class IdCardLanyard < Base
+    class TrianglesCenterlineDashedHorizontal < Base
       def view_template
         svg(
           **attrs,
@@ -14,13 +14,18 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M13.5 8h-3')
+          s.path(d: 'M10 12H8')
+          s.path(d: 'M16 12h-2')
+          s.path(d: 'M22 12h-2')
+          s.path(d: 'M4 12H2')
           s.path(
-            d: 'm15 2-1 2h3a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h3'
+            d:
+              'M7.298 20.288A1 1 0 008 22h8a1 1 0 00.703-1.712l-3.991-3.99a1 1 0 00-1.424-.001z'
           )
-          s.path(d: 'M16 22a4 4 0 00-8 0')
-          s.path(d: 'm9 2 3 6')
-          s.circle(cx: '12', cy: '15', r: '3')
+          s.path(
+            d:
+              'M7.298 3.712A1 1 0 018 2h8a1 1 0 01.703 1.712l-3.991 3.99a1 1 0 01-1.424.001z'
+          )
         end
       end
     end

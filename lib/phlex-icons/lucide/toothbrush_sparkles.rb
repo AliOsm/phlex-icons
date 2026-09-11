@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength,Metrics/MethodLength
 module PhlexIcons
   module Lucide
-    class Cookie < Base
+    class ToothbrushSparkles < Base
       def view_template
         svg(
           **attrs,
@@ -15,18 +15,18 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M11 17h.01')
+          s.path(d: 'M10 3H8')
+          s.path(d: 'M14.586 11.414 22 4')
+          s.path(d: 'M15 11a8 8 0 01-.429.4')
           s.path(
             d:
-              'M11.496 2c.324-.016.558.292.529.615a4 4 0 004.235 4.368.713.713 0 01.758.757 4 4 0 004.366 4.237c.323-.03.63.204.614.527a10 10 0 01-2.915 6.566A1 1 0 114.93 4.918 10 10 0 0111.496 2'
+              'm2 22 7-7c1.857-1.857 3.714-1.99 5.571-3.6l-1.985-1.986A2 2 0 0114 6a2 2 0 012-2 2 2 0 013.262-1.552l2.152 2.138'
           )
-          s.path(d: 'M12 12h.01')
-          s.path(d: 'M16 16h.01')
-          s.path(d: 'M16 3h.01')
-          s.path(d: 'M21 4h.01')
-          s.path(d: 'M21 8h.01')
-          s.path(d: 'M7 14h.01')
-          s.path(d: 'M9 8h.01')
+          s.path(d: 'M20 15v4')
+          s.path(d: 'M22 17h-4')
+          s.path(d: 'M4 5v4')
+          s.path(d: 'M6 7H2')
+          s.path(d: 'M9 2v2')
         end
       end
     end

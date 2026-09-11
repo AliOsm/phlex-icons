@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Table2 < Base
+    class SquareBookmark < Base
       def view_template
         svg(
           **attrs,
@@ -14,8 +14,10 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M9 3v18')
+          s.path(
+            d:
+              'M11 3v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V3'
+          )
           s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
         end
       end

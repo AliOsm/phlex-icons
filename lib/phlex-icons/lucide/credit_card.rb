@@ -16,6 +16,7 @@ module PhlexIcons
         ) do |s|
           s.rect(width: '20', height: '14', x: '2', y: '5', rx: '2')
           s.line(x1: '2', x2: '22', y1: '10', y2: '10')
+          s.path(d: 'M6 14h2')
         end
       end
     end

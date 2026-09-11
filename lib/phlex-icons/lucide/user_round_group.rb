@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Table2 < Base
+    class UserRoundGroup < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M9 3v18')
-          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
+          s.path(d: 'M17 21a5 5 0 00-10 0')
+          s.path(d: 'M22 10.5a3.5 3.5 0 00-5.507-2.868')
+          s.path(d: 'M7.507 7.632A3.5 3.5 0 002 10.5')
+          s.circle(cx: '12', cy: '13', r: '3')
+          s.circle(cx: '18.5', cy: '4.5', r: '2.5')
+          s.circle(cx: '5.5', cy: '4.5', r: '2.5')
         end
       end
     end

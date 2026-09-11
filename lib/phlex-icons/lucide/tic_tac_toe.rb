@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Table2 < Base
+    class TicTacToe < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M9 3v18')
-          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
+          s.path(d: 'M12 2v20')
+          s.path(d: 'm21 16-5 5')
+          s.path(d: 'm21 21-5-5')
+          s.path(d: 'M22 12H2')
+          s.path(d: 'M8 3 3 8')
+          s.path(d: 'M8 8 3 3')
+          s.circle(cx: '18.5', cy: '5.5', r: '2.5')
+          s.circle(cx: '5.5', cy: '18.5', r: '2.5')
         end
       end
     end

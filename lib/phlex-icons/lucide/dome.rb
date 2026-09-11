@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Table2 < Base
+    class Dome < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M9 3v18')
-          s.rect(x: '3', y: '3', width: '18', height: '18', rx: '2')
+          s.path(d: 'M10 21v-3a2 2 0 014 0v3')
+          s.path(d: 'M12 2v2')
+          s.path(d: 'M18 12v9')
+          s.path(d: 'M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2v-6a1 1 0 011-1h18a1 1 0 011 1z')
+          s.path(d: 'M4 12a8 8 0 0116 0')
+          s.path(d: 'M6 12v9')
         end
       end
     end

@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Album < Base
+    class GapVertical < Base
       def view_template
         svg(
           **attrs,
@@ -14,8 +14,12 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.rect(width: '18', height: '18', x: '3', y: '3', rx: '2', ry: '2')
-          s.polyline(points: '11 3 11 11 14 8 17 11 17 3')
+          s.path(d: 'M2 12h2')
+          s.path(d: 'M8 12h2')
+          s.path(d: 'M14 12h2')
+          s.path(d: 'M20 12h2')
+          s.path(d: 'M3 21v-3a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3')
+          s.path(d: 'M3 3v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3')
         end
       end
     end
