@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class CalendarChevronsRight < Base
+    class TubeLotion < Base
       def view_template
         svg(
           **attrs,
@@ -14,14 +15,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm13 21 3-3-3-3')
-          s.path(d: 'M16 2v3')
-          s.path(d: 'm19 21 3-3-3-3')
-          s.path(d: 'M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h4')
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M8 2v3')
+          s.path(d: 'M15 18v3a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-3')
+          s.path(
+            d:
+              'M17 2a2 2 0 0 1 1.6 3.2A8 8 0 0 0 17 10v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a8 8 0 0 0-1.6-4.8A2 2 0 0 1 7 2z'
+          )
+          s.path(d: 'M7 10a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0')
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

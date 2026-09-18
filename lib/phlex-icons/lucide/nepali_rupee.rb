@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class CalendarChevronsRight < Base
+    class NepaliRupee < Base
       def view_template
         svg(
           **attrs,
@@ -14,12 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'm13 21 3-3-3-3')
-          s.path(d: 'M16 2v3')
-          s.path(d: 'm19 21 3-3-3-3')
-          s.path(d: 'M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h4')
-          s.path(d: 'M3 9h18')
-          s.path(d: 'M8 2v3')
+          s.path(d: 'M18 16.173 A4.74 4.74 0 0 0 13.496 8.005')
+          s.path(d: 'M4 3 L20 3')
+          s.path(d: 'M5 13 L13.5 21')
+          s.path(d: 'M5 13 L9 13')
+          s.path(d: 'M8 13 C15.5 13 14.667 3 8 3')
         end
       end
     end

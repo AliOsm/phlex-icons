@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class CardSim < Base
+    class Faucet < Base
       def view_template
         svg(
           **attrs,
@@ -15,13 +15,16 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M12 14v4')
+          s.path(d: 'M10.083 5.428 5.57 4.083a2 2 0 10.001 3.834l4.512-1.345')
+          s.path(d: 'M12 8v3')
+          s.path(d: 'm13.917 5.428 4.511-1.345a2 2 0 110 3.834l-4.51-1.345')
+          s.path(d: 'M18 17v-4.006')
+          s.path(d: 'M22 11v8')
           s.path(
             d:
-              'M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z'
+              'M22 12h-3a1 1 0 00-1 .994h-2.539a4 4 0 00-6.915-.012L7 13a5 5 0 00-5 5v1a1 1 0 001 1h2a1 1 0 001-1v-1a1 1 0 01.995-1l1.552.018a4 4 0 006.907 0L18 17a1 1 0 001 1h3'
           )
-          s.path(d: 'M8 14h8')
-          s.rect(x: '8', y: '10', width: '8', height: '8', rx: '2')
+          s.circle(cx: '12', cy: '6', r: '2')
         end
       end
     end
