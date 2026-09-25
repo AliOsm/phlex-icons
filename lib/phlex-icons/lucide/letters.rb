@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class MailPen < Base
+    class Letters < Base
       def view_template
         svg(
           **attrs,
@@ -15,15 +14,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'M15 8H9')
+          s.path(d: 'M21 15.354a4 4 0 100 5.292')
           s.path(
-            d:
-              'M15.363 17.634a2 2 0 00-.506.854l-.837 2.87a.5.5 0 00.62.62l2.87-.837a2 2 0 00.854-.506l3.013-3.009a1 1 0 10-3.004-3.004z'
+            d: 'M3 18h4a2 2 0 010 4H3.5a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5H6a2 2 0 010 4'
           )
-          s.path(d: 'M22 10.38V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2h6.25')
-          s.path(d: 'm22 7-8.991 5.727a2 2 0 01-2.009 0L2 7')
+          s.path(d: 'm8 10 3.453-7.648a.6.6 0 011.094 0L16 10')
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

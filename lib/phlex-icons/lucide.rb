@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.47.0'
+    VERSION = '1.48.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -141,6 +141,7 @@ module PhlexIcons
     autoload :Ban, 'phlex-icons/lucide/ban'
     autoload :Banana, 'phlex-icons/lucide/banana'
     autoload :Bandage, 'phlex-icons/lucide/bandage'
+    autoload :BangladeshiTaka, 'phlex-icons/lucide/bangladeshi_taka'
     autoload :Banknote, 'phlex-icons/lucide/banknote'
     autoload :BanknoteArrowDown, 'phlex-icons/lucide/banknote_arrow_down'
     autoload :BanknoteArrowUp, 'phlex-icons/lucide/banknote_arrow_up'
@@ -876,6 +877,7 @@ module PhlexIcons
     autoload :Hourglass, 'phlex-icons/lucide/hourglass'
     autoload :HourglassCog, 'phlex-icons/lucide/hourglass_cog'
     autoload :House, 'phlex-icons/lucide/house'
+    autoload :HouseCog, 'phlex-icons/lucide/house_cog'
     autoload :HouseHeart, 'phlex-icons/lucide/house_heart'
     autoload :HousePlug, 'phlex-icons/lucide/house_plug'
     autoload :HousePlus, 'phlex-icons/lucide/house_plus'
@@ -951,6 +953,7 @@ module PhlexIcons
     autoload :Lectern, 'phlex-icons/lucide/lectern'
     autoload :LensConcave, 'phlex-icons/lucide/lens_concave'
     autoload :LensConvex, 'phlex-icons/lucide/lens_convex'
+    autoload :Letters, 'phlex-icons/lucide/letters'
     autoload :Library, 'phlex-icons/lucide/library'
     autoload :LibraryBig, 'phlex-icons/lucide/library_big'
     autoload :LifeBuoy, 'phlex-icons/lucide/life_buoy'
