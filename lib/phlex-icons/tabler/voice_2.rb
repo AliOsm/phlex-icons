@@ -1,0 +1,28 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Tabler
+    class Voice2 < Base
+      def filled
+        raise NotImplementedError
+      end
+
+      def outline
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          stroke: 'currentColor',
+          stroke_width: '2',
+          stroke_linecap: 'round',
+          stroke_linejoin: 'round'
+        ) do |s|
+          s.path(d: 'M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0')
+          s.path(d: 'M3.429 14.571c9 -15.857 10.134 8.908 17.143 0')
+          s.path(d: 'M4.03 16.286c5.469 -3.939 8.68 3.635 13.541 2.79')
+        end
+      end
+    end
+  end
+end
