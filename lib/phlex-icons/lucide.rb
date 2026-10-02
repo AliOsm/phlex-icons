@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.48.0'
+    VERSION = '1.49.0'
     VARIANTS = nil
 
     extend Phlex::Kit
@@ -1286,6 +1286,7 @@ module PhlexIcons
     autoload :PowerOff, 'phlex-icons/lucide/power_off'
     autoload :Presentation, 'phlex-icons/lucide/presentation'
     autoload :Printer, 'phlex-icons/lucide/printer'
+    autoload :Printer3d, 'phlex-icons/lucide/printer_3d'
     autoload :PrinterCheck, 'phlex-icons/lucide/printer_check'
     autoload :PrinterX, 'phlex-icons/lucide/printer_x'
     autoload :Projector, 'phlex-icons/lucide/projector'
