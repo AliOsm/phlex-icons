@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Bootstrap # rubocop:disable Metrics/ModuleLength
-    VERSION = '1.13.1'
+    VERSION = '1.13.2'
     VARIANTS = nil
 
     extend Phlex::Kit
