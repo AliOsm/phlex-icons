@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/AbcSize,Metrics/MethodLength
+# rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Tabler
-    class TableDashed < Base
+    class SquareDashedX < Base
       def filled
         raise NotImplementedError
       end
@@ -21,25 +21,18 @@ module PhlexIcons
         ) do |s|
           s.path(d: 'M5 3a2 2 0 0 0 -2 2')
           s.path(d: 'M19 3a2 2 0 0 1 2 2')
-          s.path(d: 'M21 19a2 2 0 0 1 -2 2')
           s.path(d: 'M5 21a2 2 0 0 1 -2 -2')
           s.path(d: 'M9 3h1')
           s.path(d: 'M9 21h1')
           s.path(d: 'M14 3h1')
-          s.path(d: 'M14 21h1')
           s.path(d: 'M3 9v1')
           s.path(d: 'M21 9v1')
           s.path(d: 'M3 14v1')
-          s.path(d: 'M21 14v1')
-          s.path(d: 'M7 10h1')
-          s.path(d: 'M12 10h1')
-          s.path(d: 'M17 10h1')
-          s.path(d: 'M10 12v1')
-          s.path(d: 'M10 17v1')
-          s.path(d: 'M10 7v1')
+          s.path(d: 'M22 22l-5 -5')
+          s.path(d: 'M17 22l5 -5')
         end
       end
     end
   end
 end
-# rubocop:enable Metrics/AbcSize,Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength

@@ -3,7 +3,7 @@
 # rubocop:disable Metrics/MethodLength
 module PhlexIcons
   module Tabler
-    class SquareDashed < Base
+    class SquareDashedTopSolid < Base
       def filled
         raise NotImplementedError
       end
@@ -19,18 +19,15 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M5 3a2 2 0 0 0 -2 2')
-          s.path(d: 'M19 3a2 2 0 0 1 2 2')
-          s.path(d: 'M21 19a2 2 0 0 1 -2 2')
-          s.path(d: 'M5 21a2 2 0 0 1 -2 -2')
-          s.path(d: 'M9 3h1')
-          s.path(d: 'M9 21h1')
-          s.path(d: 'M14 3h1')
           s.path(d: 'M14 21h1')
-          s.path(d: 'M3 9v1')
+          s.path(d: 'M21 14v1')
+          s.path(d: 'M21 19a2 2 0 0 1 -2 2')
           s.path(d: 'M21 9v1')
           s.path(d: 'M3 14v1')
-          s.path(d: 'M21 14v1')
+          s.path(d: 'M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2')
+          s.path(d: 'M3 9v1')
+          s.path(d: 'M5 21a2 2 0 0 1 -2 -2')
+          s.path(d: 'M9 21h1')
         end
       end
     end
