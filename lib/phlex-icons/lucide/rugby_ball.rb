@@ -3,7 +3,7 @@
 # rubocop:disable Layout/LineLength
 module PhlexIcons
   module Lucide
-    class Salad < Base
+    class RugbyBall < Base
       def view_template
         svg(
           **attrs,
@@ -15,16 +15,14 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
+          s.path(d: 'm10 10 4 4')
+          s.path(d: 'm13 7 4 4')
           s.path(
             d:
-              'M19.496 12a2.5 2.5 0 00.399-2.214A2 2 0 0020.32 6.5 2 2 0 0019 3a2 2 0 00-1.5.68 2 2 0 00-3.287.424 2.5 2.5 0 00-3.189 2.06A3 3 0 0012 12l4-4'
+              'M15.34 2.138A15 15 0 002.138 15.34c-.357 2.94.004 4.919.805 5.717.798.8 2.778 1.162 5.718.805A15 15 0 0021.862 8.661c.357-2.94-.004-4.92-.805-5.718-.798-.8-2.778-1.162-5.717-.805'
           )
-          s.path(
-            d:
-              'M4 12a1 1 0 00-.99 1.133A9 9 0 0012 21a9 9 0 008.99-7.867A1 1 0 0020 12z'
-          )
-          s.path(d: 'M7 21h10')
-          s.path(d: 'M9.85 6.907A3.5 3.5 0 005.05 12')
+          s.path(d: 'M17 7 7 17')
+          s.path(d: 'm7 13 4 4')
         end
       end
     end
