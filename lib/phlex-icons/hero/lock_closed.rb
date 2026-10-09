@@ -41,6 +41,42 @@ module PhlexIcons
           )
         end
       end
+
+      def mini
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 20 20',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            fill_rule: 'evenodd',
+            d:
+              'M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z',
+            clip_rule: 'evenodd'
+          )
+        end
+      end
+
+      def micro
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 16 16',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            fill_rule: 'evenodd',
+            d:
+              'M8 1a3.5 3.5 0 0 0-3.5 3.5V7A1.5 1.5 0 0 0 3 8.5v5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 11.5 7V4.5A3.5 3.5 0 0 0 8 1Zm2 6V4.5a2 2 0 1 0-4 0V7h4Z',
+            clip_rule: 'evenodd'
+          )
+        end
+      end
     end
   end
 end

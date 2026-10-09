@@ -39,6 +39,38 @@ module PhlexIcons
           )
         end
       end
+
+      def mini
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 20 20',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            d:
+              'M3.288 4.818A1.5 1.5 0 0 0 1 6.095v7.81a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905c.155-.096.285-.213.389-.344v2.973a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905a1.5 1.5 0 0 0 0-2.552l-6.323-3.906A1.5 1.5 0 0 0 10 6.095v2.972a1.506 1.506 0 0 0-.389-.343L3.288 4.818Z'
+          )
+        end
+      end
+
+      def micro
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 16 16',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            d:
+              'M2.53 3.956A1 1 0 0 0 1 4.804v6.392a1 1 0 0 0 1.53.848l5.113-3.196c.16-.1.279-.233.357-.383v2.73a1 1 0 0 0 1.53.849l5.113-3.196a1 1 0 0 0 0-1.696L9.53 3.956A1 1 0 0 0 8 4.804v2.731a.992.992 0 0 0-.357-.383L2.53 3.956Z'
+          )
+        end
+      end
     end
   end
 end

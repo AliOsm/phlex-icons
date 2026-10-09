@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Hero
+    class ArrowTrendingUpMicro < Base
+      def view_template
+        render ArrowTrendingUp.new(variant: :micro, **attrs)
+      end
+    end
+  end
+end

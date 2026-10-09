@@ -39,6 +39,38 @@ module PhlexIcons
           )
         end
       end
+
+      def mini
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 20 20',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            d:
+              'M1 13.75V7.182L9.818 16H3.25A2.25 2.25 0 0 1 1 13.75ZM13 6.25v6.568L4.182 4h6.568A2.25 2.25 0 0 1 13 6.25ZM19 4.75a.75.75 0 0 0-1.28-.53l-3 3a.75.75 0 0 0-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 0 0 1.28-.53V4.75ZM2.28 4.22a.75.75 0 0 0-1.06 1.06l10.5 10.5a.75.75 0 1 0 1.06-1.06L2.28 4.22Z'
+          )
+        end
+      end
+
+      def micro
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 16 16',
+          fill: 'currentColor',
+          aria_hidden: 'true',
+          data_slot: 'icon'
+        ) do |s|
+          s.path(
+            d:
+              'M1 10V6.682L6.318 12H3a2 2 0 0 1-2-2ZM10 6v3.318L4.682 4H8a2 2 0 0 1 2 2ZM14.537 4.057A.75.75 0 0 1 15 4.75v6.5a.75.75 0 0 1-1.28.53l-2-2a.75.75 0 0 1-.22-.53v-2.5a.75.75 0 0 1 .22-.53l2-2a.75.75 0 0 1 .817-.163ZM2.78 4.22a.75.75 0 0 0-1.06 1.06l6.5 6.5a.75.75 0 0 0 1.06-1.06l-6.5-6.5Z'
+          )
+        end
+      end
     end
   end
 end
