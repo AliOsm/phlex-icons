@@ -2,7 +2,7 @@
 
 module PhlexIcons
   module Lucide
-    class Music < Base
+    class WifiLock < Base
       def view_template
         svg(
           **attrs,
@@ -14,9 +14,11 @@ module PhlexIcons
           stroke_linecap: 'round',
           stroke_linejoin: 'round'
         ) do |s|
-          s.path(d: 'M9 18V5l12-2v13')
-          s.circle(cx: '6', cy: '18', r: '3')
-          s.circle(cx: '18', cy: '16', r: '3')
+          s.path(d: 'M2 8.82a15 15 0 0120 0')
+          s.path(d: 'M20 16v-2a2 2 0 00-4 0v2')
+          s.path(d: 'M5 12.859a10 10 0 018.436-2.756')
+          s.path(d: 'M8.5 16.429a5 5 0 011.794-1.13')
+          s.rect(x: '14', y: '16', width: '8', height: '5', rx: '1')
         end
       end
     end

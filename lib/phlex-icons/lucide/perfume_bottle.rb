@@ -1,0 +1,35 @@
+# frozen_string_literal: true
+
+# rubocop:disable Metrics/MethodLength
+module PhlexIcons
+  module Lucide
+    class PerfumeBottle < Base
+      def view_template
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          stroke: 'currentColor',
+          stroke_width: '2',
+          stroke_linecap: 'round',
+          stroke_linejoin: 'round'
+        ) do |s|
+          s.path(d: 'M 5 22 H 11.072')
+          s.path(d: 'M15 5 C 23 4 23.328 12.676 20 14.536')
+          s.path(d: 'M15.802 10.308 C 14.776 9.465 14 8.496 14 7')
+          s.path(d: 'M2 2h.01')
+          s.path(d: 'M2 7h.01')
+          s.path(d: 'M5 4.5h.01')
+          s.path(
+            d:
+              'M8.127 22 A 8 8 0 0 1 4 15 3 3 0 0 1 4.879 12.879C 6.879 10.879 10 10 10 7'
+          )
+          s.circle(cx: '18', cy: '18', r: '4')
+          s.rect(x: '9', y: '2', width: '6', height: '5', rx: '1')
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Metrics/MethodLength
