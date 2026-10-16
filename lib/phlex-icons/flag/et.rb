@@ -13,15 +13,15 @@ module PhlexIcons
               s.path(fill_opacity: '.7', d: 'M229.3 6.3h489.3v489.3H229.3z')
             end
           end
+          s.path(fill: '#298c08', d: 'M0 0h512v170.7H0z')
+          s.path(fill: '#ffc621', d: 'M0 170.7h512v170.6H0z')
+          s.path(fill: '#ef2118', d: 'M0 341.3h512V512H0z')
           s.g(
             fill_rule: 'evenodd',
             stroke_width: '1pt',
             clip_path: 'url(#et-a)',
-            transform: 'translate(-240 -6.6)scale(1.046)'
+            transform: 'translate(-245.5 -14.1)scale(1.046)'
           ) do
-            s.path(fill: '#ffc621', d: 'M2 9.7h991.8v475.9H1.9z')
-            s.path(fill: '#ef2118', d: 'M0 333.6h993.2v162H0z')
-            s.path(fill: '#298c08', d: 'M2 6.3h991.8v172H2z')
             s.circle(
               cx: '534.2',
               cy: '353',
@@ -47,15 +47,15 @@ module PhlexIcons
               s.path(fill_opacity: '.7', d: 'M-61.3 0h682.7v512H-61.3z')
             end
           end
+          s.path(fill: '#298c08', d: 'M0 0h640v160H0z')
+          s.path(fill: '#ffc621', d: 'M0 160h640v160H0z')
+          s.path(fill: '#ef2118', d: 'M0 320h640v160H0z')
           s.g(
             fill_rule: 'evenodd',
             stroke_width: '1pt',
             clip_path: 'url(#et-a)',
-            transform: 'translate(57.5)scale(.94)'
+            transform: 'matrix(.94 0 0 .94 74 -8.5)'
           ) do
-            s.path(fill: '#ffc621', d: 'M-238 3.5H800v498H-238z')
-            s.path(fill: '#ef2118', d: 'M-240 342.5H799.3V512H-240z')
-            s.path(fill: '#298c08', d: 'M-238 0H800v180H-238z')
             s.circle(
               cx: '534.2',
               cy: '353',
