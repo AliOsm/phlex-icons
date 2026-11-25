@@ -20,13 +20,13 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M8.9999 13C8.9999 14.6569 10.343 16 11.9999 16C13.6568 16 14.9999 14.6569 14.9999 13',
+              'M8.99989 13C8.99989 14.6569 10.343 16 11.9999 16C13.6567 16 14.9999 14.6569 14.9999 13',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12.0001 20V22M14.9999 19L16.9999 20.4999M8.9999 19L6.9999 20.5',
+            d: 'M12.0001 20V22M14.9999 19L16.9999 20.4999M8.99991 19L6.99991 20.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

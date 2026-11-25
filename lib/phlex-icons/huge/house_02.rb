@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/BlockLength,Metrics/MethodLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class House02 < Base
@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M2 10H8.13008C8.36879 10 8.59962 9.90452 8.78087 9.7308L11.3492 7.2692C11.7237 6.91027 12.2763 6.91027 12.6508 7.2692L15.2191 9.7308C15.4004 9.90452 15.6312 10 15.8699 10H22',
+              'M3 14.5V17C3 18.8856 3 19.8284 3.58579 20.4142C4.17157 21 5.11438 21 7 21C8.88562 21 9.82843 21 10.4142 20.4142C11 19.8284 11 18.8856 11 17V14.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -21,57 +21,44 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M3 10L4.961 5.42432C5.82259 3.41397 6.45038 3 8.63758 3H15.3624C17.5496 3 18.1774 3.41397 19.039 5.42432L21 10',
+              'M2 15L4.32414 12.8035C5.5964 11.6012 6.23253 11 7 11C7.76747 11 8.4036 11.6012 9.67586 12.8035L12 15',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M3 10V21',
+            d: 'M7 18V21',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M21 10V21',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M2 21L22 21',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M12.008 11L11.999 11',
-            stroke: 'currentColor',
-            stroke_width: '2',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M9.5 21V16.5C9.5 15.6716 10.1716 15 11 15H13C13.8284 15 14.5 15.6716 14.5 16.5V21',
+              'M21 7.5V17C21 18.8856 21 19.8284 20.4142 20.4142C19.8284 21 18.8856 21 17 21H15M11 10V7.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M6 14H7',
+            d:
+              'M10 8L13.2971 4.84309C14.5804 3.61436 15.222 3 16 3C16.778 3 17.4196 3.61436 18.7029 4.84309L22 8',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M17 14L18 14',
+            d: 'M16 9.625V10.375M15.25 9.25H16.75V10.75H15.25V9.25Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 3V6',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -82,4 +69,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/BlockLength,Metrics/MethodLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

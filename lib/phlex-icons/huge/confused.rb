@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class Confused < Base
@@ -20,14 +21,15 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8.00897 9H8M16 9H15.991',
+            d: 'M10 17L15 15',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M10 16L15 14',
+            d:
+              'M15.625 9.387V9.91649M8.375 9.387V9.91649M8.75 9.75C8.75 9.33579 8.58211 9 8.375 9C8.16789 9 8 9.33579 8 9.75C8 10.1642 8.16789 10.5 8.375 10.5C8.58211 10.5 8.75 10.1642 8.75 9.75ZM16 9.75C16 9.33579 15.8321 9 15.625 9C15.4179 9 15.25 9.33579 15.25 9.75C15.25 10.1642 15.4179 10.5 15.625 10.5C15.8321 10.5 16 10.1642 16 9.75Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -38,3 +40,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Layout/LineLength

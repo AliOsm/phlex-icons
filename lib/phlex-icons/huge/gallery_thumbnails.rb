@@ -1,0 +1,59 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
+module PhlexIcons
+  module Huge
+    class GalleryThumbnails < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M3 9V11C3 13.357 3 14.5355 3.73223 15.2678C4.46447 16 5.64298 16 8 16H16C18.357 16 19.5355 16 20.2678 15.2678C21 14.5355 21 13.357 21 11V9C21 6.64298 21 5.46447 20.2678 4.73223C19.5355 4 18.357 4 16 4H8C5.64298 4 4.46447 4 3.73223 4.73223C3 5.46447 3 6.64298 3 9Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M4.5 20.25V20.5M5 20.5C5 20.7761 4.77614 21 4.5 21C4.22386 21 4 20.7761 4 20.5C4 20.2239 4.22386 20 4.5 20C4.77614 20 5 20.2239 5 20.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M9.5 20.25V20.5M10 20.5C10 20.7761 9.77614 21 9.5 21C9.22386 21 9 20.7761 9 20.5C9 20.2239 9.22386 20 9.5 20C9.77614 20 10 20.2239 10 20.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M14.5 20.25V20.5M15 20.5C15 20.7761 14.7761 21 14.5 21C14.2239 21 14 20.7761 14 20.5C14 20.2239 14.2239 20 14.5 20C14.7761 20 15 20.2239 15 20.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M19.5 20.25V20.5M20 20.5C20 20.7761 19.7761 21 19.5 21C19.2239 21 19 20.7761 19 20.5C19 20.2239 19.2239 20 19.5 20C19.7761 20 20 20.2239 20 20.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

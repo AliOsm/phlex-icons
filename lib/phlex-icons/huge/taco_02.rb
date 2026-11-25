@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Taco02 < Base
@@ -25,15 +25,22 @@ module PhlexIcons
             stroke_linecap: 'round'
           )
           s.path(
-            d: 'M5.49722 17H5.48828M6.99844 14L6.9895 14',
+            d:
+              'M6.125 17H6M6.25 17C6.25 17.1381 6.13807 17.25 6 17.25C5.86193 17.25 5.75 17.1381 5.75 17C5.75 16.8619 5.86193 16.75 6 16.75C6.13807 16.75 6.25 16.8619 6.25 17Z',
             stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M8.125 14H8M8.25 14C8.25 14.1381 8.13807 14.25 8 14.25C7.86193 14.25 7.75 14.1381 7.75 14C7.75 13.8619 7.86193 13.75 8 13.75C8.13807 13.75 8.25 13.8619 8.25 14Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

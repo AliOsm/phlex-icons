@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class GitPullRequestDraft < Base
@@ -40,15 +40,22 @@ module PhlexIcons
             stroke_width: '1.5'
           )
           s.path(
-            d: 'M18 11H18.009M18 6H18.009',
+            d:
+              'M18.125 11H18M18.25 11C18.25 11.1381 18.1381 11.25 18 11.25C17.8619 11.25 17.75 11.1381 17.75 11C17.75 10.8619 17.8619 10.75 18 10.75C18.1381 10.75 18.25 10.8619 18.25 11Z',
             stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M18.125 6H18M18.25 6C18.25 6.13807 18.1381 6.25 18 6.25C17.8619 6.25 17.75 6.13807 17.75 6C17.75 5.86193 17.8619 5.75 18 5.75C18.1381 5.75 18.25 5.86193 18.25 6Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
         end
       end
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

@@ -12,6 +12,7 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
+            opacity: '0.4',
             d:
               'M14.8541 4H9.14593C6.6503 4 4.52873 5.68344 3.75294 8.02892C3.49753 8.80111 3.36982 9.18721 3.69065 9.59361C4.01149 10 4.53377 10 5.57833 10H18.4217C19.4662 10 19.9885 10 20.3093 9.59361C20.6302 9.18721 20.5025 8.80111 20.2471 8.02892C19.4713 5.68344 17.3497 4 14.8541 4Z',
             stroke: 'currentColor',
@@ -28,18 +29,20 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M15.0078 7L14.9988 7',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
+            opacity: '0.4',
             d: 'M10.5 6.5L9.5 7.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
+          )
+          s.path(
+            opacity: '0.4',
+            d:
+              'M15.125 7H15M15.25 7C15.25 7.13807 15.1381 7.25 15 7.25C14.8619 7.25 14.75 7.13807 14.75 7C14.75 6.86193 14.8619 6.75 15 6.75C15.1381 6.75 15.25 6.86193 15.25 7Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
         end
       end

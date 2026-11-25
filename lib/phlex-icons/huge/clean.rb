@@ -40,9 +40,10 @@ module PhlexIcons
             stroke_width: '1.5'
           )
           s.path(
-            d: 'M11 4V4.1',
+            d:
+              'M11.125 4H11M11.25 4C11.25 4.13807 11.1381 4.25 11 4.25C10.8619 4.25 10.75 4.13807 10.75 4C10.75 3.86193 10.8619 3.75 11 3.75C11.1381 3.75 11.25 3.86193 11.25 4Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )

@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class Notification02 < Base
@@ -12,8 +11,14 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d:
-              'M21 17.5H3C4.50991 16.896 5.5 15.4336 5.5 13.8074V9C5.5 5.41015 8.41015 2.5 12 2.5C15.5899 2.5 18.5 5.41015 18.5 9V13.8074C18.5 15.4336 19.4901 16.896 21 17.5Z',
+            d: 'M19 18V9.5C19 5.63401 15.866 2.5 12 2.5C8.13401 2.5 5 5.63401 5 9.5V18',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20.5 18H3.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -21,10 +26,9 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M14.5 20.5C13.8557 21.1186 12.9733 21.5 12 21.5C11.0267 21.5 10.1443 21.1186 9.5 20.5',
+              'M13.5 20C13.5 20.8284 12.8284 21.5 12 21.5M10.5 20C10.5 20.8284 11.1716 21.5 12 21.5M12 21.5V20',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
         end
@@ -32,4 +36,3 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength

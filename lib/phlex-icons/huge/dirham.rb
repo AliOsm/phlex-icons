@@ -43,11 +43,11 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12 13.001V13.011',
+            d:
+              'M12.125 13.001H12M12.25 13.001C12.25 13.139 12.1381 13.251 12 13.251C11.8619 13.251 11.75 13.139 11.75 13.001C11.75 12.8629 11.8619 12.751 12 12.751C12.1381 12.751 12.25 12.8629 12.25 13.001Z',
             stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
         end
       end

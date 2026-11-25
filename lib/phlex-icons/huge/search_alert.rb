@@ -1,0 +1,48 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
+module PhlexIcons
+  module Huge
+    class SearchAlert < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d: 'M17.4922 17.5L21.9922 22',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M19.9922 11C19.9922 6.02944 15.9628 2 10.9922 2C6.02163 2 1.99219 6.02944 1.99219 11C1.99219 15.9706 6.02163 20 10.9922 20C15.9628 20 19.9922 15.9706 19.9922 11Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M10.9922 7L10.9922 11',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M11.1172 14.75L10.9922 14.75M11.2422 14.75C11.2422 14.8881 11.1303 15 10.9922 15C10.8541 15 10.7422 14.8881 10.7422 14.75C10.7422 14.6119 10.8541 14.5 10.9922 14.5C11.1303 14.5 11.2422 14.6119 11.2422 14.75Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

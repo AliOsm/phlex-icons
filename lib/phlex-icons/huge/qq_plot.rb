@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class QqPlot < Base
@@ -16,47 +16,53 @@ module PhlexIcons
               'M21 21H10C6.70017 21 5.05025 21 4.02513 19.9749C3 18.9497 3 17.2998 3 14V3',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M4.5 19.5001L21 3.00012',
+            d: 'M4.5 19.5001L20 4.00012',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M15 4H15.009',
+            d:
+              'M13.375 17.25H13.25M13.5 17.25C13.5 17.3881 13.3881 17.5 13.25 17.5C13.1119 17.5 13 17.3881 13 17.25C13 17.1119 13.1119 17 13.25 17C13.3881 17 13.5 17.1119 13.5 17.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8 3H8.00898',
+            d:
+              'M19.375 11.25H19.25M19.5 11.25C19.5 11.3881 19.3881 11.5 19.25 11.5C19.1119 11.5 19 11.3881 19 11.25C19 11.1119 19.1119 11 19.25 11C19.3881 11 19.5 11.1119 19.5 11.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8 9H8.00898',
+            d:
+              'M14.375 4.25H14.25M14.5 4.25C14.5 4.38807 14.3881 4.5 14.25 4.5C14.1119 4.5 14 4.38807 14 4.25C14 4.11193 14.1119 4 14.25 4C14.3881 4 14.5 4.11193 14.5 4.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M20 11H20.009',
+            d:
+              'M9.375 6.25H9.25M9.5 6.25C9.5 6.38807 9.38807 6.5 9.25 6.5C9.11193 6.5 9 6.38807 9 6.25C9 6.11193 9.11193 6 9.25 6C9.38807 6 9.5 6.11193 9.5 6.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M13 17H13.009',
+            d:
+              'M7.375 11.25H7.25M7.5 11.25C7.5 11.3881 7.38807 11.5 7.25 11.5C7.11193 11.5 7 11.3881 7 11.25C7 11.1119 7.11193 11 7.25 11C7.38807 11 7.5 11.1119 7.5 11.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
@@ -65,4 +71,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

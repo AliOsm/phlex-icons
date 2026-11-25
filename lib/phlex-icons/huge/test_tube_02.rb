@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class TestTube02 < Base
@@ -31,16 +31,18 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M11 18.002L11.0087 17.9996',
+            d:
+              'M13.125 14H13M13.25 14C13.25 14.1381 13.1381 14.25 13 14.25C12.8619 14.25 12.75 14.1381 12.75 14C12.75 13.8619 12.8619 13.75 13 13.75C13.1381 13.75 13.25 13.8619 13.25 14Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M13 14.002L13.0087 13.9996',
+            d:
+              'M11.125 18H11M11.25 18C11.25 18.1381 11.1381 18.25 11 18.25C10.8619 18.25 10.75 18.1381 10.75 18C10.75 17.8619 10.8619 17.75 11 17.75C11.1381 17.75 11.25 17.8619 11.25 18Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
@@ -49,4 +51,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

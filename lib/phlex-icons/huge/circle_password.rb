@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class CirclePassword < Base
@@ -11,13 +11,6 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.path(
-            d: 'M13.9928 15L14 15M10 15L10.0072 15',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
           s.path(
             d:
               'M5 15C5 11.134 8.13401 8 12 8C15.866 8 19 11.134 19 15C19 18.866 15.866 22 12 22C8.13401 22 5 18.866 5 15Z',
@@ -31,9 +24,23 @@ module PhlexIcons
             stroke_width: '1.5',
             stroke_linecap: 'round'
           )
+          s.path(
+            d:
+              'M10.125 15H10M10.25 15C10.25 15.1381 10.1381 15.25 10 15.25C9.86193 15.25 9.75 15.1381 9.75 15C9.75 14.8619 9.86193 14.75 10 14.75C10.1381 14.75 10.25 14.8619 10.25 15Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M14.125 15H14M14.25 15C14.25 15.1381 14.1381 15.25 14 15.25C13.8619 15.25 13.75 15.1381 13.75 15C13.75 14.8619 13.8619 14.75 14 14.75C14.1381 14.75 14.25 14.8619 14.25 15Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

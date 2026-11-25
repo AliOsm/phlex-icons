@@ -27,14 +27,14 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M2.69806 15.8021L15.8058 2.69434',
+            d: 'M2.69803 15.8021L15.8058 2.69434',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M21.3058 8.19434L8.19806 21.3021',
+            d: 'M21.3058 8.19434L8.19803 21.3021',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

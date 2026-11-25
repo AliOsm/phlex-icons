@@ -13,26 +13,35 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M20.9977 12.5C20.9977 12.5 21 12 21 11.5C21 7.02166 21 4.78249 19.6088 3.39124C18.2175 2 15.9783 2 11.5 2C7.02166 2 4.78249 2 3.39124 3.39124C2 4.78249 2 7.02166 2 11.5C2 15.9783 2 18.2175 3.39124 19.6088C4.78249 21 7.02166 21 11.5 21C12.0307 21 12.5 20.9977 12.5 20.9977',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M2 7H21',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M10 16H11.5M6 16H7M10 12H16M6 12H7',
+              'M11.5 20.5C7.25736 20.5 5.13604 20.5 3.81802 19.182C2.5 17.864 2.5 15.7426 2.5 11.5C2.5 7.25736 2.5 5.13604 3.81802 3.81802C5.13604 2.5 7.25736 2.5 11.5 2.5C15.7426 2.5 17.864 2.5 19.182 3.81802C20.5 5.13604 20.5 7.25736 20.5 11.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M15 18.5H22M18.5 22L18.5 15',
+            d: 'M3 7.5H20',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M11.5 16H12.5M6.5 16H7.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M11.5 12H16.5M6.5 12H7.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M18.4943 15.5V21.5M21.5 18.4935L15.5 18.4935',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

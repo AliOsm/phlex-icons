@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Surprise < Base
@@ -31,9 +31,10 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8.00897 9H8M16 9H15.991',
+            d:
+              'M16.125 8.387V8.91649M7.875 8.387V8.91649M8.25 8.75C8.25 8.33579 8.08211 8 7.875 8C7.66789 8 7.5 8.33579 7.5 8.75C7.5 9.16421 7.66789 9.5 7.875 9.5C8.08211 9.5 8.25 9.16421 8.25 8.75ZM16.5 8.75C16.5 8.33579 16.3321 8 16.125 8C15.9179 8 15.75 8.33579 15.75 8.75C15.75 9.16421 15.9179 9.5 16.125 9.5C16.3321 9.5 16.5 9.16421 16.5 8.75Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
@@ -42,4 +43,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

@@ -11,7 +11,7 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d: 'M19.0005 4.99988L5.00049 18.9999M5.00049 4.99988L19.0005 18.9999',
+            d: 'M18 6L6.00081 17.9992M17.9992 18L6 6.00085',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

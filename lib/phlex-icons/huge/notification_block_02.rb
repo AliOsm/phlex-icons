@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class NotificationBlock02 < Base
@@ -12,8 +12,14 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d:
-              'M18.5 11.5V14.3074C18.5 15.9336 19.4901 17.396 21 18H3C4.50991 17.396 5.5 15.9336 5.5 14.3074V9.5C5.5 5.91015 8.41015 3 12 3',
+            d: 'M18.5 12V18.5M4.5 18.5V10C4.5 6.13401 7.63401 3 11.5 3',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20 18.5H3',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -21,15 +27,14 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M15.05 3.05L19.95 7.95M21 5.5C21 3.567 19.433 2 17.5 2C15.567 2 14 3.567 14 5.5C14 7.433 15.567 9 17.5 9C19.433 9 21 7.433 21 5.5Z',
+              'M13 20.5C13 21.3284 12.3284 22 11.5 22M10 20.5C10 21.3284 10.6716 22 11.5 22M11.5 22V20.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M14.5 21C13.8557 21.6186 12.9733 22 12 22C11.0267 22 10.1443 21.6186 9.5 21',
+              'M15.5 3.5L19.5 7.5M21 5.5C21 3.567 19.433 2 17.5 2C15.567 2 14 3.567 14 5.5C14 7.433 15.567 9 17.5 9C19.433 9 21 7.433 21 5.5Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -40,4 +45,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

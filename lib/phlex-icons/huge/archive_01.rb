@@ -28,13 +28,6 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M6 17H6.00898',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
             d: 'M2 7H10',
             stroke: 'currentColor',
             stroke_width: '1.5',
@@ -42,14 +35,23 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M17.9912 17.0034L17.9999 17.0011',
+            d: 'M12 9.00019L19 7',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12 9.00019L19 7',
+            d:
+              'M6.125 17H6M6.25 17C6.25 17.1381 6.13807 17.25 6 17.25C5.86193 17.25 5.75 17.1381 5.75 17C5.75 16.8619 5.86193 16.75 6 16.75C6.13807 16.75 6.25 16.8619 6.25 17Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.7307 16.75H17.6057M17.8557 16.75C17.8557 16.8881 17.7437 17 17.6057 17C17.4676 17 17.3557 16.8881 17.3557 16.75C17.3557 16.6119 17.4676 16.5 17.6057 16.5C17.7437 16.5 17.8557 16.6119 17.8557 16.75Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

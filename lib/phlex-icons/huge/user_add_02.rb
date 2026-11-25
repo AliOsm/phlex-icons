@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class UserAdd02 < Base
@@ -11,23 +10,25 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
+          s.circle(
+            cx: '10',
+            cy: '7',
+            r: '4',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M19 8V14M22 11H16',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
           s.path(
             d:
-              'M14 8.5C14 5.73858 11.7614 3.5 9 3.5C6.23858 3.5 4 5.73858 4 8.5C4 11.2614 6.23858 13.5 9 13.5C11.7614 13.5 14 11.2614 14 8.5Z',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M16 20.5C16 16.634 12.866 13.5 9 13.5C5.13401 13.5 2 16.634 2 20.5',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M19 9V15M22 12L16 12',
+              'M10 14C5 14 2 16.5 2 19C2 20.1046 2.89543 21 4 21H16C17.1046 21 18 20.1046 18 19C18 16.5 15 14 10 14Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -38,4 +39,3 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength

@@ -1,0 +1,63 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
+module PhlexIcons
+  module Huge
+    class PlugZap < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d: 'M11.9922 8.99988L9.49219 11.4999',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M14.9922 11.9999L12.4922 14.4999',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4.99219 18.9999L2.99237 21.0002',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M7.19135 9.52039L14.4716 16.8006',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M7.71255 10.0399L6.15251 11.6C5.32501 12.4275 4.86013 13.5498 4.86013 14.72C4.86013 14.8523 4.80343 14.9876 4.70894 15.1227C4.03073 16.0921 3.71818 17.2257 4.55476 18.0623L5.93031 19.4378C6.76675 20.2743 7.90038 19.9622 8.86953 19.2839C9.00474 19.1893 9.14021 19.1325 9.2726 19.1325C10.4429 19.1325 11.5652 18.6676 12.3927 17.8401L13.9527 16.2801L7.71255 10.0399Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M18.9922 2.99988L17.4072 4.84909C16.7965 5.56152 16.4912 5.91773 16.625 6.20881C16.7589 6.49988 17.2281 6.49988 18.1664 6.49988H18.5398C19.5813 6.49988 20.1021 6.49988 20.229 6.81109C20.3559 7.12229 19.9836 7.48644 19.2391 8.21474L17.4141 9.99988',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

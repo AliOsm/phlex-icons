@@ -7,34 +7,12 @@ module PhlexIcons
       def stroke
         svg(
           **attrs,
-          width: '25',
-          viewbox: '0 0 25 24',
+          viewbox: '0 0 24 24',
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.path(
-            d:
-              'M2.5 6C2.5 2.69067 3.19067 2 6.5 2H18.5C21.8093 2 22.5 2.69067 22.5 6V18C22.5 21.3093 21.8093 22 18.5 22H6.5C3.19067 22 2.5 21.3093 2.5 18V6Z',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M6.5 19H10.5',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M18.5 19.0089V19',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
           s.circle(
-            cx: '12.5',
+            cx: '12',
             cy: '10',
             r: '4',
             stroke: 'currentColor',
@@ -43,10 +21,41 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M16 10H17.5M12.5 13.5V15M9 10H7.5M12.5 6.5V5',
+            d:
+              'M14.1 12.1L15.5 13.5M9.9 12.1L8.5 13.5M9.9 7.9L8.5 6.5M14.1 7.9L15.5 6.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M2.5 12C2.5 7.77027 2.5 5.6554 3.69797 4.25276C3.86808 4.05358 4.05358 3.86808 4.25276 3.69797C5.6554 2.5 7.77027 2.5 12 2.5C16.2297 2.5 18.3446 2.5 19.7472 3.69797C19.9464 3.86808 20.1319 4.05358 20.302 4.25276C21.5 5.6554 21.5 7.77027 21.5 12C21.5 16.2297 21.5 18.3446 20.302 19.7472C20.1319 19.9464 19.9464 20.1319 19.7472 20.302C18.3446 21.5 16.2297 21.5 12 21.5C7.77027 21.5 5.6554 21.5 4.25276 20.302C4.05358 20.1319 3.86808 19.9464 3.69797 19.7472C2.5 18.3446 2.5 16.2297 2.5 12Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
+          s.path(
+            d:
+              'M12.125 18H12M12.25 18C12.25 18.1381 12.1381 18.25 12 18.25C11.8619 18.25 11.75 18.1381 11.75 18C11.75 17.8619 11.8619 17.75 12 17.75C12.1381 17.75 12.25 17.8619 12.25 18Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M16.125 18H16M16.25 18C16.25 18.1381 16.1381 18.25 16 18.25C15.8619 18.25 15.75 18.1381 15.75 18C15.75 17.8619 15.8619 17.75 16 17.75C16.1381 17.75 16.25 17.8619 16.25 18Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M8.125 18H8M8.25 18C8.25 18.1381 8.13807 18.25 8 18.25C7.86193 18.25 7.75 18.1381 7.75 18C7.75 17.8619 7.86193 17.75 8 17.75C8.13807 17.75 8.25 17.8619 8.25 18Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
         end
       end

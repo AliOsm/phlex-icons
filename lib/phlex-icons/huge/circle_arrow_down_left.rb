@@ -11,16 +11,17 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.circle(
-            cx: '12',
-            cy: '12',
-            r: '10',
+          s.path(
+            d:
+              'M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z',
             stroke: 'currentColor',
-            stroke_width: '1.5'
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M9.22687 14.7731L15 9M9.22687 14.7731C9.73219 15.2784 12.1154 14.7834 12.8351 14.7731M9.22687 14.7731C8.72156 14.2678 9.21665 11.8846 9.22687 11.1649',
+              'M9 10V12C9 13.4142 9 14.1213 9.43934 14.5607C9.87868 15 10.5858 15 12 15H14M10 14L15 9',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

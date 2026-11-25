@@ -1,0 +1,32 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Huge
+    class CornerLeftDown < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M9 19L9 12C9 8.22876 9 6.34314 10.1716 5.17157C11.3431 4 13.2288 4 17 4L20 4',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M4 15C4 15 7.68244 20 9.00004 20C10.3176 20 14 15 14 15',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end

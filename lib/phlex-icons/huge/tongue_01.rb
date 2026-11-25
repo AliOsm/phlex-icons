@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Tongue01 < Base
@@ -21,15 +21,8 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8.00897 9H8M16 9H15.991',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
             d:
-              'M8 14C8.91212 15.2144 10.3643 16 12 16C13.6357 16 15.0879 15.2144 16 14',
+              'M15.5 15.8658L14.5 18C15.9945 17.4012 17 16.2819 17 15H7C7 16.2819 8.0055 17.4012 9.5 18L8.5 15.8658',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -37,7 +30,15 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M10 16V17.5C10 18.6046 10.8954 19.5 12 19.5C13.1046 19.5 14 18.6046 14 17.5V16',
+              'M9.5 15V19.5C9.5 20.8807 10.6193 22 12 22C13.3807 22 14.5 20.8807 14.5 19.5V15',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M6.5 8.8C6.84205 8.31422 7.38662 8 8 8C8.61338 8 9.15795 8.31422 9.5 8.8M14.5 8.8C14.842 8.31422 15.3866 8 16 8C16.6134 8 17.158 8.31422 17.5 8.8',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -48,4 +49,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

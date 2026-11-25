@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class BowlingBall < Base
@@ -18,21 +19,24 @@ module PhlexIcons
             stroke_width: '1.5'
           )
           s.path(
-            d: 'M15 6V6.01',
+            d:
+              'M18.125 9H18M18.25 9C18.25 9.13807 18.1381 9.25 18 9.25C17.8619 9.25 17.75 9.13807 17.75 9C17.75 8.86193 17.8619 8.75 18 8.75C18.1381 8.75 18.25 8.86193 18.25 9Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
-            d: 'M18 9V9.01',
+            d:
+              'M15.125 6H15M15.25 6C15.25 6.13807 15.1381 6.25 15 6.25C14.8619 6.25 14.75 6.13807 14.75 6C14.75 5.86193 14.8619 5.75 15 5.75C15.1381 5.75 15.25 5.86193 15.25 6Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round'
           )
           s.path(
-            d: 'M14 10V10.01',
+            d:
+              'M14.125 10H14M14.25 10C14.25 10.1381 14.1381 10.25 14 10.25C13.8619 10.25 13.75 10.1381 13.75 10C13.75 9.86193 13.8619 9.75 14 9.75C14.1381 9.75 14.25 9.86193 14.25 10Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round'
           )
         end
@@ -40,3 +44,4 @@ module PhlexIcons
     end
   end
 end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength
