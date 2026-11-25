@@ -13,19 +13,28 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M11.5 21C7.02166 21 4.78249 21 3.39124 19.6088C2 18.2175 2 15.9783 2 11.5C2 7.02166 2 4.78249 3.39124 3.39124C4.78249 2 7.02166 2 11.5 2C15.9783 2 18.2175 2 19.6088 3.39124C21 4.78249 21 7.02166 21 11.5',
+              'M20.4993 12.5C20.5 12.1804 20.5 11.8473 20.5 11.5C20.5 7.25736 20.5 5.13604 19.182 3.81802C17.864 2.5 15.7426 2.5 11.5 2.5C7.25736 2.5 5.13604 2.5 3.81802 3.81802C2.5 5.13604 2.5 7.25736 2.5 11.5C2.5 15.7426 2.5 17.864 3.81802 19.182C5.13604 20.5 7.25736 20.5 11.5 20.5C11.8473 20.5 12.1804 20.5 12.5 20.4993',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M2 7H21',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
+            stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M10 16H11M6 16H7M10 12H14M6 12H7',
+            d: 'M3 7.5H20',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M11.5 16H12.5M6.5 16H7.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M11.5 12H16.5M6.5 12H7.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -33,7 +42,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M20.4 20.4L22 22M21.2 17.6C21.2 15.6118 19.5882 14 17.6 14C15.6118 14 14 15.6118 14 17.6C14 19.5882 15.6118 21.2 17.6 21.2C19.5882 21.2 21.2 19.5882 21.2 17.6Z',
+              'M20 20L21.5 21.5M20.5 18C20.5 16.6193 19.3807 15.5 18 15.5C16.6193 15.5 15.5 16.6193 15.5 18C15.5 19.3807 16.6193 20.5 18 20.5C19.3807 20.5 20.5 19.3807 20.5 18Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

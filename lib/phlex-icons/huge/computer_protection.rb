@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/BlockLength
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class ComputerProtection < Base
@@ -13,20 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M22 13C21.9221 14.8723 21.671 16.0203 20.8614 16.8284C19.6878 18 17.7989 18 14.021 18H10.014C6.23617 18 4.34725 18 3.17362 16.8284C2 15.6569 2 13.7712 2 10C2 6.22876 2 4.34315 3.17362 3.17157C4.34725 2 6.23617 2 10.014 2H11',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(d: 'M12 18V22', stroke: 'currentColor', stroke_width: '1.5')
-          s.path(
-            d: 'M8 22H16',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M11 15H13',
+              'M14 22H16M14 22C13.1716 22 12.5 21.3284 12.5 20.5V18L12 18M14 22H10M10 22H8M10 22C10.8284 22 11.5 21.3284 11.5 20.5V18L12 18M12 18V22',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -34,7 +21,15 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M22 5.5V3C20 3 18.5 2 18.5 2C18.5 2 17 3 15 3V5.5C15 9 18.5 10 18.5 10C18.5 10 22 9 22 5.5Z',
+              'M11 4H8C5.17157 4 3.75736 4 2.87868 4.87868C2 5.75736 2 7.17157 2 10V12C2 14.8284 2 16.2426 2.87868 17.1213C3.75736 18 5.17157 18 8 18H16C18.8284 18 20.2426 18 21.1213 17.1213C21.8897 16.3529 21.9862 15.175 21.9983 13',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M22 5.62043V3.6493C22 3.3393 21.7723 3.08201 21.477 3.02921C20.2869 2.81643 19.299 2.34309 18.817 2.08062C18.6197 1.97313 18.3803 1.97313 18.183 2.08062C17.701 2.34309 16.7131 2.81643 15.523 3.02921C15.2277 3.08201 15 3.3393 15 3.6493V5.62043C15 8.19182 17.5424 9.59437 18.2935 9.9526C18.426 10.0158 18.574 10.0158 18.7065 9.9526C19.4576 9.59437 22 8.19182 22 5.62043Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -45,4 +40,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/BlockLength
+# rubocop:enable Layout/LineLength

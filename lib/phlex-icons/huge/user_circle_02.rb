@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class UserCircle02 < Base
@@ -11,21 +11,27 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.path(
-            d:
-              'M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z',
+          s.circle(
+            cx: '12',
+            cy: '8.83984',
+            r: '2.5',
             stroke: 'currentColor',
-            stroke_width: '1.5'
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M14.75 9.5C14.75 11.0188 13.5188 12.25 12 12.25C10.4812 12.25 9.25 11.0188 9.25 9.5C9.25 7.98122 10.4812 6.75 12 6.75C13.5188 6.75 14.75 7.98122 14.75 9.5Z',
+              'M16.7715 20.5C17.7295 17.3599 15.5598 14.1298 12.4156 14.0153L11.996 14L11.5844 14.015C8.44018 14.1297 6.27053 17.3598 7.22847 20.5',
             stroke: 'currentColor',
-            stroke_width: '1.5'
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
-          s.path(
-            d:
-              'M5.49994 19.0001L6.06034 18.0194C6.95055 16.4616 8.60727 15.5001 10.4016 15.5001H13.5983C15.3926 15.5001 17.0493 16.4616 17.9395 18.0194L18.4999 19.0001',
+          s.circle(
+            cx: '12',
+            cy: '12',
+            r: '10',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -36,4 +42,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

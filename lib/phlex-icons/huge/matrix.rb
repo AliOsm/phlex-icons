@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength,Metrics/MethodLength
 module PhlexIcons
   module Huge
     class Matrix < Base
@@ -21,9 +21,73 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M6.99981 8H7.00878M11.9953 8H12.0043M16.9908 8H16.9998M6.99981 12H7.00878M6.99981 16H7.00878M11.9953 12H12.0043M11.9953 16H12.0043M16.9908 12H16.9998M16.9908 16H16.9998',
+              'M12.125 8H12M12.25 8C12.25 8.13807 12.1381 8.25 12 8.25C11.8619 8.25 11.75 8.13807 11.75 8C11.75 7.86193 11.8619 7.75 12 7.75C12.1381 7.75 12.25 7.86193 12.25 8Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M12.125 12H12M12.25 12C12.25 12.1381 12.1381 12.25 12 12.25C11.8619 12.25 11.75 12.1381 11.75 12C11.75 11.8619 11.8619 11.75 12 11.75C12.1381 11.75 12.25 11.8619 12.25 12Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M12.125 16H12M12.25 16C12.25 16.1381 12.1381 16.25 12 16.25C11.8619 16.25 11.75 16.1381 11.75 16C11.75 15.8619 11.8619 15.75 12 15.75C12.1381 15.75 12.25 15.8619 12.25 16Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M7.125 8H7M7.25 8C7.25 8.13807 7.13807 8.25 7 8.25C6.86193 8.25 6.75 8.13807 6.75 8C6.75 7.86193 6.86193 7.75 7 7.75C7.13807 7.75 7.25 7.86193 7.25 8Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M7.125 12H7M7.25 12C7.25 12.1381 7.13807 12.25 7 12.25C6.86193 12.25 6.75 12.1381 6.75 12C6.75 11.8619 6.86193 11.75 7 11.75C7.13807 11.75 7.25 11.8619 7.25 12Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M7.125 16H7M7.25 16C7.25 16.1381 7.13807 16.25 7 16.25C6.86193 16.25 6.75 16.1381 6.75 16C6.75 15.8619 6.86193 15.75 7 15.75C7.13807 15.75 7.25 15.8619 7.25 16Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.125 8H17M17.25 8C17.25 8.13807 17.1381 8.25 17 8.25C16.8619 8.25 16.75 8.13807 16.75 8C16.75 7.86193 16.8619 7.75 17 7.75C17.1381 7.75 17.25 7.86193 17.25 8Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.125 12H17M17.25 12C17.25 12.1381 17.1381 12.25 17 12.25C16.8619 12.25 16.75 12.1381 16.75 12C16.75 11.8619 16.8619 11.75 17 11.75C17.1381 11.75 17.25 11.8619 17.25 12Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.125 16H17M17.25 16C17.25 16.1381 17.1381 16.25 17 16.25C16.8619 16.25 16.75 16.1381 16.75 16C16.75 15.8619 16.8619 15.75 17 15.75C17.1381 15.75 17.25 15.8619 17.25 16Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
@@ -32,4 +96,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength,Metrics/MethodLength

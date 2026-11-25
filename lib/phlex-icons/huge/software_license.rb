@@ -13,40 +13,29 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z',
-            stroke: 'currentColor',
-            stroke_width: '1.5'
-          )
-          s.path(
-            d: 'M2.5 9H21.5',
+              'M18 19.6231C18.6891 19.4279 19.2323 19.1317 19.682 18.682C21 17.364 21 15.2426 21 11C21 6.75736 21 4.63604 19.682 3.31802C18.364 2 16.2426 2 12 2C7.75736 2 5.63604 2 4.31802 3.31802C3 4.63604 3 6.75736 3 11C3 15.2426 3 17.364 4.31802 18.682C4.76772 19.1317 5.31093 19.4279 6 19.6231',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M6.99981 6H7.00879',
-            stroke: 'currentColor',
-            stroke_width: '2',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M10.9998 6H11.0088',
+            d: 'M3.5 7H20.5',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M8 13L9.22654 14.0572C9.74218 14.5016 10 14.7239 10 15C10 15.2761 9.74218 15.4984 9.22654 15.9428L8 17',
+              'M12 11C13.6569 11 15 12.3431 15 14C15 15.6569 13.6569 17 12 17C10.3431 17 9 15.6569 9 14C9 12.3431 10.3431 11 12 11Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12 17H16',
+            d: 'M14 16.5V22L12 20.5L10 22V16.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

@@ -13,7 +13,7 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M2 5L8.91302 8.92462C11.4387 10.3585 12.5613 10.3585 15.087 8.92462L22 5',
+              'M2 5.00003L8.91302 8.92465C11.4387 10.3585 12.5613 10.3585 15.087 8.92465L22 5.00003',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linejoin: 'round'

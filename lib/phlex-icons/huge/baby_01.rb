@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Baby01 < Base
@@ -11,44 +11,41 @@ module PhlexIcons
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
-          s.circle(
-            cx: '12',
-            cy: '12',
-            r: '10',
+          s.path(
+            d:
+              'M10 16C10.4561 16.6072 11.1822 17 12 17C12.8178 17 13.5439 16.6072 14 16',
             stroke: 'currentColor',
-            stroke_width: '1.5'
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M14 16C13.4271 16.6318 12.7395 17 12 17C11.2605 17 10.5729 16.6318 10 16',
+              'M15.625 11.258V11.611M8.375 11.258V11.611M8.75 11.5C8.75 11.2239 8.58211 11 8.375 11C8.16789 11 8 11.2239 8 11.5C8 11.7761 8.16789 12 8.375 12C8.58211 12 8.75 11.7761 8.75 11.5ZM16 11.5C16 11.2239 15.8321 11 15.625 11C15.4179 11 15.25 11.2239 15.25 11.5C15.25 11.7761 15.4179 12 15.625 12C15.8321 12 16 11.7761 16 11.5Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M9 11.5C8.71357 11.1841 8.36974 11 8 11C7.63026 11 7.28643 11.1841 7 11.5',
+              'M3.1856 10.1728C2.48694 10.4846 2 11.1855 2 12C2 12.8145 2.48694 13.5154 3.1856 13.8272C4.02998 17.9217 7.6555 21 12 21C16.3445 21 19.97 17.9217 20.8144 13.8272C21.5131 13.5154 22 12.8145 22 12C22 11.1855 21.5131 10.4846 20.8144 10.1728C19.97 6.07831 16.3445 3 12 3C7.6555 3 4.02998 6.07831 3.1856 10.1728Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M17 11.5C16.7136 11.1841 16.3697 11 16 11C15.6303 11 15.2864 11.1841 15 11.5',
+              'M12 3C14 3 15.5 4.26953 15.5 5.71181C15.5 6.64505 15.0282 8 13.5 8C12.6809 8 12.1578 7.39447 12 7',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d:
-              'M12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8C12.7684 8 13.4692 7.71115 14 7.23611',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
         end
       end
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

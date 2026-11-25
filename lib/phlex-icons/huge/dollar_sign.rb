@@ -1,0 +1,32 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
+module PhlexIcons
+  module Huge
+    class DollarSign < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M17.5 8.62963C17.5 6.62504 15.0376 5 12 5C8.96243 5 6.5 6.62504 6.5 8.62963C6.5 10.6342 8 11.7407 12 11.7407C16 11.7407 18 12.7778 18 15.3704C18 17.963 15.5 19 12 19C8.5 19 6 17.5 6 15.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+          s.path(
+            d: 'M12 3V21',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength

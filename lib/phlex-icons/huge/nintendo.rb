@@ -32,18 +32,18 @@ module PhlexIcons
             stroke_linecap: 'round'
           )
           s.path(
-            d: 'M19.5 15.5L19.491 15.5',
+            d:
+              'M4.625 8.5H4.5M4.75 8.5C4.75 8.63807 4.63807 8.75 4.5 8.75C4.36193 8.75 4.25 8.63807 4.25 8.5C4.25 8.36193 4.36193 8.25 4.5 8.25C4.63807 8.25 4.75 8.36193 4.75 8.5Z',
             stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
           s.path(
-            d: 'M4.50801 8.5L4.49902 8.5',
+            d:
+              'M19.625 15.5H19.5M19.75 15.5C19.75 15.6381 19.6381 15.75 19.5 15.75C19.3619 15.75 19.25 15.6381 19.25 15.5C19.25 15.3619 19.3619 15.25 19.5 15.25C19.6381 15.25 19.75 15.3619 19.75 15.5Z',
             stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
           )
         end
       end

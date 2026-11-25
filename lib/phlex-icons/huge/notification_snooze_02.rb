@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class NotificationSnooze02 < Base
@@ -12,8 +12,14 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d:
-              'M18.5 11V14.3074C18.5 15.9336 19.4901 17.396 21 18H3C4.50991 17.396 5.5 15.9336 5.5 14.3074V9.5C5.5 5.91015 8.41015 3 12 3C12.3401 3 12.674 3.02611 13 3.07645',
+            d: 'M19 11V18.5M5 18.5V10C5 6.13401 8.13401 3 12 3',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M20.5 18.5H3.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -21,15 +27,14 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M16.016 2H19.6884C20.4611 2 20.8474 2 20.9503 2.24011C21.0532 2.48023 20.7903 2.76827 20.2646 3.34436L16.8469 6.65564C16.3212 7.23173 15.9131 7.51977 16.016 7.75989C16.1189 8 16.6504 8 17.423 8H21',
+              'M13.5 20.5C13.5 21.3284 12.8284 22 12 22M10.5 20.5C10.5 21.3284 11.1716 22 12 22M12 22V20.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M14.5 21C13.8557 21.6186 12.9733 22 12 22C11.0267 22 10.1443 21.6186 9.5 21',
+              'M15.016 2H18.6884C19.4611 2 19.8474 2 19.9503 2.24011C20.0532 2.48023 19.7903 2.76827 19.2646 3.34436L15.8469 6.65564C15.3211 7.23173 14.9131 7.51977 15.016 7.75989C15.1189 8 15.6504 8 16.423 8H20',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -40,4 +45,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

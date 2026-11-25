@@ -20,7 +20,7 @@ module PhlexIcons
           s.path(
             d: 'M9.00896 10H9M15 10H14.991',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )

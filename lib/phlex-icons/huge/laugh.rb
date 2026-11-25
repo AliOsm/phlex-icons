@@ -1,0 +1,40 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
+module PhlexIcons
+  module Huge
+    class Laugh < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M6.99609 9.5C6.99609 8.67157 7.66767 8 8.49609 8C9.32452 8 9.99609 8.67157 9.99609 9.5M13.9961 9.5C13.9961 8.67157 14.6677 8 15.4961 8C16.3245 8 16.9961 8.67157 16.9961 9.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M13.995 14C14.9572 14 15.4383 14 15.7288 14.4902C16.0193 14.9804 15.8482 15.2929 15.506 15.9179C14.8268 17.1587 13.5091 18 11.995 18C10.4808 18 9.16308 17.1587 8.48389 15.9179C8.14173 15.2929 7.97065 14.9804 8.26114 14.4902C8.55163 14 9.03274 14 9.99495 14H13.995Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
+          s.circle(
+            cx: '11.9961',
+            cy: '12',
+            r: '10',
+            stroke: 'currentColor',
+            stroke_width: '1.5'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength

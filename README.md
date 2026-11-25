@@ -10,11 +10,11 @@
 
 # PhlexIcons
 
-PhlexIcons brings 19,250+ SVG icons to [Phlex](https://phlex.fun) through a single, consistent API:
+PhlexIcons brings 20,850+ SVG icons to [Phlex](https://phlex.fun) through a single, consistent API:
 - [Bootstrap Icons](https://icons.getbootstrap.com) (2,050+)
 - [Flag Icons](https://flagicons.lipis.dev) (250+)
 - [Heroicons](https://heroicons.com) (300+)
-- [Hugeicons](https://hugeicons.com) (4,450+)
+- [Hugeicons](https://hugeicons.com) (6,100)
 - [Lucide Icons](https://lucide.dev/icons) (1,600+)
 - [Material Design Icons](https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons) (2,100+)
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)

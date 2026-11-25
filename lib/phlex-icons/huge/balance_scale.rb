@@ -43,7 +43,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M22 14C22 15.6569 20.6569 17 19 17C17.3431 17 16 15.6569 16 14M22 14L19.5 8H18.5L16 14M22 14H16',
+              'M16 14L18.5 8H19.5L22 14C22 15.6569 20.6569 17 19 17C17.3431 17 16 15.6569 16 14ZM22 14H16',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -51,7 +51,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M8 14C8 15.6569 6.65685 17 5 17C3.34315 17 2 15.6569 2 14M8 14L5.5 8H4.5L2 14M8 14H2',
+              'M2 14L4.5 8H5.5L8 14C8 15.6569 6.65685 17 5 17C3.34315 17 2 15.6569 2 14ZM8 14H2',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

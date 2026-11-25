@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2024 Ali Hamdi Ali Fadel
+Copyright (c) 2025 Hugeicons (Hugeicons artwork)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -14,7 +14,7 @@ module PhlexIcons
           s.circle(
             cx: '12',
             cy: '12',
-            r: '9',
+            r: '10',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

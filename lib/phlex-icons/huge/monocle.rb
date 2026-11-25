@@ -7,14 +7,13 @@ module PhlexIcons
       def stroke
         svg(
           **attrs,
-          height: '25',
-          viewbox: '0 0 24 25',
+          viewbox: '0 0 24 24',
           fill: 'none',
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.circle(
             cx: '8',
-            cy: '8.49609',
+            cy: '8',
             r: '6',
             stroke: 'currentColor',
             stroke_width: '1.5',
@@ -23,7 +22,7 @@ module PhlexIcons
           )
           s.circle(
             cx: '16',
-            cy: '8.49609',
+            cy: '8',
             r: '2',
             stroke: 'currentColor',
             stroke_width: '1.5',
@@ -32,7 +31,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M22 17.4961V19.4961C22 19.8467 21.9398 20.1833 21.8293 20.4961M20 22.3254C19.6872 22.4359 19.3506 22.4961 19 22.4961C18.6494 22.4961 18.3128 22.4359 18 22.3254M16 17.4961V19.4961C16 19.8467 16.0602 20.1833 16.1707 20.4961M22 8.49609V5.49609M22 14.4961V11.4961M16 14.4961V10.4961',
+              'M22 17V19C22 19.3506 21.9398 19.6872 21.8293 20M20 21.8293C19.6872 21.9398 19.3506 22 19 22C18.6494 22 18.3128 21.9398 18 21.8293M16 17V19C16 19.3506 16.0602 19.6872 16.1707 20M22 8V5M22 14V11M16 14V10',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',

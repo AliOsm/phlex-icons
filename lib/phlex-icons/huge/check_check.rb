@@ -1,0 +1,35 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
+module PhlexIcons
+  module Huge
+    class CheckCheck < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M2 13.2593L4.58579 15.9568C5.25245 16.6523 5.58579 17 6 17C6.41421 17 6.74755 16.6523 7.41421 15.9568L16 7',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M22 7L13 16.3889C12.7274 16.6733 12.5911 16.8155 12.444 16.8915C12.1642 17.0362 11.8358 17.0362 11.556 16.8915C11.409 16.8155 11.2726 16.6733 11 16.3889',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength

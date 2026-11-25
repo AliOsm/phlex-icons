@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class WifiConnected03 < Base
@@ -12,28 +12,8 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d: 'M12 20H12.0118',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M8.25 17C10.25 15 13.75 15 15.75 17',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M18.5 14C14.7324 10.6667 9.5 10.6667 5.5 14',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
-            d: 'M2 11C5.15789 8.33335 8.57895 7.00002 12 7',
+            d:
+              'M2 8.31966C4.75011 5.85989 8.31034 4.5 12 4.5M5 12.3587C6.86929 10.5264 9.38247 9.50009 12 9.50009M8.5 15.9287C9.43464 15.0125 10.6912 14.4994 12 14.4994C13.3088 14.4994 14.5654 15.0125 15.5 15.9287M12.1256 19.25H12.0006M12.2506 19.25C12.2506 19.3881 12.1387 19.5 12.0006 19.5C11.8625 19.5 11.7506 19.3881 11.7506 19.25C11.7506 19.1119 11.8625 19 12.0006 19C12.1387 19 12.2506 19.1119 12.2506 19.25Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -41,7 +21,7 @@ module PhlexIcons
           )
           s.path(
             d:
-              'M15 7.49908C15 7.49908 16 7.49908 17 9.49908C17 9.49908 19.4766 5.60074 22 4',
+              'M15 7.5C15.4706 7.66026 16.5935 8.12407 17 9.5C17 9.5 19.5294 5.33333 22 4.5',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -52,4 +32,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength

@@ -1,0 +1,59 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
+module PhlexIcons
+  module Huge
+    class InspectionPanel < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M6.625 6.5H6.5M6.75 6.5C6.75 6.63807 6.63807 6.75 6.5 6.75C6.36193 6.75 6.25 6.63807 6.25 6.5C6.25 6.36193 6.36193 6.25 6.5 6.25C6.63807 6.25 6.75 6.36193 6.75 6.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M6.625 17.5H6.5M6.75 17.5C6.75 17.6381 6.63807 17.75 6.5 17.75C6.36193 17.75 6.25 17.6381 6.25 17.5C6.25 17.3619 6.36193 17.25 6.5 17.25C6.63807 17.25 6.75 17.3619 6.75 17.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.625 6.5H17.5M17.75 6.5C17.75 6.63807 17.6381 6.75 17.5 6.75C17.3619 6.75 17.25 6.63807 17.25 6.5C17.25 6.36193 17.3619 6.25 17.5 6.25C17.6381 6.25 17.75 6.36193 17.75 6.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M17.625 17.5H17.5M17.75 17.5C17.75 17.6381 17.6381 17.75 17.5 17.75C17.3619 17.75 17.25 17.6381 17.25 17.5C17.25 17.3619 17.3619 17.25 17.5 17.25C17.6381 17.25 17.75 17.3619 17.75 17.5Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

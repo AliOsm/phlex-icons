@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/BlockLength
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class Target03 < Base
@@ -13,44 +13,28 @@ module PhlexIcons
         ) do |s|
           s.path(
             d:
-              'M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z',
+              'M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2Z',
             stroke: 'currentColor',
-            stroke_width: '1.5'
-          )
-          s.path(
-            d: 'M11.9959 12H12.0049',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
+            stroke_width: '1.5',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12 2V6',
+            d:
+              'M12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M22 12L18 12',
+            d:
+              'M12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M12 18V22',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M6 12L2 12',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linejoin: 'round'
           )
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/BlockLength
+# rubocop:enable Layout/LineLength

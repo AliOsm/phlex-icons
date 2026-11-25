@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class GolfBall < Base
@@ -20,21 +21,22 @@ module PhlexIcons
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M10.0078 7L9.99883 7',
-            stroke: 'currentColor',
-            stroke_width: '1.5',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
-          s.path(
             d: 'M9 18C10.5 18 12 19.4617 12 22C12 19.4617 13.5 18 15 18',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
+          s.path(
+            d:
+              'M10.125 7H10M10.25 7C10.25 7.13807 10.1381 7.25 10 7.25C9.86193 7.25 9.75 7.13807 9.75 7C9.75 6.86193 9.86193 6.75 10 6.75C10.1381 6.75 10.25 6.86193 10.25 7Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
         end
       end
     end
   end
 end
+# rubocop:enable Layout/LineLength

@@ -1,0 +1,57 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
+module PhlexIcons
+  module Huge
+    class SoapDispenserDroplet < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M16.4922 22C18.4252 22 19.9922 20.46 19.9922 18.5603C19.9922 17.08 18.7217 15.4214 17.7116 14.3367C17.1923 13.7789 16.9326 13.5 16.4922 13.5C16.0518 13.5 15.7921 13.7789 15.2727 14.3367C14.2627 15.4214 12.9922 17.08 12.9922 18.5603C12.9922 20.46 14.5592 22 16.4922 22Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'square',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M12.9922 9.99951C12.08 8.78534 10.6278 8 8.99219 8C6.23076 8 3.99219 10.2386 3.99219 13V18C3.99219 19.8856 3.99219 20.8284 4.57797 21.4142C5.16376 22 6.10657 22 7.99219 22H9.99219',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M9.99219 12.3382C8.2746 13.0278 6.54144 14.4797 3.99219 13.8418',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M6.99219 8V7C6.99219 6.05719 6.99219 5.58579 7.28508 5.29289C7.57797 5 8.04938 5 8.99219 5C9.935 5 10.4064 5 10.6993 5.29289C10.9922 5.58579 10.9922 6.05719 10.9922 7V8',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M8.99219 5V2M8.99219 2H6.99219M8.99219 2H12.4151C13.4039 2 14.2415 2.39009 14.9922 3',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

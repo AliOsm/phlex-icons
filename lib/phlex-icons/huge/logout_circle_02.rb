@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class LogoutCircle02 < Base
@@ -12,21 +11,21 @@ module PhlexIcons
           xmlns: 'http://www.w3.org/2000/svg'
         ) do |s|
           s.path(
-            d:
-              'M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z',
-            stroke: 'currentColor',
-            stroke_width: '1.5'
-          )
-          s.path(
-            d:
-              'M7.03364 12.0065H13.0085M13.0085 12.0065C13.0085 12.5743 11.1343 14.0151 11.1343 14.0151M13.0085 12.0065C13.0085 11.424 11.1343 10.021 11.1343 10.021M16.0337 9.01074V15.0107',
+            d: 'M11.9474 21C7.00589 21 3 16.9706 3 12C3 7.02944 7.00589 3 11.9474 3',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d: 'M17 8C17 8 21 10.946 21 12C21 13.0541 17 16 17 16M20.5 12H9',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
         end
       end
     end
   end
 end
-# rubocop:enable Layout/LineLength

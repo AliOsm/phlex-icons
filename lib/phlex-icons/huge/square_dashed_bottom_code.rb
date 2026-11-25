@@ -1,0 +1,43 @@
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
+module PhlexIcons
+  module Huge
+    class SquareDashedBottomCode < Base
+      def stroke
+        svg(
+          **attrs,
+          viewbox: '0 0 24 24',
+          fill: 'none',
+          xmlns: 'http://www.w3.org/2000/svg'
+        ) do |s|
+          s.path(
+            d:
+              'M13.9922 21.5C14.5316 21.4948 15.0303 21.4851 15.4922 21.4669M9.99228 21.5C9.4528 21.4948 8.9541 21.4851 8.49219 21.4669M18.9922 20.8693C19.4177 20.6797 19.7816 20.4336 20.1009 20.1142C21.4922 18.7225 21.4922 16.4827 21.4922 12.0029C21.4922 7.52321 21.4922 5.28334 20.1009 3.89167C18.7097 2.5 16.4705 2.5 11.9922 2.5C7.51384 2.5 5.27467 2.5 3.88343 3.89167C2.49219 5.28334 2.49219 7.52321 2.49219 12.0029C2.49219 16.4827 2.49219 18.7225 3.88343 20.1142C4.20274 20.4336 4.56672 20.6797 4.99219 20.8693',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M9.49217 9.5C9.49217 9.5 6.99219 11.3412 6.99219 12C6.99218 12.6588 9.49219 14.5 9.49219 14.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+          s.path(
+            d:
+              'M14.4922 14.5C14.4922 14.5 16.9922 12.6588 16.9922 12C16.9922 11.3412 14.4922 9.5 14.4922 9.5',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
+          )
+        end
+      end
+    end
+  end
+end
+# rubocop:enable Layout/LineLength

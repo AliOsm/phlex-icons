@@ -18,5 +18,14 @@ RSpec.describe PhlexIcons::Icon do
                                                             .and_return(PhlexIcons::Lucide::ArrowLeft.new)
       described_class.call('lucide/arrow-left:solid', class: 'xyz', variant: :outline)
     end
+
+    it 'renders Mars and Mars with stroke as distinct Hugeicons' do
+      mars = described_class.call('huge/mars:stroke')
+      mars_with_stroke = described_class.call('huge/mars-with-stroke:stroke')
+
+      expect(PhlexIcons::Huge::MarsStroke.new.call).to eq(mars)
+      expect(PhlexIcons::Huge::MarsWithStrokeStroke.new.call).to eq(mars_with_stroke)
+      expect(mars_with_stroke).not_to eq(mars)
+    end
   end
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/BlockLength
+# rubocop:disable Layout/LineLength,Metrics/BlockLength
 module PhlexIcons
   module Huge
     class Covariate < Base
@@ -19,35 +19,39 @@ module PhlexIcons
             stroke_linecap: 'round'
           )
           s.path(
-            d: 'M18 11H18.009',
+            d: 'M7 17L20 4',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M14 15H14.009',
+            d:
+              'M7.375 10.25H7.25M7.5 10.25C7.5 10.3881 7.38807 10.5 7.25 10.5C7.11193 10.5 7 10.3881 7 10.25C7 10.1119 7.11193 10 7.25 10C7.38807 10 7.5 10.1119 7.5 10.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M12 6H12.009',
+            d:
+              'M12.375 6.25H12.25M12.5 6.25C12.5 6.38807 12.3881 6.5 12.25 6.5C12.1119 6.5 12 6.38807 12 6.25C12 6.11193 12.1119 6 12.25 6C12.3881 6 12.5 6.11193 12.5 6.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M8 10H8.00898',
+            d:
+              'M14.375 15.25H14.25M14.5 15.25C14.5 15.3881 14.3881 15.5 14.25 15.5C14.1119 15.5 14 15.3881 14 15.25C14 15.1119 14.1119 15 14.25 15C14.3881 15 14.5 15.1119 14.5 15.25Z',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M4.5 19.5001L21 3.00012',
+            d:
+              'M19.375 11.25H19.25M19.5 11.25C19.5 11.3881 19.3881 11.5 19.25 11.5C19.1119 11.5 19 11.3881 19 11.25C19 11.1119 19.1119 11 19.25 11C19.3881 11 19.5 11.1119 19.5 11.25Z',
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round',
@@ -58,4 +62,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
+# rubocop:enable Layout/LineLength,Metrics/BlockLength

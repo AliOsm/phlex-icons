@@ -17,13 +17,6 @@ module PhlexIcons
             stroke: 'currentColor',
             stroke_width: '1.5'
           )
-          s.path(
-            d: 'M5.49981 13.5H5.50879',
-            stroke: 'currentColor',
-            stroke_width: '2',
-            stroke_linecap: 'round',
-            stroke_linejoin: 'round'
-          )
           s.circle(
             cx: '15.5',
             cy: '10',
@@ -48,6 +41,14 @@ module PhlexIcons
             stroke: 'currentColor',
             stroke_width: '1.5',
             stroke_linecap: 'round'
+          )
+          s.path(
+            d:
+              'M6.125 14H6M6.25 14C6.25 14.1381 6.13807 14.25 6 14.25C5.86193 14.25 5.75 14.1381 5.75 14C5.75 13.8619 5.86193 13.75 6 13.75C6.13807 13.75 6.25 13.8619 6.25 14Z',
+            stroke: 'currentColor',
+            stroke_width: '1.5',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
         end
       end

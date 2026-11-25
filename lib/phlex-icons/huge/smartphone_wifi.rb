@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Layout/LineLength,Metrics/BlockLength
+# rubocop:disable Layout/LineLength
 module PhlexIcons
   module Huge
     class SmartphoneWifi < Base
@@ -16,26 +16,21 @@ module PhlexIcons
               'M8 6C6.37274 6.02975 5.43781 6.1682 4.80546 6.81237C4 7.63289 4 8.9535 4 11.5947V16.3971C4 19.0384 4 20.359 4.80546 21.1795C5.61091 22 6.90728 22 9.5 22C12.0927 22 13.3891 22 14.1945 21.1795C15 20.359 15 19.0384 15 16.3971V13.4958',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
-          )
-          s.path(
-            d: 'M9.5 19H9.50898',
-            stroke: 'currentColor',
-            stroke_width: '2',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
           s.path(
             d:
-              'M10 3.8472C11.436 2.67893 13.1511 2 14.9932 2C16.8411 2 18.5612 2.68322 20 3.85827M17.7178 7C16.8977 6.48859 15.9724 6.20085 14.9932 6.20085C14.019 6.20085 13.098 6.4857 12.281 6.99231',
+              'M12.5 6.8647C13.2106 6.2981 14.0929 5.99038 15.0018 5.9922C15.9106 5.99401 16.7917 6.30527 17.5 6.8747M15 10H15.01M10 3.755C11.4189 2.61897 13.1824 2 15 2C16.8176 2 18.5811 2.61897 20 3.755',
             stroke: 'currentColor',
             stroke_width: '1.5',
-            stroke_linecap: 'round'
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round'
           )
           s.path(
-            d: 'M15 10H15.0064',
+            d: 'M9 19H10',
             stroke: 'currentColor',
-            stroke_width: '2',
+            stroke_width: '1.5',
             stroke_linecap: 'round',
             stroke_linejoin: 'round'
           )
@@ -44,4 +39,4 @@ module PhlexIcons
     end
   end
 end
-# rubocop:enable Layout/LineLength,Metrics/BlockLength
+# rubocop:enable Layout/LineLength
